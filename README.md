@@ -1,4 +1,4 @@
-0ad_ancient_empires
+0 A.D Ancient Empires
 ===================
 
 A mod for the RTS Game 0 A.D.
