@@ -37,4 +37,13 @@ Briton Only
 - Levy Reform: All citizen soldiers train 20% faster. Inspired by the large number of Britons that joined Boudicca against the Romans.
 
 
+ATHENS
 
+- Silver Owls civ bonus: Unchanged +10% metal mining rate for each phase up.
+- Great Polis civ bonus: Athenian Structures have +10% hit points. Inspired by Athenian architecture and city size.
+- Thracian Ties civ bonus: Javelin units +15% pierce damage. Inspired by Thracian influences on the Athenian army through constant contact.
+- Delian League team bonus: unchanged +25% ship construction speed (currently not shared).
+- Iphicratian Reforms: +15% movement speed for all infantry. Inspired by Iphicrates' reforms to improve the effectiveness and mobility of the Athenian army.
+- Long Walls tech: Readded the -50% wall cost bonus but increased research cost. Still allows wall construction in neutral territory.
+- Imperialism tech: Civic Centers provide a small tickle of metal (not working yet). Inspired by Athenian abuse of allies and coast town, should encourage an alternative expand & defend playstyle together with their other attributes.
+- Chorigoi dock tech: Reduces Trireme metal cost by 50%. Rich Athenian citizens often had the task to equip and maintain a Trireme and it's crew.
