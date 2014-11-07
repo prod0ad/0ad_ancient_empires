@@ -1,0 +1,16 @@
+{
+	"genericName": "Turos Maros",
+	"description": "'Great Tower'; Celtic legends abound with stories of massive tall towers built by the most powerful kings, and the remains of some very large towers have been found.",
+	"cost": {"food": 0, "wood": 500, "stone": 500, "metal": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "blocks_three.png",
+	"researchTime": 40,
+	"tooltip": "Increases tower hit points by 50% and adds an extra default arrow.",
+	"modifications":  [
+		{"value": "Health/Max", "add": 1.5},
+		{"value": "BuildingAI/DefaultArrowCount", "add": 1.0}
+	],
+	"affects": ["Defense Tower"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

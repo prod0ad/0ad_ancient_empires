@@ -1,0 +1,11 @@
+{
+	"genericName": "Ardiosmanae",
+	"autoResearch": true,
+	"description": "All infantry citizen soldiers gather food from farms and animals 50% faster.",
+	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+	"modifications": [
+		{"value": "ResourceGatherer/Rates/food.grain", "add": 0.25},
+		{"value": "ResourceGatherer/Rates/food.meat", "add": 0.5}
+	],
+	"affects": ["Infantry"]
+}

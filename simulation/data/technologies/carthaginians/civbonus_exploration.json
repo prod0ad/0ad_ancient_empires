@@ -1,0 +1,9 @@
+{
+	"genericName": "Exploration",
+	"autoResearch": true,
+	"description": "Nobody knew better than the Carthaginians where in the ancient world they were going and going to go; their merchant traders had missions to everywhere.",
+	"requirements": {"civ": "cart"},
+	"modifications": [{"value": "Vision/Range", "multiply": 1.20}],
+	"affects": ["Trader", "Ship", "Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

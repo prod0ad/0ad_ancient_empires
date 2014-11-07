@@ -1,0 +1,8 @@
+{
+	"genericName": "Atlantic Trade",
+	"autoResearch": true,
+	"description": "Carthaginians and Greeks traded with Briton tribes sailing out of the Mediterranean, around Iberia, to western Britain. This journey required sturdy vessels.",
+	"requirements": {"civ": "brit"},
+    "modifications": [{"value": "Health/Max", "multiply": 1.50}],
+	"affects": ["Trader Ship"]
+}
