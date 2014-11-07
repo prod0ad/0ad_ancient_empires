@@ -5,7 +5,7 @@
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "fist_spear.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"tooltip": "All citizen soldiers train 20% faster.",
     "modifications": [{"value": "Cost/BuildTime", "multiply": 0.8}],
 	"affects": ["Citizen", "Soldier"],

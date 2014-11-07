@@ -5,7 +5,7 @@
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_plates_gold.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"tooltip": "+2 hack and +1 pierce armor for melee infantry and cavalry units.",
 	"modifications": [{"value": "Armour/Hack", "add": 2.0},
 		{"value": "Armour/Pierce", "add": 1.0}],
