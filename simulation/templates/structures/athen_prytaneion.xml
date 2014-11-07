@@ -45,8 +45,9 @@
       units/athen_hero_iphicrates
     </Entities>
     <Technologies datatype="tokens">
-      hellenes/special_long_walls
-      hellenes/special_iphicratean_reforms
+      hellenes/athen_long_walls
+	  hellenes/athen_imperialism
+      hellenes/athen_iphicratean_reforms
     </Technologies>
   </ProductionQueue>
   <VisualActor>

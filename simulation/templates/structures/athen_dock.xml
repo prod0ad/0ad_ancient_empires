@@ -20,6 +20,9 @@
       units/athen_ship_bireme
       units/athen_ship_trireme
     </Entities>
+	<Technologies datatype="tokens">
+    hellenes/athen_chorigoi
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/athenians/dock.xml</Actor>

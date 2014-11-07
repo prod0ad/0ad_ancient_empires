@@ -18,18 +18,23 @@
 			[
 				{
 					"Name":"Iphicratean Reforms",
-					"History":"",
-					"Description":"Athenian triremes can train Marines (Epibastes Athenaikos)."
+					"History":"Iphicrates changed the equipment of Athenian Soldiers and introduced the Iphicratid boots, increasing their mobility.",
+					"Description":"All infantry units move 15% faster."
 				},
 				{
 					"Name":"Long Walls",
 					"History":"The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
-					"Description":"Stone walls can be built in neutral territory. Construction time for walls is reduced by 50%."
+					"Description":"Stone walls build 50% faster and can be constructed in neutral territory."
 				},
 				{
-					"Name":"Othismos",
-					"History":"The classical phalanx formation was developed about VIII century BC. It was eight men deep and up to eight hundred men wide. The men within overlapped their shields, presenting a formidable shield wall brimming with 8 foot spears.",
-					"Description":"The player gains the ability to order spear-armed troops into Phalanx formation, providing greater attack and armor."
+					"Name":"Imperialism",
+					"History":"Soon after the formation of the Delian league, the Athenians started treating costal towns and even their own allies as subjects.",
+					"Description":"Civic Centers provide a small tickle of metal (not working yet)."
+				},
+				{
+					"Name":"Chorigoi",
+					"History":"Rich Athenian Citizens often took the task of maintaining a Trireme and paying it's crew.",
+					"Description":"Triremes cost 50% less metal.."
 				}
 			],
 			"Heroes":
@@ -66,9 +71,14 @@
 			"Description":"Metal mining gathering rates increased by +10% for each passing age."
 		},
 		{
-			"Name":"Hellenization",
-			"History":"The Greeks were highly successful in Hellenising various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
-			"Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+			"Name":"Great Polis",
+			"History":"Athens was the largest city in ancient Greece with great walls, temples and other architectural achievements.",
+			"Description":"Athenian Structures have +10% hit points."
+		},
+		{
+			"Name":"Thracian Ties",
+			"History":"Athenian colonies on the Thracian coast kept them in contact with the Thracians, heavily influencing the Athenian Military.",
+			"Description":"+15% Javelin Unit pierce damage."
 		}
 	],
 	"TeamBonuses":
@@ -76,7 +86,7 @@
 		{
 			"Name":"Delian League",
 			"History":"Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
-			"Description":"Ships construct 25% faster."
+			"Description":"Ships construct 25% faster (currently not shared)."
 		}
 	],
 	"Structures":

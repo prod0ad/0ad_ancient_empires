@@ -1,0 +1,10 @@
+{
+	"genericName": "Great Polis",
+	"autoResearch": true,
+	"description": "Athens was the largest city in ancient Greece with great walls, temples and other architectural achievements.",
+	"requirements": {"civ": "athen"},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1}
+	],
+	"affects": ["Structure"]
+}

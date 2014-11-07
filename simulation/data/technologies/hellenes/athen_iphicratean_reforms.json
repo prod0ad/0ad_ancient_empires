@@ -1,6 +1,6 @@
 {
 	"genericName": "Iphicratean Reforms",
-	"description": "Iphicrates changed the equipment of Athenian Soldiers and introduced the "Iphicratid" boots, increasing their mobility.",
+	"description": "Iphicrates changed the equipment of Athenian Soldiers and introduced the Iphicratid boots, increasing their mobility.",
 	"cost": { "food": 500, "wood": 0, "stone": 0, "metal": 500 },
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
