@@ -37,7 +37,7 @@ Briton Only
 - Levy Reform: All citizen soldiers train 20% faster. Inspired by the large number of Britons that joined Boudicca against the Romans.
 
 
-ATHENS
+ATHENIANS
 
 - Silver Owls civ bonus: Unchanged +10% metal mining rate for each phase up.
 - Great Polis civ bonus: Athenian Structures have +10% hit points. Inspired by Athenian architecture and city size.
