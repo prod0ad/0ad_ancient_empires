@@ -14,9 +14,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/ptol_hero_ptolemy_I
-	  units/ptol_hero_ptolemy_IV
-	  units/ptol_hero_cleopatra
       units/ptol_champion_cavalry
       units/ptol_champion_elephant
       units/ptol_mechanical_siege_polybolos_packed
@@ -29,6 +26,7 @@
       siege_bolt_accuracy
 	  siege_cost
 	  siege_packing
+	  successors/ptol_garrisons
     </Technologies>
   </ProductionQueue>
   <VisualActor>

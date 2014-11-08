@@ -17,9 +17,12 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/ptol_infantry_spearman_b
-      units/ptol_infantry_archer_b
-      units/ptol_cavalry_archer_b
+      units/ptol_infantry_spearman_b	
+	  units/ptol_infantry_javelinist_b
+      units/ptol_cavalry_spearman_b
+	  units/ptol_hero_ptolemy_I
+	  units/ptol_hero_ptolemy_IV
+	  units/ptol_hero_cleopatra
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -1,0 +1,13 @@
+{
+	"genericName": "Great City Founders",
+	"description": "Even more so than other Successors, the Seleucids founded a huge number of cities, more often than not named Antiochia or Seleucia.",
+	"autoResearch": true,
+	"requirements": {"civ": "sele"},
+	"tooltip": "Reduceds Civic Center cost by 20%",
+	"modifications": [
+	    {"value": "Cost/Resources/wood", "multiply": 0.80},
+	    {"value": "Cost/Resources/metal", "multiply": 0.80},
+		{"value": "Cost/Resources/metal", "multiply": 0.80}
+	],
+	"affects": ["CivilCenter"]
+}

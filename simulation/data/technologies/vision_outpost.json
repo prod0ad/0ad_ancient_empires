@@ -5,8 +5,8 @@
 	"requirements": {"tech": "phase_village"},
 	"icon": "pigeon.png",
 	"researchTime": 40,
-	"tooltip": "Vision Range +50% for Outposts.",
+	"tooltip": "Vision Range +50% for Outposts and Towers.",
 	"modifications": [{"value": "Vision/Range", "multiply": 1.5}],
-	"affects": ["Outpost"],
+	"affects": ["Outpost","Defense Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

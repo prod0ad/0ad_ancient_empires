@@ -16,19 +16,24 @@
 			"Technologies":
 			[
 				{
+			         "Name":"Mercenary Army",
+			         "History":"The Greco-Macedonian Ptolemy Dynasty relied on large numbers of Greek and foreign mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty can be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
+			         "Description":"-50% Mercenary unit train time."
+		        },
+				{
+			         "Name":"Ptolemaic Garrisons",
+			         "History":"The Ptolemies relied extensively on fortified garrisons to protect their overseas and distant possessions.",
+			         "Description":"Fortresses get 40% more arrows fired per garrisoned soldier."
+		        },
+				{
+			         "Name":"Advanced Engineering",
+			         "History":"Alexandria became center of knowledge and science under the Ptolemies. Great engines, Fleets and Structures were construced.",
+			         "Description":"+20% Structure, Ship and Siege Unit hit points."
+		        },
+				{
 					"Name":"Hellenistic Metropolises",
 					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
 					"Description":"Civic Centers have double Health and double default arrows."
-				},
-				{
-					"Name":"Pharaonic Cult.",
-					"History":"The Macedonian-Greek rulers of the Ptolemaic dynasty observed many ancient Egyptian traditions in order to satiate the local populace and ingratiate themselves to the powerful priestly class in the country.",
-					"Description":"Hero aura range boosted by 50%."
-				},
-				{
-					"Name":"Nile Delta",
-					"History":"The Nile Delta had rich soil for farming, due to centuries of seasonal floods from the Nile depositing rich silt across the landscape.",
-					"Description":"The Ptolemaic Egyptians receive 3 additional farming technologies above and beyond the maximum number of farming technologies usually available to a faction."
 				}
 			],
 			"Heroes":
@@ -60,19 +65,24 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Mercenary Army",
-			"History":"The Greco-Macedonian Ptolemy Dynasty relied on large numbers of Greek and foreign mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty can be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
-			"Description":"The Ptolemies receive the Mercenary Camp, a barracks that is constructed in neutral territory and trains mercenary soldiers."
+			"Name":"Pharaonic Cult.",
+			"History":"The Macedonian-Greek rulers of the Ptolemaic dynasty observed many ancient Egyptian traditions in order to satiate the local populace and ingratiate themselves to the powerful priestly class in the country.",
+			"Description":"-50% Temple technology cost and research time."
 		},
 		{
 			"Name":"Nile Delta",
-			"History":"Unknown.",
-			"Description":"The Ptolemaic Egyptians receive 3 additional farming technologies."
+			"History":"The Nile Delta had rich soil for farming, due to centuries of seasonal floods from the Nile depositing rich silt across the landscape.",
+			"Description":"+33% farming rate for all workers."
 		},
 		{
-			"Name":"Roundup",
-			"History":"Unknown.",
-			"Description":"Can capture gaia elephants and camels to reduce their training cost."
+			"Name":"Clay Structures",
+			"History":"Clay construction provided cheap structures for the Egyptians.",
+			"Description":"Houses, Farmsteads, Storehouses and Corrals cost no resources but take longer to build."
+		},
+		{
+			"Name":"Foreign Dynasty",
+			"History":"The Seleucids and Ptolemies chose military settlers as the core of their armies, as those troops were generally more loyal and less risky to train than conquered people.",
+			"Description":"Civic Centers provide an increased number of available units, but barracks are limited to weaker levy troops and have a reduced territory influence."
 		}
 	],
 	"TeamBonuses":
@@ -80,7 +90,7 @@
 		{
 			"Name":"Breadbasket of the Mediterranean",
 			"History":"Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
-			"Description":"All allies automatically gain a slow trickle of food income."
+			"Description":"Docks provide a slow trickle of food income (currently not shared)."
 		}
 	],
 	"Structures":

@@ -15,6 +15,22 @@
   <Obstruction>
     <Static width="20" depth="21"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      -heal_temple
+      -health_regen_units
+	  successors/heal_range_ptol
+      successors/heal_range_2_ptol
+      successors/heal_rate_ptol
+      successors/heal_rate_2_ptol
+      successors/heal_temple_ptol
+      successors/health_regen_units_ptol
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/ptolemies/temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

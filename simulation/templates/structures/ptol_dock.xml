@@ -23,6 +23,13 @@
       units/ptol_champion_juggernaut
     </Entities>
   </ProductionQueue>
+  <ResourceTrickle>
+	<FoodRate>0.5</FoodRate>
+	<WoodRate>0</WoodRate>
+	<StoneRate>0</StoneRate>
+	<MetalRate>0</MetalRate>
+	<Interval>1000</Interval>
+  </ResourceTrickle>
   <VisualActor>
     <Actor>structures/ptolemies/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>

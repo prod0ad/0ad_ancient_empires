@@ -83,7 +83,7 @@
 	<FoodRate>0</FoodRate>
 	<WoodRate>0</WoodRate>
 	<StoneRate>0</StoneRate>
-	<MetalRate>3.0</MetalRate>
+	<MetalRate>2.5</MetalRate>
 	<Interval>1000</Interval>
   </ResourceTrickle>
   <VisualActor>

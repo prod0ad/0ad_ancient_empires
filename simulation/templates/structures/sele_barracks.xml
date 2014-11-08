@@ -15,22 +15,27 @@
   </Health>
   <Identity>
     <Civ>sele</Civ>
-    <SpecificName>Stratones</SpecificName>
+    <SpecificName>Levy Barracks</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/sele_infantry_spearman_b
       units/sele_infantry_javelinist_b
       units/sele_cavalry_javelinist_b
       units/sele_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
 	  -unlock_champion_units
+	  successors/special_war_horses
     </Technologies>
   </ProductionQueue>
+    <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>38</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
   <VisualActor>
     <Actor>structures/macedonians/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

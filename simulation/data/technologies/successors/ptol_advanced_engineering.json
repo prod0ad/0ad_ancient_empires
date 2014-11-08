@@ -1,0 +1,15 @@
+{
+	"genericName": "Advanced Engineering",
+	"description": "Alexandria became center of knowledge and science under the Ptolemies. Great engines, Fleets and Structures were construced.",
+	"cost": {"food": 500, "wood": 750, "stone": 500, "metal": 750},
+	"requirements": {"all": [{"tech": "phase_city"}, {"any": [{"civ": "sele"}, {"civ": "pers"}]}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "calipers.png",
+	"researchTime": 60,
+	"tooltip": "+20% Structure, Ship and Siege Unit hit points.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.2}
+	],
+	"affects": ["Structure","Mechanical"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
