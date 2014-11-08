@@ -74,12 +74,7 @@
 			"Name":"Wall of Men",
 			"History":"Sparta had no walls until the final years of her independence. Her men were their walls.",
 			"Description":"Spartan Spear Infantry +10% hit point and attack but also +20% train time. The Spartans can't build stone walls."
-		},
-		{
-			"Name":"High Armor Use",
-			"History":"Most Greek Soldiers with a fine armor kit.",
-			"Description":"Melee Infantry Citizen Soldiers cost 20% more wood/metal but also have +10% hit points and +1 hack/pierce armor."
-		}	
+		}
 	],
 	"TeamBonuses":
 	[

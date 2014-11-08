@@ -9,6 +9,7 @@
   </Builder>
   <Identity>
     <Civ>spart</Civ>
+	<SelectionGroupName>units/spart_infantry_swordsman_b</SelectionGroupName>
 	<GenericName>Skiritae Light Hoplite</GenericName>
     <SpecificName>Ékdromos Skiritis</SpecificName>
     <Rank>Basic</Rank>

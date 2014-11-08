@@ -21,6 +21,13 @@
       phase_city_athen
     </Technologies>
   </ProductionQueue>
+    <ResourceTrickle>
+	<FoodRate>0</FoodRate>
+	<WoodRate>0</WoodRate>
+	<StoneRate>0</StoneRate>
+	<MetalRate>0</MetalRate>
+	<Interval>1000</Interval>
+  </ResourceTrickle>
   <VisualActor>
     <Actor>structures/athenians/civic_centre_new.xml</Actor>
   </VisualActor>

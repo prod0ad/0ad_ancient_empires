@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
+<Entity parent="units/spart_infantry_swordsman_b">
   <Armour>
     <Hack>5</Hack>
     <Pierce>2</Pierce>
