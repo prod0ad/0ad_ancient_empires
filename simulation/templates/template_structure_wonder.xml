@@ -79,6 +79,13 @@
     <Range>72</Range>
     <RetainInFog>true</RetainInFog>
   </Vision>
+    <ResourceTrickle>
+	<FoodRate>0</FoodRate>
+	<WoodRate>0</WoodRate>
+	<StoneRate>0</StoneRate>
+	<MetalRate>3.0</MetalRate>
+	<Interval>1000</Interval>
+  </ResourceTrickle>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>

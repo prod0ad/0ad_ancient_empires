@@ -1,0 +1,17 @@
+{
+	"genericName": "Artillery Instructors",
+	"description": "Siege weapons cost less wood",
+	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 1000},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "anvil.png",
+	"researchTime": 40,
+	"tooltip": "Reduceds siege weapon wood, stone and metal cost by 25%",
+	"modifications": [
+	    {"value": "Cost/Resources/wood", "multiply": 0.75},
+	    {"value": "Cost/Resources/metal", "multiply": 0.75},
+		{"value": "Cost/Resources/metal", "multiply": 0.75}
+	],
+	"affects": ["Siege"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

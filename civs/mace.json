@@ -17,14 +17,19 @@
 			"Technologies":
 			[
 				{
-					"Name":"Military Reforms",
-					"History":"When Philip II came to the Macedonian throne he began a total reorganization of the Macedonian army. His reforms created a powerful cavalry arm to his army that would prove useful to both himself and his son Alexander's conquests.",
-					"Description":"Each subsequent Barracks constructed comes with 5 free (random) Macedonian military units. This also applies to the Barracks of allied players (they receive 5 free units of their own culture for each new Barracks constructed)."
+					"Name":"Fetters Of Hellas",
+					"History":"The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
+					"Description":"+50% Fortress hit points."
 				},
 				{
-					"Name":"Royal Gift",
+					"Name":"Silver Shields Regiment",
 					"History":"In India near the end of his long anabasis, Alexander gifted to the Royal Hypaspist corps shields of silver for their long and valiant service in his army.",
-					"Description":"Upgrade Hypaspist Champion Infantry to Silver Shields, with greater attack and armor, but also greater cost."
+					"Description":"Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack, health and armor."
+				},
+				{
+					"Name":"Antigonid Reform",
+					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly Kestros Dart Sling.",
+					"Description":"Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Sling upgrade (to be enhanced by second reform)."
 				},
 				{
 					"Name":"Hellenistic Metropolises",
@@ -61,19 +66,14 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Hellenic League",
-			"History":"After the unification of Greece, Philip II gathered all the city-states together to form the Hellenic League, with Macedon as the its leader. With this Pan-Hellenic federation he planned to launch an expedition to punish Persia for past wrongs. Although assassinated before he could carry out the invasion, his son Alexander the Great took up the mantle and completed his fathers plans.",
-			"Description":"Macedonian units have +10% attack bonus vs. Persian and Hellenic factions, but -5% attack debonus vs. Romans."
+			"Name":"Horsemanship",
+			"History":"Unlike the Greek City-States, the Macedonians and their Thessalian and Thracian neighbours, who often provided them with military units, were great horsemen and fielded relatively large numbers of cavalry who were famed for their swiftness and thunderous charges.",
+			"Description":"+10% Cavalry walk and run speed."
 		},
 		{
-			"Name":"Syntagma",
-			"History":"Based upon the Theban Oblique Order phalanx, the Syntagma was the formation that proved invincible against the armies of Hellas and the East.",
-			"Description":"Infantry pike units can use the slow and powerful Syntagma formation."
-		},
-		{
-			"Name":"Hellenization",
-			"History":"The Greeks were highly successful in Hellenizing various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
-			"Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
+			"Name":"Hardy Peltasts",
+			"History":"The northern balkan tribes provided skilled peltasts to the Macedonian army.",
+			"Description":"+15% Javelin Infantry attack."
 		}
 	],
 	"TeamBonuses":
@@ -81,7 +81,7 @@
 		{
 			"Name":"Standardized Currency",
 			"History":"The Macedonians and the Diadochi minted coins of very high quality. On their currency the Diadochi in particular frequently depicted themselves as the rightful successor to Alexander the Great, attempting to legitimize their rule.",
-			"Description":"+15% tribute and trade bonus on metal."
+			"Description":"All units and structures -5% metal cost (currently not shared)."
 		}
 	],
 	"Structures":

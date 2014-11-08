@@ -29,6 +29,8 @@
     </Entities>
     <Technologies datatype="tokens">
       successors/upgrade_mace_silvershields
+	  successors/mace_fetters_of_hellas
+	  successors/mace_antigonid_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

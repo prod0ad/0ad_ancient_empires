@@ -33,6 +33,8 @@
       siege_attack
       siege_armor
       siege_bolt_accuracy
+	  siege_cost
+	  siege_packing
     </Technologies>
   </ProductionQueue>
   <VisualActor>

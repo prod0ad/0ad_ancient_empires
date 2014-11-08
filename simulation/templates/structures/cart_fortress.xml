@@ -26,6 +26,8 @@
       siege_attack
       siege_armor
 	  siege_bolt_accuracy
+	  siege_cost
+	  siege_packing
 	  carthaginians/fortified_barracks
 	  carthaginians/training_siege_weapons
 	  carthaginians/cart_reform

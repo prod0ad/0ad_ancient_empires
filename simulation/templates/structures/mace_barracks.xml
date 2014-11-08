@@ -32,6 +32,9 @@
       units/mace_cavalry_javelinist_b
       units/mace_champion_cavalry_barracks
     </Entities>
+	<Technologies datatype="tokens">
+      successors/mace_kestros_sling
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/macedonians/barracks.xml</Actor>

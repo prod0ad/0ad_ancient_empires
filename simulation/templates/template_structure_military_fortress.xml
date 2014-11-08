@@ -74,9 +74,6 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>
