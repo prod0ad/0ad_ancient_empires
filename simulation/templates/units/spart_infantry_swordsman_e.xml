@@ -29,7 +29,4 @@
       <Speed>13.0</Speed>
     </Run>
   </UnitMotion>
-  <VisualActor>
-    <Actor>units/spartans/champion_infantry_sword.xml</Actor>
-  </VisualActor>
 </Entity>

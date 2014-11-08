@@ -20,7 +20,7 @@
 	<SelectionGroupName>units/spart_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spartan Hoplite</GenericName>
 	<SpecificName>Hoplī́tēs Spartiates</SpecificName>
-    <History>The basic unit of the Spartan army made up of Spartan Homoioi.</History>
+    <History>The core unit of the Spartan army for centuries, made up of Spartan Homoioi.</History>
     <Icon>units/spart_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
