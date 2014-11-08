@@ -47,3 +47,18 @@ ATHENIANS
 - Long Walls tech: Readded the -50% wall cost bonus but increased research cost. Still allows wall construction in neutral territory.
 - Imperialism tech: Civic Centers provide a small tickle of metal (not working yet). Inspired by Athenian abuse of allies and coast town, should encourage an alternative expand & defend playstyle together with their other attributes.
 - Chorigoi dock tech: Reduces Trireme metal cost by 50%. Rich Athenian citizens often had the task to equip and maintain a Trireme and it's crew.
+
+SPARTANS
+
+- Laws of Lycurgus civ bonus: All upgrades at the Syssition cost no resources, but have double research time.
+- Feminine Mystique civ bonus: Spartan female citizens are capable of constructing defense towers and palisades and have x2.5 damage versus siege weapons.
+- Wall of Men civ bonus: Spartan Spear Infantry +10% hit point and attack but also +20% train time. The Spartans can't build stone walls.
+- Peloponnesian League team bonus: +10% spear unit hit points (currently not shared)..
+- Cleomenian Reforms: Spartan Pikemen are unlocked. +25% farming rate for all workers.
+- Tyrtean Paeans tech: +10% spear infantry walk and run speed.
+- The Agoge tech: +25% health for spear infantry, but also +10% train time.
+- Syssition Limited to one, moved to the village phase
+- Spartan Hoplites trained at the Civ Center and Syssition, Spartan Royal Guard Champion Hoplites trained at the Syssition
+- Skirites given normal swordsmen attributes and ranks. 
+- Barracks trains the non-hoplite units.
+
