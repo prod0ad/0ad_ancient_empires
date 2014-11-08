@@ -7,7 +7,7 @@ Changes/Implementation of missing things so far:
 
 
 CARTHAGE
-[spoiler]
+
 - Exploration civ bonus: It now gives by default +20% line of sight to cavalry, traders and ships making them better at scouting and monitoring trade routes and waters.
 - Colonisation civ bonus:. It now gives by default -20% build time to Civic Centers, Houses and Temples, making them better at expanding and working well with their champion units trained at the temple.
 - Reduced Temple cost to 300, 400 seemed too high.
@@ -16,7 +16,7 @@ CARTHAGE
 - Mass Production tech available at the fortress for 500 food, 500 wood, 250 metal, reducing siege weapon construction speed by 25%. Inspired by their tendency to construct large numbers of siege weapons (was actually more common for defensive purposes, could be charged if ballista towers are implemented).
 - Naval Trademasters team bonus: Trade Ships move 33% faster (currently not shared).
 - Barcid Armies Reform: Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels.
-[/spoiler]
+
 
 CELTS
 
@@ -62,3 +62,13 @@ SPARTANS
 - Skirites given normal swordsmen attributes and ranks. 
 - Barracks trains the non-hoplite units.
 
+MACEDONIANS
+
+- Horsemanship civ bonus: +10% Cavalry walk and run speed.
+- Hardy Peltasts civ bonus: +15% Javelin Infantry attack.
+- Standardized Currency team bonus: All units and structures -5% metal cost (currently not shared).
+- Iphicratian Reforms: +15% movement speed for all infantry. Inspired by Iphicrates' reforms to improve the effectiveness and mobility of the Athenian army.
+- Fetters Of Hellas tech: +50% Fortress hit points.
+- Silver Shields Regiment tech: Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack, health and armor.
+- Hellenistic Metropolises tech: Civic Centers have double Health and double default arrows.
+- Antigonid Reform: Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Sling upgrade (to be enhanced by second reform).
