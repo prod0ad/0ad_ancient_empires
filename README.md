@@ -7,7 +7,7 @@ Changes/Implementation of missing things so far:
 
 
 CARTHAGE
-
+[spoiler]
 - Exploration civ bonus: It now gives by default +20% line of sight to cavalry, traders and ships making them better at scouting and monitoring trade routes and waters.
 - Colonisation civ bonus:. It now gives by default -20% build time to Civic Centers, Houses and Temples, making them better at expanding and working well with their champion units trained at the temple.
 - Reduced Temple cost to 300, 400 seemed too high.
@@ -16,7 +16,7 @@ CARTHAGE
 - Mass Production tech available at the fortress for 500 food, 500 wood, 250 metal, reducing siege weapon construction speed by 25%. Inspired by their tendency to construct large numbers of siege weapons (was actually more common for defensive purposes, could be charged if ballista towers are implemented).
 - Naval Trademasters team bonus: Trade Ships move 33% faster (currently not shared).
 - Barcid Armies Reform: Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels.
-
+[/spoiler]
 
 CELTS
 
