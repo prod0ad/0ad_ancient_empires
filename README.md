@@ -67,8 +67,8 @@ MACEDONIANS
 - Horsemanship civ bonus: +10% Cavalry walk and run speed.
 - Hardy Peltasts civ bonus: +15% Javelin Infantry attack.
 - Standardized Currency team bonus: All units and structures -5% metal cost (currently not shared).
-- Iphicratian Reforms: +15% movement speed for all infantry. Inspired by Iphicrates' reforms to improve the effectiveness and mobility of the Athenian army.
+- Antigonid Reform: Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Sling upgrade (to be enhanced by second reform).
 - Fetters Of Hellas tech: +50% Fortress hit points.
 - Silver Shields Regiment tech: Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack, health and armor.
 - Hellenistic Metropolises tech: Civic Centers have double Health and double default arrows.
-- Antigonid Reform: Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Sling upgrade (to be enhanced by second reform).
+
