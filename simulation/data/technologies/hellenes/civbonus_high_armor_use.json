@@ -1,0 +1,13 @@
+{
+	"genericName": "High Armor Use",
+	"description": "Most Greek Soldiers with a fine armor kit.",
+	"requirements": {"any": [{"civ": "athen"},{"civ": "spart"}]},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.3},
+		{"value": "Cost/Resources/metal", "multiply": 1.20},
+		{"value": "Cost/Resources/wood", "multiply": 1.20},
+		{"value": "Armour/Hack", "add": 1.0},
+		{"value": "Armour/Pierce", "add": 1.0}
+	],
+	"affects": ["Citizen Soldier Melee Infantry"]
+}

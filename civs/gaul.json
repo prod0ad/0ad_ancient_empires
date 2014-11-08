@@ -79,7 +79,7 @@
 		{
 			"Name": "Low Armor Use",
 			"History": "Most Celtic Soldiers went to war without body armor.",
-			"Description": "Citizen Soldiers cost 20% less wood/metal but also have 10% less hit points and 1 less hack/pierce armor." 
+			"Description": "Melee Infantry Citizen Soldiers cost 20% less wood/metal but also have 10% less hit points and 1 less hack/pierce armor." 
 		} 
 	],
 	"TeamBonuses":

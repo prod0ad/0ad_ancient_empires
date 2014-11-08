@@ -17,19 +17,19 @@
 			"Technologies":
 			[
 				{
-					"Name":"Feminine Mystique",
-					"History":"Spartan women were some of the freest in the ancient world. They could own land and slaves and even exercise naked like Spartan men. It is said that only Spartan women gave birth to real men. Such tough-as-nails women more than once helped save their city from disaster, for example when after a lost battle against Pyrrhus of Epirus they overnight built an earthen rampart to protect the city while their men slept in preparation for the next day's siege.",
-					"Description":"Spartan female citizens cannot be captured and will doggedly fight back against any attackers. They are also capable of constructing defense towers and palisades."
-				},
-				{
-					"Name":"Tyrtean Paeans",
-					"History":"Paeans were battle hymns that were sung by the hoplites when they charged the enemy lines. One of the first known Paeans were composed by Tirteus, a warrior poet of Sparta, during the First Messenian War.",
-					"Description":"Units in phalanx formation move faster."
-				},
-				{
 					"Name":"The Agoge",
 					"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
 					"Description":"+25% health for spear infantry, but also +10% train time."
+				},
+				{
+					"Name":"Tyrtean Paeans",
+					"History":"Paeans were battle hymns that were sung by the hoplites when they charged the enemy lines. One of the first known Paeans were composed by Tyrteus, a warrior poet of Sparta, during the First Messenian War.",
+					"Description":"+10% spear infantry walk and run speed."
+				},
+				{
+					"Name":"Cleomenian Reforms",
+					"History":"Cleomenes III redistributed the land, freed thousands of Helots, enlisted many of them along with Spartans and Perioikoi in his newly formed pike phalanxes in an attempt to restore Spartan power.",
+					"Description":"Spartan Pikemen are unlocked. +25% farming rate for all workers."
 				}
 			],
 			"Heroes":
@@ -61,27 +61,32 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Othismos",
-			"History":"The Spartans were undisputed masters of phalanx warfare. The Spartans were so feared for their discipline that the enemy army would sometimes break up and run away before a single shield clashed. 'Othismos' refers to the point in a phalanx battle where both sides try to shove each other out of formation, attempting to breaking up the enemy lines and routing them.",
-			"Description":"Spartans can use the powerful Phalanx formation."
-		},
-		{
 			"Name":"Laws of Lycurgus",
 			"History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
-			"Description":"The Spartan rank upgrades at the Barracks cost no resources, except time."
+			"Description":"All upgrades at the Syssition cost no resources, but have double research time."
 		},
 		{
-			"Name":"Hellenization",
-			"History":"The Greeks were highly successful in Hellenising various foreigners. During the Hellenistic Age, Greek was the lingua franca of the Ancient World, spoken widely from Spain to India.",
-			"Description":"Constructing a Theatron increases the territory expanse of all buildings by +20%."
-		}
+			"Name":"Feminine Mystique",
+			"History":"Spartan women were some of the freest in the ancient world. They could own land and slaves and even exercise naked like Spartan men. It is said that only Spartan women gave birth to real men. Such tough-as-nails women more than once helped save their city from disaster, for example when after a lost battle against Pyrrhus of Epirus they overnight built an earthen rampart to protect the city while their men slept in preparation for the next day's siege.",
+			"Description":"Spartan female citizens are capable of constructing defense towers and palisades and have x2.5 damage versus siege weapons."
+		},	
+		{
+			"Name":"Wall of Men",
+			"History":"Sparta had no walls until the final years of her independence. Her men were their walls.",
+			"Description":"Spartan Spear Infantry +10% hit point and attack but also +20% train time. The Spartans can't build stone walls."
+		},
+		{
+			"Name":"High Armor Use",
+			"History":"Most Greek Soldiers with a fine armor kit.",
+			"Description":"Melee Infantry Citizen Soldiers cost 20% more wood/metal but also have +10% hit points and +1 hack/pierce armor."
+		}	
 	],
 	"TeamBonuses":
 	[
 		{
 			"Name":"Peloponnesian League",
-			"History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies.'",
-			"Description":"Allies can train Spartiates."
+			"History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies. Many of those allies often fielded superb hoplites.",
+			"Description":"+10% spear unit hit points (currently not shared)."
 		}
 	],
 	"Structures":

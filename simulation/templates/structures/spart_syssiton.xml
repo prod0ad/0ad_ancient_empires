@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
+  <BuildRestrictions>
+    <Category>Syssition</Category>
+  </BuildRestrictions>
   <Cost>
     <BuildTime>200</BuildTime>
+    <PopulationBonus>20</PopulationBonus>
     <Resources>
-      <wood>0</wood>
-      <stone>200</stone>
-      <metal>200</metal>
+      <wood>150</wood>
+      <stone>150</stone>
+      <metal>150</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -23,9 +27,10 @@
     <Classes datatype="tokens">
 	  Syssiton
 	</Classes>
-    <Tooltip>Train Spartan heroes and Spartiate champion hoplites.</Tooltip>
+    <Tooltip>Train Spartan heroes and hoplites and research special technologies. Adds 20 population bonus. Build Limit: 1.</Tooltip>
     <History>The Syssítia were where full-blooded Spartans, even Spartan kings, were barracked and dined together.</History>
     <Icon>structures/gymnasion.png</Icon>
+	<RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="26.0"/>
@@ -38,15 +43,18 @@
     </SoundGroups>
   </Sound>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
+	  units/spart_infantry_spearman_b
+	  units/spart_champion_infantry_spear
       units/spart_hero_leonidas
       units/spart_hero_brasidas
       units/spart_hero_agis
-      units/spart_champion_infantry_spear
     </Entities>
     <Technologies datatype="tokens">
+	  hellenes/spart_tyrtean_paeans
       hellenes/spartans_agoge
+	  hellenes/spart_cleom_reforms
     </Technologies>
   </ProductionQueue>
   <VisualActor>

@@ -1,0 +1,14 @@
+{
+	"genericName": "Wall Of Men",
+	"autoResearch": true,
+	"description": "Spartan Spear Infantry +10% hit point and attack but also +20% train time. The Spartans can't build stone walls.",
+	"requirements": {"civ": "spart"},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},
+		{"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "Cost/BuildTime", "multiply": 1.2}
+	],
+	"affects": ["Spear Infantry"]
+}

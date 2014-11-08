@@ -79,7 +79,12 @@
 			"Name":"Thracian Ties",
 			"History":"Athenian colonies on the Thracian coast kept them in contact with the Thracians, heavily influencing the Athenian Military.",
 			"Description":"+15% Javelin Unit pierce damage."
-		}
+		},
+		{
+			"Name":"High Armor Use",
+			"History":"Most Greek Soldiers with a fine armor kit.",
+			"Description":"Melee Infantry Citizen Soldiers cost 20% more wood/metal but also have +10% hit points and +1 hack/pierce armor."
+		}	
 	],
 	"TeamBonuses":
 	[

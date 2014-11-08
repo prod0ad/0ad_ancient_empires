@@ -1,6 +1,5 @@
 {
 	"genericName": "Low Armor Use",
-	"autoResearch": true,
 	"description": "Most Celtic Soldiers went to war without body armor.",
 	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
 	"modifications": [
@@ -10,5 +9,5 @@
 		{"value": "Armour/Hack", "add": -1.0},
 		{"value": "Armour/Pierce", "add": -1.0}
 	],
-	"affects": ["Citizen Soldier"]
+	"affects": ["Citizen Soldier Melee Infantry"]
 }
