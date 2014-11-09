@@ -2,8 +2,13 @@
 ===================
 
 A mod for the RTS Game 0 A.D.
+To install you need the SVN version of 0 A.D.
+"Download Zip" -> Unzip it into binary/data/mods of your SVN installation.
 
-Changes/Implementation of missing things so far:
+MISC CHANGES
+- Trade Ships cost 100wood 50 metal
+- Wonders provide a tickle of metal
+- Many new/changed techs (wip)
 
 
 CARTHAGE
@@ -96,4 +101,58 @@ Unique Techs:
 - Fetters Of Hellas: +50% Fortress hit points.
 - Silver Shields Regiment: Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack, health and armor.
 - Hellenistic Metropolises: Civic Centers have double Health and double default arrows.
+
+
+SELEUCIDS
+
+Civ Bonuses: 
+- Civic Centers provide an increased number of available units, but barracks are limited to weaker levy troops and have a reduced territory influence.
+- Increased number of Champion units available.
+Team Bonus:
+- Civic Centers are 20% cheaper (currently not shared).
+Unique Techs:
+- Cavalry Reform: Unlock the Seleucid Cataphract.
+- Infantry Reform: Unlock the Romanized Heavy Swordsman.
+- Cleruchy: 20% faster batch training for the Civic Center.
+- Nisean War Horses: +20% health for cavalry.
+- Hellenistic Metropolises: Civic Centers have double Health and double default arrows.
+Misc:
+- Wip rearrangement of troop production facilities
+
+
+PTOLEMIES
+
+Civ Bonuses: 
+- Civic Centers provide an increased number of available units, but barracks are limited to weaker levy troops and have a reduced territory influence.
+- Houses, Farmsteads, Storehouses and Corrals cost no resources but take longer to build.
+- -50% Temple technology cost and research time.
+- +33% farming rate for all workers.
+Team Bonus:
+- Docks provide a slow trickle of food income (currently not shared/placeholder).
+Unique Techs:
+- Machimoi Reforms: Unlock the Egyptian Pikeman Champion. (Weak and cheap for a champion, fast trained).
+- Romanization Reforms: All pike infantry units are replaced by Romanized Swordsman Champions. Requires Machimoi Reforms.
+- Advanced Engineering: +20% Structure, Ship and Siege Unit hit points.
+- Ptolemaic Garrisons: Fortresses get 40% more arrows fired per garrisoned soldier.
+- Mercenary Army: -50% Mercenary unit train time.
+- Hellenistic Metropolises: Civic Centers have double Health and double default arrows.
+Misc:
+- Wip rearrangement of troop production facilities
+
+
+ROMANS
+
+Civ Bonuses: 
+- Triarii are trained at the advanced rank.
+- Units within vision range of Roman Civil Centre gain +10% attack.
+Team Bonus:
+- Infantry citizen soldiers train 10% faster (currently not shared).
+Unique Techs:
+- Marian Reforms: All Melee infantry units are replaced by Marian Legionary Champions.
+- Gladius Hispaniensis: +15% Sword infantry attack damage.
+- Logistics: Melee infantry train 25% faster.
+- Imported Construction Technology: +10% Structure, Ship and Siege Unit hit points and attack damage.
+- Sibylline Books: +25% Vision range for all units.
+Misc:
+- Extraordinarii removed.
 
