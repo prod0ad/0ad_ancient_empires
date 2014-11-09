@@ -1,4 +1,4 @@
-0 A.D Ancient Empires
+0 A.D: Ancient Empires
 ===================
 
 A mod for the RTS Game 0 A.D.
@@ -8,8 +8,8 @@ Changes/Implementation of missing things so far:
 
 CARTHAGE
 
-Civ Bonuses: 
-- Cavalry, Traders and Ships +20% line of sight. 
+Civ Bonuses:
+- Cavalry, Traders and Ships +20% line of sight.
 - Civic Centers, Houses and Temples -20% build time.
 Team Bonus:
 - Trade Ships move 33% faster (currently not shared).
