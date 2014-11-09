@@ -11,12 +11,15 @@ CARTHAGE
 Civ Bonuses:
 - Cavalry, Traders and Ships +20% line of sight.
 - Civic Centers, Houses and Temples -20% build time.
+
 Team Bonus:
 - Trade Ships move 33% faster (currently not shared).
+
 Unique Techs:
 - Barcid Armies Reform: Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels.
 - Fortified Barracks: +30% Fortress and Barracks hit points.
 - Mass Production: -25% Siege Weapon build time.
+
 Misc:
 - Ship Armor and Construction Speed upgrades now available at both docks, to remove their inexcusable naval handicap.
 - Reduced Temple cost to 300, 400 seemed too high.
