@@ -6,7 +6,7 @@
     <SpecificName>Thorakitès Rhomaïkós</SpecificName>
     <History>Late Ptolemaic Egypt switched it's pike army core to Roman influenced swordsmen trained by Roman mercenary instructors.</History>
     <Icon>units/sele_champion_swordsman.png</Icon>
-    <RequiredTechnology>ptol_reforms_roman</RequiredTechnology>
+    <RequiredTechnology>successors/ptol_reforms_roman</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

@@ -1,10 +1,10 @@
 {
 	"genericName": "Romanization Reforms",
 	"description": "Late Ptolemaic Egypt switched it's pike army core to Roman influenced swordsmen trained by Roman mercenary instructors.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 1500},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "helmet_corinthian_crest.png",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 1500},
+	"requirements": {"tech": "ptol_reforms_machimoi"},
+	"requirementsTooltip": "Requires Machimoi Reforms.",
+	"icon": "sword_cross.png",
 	"researchTime": 60,
 	"tooltip": "All pike infantry units are replaced by Romanized Swordsman Champions.",
 	"modifications": [

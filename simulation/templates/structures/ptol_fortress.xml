@@ -27,7 +27,6 @@
 	  siege_cost
 	  siege_packing
 	  successors/ptol_garrisons
-	  successors/ptol_reforms_roman
     </Technologies>
   </ProductionQueue>
   <VisualActor>

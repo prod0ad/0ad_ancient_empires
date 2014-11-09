@@ -28,9 +28,6 @@
     <Max>130</Max>
   </Health>
   <Identity>
-    <Rank>Advanced</Rank>
-  </Identity>
-  <Identity>
     <Civ>ptol</Civ>
 	<GenericName>Egyptian Pikeman</GenericName>
     <SpecificName>Makhimos Phalangites</SpecificName>
