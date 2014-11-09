@@ -79,7 +79,7 @@ Civ Bonuses:
 Team Bonus:
 - +10% spear unit hit points (currently not shared).
 Unique Techs:
-- Cleomenian Reforms: Spartan Pikemen are unlocked. +25% farming rate for all workers.
+- Cleomenian Reforms: Spartan Pikemen and Mercenary Thurephoroi are unlocked. +25% farming rate for all workers.
 - Tyrtean Paeans: +10% spear infantry walk and run speed.
 - The Agoge: +25% health for spear infantry, but also +10% train time.
 Misc:
@@ -97,7 +97,8 @@ Civ Bonuses:
 Team Bonus:
 - All units and structures -5% metal cost (currently not shared).
 Unique Techs:
-- Antigonid Reform: Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Sling upgrade (to be enhanced by second reform).
+- Early Antigonid Reform: Mercenaries train 10% faster. Unlocks extra mercenary units (wip).
+- Late Antigonid Reform: Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Slinger Champion. Requires Early Antigonid Reform.
 - Fetters Of Hellas: +50% Fortress hit points.
 - Silver Shields Regiment: Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack, health and armor.
 - Hellenistic Metropolises: Civic Centers have double Health and double default arrows.
@@ -143,12 +144,12 @@ Misc:
 ROMANS
 
 Civ Bonuses: 
-- Triarii are trained at the advanced rank.
+- Triarii who are trained at the barracks start at the advanced rank.
 - Units within vision range of Roman Civil Centre gain +10% attack.
 Team Bonus:
 - Infantry citizen soldiers train 10% faster (currently not shared).
 Unique Techs:
-- Marian Reforms: All Melee infantry units are replaced by Marian Legionary Champions.
+- Marian Reforms: All Melee infantry units are replaced by Marian Legionary Champions. Unlocks the Auxiliary Camp.
 - Gladius Hispaniensis: +15% Sword infantry attack damage.
 - Logistics: Melee infantry train 25% faster.
 - Imported Construction Technology: +10% Structure, Ship and Siege Unit hit points and attack damage.
