@@ -15,12 +15,11 @@ Team Bonus:
 - Trade Ships move 33% faster (currently not shared).
 Unique Techs:
 - Barcid Armies Reform: Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels.
-- Fortified Barracks: +30% Fortress and Barracks.
+- Fortified Barracks: +30% Fortress and Barracks hit points.
 - Mass Production: -25% Siege Weapon build time.
-- Reduced Temple cost to 300, 400 seemed too high.
 Misc:
 - Ship Armor and Construction Speed upgrades now available at both docks, to remove their inexcusable naval handicap.
-- Reduced Temple Cost to 300 stone.
+- Reduced Temple cost to 300, 400 seemed too high.
 
 
 CELTS
@@ -35,16 +34,15 @@ Gauls only
 Team Bonus:
 - 10% decreased train time for Champion and Mercenary units (currently not shared).
 Unique Techs:
-- Trimarchisia barracks tech: Cavalry units regenerate health rapidly over time when idle.
+- Trimarchisia: Cavalry units regenerate health rapidly over time when idle.
 - Late Reform: +2 hack and +1 pierce armor for melee infantry and cavalry units.
-- Team Bonus:
 
 Britons only
 Team Bonus:
 - +50% Trade Ship hit points (currently not shared).
 Unique Techs:
-- Sevili Dusios temple tech: +20% melee infantry attack (placeholder for woad caused fear aura).
-- Turos Maros tower tech: Increases tower hit points by 50% and adds an extra default arrow.
+- Sevili Dusios: +20% melee infantry attack (placeholder for woad caused fear aura).
+- Turos Maros: Increases tower hit points by 50% and adds an extra default arrow.
 - Levy Reform: All citizen soldiers train 20% faster.
 
 
@@ -58,7 +56,7 @@ Team Bonus:
 - +25% ship construction speed (currently not shared).
 Unique Techs:
 - Iphicratian Reforms: +15% movement speed for all infantry.
-- Long Walls: Readded the -50% wall cost bonus but increased research cost. Still allows wall construction in neutral territory.
+- Long Walls: Readded the -50% wall cost bonus but increased research cost (Change to build faster!!!). Still allows wall construction in neutral territory.
 - Imperialism: Civic Centers provide a small tickle of metal.
 - Chorigoi: Reduces Trireme metal cost by 50%.
 
@@ -78,7 +76,7 @@ Unique Techs:
 - The Agoge: +25% health for spear infantry, but also +10% train time.
 Misc:
 - Syssition limited to one, moved to the village phase
-- Spartan Hoplites (renamed and buffed perioikoi) trained at the Civ Center and Syssition, Spartan Royal Guard Champion Hoplites trained at the Syssition
+- Spartan Hoplites trained at the Civ Center and Syssition, Spartan Royal Guard Champion Hoplites trained at the Syssition
 - Skirites given normal swordsmen attributes and ranks. 
 - Barracks trains the non-hoplite units.
 
