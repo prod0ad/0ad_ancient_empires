@@ -14,6 +14,7 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
+	<GenericName>Levy Barracks</GenericName>
     <SpecificName>ḥwt-n-mš'</SpecificName>
     <History>?</History>
     <Tooltip>Train Egyptian and Middle-Eastern citizen-soldiers. Research training improvements. Garrison: 10.</Tooltip>
@@ -23,12 +24,13 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/ptol_infantry_spearman_b
       units/ptol_infantry_slinger_b
       units/ptol_cavalry_archer_b
+	  units/ptol_champion_infantry_pikeman
     </Entities>
     <Technologies datatype="tokens">
 	  -unlock_champion_units
+	  successors/ptol_reforms_machimoi
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>

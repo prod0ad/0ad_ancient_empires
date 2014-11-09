@@ -24,9 +24,9 @@
       -heal_temple
       -health_regen_units
 	  successors/heal_range_ptol
-      successors/heal_range_2_ptol
+      successors/heal_range_ptol_2
       successors/heal_rate_ptol
-      successors/heal_rate_2_ptol
+      successors/heal_rate_ptol_2
       successors/heal_temple_ptol
       successors/health_regen_units_ptol
     </Technologies>

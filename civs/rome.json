@@ -16,10 +16,30 @@
 			"Technologies":
 			[
 				{
-					"Name": "Divide et Impera",
-					"History": "'Divide and conquer' was the main principle in Rome's foreign politics throughout its long history. The Romans lured enemies or neutral factions to their side by offering them certain privileges. In due period of time, friends as well as foes were subjugated.",
-					"Description": "Roman heroes can convert enemy units with great cost."
-				}
+					"Name": "Sibylline Books",
+					"History": "The Sibylline Books or 'Libri Sibyllini' were a collection of oracular utterances, set out in Greek hexameters, purchased from a sibyl by the last king of Rome, Tarquinius Superbus, and consulted at momentous crises through the history of the Republic and the Empire.",
+					"Description": "+25% Vision range for all units."
+				},
+				{
+					"Name": "Logistics",
+					"History": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",
+					"Description": "Melee infantry train 25% faster."
+				},	
+				{
+					"Name": "Gladius Hispaniensis",
+					"History": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
+					"Description": "+15% Sword infantry attack damage."
+				},	
+				{
+					"Name": "Marian Reforms",
+					"History": "Gaius Marius turned the roman legions into a professional force.",
+					"Description": "All Melee infantry units are replaced by Marian Legionary Champions."
+				},					
+				{
+					"Name": "Imported Construction Technology",
+					"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
+					"Description": "+10% Structure, Ship and Siege Unit hit points and attack damage."
+				}				
 			],
 			"Heroes":
 			[
@@ -50,23 +70,23 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Testudo Formation",
-			"History": "The Romans commonly used the Testudo or 'turtle' formation for defense: Legionaries were formed into hollow squares with twelve men on each side, standing so close together that their shields overlapped like fish scales.",
-			"Description": "Roman Legionaries can form a Testudo." 
+			"Name": "Veterans",
+			"History": "Triarii were veteran spearmen who acted as the powerful reserve of the Pre-Marian Roman legions.",
+			"Description": "Triarii are trained at the advanced rank." 
 		},
 		{
 			"Name": "Citizenship",
 			"History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
-			"Description": "Any Roman citizen-soldier fighting within Roman territory gains a non-permanent +10% bonus in armor."
-		} 
+			"Description": "Units within vision range of Civil Centers gain +10% attack."
+		} 	
 	],
 	"TeamBonuses":
 	[
 		{
 			"Name": "Socii",
-			"History": "Being allied with Rome came with great benefits (as well as great peril).",
-			"Description": "Allied citizen-soldiers gain a +15% attack when in Roman territory."
-		} 
+			"History": "Roman allies, especially the Italian ones, often provided the majority of soldiers in Roman armies.",
+			"Description": "Infantry citizen soldiers train 10% faster (currently not shared)."
+		} 		
 	],
 	"Structures":
 	[

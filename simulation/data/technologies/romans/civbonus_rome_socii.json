@@ -1,0 +1,8 @@
+{
+	"genericName": "Socii",
+	"autoResearch": true,
+	"description": "Roman allies, especially the Italian ones, often provided the majority of soldiers in Roman armies.",
+	"requirements": {"civ": "rome"},
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.9}],
+	"affects": ["Infantry"]
+}

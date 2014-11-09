@@ -7,12 +7,12 @@
   </Armour>
   <Cost>
     <Resources>
-      <wood>0</wood>
-      <metal>100</metal>
+      <wood>100</wood>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>15</Max>
+    <Max>20</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Female Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog</List>

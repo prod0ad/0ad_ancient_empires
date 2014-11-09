@@ -31,6 +31,16 @@
 			         "Description":"+20% Structure, Ship and Siege Unit hit points."
 		        },
 				{
+			         "Name":"Machimoi Reforms",
+			         "History":"In order to counter the Seleucid threat, the Ptolemies eventually started training Egyptians to fight as pikemen.",
+			         "Description":"Unlock the Egyptian Pikeman Champion."
+		        },
+				{
+			         "Name":"Romanization Reforms",
+			         "History":"Late Ptolemaic Egypt switched it's pike army core to Roman influenced swordsmen trained by Roman mercenary instructors.",
+			         "Description":"All pike infantry units are replaced by Romanized Swordsman Champions."
+		        },
+				{
 					"Name":"Hellenistic Metropolises",
 					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
 					"Description":"Civic Centers have double Health and double default arrows."

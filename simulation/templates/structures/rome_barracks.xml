@@ -26,11 +26,14 @@
       units/rome_infantry_swordsman_b
       units/rome_infantry_spearman_a
       units/rome_infantry_javelinist_b
-	  units/rome_champion_infantry_barracks
       units/rome_cavalry_spearman_b
       units/rome_cavalry_javelinist_b
-	  units/rome_champion_cavalry_barracks
     </Entities>
+	<Technologies datatype="tokens">
+      -unlock_champion_units
+	  romans/gladius_hispaniensis
+	  romans/logistics
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/romans/barracks.xml</Actor>

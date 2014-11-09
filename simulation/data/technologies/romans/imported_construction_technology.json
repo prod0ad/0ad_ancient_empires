@@ -1,0 +1,18 @@
+{
+	"genericName": "Imported Construction Technology",
+	"description": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
+	"cost": {"food": 500, "wood": 750, "stone": 500, "metal": 750},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "calipers.png",
+	"researchTime": 40,
+	"tooltip": "+10% Structure, Ship and Siege Unit hit points and attack damage.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},
+		{"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1}
+	],
+	"affects": ["Structure","Mechanical"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

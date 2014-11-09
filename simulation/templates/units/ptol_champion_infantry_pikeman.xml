@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_pikeman">
+ <Armour>
+    <Hack>9</Hack>
+    <Pierce>7</Pierce>
+    <Crush>6</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>4.5</Hack>
+      <Pierce>6</Pierce>
+      <MaxRange>8.0</MaxRange>
+    </Melee>
+    <Charge>
+      <Hack>12.0</Hack>
+    </Charge>
+  </Attack>
+    <Cost>
+    <BuildTime>7</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>130</Max>
+  </Health>
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Identity>
+    <Civ>ptol</Civ>
+	<GenericName>Egyptian Pikeman</GenericName>
+    <SpecificName>Makhimos Phalangites</SpecificName>
+    <History>When pressed hard by the fellow successor states, the Ptolemies of Egypt began to arm and train the Egyptian people in "Macedonian fashion." These levies of indigenous Egyptians were crucial in turning back the Seleucid tide at the Battle of Raphia, cementing nationalist pride and threatening the rule of the Ptolemies over their own kingdom.</History>
+    <Icon>units/ptol_infantry_spearman.png</Icon>
+	<RequiredTechnology>successors/ptol_reforms_machimoi</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/ptol_champion_infantry_swordsman</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
+    <UnitMotion>
+    <WalkSpeed>7.5</WalkSpeed>
+    <Run>
+      <Speed>12.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/ptolemies/infantry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

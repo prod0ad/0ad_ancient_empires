@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Builder>
     <Entities datatype="tokens">
+	  structures/ptol_mercenary_camp
       structures/ptol_lighthouse
       structures/ptol_library
       structures/ptol_wonder
@@ -14,7 +15,6 @@
     <SpecificName>Ebraïkós Sphendonistes</SpecificName>
     <History>Jews made up a large portion of several Egyptian cities. They were local subjects to the Ptolemaic crown and hated the Seleucids and Romans in equal measure.</History>
     <Icon>units/hele_infantry_slinger.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/ptol_infantry_slinger_a</Entity>

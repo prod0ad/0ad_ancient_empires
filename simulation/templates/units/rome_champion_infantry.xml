@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_swordsman">
+<Entity parent="units/rome_infantry_swordsman_b">
   <Identity>
     <Civ>rome</Civ>
 	<GenericName>Italic Heavy Infantry</GenericName>
@@ -8,6 +8,10 @@
     <Icon>units/rome_champion_infantry.png</Icon>
     <History>The Extraordinarii were best of the infantry fielded by Rome's Italic allies (the socii) that were picked out by the commanding Consul and served under him directly. They were charged with function of vanguard, rearguard, and bodyguard. In battle the Extraordinarii were expected to act as a special unit, to give the Consul additional tactical options.</History>
   </Identity>
+    <Promotion>
+    <Entity>units/rome_legionnaire_marian</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
   <VisualActor>
     <Actor>units/romans/champion_unit_1.xml</Actor>
   </VisualActor>

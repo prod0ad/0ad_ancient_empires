@@ -1,0 +1,15 @@
+{
+	"genericName": "Logistics",
+	"description": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 250},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "rome"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sibylline_books.png",
+	"researchTime": 40,
+	"tooltip": "Melee infantry train 25% faster.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.75}
+	],
+	"affects": ["Melee Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

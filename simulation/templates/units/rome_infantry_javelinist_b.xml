@@ -6,6 +6,7 @@
       structures/rome_army_camp
       structures/rome_wallset_siege
       structures/{civ}_wonder
+	  structures/rome_library
     </Entities>
   </Builder>
   <Identity>

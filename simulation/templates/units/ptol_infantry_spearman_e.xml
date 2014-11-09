@@ -19,7 +19,10 @@
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/ptol_champion_infantry_swordsman</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
@@ -30,6 +33,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_spearman_e.xml</Actor>
+    <Actor>units/macedonians/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

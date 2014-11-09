@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>ptol</Civ>
+	<GenericName>Romanized Heavy Swordsman</GenericName>
+    <SpecificName>Thorakitès Rhomaïkós</SpecificName>
+    <History>Late Ptolemaic Egypt switched it's pike army core to Roman influenced swordsmen trained by Roman mercenary instructors.</History>
+    <Icon>units/sele_champion_swordsman.png</Icon>
+    <RequiredTechnology>ptol_reforms_roman</RequiredTechnology>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/seleucids/champion_infantry_swordsman.xml</Actor>
+  </VisualActor>
+</Entity>

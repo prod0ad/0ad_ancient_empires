@@ -24,7 +24,6 @@
     <History>Expensive "suicide" unit. Mostly used to rush into infantry and cavalry formations to slaughter a bunch of enemies with scythes ("Trample Damage" aura) before getting destroyed themselves.</History>
 	<Icon>units/pers_cavalry_archer.png</Icon>
 	<Tooltip>Classes: Champion Ranged Cavalry Chariot Archer.</Tooltip>
-    <RequiredTechnology>successors/unlock_traditional_army</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>200</xp>
