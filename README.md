@@ -9,6 +9,8 @@ MISC CHANGES
 - Trade Ships cost 100wood 50 metal
 - Wonders provide a tickle of metal
 - Many new/changed techs (wip)
+- All mercenary units cost food+metal and train faster.
+- Mercenary Camps for most factions allowing for unique strategies.
 
 
 CARTHAGE
@@ -64,7 +66,7 @@ Team Bonus:
 - +25% ship construction speed (currently not shared).
 Unique Techs:
 - Iphicratian Reforms: +15% movement speed for all infantry.
-- Long Walls: Readded the -50% wall cost bonus but increased research cost (Change to build faster!!!). Still allows wall construction in neutral territory.
+- Long Walls: Unlocks wall construction in neutral territory. Walls build 50% faster.
 - Imperialism: Civic Centers provide a small tickle of metal.
 - Chorigoi: Reduces Trireme metal cost by 50%.
 
