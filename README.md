@@ -6,10 +6,11 @@ To install you need the SVN version of 0 A.D.
 "Download Zip" -> Unzip it into binary/data/mods of your SVN installation.
 
 MISC CHANGES
-- Trade Ships cost 100wood 50 metal
+- Trade Ships cost 100 wood, 50 metal.
 - Trade Convoys tech moved to the city phase.
-- Wonders provide a tickle of metal
-- Many new/changed techs (wip)
+- Wonders provide a tickle of metal.
+- Priests cost 100 food, 75 metal.
+- Many new/changed techs (wip).
 - All mercenary units cost food+metal and train faster.
 - Mercenary Camps for most factions allowing for unique strategies.
 
