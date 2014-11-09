@@ -6,10 +6,10 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "clenched_fist.png",
 	"researchTime": 40,
-	"tooltip": "Civic Centers provide a small tickle of metal (not working yet).",
+	"tooltip": "Civic Centers provide a small tickle of metal.",
 	"modifications": [
 		{"value": "ResourceTrickle/MetalRate", "add": 0.5}
 	],
-		"affects": ["Civic Center"],
+		"affects": ["CivilCentre"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

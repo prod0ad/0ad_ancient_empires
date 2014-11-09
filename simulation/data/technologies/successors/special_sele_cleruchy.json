@@ -8,6 +8,6 @@
 	"researchTime": 40,
 	"tooltip": "20% faster batch training for the Civic Center.",
 	"modifications": [{"value": "ProductionQueue/BatchTimeModifier", "add": -0.2}],
-	"affects": ["Civic Center"],
+	"affects": ["CivilCentre"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
