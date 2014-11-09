@@ -17,6 +17,16 @@
 			"Technologies":
 			[
 				{
+					"Name":"Early Antigonid Reform",
+					"History":"Antigonos Gonatas relied on mercenaries for most of his campaigns to let the suffering from constant wars and eastern migration macedonian populace recover. Macedonian armies since Alexander's Indian campaigns often included War Elephants and the Antigonids even brought a number of those beasts to Europe.",
+					"Description":"Mercenaries train 10% faster. Unlocks extra mercenary units (wip)."
+				},
+				{
+					"Name":"Late Antigonid Reform",
+					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly Kestros Dart Sling.",
+					"Description":"Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Slinger Champion. Requires Early Antigonid Reform."
+				},				
+		        {
 					"Name":"Fetters Of Hellas",
 					"History":"The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
 					"Description":"+50% Fortress hit points."
@@ -25,11 +35,6 @@
 					"Name":"Silver Shields Regiment",
 					"History":"In India near the end of his long anabasis, Alexander gifted to the Royal Hypaspist corps shields of silver for their long and valiant service in his army.",
 					"Description":"Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack, health and armor."
-				},
-				{
-					"Name":"Antigonid Reform",
-					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly Kestros Dart Sling.",
-					"Description":"Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Sling upgrade (to be enhanced by second reform)."
 				},
 				{
 					"Name":"Hellenistic Metropolises",

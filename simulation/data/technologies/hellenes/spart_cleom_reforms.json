@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 120,
-	"tooltip": "Spartan Pikemen are unlocked. +25% farming rate for all workers.",
+	"tooltip": "Spartan Pikemen and Mercenary Thurephoroi are unlocked. +25% farming rate for all workers.",
 	"modifications": [
 		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}
 	],

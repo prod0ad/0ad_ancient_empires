@@ -33,7 +33,7 @@
 				{
 					"Name": "Marian Reforms",
 					"History": "Gaius Marius turned the roman legions into a professional force.",
-					"Description": "All Melee infantry units are replaced by Marian Legionary Champions."
+					"Description": "All Melee infantry units are replaced by Marian Legionary Champions. Unlocks the Auxiliary Camp."
 				},					
 				{
 					"Name": "Imported Construction Technology",
@@ -72,7 +72,7 @@
 		{
 			"Name": "Veterans",
 			"History": "Triarii were veteran spearmen who acted as the powerful reserve of the Pre-Marian Roman legions.",
-			"Description": "Triarii are trained at the advanced rank." 
+			"Description": "Triarii who are trained at the barracks start at the advanced rank." 
 		},
 		{
 			"Name": "Citizenship",

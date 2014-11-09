@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Armour>
+    <Hack>1</Hack>
+  </Armour>
+  <Builder>
+    <Entities datatype="tokens">
+	  -other/wallset_palisade
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/{civ}_wonder
+	  structures/rome_library
+	  structures/rome_mercenary_camp
+	</Entities>
+  </Builder>
+  <Identity>
+    <Civ>rome</Civ>
+	<SelectionGroupName>units/rome_infantry_spearman_2_b</SelectionGroupName>
+	<GenericName>Celtic Auxiliary Spearman</GenericName>		
+    <SpecificName>Gaeroa</SpecificName>
+    <RequiredTechnology>romans/rome_reforms_marian</RequiredTechnology>	
+	<Classes datatype="tokens">Mercenary</Classes>	
+    <History>The spear was the main weapon of the Celts, arming the bulk of their forces. The average Celt would only have to take up his long spear and body shield to be ready for battle. While armor was rare the rabid fighting spirit of the Celts more than made up for in vigor what was lost in protection.</History>
+    <Icon>units/celt_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/rome_infantry_spearman_2_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>9.5</WalkSpeed>
+    <Run>
+      <Speed>24.6</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/celts/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

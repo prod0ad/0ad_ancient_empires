@@ -27,7 +27,7 @@
       units/rome_infantry_spearman_a
       units/rome_infantry_javelinist_b
       units/rome_cavalry_spearman_b
-      units/rome_cavalry_javelinist_b
+      units/rome_cavalry_javelinist_b		  
     </Entities>
 	<Technologies datatype="tokens">
       -unlock_champion_units

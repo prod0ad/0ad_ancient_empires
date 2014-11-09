@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_slinger">
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>		  
+      <metal>50</metal>  
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>mace</Civ>
+	<GenericName>Kestros Slinger</GenericName>
+    <SpecificName>Kestrosphendonestes</SpecificName>
+    <History>A late macedonian light unit using the deadly Kestros Dart Slings.</History>
+    <Icon>units/hele_infantry_slinger.png</Icon>
+    <RequiredTechnology>successors/mace_antigonid_late_reform</RequiredTechnology>	
+  </Identity>
+  <Looter disable=""/>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_slinger_e.xml</Actor>
+  </VisualActor>
+</Entity>

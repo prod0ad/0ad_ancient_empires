@@ -5,6 +5,8 @@
       structures/mace_siege_workshop
       structures/mace_theatron
       structures/mace_library
+	  structures/mace_wonder
+	  structures/mace_mercenary_camp
     </Entities>
   </Builder>
   <Identity>
@@ -12,6 +14,7 @@
     <SelectionGroupName>units/mace_infantry_slinger_b</SelectionGroupName>
     <GenericName>Rhodian Slinger</GenericName>
     <SpecificName>Sphendonetes Rhodikos</SpecificName>
+	<Classes datatype="tokens">Mercenary</Classes>	
     <History></History>
     <Icon>units/hele_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

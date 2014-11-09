@@ -4,6 +4,7 @@
     <Entities datatype="tokens">
       structures/sele_library
       structures/sele_wonder
+	  structures/sele_mercenary_camp
     </Entities>
   </Builder>
   <Identity>

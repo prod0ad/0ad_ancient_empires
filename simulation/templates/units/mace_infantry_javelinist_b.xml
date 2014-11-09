@@ -10,6 +10,8 @@
       structures/mace_siege_workshop
       structures/mace_theatron
       structures/mace_library
+	  structures/mace_wonder
+	  structures/mace_mercenary_camp
     </Entities>
   </Builder>
   <Cost>

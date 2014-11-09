@@ -21,16 +21,18 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/mace_champion_infantry_a
+      units/mace_champion_cavalry
+	  units/mace_champion_slinger	
       units/mace_hero_philip
       units/mace_hero_alexander
       units/mace_hero_demetrius
-      units/mace_champion_infantry_a
-      units/mace_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">
       successors/upgrade_mace_silvershields
 	  successors/mace_fetters_of_hellas
-	  successors/mace_antigonid_reform
+	  successors/mace_antigonid_early_reform
+	  successors/mace_antigonid_late_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

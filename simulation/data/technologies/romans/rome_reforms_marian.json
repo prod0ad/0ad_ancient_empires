@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "All Melee infantry units are replaced by Marian Legionary Champions.",
+	"tooltip": "All Melee infantry units are replaced by Marian Legionary Champions. Unlocks the Auxiliary Camp.",
 	"modifications": [
 	{"value": "Promotion/RequiredXp", "replace": 0}
 	],

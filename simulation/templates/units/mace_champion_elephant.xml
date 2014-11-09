@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_elephant_melee">
+  <Identity>
+    <Civ>mace</Civ>
+	<GenericName>Towered War Elephant</GenericName>
+    <SpecificName>Polémou Eléphantos</SpecificName>
+	<Classes datatype="tokens">Mercenary</Classes>		
+    <Icon>units/ptol_champion_elephant.png</Icon>
+    <History>Macedonian armies since Alexander's Indian campaigns often included War Elephants and the Antigonids even brought a number of those beasts to Europe.</History>
+    <RequiredTechnology>successors/mace_antigonid_early_reform</RequiredTechnology>			
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/champion_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

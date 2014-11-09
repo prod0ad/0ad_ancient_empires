@@ -18,8 +18,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/gaul_infantry_spearman_b
-      units/gaul_infantry_javelinist_b
-      units/gaul_cavalry_javelinist_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -31,9 +31,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/rome_infantry_swordsman_b
-      units/rome_infantry_javelinist_b
-      units/rome_cavalry_spearman_b
+      units/rome_infantry_spearman_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

@@ -11,8 +11,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/mace_infantry_spearman_b
-      units/mace_infantry_javelinist_b
-      units/mace_cavalry_spearman_b
     </Entities>
   </ProductionQueue>
   <VisualActor>

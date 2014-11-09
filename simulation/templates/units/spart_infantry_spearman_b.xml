@@ -11,7 +11,9 @@
   <Builder>
     <Entities datatype="tokens">
 	  structures/spart_syssiton
-      structures/spart_theatron
+	  structures/spart_syssiton
+      structures/spart_wonder
+      structures/spart_mercenary_camp	  
       -structures/{civ}_wallset_stone
     </Entities>
   </Builder>

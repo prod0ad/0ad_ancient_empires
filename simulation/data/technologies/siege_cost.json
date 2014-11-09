@@ -10,7 +10,7 @@
 	"modifications": [
 	    {"value": "Cost/Resources/wood", "multiply": 0.75},
 	    {"value": "Cost/Resources/metal", "multiply": 0.75},
-		{"value": "Cost/Resources/metal", "multiply": 0.75}
+		{"value": "Cost/Resources/stone", "multiply": 0.75}
 	],
 	"affects": ["Siege"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
