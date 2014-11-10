@@ -13,6 +13,8 @@ MISC CHANGES
 - Many new/changed techs (wip).
 - All mercenary units cost food+metal and train faster.
 - Mercenary Camps for most factions allowing for unique strategies.
+- Redesigned Blacksmith.
+- houses +50% vision and -25% hit points.
 
 
 CARTHAGE
