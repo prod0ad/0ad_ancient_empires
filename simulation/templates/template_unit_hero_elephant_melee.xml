@@ -1,39 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
   <Armour>
-    <Hack>10</Hack>
-    <Pierce>10</Pierce>
+    <Hack>15</Hack>
+    <Pierce>15</Pierce>
     <Crush>12</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>17.5</Hack>
-      <Pierce>0</Pierce>
-      <Crush>25.0</Crush>
+      <Hack>0</Hack>
+      <Pierce>40</Pierce>
+      <Crush>80</Crush>
       <MaxRange>8.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-	  <Bonuses>
-		<BonusStructures>
-		  <Classes>Structure</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</BonusStructures>
-		<BonusCav>
-		  <Classes>Cavalry</Classes>
-		  <Multiplier>2</Multiplier>
-		</BonusCav>
-		<BonusGates>
-		  <Classes>Gates</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</BonusGates>
-	  </Bonuses>
-    </Melee>
+      <RepeatTime>1500</RepeatTime>
   </Attack>
   <Cost>
-    <Population>3</Population>
+    <Population>6</Population>
     <BuildTime>60</BuildTime>
     <Resources>
       <food>500</food>
-      <metal>500</metal>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>300</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -60,14 +47,14 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>8.5</WalkSpeed>
+    <WalkSpeed>10</WalkSpeed>
     <Run>
-      <Speed>14.0</Speed>
+      <Speed>18.0</Speed>
       <Range>1000.0</Range>
       <RangeMin>10.0</RangeMin>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>90</Range>
   </Vision>
 </Entity>

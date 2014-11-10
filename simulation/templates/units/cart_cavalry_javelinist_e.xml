@@ -7,10 +7,10 @@
   </Armour>
   <Attack>
     <Ranged>
-      <MaxRange>48</MaxRange>
+      <MaxRange>34</MaxRange>
       <Spread>1.0</Spread>
     </Ranged>
-  </Attack>
+  </Attack>  
   <Health>
     <Max>160</Max>
   </Health>

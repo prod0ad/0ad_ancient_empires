@@ -5,10 +5,10 @@
       <Type>global</Type>
       <Affects>Pike</Affects>
       <Modifications>
-        <Health.Max> <Multiply>1.40</Multiply> </Health.Max>
+        <Health.Max> <Multiply>1.20</Multiply> </Health.Max>
       </Modifications>
       <AuraName>Raphia Aura</AuraName>
-      <AuraDescription>Egyptian Pikemen have 40% greater health during his lifetime.</AuraDescription>
+      <AuraDescription>Egyptian Pikemen have 20% greater health during his lifetime.</AuraDescription>
 	</Aura1>
   </Auras>
   <Identity>

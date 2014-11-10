@@ -3,18 +3,22 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>17.5</Pierce>
+      <Pierce>24</Pierce>
       <Crush>0</Crush>
-      <MaxRange>40</MaxRange>
-      <ProjectileSpeed>50.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
+      <MaxRange>30</MaxRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
+    <Population>2</Population>
+    <BuildTime>16</BuildTime>  
     <Resources>
       <food>100</food>
       <wood>40</wood>
+	  <metal>0</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
   <Health>
@@ -31,10 +35,4 @@
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
-  <UnitMotion>
-    <WalkSpeed>17.5</WalkSpeed>
-    <Run>
-      <Speed>28.0</Speed>
-    </Run>
-  </UnitMotion>
 </Entity>

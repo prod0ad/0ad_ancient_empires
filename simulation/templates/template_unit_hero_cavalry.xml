@@ -6,7 +6,8 @@
     <Crush>8</Crush>
   </Armour>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <Population>4</Population>
+    <BuildTime>45</BuildTime>
     <Resources>
       <food>100</food>
       <wood>0</wood>
@@ -51,7 +52,7 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16.5</WalkSpeed>
+    <WalkSpeed>16</WalkSpeed>
     <Run>
       <Speed>26.0</Speed>
       <Range>1000.0</Range>
@@ -59,6 +60,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>70</Range>
+    <Range>90</Range>
   </Vision>
 </Entity>

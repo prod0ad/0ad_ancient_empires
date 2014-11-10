@@ -2,28 +2,37 @@
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Armour>
     <Hack>5</Hack>
-    <Pierce>7</Pierce>
-    <Crush>8</Crush>
+    <Pierce>3</Pierce>
+    <Crush>3</Crush>
   </Armour>
   <Attack>
     <Ranged>
-      <Pierce>31</Pierce>
+      <Hack>0</Hack>
+      <Pierce>16</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>60</MaxRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>18</BuildTime>
+    <Population>4</Population>
+    <BuildTime>30</BuildTime>  
     <Resources>
-      <food>150</food>
+      <food>250</food>
       <wood>100</wood>
+	  <metal>0</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
+  <Health>
+    <Max>300</Max>
+  </Health>  
   <Footprint replace="">
     <Square width="5.5" depth="10.0"/>
     <Height>5.0</Height>
   </Footprint>
-  <Health>
-    <Max>220</Max>
-  </Health>
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Chariot</Classes>
@@ -32,8 +41,6 @@
     <SpecificName>Babiruviya Ratha</SpecificName>
     <History>Chariots were obsolete by the 5th and 4th centuries BC, but they were viewed as symbols of rank and class, hence their continued deployment on the battlefield in extremely limited roles well after their obsolescence. The crew was made up of an archer and a driver who rode in an armored car equipped with scythe-like blades underneath the chassis and the axels themselves sported a pair of the deadly knives.</History>
 	<Icon>units/pers_cavalry_archer.png</Icon>
-    <Tooltip>Classes: Ranged Cavalry Chariot Archer.
-Causes trample damage to enemy units.</Tooltip>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
@@ -56,7 +63,7 @@ Causes trample damage to enemy units.</Tooltip>
     </Capacities>
   </ResourceGatherer>
   <UnitMotion>
-    <WalkSpeed>18.5</WalkSpeed>
+    <WalkSpeed>18</WalkSpeed>
     <Run>
       <Speed>35.0</Speed>
     </Run>

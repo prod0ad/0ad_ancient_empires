@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry">
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>8</Pierce>
+    <Hack>7</Hack>
+    <Pierce>7</Pierce>
     <Crush>8</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>25.5</Hack>
-      <Pierce>0</Pierce>
+      <Hack>10</Hack>
+      <Pierce>70</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>6.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
+      <MaxRange>7.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Organic Siege</PreferredClasses>
     </Melee>
   </Attack>

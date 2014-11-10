@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/ptol_cavalry_archer_b">
   <Armour>
-    <Hack>2</Hack>
+    <Hack>4</Hack>
     <Pierce>2</Pierce>
-    <Crush>3</Crush>
+    <Crush>4</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Spread>1.3</Spread>
-      <MaxRange>60.0</MaxRange>
+      <MaxRange>62.0</MaxRange>
       <MinRange>16.0</MinRange>
     </Ranged>
   </Attack>
@@ -28,12 +28,6 @@
     <MaxDistance>3.0</MaxDistance>
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>13.5</WalkSpeed>
-    <Run>
-      <Speed>30.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/ptolemies/cavalry_archer_a.xml</Actor>
   </VisualActor>

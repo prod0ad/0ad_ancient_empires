@@ -3,22 +3,26 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>17.5</Pierce>
+      <Pierce>16</Pierce>
       <Crush>0</Crush>
-      <MaxRange>56.0</MaxRange>
+      <MaxRange>60</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
+    <Population>2</Population>
+    <BuildTime>25</BuildTime>  
     <Resources>
       <food>100</food>
       <wood>30</wood>
+	  <metal>0</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
   <Health>
-    <Max>150</Max>
+    <Max>130</Max>
   </Health>
   <Identity>
 	<VisibleClasses datatype="tokens">Archer</VisibleClasses>
@@ -31,10 +35,4 @@
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
-  <UnitMotion>
-    <WalkSpeed>17.5</WalkSpeed>
-    <Run>
-      <Speed>28.0</Speed>
-    </Run>
-  </UnitMotion>
 </Entity>

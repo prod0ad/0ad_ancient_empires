@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Ranged>
-      <MaxRange>48</MaxRange>
+      <MaxRange>34</MaxRange>
       <Spread>1.0</Spread>
     </Ranged>
   </Attack>
@@ -21,12 +21,6 @@
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>16.5</WalkSpeed>
-    <Run>
-      <Speed>26.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/romans/cavalry_javelinist_e.xml</Actor>
   </VisualActor>
