@@ -8,14 +8,14 @@
   <Attack>
     <Ranged>
       <Spread>0.9</Spread>
-      <MaxRange>52</MaxRange>
+      <MaxRange>62</MaxRange>
     </Ranged>
   </Attack>
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Health>
-    <Max>100</Max>
+    <Max>80</Max>
   </Health>
   <Promotion>
     <Entity>units/gaul_infantry_slinger_e</Entity>
@@ -23,12 +23,6 @@
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>22.44</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/celts/infantry_slinger_a.xml</Actor>
   </VisualActor>

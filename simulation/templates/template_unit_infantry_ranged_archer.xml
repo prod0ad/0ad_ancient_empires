@@ -8,9 +8,9 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>13.5</Pierce>
+      <Pierce>8</Pierce>
       <Crush>0</Crush>
-      <MaxRange>50.0</MaxRange>
+      <MaxRange>60.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1000</PrepareTime>
@@ -18,6 +18,7 @@
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime>12</BuildTime>	  
     <Resources>
       <food>50</food>
       <wood>30</wood>
@@ -39,7 +40,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
+    <WalkSpeed>10</WalkSpeed>
     <Run>
       <Speed>17.0</Speed>
     </Run>

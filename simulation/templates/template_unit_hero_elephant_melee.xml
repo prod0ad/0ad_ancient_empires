@@ -12,6 +12,7 @@
       <Crush>80</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
+    </Melee> 
   </Attack>
   <Cost>
     <Population>6</Population>

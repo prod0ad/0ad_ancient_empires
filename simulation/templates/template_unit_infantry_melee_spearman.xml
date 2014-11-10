@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>4</Pierce>
-    <Crush>3</Crush>
+    <Hack>3</Hack>
+    <Pierce>3</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>4.5</Hack>
-      <Pierce>8.5</Pierce>
+      <Hack>2</Hack>
+      <Pierce>6</Pierce>
+      <MaxRange>6.0</MaxRange>	  
     </Melee>
     <Charge>
-      <Hack>12.0</Hack>
-      <Pierce>24.0</Pierce>
+      <Hack>6</Hack>
+      <Pierce>12</Pierce>
+      <MaxRange>6.0</MaxRange>	 	  
     </Charge>
   </Attack>
   <Cost>
@@ -32,9 +34,9 @@
     <wood>5</wood>
   </Loot>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>8</WalkSpeed>
     <Run>
-      <Speed>15.0</Speed>
+      <Speed>16</Speed>
     </Run>
   </UnitMotion>
 </Entity>

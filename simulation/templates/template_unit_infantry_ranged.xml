@@ -20,7 +20,7 @@
     </Ranged>
   </Attack>
   <Health>
-    <Max>80</Max>
+    <Max>70</Max>
   </Health>
   <Identity>
     <GenericName>Ranged</GenericName>
@@ -29,9 +29,6 @@
       formations/skirmish
     </Formations>
   </Identity>
-  <Promotion>
-    <RequiredXp>150</RequiredXp>
-  </Promotion>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

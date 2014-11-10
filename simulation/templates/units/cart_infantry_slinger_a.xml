@@ -8,11 +8,11 @@
   <Attack>
     <Ranged>
       <Spread>0.9</Spread>
-      <MaxRange>52.0</MaxRange>
+      <MaxRange>62.0</MaxRange>
     </Ranged>
   </Attack>
   <Health>
-    <Max>100</Max>
+    <Max>80</Max>
   </Health>
   <Identity>
     <Rank>Advanced</Rank>
@@ -23,12 +23,6 @@
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>21.6</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/carthaginians/infantry_slinger_a.xml</Actor>
   </VisualActor>

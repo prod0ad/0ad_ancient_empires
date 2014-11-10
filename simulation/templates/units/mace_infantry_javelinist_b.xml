@@ -9,11 +9,6 @@
 	  structures/mace_mercenary_camp
     </Entities>
   </Builder>
-  <Cost>
-    <Resources>
-      <wood>50</wood>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>mace</Civ>
 	<SelectionGroupName>units/mace_infantry_javelinist_b</SelectionGroupName>
@@ -25,12 +20,6 @@
   <Promotion>
     <Entity>units/mace_infantry_javelinist_a</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>12.5</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_javelinist_b.xml</Actor>
   </VisualActor>

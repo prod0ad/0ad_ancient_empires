@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_pikeman">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>1</Pierce>
+    <Hack>3</Hack>
+    <Pierce>2</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
       <Hack>2</Hack>
-      <Pierce>8</Pierce>
+      <Pierce>10</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>1000</RepeatTime>

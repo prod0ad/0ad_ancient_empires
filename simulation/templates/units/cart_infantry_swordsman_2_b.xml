@@ -9,12 +9,6 @@
       structures/{civ}_wonder
     </Entities>
   </Builder>
-  <Cost>
-    <Resources>
-      <food>0</food>
-	  <metal>100</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_infantry_swordsman_2_b</SelectionGroupName>

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/ptol_infantry_spearman_a">
   <Armour>
-    <Hack>10</Hack>
-    <Pierce>8</Pierce>
-    <Crush>7</Crush>
+    <Hack>5</Hack>
+    <Pierce>4</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>5</Hack>
+      <Hack>4</Hack>
+      <Pierce>10</Pierce>
+      <MaxRange>8.0</MaxRange>
     </Melee>
     <Charge>
-      <Hack>14.0</Hack>
+      <Hack>4</Hack>
+      <Pierce>16</Pierce>
+      <MaxRange>8.0</MaxRange>
     </Charge>
   </Attack>
   <Health>
@@ -26,12 +30,6 @@
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>7</WalkSpeed>
-    <Run>
-      <Speed>11.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_spearman_e.xml</Actor>
   </VisualActor>
