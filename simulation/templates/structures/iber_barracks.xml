@@ -22,6 +22,9 @@
       units/iber_cavalry_javelinist_b
 	  units/iber_champion_cavalry_barracks
     </Entities>
+	<Technologies datatype="tokens">
+      training_conscription
+    </Technologies>	
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberians/barracks.xml</Actor>

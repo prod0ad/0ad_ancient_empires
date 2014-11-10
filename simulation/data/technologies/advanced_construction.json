@@ -1,6 +1,5 @@
 {
 	"genericName": "Advanced Construction",
-	"description": "Using geometric masonry increases the sturdiness of defensive walls.",
 	"cost": {"food": 1000, "wood": 1000, "stone": 1000, "metal": 500},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
@@ -11,7 +10,7 @@
 		{"value": "Health/Max", "multiply": 1.2},
 		{"value": "Armour/Hack", "add": 2.0},
 		{"value": "Armour/Pierce", "add": 2.0},
-		{"value": "Armour/Crush", "add": 2.0},		
+		{"value": "Armour/Crush", "add": 2.0}		
 	],
 	"affects": ["Structure"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

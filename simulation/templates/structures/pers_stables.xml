@@ -36,8 +36,6 @@
       units/pers_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-	  -training_conscription
-	  -unlock_champion_units
 	  persians/training_conscription_cavalry
 	  successors/special_war_horses
     </Technologies>

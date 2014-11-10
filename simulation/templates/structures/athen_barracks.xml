@@ -31,7 +31,8 @@
       units/athen_cavalry_javelinist_b
     </Entities>
     <Technologies datatype="tokens">
-	  hellenes/pair_hoplites	 
+	  hellenes/pair_hoplites
+	  training_conscription  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

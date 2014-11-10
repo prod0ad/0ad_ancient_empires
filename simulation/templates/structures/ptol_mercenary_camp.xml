@@ -41,8 +41,6 @@
       units/ptol_cavalry_javelinist_b	  
     </Entities>
     <Technologies datatype="tokens">
-	  -unlock_champion_units
-      -training_conscription
 	  pair_merc
 	  successors/ptol_merc_army
     </Technologies>

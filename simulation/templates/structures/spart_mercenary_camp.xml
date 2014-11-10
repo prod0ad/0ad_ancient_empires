@@ -40,8 +40,6 @@
 	  units/spart_infantry_javelinist_2_b  
     </Entities>
     <Technologies datatype="tokens">
-	  -unlock_champion_units
-      -training_conscription
 	  pair_merc
     </Technologies>
   </ProductionQueue>

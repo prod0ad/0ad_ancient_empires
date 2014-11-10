@@ -29,6 +29,7 @@
 	  units/gaul_champion_cavalry_barracks
     </Entities>
 	<Technologies datatype="tokens">
+      training_conscription	
     celts/health_regen_gaul_cav
     </Technologies>
   </ProductionQueue>

@@ -29,7 +29,7 @@
 	  units/ptol_champion_infantry_pikeman
     </Entities>
     <Technologies datatype="tokens">
-	  -unlock_champion_units
+      training_conscription
 	  successors/ptol_reforms_machimoi
 	  successors/ptol_reforms_roman
     </Technologies>

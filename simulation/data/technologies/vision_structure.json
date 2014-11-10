@@ -1,0 +1,12 @@
+{
+	"genericName": "Town Watch",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "walk.png",
+	"researchTime": 40,
+	"tooltip": "Vision Range +25% for all structures.",
+	"modifications": [{"value": "Vision/Range", "multiply": 1.25}],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

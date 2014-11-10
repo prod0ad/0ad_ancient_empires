@@ -30,7 +30,7 @@
       units/rome_cavalry_javelinist_b		  
     </Entities>
 	<Technologies datatype="tokens">
-      -unlock_champion_units
+      training_conscription
 	  romans/gladius_hispaniensis
 	  romans/logistics
     </Technologies>

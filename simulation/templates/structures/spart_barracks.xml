@@ -29,7 +29,7 @@
 	  units/spart_champion_infantry_pike
     </Entities>
     <Technologies datatype="tokens">
-	  -unlock_champion_units
+      training_conscription
     </Technologies>
   </ProductionQueue>
   <VisualActor>
