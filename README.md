@@ -1,8 +1,8 @@
 0 A.D: Ancient Empires
 ===================
 
-A mod for the RTS Game 0 A.D.
-To install you need the SVN version of 0 A.D.
+Work in progress mod for the RTS Game 0 A.D.
+To install you need the SVN version of the game.
 "Download Zip" -> Unzip it into binary/data/mods of your SVN installation.
 
 MISC CHANGES
@@ -14,6 +14,7 @@ MISC CHANGES
 - All mercenary units cost food+metal and train faster.
 - Mercenary Camps for most factions allowing for unique strategies.
 - Redesigned Blacksmith.
+- Redesigned Dock (wip)
 - houses +50% vision and -25% hit points.
 
 
