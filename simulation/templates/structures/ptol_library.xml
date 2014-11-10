@@ -25,6 +25,7 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
 	  advanced_construction
+	  fire_arrows  	  
       successors/special_hellenistic_metropolis
 	  successors/ptol_advanced_engineering
     </Technologies>

@@ -1,5 +1,5 @@
 {
-	"genericName": "Advanced Construction",
+	"genericName": "Architecture",
 	"cost": {"food": 1000, "wood": 1000, "stone": 1000, "metal": 500},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",

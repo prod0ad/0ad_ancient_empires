@@ -22,6 +22,7 @@
     </Entities>
 	<Technologies datatype="tokens">
     hellenes/athen_chorigoi
+	expert_sailors
     </Technologies>
   </ProductionQueue>
   <VisualActor>

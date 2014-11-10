@@ -1,0 +1,18 @@
+{
+	"genericName": "Fanaticism",
+	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "+10% all resource gather rates and attack for Citizen Soldiers.",
+	"modifications": [
+	{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.10},
+	{"value": "Attack/Melee/Hack", "multiply": 1.10},
+	{"value": "Attack/Melee/Pierce", "multiply": 1.10},
+	{"value": "Attack/Melee/Crush", "multiply": 1.10},
+	{"value": "Attack/Ranged/Pierce", "multiply": 1.10},
+	{"value": "Attack/Ranged/Crush", "multiply": 1.10}
+	],
+	"affects": ["Citizen Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

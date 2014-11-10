@@ -1,10 +1,10 @@
 {
 	"genericName": "Cavalry Breeding",
 	"description": "Breed the fastest horses.",
-	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 150},
+	"cost": {"food": 500, "wood": 250, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "nisean_war_horses.png",
+	"icon": "horse_trainer.png",
 	"researchTime": 40,
 	"tooltip": "+10% cavalry walk speed.",
 	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.1}],

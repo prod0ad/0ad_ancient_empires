@@ -25,6 +25,7 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
 	  advanced_construction
+	  fire_arrows  	  
       romans/imported_construction_technology
     </Technologies>
   </ProductionQueue>

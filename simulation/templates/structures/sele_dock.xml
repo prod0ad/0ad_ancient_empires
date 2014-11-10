@@ -21,6 +21,9 @@
       units/sele_ship_trireme
       units/sele_ship_quinquereme
     </Entities>
+    <Technologies datatype="tokens">
+      successors/naval_prestige
+    </Technologies>		
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/macedonians/dock.xml</Actor>

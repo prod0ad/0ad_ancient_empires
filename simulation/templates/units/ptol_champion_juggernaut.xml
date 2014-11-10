@@ -18,7 +18,7 @@
     <Civ>ptol</Civ>
 	<GenericName>Juggernaut</GenericName>
     <SpecificName>Tessarakonterēs</SpecificName>
-    <Classes datatype="tokens">Juggernaut</Classes>
+    <Classes datatype="tokens">Juggernaut Polireme</Classes>
     <Icon>units/rome_ship_quinquereme.png</Icon>
   </Identity>
   <TrainingRestrictions>

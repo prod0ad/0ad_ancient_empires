@@ -1,6 +1,5 @@
 {
-	"genericName": "Reform Army",
-	"description": "The reform army of the Seleucids.",
+	"genericName": "Cavalry Reform",
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "sele"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",

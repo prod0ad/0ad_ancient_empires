@@ -22,6 +22,10 @@
       units/ptol_ship_quinquereme
       units/ptol_champion_juggernaut
     </Entities>
+    <Technologies datatype="tokens">
+      successors/naval_prestige
+	  expert_sailors
+    </Technologies>		
   </ProductionQueue>
   <ResourceTrickle>
 	<FoodRate>0.5</FoodRate>

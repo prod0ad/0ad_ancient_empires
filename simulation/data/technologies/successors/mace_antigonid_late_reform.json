@@ -2,7 +2,7 @@
 	"genericName": "Late Antigonid Reform",
 	"description": "The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly kestros sling.",
 	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 1000},
-	"requirements": {"tech": "mace_antigonid_early_reform"},
+	"requirements": {"tech": "successors/mace_antigonid_early_reform"},
 	"requirementsTooltip": "Requires Early Antigonid Reform.",
 	"icon": "javelin_thong.png",
 	"researchTime": 60,
