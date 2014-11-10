@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_swordsman">
-  <Cost>
-    <Resources>
-      <food>50</food>
-      <metal>60</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_cavalry_swordsman_b</SelectionGroupName>

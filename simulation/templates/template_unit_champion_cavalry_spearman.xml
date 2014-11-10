@@ -7,31 +7,35 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>7</Hack>
-      <Pierce>50.5</Pierce>
+      <Hack>10</Hack>
+      <Pierce>50</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
-      <RepeatTime>2250</RepeatTime>
+      <MaxRange>6.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
     <Charge>
-      <Hack>7.5</Hack>
-      <Pierce>120.0</Pierce>
+      <Hack>10</Hack>
+      <Pierce>100.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>6.0</MaxRange>
       <MinRange>0.0</MinRange>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Charge>
   </Attack>
+  <Health>
+    <Max>375</Max>
+  </Health>
   <Cost>
-    <BuildTime>16</BuildTime>
+    <Population>3</Population>  
+    <BuildTime>30</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <food>100</food>
+      <wood>0</wood>
+	  <metal>200</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
-  <Health>
-    <Max>230</Max>
-  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Champion Cavalry Spearman</GenericName>

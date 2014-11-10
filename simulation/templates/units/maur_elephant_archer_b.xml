@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Armour>
-    <Hack>6</Hack>
+    <Hack>10</Hack>
     <Pierce>10</Pierce>
-    <Crush>10</Crush>
+    <Crush>7</Crush>
   </Armour>
+  <Attack>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>8</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>60.0</MaxRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Ranged>
+  </Attack> 
   <Cost>
-    <BuildTime>20</BuildTime>
+    <Population>5</Population>
+    <BuildTime>42</BuildTime>
     <Resources>
-      <food>150</food>
+      <food>400</food>
       <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -17,7 +31,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>330</Max>
+    <Max>625</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>
@@ -27,7 +41,7 @@
     <SpecificName>Vachii Gaja</SpecificName>
     <Icon>units/maur_cavalry_archer.png</Icon>
     <History>Elephant Archer.</History>
-    <Tooltip>Can run amok.</Tooltip>
+    <Tooltip>Tough ranged unit that greatly increases it's attack through advancing ranks and adding new archers.</Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/maur_elephant_archer_a</Entity>
@@ -50,13 +64,13 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>7.5</WalkSpeed>
+    <WalkSpeed>9</WalkSpeed>
     <Run>
-      <Speed>12.0</Speed>
+      <Speed>18.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>84</Range>
+    <Range>90</Range>
   </Vision>
   <VisualActor>
     <Actor>units/mauryans/elephant_archer_b.xml</Actor>

@@ -2,15 +2,15 @@
 <Entity parent="units/brit_war_dog_b">
   <Armour>
     <Hack>2</Hack>
-    <Pierce>3</Pierce>
-    <Crush>2</Crush>
+    <Pierce>2</Pierce>
+    <Crush>3</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>12</Hack>
+      <Hack>7</Hack>
     </Melee>
     <Charge>
-      <Hack>51.0</Hack>
+      <Hack>14.0</Hack>
     </Charge>
   </Attack>
   <Identity>
@@ -19,12 +19,6 @@
   <Promotion>
     <Entity>units/brit_war_dog_e</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>14</WalkSpeed>
-    <Run>
-      <Speed>25</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/celts/cavalry_spearman_a.xml</Actor>
   </VisualActor>

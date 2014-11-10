@@ -14,10 +14,10 @@
     </Slaughter>
   </Attack>
   <Cost>
-    <Population>1</Population>
-    <BuildTime>12</BuildTime>
+    <Population>2</Population>
+    <BuildTime>20</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>100</food>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -25,7 +25,7 @@
     <Height>7.5</Height>
   </Footprint>
   <Health>
-    <Max>150</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Organic</Classes>
@@ -37,7 +37,7 @@
     </Formations>
   </Identity>
   <Loot>
-    <xp>130</xp>
+    <xp>200</xp>
     <food>10</food>
     <wood>0</wood>
     <stone>0</stone>
@@ -94,7 +94,7 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16.5</WalkSpeed>
+    <WalkSpeed>16</WalkSpeed>
     <Run>
       <Speed>26.0</Speed>
       <Range>600.0</Range>
@@ -102,6 +102,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>96</Range>
+    <Range>80</Range>
   </Vision>
 </Entity>

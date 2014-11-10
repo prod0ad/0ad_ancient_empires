@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_swordsman">
-  <Cost>
-    <Resources>
-      <food>50</food>
-      <metal>60</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>cart</Civ>
 	<SelectionGroupName>units/cart_cavalry_swordsman_2_b</SelectionGroupName>
@@ -18,12 +12,6 @@
   <Promotion>
     <Entity>units/cart_cavalry_swordsman_2_a</Entity>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>15.5</WalkSpeed>
-    <Run>
-      <Speed>24.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_b.xml</Actor>
   </VisualActor>

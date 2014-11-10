@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>10</Pierce>
-    <Crush>10</Crush>
+    <Hack>12</Hack>
+    <Pierce>12</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Cost>
-    <Population>3</Population>
-    <BuildTime>20</BuildTime>
+    <Population>5</Population>
+    <BuildTime>45</BuildTime>
     <Resources>
-      <food>250</food>
+      <food>400</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>250</metal>
+      <metal>200</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -62,15 +62,15 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>8.5</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>14.0</Speed>
+      <Speed>20.0</Speed>
       <Range>1000.0</Range>
       <RangeMin>10.0</RangeMin>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>90</Range>
   </Vision>
   <VisualActor>
     <Actor>units/mauryans/champion_elephant.xml</Actor>

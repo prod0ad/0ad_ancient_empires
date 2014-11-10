@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_pikeman">
- <Armour>
-    <Hack>9</Hack>
-    <Pierce>7</Pierce>
+  <Armour>
+    <Hack>2</Hack>
+    <Pierce>1</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>4.5</Hack>
-      <Pierce>6</Pierce>
+      <Hack>2</Hack>
+      <Pierce>8</Pierce>
+      <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
+      <RepeatTime>1000</RepeatTime>
     </Melee>
     <Charge>
-      <Hack>12.0</Hack>
+      <Hack>4</Hack>
+      <Pierce>16</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>8.0</MaxRange>
+      <MinRange>0.0</MinRange>
     </Charge>
   </Attack>
     <Cost>
@@ -25,7 +31,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>130</Max>
+    <Max>120</Max>
   </Health>
   <Identity>
     <Civ>ptol</Civ>
@@ -40,9 +46,9 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>
     <UnitMotion>
-    <WalkSpeed>7.5</WalkSpeed>
+    <WalkSpeed>7</WalkSpeed>
     <Run>
-      <Speed>12.0</Speed>
+      <Speed>14</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

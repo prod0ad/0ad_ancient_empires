@@ -7,9 +7,9 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>150</xp>
-    <food>10</food>
-    <wood>10</wood>
+    <xp>200</xp>
+    <food>0</food>
+    <wood>0</wood>
     <stone>0</stone>
     <metal>20</metal>
   </Loot>

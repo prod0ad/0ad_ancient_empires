@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>7</Pierce>
+    <Crush>6</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>5</Hack>
+      <Pierce>15</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>7.0</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+    <Charge>
+      <Hack>10</Hack>
+      <Pierce>30</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>7.0</MaxRange>
+      <MinRange>0.0</MinRange>
+    </Charge>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>athen</Civ>
 	<GenericName>Chosen Hoplite</GenericName>
@@ -10,7 +41,7 @@
   <UnitMotion>
     <WalkSpeed>10</WalkSpeed>
     <Run>
-      <Speed>16.0</Speed>
+      <Speed>18.0</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

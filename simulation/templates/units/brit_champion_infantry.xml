@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
+  <Armour>
+    <Hack>6</Hack>
+    <Pierce>6</Pierce>
+    <Crush>6</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>40</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>5.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+    <Charge>
+      <Hack>80.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>5.0</MaxRange>
+      <MinRange>0.0</MinRange>
+    </Charge>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>120</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>brit</Civ>
     <GenericName>Brythonic Longswordsman</GenericName>

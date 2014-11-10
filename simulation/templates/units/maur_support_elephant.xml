@@ -10,9 +10,10 @@
     <Entities datatype="tokens"/>
   </Builder>
   <Cost>
+    <Population>2</Population>  
     <BuildTime>20</BuildTime>
     <Resources>
-      <food>150</food>
+      <food>200</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -20,7 +21,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>300</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>
@@ -33,7 +34,7 @@
     <Formations disable=""/>
   </Identity>
   <Loot>
-    <xp>50</xp>
+    <xp>100</xp>
     <food>25</food>
     <wood>10</wood>
     <stone>10</stone>

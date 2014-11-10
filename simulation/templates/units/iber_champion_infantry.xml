@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>6</Pierce>
+    <Crush>6</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>80</metal>
+    </Resources>
+  </Cost>    
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Leial Ezpatari</SpecificName>
     <Icon>units/iber_champion_infantry.png</Icon>
 	<SelectionGroupName>units/iber_champion_infantry</SelectionGroupName>
     <History>The Devoted were war-hardened veterans of Iberian mercenaries hired out by foreign powers to fight in far-off conflicts. Fighting with and against diverse types of opponents, these men were deeply knowledgeable about various fighting styles and tactics. Once they had returned home from combat they were lavishly taken care of, rising to important positions in society.</History>
+	<Tooltip>Mobile Heavy Infantry.</Tooltip>	
   </Identity>
   <UnitMotion>
-    <WalkSpeed>11.5</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
     <Run>
-      <Speed>17.6</Speed>
+      <Speed>18</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

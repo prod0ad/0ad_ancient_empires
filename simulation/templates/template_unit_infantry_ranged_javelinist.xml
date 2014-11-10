@@ -20,7 +20,10 @@
   </Attack>
   <Cost>
     <Resources>
-      <wood>50</wood>
+      <food>50</food>
+      <wood>40</wood>
+	  <metal>0</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
   <Identity>

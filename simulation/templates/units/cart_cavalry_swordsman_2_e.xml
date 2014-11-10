@@ -7,14 +7,14 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>27</Hack>
+      <Hack>20</Hack>
     </Melee>
     <Charge>
-      <Hack>66.0</Hack>
+      <Hack>40</Hack>
     </Charge>
   </Attack>
   <Health>
-    <Max>170</Max>
+    <Max>220</Max>
   </Health>
   <Identity>
     <Rank>Elite</Rank>
@@ -23,12 +23,6 @@
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>14.5</WalkSpeed>
-    <Run>
-      <Speed>22.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_e.xml</Actor>
   </VisualActor>

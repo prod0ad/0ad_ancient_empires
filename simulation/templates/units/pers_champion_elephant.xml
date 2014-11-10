@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_elephant_melee">
+   <Attack>
+    <Melee>
+      <Hack>0</Hack>
+      <Pierce>40</Pierce>
+      <Crush>80.0</Crush>
+      <MaxRange>8.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+    <Charge>
+      <Hack>0</Hack>
+      <Pierce>80</Pierce>
+      <Crush>160</Crush>
+      <MaxRange>8.0</MaxRange>
+      <MinRange>0.0</MinRange>
+    </Charge>
+  </Attack> 
+  <Armour>
+    <Hack>13</Hack>
+    <Pierce>13</Pierce>
+    <Crush>7</Crush>
+  </Armour>
+  <Cost>
+    <Population>6</Population>
+    <BuildTime>52</BuildTime>
+    <Resources>
+      <food>500</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="3.5"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>825</Max>
+  </Health>
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Indian War Elephant</GenericName>
     <SpecificName>Hinduya Pila</SpecificName>
     <Icon>units/pers_war_elephant.png</Icon>
+	<Classes datatype="tokens">Mercenary</Classes>			
     <History>Elephants were rare sights in Persian armies but they were used and their effect on the battlefield could not be ignored. As their tusks and feet physically attacked the enemy, archers and javelin throwers launched projectiles from atop the animal's back. While huge, they could be just as much a threat to their own side and could be easily hamstrung. But their ability to stop a full-blown cavalry charge when in a line made up for any questions of effectiveness.</History>
   </Identity>
   <VisualActor>

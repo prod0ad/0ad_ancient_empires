@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>5</Pierce>
+    <Crush>6</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>0</Hack>
+      <Pierce>15</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>6.0</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+    <Charge>
+      <Hack>0</Hack>
+      <Pierce>30</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>6.0</MaxRange>
+      <MinRange>0.0</MinRange>
+    </Charge>
+  </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Persian Immortal</GenericName>
@@ -8,6 +39,12 @@
     <Icon>units/pers_champion_infantry.png</Icon>
     <History>The Anusiya (or "Attendants") were the elite of the Persian army, handsomely equipped with armor and weapons, including swords which were rare weapons in the normal ranks. A unit of 10,000 men, their number was always kept to full strength whenever a man was killed or wounded, resulting in their nickname, "The Immortals". They were ferocious fighters and well respected.</History>
   </Identity>
+   <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+    </Run>
+  </UnitMotion> 
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>
   </VisualActor>

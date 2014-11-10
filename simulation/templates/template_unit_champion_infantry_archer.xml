@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>4</Pierce>
+    <Hack>3</Hack>
+    <Pierce>3</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>22</Pierce>
+      <Pierce>16</Pierce>
       <Crush>0</Crush>
-      <MaxRange>58</MaxRange>
+      <MaxRange>66</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1000</PrepareTime>
@@ -20,12 +20,17 @@
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime>25</BuildTime>
+    <Population>2</Population>	
     <Resources>
-      <wood>100</wood>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>60</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>120</Max>
+    <Max>150</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
@@ -40,9 +45,12 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>10.5</WalkSpeed>
+    <WalkSpeed>10</WalkSpeed>
     <Run>
       <Speed>18.0</Speed>
     </Run>
   </UnitMotion>
+  <Vision>
+    <Range>70</Range>
+  </Vision>  
 </Entity>

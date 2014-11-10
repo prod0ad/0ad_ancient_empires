@@ -2,29 +2,28 @@
 <Entity parent="units/mace_champion_infantry_a">
   <Attack>
     <Melee>
-      <Hack>8.5</Hack>
-      <Pierce>17</Pierce>
+      <Hack>8</Hack>
+      <Pierce>16</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>6.0</MaxRange>
+      <RepeatTime>1000</RepeatTime>
     </Melee>
     <Charge>
-      <Hack>16.0</Hack>
-      <Pierce>48.0</Pierce>
+      <Hack>16</Hack>
+      <Pierce>32</Pierce>
+      <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
+      <MinRange>0.0</MinRange>
     </Charge>
   </Attack>
   <Health>
-    <Max>145</Max>
+    <Max>225</Max>
   </Health>
   <Identity>
     <SpecificName>Hypaspistes Argyraspides</SpecificName>
     <Icon>units/macedonian_argyraspidai.png</Icon>
   </Identity>
   <Promotion disable=""/>
-  <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>15.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/macedonians/mace_champion_argyraspis.xml</Actor>
   </VisualActor>

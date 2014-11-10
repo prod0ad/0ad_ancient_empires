@@ -2,30 +2,35 @@
 <Entity parent="template_unit_champion_infantry">
   <Armour>
     <Hack>4</Hack>
-    <Pierce>4</Pierce>
+    <Pierce>5</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>26.5</Pierce>
+      <Pierce>24</Pierce>
       <Crush>0</Crush>
-      <MaxRange>48</MaxRange>
+      <MaxRange>38</MaxRange>
       <MinRange>0.0</MinRange>
-      <ProjectileSpeed>50.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
       <Spread>1.1</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Cost>
+    <BuildTime>15</BuildTime>
+    <Population>2</Population>	
     <Resources>
-      <wood>100</wood>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>80</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>120</Max>
+    <Max>160</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
@@ -40,9 +45,12 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>10.5</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
     <Run>
       <Speed>18.0</Speed>
     </Run>
   </UnitMotion>
+  <Vision>
+    <Range>70</Range>
+  </Vision>    
 </Entity>

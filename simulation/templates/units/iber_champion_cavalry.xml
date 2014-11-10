@@ -2,16 +2,11 @@
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Attack>
     <Ranged>
-      <Pierce>0</Pierce>
-      <Crush>7</Crush>
-      <MaxRange>48</MaxRange>
+      <Pierce>30</Pierce>
+      <Crush>10</Crush>
+      <MaxRange>30</MaxRange>
     </Ranged>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>100</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Leial Zalduneria</SpecificName>
@@ -21,14 +16,6 @@
 	<Tooltip>Classes: Champion Ranged Cavalry Skirmisher.
 Special: Flaming javelins. Good vs. Buildings.</Tooltip>
   </Identity>
-  <UnitMotion>
-    <WalkSpeed>15.5</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-      <Range>1000.0</Range>
-      <RangeMin>10.0</RangeMin>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/iberians/champion_unit_2.xml</Actor>
   </VisualActor>

@@ -3,20 +3,20 @@
   <Armour>
     <Hack>5</Hack>
     <Pierce>3</Pierce>
-    <Crush>4</Crush>
+    <Crush>5</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>5.5</Hack>
-      <Pierce>10.5</Pierce>
+      <Hack>5</Hack>
+      <Pierce>29</Pierce>
     </Melee>
     <Charge>
-      <Hack>12.0</Hack>
-      <Pierce>24.0</Pierce>
+      <Hack>10</Hack>
+      <Pierce>58</Pierce>
     </Charge>
   </Attack>
   <Health>
-    <Max>160</Max>
+    <Max>210</Max>
   </Health>
   <Identity>
     <Rank>Advanced</Rank>
@@ -27,12 +27,6 @@
   <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
-    <Run>
-      <Speed>25.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/persians/cavalry_spearman_a.xml</Actor>
   </VisualActor>

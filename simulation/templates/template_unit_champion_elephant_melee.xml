@@ -2,21 +2,22 @@
 <Entity parent="template_unit_champion_elephant">
   <Attack>
     <Melee>
-      <Hack>28</Hack>
-      <Pierce>0</Pierce>
-      <Crush>40.0</Crush>
+      <Hack>0</Hack>
+      <Pierce>30</Pierce>
+      <Crush>60.0</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
     </Melee>
     <Charge>
-      <Hack>80.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>80.0</Crush>
+      <Hack>0</Hack>
+      <Pierce>60</Pierce>
+      <Crush>120</Crush>
       <MaxRange>8.0</MaxRange>
       <MinRange>0.0</MinRange>
     </Charge>
   </Attack>
   <Identity>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+    <Tooltip>Powerful unit especially strong versus Cavalry and Structures.</Tooltip>	
   </Identity>
 </Entity>

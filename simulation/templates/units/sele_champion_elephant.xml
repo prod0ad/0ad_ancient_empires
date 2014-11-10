@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_elephant_melee">
+   <Attack>
+    <Melee>
+      <Hack>0</Hack>
+      <Pierce>40</Pierce>
+      <Crush>80.0</Crush>
+      <MaxRange>8.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+    <Charge>
+      <Hack>0</Hack>
+      <Pierce>80</Pierce>
+      <Crush>160</Crush>
+      <MaxRange>8.0</MaxRange>
+      <MinRange>0.0</MinRange>
+    </Charge>
+  </Attack> 
+  <Armour>
+    <Hack>14</Hack>
+    <Pierce>14</Pierce>
+    <Crush>8</Crush>
+  </Armour>
+  <Cost>
+    <Population>6</Population>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <food>500</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="3.5"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
   <Identity>
     <Civ>sele</Civ>
     <GenericName>Armored War Elephant</GenericName>
@@ -8,6 +46,14 @@
     <History>The Seleucids, having access to the East, specifically India after the war with the Mauryans, imported gigantic war elephants to augment their phalanxes. The beasts were armoured and were used as giant battering rams to smash enemy infantry formations.</History>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
+   <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+      <Range>1000.0</Range>
+      <RangeMin>10.0</RangeMin>
+    </Run>
+  </UnitMotion> 
   <VisualActor>
     <Actor>units/seleucids/champion_elephant.xml</Actor>
   </VisualActor>
