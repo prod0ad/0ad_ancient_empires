@@ -24,13 +24,14 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/athen_infantry_spearman_b
-      units/athen_infantry_javelinist_b
-      units/athen_infantry_slinger_b
+      units/athen_infantry_javelinist_2_b		  
+      units/athen_infantry_slinger_b 
+	  units/athen_infantry_archer_2_b	  
       units/athen_cavalry_swordsman_b
       units/athen_cavalry_javelinist_b
     </Entities>
     <Technologies datatype="tokens">
-	  -unlock_champion_units
+	  hellenes/pair_hoplites	 
     </Technologies>
   </ProductionQueue>
   <VisualActor>

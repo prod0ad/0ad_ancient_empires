@@ -1,0 +1,17 @@
+{
+	"pair": "hellenes/athen_pair_1_ranged",	
+	"genericName": "Drilled Psiloi",
+	"cost": {"food": 150, "wood": 150, "stone": 150, "metal": 150},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "javelin_thong.png",
+	"researchTime": 40,
+	"tooltip": "Psiloi Archers, Slingers and Akontistes +10% attack but train 10% slower.",
+	"modifications": [
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.1},
+		{"value": "Cost/BuildTime", "multiply": 1.1}		
+	],
+	"affects": ["Psilos"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

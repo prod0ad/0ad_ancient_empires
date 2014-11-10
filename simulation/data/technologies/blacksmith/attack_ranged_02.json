@@ -1,0 +1,15 @@
+{
+	"genericName": "Advanced Missile Crafting",
+	"cost": {"food": 1000, "wood": 1000, "stone": 0, "metal": 500},
+	"supersedes": "blacksmith/attack_ranged_01",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "arrow_accuracy.png",
+	"researchTime": 40,
+	"tooltip": "+15% ranged infantry, ship and structure attack.",
+	"modifications": [{"value": "Attack/Ranged/Hack", "multiply": 1.15},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.15},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.15}],
+	"affects": ["Ranged","Ship","Defensive"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -47,10 +47,6 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      training_conscription
-      unlock_champion_units
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

@@ -8,7 +8,7 @@
 	},
 	"description": "Increases the healing range of all healers.",
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-	"supersedes": "heal_range_ptol",
+	"supersedes": "successors/heal_range_ptol",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "healing_range.png",

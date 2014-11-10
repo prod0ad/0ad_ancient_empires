@@ -42,6 +42,7 @@
     <Technologies datatype="tokens">
 	  -unlock_champion_units
       -training_conscription
+	  pair_merc
     </Technologies>
   </ProductionQueue>
   <Sound>

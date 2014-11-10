@@ -48,19 +48,16 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      attack_infantry_melee_01
-      attack_infantry_melee_02
-      attack_infantry_ranged_01
-      attack_infantry_ranged_02
-      attack_cavalry_melee_01
-      attack_cavalry_melee_02
-      attack_cavalry_ranged_01
-      attack_cavalry_ranged_02
-      armor_infantry_01
-      armor_infantry_02
-      armor_cav_01
-      armor_cav_02
-      armor_hero_01
+      blacksmith/attack_melee_01
+      blacksmith/attack_melee_02
+      blacksmith/attack_ranged_01
+      blacksmith/attack_ranged_02	
+      blacksmith/armor_infantry_01
+      blacksmith/armor_infantry_02
+      blacksmith/armor_infantry_ranged_01
+      blacksmith/armor_infantry_ranged_02
+      blacksmith/armor_cav_01
+      blacksmith/armor_cav_02
     </Technologies>
   </ProductionQueue>
   <Sound>

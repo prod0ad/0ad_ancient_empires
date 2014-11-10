@@ -8,7 +8,7 @@
 	},
 	"description": "Increases the Healing Rate of all healers.",
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
-	"supersedes": "heal_rate_ptol",
+	"supersedes": "successors/heal_rate_ptol",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "healing_rate.png",

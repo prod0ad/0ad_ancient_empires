@@ -1,0 +1,15 @@
+{
+	"pair": "hellenes/athen_pair_1_ranged",	
+	"genericName": "Mercenary Support Troops",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "special_treasure.png",
+	"researchTime": 40,
+	"tooltip": "Mercenaries Train 10% Faster.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.9}
+	],
+	"affects": ["Mercenary"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

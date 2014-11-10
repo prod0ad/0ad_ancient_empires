@@ -24,6 +24,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
+	  advanced_construction
       romans/imported_construction_technology
     </Technologies>
   </ProductionQueue>

@@ -1,0 +1,5 @@
+{
+	"genericName": "Cost vs. Time",
+	"top": "pair_merc_cost",
+	"bottom": "pair_merc_time"
+}

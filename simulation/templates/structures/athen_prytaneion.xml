@@ -26,6 +26,7 @@
     <Tooltip>Train heroes. Research special technologies.</Tooltip>
     <History>The Prytaneion is the meeting place for the city elders to dine and to make swift decisions.</History>
     <Icon>structures/tholos.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="30.0"/>
@@ -45,6 +46,7 @@
       units/athen_hero_iphicrates
     </Entities>
     <Technologies datatype="tokens">
+      hellenes/athen_pair_1_ranged
       hellenes/athen_long_walls
 	  hellenes/athen_imperialism
       hellenes/athen_iphicratean_reforms

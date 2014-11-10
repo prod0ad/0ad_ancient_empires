@@ -1,0 +1,14 @@
+{
+	"pair": "pair_merc",
+	"genericName": "Recruitment Agents",
+	"description": "Mercenaries have their train time decreased.",
+	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "helmet_corinthian_silver.png",
+	"researchTime": 40,
+	"tooltip": "-20% train time for Mercenaries.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.8}],
+	"affects": ["Mercenary"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
