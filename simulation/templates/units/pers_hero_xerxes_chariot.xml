@@ -16,7 +16,7 @@
   <Attack>
     <Ranged>
       <Pierce>26.5</Pierce>
-      <MaxRange>64.0</MaxRange>
+      <MaxRange>60.0</MaxRange>
       <MinRange>12.0</MinRange>
     </Ranged>
   </Attack>

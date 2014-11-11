@@ -8,11 +8,11 @@
   <Attack>
     <Ranged>
       <Spread>1.3</Spread>
-      <MaxRange>54.0</MaxRange>
+      <MaxRange>58.0</MaxRange>
     </Ranged>
   </Attack>
   <Health>
-    <Max>95</Max>
+    <Max>80</Max>
   </Health>
   <Identity>
     <Rank>Advanced</Rank>
@@ -26,12 +26,6 @@
   <Stamina>
     <Max>700</Max>
   </Stamina>
-  <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>19.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/ptolemies/infantry_archer_b.xml</Actor>
   </VisualActor>

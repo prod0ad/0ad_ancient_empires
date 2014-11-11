@@ -121,6 +121,6 @@
     <CostClass>infantry</CostClass>
   </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>60</Range>
   </Vision>
 </Entity>

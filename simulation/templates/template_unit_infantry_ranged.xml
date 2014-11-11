@@ -34,4 +34,7 @@
       <attack>attack/weapon/arrowfly.xml</attack>
     </SoundGroups>
   </Sound>
+  <Vision>
+    <Range>70</Range>
+  </Vision>  
 </Entity>

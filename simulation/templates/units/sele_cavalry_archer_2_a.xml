@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <Spread>1.3</Spread>
-      <MaxRange>62.0</MaxRange>
+      <MaxRange>58.0</MaxRange>
       <MinRange>16.0</MinRange>
     </Ranged>
   </Attack>

@@ -10,9 +10,12 @@
     </Entities>
   </Builder>
   <Cost>
+    <BuildTime>8</BuildTime>	  
     <Resources>
-      <food>0</food>
-      <metal>50</metal>
+      <food>50</food>
+      <wood>0</wood>
+	  <metal>30</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
   <Identity>

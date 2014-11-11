@@ -8,11 +8,11 @@
   <Attack>
     <Ranged>
       <Spread>1.0</Spread>
-      <MaxRange>58.0</MaxRange>
+      <MaxRange>60.0</MaxRange>
     </Ranged>
   </Attack>
   <Health>
-    <Max>105</Max>
+    <Max>90</Max>
   </Health>
   <Identity>
     <Rank>Elite</Rank>
@@ -24,12 +24,6 @@
   <Stamina>
     <Max>690</Max>
   </Stamina>
-  <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>16.75</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_archer_e.xml</Actor>
   </VisualActor>

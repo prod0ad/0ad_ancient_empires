@@ -7,6 +7,15 @@
 	  structures/sele_mercenary_camp
     </Entities>
   </Builder>
+  <Cost>
+    <BuildTime>8</BuildTime>	  
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+	  <metal>30</metal>
+      <stone>0</stone>	  
+    </Resources>
+  </Cost>  
   <Identity>
     <Civ>sele</Civ>
 	<SelectionGroupName>units/sele_infantry_archer_b</SelectionGroupName>
