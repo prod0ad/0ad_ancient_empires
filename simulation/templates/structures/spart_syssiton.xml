@@ -52,9 +52,7 @@
       units/spart_hero_agis
     </Entities>
     <Technologies datatype="tokens">
-	  hellenes/spart_tyrtean_paeans
-      hellenes/spartans_agoge
-	  hellenes/spart_cleom_reforms
+	  hellenes/pair_hoplites
     </Technologies>
   </ProductionQueue>
   <VisualActor>

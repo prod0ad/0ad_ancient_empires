@@ -1,6 +1,6 @@
 {
 	"genericName": "Fanaticism",
-	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 0},
+	"cost": {"food": 750, "wood": 0, "stone": 0, "metal": 750},
 	"requirements": {"tech": "phase_city"},
 	"icon": "clenched_fist.png",
 	"researchTime": 40,

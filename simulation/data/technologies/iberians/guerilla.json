@@ -1,0 +1,11 @@
+{
+	"genericName": "Guerilla",
+	"autoResearch": true,
+	"description": "All Citizen Soldiers move 10% faster.",
+	"requirements": {"civ": "iber"},
+	"modifications": [
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1}
+	],
+	"affects": ["Citizen Soldier"]
+}

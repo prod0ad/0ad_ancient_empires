@@ -61,20 +61,20 @@
 	"CivBonuses":
 	[
 		{
+			"Name":"Wall of Men",
+			"History":"Sparta had no walls until the final years of her independence. Her men were their walls.",
+			"Description":"Spartan Spear Infantry +10% hit points and attack but also +20% train time. The Spartans can't build stone walls."
+		},	
+		{
 			"Name":"Laws of Lycurgus",
 			"History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
-			"Description":"All upgrades at the Syssition cost no resources, but have double research time."
+			"Description":"All upgrades at the Gerousia cost no resources, but have double research time."
 		},
 		{
 			"Name":"Feminine Mystique",
 			"History":"Spartan women were some of the freest in the ancient world. They could own land and slaves and even exercise naked like Spartan men. It is said that only Spartan women gave birth to real men. Such tough-as-nails women more than once helped save their city from disaster, for example when after a lost battle against Pyrrhus of Epirus they overnight built an earthen rampart to protect the city while their men slept in preparation for the next day's siege.",
-			"Description":"Spartan female citizens are capable of constructing defense towers and palisades and have x2.5 damage versus siege weapons."
-		},	
-		{
-			"Name":"Wall of Men",
-			"History":"Sparta had no walls until the final years of her independence. Her men were their walls.",
-			"Description":"Spartan Spear Infantry +10% hit points and attack but also +20% train time. The Spartans can't build stone walls."
-		}
+			"Description":"Spartan female citizens are capable of constructing all available structures and have x2.5 damage versus siege weapons."
+		}	
 	],
 	"TeamBonuses":
 	[

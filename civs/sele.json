@@ -33,7 +33,7 @@
 				},
 		        {
 			        "Name":"Cleruchy",
-			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land in return for military service.",
+			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
 			        "Description":"20% faster batch training for the Civic Center."
 		        },
 				{
@@ -75,6 +75,11 @@
 			"History":"The Seleucids and Ptolemies chose military settlers as the core of their armies, as those troops were generally more loyal and less risky to train than conquered people.",
 			"Description":"Civic Centers provide an increased number of available units, but barracks are limited to weaker levy troops and have a reduced territory influence."
 		},
+		{
+			"Name":"Mesopotamia",
+			"History":"For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
+			"Description":"Farms -25% wood cost and construction time."
+		},		
 		{
 			"Name":"Elite Forces",
 			"History":"Having to protect a huge realm surrounded by enemies, the Seleucids employed a well-trained standing force including various elite regiments.",

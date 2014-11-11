@@ -1,0 +1,11 @@
+{
+	"genericName": "Mesopotamia",
+	"autoResearch": true,	
+	"description": "For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
+	"requirements": {"any": [{"civ": "pers"},{"civ": "maur"}]},
+	"modifications": [
+		{"value": "Cost/Resources/wood", "multiply": 0.75},
+		{"value": "Cost/BuildTime", "multiply": 0.75}		
+	],
+	"affects": ["Field"]
+}

@@ -9,5 +9,5 @@
 	    {"value": "Cost/Resources/metal", "multiply": 0.80},
 		{"value": "Cost/Resources/metal", "multiply": 0.80}
 	],
-	"affects": ["CivilCenter"]
+	"affects": ["CivilCentre"]
 }

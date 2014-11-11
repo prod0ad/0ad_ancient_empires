@@ -77,6 +77,11 @@
 			"Description": "+10% melee infantry walk and run speed." 
 		},
 		{
+			"Name": "Low Armor Use",
+			"History": "Most Celtic Soldiers went to war without body armor.", 
+			"Description": "Citizen Melee infantry cost -5% wood/metal but also have -10% hit points and -1 hack and pierce armor levels." 
+		},		
+		{
 			"Name": "Wooden Construction",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
 			"Description": "Structures construct 20% faster but are also 20% weaker." 

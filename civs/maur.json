@@ -16,10 +16,10 @@
 			"Technologies":
 			[
 				{
-					"Name":"Elephant Roundup",
-					"History":".",
-					"Description":"Capture up to 5 Gaia elephants and garrison them in the Elephant Stables to gain up to a 25% bonus in cost and train time of elephant units."
-				},
+					"Name": "Wootz Steel",
+					"History": "The Wootz steel is believed to have originated in India. There are several ancient Greek and Roman literary references to high-quality Indian steel since the time of Alexander's Indian campaign.'",
+					"Description": "Sword units +2 hack damage." 
+				}, 				
 				{
 					"Name":"Archery Tradition",
 					"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
@@ -59,6 +59,11 @@
 			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
 			"Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300)."
 		},
+		{
+			"Name": "Light Infantry",
+			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
+			"Description": "Citizen Melee infantry cost -5% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."
+		},		
 		{
 			"Name": "Kṣhatriya Warrior Caste.",
 			"History": "Kshatriya or Kashtriya, meaning warrior, is one of the four varnas (social orders) in Hinduism. Traditionally Kshatriya constitute the military and ruling elite of the Vedic-Hindu social system outlined by the Vedas and the Laws of Manu.",

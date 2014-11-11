@@ -22,6 +22,7 @@
     <SpecificName>Gerousia</SpecificName>
     <Tooltip>Train heroes.</Tooltip>
     <History>The Gerousia is the meeting place for the 30 elected city elders. Of the 30 members, 2 of them were the hereditary Spartan kings, one each from the Agiad and the Eurypontid clans.</History>
+	<RequiredTechnology>phase_town</RequiredTechnology>	
     <Icon>structures/tholos.png</Icon>
   </Identity>
   <Obstruction>
@@ -36,9 +37,11 @@
   </Sound>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/spart_hero_leonidas
-    </Entities>
+    <Technologies datatype="tokens">
+	  hellenes/spart_tyrtean_paeans
+      hellenes/spartans_agoge
+	  hellenes/spart_cleom_reforms
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/hellenes/tholos.xml</Actor>
