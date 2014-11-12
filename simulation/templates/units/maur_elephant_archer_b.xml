@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Armour>
-    <Hack>10</Hack>
-    <Pierce>10</Pierce>
-    <Crush>7</Crush>
+    <Hack>9</Hack>
+    <Pierce>7</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Ranged>
@@ -18,7 +18,7 @@
   </Attack> 
   <Cost>
     <Population>5</Population>
-    <BuildTime>42</BuildTime>
+    <BuildTime>45</BuildTime>
     <Resources>
       <food>400</food>
       <wood>100</wood>
@@ -31,7 +31,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>625</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>

@@ -3,7 +3,7 @@
   <Auras>
     <Aura1>
       <Type>range</Type>
-      <Radius>80</Radius>
+      <Radius>90</Radius>
       <Affects>Elephant</Affects>
       <Modifications>
         <UnitMotion.WalkSpeed> <Multiply>1.20</Multiply> </UnitMotion.WalkSpeed>

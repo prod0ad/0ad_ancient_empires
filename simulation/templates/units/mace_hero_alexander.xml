@@ -21,11 +21,6 @@
 	  </Bonuses>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <metal>300</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Alexander The Great</GenericName>

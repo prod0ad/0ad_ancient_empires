@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_archer">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>10</Pierce>
-    <Crush>10</Crush>
-  </Armour>
+    <Hack>8</Hack>
+    <Pierce>6</Pierce>
+    <Crush>4</Crush>
+  </Armour>  
   <Attack>
     <Ranged>
-      <Pierce>26.5</Pierce>
-      <MaxRange>64.0</MaxRange>
+      <Hack>0</Hack>
+      <Pierce>48</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>60</MaxRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
     <Population>4</Population>
-    <BuildTime>50</BuildTime>
+    <BuildTime>65</BuildTime>  
     <Resources>
-      <food>200</food>
-      <wood>100</wood>
-      <metal>100</metal>
+      <food>400</food>
+      <wood>0</wood>
+	  <metal>250</metal>
+      <stone>0</stone>	 
     </Resources>
   </Cost>
-  <Footprint replace="">
-    <Square width="6.0" depth="12.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Health>
-    <Max>1000</Max>
-  </Health>
+    <Max>1250</Max>
+  </Health>  
+  <Loot>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>100</metal>
+  </Loot>
+  <Obstruction>
+    <Unit radius="2.0"/>
+  </Obstruction>
+  <UnitMotion>
+    <WalkSpeed>17.0</WalkSpeed>
+    <Run>
+      <Speed>34.0</Speed>
+    </Run>
+  </UnitMotion>
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Ashoka the Great</GenericName>
@@ -38,15 +56,6 @@ Hero Aura: TBD.
 Hero Special: "Edicts of Ashoka" - Edict Pillars of Ashoka can be built during Ashoka's lifetime.</Tooltip>
     <History>TBD.</History>
   </Identity>
-  <Obstruction>
-    <Unit radius="2.0"/>
-  </Obstruction>
-  <UnitMotion>
-    <WalkSpeed>21.5</WalkSpeed>
-    <Run>
-      <Speed>38.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/mauryans/hero_chariot.xml</Actor>
   </VisualActor>

@@ -13,29 +13,51 @@
       <AuraDescription> +15% Gather Rate and Build Rate of nearby units.</AuraDescription>
     </Aura1>
   </Auras>
+  <Armour>
+    <Hack>8</Hack>
+    <Pierce>6</Pierce>
+    <Crush>4</Crush>
+  </Armour>  
   <Attack>
     <Ranged>
-      <Pierce>26.5</Pierce>
-      <MaxRange>60.0</MaxRange>
-      <MinRange>12.0</MinRange>
+      <Hack>0</Hack>
+      <Pierce>48</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>65</MaxRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
     <Population>4</Population>
-    <BuildTime>40</BuildTime>
+    <BuildTime>60</BuildTime>  
     <Resources>
-      <food>200</food>
-      <wood>100</wood>
-      <metal>100</metal>
+      <food>400</food>
+      <wood>0</wood>
+	  <metal>250</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
-  <Footprint replace="">
-    <Square width="6.0" depth="12.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Health>
-    <Max>1000</Max>
-  </Health>
+    <Max>1250</Max>
+  </Health>  
+  <Loot>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>100</metal>
+  </Loot>
+  <Obstruction>
+    <Unit radius="2.0"/>
+  </Obstruction>
+  <UnitMotion>
+    <WalkSpeed>17.0</WalkSpeed>
+    <Run>
+      <Speed>34.0</Speed>
+    </Run>
+  </UnitMotion>
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Chariot</Classes>
@@ -44,22 +66,6 @@
     <Icon>units/pers_hero_xerxes.png</Icon>
     <History>(King, 485 BC - 465 BC) The son of Darius the Great and Atoosa, a daughter of Cyrus the Great, Xerxes was an able administrator, who also extended Imperial rule into Chorasmia. Apart from his failed invasion of Greece, he was famous for his extensive building program, especially at Persepolis.</History>
   </Identity>
-  <Loot>
-    <xp>300</xp>
-    <food>0</food>
-    <wood>20</wood>
-    <stone>0</stone>
-    <metal>100</metal>
-  </Loot>
-  <Obstruction>
-    <Unit radius="2.0"/>
-  </Obstruction>
-  <UnitMotion>
-    <WalkSpeed>21.5</WalkSpeed>
-    <Run>
-      <Speed>38.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/persians/hero_xerxes_chariot.xml</Actor>
   </VisualActor>

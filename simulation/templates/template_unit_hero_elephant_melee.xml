@@ -15,7 +15,7 @@
     </Melee> 
   </Attack>
   <Cost>
-    <Population>6</Population>
+    <Population>8</Population>
     <BuildTime>60</BuildTime>
     <Resources>
       <food>500</food>

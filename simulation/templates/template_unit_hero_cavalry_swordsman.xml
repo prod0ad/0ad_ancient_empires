@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Melee>
-     <Hack>40</Hack>
+     <Hack>32</Hack>
      <Pierce>0</Pierce>
      <Crush>0.0</Crush>
      <MaxRange>6.0</MaxRange>
@@ -15,6 +15,13 @@
       <PreferredClasses datatype="tokens">Organic Siege</PreferredClasses>
     </Melee>
   </Attack>
+  <Loot>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>100</metal>
+  </Loot>  
   <Identity>
     <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
     <GenericName>Hero Cavalry Swordsman</GenericName>

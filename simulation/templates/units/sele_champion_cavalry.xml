@@ -3,7 +3,7 @@
   <Armour>
     <Hack>8</Hack>
     <Pierce>8</Pierce>
-    <Crush>6</Crush>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
@@ -24,15 +24,15 @@
     </Charge>
   </Attack>
   <Health>
-    <Max>450</Max>
+    <Max>400</Max>
   </Health>
   <Cost>
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>120</food>
+      <food>100</food>
       <wood>0</wood>
-	  <metal>240</metal>
+	  <metal>175</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>  
@@ -48,7 +48,7 @@
     <Actor>units/ptolemies/champion_cavalry.xml</Actor>
   </VisualActor>
   <UnitMotion>
-    <WalkSpeed>12</WalkSpeed>
+    <WalkSpeed>13</WalkSpeed>
     <Run>
       <Speed>20.0</Speed>
       <Range>1000.0</Range>

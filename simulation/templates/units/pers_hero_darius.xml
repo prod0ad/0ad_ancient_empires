@@ -13,33 +13,50 @@
     </Aura1>
   </Auras>
   <Armour>
-    <Hack>10</Hack>
-    <Pierce>7</Pierce>
-    <Crush>12</Crush>
-  </Armour>
+    <Hack>8</Hack>
+    <Pierce>6</Pierce>
+    <Crush>4</Crush>
+  </Armour>  
   <Attack>
     <Ranged>
-      <Pierce>26.5</Pierce>
-      <MaxRange>60.0</MaxRange>
-      <MinRange>12.0</MinRange>
+      <Hack>0</Hack>
+      <Pierce>48</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>65</MaxRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
     </Ranged>
   </Attack>
   <Cost>
     <Population>4</Population>
-    <BuildTime>50</BuildTime>
+    <BuildTime>60</BuildTime>  
     <Resources>
-      <food>200</food>
-      <wood>100</wood>
-      <metal>100</metal>
+      <food>400</food>
+      <wood>0</wood>
+	  <metal>250</metal>
+      <stone>0</stone>	 
     </Resources>
   </Cost>
-  <Footprint replace="">
-    <Square width="6.0" depth="12.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Health>
-    <Max>1000</Max>
-  </Health>
+    <Max>1250</Max>
+  </Health>  
+  <Loot>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>100</metal>
+  </Loot>
+  <Obstruction>
+    <Unit radius="2.0"/>
+  </Obstruction>
+  <UnitMotion>
+    <WalkSpeed>17.0</WalkSpeed>
+    <Run>
+      <Speed>34.0</Speed>
+    </Run>
+  </UnitMotion>
   <Identity>
     <Civ>pers</Civ>
     <Classes datatype="tokens">Chariot</Classes>
@@ -51,22 +68,6 @@ Hero Aura: "Merchant of the Empire." Boosts profitablity of trade during his lif
 Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen.</Tooltip>
     <History>(King, 521 BC - 486 BC) The son of Vishtaspa (Hystaspes), the satrap of Parthia and Hyrcania; a great administrator as well as a decent general, Darius introduced the division of the empire into satrapies and conquered NW India, Thrace and Macedonia. He was called the 'Merchant of the Empire'.</History>
   </Identity>
-  <Loot>
-    <xp>300</xp>
-    <food>0</food>
-    <wood>20</wood>
-    <stone>0</stone>
-    <metal>100</metal>
-  </Loot>
-  <Obstruction>
-    <Unit radius="2.0"/>
-  </Obstruction>
-  <UnitMotion>
-    <WalkSpeed>21.5</WalkSpeed>
-    <Run>
-      <Speed>38.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/persians/hero_darius_chariot.xml</Actor>
   </VisualActor>

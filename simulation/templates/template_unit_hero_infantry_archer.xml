@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>6</Pierce>
-    <Crush>7</Crush>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>17.5</Pierce>
+      <Pierce>16</Pierce>
       <Crush>0</Crush>
-      <MaxRange>60</MaxRange>
+      <MaxRange>65</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1200</PrepareTime>
@@ -18,10 +18,17 @@
       <Spread>1.0</Spread>
     </Ranged>
   </Attack>
+  <Health>
+    <Max>400</Max>
+  </Health>  
   <Cost>
-    <BuildTime>35</BuildTime>
+    <Population>2</Population>
+    <BuildTime>45</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -32,11 +39,11 @@
     </Formations>
   </Identity>
   <Loot>
-    <xp>350</xp>
-    <food>5</food>
-    <wood>20</wood>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>0</wood>
     <stone>0</stone>
-    <metal>10</metal>
+    <metal>50</metal>
   </Loot>
   <Sound>
     <SoundGroups>

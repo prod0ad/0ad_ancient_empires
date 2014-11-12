@@ -1,0 +1,12 @@
+{
+	"genericName": "Hellenistic Metropolis",
+	"autoResearch": true,
+	"description": "All Citizen Soldiers move 10% faster.",
+	"requirements": {"civ": "iber"},
+	"modifications": [
+		{"value": "BuildingAI/DefaultArrowCount", "add": 1.0},
+		{"value": "Health/Max", "multiply": 1.25}
+	],
+	"affects": ["CivilCentre"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

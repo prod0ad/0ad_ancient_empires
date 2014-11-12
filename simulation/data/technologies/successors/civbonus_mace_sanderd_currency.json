@@ -1,10 +1,10 @@
 {
 	"genericName": "Standardized Currency",
 	"autoResearch": true,
-	"description": "All units and structures -5% metal cost",
+	"description": "All units and structures -10% metal cost",
 	"requirements": {"civ": "mace"},
 	"modifications": [
-		{"value": "Cost/Resources/metal", "multiply": 0.95}
+		{"value": "Cost/Resources/metal", "multiply": 0.90}
 	],
 	"affects": ["Structure","Soldier","Worker","Mechanical","Support"]
 }

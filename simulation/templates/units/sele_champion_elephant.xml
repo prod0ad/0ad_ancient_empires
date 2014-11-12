@@ -18,7 +18,7 @@
   </Attack> 
   <Armour>
     <Hack>14</Hack>
-    <Pierce>14</Pierce>
+    <Pierce>13</Pierce>
     <Crush>8</Crush>
   </Armour>
   <Cost>
@@ -36,7 +36,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>1000</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
     <Civ>sele</Civ>

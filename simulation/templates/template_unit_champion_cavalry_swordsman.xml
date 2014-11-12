@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry">
   <Armour>
     <Hack>6</Hack>
-    <Pierce>4</Pierce>
+    <Pierce>5</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>

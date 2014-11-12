@@ -7,15 +7,15 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>8</Hack>
-      <Pierce>16</Pierce>
+      <Hack>9</Hack>
+      <Pierce>18</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
     </Melee>
     <Charge>
-      <Hack>16</Hack>
-      <Pierce>32</Pierce>
+      <Hack>18</Hack>
+      <Pierce>36</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <MinRange>0.0</MinRange>

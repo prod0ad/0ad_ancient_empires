@@ -12,12 +12,8 @@
       units/maur_hero_maurya
       units/maur_hero_ashoka
       units/maur_champion_infantry
-      units/maur_champion_maiden
-      units/maur_champion_chariot
+      units/maur_champion_maiden_archer
     </Entities>
-    <Technologies datatype="tokens">
-      attack_soldiers_will
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mauryans/fortress.xml</Actor>

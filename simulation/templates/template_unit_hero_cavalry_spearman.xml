@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry">
   <Armour>
-    <Hack>7</Hack>
-    <Pierce>7</Pierce>
+    <Hack>8</Hack>
+    <Pierce>5</Pierce>
     <Crush>8</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>10</Hack>
-      <Pierce>70</Pierce>
+      <Hack>8</Hack>
+      <Pierce>56</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>7.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
@@ -19,11 +19,9 @@
     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Hero Cavalry Spearman</GenericName>
   </Identity>
-  <Loot>
-    <xp>500</xp>
-    <food>10</food>
-    <wood>20</wood>
+    <xp>300</xp>
+    <food>0</food>
+    <wood>0</wood>
     <stone>0</stone>
-    <metal>5</metal>
-  </Loot>
+    <metal>100</metal>
 </Entity>
