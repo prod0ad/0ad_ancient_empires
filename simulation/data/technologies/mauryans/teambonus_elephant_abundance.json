@@ -1,0 +1,9 @@
+{
+	"genericName": "Elephant Abundance",
+	"autoResearch": true,
+	"description": "India was full of elephants, and the Mauryans often exported or gifted numbers of war elephants to allies.",
+	"requirements": {"civ": "maur"},
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.80}],
+	"affects": ["Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

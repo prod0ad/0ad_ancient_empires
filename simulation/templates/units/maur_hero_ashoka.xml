@@ -18,7 +18,7 @@
   </Attack>
   <Cost>
     <Population>4</Population>
-    <BuildTime>65</BuildTime>  
+    <BuildTime>60</BuildTime>  
     <Resources>
       <food>400</food>
       <wood>0</wood>

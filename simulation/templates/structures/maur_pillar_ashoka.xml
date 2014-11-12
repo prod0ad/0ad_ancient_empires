@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <BuildRestrictions>
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>60</Radius>
+      <Affects>Worker</Affects>
+      <Modifications>
+        <ResourceGatherer.BaseSpeed> <Multiply>1.10</Multiply> </ResourceGatherer.BaseSpeed>
+      </Modifications>
+      <AuraName>Pillar Aura</AuraName>
+      <AuraDescription> +10% Gather Rate for nearby units.</AuraDescription>
+    </Aura1>
+  </Auras>
+   <BuildRestrictions>
     <Category>Pillar</Category>
-  </BuildRestrictions>
+    <Distance>
+      <FromClass>Pillar</FromClass>
+      <MinDistance>60</MinDistance>
+    </Distance>
+  </BuildRestrictions> 
   <Cost>
     <BuildTime>80</BuildTime>
     <Resources>
@@ -26,8 +42,8 @@
 	<GenericName>Edict Pillar of Ashoka</GenericName>
     <SpecificName>Śāsana Stambha Aśokā</SpecificName>
     <Icon>structures/monument.png</Icon>
-    <Tooltip>The famous pillar of Ashoka. Currently a useless structure.</Tooltip>
     <History>.</History>
+    <Classes datatype="tokens">Pillar</Classes>	
   </Identity>
   <Obstruction>
     <Static width="4" depth="4"/>

@@ -23,8 +23,13 @@
 				{
 					"Name":"Archery Tradition",
 					"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
-					"Description":"Greater range and faster train time for Mauryan infantry archers."
-				}
+					"Description":"Archers +4 range and -33% train time."
+				},
+				{
+					"Name":"Pacifism Reform",
+					"History":"In regrets of the bloodshed, having slaughtered many thousands of people in his early reign expeditions, Ashoka started supporting Buddhism and pacifism.",
+					"Description":"Infantry citizen soldiers +15% all gather rates but also 10% less hit points and attack damage."
+				}				
 			],
 			"Heroes":
 			[
@@ -57,25 +62,25 @@
 		{
 			"Name": "Emperor of Emperors.",
 			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
-			"Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300)."
+			"Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300). Each phase researched reduces the food cost of female and infantry citizens by 10%."
 		},
+		{
+			"Name": "Ancient Cities.",
+			"History": "India was one of the first regions having huge settlements.",
+			"Description": "Civil Centres +10 population bonus."
+		},		
 		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
 			"Description": "Citizen Melee infantry cost -5% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."
-		},		
-		{
-			"Name": "Kṣhatriya Warrior Caste.",
-			"History": "Kshatriya or Kashtriya, meaning warrior, is one of the four varnas (social orders) in Hinduism. Traditionally Kshatriya constitute the military and ruling elite of the Vedic-Hindu social system outlined by the Vedas and the Laws of Manu.",
-			"Description": "The Mauryans enjoy access to 4 champions."
-		}
+		}		
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Evangelism.",
-			"History": "Ashoka the Great sent embassies West to spread knowledge of the Buddha.",
-			"Description": "Allied Temple techs -50% cost and research time."
+			"Name": "Elephant Abundance.",
+			"History": "India was full of elephants, and the Mauryans often exported or gifted numbers of war elephants to allies.",
+			"Description": "Elephant Units train 20% faster (currently not shared)."
 		} 
 	],
 	"Structures":
@@ -85,6 +90,7 @@
 			"Class":"SB1",
 			"Emblem":"",
 			"History":".",
+			"Description": "Trains War Elephant Units.",
 			"Requirements":"Temple",
 			"Phase":"Town",
 			"Special":"Trains Elephant Archer and Worker Elephant at Town Phase, then adds the champion War Elephant at the City phase."
@@ -94,6 +100,7 @@
 			"Class":"SB2",
 			"Emblem":"",
 			"History":".",
+			"Description": "Increases the gather rates of nearby units by 10%.",		
 			"Requirements":"Built by the Ashoka hero unit.",
 			"Phase":"City",
 			"Special":"Contentment: +10% Health and +10% resource gathering rates for all citizens and allied citizens within its range. Can be built anywhere except in enemy territory. Max Built: 10."

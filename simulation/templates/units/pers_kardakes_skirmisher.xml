@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_javelinist">
+  <Armour>
+    <Hack>3</Hack>
+    <Pierce>4</Pierce>
+    <Crush>6</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>16</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>34</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <Spread>1.1</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+    </Ranged>
+  </Attack>
   <Cost>
+    <BuildTime>10</BuildTime>
+    <Population>2</Population>	
     <Resources>
-      <food>0</food>
-      <wood>80</wood>
+      <food>50</food>
+      <wood>0</wood>
       <stone>0</stone>
       <metal>50</metal>
     </Resources>
   </Cost>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+    </Run>
+  </UnitMotion>  
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Cardaces Skirmisher</GenericName>
     <SpecificName>Peltastes Kardakes</SpecificName>
     <Icon>units/pers_kardakes_skirmisher.png</Icon>
     <History>The Kardakes were the Persian answer to the Greek hoplite. They were fielded in large numbers by Darius III in a bid to resist Alexander the Great's invasion.</History>
+    <RequiredTechnology>persians/late_reform</RequiredTechnology>			
   </Identity>
   <VisualActor>
     <Actor>units/persians/kardakes_skirmisher.xml</Actor>

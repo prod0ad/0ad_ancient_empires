@@ -1,8 +1,8 @@
 {
 	"genericName": "Light Infantry",
 	"autoResearch": true,	
-	"description": "The majority of Persian infantrymen were hastely levied unarmored troops.",
-	"requirements": {"civ": "pers"},
+	"description": "The majority of Indian infantrymen were hastely levied unarmored troops.",
+	"requirements": {"civ": "maur"},
 	"modifications": [
 		{"value": "Health/Max", "multiply": 0.8},
 		{"value": "Cost/Resources/metal", "multiply": 0.9},

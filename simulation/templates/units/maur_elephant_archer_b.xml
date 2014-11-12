@@ -44,6 +44,7 @@
     <Tooltip>Tough ranged unit that greatly increases it's attack through advancing ranks and adding new archers.</Tooltip>
   </Identity>
   <Promotion>
+    <RequiredXp>300</RequiredXp>
     <Entity>units/maur_elephant_archer_a</Entity>
   </Promotion>
   <Selectable>

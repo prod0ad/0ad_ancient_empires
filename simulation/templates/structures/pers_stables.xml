@@ -2,8 +2,9 @@
 <Entity parent="template_structure_military_barracks">
   <Cost>
     <Resources>
-      <wood>0</wood>
-      <stone>200</stone>
+      <wood>100</wood>
+      <stone>100</stone>
+	  <metal>100</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -36,6 +37,7 @@
       units/pers_cavalry_archer_e
     </Entities>
     <Technologies datatype="tokens">
+      persians/training_levy_cavalry
 	  persians/training_conscription_cavalry
 	  successors/special_war_horses
     </Technologies>

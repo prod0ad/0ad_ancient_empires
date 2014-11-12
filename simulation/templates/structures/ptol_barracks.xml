@@ -5,8 +5,8 @@
   </Footprint>
   <Cost>
     <Resources>
-      <wood>200</wood>
-      <stone>200</stone>
+      <wood>150</wood>
+      <stone>150</stone>
     </Resources>
   </Cost>
   <Health>

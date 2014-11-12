@@ -16,14 +16,19 @@
 			"Technologies":
 			[
 				{
+					"Name": "Late Military Reform",
+					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
+					"Description": "Unlocks Cardakes at the barracks and the Mercenary Hall providing additional units."
+				},			
+				{
 					"Name": "Immortals",
 					"History": ".",
-					"Description": "Reduces train time for Anusiya champion infantry by half."
+					"Description": "Anusiya champion infantry -50% train time."
 				},
 				{
 					"Name":"Archery Tradition",
-					"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
-					"Description":"Greater range and faster train time for Persian infantry archers."
+					"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
+					"Description":"Archers +4 range and -33% train time."
 				},				
 				{
 					"Name": "Nisean War Horses",
@@ -60,20 +65,25 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Persian Architecture",
-			"History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
-			"Description": "Structures have +25% hitpoint but build 20% slower."
-		},
-		{
 			"Name": "Great King's Levy",
 			"History": "The Persians could and did levy a large number of infantry during wartime due to the sheer size of the Achaemenid Empire and the way in which it was set-up. In general the Persian infantry was well trained and fought with great tenacity. However while this was true the infantry were poor hand-to-hand, close combat fighters. Also, with the exception of the elite regiments, the Persian infantry was not a standing professional force.",
 			"Description": "Persians have a +10% population cap bonus (e.g. 330 pop cap instead of the usual 300)."
 		}, 		
 		{
+			"Name": "Persian Architecture",
+			"History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
+			"Description": "Structures have +25% hit points but build 20% slower."
+		},	
+		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
 			"Description": "Citizen Melee infantry cost -5% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."
-		}		
+		},
+		{
+			"Name": "Equine Transports",
+			"History": "The Persians are known as the first to transport large numbers of cavalry overseas.",
+			"Description": "Trade Ship +10 transport capacity."
+		}				
 	],
 	"TeamBonuses":
 	[
@@ -92,7 +102,8 @@
 			"History": "The Persian Empire's best soldiers were Eastern horsemen.",
 			"Requirements": "",
 			"Phase": "Town",
-			"Special": "Train Cavalry citizen-soldiers." 
+			"Special": "Train Cavalry citizen-soldiers." ,
+			"Description": "Trains all cavalry units. Available at the village phase, unlocking cavalry earlier for the Persians."			
 		},
  		{
 			"Name": "Apadana",
@@ -101,7 +112,8 @@
 			"History": "The term Apadana designates a large hypostyle palace found in Persia. The best known example, and by far the largest, was the great Apadana at Persepolis. Functioning as the empire's central audience hall, the palace is famous for the reliefs of the tribute-bearers and of the army, including the Immortals.",
 			"Requirements": "",
 			"Phase": "City",
-			"Special": "Train heroes and Persian Immortals. Gives a slow trickle of all resources as 'Satrapy Tribute.'" 
+			"Special": "Train heroes and Persian Immortals. Gives a slow trickle of all resources as 'Satrapy Tribute.'", 
+			"Description": "Train heroes and Persian Immortals. Gives a slow trickle of all resources as 'Satrapy Tribute.'"				
 		}
 	],
 	"StartEntities":

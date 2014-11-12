@@ -19,9 +19,11 @@
     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Hero Cavalry Spearman</GenericName>
   </Identity>
+  <Loot>  
     <xp>300</xp>
     <food>0</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>100</metal>
+  </Loot>	
 </Entity>

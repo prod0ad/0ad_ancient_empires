@@ -103,7 +103,7 @@
 			"History":"Alexander the Great founded libraries all over his new empire. These became a center of learning for an entirely new synthesized culture: the Hellenistic culture.",
 			"Requirements":".",
 			"Phase":"City",
-			"Special":"Maximum of 1 built. All Special Technologies and some regular city-phase technologies are researched here. Building one reduces the cost of all other remaining technologies by 10%."
+			"Description":"Maximum of 1 built. Includes special technologies."
 		}
 	],
 	"StartEntities":

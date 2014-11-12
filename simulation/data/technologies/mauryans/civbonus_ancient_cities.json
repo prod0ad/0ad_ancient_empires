@@ -1,0 +1,9 @@
+{
+	"genericName": "Ancient Cities",
+	"autoResearch": true,
+	"description": "India was one of the first regions having huge settlements.",
+	"requirements": {"civ": "maur"},
+	"modifications": [{"value": "Cost/PopulationBonus", "add": 10.0}],
+	"affects": ["CivilCentre"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

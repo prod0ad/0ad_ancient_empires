@@ -16,10 +16,10 @@
 			"Technologies":
 			[
 				{
-					"Name": "Sibylline Books",
-					"History": "The Sibylline Books or 'Libri Sibyllini' were a collection of oracular utterances, set out in Greek hexameters, purchased from a sibyl by the last king of Rome, Tarquinius Superbus, and consulted at momentous crises through the history of the Republic and the Empire.",
-					"Description": "+25% Vision range for all units."
-				},
+					"Name": "Marian Reforms",
+					"History": "Gaius Marius turned the roman legions into a professional force.",
+					"Description": "All Melee infantry units are replaced by Marian Legionary Champions. Unlocks the Auxiliary Camp."
+				},	
 				{
 					"Name": "Logistics",
 					"History": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",
@@ -29,12 +29,12 @@
 					"Name": "Gladius Hispaniensis",
 					"History": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
 					"Description": "+15% Sword infantry attack damage."
-				},	
-				{
-					"Name": "Marian Reforms",
-					"History": "Gaius Marius turned the roman legions into a professional force.",
-					"Description": "All Melee infantry units are replaced by Marian Legionary Champions. Unlocks the Auxiliary Camp."
 				},					
+				{
+					"Name": "Sibylline Books",
+					"History": "The Sibylline Books or 'Libri Sibyllini' were a collection of oracular utterances, set out in Greek hexameters, purchased from a sibyl by the last king of Rome, Tarquinius Superbus, and consulted at momentous crises through the history of the Republic and the Empire.",
+					"Description": "+25% Vision range for all units."
+				},				
 				{
 					"Name": "Imported Construction Technology",
 					"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
@@ -72,7 +72,7 @@
 		{
 			"Name": "Veterans",
 			"History": "Triarii were veteran spearmen who acted as the powerful reserve of the Pre-Marian Roman legions.",
-			"Description": "Triarii who are trained at the barracks start at the advanced rank." 
+			"Description": "Triarii trained at the barracks start at the advanced rank." 
 		},
 		{
 			"Name": "Citizenship",
@@ -97,8 +97,17 @@
 			"History": "Sometimes it was a temporary camp built facing the route by which the army is to march, other times a defensive or offensive (for sieges) structure. Within the Praetorian gate, which should either front the east or the enemy, the tents of the first centuries or cohorts are pitched, and the dracos (ensigns of cohorts) and other ensigns planted. The Decumane gate is directly opposite to the Praetorian in the rear of the camp, and through this the soldiers are conducted to the place appointed for punishment or execution. It has a turf wall, and it's surrounded by a canal filled with water whenever possible for extra defense. Many towns started up as bigger military camps to evolve to more complicated cities.",
 			"Requirements": "",
 			"Phase": "",
-			"Special": "Trains citizen-soldiers from neutral or enemy territory." 
+			"Description": "Trains citizen-soldiers and siege weapons from neutral or enemy territory."		
 		},
+		{
+			"Name":"Library",
+			"Class":"",
+			"Emblem":"",
+			"History":".",
+			"Requirements":".",
+			"Phase":"City",
+			"Description":"Maximum of 1 built. Includes special technologies."
+		},		
 		{
 			"Name": "Murus Latericius",
 			"Class": "",
@@ -106,7 +115,7 @@
 			"History": "Turf walls built by legionaries during sieges.",
 			"Requirements": "",
 			"Phase": "",
-			"Special": "Can be built in neutral and enemy territory to strangle enemy towns." 
+			"Description": "Can be built in neutral and enemy territory to strangle enemy towns."
 		} 
 	],
 	"StartEntities":

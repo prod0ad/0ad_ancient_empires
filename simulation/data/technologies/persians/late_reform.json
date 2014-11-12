@@ -1,0 +1,10 @@
+{
+	"genericName": "Late Military Reform",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "pers"}]},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "armor_plates_ranged.png",
+	"researchTime": 60,
+	"tooltip": "Unlocks Cardakes at the barracks and the Mercenary Hall providing additional units.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

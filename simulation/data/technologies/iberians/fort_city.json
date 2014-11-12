@@ -1,7 +1,6 @@
 {
-	"genericName": "Hellenistic Metropolis",
+	"genericName": "Fortified Settlements",
 	"autoResearch": true,
-	"description": "All Citizen Soldiers move 10% faster.",
 	"requirements": {"civ": "iber"},
 	"modifications": [
 		{"value": "BuildingAI/DefaultArrowCount", "add": 1.0},

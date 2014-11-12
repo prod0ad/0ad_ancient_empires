@@ -1,0 +1,21 @@
+{
+	"genericName": "Pacifism Reform",
+	"description": "The majority of eastern infantrymen were hastely levied unarmored troops.",
+	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 1000},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "maur"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "population.png",
+	"researchTime": 60,
+	"tooltip": "Infantry citizen soldiers +15% all gather rates but also -10% hit points and attack damage.",	
+	"modifications": [
+		{"value": "Health/Max", "multiply": 0.9},
+		{"value": "Attack/Melee/Hack", "multiply": 0.9},
+		{"value": "Attack/Melee/Pierce", "multiply": 0.9},
+		{"value": "Attack/Melee/Crush", "multiply": 0.9},
+		{"value": "Attack/Ranged/Hack", "multiply": 0.9},
+		{"value": "Attack/Ranged/Pierce", "multiply": 0.9},
+		{"value": "Attack/Ranged/Crush", "multiply": 0.9},
+		{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15}		
+	],
+	"affects": ["Citizen Soldier Infantry"]
+}

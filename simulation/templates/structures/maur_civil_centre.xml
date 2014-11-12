@@ -21,6 +21,12 @@
       units/maur_infantry_archer_b
       units/maur_support_elephant
     </Entities>
+    <Technologies datatype="tokens">
+      -phase_town_generic
+      phase_town_maur
+      -phase_city_generic
+      phase_city_maur
+    </Technologies>	
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mauryans/civil_centre.xml</Actor>

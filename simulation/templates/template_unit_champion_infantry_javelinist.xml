@@ -32,6 +32,12 @@
   <Health>
     <Max>160</Max>
   </Health>
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+    </Run>
+  </UnitMotion>  
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
     <GenericName>Champion Skirmisher</GenericName>
@@ -44,12 +50,6 @@
       <attack>attack/weapon/arrowfly.xml</attack>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
-  </UnitMotion>
   <Vision>
     <Range>70</Range>
   </Vision>    
