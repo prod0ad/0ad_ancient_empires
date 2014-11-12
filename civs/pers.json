@@ -77,7 +77,7 @@
 		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
-			"Description": "Citizen Melee infantry cost -5% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."
+			"Description": "Citizen Melee infantry cost -10% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."
 		},
 		{
 			"Name": "Equine Transports",

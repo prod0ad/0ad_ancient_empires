@@ -5,10 +5,13 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <stone>300</stone>
+      <stone>200</stone>
       <metal>200</metal>
     </Resources>
   </Cost>
+   <BuildRestrictions>
+    <Category>sb2</Category>
+  </BuildRestrictions>   
   <Footprint>
     <Square width="25.0" depth="25.0"/>
     <Height>8.0</Height>

@@ -6,10 +6,8 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "sword.png",
 	"researchTime": 40,
-	"tooltip": "+15% Sword infantry attack damage.",
-	"modifications": [
-		{"value": "Attack/Melee/Hack", "multiply": 1.15}
-	],
+	"tooltip": "+2 attack for Infantry Swordsmen.",
+	"modifications": [{"value": "Attack/Melee/Hack", "add": 2.0}],
 	"affects": ["Infantry Sword"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
