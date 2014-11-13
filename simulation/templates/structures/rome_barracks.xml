@@ -31,7 +31,6 @@
     </Entities>
 	<Technologies datatype="tokens">
       training_conscription
-	  romans/gladius_hispaniensis
 	  romans/logistics
     </Technologies>
   </ProductionQueue>

@@ -1,0 +1,8 @@
+{
+	"genericName": "advanced",
+	"autoResearch": true,	
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.75}	
+	],
+	"affects": ["Mercenary"]
+}
