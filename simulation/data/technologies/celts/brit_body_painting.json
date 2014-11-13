@@ -6,10 +6,14 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "fist_spear.png",
 	"researchTime": 40,
-	"tooltip": "+20% melee infantry attack (placeholder for fear aura).",
+	"tooltip": "+10% melee infantry attack and movement speed(placeholder for fear aura).",
 	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.2},
-		{"value": "Attack/Melee/Pierce", "multiply": 1.2},
-		{"value": "Attack/Melee/Crush", "multiply": 1.2}],
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1}
+		
+		],
 	"affects": ["Infantry Melee"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

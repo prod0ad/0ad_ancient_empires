@@ -10,7 +10,7 @@
       <Hack>30</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>4.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
@@ -24,15 +24,15 @@
     </Charge>
   </Attack>
   <Health>
-    <Max>375</Max>
+    <Max>360</Max>
   </Health> 
   <Cost>
-    <Population>3</Population>  
+    <Population>2</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
       <food>100</food>
       <wood>0</wood>
-	  <metal>200</metal>
+	  <metal>80</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>

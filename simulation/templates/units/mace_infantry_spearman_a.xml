@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/mace_infantry_spearman_b">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>4</Pierce>
-    <Crush>6</Crush>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>3</Hack>
-      <Pierce>9</Pierce>
-      <MaxRange>8.0</MaxRange>
-    </Melee>
-    <Charge>
-      <Hack>4</Hack>
-      <Pierce>16</Pierce>
-      <MaxRange>8.0</MaxRange>
-    </Charge>
-  </Attack>
-  <Health>
-    <Max>130</Max>
-  </Health>
   <Identity>
     <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>		
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_spearman_e</Entity>

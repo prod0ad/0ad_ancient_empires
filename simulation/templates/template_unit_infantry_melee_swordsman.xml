@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
+  <Health>
+    <Max>150</Max>
+  </Health>
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>4</Pierce>
+    <Hack>2</Hack>
+    <Pierce>2</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
       <Hack>10</Hack>
       <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>4.0</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Melee>
     <Charge>
       <Hack>20.0</Hack>
@@ -22,11 +29,6 @@
       <stone>0</stone>	  
     </Resources>
   </Cost>
-  <Identity>
-    <VisibleClasses datatype="tokens">Sword</VisibleClasses>
-    <GenericName>Swordsman</GenericName>
-    <History>Weapon is basically a developed sickle. Probably from the club, to the axe, to the sickle to the sword. It was the Romans who used them to combat the long range of the sarissa. Their spears were so long they had to use two hands to wield them. In a formation they were almost impossible to maneuver. If flanked, they were easily cut down by a sword as demonstrated by the Romans at the battle of Cynoscephalae. Generally swordsmen were well armored, had shields, and tended to be nobles. A good sword was an expensive weapon.</History>
-  </Identity>
   <Loot>
     <metal>5</metal>
   </Loot>
@@ -36,4 +38,9 @@
       <Speed>18</Speed>
     </Run>
   </UnitMotion>
+  <Identity>
+    <VisibleClasses datatype="tokens">Sword</VisibleClasses>
+    <GenericName>Swordsman</GenericName>
+    <History>Weapon is basically a developed sickle. Probably from the club, to the axe, to the sickle to the sword. It was the Romans who used them to combat the long range of the sarissa. Their spears were so long they had to use two hands to wield them. In a formation they were almost impossible to maneuver. If flanked, they were easily cut down by a sword as demonstrated by the Romans at the battle of Cynoscephalae. Generally swordsmen were well armored, had shields, and tended to be nobles. A good sword was an expensive weapon.</History>
+  </Identity>
 </Entity>

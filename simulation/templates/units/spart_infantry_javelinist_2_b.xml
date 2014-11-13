@@ -9,8 +9,7 @@
       -structures/{civ}_wallset_stone
     </Entities>
   </Builder>
-  <Cost>
-    <BuildTime>6</BuildTime>	
+  <Cost>	
     <Resources>
       <food>50</food>
       <wood>0</wood>

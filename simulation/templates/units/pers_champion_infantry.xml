@@ -8,10 +8,10 @@
   <Attack>
     <Melee>
       <Hack>0</Hack>
-      <Pierce>15</Pierce>
+      <Pierce>20</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
+      <RepeatTime>1500</RepeatTime>
     </Melee>
     <Charge>
       <Hack>0</Hack>
@@ -22,13 +22,13 @@
     </Charge>
   </Attack>
   <Cost>
-    <BuildTime>15</BuildTime>
-    <Population>2</Population>	
+    <BuildTime>16</BuildTime>
+    <Population>1</Population>	
     <Resources>
-      <food>100</food>
+      <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>50</metal>
+      <metal>60</metal>
     </Resources>
   </Cost>
   <Identity>

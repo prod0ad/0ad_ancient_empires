@@ -3,8 +3,8 @@
    <Attack>
     <Melee>
       <Hack>0</Hack>
-      <Pierce>40</Pierce>
-      <Crush>80.0</Crush>
+      <Pierce>30</Pierce>
+      <Crush>60.0</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
     </Melee>
@@ -17,18 +17,18 @@
     </Charge>
   </Attack> 
   <Armour>
-    <Hack>14</Hack>
-    <Pierce>13</Pierce>
-    <Crush>8</Crush>
+    <Hack>8</Hack>
+    <Pierce>8</Pierce>
+    <Crush>7</Crush>
   </Armour>
   <Cost>
-    <Population>6</Population>
+    <Population>5</Population>
     <BuildTime>60</BuildTime>
     <Resources>
-      <food>500</food>
+      <food>350</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>300</metal>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -36,8 +36,16 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>1200</Max>
+    <Max>1800</Max>
   </Health>
+  <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
+    <Run>
+      <Speed>18.0</Speed>
+      <Range>1000.0</Range>
+      <RangeMin>10.0</RangeMin>
+    </Run>
+  </UnitMotion>  
   <Identity>
     <Civ>maur</Civ>
     <GenericName>Indian War Elephant</GenericName>

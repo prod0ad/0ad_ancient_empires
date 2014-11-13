@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_javelinist">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>4</Pierce>
+    <Hack>2</Hack>
+    <Pierce>3</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>16</Pierce>
+      <Pierce>15</Pierce>
       <Crush>0</Crush>
-      <MaxRange>34</MaxRange>
+      <MaxRange>30</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.1</Spread>
+      <Spread>1.2</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>10</BuildTime>
-    <Population>2</Population>	
+    <BuildTime>12</BuildTime>
+    <Population>1</Population>	
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>50</metal>
+      <metal>30</metal>
     </Resources>
   </Cost>
   <Health>

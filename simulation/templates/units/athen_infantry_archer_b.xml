@@ -11,7 +11,6 @@
     </Entities>
   </Builder>
   <Cost>
-    <BuildTime>8</BuildTime>	  
     <Resources>
       <food>50</food>
       <wood>0</wood>

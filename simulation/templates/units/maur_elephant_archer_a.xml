@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/maur_elephant_archer_b">
-  <Attack>
-    <Ranged>
-      <Hack>0</Hack>
-      <Pierce>16</Pierce>
-      <Crush>0</Crush>
-      <MaxRange>60.0</MaxRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-    </Ranged>
-  </Attack> 
-  <Health>
-    <Max>650</Max>
-  </Health>
   <Identity>
 	<Rank>Advanced</Rank>
+    <VisibleClasses datatype="tokens">Advanced</VisibleClasses>	
   </Identity>
   <Promotion>
     <Entity>units/maur_elephant_archer_e</Entity>

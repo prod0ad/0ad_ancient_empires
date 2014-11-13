@@ -1,5 +1,5 @@
 {
-	"genericName": "Levy Reform",
+	"genericName": "Boudicca's Levy (Reform)",
 	"description": "Roman expansionism resulted in large numbers of Britons going to war under Boudicca.",
 	"cost": {"food": 1250, "wood": 0, "stone": 0, "metal": 750},
 	"requirements": {"tech": "phase_city"},

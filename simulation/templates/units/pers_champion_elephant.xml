@@ -3,8 +3,8 @@
    <Attack>
     <Melee>
       <Hack>0</Hack>
-      <Pierce>40</Pierce>
-      <Crush>80.0</Crush>
+      <Pierce>30</Pierce>
+      <Crush>60.0</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
     </Melee>
@@ -17,15 +17,15 @@
     </Charge>
   </Attack> 
   <Armour>
-    <Hack>12</Hack>
-    <Pierce>10</Pierce>
-    <Crush>6</Crush>
+    <Hack>6</Hack>
+    <Pierce>6</Pierce>
+    <Crush>5</Crush>
   </Armour>
   <Cost>
-    <Population>7</Population>
-    <BuildTime>55</BuildTime>
+    <Population>5</Population>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <food>500</food>
+      <food>350</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>200</metal>
@@ -36,7 +36,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>900</Max>
+    <Max>1500</Max>
   </Health>
   <Identity>
     <Civ>pers</Civ>

@@ -31,6 +31,7 @@
     <Technologies datatype="tokens">
       siege_attack
       siege_armor
+	  iberians/guerilla	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

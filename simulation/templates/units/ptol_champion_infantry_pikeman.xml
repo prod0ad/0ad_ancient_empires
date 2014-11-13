@@ -7,11 +7,11 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>2</Hack>
-      <Pierce>10</Pierce>
+      <Hack>4</Hack>
+      <Pierce>16</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
+      <RepeatTime>1500</RepeatTime>
     </Melee>
     <Charge>
       <Hack>4</Hack>
@@ -31,7 +31,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>120</Max>
+    <Max>165</Max>
   </Health>
   <Identity>
     <Civ>ptol</Civ>

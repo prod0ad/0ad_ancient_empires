@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>1</Pierce>
-    <Crush>3</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Slaughter>
@@ -15,7 +15,7 @@
   </Attack>
   <Cost>
     <Population>2</Population>
-    <BuildTime>20</BuildTime>
+    <BuildTime>15</BuildTime>  
     <Resources>
       <food>100</food>
     </Resources>
@@ -24,9 +24,6 @@
     <Square width="3" depth="5"/>
     <Height>7.5</Height>
   </Footprint>
-  <Health>
-    <Max>200</Max>
-  </Health>
   <Identity>
     <Classes datatype="tokens">CitizenSoldier Organic</Classes>
     <VisibleClasses datatype="tokens">Cavalry Citizen Soldier</VisibleClasses>
@@ -50,7 +47,7 @@
     <Anchor>pitch</Anchor>
   </Position>
   <Promotion>
-    <RequiredXp>150</RequiredXp>
+    <RequiredXp>300</RequiredXp>
   </Promotion>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
@@ -65,12 +62,22 @@
       <metal>20</metal>
     </Capacities>
   </ResourceGatherer>
+  <UnitMotion>
+    <WalkSpeed>16</WalkSpeed>
+    <Run>
+      <Speed>26.0</Speed>
+      <Range>600.0</Range>
+      <RangeMin>5.0</RangeMin>
+    </Run>
+  </UnitMotion>
+  <Vision>
+    <Range>60</Range>
+  </Vision>  
   <Selectable>
     <Overlay>
       <Texture>
         <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
-        
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask> 
       </Texture>
     </Overlay>
   </Selectable>
@@ -87,21 +94,7 @@
       <trained>interface/alarm/alarm_create_cav.xml</trained>
     </SoundGroups>
   </Sound>
-  <Stamina>
-    <Max>2000</Max>
-  </Stamina>
   <StatusBars>
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
-  <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
-    <Run>
-      <Speed>26.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
-  </UnitMotion>
-  <Vision>
-    <Range>80</Range>
-  </Vision>
 </Entity>

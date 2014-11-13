@@ -2,9 +2,9 @@
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Attack>
     <Ranged>
-      <Pierce>30</Pierce>
+      <Pierce>20</Pierce>
       <Crush>10</Crush>
-      <MaxRange>30</MaxRange>
+      <MaxRange>35</MaxRange>
     </Ranged>
   </Attack>
   <Identity>

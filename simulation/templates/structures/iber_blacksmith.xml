@@ -8,6 +8,7 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       attack_steel_working
+	  iberians/soliferrum
     </Technologies>
   </ProductionQueue>
   <VisualActor>

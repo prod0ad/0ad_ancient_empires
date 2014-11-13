@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
   <Armour>
-    <Hack>7</Hack>
-    <Pierce>7</Pierce>
-    <Crush>7</Crush>
+    <Hack>6</Hack>
+    <Pierce>6</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
       <Hack>20</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>4.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
     </Melee>
     <Charge>
@@ -21,16 +21,6 @@
       <MinRange>0.0</MinRange>
     </Charge>
   </Attack>
-  <Cost>
-    <BuildTime>20</BuildTime>
-    <Population>2</Population>	
-    <Resources>
-      <food>100</food>
-      <wood>0</wood>
-      <stone>0</stone>
-      <metal>100</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
     <GenericName>Champion Swordsman</GenericName>

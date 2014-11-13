@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/sele_cavalry_swordsman_b">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>4</Pierce>
-    <Crush>5</Crush>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>18</Hack>
-    </Melee>
-    <Charge>
-      <Hack>36</Hack>
-    </Charge>
-  </Attack>
-  <Health>
-    <Max>210</Max>
-  </Health>
   <Identity>
     <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>			
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_swordsman_e</Entity>

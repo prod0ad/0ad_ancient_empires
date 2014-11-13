@@ -65,11 +65,6 @@
 			"Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300). Each phase researched reduces the food cost of female and infantry citizens by 10%."
 		},
 		{
-			"Name": "Ancient Cities.",
-			"History": "India was one of the first regions having huge settlements.",
-			"Description": "Civil Centres +10 population bonus."
-		},		
-		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
 			"Description": "Citizen Melee infantry cost -10% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."

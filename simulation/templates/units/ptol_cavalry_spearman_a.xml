@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/ptol_cavalry_spearman_b">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>3</Pierce>
-    <Crush>5</Crush>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>5</Hack>
-      <Pierce>29</Pierce>
-    </Melee>
-    <Charge>
-      <Hack>10</Hack>
-      <Pierce>58</Pierce>
-    </Charge>
-  </Attack>
-  <Health>
-    <Max>210</Max>
-  </Health>
   <Identity>
     <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>		
   </Identity>
   <Promotion>
     <Entity>units/ptol_cavalry_spearman_e</Entity>

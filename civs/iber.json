@@ -19,7 +19,17 @@
 					"Name": "Maisu Burdina Langileak",
 					"History": "The Iberians were known to produce the finest iron and steel implements and weapons of the age. The famous 'Toledo Steel.'",
 					"Description": "Sword units +2 hack damage." 
-				} 
+				}, 
+				{
+					"Name": "Soliferrum",
+					"History": "The Iberians used heavy iron javelins.",
+					"Description": "Javelin units +25% attack but -10% movement speed." 
+				}, 				
+		        {
+			        "Name": "Guerilla (Reform)",
+			        "History": "The Iberians employed successful skirmish and ambush tactics in their wars and rebellions against the Romans. They even reached as far as raiding Roman possessions in Africa.",
+			        "Description": "All Citizen Soldier Infantry and Cavalry move 15% faster."
+		        } 				
 			],
 			"Heroes":
 			[
@@ -60,11 +70,6 @@
 			"Description": "Elite rank skirmishers and Champion Cavalry deal additional crush damage." 
 		},		
 		{
-			"Name": "Guerilla",
-			"History": "The Iberians were masters of skirmish tactics.",
-			"Description": "All Citizen Soldier Infantry and Cavalry move 10% faster."
-		}, 
-		{
 			"Name": "Low Armor Use",
 			"History": "Most Iberian Soldiers went to war without body armor.", 
 			"Description": "Citizen Melee infantry cost -5% wood/metal but also have -10% hit points and -1 hack and pierce armor levels." 
@@ -72,11 +77,11 @@
 	],
 	"TeamBonuses":
 	[
-		{
-			"Name": "Saripeko",
-			"History": "The Iberians were long known to provide mercenary soldiers to other nations to serve as auxiliaries to their armies in foreign wars. Carthage is the most well known example, and we have evidence of them serving in such a capacity in Aquitania.",
-			"Description": "Citizen-soldier infantry skirmishers and cavalry skirmishers -20% cost for allies."
-		} 
+			{
+				"Name": "Land Of Great Riches",
+				"History": "Iberia was full of natural resources including mines and timber suitable for shipbuilding.",
+				"Description": "-50% storehouse wood cost (currently not shared)." 
+			} 
 	],
 	"Structures":
 	[

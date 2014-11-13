@@ -20,15 +20,15 @@
 				{
 					"Name": "Sevili Dusios",
 					"History": "The Britons took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
-					"Description": "+20% melee infantry attack (placeholder for fear aura)." 
+					"Description": "+10% melee infantry attack and movement speed(placeholder for fear aura)." 
 				},
 				{
-					"Name": "Turos Maros",
-					"History": "'Great Tower'; Celtic legends abound with stories of massive tall towers built by the most powerful kings, and the remains of some very large towers have been found.",
-					"Description": "Increases tower hit points by 50% and adds an extra default arrow." 
+					"Name": "Hill Forts",
+					"History": "Britain was full of Celtic Hill forts.",
+					"Description": "Increases Fortress hit points by 25% and adds an extra default arrow." 
 				}, 
 				{
-					"Name": "Levy Reform",
+					"Name": "Boudicca's Levy (Reform)",
 					"History": "Roman expansionism resulted in large numbers of Britons going to war under Boudicca.",
 					"Description": "All citizen soldiers train 20% faster." 
 				} 

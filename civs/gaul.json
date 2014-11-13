@@ -18,9 +18,9 @@
 			"Technologies":
 			[
 				{
-					"Name": "Late Reform",
+					"Name": "Late Armies (Reform)",
 					"History": "Late Gallic armies included an increased number of men armored in chainmail.",
-					"Description": "+2 hack and +1 pierce armor for melee infantry and cavalry units."
+					"Description": "+1 hack and +1 pierce armor for melee infantry and cavalry units. Unlocks the training of champion units at the barracks."
 				},
 				{
 					"Name": "Trimarchisia",

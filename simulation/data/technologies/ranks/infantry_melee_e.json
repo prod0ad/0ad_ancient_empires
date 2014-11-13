@@ -1,0 +1,11 @@
+{
+	"genericName": "Elite",
+	"autoResearch": true,	
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},	
+		{"value": "Armour/Hack", "add": 1.0},
+		{"value": "Armour/Pierce", "add": 1.0},
+		{"value": "Attack/Melee/RepeatTime", "multiply": 0.9}
+	],
+	"affects": ["Infantry Melee Elite"]
+}

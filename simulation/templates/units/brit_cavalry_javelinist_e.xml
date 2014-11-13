@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/brit_cavalry_javelinist_a">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>3</Pierce>
-    <Crush>5</Crush>
-  </Armour>
-  <Attack>
-    <Ranged>
-      <MaxRange>34</MaxRange>
-      <Spread>1.0</Spread>
-    </Ranged>
-  </Attack>
-  <Health>
-    <Max>160</Max>
-  </Health>
   <Identity>
     <Rank>Elite</Rank>
+    <Classes datatype="tokens">Elite</Classes>		
   </Identity>
   <Promotion disable=""/>
   <ResourceGatherer>

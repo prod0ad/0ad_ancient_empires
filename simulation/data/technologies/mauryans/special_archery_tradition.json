@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "armor_plates_ranged.png",
 	"researchTime": 40,
-	"tooltip": "Archer +4 range and -4 second train time.",
+	"tooltip": "Archer +5 range and -4 second train time.",
 	"modifications": [
 		{"value": "Attack/Ranged/MaxRange", "add": 4.0},
 		{"value": "Vision/Range", "add": 4.0},

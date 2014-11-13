@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Armour>
-    <Hack>8</Hack>
-    <Pierce>8</Pierce>
+    <Hack>7</Hack>
+    <Pierce>7</Pierce>
     <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>10</Hack>
-      <Pierce>50</Pierce>
+      <Hack>20</Hack>
+      <Pierce>40</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>7.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
@@ -24,15 +24,15 @@
     </Charge>
   </Attack>
   <Health>
-    <Max>400</Max>
+    <Max>420</Max>
   </Health>
   <Cost>
-    <Population>3</Population>  
+    <Population>2</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
       <food>100</food>
       <wood>0</wood>
-	  <metal>175</metal>
+	  <metal>120</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>  

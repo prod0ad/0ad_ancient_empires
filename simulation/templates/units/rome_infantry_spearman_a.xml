@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/rome_infantry_spearman_b">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>5</Pierce>
-    <Crush>6</Crush>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>3</Hack>
-      <Pierce>7</Pierce>
-    </Melee>
-    <Charge>
-      <Hack>14.0</Hack>
-      <Pierce>28.0</Pierce>
-    </Charge>
-  </Attack>
-  <Health>
-    <Max>130</Max>
-  </Health>
   <Identity>
     <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>			
   </Identity>
   <Promotion>
     <Entity>units/rome_infantry_spearman_e</Entity>

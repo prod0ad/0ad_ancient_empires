@@ -10,8 +10,7 @@
       structures/{civ}_wonder
     </Entities>
   </Builder>
-  <Cost>
-    <BuildTime>7</BuildTime>	  
+  <Cost>  
     <Resources>
       <food>50</food>
 	  <wood>0</wood>

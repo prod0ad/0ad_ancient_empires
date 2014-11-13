@@ -18,9 +18,6 @@
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Charge>
   </Attack>
-  <Health>
-    <Max>120</Max>
-  </Health>
   <Identity>
     <GenericName>Melee Infantry</GenericName>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>

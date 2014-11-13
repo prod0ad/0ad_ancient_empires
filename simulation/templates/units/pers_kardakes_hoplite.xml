@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>5</Pierce>
-    <Crush>7</Crush>
+    <Hack>3</Hack>
+    <Pierce>4</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>2</Hack>
-      <Pierce>10</Pierce>
+      <Hack>3</Hack>
+      <Pierce>15</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
+      <RepeatTime>1500</RepeatTime>
     </Melee>
     <Charge>
       <Hack>10</Hack>
@@ -23,12 +23,12 @@
   </Attack>
   <Cost>
     <BuildTime>15</BuildTime>
-    <Population>2</Population>	
+    <Population>1</Population>	
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>60</metal>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Identity>

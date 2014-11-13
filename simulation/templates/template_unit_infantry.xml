@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>4</Pierce>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
     <Crush>3</Crush>
   </Armour>
   <Attack>
@@ -35,7 +35,7 @@
     </Entities>
   </Builder>
   <Cost>
-    <BuildTime>10</BuildTime>
+    <BuildTime>5</BuildTime>
     <Resources>
       <food>50</food>
       <wood>0</wood>
@@ -48,7 +48,7 @@
     <Height>2.5</Height>
   </Footprint>
   <Health>
-    <Max>100</Max>
+    <Max>50</Max>
   </Health>
   <Identity>
     <GenericName>Infantry</GenericName>
@@ -65,7 +65,7 @@
   </Loot>
   <Looter/>
   <Promotion>
-    <RequiredXp>100</RequiredXp>
+    <RequiredXp>200</RequiredXp>
   </Promotion>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
@@ -114,13 +114,13 @@
     <Max>1000</Max>
   </Stamina>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>8</WalkSpeed>
     <Run>
-      <Speed>18.75</Speed>
+      <Speed>16</Speed>
     </Run>
     <CostClass>infantry</CostClass>
   </UnitMotion>
   <Vision>
-    <Range>60</Range>
+    <Range>40</Range>
   </Vision>
 </Entity>

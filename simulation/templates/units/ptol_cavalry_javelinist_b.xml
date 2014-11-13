@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelinist">
   <Cost>
-    <Population>2</Population>
-    <BuildTime>16</BuildTime>  
     <Resources>
       <food>100</food>
       <wood>0</wood>

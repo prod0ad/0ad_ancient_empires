@@ -22,6 +22,7 @@
     </Entities>
 	<Technologies datatype="tokens">
       training_conscription
+
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

@@ -1,0 +1,10 @@
+{
+	"genericName": "Land Of Great Riches",
+	"autoResearch": true,	
+	"description": "Iberia was full of natural resources including mines and timber suitable for shipbuilding.",
+	"requirements": {"civ": "iber"},
+	"modifications": [
+		{"value": "Cost/Resources/wood", "multiply": 0.5}
+	],
+	"affects": ["Storehouse"]
+}
