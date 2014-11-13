@@ -15,10 +15,10 @@
       <Type>global</Type>
       <Affects>Temple</Affects>
       <Modifications>
-        <Cost.Resources.stone> <Add>-50</Add> </Cost.Resources.stone>
+        <Cost.Resources.stone> <Add>-100</Add> </Cost.Resources.stone>
       </Modifications>
       <AuraName>Acropolis Aura</AuraName>
-      <AuraDescription>Temples are 50 stone cheaper during his lifetime.</AuraDescription>
+      <AuraDescription>Temples are 100 stone cheaper during his lifetime.</AuraDescription>
     </Aura2>
   </Auras>
   <Identity>

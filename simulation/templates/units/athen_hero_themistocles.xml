@@ -6,7 +6,7 @@
       <Affects>Ship</Affects>
       <AffectedPlayers>Player MutualAlly</AffectedPlayers>
       <Modifications>
-        <UnitMotion.WalkSpeed> <Multiply>1.15</Multiply> </UnitMotion.WalkSpeed>
+        <UnitMotion.WalkSpeed> <Multiply>1.5</Multiply> </UnitMotion.WalkSpeed>
       </Modifications>
       <AuraName>Naval Commander Aura</AuraName>
       <AuraDescription>When garrisoned in a ship, his ship is +50% faster.</AuraDescription>

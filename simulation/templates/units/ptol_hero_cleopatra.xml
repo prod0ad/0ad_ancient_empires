@@ -10,7 +10,7 @@
         <Attack.Ranged.RepeatTime> <Multiply>0.8</Multiply> </Attack.Ranged.RepeatTime>
       </Modifications>
       <AuraName>Patriot Aura</AuraName>
-      <AuraDescription>Egyptian units fight 20% faster in her vision range.</AuraDescription>
+      <AuraDescription>Egyptian units attack 20% faster in her vision range.</AuraDescription>
     </unit_attack_speed_20>
   </Auras>
   <Identity>

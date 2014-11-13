@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry">
-  <Armour>
-    <Hack>8</Hack>
-    <Pierce>8</Pierce>
-    <Crush>6</Crush>
-  </Armour>
   <Attack>
     <Melee>
       <Hack>20</Hack>
@@ -26,24 +21,4 @@
       <RangeMin>8.0</RangeMin>
     </Run>
   </UnitMotion>
-  <Health>
-    <Max>600</Max>
-  </Health>  
-  <Cost>
-    <Population>2</Population>
-    <BuildTime>45</BuildTime>
-    <Resources>
-      <food>100</food>
-      <wood>0</wood>
-      <stone>0</stone>
-      <metal>175</metal>
-    </Resources>
-  </Cost>
-  <Loot>
-    <xp>300</xp>
-    <food>0</food>
-    <wood>0</wood>
-    <stone>0</stone>
-    <metal>75</metal>
-  </Loot>
 </Entity>

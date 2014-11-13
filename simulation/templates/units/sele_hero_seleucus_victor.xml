@@ -6,12 +6,12 @@
       <Radius>90</Radius>
       <Affects>Elephant</Affects>
       <Modifications>
-        <UnitMotion.WalkSpeed> <Multiply>1.20</Multiply> </UnitMotion.WalkSpeed>
-        <Attack.Melee.Hack> <Multiply>1.20</Multiply> </Attack.Melee.Hack>
-        <Attack.Melee.Crush> <Multiply>1.20</Multiply> </Attack.Melee.Crush>
+        <UnitMotion.WalkSpeed> <Multiply>1.25</Multiply> </UnitMotion.WalkSpeed>
+        <Attack.Melee.Hack> <Multiply>1.25</Multiply> </Attack.Melee.Hack>
+        <Attack.Melee.Crush> <Multiply>1.25</Multiply> </Attack.Melee.Crush>
       </Modifications>
       <AuraName>Zooiarchos Aura</AuraName>
-      <AuraDescription>Boosts War Elephant attack and speed +20% within his vision.</AuraDescription>
+      <AuraDescription>Boosts War Elephant attack and speed +25% within his vision.</AuraDescription>
     </Aura1>
   </Auras>
   <Identity>

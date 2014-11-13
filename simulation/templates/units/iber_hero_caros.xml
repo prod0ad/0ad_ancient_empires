@@ -10,4 +10,10 @@
   <VisualActor>
     <Actor>units/iberians/hero_caros.xml</Actor>
   </VisualActor>
+  <UnitMotion>
+    <WalkSpeed>11.5</WalkSpeed>
+    <Run>
+      <Speed>25.0</Speed>
+    </Run>
+  </UnitMotion>  
 </Entity>

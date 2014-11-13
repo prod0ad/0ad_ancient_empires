@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>6</Pierce>
-    <Crush>7</Crush>
+    <Hack>4</Hack>
+    <Pierce>5</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>26.5</Pierce>
+      <Pierce>20</Pierce>
       <Crush>0</Crush>
       <MaxRange>48</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>50.0</ProjectileSpeed>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
       <Spread>1.0</Spread>
     </Ranged>
   </Attack>
+  <Health>
+    <Max>320</Max>
+  </Health>    
   <Cost>
-    <BuildTime>35</BuildTime>
+    <Population>2</Population>
+    <BuildTime>26</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>160</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -31,13 +38,14 @@
       formations/skirmish
     </Formations>
   </Identity>
-  <Loot>
-    <xp>350</xp>
-    <food>5</food>
-    <wood>20</wood>
-    <stone>0</stone>
-    <metal>0</metal>
-  </Loot>
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+    <Run>
+      <Speed>20.0</Speed>
+      <Range>600.0</Range>
+      <RangeMin>8.0</RangeMin>
+    </Run>
+  </UnitMotion>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

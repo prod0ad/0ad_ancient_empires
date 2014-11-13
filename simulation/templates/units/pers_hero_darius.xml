@@ -13,16 +13,16 @@
     </Aura1>
   </Auras>
   <Armour>
-    <Hack>8</Hack>
-    <Pierce>6</Pierce>
+    <Hack>6</Hack>
+    <Pierce>5</Pierce>
     <Crush>4</Crush>
   </Armour>  
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>48</Pierce>
+      <Pierce>24</Pierce>
       <Crush>0</Crush>
-      <MaxRange>65</MaxRange>
+      <MaxRange>55</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1000</RepeatTime>
@@ -30,29 +30,22 @@
   </Attack>
   <Cost>
     <Population>4</Population>
-    <BuildTime>60</BuildTime>  
+    <BuildTime>40</BuildTime>  
     <Resources>
-      <food>400</food>
+      <food>200</food>
       <wood>0</wood>
-	  <metal>250</metal>
-      <stone>0</stone>	 
+	  <metal>200</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
   <Health>
-    <Max>1250</Max>
+    <Max>600</Max>
   </Health>  
-  <Loot>
-    <xp>300</xp>
-    <food>0</food>
-    <wood>0</wood>
-    <stone>0</stone>
-    <metal>100</metal>
-  </Loot>
   <Obstruction>
     <Unit radius="2.0"/>
   </Obstruction>
   <UnitMotion>
-    <WalkSpeed>17.0</WalkSpeed>
+    <WalkSpeed>18.0</WalkSpeed>
     <Run>
       <Speed>34.0</Speed>
     </Run>

@@ -8,27 +8,35 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>16</Pierce>
+      <Pierce>12</Pierce>
       <Crush>0</Crush>
-      <MaxRange>65</MaxRange>
+      <MaxRange>55</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Spread>1.0</Spread>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>1.1</Spread>
     </Ranged>
   </Attack>
   <Health>
-    <Max>400</Max>
+    <Max>280</Max>
   </Health>  
+  <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
+    <Run>
+      <Speed>20.0</Speed>
+      <Range>600.0</Range>
+      <RangeMin>8.0</RangeMin>
+    </Run>
+  </UnitMotion>
   <Cost>
     <Population>2</Population>
-    <BuildTime>45</BuildTime>
+    <BuildTime>34</BuildTime>
     <Resources>
-      <food>100</food>
+      <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>100</metal>
+      <metal>160</metal>
     </Resources>
   </Cost>
   <Identity>
@@ -38,13 +46,6 @@
       formations/skirmish
     </Formations>
   </Identity>
-  <Loot>
-    <xp>300</xp>
-    <food>0</food>
-    <wood>0</wood>
-    <stone>0</stone>
-    <metal>50</metal>
-  </Loot>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

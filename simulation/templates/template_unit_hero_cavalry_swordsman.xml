@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry">
   <Armour>
-    <Hack>8</Hack>
+    <Hack>7</Hack>
     <Pierce>6</Pierce>
-    <Crush>8</Crush>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
-     <Hack>32</Hack>
+     <Hack>30</Hack>
      <Pierce>0</Pierce>
      <Crush>0.0</Crush>
      <MaxRange>6.0</MaxRange>

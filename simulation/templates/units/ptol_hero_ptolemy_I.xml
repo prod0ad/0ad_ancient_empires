@@ -6,22 +6,22 @@
       <Radius>90</Radius>
       <Affects>Worker</Affects>
       <Modifications>
-        <Builder.Rate> <Multiply>1.10</Multiply> </Builder.Rate>
+        <Builder.Rate> <Multiply>1.20</Multiply> </Builder.Rate>
       </Modifications>
       <AuraName>Construction Aura</AuraName>
-      <AuraDescription>Buildings construct 10% faster within his vision.</AuraDescription>
+      <AuraDescription>Buildings construct 20% faster within his vision.</AuraDescription>
     </Aura1>
     <Aura2>
       <Type>global</Type>
       <Affects>Mercenary</Affects>
       <Modifications>
-		<Cost.Resources.food> <Multiply>0.5</Multiply> </Cost.Resources.food>
-		<Cost.Resources.wood> <Multiply>0.5</Multiply> </Cost.Resources.wood>
-        <Cost.Resources.stone> <Multiply>0.5</Multiply> </Cost.Resources.stone>
-        <Cost.Resources.metal> <Multiply>0.5</Multiply> </Cost.Resources.metal>
+		<Cost.Resources.food> <Multiply>0.25</Multiply> </Cost.Resources.food>
+		<Cost.Resources.wood> <Multiply>0.25</Multiply> </Cost.Resources.wood>
+        <Cost.Resources.stone> <Multiply>0.25</Multiply> </Cost.Resources.stone>
+        <Cost.Resources.metal> <Multiply>0.25</Multiply> </Cost.Resources.metal>
       </Modifications>
       <AuraName>Mercenary Patron Aura</AuraName>
-      <AuraDescription>Mercenaries cost -50% resources during his lifetime.</AuraDescription>
+      <AuraDescription>Mercenaries cost -25% resources during his lifetime.</AuraDescription>
     </Aura2>
   </Auras>
   <Identity>

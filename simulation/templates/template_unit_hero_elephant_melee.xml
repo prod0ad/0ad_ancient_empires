@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
   <Armour>
-    <Hack>15</Hack>
-    <Pierce>15</Pierce>
-    <Crush>12</Crush>
+    <Hack>6</Hack>
+    <Pierce>6</Pierce>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
       <Hack>0</Hack>
-      <Pierce>40</Pierce>
-      <Crush>80</Crush>
+      <Pierce>20</Pierce>
+      <Crush>40</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
     </Melee> 
   </Attack>
   <Cost>
-    <Population>8</Population>
+    <Population>6</Population>
     <BuildTime>60</BuildTime>
     <Resources>
-      <food>500</food>
+      <food>300</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>300</metal>
@@ -29,7 +29,7 @@
     <Height>9.0</Height>
   </Footprint>
   <Health>
-    <Max>2000</Max>
+    <Max>2400</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
@@ -48,7 +48,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
     <Run>
       <Speed>18.0</Speed>
       <Range>1000.0</Range>

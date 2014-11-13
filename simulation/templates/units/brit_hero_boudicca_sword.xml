@@ -3,13 +3,13 @@
   <Auras>
     <Aura1>
       <Type>global</Type>
-      <Affects>Champion</Affects>
+      <Affects>Citizen Soldier</Affects>
       <Modifications>
         <UnitMotion.WalkSpeed> <Multiply>1.25</Multiply> </UnitMotion.WalkSpeed>
         <Attack.Ranged.Pierce> <Add>5</Add> </Attack.Ranged.Pierce>
         <Attack.Melee.Hack> <Add>5</Add> </Attack.Melee.Hack>
       </Modifications>
-      <AuraName>Champion Army</AuraName>
+      <AuraName>Levy Army</AuraName>
       <AuraDescription>+5 Attack and +25% Speed for Champion Units.</AuraDescription>
     </Aura1>
   </Auras>
