@@ -7,9 +7,9 @@
     <BuildTime>200</BuildTime>
     <PopulationBonus>20</PopulationBonus>
     <Resources>
-      <wood>150</wood>
-      <stone>150</stone>
-      <metal>150</metal>
+      <wood>100</wood>
+      <stone>100</stone>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Footprint>

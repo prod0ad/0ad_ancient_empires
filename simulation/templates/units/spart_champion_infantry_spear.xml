@@ -7,8 +7,8 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>15</Hack>
-      <Pierce>30</Pierce>
+      <Hack>10</Hack>
+      <Pierce>25</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
@@ -23,10 +23,7 @@
       <stone>0</stone>
       <metal>80</metal>
     </Resources>
-  </Cost>
-  <Health>
-    <Max>250</Max>
-  </Health>  
+  </Cost> 
   <Identity>
     <Civ>spart</Civ>
 	<GenericName>Spartan Royal Guard</GenericName>

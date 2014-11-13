@@ -6,7 +6,7 @@
     <Crush>3</Crush>
   </Armour>
   <Cost>
-    <BuildTime>8</BuildTime>
+    <BuildTime>10</BuildTime>
   </Cost>
   <Identity>
     <GenericName>Support</GenericName>
