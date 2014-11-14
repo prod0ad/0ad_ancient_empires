@@ -18,11 +18,6 @@
 			"Technologies":
 			[
 				{
-					"Name": "Sevili Dusios",
-					"History": "The Britons took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
-					"Description": "+10% melee infantry attack and movement speed(placeholder for fear aura)." 
-				},
-				{
 					"Name": "Hill Forts",
 					"History": "Britain was full of Celtic Hill forts.",
 					"Description": "Increases Fortress hit points by 25% and adds an extra default arrow." 
@@ -62,19 +57,14 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Rural Lifestyle",
-			"History": "The Celts very often lived close to the nature and employed advanced farming methods.",
-			"Description": "All infantry citizen soldiers farm, hunt and herd 50% faster." 
-		},
-		{
-			"Name": "Deas Celtica",
-			"History": "Celtic religion and druidry inspired their warlike mindset.",
-			"Description": "Druids increase attack damage of soldiers near them by 0.5 (low placeholder until non-stacked auras are available)." 
-		},
+			"Name": "Woad Paint",
+			"History": "The Britons took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
+			"Description": "Naked Fanatic Fear Aura is 10% stronger." 
+		},		
 		{
 			"Name": "Celtic Valour",
 			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies.", 
-			"Description": "+10% melee infantry walk and run speed." 
+			"Description": "+10% citizen melee infantry walk and run speed." 
 		},
 		{
 			"Name": "Low Armor Use",
@@ -106,15 +96,15 @@
 			"Phase": "",
 			"Special": "" 
 		}, 
-			{
+		{
 			"Name": "Melonas",
 			"Class": "",
 			"Emblem": "",
 			"History": "The Celts developed the first rotary flour mill.",
 			"Requirements": "",
 			"Phase": "",
-			"Special": "" 
-		} 	
+			"Description": "25% increased farming rate for nearby farms." 
+		}	
 	],
 	"StartEntities":
 	[

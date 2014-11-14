@@ -7,11 +7,11 @@
       <Affects>Unit</Affects>
       <AffectedPlayers>Player Ally</AffectedPlayers>
       <Modifications>
-        <Attack.Ranged.Pierce> <Add>0.5</Add> </Attack.Ranged.Pierce>
-        <Attack.Melee.Hack> <Add>0.5</Add> </Attack.Melee.Hack>
+        <Attack.Ranged.Pierce> <Add>1</Add> </Attack.Ranged.Pierce>
+        <Attack.Melee.Hack> <Add>1</Add> </Attack.Melee.Hack>
       </Modifications>
       <AuraName>Druidic Aura</AuraName>
-      <AuraDescription>All allied units +0.5 attack within vision range of him.</AuraDescription>
+      <AuraDescription>All allied units +1 attack within vision range of him.</AuraDescription>
     </Aura1>
   </Auras>
   <Identity>

@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Armour>
     <Hack>7</Hack>
-    <Pierce>7</Pierce>
+    <Pierce>6</Pierce>
     <Crush>7</Crush>
   </Armour>
   <Attack>
@@ -24,7 +24,7 @@
     </Charge>
   </Attack>
   <Health>
-    <Max>420</Max>
+    <Max>400</Max>
   </Health>
   <Cost>
     <Population>2</Population>  

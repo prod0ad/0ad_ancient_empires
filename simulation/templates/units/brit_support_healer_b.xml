@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>30</Radius>
-      <Affects>Unit</Affects>
-      <AffectedPlayers>Player Ally</AffectedPlayers>
-      <Modifications>
-        <Attack.Ranged.Pierce> <Add>0.5</Add> </Attack.Ranged.Pierce>
-        <Attack.Melee.Hack> <Add>0.5</Add> </Attack.Melee.Hack>
-      </Modifications>
-      <AuraName>Druidic Aura</AuraName>
-      <AuraDescription>All allied units +0.5 attack within vision range of him.</AuraDescription>
-    </Aura1>
-  </Auras>
   <Identity>
     <Civ>brit</Civ>
     <SelectionGroupName>units/brit_support_healer_b</SelectionGroupName>

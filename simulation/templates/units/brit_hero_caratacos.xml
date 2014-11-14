@@ -3,12 +3,12 @@
   <Auras>
 	<Aura1>
       <Type>global</Type>
-      <Affects>Unit</Affects>
+      <Affects>Worker</Affects>
       <Modifications>
-        <UnitMotion.WalkSpeed> <Multiply>1.15</Multiply> </UnitMotion.WalkSpeed>
+        <ResourceGatherer.Rates.metal.ore> <Multiply>1.15</Multiply> </ResourceGatherer.Rates.metal.ore>
       </Modifications>
-      <AuraName>Hero Aura</AuraName>
-      <AuraDescription>All Units +15% speed.</AuraDescription>
+      <AuraName>Mint Aura</AuraName>
+      <AuraDescription>Workers mine metal 15% faster while he lives.</AuraDescription>
     </Aura1>
   </Auras>
   <Identity>

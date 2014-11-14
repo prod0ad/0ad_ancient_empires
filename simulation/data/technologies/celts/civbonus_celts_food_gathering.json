@@ -1,6 +1,5 @@
 {
 	"genericName": "Ardiosmanae",
-	"autoResearch": true,
 	"description": "All infantry citizen soldiers gather food from farms and animals 50% faster.",
 	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
 	"modifications": [

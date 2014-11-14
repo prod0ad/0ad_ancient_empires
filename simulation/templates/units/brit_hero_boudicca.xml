@@ -5,12 +5,12 @@
       <Type>global</Type>
       <Affects>Citizen Soldier</Affects>
       <Modifications>
-        <UnitMotion.WalkSpeed> <Multiply>1.25</Multiply> </UnitMotion.WalkSpeed>
-        <Attack.Ranged.Pierce> <Add>5</Add> </Attack.Ranged.Pierce>
-        <Attack.Melee.Hack> <Add>5</Add> </Attack.Melee.Hack>
+        <UnitMotion.WalkSpeed> <Multiply>1.20</Multiply> </UnitMotion.WalkSpeed>
+        <Attack.Ranged.Pierce> <Add>2</Add> </Attack.Ranged.Pierce>
+        <Attack.Melee.Hack> <Add>2</Add> </Attack.Melee.Hack>
       </Modifications>
       <AuraName>Levy Army</AuraName>
-      <AuraDescription>+5 Attack and +25% Speed for Champion Units.</AuraDescription>
+      <AuraDescription>+2 Attack and +20% Citizen Soldier Units.</AuraDescription>
     </Aura1>
   </Auras>
   <Footprint replace="">

@@ -10,11 +10,11 @@
   </Cost>
   <Builder>
     <Entities datatype="tokens">
-      structures/mace_siege_workshop
+	  structures/mace_mercenary_camp	
+      structures/mace_anactoron
       structures/mace_theatron
       structures/mace_library
 	  structures/mace_wonder
-	  structures/mace_mercenary_camp
     </Entities>
   </Builder>
   <Identity>

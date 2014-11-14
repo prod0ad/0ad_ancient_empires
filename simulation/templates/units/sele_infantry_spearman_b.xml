@@ -2,9 +2,10 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Builder>
     <Entities datatype="tokens">
+	  structures/sele_mercenary_camp
+	  structures/sele_anactoron	  
       structures/sele_library
       structures/sele_wonder
-	  structures/sele_mercenary_camp
     </Entities>
   </Builder>
   <Identity>

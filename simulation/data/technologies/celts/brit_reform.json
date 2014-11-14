@@ -4,7 +4,7 @@
 	"cost": {"food": 1250, "wood": 0, "stone": 0, "metal": 750},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "fist_spear.png",
+	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
 	"tooltip": "All citizen soldiers train 20% faster.",
     "modifications": [{"value": "Cost/BuildTime", "multiply": 0.8}],

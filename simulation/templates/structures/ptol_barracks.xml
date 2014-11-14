@@ -30,8 +30,6 @@
     </Entities>
     <Technologies datatype="tokens">
       training_conscription
-	  successors/ptol_reforms_machimoi
-	  successors/ptol_reforms_roman
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>

@@ -23,6 +23,11 @@
 					"Description": "+1 hack and +1 pierce armor for melee infantry and cavalry units. Unlocks the training of champion units at the barracks."
 				},
 				{
+					"Name": "Mass Migration",
+					"History": "The Gauls often relocated en mass. One prime example is the Galatian invasion of the Balkans which concluded with a large portion of them settling in the middle of Asia Minor and another one in Eastern Thrace.",
+					"Description": "Allows all structures to be constructed in any territory."
+				},				
+				{
 					"Name": "Trimarchisia",
 					"History": "A special tactic used by Gallic horsemen involving extra horses and servants allowing them to rest while maintaining constant pressure on the enemy.",
 					"Description": "Cavalry units will regenerate health rapidly over time when idle." 
@@ -57,19 +62,14 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Rural Lifestyle",
-			"History": "The Celts very often lived close to the nature and employed advanced farming methods.",
-			"Description": "All infantry citizen soldiers farm, hunt and herd 50% faster." 
-		},
-		{
-			"Name": "Deas Celtica",
+			"Name": "Carnutes",
 			"History": "Celtic religion and druidry inspired their warlike mindset.",
-			"Description": "Druids increase attack damage of soldiers near them by 0.5 (low placeholder until non-stacked auras are available)." 
+			"Description": "Druids increase the attack damage of soldiers near them by 1." 
 		},
 		{
 			"Name": "Celtic Valour",
 			"History": "The individual's courage, deeds and charging in for close combat were considered as the ultimate form of bravery in Celtic societies.", 
-			"Description": "+10% melee infantry walk and run speed." 
+			"Description": "+10% citizen melee infantry walk and run speed." 
 		},
 		{
 			"Name": "Low Armor Use",
@@ -99,8 +99,8 @@
 			"History": "The Celts developed the first rotary flour mill.",
 			"Requirements": "",
 			"Phase": "",
-			"Special": "" 
-		} 
+			"Description": "25% increased farming rate for nearby farms." 
+		}	
 	],
 	"StartEntities":
 	[

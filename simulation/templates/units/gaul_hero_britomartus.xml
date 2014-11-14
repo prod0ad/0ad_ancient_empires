@@ -5,10 +5,10 @@
       <Type>global</Type>
       <Affects>Worker</Affects>
       <Modifications>
-        <ResourceGatherer.BaseSpeed> <Multiply>1.15</Multiply> </ResourceGatherer.BaseSpeed>
+        <ResourceGatherer.BaseSpeed> <Multiply>1.10</Multiply> </ResourceGatherer.BaseSpeed>
       </Modifications>
       <AuraName>Hero Aura</AuraName>
-      <AuraDescription>Gathering rates increased with +15% during his lifetime.</AuraDescription>
+      <AuraDescription>Gathering rates increased with +10% during his lifetime.</AuraDescription>
     </Aura1>
   </Auras>
   <Identity>

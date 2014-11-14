@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>90</Radius>
+      <Affects>Worker</Affects>
+      <AffectedPlayers>Player Ally</AffectedPlayers>
+      <Modifications>
+        <ResourceGatherer.Rates.food.grain> <Add>1</Add> </ResourceGatherer.Rates.food.grain>
+      </Modifications>
+      <AuraName>Rotary Mill Aura</AuraName>
+      <AuraDescription>Nearby farmers work 25% faster. Range: 90.</AuraDescription>
+    </Aura1>
+  </Auras>
   <Cost>
     <BuildTime>100</BuildTime>
     <PopulationBonus>2</PopulationBonus>
@@ -19,19 +32,13 @@
     <Civ>Brit</Civ>
     <GenericName>Rotary Mill</GenericName>
     <SpecificName>Melonas</SpecificName>
-    <Tooltip>Increase nearby farming output +25%. (Currently, a special technology can be researched to serve this function)</Tooltip>
+    <Tooltip>Increase nearby farming output +25%.</Tooltip>
     <History>The Celts developed the first rotary flour mill.</History>
     <Icon>structures/sb1.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      celts/special_gather_crop_rotation
-    </Technologies>
-  </ProductionQueue>
   <RallyPoint disable=""/>
   <Sound>
     <SoundGroups>

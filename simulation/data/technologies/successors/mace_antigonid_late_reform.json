@@ -4,6 +4,7 @@
 	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 1000},
 	"requirements": {"tech": "successors/mace_antigonid_early_reform"},
 	"requirementsTooltip": "Requires Early Antigonid Reform.",
+    "supersedes": "successors/mace_antigonid_early_reform",	
 	"icon": "javelin_thong.png",
 	"researchTime": 60,
 	"tooltip": "Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Slinger Champion.",

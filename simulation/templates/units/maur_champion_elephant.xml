@@ -19,7 +19,7 @@
   <Armour>
     <Hack>8</Hack>
     <Pierce>8</Pierce>
-    <Crush>7</Crush>
+    <Crush>6</Crush>
   </Armour>
   <Cost>
     <Population>5</Population>
@@ -39,7 +39,7 @@
     <Max>1800</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed>9</WalkSpeed>
     <Run>
       <Speed>18.0</Speed>
       <Range>1000.0</Range>

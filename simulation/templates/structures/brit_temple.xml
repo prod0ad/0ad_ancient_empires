@@ -23,9 +23,9 @@
     <Static width="22.5" depth="22.5"/>
   </Obstruction>
   <ProductionQueue>
-    <Technologies datatype="tokens">
-      celts/brit_body_painting
-    </Technologies>
+    <Entities datatype="tokens">
+      units/gaul_champion_fanatic
+    </Entities>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/celts/temple.xml</Actor>

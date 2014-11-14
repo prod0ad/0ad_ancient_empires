@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
 	  structures/ptol_mercenary_camp
+	  structures/ptol_anactoron	  
       structures/ptol_lighthouse
       structures/ptol_library
       structures/ptol_wonder

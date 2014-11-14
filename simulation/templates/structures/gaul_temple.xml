@@ -19,6 +19,11 @@
     <SpecificName>Addoldy</SpecificName>
     <History>Celts built large sanctuaries for feasting and worship. One such structure was the Sanctuary of Corent in modern-day France.</History>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/gaul_champion_fanatic
+    </Entities>
+  </ProductionQueue>
   <Obstruction>
     <Static width="22.5" depth="22.5"/>
   </Obstruction>

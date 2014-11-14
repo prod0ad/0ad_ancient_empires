@@ -7,11 +7,11 @@
       <Affects>Citizen Melee Infantry</Affects>
       <AffectedPlayers>Enemy</AffectedPlayers>
       <Modifications>
-        <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
-        <Attack.Melee.Pierce> <Multiply>0.9</Multiply> </Attack.Melee.Pierce>		
+        <Attack.Melee.Hack> <Multiply>0.8</Multiply> </Attack.Melee.Hack>
+        <Attack.Melee.Pierce> <Multiply>0.8</Multiply> </Attack.Melee.Pierce>		
       </Modifications>
       <AuraName>Fear Aura</AuraName>
-      <AuraDescription>Enemy Citizen Melee Infantry get 10% reduced attack. Radius: 30.</AuraDescription>
+      <AuraDescription>Enemy Citizen Melee Infantry get 20% reduced attack. Radius: 30.</AuraDescription>
     </Aura1>
   </Auras>
   <Armour>
@@ -39,12 +39,12 @@
     </Resources>
   </Cost>
   <Identity>
-    <Civ>gaul</Civ>
+    <Civ>brit</Civ>
     <GenericName>Naked Fanatic</GenericName>
     <SpecificName>Gaesata</SpecificName>
     <History>A fanatic Celtic warrior, devoted to war and his Celtic liege lord. These bloodthirsty young men roamed Gaul in search of battle.</History>
     <Icon>units/celt_fanatic.png</Icon>
-    <Classes datatype="tokens">Fearsome</Classes>		
+    <Classes datatype="tokens">Fearsome</Classes>	
   </Identity>
   <UnitMotion>
     <WalkSpeed>12</WalkSpeed>

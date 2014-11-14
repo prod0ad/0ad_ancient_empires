@@ -24,13 +24,13 @@
       units/sele_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-	  successors/sele_reform_cav
-      successors/sele_reform_inf	  
-      successors/special_parade_of_daphne	  
       siege_attack
       siege_armor
 	  siege_cost
 	  siege_packing
+	  successors/sele_reform_cav
+      successors/sele_reform_inf	  
+      successors/special_parade_of_daphne	  	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

@@ -8,8 +8,8 @@
 	"researchTime": 60,
 	"tooltip": "Increases Archer effectiveness vs Structures and Mechanical units.",
 	"modifications": [
-		{"value": "Attack/Ranged/Crush", "add": 10},
-		{"value": "Attack/Ranged/Pierce", "add": -10}],
+		{"value": "Attack/Ranged/Crush", "add": 6},
+		{"value": "Attack/Ranged/Pierce", "add": -6}],
 	"affects": ["Infantry Archer"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
