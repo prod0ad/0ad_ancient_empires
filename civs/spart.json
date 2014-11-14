@@ -81,7 +81,7 @@
 		{
 			"Name":"Peloponnesian League",
 			"History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies. Many of those allies often fielded superb hoplites.",
-			"Description":"+10% spear unit hit points (currently not shared)."
+			"Description":"+10% Citizen Spear Infantry hit points (currently not shared)."
 		}
 	],
 	"Structures":

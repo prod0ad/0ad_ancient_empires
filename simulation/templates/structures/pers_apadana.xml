@@ -43,10 +43,10 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/pers_champion_infantry
       units/pers_hero_cyrus
       units/pers_hero_darius
-      units/pers_hero_xerxes
-      units/pers_champion_infantry
+      units/pers_hero_xerxes	  
     </Entities>
     <Technologies datatype="tokens">
 	  advanced_construction

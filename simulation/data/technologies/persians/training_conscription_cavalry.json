@@ -7,7 +7,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse_rider.png",
 	"researchTime": 40,
-	"tooltip": "Faster batch training speed for the Stables.",
+	"tooltip": "10% faster batch training speed for the Stables.",
 	"modifications": [{"value": "ProductionQueue/BatchTimeModifier", "add": -0.1}],
 	"affects": ["Stables"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

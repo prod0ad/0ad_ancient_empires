@@ -27,7 +27,7 @@
     <Classes datatype="tokens">MercenaryCamp</Classes>
     <History>Mercenaries will go where the metal is.</History>
     <Tooltip>Trains and upgrades Mercenaries. Build limit: 1.</Tooltip>
-    <Icon>structures/military_settlement.png</Icon>
+    <Icon>structures/iberian_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Obstruction>

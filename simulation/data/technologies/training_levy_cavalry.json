@@ -7,11 +7,11 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "horse_trainer.png",
 	"researchTime": 40,
-	"tooltip": "All cavalry -20% train time, but also -10 health. Unlocks Conscription.",
+	"tooltip": "Citizen Cavalry -20% train time, but also -10 health. Unlocks Conscription.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8},
 		{"value": "Health/Max", "add": -10}
 	],
-	"affects": ["Cavalry"],
+	"affects": ["Citizen Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

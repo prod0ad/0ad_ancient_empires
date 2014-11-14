@@ -25,7 +25,7 @@
     <GenericName>Persian Special Building</GenericName>
     <SpecificName>Parihuvādā</SpecificName>
     <History>Mercenary Hall</History>
-    <Icon>structures/palace.png</Icon>
+    <Icon>structures/iberian_embassy.png</Icon>
     <Tooltip>Special Building.
 Train War Elephants and Kardakes mercenaries.</Tooltip>
   </Identity>
