@@ -3,8 +3,9 @@
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>400</wood>
+      <wood>200</wood>
       <stone>200</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -21,27 +22,23 @@
     <History>The Carthaginian army was a cosmopolitan affair, made up of mercenaries from dozens of lands.</History>
     <Tooltip>Hire mercenaries.</Tooltip>
     <Icon>structures/italian_embassy.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/cart_infantry_swordsman_b
-      units/cart_cavalry_swordsman_2_b
+      units/cart_infantry_swordsman_2_b	  
       units/cart_infantry_javelinist_b
+      units/cart_infantry_archer_b	  	  
       units/cart_infantry_slinger_b
-      units/cart_cavalry_swordsman_b
-      units/cart_infantry_swordsman_2_b
-      units/cart_cavalry_spearman_b
+      units/cart_cavalry_swordsman_2_b
+      units/cart_cavalry_javelinist_b
+
     </Entities>
     <Technologies datatype="tokens">
-      carthaginians/pair_celt_mercs_1
-      carthaginians/pair_celt_mercs_2
-      carthaginians/pair_iberian_mercs_1
-      carthaginians/pair_iberian_mercs_2
-      carthaginians/pair_italian_mercs_1
-      carthaginians/pair_italian_mercs_2
+	  pair_merc
     </Technologies>
   </ProductionQueue>
   <VisualActor>

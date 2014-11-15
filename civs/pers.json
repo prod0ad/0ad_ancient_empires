@@ -101,10 +101,19 @@
 			"Emblem": "",
 			"History": "The Persian Empire's best soldiers were Eastern horsemen.",
 			"Requirements": "",
-			"Phase": "Town",
+			"Phase": "village",
 			"Special": "Train Cavalry citizen-soldiers." ,
-			"Description": "Trains all cavalry units. Available at the village phase, unlocking cavalry earlier for the Persians."			
+			"Description": "Train Cavalry citizen-soldiers."			
 		},
+		{
+			"Name": "Mercenary Hall",
+			"Class": "",
+			"Emblem": "",
+			"History": "Mercenary Generals such as Memnon of Rhodes enjoyed a high standing in late Achaemenid Persia.",
+			"Requirements": "",
+			"Phase": "city",
+			"Description": "Trains Champion Mercenary Units. Tougher than normal Mercenary Camps."			
+		},		
  		{
 			"Name": "Apadana",
 			"Class": "",

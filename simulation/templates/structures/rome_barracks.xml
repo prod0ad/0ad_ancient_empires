@@ -23,15 +23,16 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/rome_infantry_swordsman_b
       units/rome_infantry_spearman_a
-      units/rome_infantry_javelinist_b
+      units/rome_infantry_javelinist_b	
+      units/rome_infantry_swordsman_b
       units/rome_cavalry_spearman_b
       units/rome_cavalry_javelinist_b		  
     </Entities>
 	<Technologies datatype="tokens">
+	  romans/logistics	
       training_conscription
-	  romans/logistics
+	  romans/rome_reforms_marian	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

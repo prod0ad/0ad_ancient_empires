@@ -20,7 +20,6 @@
       siege_armor
 	  siege_cost
 	  siege_packing
-	  romans/rome_reforms_marian
     </Technologies>
   </ProductionQueue>
   <VisualActor>

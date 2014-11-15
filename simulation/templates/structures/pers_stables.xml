@@ -31,9 +31,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/pers_cavalry_javelinist_b	
       units/pers_cavalry_spearman_b
       units/pers_cavalry_swordsman_b
-      units/pers_cavalry_javelinist_b
       units/pers_cavalry_archer_e
     </Entities>
     <Technologies datatype="tokens">

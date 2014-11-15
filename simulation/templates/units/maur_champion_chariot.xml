@@ -16,6 +16,7 @@
 	<SelectionGroupName>units/maur_champion_chariot</SelectionGroupName>
     <History>Champion Cavalry Archer.</History>
 	<Icon>units/maur_champion_chariot.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Obstruction>
     <Unit radius="1.3"/>

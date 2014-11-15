@@ -1,7 +1,7 @@
 {
 	"genericName": "Expert Sailors",
 	"cost": { "food": 500, "wood": 0, "stone": 0, "metal": 500 },
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
+	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "fist_spear.png",
 	"researchTime": 40,

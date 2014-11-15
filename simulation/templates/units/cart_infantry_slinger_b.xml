@@ -3,9 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/cart_super_dock
-      structures/cart_embassy_celtic
-      structures/cart_embassy_iberian
-      structures/cart_embassy_italiote
+      structures/cart_embassy
       structures/{civ}_wonder
     </Entities>
   </Builder>
@@ -13,7 +11,7 @@
     <Resources> 	
       <food>50</food>
 	  <stone>0</stone>
-	  <metal>50</metal>
+	  <metal>35</metal>
     </Resources>
   </Cost>
   <Identity>

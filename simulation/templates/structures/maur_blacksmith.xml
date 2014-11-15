@@ -7,6 +7,13 @@
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
+      blacksmith/attack_melee_01
+      blacksmith/attack_melee_02
+      blacksmith/attack_ranged_01
+      blacksmith/attack_ranged_02	
+      blacksmith/armor_infantry_01
+      blacksmith/armor_infantry_ranged_01
+      blacksmith/armor_cav_01
 	  attack_steel_working
     </Technologies>
   </ProductionQueue>

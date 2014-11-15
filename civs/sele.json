@@ -116,11 +116,15 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/sele_infantry_spearman_2_b",
-			"Count": 4
+			"Template": "units/sele_infantry_spearman_b",
+			"Count": 2
 		},
 		{
-			"Template": "units/sele_cavalry_javelinist"
+			"Template": "units/sele_infantry_javelinist_2_b",
+			"Count": 2
+		},		
+		{
+			"Template": "units/sele_cavalry_spearman_b"
 		}
 	],
 	"Formations":

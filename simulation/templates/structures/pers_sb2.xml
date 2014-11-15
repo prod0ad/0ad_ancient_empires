@@ -22,12 +22,12 @@
   </Health>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Persian Special Building</GenericName>
+    <GenericName>Mercenary Hall</GenericName>
     <SpecificName>Parihuvādā</SpecificName>
     <History>Mercenary Hall</History>
     <Icon>structures/iberian_embassy.png</Icon>
     <Tooltip>Special Building.
-Train War Elephants and Kardakes mercenaries.</Tooltip>
+Train War Elephants and Veteran Hoplite Champion mercenaries.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
@@ -48,6 +48,8 @@ Train War Elephants and Kardakes mercenaries.</Tooltip>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
       units/pers_champion_infantry_merc
+      units/pers_champion_cavalry
+	  units/pers_champion_cavalry_archer	  
       units/pers_champion_elephant
     </Entities>
   </ProductionQueue>

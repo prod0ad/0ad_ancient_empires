@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/iber_monument
+	  structures/iber_wonder
     </Entities>
   </Builder>
   <Identity>

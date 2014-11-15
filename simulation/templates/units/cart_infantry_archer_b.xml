@@ -3,9 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/cart_super_dock
-      structures/cart_embassy_celtic
-      structures/cart_embassy_iberian
-      structures/cart_embassy_italiote
+      structures/cart_embassy
       structures/{civ}_wonder
     </Entities>
   </Builder>
@@ -15,6 +13,7 @@
     <GenericName>Mauritanian Archer</GenericName>
     <SpecificName>Qešet</SpecificName>
     <History>A mercenary archer from North Africa.</History>
+    <Classes datatype="tokens">Mercenary</Classes>	
     <Icon>units/cart_infantry_archer.png</Icon>
   </Identity>
   <Promotion>

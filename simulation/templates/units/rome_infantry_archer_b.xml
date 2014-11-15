@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>30</metal>
+    </Resources>
+  </Cost>
   <Builder>
     <Entities datatype="tokens">
 	  -other/wallset_palisade

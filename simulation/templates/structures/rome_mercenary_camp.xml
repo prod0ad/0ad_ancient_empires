@@ -41,7 +41,6 @@
       units/rome_champion_elephant	  
     </Entities>
     <Technologies datatype="tokens">
-      training_conscription
 	  pair_merc
     </Technologies>
   </ProductionQueue>
