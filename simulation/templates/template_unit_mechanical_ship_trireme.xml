@@ -3,24 +3,24 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>35.0</Pierce>
+      <Pierce>36.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>55.0</MaxRange>
+      <MaxRange>50.0</MaxRange>
       <MinRange>0.0</MinRange>
-      <ProjectileSpeed>60.0</ProjectileSpeed>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Spread>1.5</Spread>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>1.4</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>3</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
 	<GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
     <Population>3</Population>
-    <BuildTime>25</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
       <wood>150</wood>
       <metal>150</metal>
@@ -31,7 +31,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>30</Max>
+    <Max>20</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Female Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -40,7 +40,7 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>1400</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>
@@ -60,7 +60,7 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
+    <WalkSpeed>14</WalkSpeed>
     <Run>
       <Speed>20.0</Speed>
     </Run>

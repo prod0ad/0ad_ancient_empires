@@ -13,12 +13,12 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>2000</Max>
+    <Max>2400</Max>
   </Health>
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Gymnasium</GenericName>
-    <SpecificName>Gymnásieon</SpecificName>
+    <SpecificName>Gymnasium</SpecificName>
     <Tooltip>Train champion units.</Tooltip>
     <History>The gymnasion was a vital place in Athens, where physical exercises were performed and social contacts established.</History>
     <Icon>structures/gymnasion.png</Icon>

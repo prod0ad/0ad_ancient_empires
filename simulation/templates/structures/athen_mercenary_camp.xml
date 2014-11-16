@@ -23,7 +23,7 @@
   <Identity>
     <Civ>athen</Civ>
     <GenericName>Mercenary Camp</GenericName>
-	<SpecificName>Stratópedo Misthophóron</SpecificName>
+	<SpecificName>Mercenary Camp</SpecificName>
     <Classes datatype="tokens">MercenaryCamp</Classes>
     <History>Mercenaries will go where the metal is.</History>
     <Tooltip>Trains and upgrades Mercenaries. Build limit: 1.</Tooltip>

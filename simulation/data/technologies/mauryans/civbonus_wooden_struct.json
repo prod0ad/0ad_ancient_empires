@@ -1,7 +1,7 @@
 {
 	"genericName": "Wooden Structures",
 	"autoResearch": true,
-	"description": "The Mauryans structures were mostly made of wood. Consequently, their structures have less health than other cultures do, but they also construct faster.",
+	"description": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
 	"requirements": {"civ": "maur"},
 	"modifications": [
 		{"value": "Health/Max", "multiply": 0.8},

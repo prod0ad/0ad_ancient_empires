@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
   <Armour>
-    <Hack>10</Hack>
-    <Pierce>25</Pierce>
+    <Hack>15</Hack>
+    <Pierce>30</Pierce>
     <Crush>3</Crush>
     <Foundation>
       <Hack>5</Hack>
-      <Pierce>15</Pierce>
-      <Crush>3</Crush>
+      <Pierce>10</Pierce>
+      <Crush>1</Crush>
     </Foundation>
-  </Armour>
+  </Armour>	
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>20.0</Pierce>
+      <Pierce>6.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>72.0</MaxRange>
+      <MaxRange>70.0</MaxRange>
       <MinRange>10.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Spread>1.5</Spread>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>1.4</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
+    <DefaultArrowCount>4</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>

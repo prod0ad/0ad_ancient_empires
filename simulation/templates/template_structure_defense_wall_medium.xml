@@ -15,9 +15,9 @@
     </Aura1>
   </Auras>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
-	  <stone>20</stone>
+	  <stone>30</stone>
     </Resources>
   </Cost>
   <GarrisonHolder>

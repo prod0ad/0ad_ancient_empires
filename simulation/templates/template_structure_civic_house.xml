@@ -23,7 +23,7 @@
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>600</Max>
+    <Max>400</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>

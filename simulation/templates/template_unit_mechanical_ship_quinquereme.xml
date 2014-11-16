@@ -2,22 +2,22 @@
 <Entity parent="template_unit_mechanical_ship">
   <Attack>
     <Ranged>
-      <Hack>30.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>30.0</Crush>
-      <MaxRange>65.0</MaxRange>
+      <Hack>0.0</Hack>
+      <Pierce>10.0</Pierce>
+      <Crush>50.0</Crush>
+      <MaxRange>90.0</MaxRange>
       <MinRange>10.0</MinRange>
       <ProjectileSpeed>28.0</ProjectileSpeed>
-      <PrepareTime>2000</PrepareTime>
-      <RepeatTime>5000</RepeatTime>
+      <PrepareTime>6000</PrepareTime>
+      <RepeatTime>6000</RepeatTime>
       <Spread>6.0</Spread>
       <Splash>
         <Shape>Circular</Shape>
-        <Range>8</Range>
+        <Range>15</Range>
         <FriendlyFire>true</FriendlyFire>
-        <Hack>40.0</Hack>
-        <Pierce>0.0</Pierce>
-        <Crush>40.0</Crush>
+        <Hack>0.0</Hack>
+        <Pierce>5.0</Pierce>
+        <Crush>25.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
@@ -28,7 +28,7 @@
   </BuildingAI>
   <Cost>
     <Population>5</Population>
-    <BuildTime>30</BuildTime>
+    <BuildTime>50</BuildTime>
     <Resources>
       <wood>200</wood>
       <metal>200</metal>
@@ -39,7 +39,7 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>50</Max>
+    <Max>40</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Female Infantry Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
@@ -68,7 +68,7 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
     <Run>
       <Speed>20</Speed>
     </Run>

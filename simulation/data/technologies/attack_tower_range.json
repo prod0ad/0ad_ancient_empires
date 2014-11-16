@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "arrow.png",
 	"researchTime": 40,
-	"tooltip": "Increases defense tower maximum range by 8 meters.",
-	"modifications": [{"value": "Attack/Ranged/MaxRange", "add": 8}],
+	"tooltip": "Increases defense tower maximum range by 10 meters.",
+	"modifications": [{"value": "Attack/Ranged/MaxRange", "add": 10}],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

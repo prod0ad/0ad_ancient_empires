@@ -19,18 +19,9 @@
     <Square width="4.0" depth="10.0"/>
     <Height>6.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>1</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Female Infantry</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry</List>
-    <BuffHeal>1</BuffHeal>
-    <LoadingRange>10</LoadingRange>
-    <Pickup>true</Pickup>
-  </GarrisonHolder>
   <Identity>
     <GenericName>Fishing Boat</GenericName>
-    <Tooltip>Fish the waters for Food. Garrison a support or infantry unit inside to boost fishing rate.</Tooltip>
+    <Tooltip>Fish the waters for Food.</Tooltip>
     <Classes datatype="tokens">FishingBoat</Classes>
   </Identity>
   <Obstruction>
@@ -54,9 +45,9 @@
     <CanGuard>false</CanGuard>
   </UnitAI>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed>9</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>24</Range>
+    <Range>30</Range>
   </Vision>
 </Entity>

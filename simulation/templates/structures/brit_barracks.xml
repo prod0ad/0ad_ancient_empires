@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Cost>
-    <PopulationBonus>4</PopulationBonus>
+    <PopulationBonus>5</PopulationBonus>
   </Cost>
   <Footprint>
     <Square width="22.0" depth="22.0"/>
@@ -12,7 +12,7 @@
   </Health>
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Gwersyllty</SpecificName>
+    <SpecificName>Barracks</SpecificName>
 	<History>All able-bodied male Celts were expected to heed their liege lord's call to battle when need arose.</History>
   </Identity>
   <Obstruction>

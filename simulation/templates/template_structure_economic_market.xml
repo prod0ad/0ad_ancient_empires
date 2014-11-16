@@ -14,7 +14,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>1500</Max>
+    <Max>1200</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -57,7 +57,7 @@
     </Entities>
   </ProductionQueue>
   <Vision>
-    <Range>32</Range>
+    <Range>30</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

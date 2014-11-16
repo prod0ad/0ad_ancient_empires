@@ -15,7 +15,7 @@
   </Auras>
   <Cost>
     <BuildTime>100</BuildTime>
-    <PopulationBonus>2</PopulationBonus>
+    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <food>0</food>
       <wood>200</wood>
@@ -31,7 +31,7 @@
   <Identity>
     <Civ>Brit</Civ>
     <GenericName>Rotary Mill</GenericName>
-    <SpecificName>Melonas</SpecificName>
+    <SpecificName>Rotary Mill</SpecificName>
     <Tooltip>Increase nearby farming output +25%.</Tooltip>
     <History>The Celts developed the first rotary flour mill.</History>
     <Icon>structures/sb1.png</Icon>

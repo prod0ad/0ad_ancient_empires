@@ -19,7 +19,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>600</Max>
     <SpawnEntityOnDeath>rubble/rubble_2x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -60,7 +60,7 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>20</Range>
+    <Range>30</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>

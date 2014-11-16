@@ -16,7 +16,6 @@
   </Footprint>
   <GarrisonHolder disable=""/>
   <Health>
-    <Max>2000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -51,9 +50,6 @@
   <TerritoryInfluence>
     <Radius>25</Radius>
   </TerritoryInfluence>
-  <Vision>
-    <Range>24</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>

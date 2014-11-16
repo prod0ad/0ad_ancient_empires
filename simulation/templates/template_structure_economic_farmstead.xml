@@ -14,7 +14,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>900</Max>
+    <Max>600</Max>
     <SpawnEntityOnDeath>rubble/rubble_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -60,7 +60,7 @@
     <Weight>30000</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>20</Range>
+    <Range>30</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>

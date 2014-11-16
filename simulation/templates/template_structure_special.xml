@@ -63,6 +63,9 @@
     <Radius>38</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
+  <Vision>
+    <Range>40</Range>
+  </Vision>  
   <VisualActor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>

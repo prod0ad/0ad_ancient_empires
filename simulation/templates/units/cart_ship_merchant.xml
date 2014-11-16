@@ -15,9 +15,6 @@
   <Obstruction>
     <Unit radius="6.0"/>
   </Obstruction>
-  <Trader>
-    <GainMultiplier>1.25</GainMultiplier>
-  </Trader>
   <VisualActor>
     <Actor>structures/carthaginians/merchant_ship.xml</Actor>
   </VisualActor>

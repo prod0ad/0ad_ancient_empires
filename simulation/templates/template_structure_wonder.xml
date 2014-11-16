@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>25</Pierce>
-    <Crush>5</Crush>
+    <Hack>15</Hack>
+    <Pierce>30</Pierce>
+    <Crush>3</Crush>
     <Foundation>
-      <Hack>2</Hack>
+      <Hack>5</Hack>
       <Pierce>10</Pierce>
-      <Crush>2</Crush>
+      <Crush>1</Crush>
     </Foundation>
-  </Armour>
+  </Armour>	
   <BuildRestrictions>
     <Category>Wonder</Category>
   </BuildRestrictions>
@@ -76,7 +76,7 @@
     <Weight>65536</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>72</Range>
+    <Range>90</Range>
     <RetainInFog>true</RetainInFog>
   </Vision>
     <ResourceTrickle>

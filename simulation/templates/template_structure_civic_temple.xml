@@ -16,7 +16,6 @@
     <Category>Temple</Category>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
     <BuildTime>200</BuildTime>
     <Resources>
       <stone>300</stone>
@@ -35,7 +34,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1800</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

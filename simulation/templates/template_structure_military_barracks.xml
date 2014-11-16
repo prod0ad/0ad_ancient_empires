@@ -22,7 +22,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>1800</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -61,7 +61,7 @@
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>32</Range>
+    <Range>40</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

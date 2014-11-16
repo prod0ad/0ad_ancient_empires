@@ -6,7 +6,7 @@
     <Category>Dock</Category>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>
+    <PopulationBonus>10</PopulationBonus>
     <BuildTime>150</BuildTime>
     <Resources>
       <wood>200</wood>
@@ -17,7 +17,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>2500</Max>
+    <Max>2400</Max>
     <SpawnEntityOnDeath>rubble/rubble_4x4_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -71,7 +71,7 @@
     </Technologies>
   </ProductionQueue>
   <Vision>
-    <Range>40</Range>
+    <Range>60</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_4x4_dock.xml</FoundationActor>
