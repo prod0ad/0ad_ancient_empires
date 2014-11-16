@@ -6,10 +6,9 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "arrow.png",
 	"researchTime": 60,
-	"tooltip": "Increases Archer effectiveness vs Structures and Mechanical units.",
+	"tooltip": "Adds +3 Crush Attack to Foot Archers, Light and Medium Warships.",
 	"modifications": [
-		{"value": "Attack/Ranged/Crush", "add": 6},
-		{"value": "Attack/Ranged/Pierce", "add": -6}],
-	"affects": ["Infantry Archer"],
+		{"value": "Attack/Ranged/Crush", "add": 3}],
+	"affects": ["Infantry Archer","Warship Light","Warship Medium"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

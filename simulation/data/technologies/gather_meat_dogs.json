@@ -1,0 +1,12 @@
+{
+	"genericName": "Shepherds and Hounds",
+	"description": ".",
+	"cost": {"food": 100, "wood": 100, "stone": 0, "metal": 50},
+	"requirements": {"tech": "phase_village"},
+	"icon": "meat.png",
+	"researchTime": 40,
+	"tooltip": "+50% meat gathering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -3,7 +3,7 @@
 	"cost": {"food": 250, "wood": 250, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",	
-	"icon": "metal_pot.png",
+	"icon": "shields_generic_wood.png",
 	"researchTime": 40,
 	"tooltip": "Merchantman +10 transport capacity.",
 	"modifications": [{"value": "GarrisonHolder/Max", "add": 10}],

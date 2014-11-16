@@ -2,7 +2,6 @@
 	"genericName": "Fishing Nets",
 	"cost": {"food": 100, "wood": 100, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",	
 	"icon": "fish.png",
 	"researchTime": 40,
 	"tooltip": "+25% Fishing boat gather rate.",

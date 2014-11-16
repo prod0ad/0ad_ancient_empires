@@ -25,6 +25,7 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
 	  advanced_construction
+      attack_tower_ballista	 
 	  fire_arrows  
       siege_accuracy
       siege_range

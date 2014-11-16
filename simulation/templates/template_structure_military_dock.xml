@@ -62,6 +62,7 @@
     </Entities>
     <Technologies datatype="tokens">
 	  fishing_nets
+	  fishing_amphora
 	  transport_ship
 	  shipwright  
       training_naval_architects

@@ -6,10 +6,11 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "statue_face_stone.png",
 	"researchTime": 60,
-	"tooltip": "Civic centers +100% health and double default arrows.",
+	"tooltip": "Civil Centres get double health and default arrows and support 10 additional population.",
 	"modifications": [
 		{"value": "BuildingAI/DefaultArrowCount", "multiply": 2.0},
-		{"value": "Health/Max", "multiply": 2.0}
+		{"value": "Health/Max", "multiply": 2.0},
+		{"value": "Cost/PopulationBonus", "add": 10.0
 	],
 	"affects": ["CivilCentre"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
