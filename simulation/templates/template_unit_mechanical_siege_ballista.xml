@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>30</Pierce>
+    <Hack>1</Hack>
+    <Pierce>10</Pierce>
     <Crush>1</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>100.0</Pierce>
-      <Crush>20.0</Crush>
+      <Pierce>30.0</Pierce>
+      <Crush>10.0</Crush>
       <MaxRange>80</MaxRange>
       <MinRange>8.0</MinRange>
       <Spread>2.0</Spread>
       <ProjectileSpeed>300.0</ProjectileSpeed>
-      <PrepareTime>3000</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
       <Splash>
         <Shape>Linear</Shape>
         <Range>8</Range>
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
-        <Pierce>30.0</Pierce>
-        <Crush>20.0</Crush>
+        <Pierce>20.0</Pierce>
+        <Crush>5.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>18</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
-      <wood>250</wood>
-      <metal>250</metal>
+      <wood>100</wood>
+      <metal>100</metal>
     </Resources>
     <Population>2</Population>
   </Cost>
@@ -39,7 +39,7 @@
     <Height>2.0</Height>
   </Footprint>
   <Health>
-    <Max>200</Max>
+    <Max>120</Max>
   </Health>
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
@@ -61,12 +61,12 @@
     </Overlay>
   </Selectable>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
+    <WalkSpeed>7</WalkSpeed>
     <Run>
       <Speed>12.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>120</Range>
+    <Range>90</Range>
   </Vision>
 </Entity>

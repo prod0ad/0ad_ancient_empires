@@ -30,8 +30,8 @@
       units/rome_cavalry_javelinist_b		  
     </Entities>
 	<Technologies datatype="tokens">
-	  romans/logistics	
       training_conscription
+	  romans/logistics		  
 	  romans/rome_reforms_marian	  
     </Technologies>
   </ProductionQueue>

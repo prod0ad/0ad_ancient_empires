@@ -25,7 +25,9 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
 	  advanced_construction
-	  fire_arrows  	  
+	  fire_arrows  
+      siege_accuracy
+      siege_range	  
       romans/imported_construction_technology
     </Technologies>
   </ProductionQueue>

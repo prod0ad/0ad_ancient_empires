@@ -11,9 +11,9 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>sele</Civ>
-    <GenericName>Library</GenericName>
-    <SpecificName>Bibliothikon</SpecificName>
+    <Civ>cart</Civ>
+    <GenericName>Academy</GenericName>
+    <SpecificName>Academia</SpecificName>
     <Tooltip>Research special technologies and reduce the research time of all remaining technologies.</Tooltip>
     <History>Alexander the Great founded libraries all over his new empire. These became centers of learning for an entirely new synthesized culture: the Hellenistic culture.</History>
     <Icon>structures/library_scroll.png</Icon>
@@ -28,7 +28,6 @@
 	  fire_arrows  
       siege_accuracy
       siege_range	  
-      successors/special_hellenistic_metropolis
     </Technologies>
   </ProductionQueue>
   <Sound>

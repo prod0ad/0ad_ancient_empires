@@ -21,7 +21,6 @@
     <Technologies datatype="tokens">
       siege_attack
       siege_armor
-      siege_bolt_accuracy
     </Technologies>
   </ProductionQueue>
   <VisualActor>

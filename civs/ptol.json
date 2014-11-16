@@ -26,11 +26,6 @@
 			         "Description":"Fortresses get 40% more arrows fired per garrisoned soldier."
 		        },
 				{
-			         "Name":"Advanced Engineering",
-			         "History":"Alexandria became center of knowledge and science under the Ptolemies. Great engines, Fleets and Structures were construced.",
-			         "Description":"+20% Structure, Ship and Siege Unit hit points."
-		        },
-				{
 			         "Name":"Machimoi Reforms",
 			         "History":"In order to counter the Seleucid threat, the Ptolemies eventually started training Egyptians to fight as pikemen.",
 			         "Description":"Unlock the Egyptian Pikeman Champion."

@@ -4,7 +4,7 @@
 	"cost": {"food": 0, "wood": 500, "stone": 500, "metal": 500},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "architecture.png",
+	"icon": "blocks_three.png",
 	"researchTime": 40,
 	"tooltip": "Increases armour level of the defense tower by 2 levels.",
 	"modifications": [{"value": "Armour/Hack", "add": 2},

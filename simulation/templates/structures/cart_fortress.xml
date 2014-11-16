@@ -15,22 +15,20 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/cart_hero_hamilcar
-      units/cart_hero_hannibal
-      units/cart_hero_maharbal
       units/cart_champion_elephant
       units/cart_mechanical_siege_ballista_packed
       units/cart_mechanical_siege_oxybeles_packed
+      units/cart_hero_hamilcar
+      units/cart_hero_hannibal
+      units/cart_hero_maharbal	  
     </Entities>
     <Technologies datatype="tokens">
       siege_attack
       siege_armor
-	  siege_bolt_accuracy
 	  siege_cost
 	  siege_packing
+	  carthaginians/training_siege_weapons	  
 	  carthaginians/fortified_barracks
-	  carthaginians/training_siege_weapons
-	  carthaginians/cart_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

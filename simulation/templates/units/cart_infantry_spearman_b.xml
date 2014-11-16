@@ -2,8 +2,9 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
-      structures/cart_super_dock
+      structures/cart_super_dock	  
       structures/cart_embassy
+      structures/cart_library	  
       structures/{civ}_wonder
     </Entities>
   </Builder>

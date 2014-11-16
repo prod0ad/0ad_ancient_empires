@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>30</Pierce>
+    <Hack>1</Hack>
+    <Pierce>10</Pierce>
     <Crush>1</Crush>
   </Armour>
   <Attack>
@@ -10,27 +10,27 @@
       <Hack>0.0</Hack>
       <Pierce>10.0</Pierce>
       <Crush>50.0</Crush>
-      <MaxRange>80</MaxRange>
+      <MaxRange>90</MaxRange>
       <MinRange>12.0</MinRange>
       <ProjectileSpeed>28.0</ProjectileSpeed>
-      <PrepareTime>5000</PrepareTime>
-      <RepeatTime>5000</RepeatTime>
+      <PrepareTime>6000</PrepareTime>
+      <RepeatTime>6000</RepeatTime>
       <Spread>6.0</Spread>
       <Splash>
         <Shape>Circular</Shape>
-        <Range>10</Range>
+        <Range>15</Range>
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
-        <Pierce>15.0</Pierce>
-        <Crush>35.0</Crush>
+        <Pierce>5.0</Pierce>
+        <Crush>25.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>40</BuildTime>
     <Resources>
-      <wood>350</wood>
-      <stone>350</stone>
+      <wood>200</wood>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -76,6 +76,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>120</Range>
+    <Range>90</Range>
   </Vision>
 </Entity>

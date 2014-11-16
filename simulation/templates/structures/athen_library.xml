@@ -26,6 +26,8 @@
     <Technologies datatype="tokens">
 	  advanced_construction
 	  fire_arrows  
+      siege_accuracy
+      siege_range	  
     </Technologies>
   </ProductionQueue>
   <Sound>

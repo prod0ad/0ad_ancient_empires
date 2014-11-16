@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>20</Pierce>
-    <Crush>2</Crush>
+    <Hack>3</Hack>
+    <Pierce>25</Pierce>
+    <Crush>3</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>10.0</Pierce>
-      <Crush>5.0</Crush>
+      <Pierce>30.0</Pierce>
+      <Crush>10.0</Crush>
       <MaxRange>55.0</MaxRange>
       <MinRange>2.0</MinRange>
       <ElevationBonus>10</ElevationBonus>
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1200</PrepareTime>
+      <PrepareTime>2000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Spread>2.0</Spread>
       <PreferredClasses datatype="tokens">Structure</PreferredClasses>
@@ -26,11 +26,11 @@
 	<GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>5</Population>
-    <BuildTime>60</BuildTime>
+    <Population>10</Population>
+    <BuildTime>50</BuildTime>
     <Resources>
-      <wood>500</wood>
-      <metal>300</metal>
+      <wood>350</wood>
+      <metal>150</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -38,7 +38,7 @@
     <Height>20.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>20</Max>
+    <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry</List>
@@ -46,7 +46,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
@@ -78,12 +78,12 @@
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>6.5</WalkSpeed>
+    <WalkSpeed>5</WalkSpeed>
     <Run>
       <Speed>10.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>120</Range>
   </Vision>
 </Entity>

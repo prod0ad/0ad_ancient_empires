@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege_ram">
-  <Cost>
-    <BuildTime>25</BuildTime>
-  </Cost>
   <Footprint replace="">
     <Square width="6.75" depth="10.0"/>
     <Height>3.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>10</Max>
-  </GarrisonHolder>
   <Identity>
     <Civ>brit</Civ>
     <SpecificName>Reithe</SpecificName>

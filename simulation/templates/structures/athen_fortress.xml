@@ -23,7 +23,6 @@
       siege_armor
 	  siege_cost
 	  siege_packing
-      siege_bolt_accuracy
     </Technologies>
   </ProductionQueue>
   <VisualActor>

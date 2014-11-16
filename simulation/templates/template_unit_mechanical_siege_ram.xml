@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>40</Pierce>
-    <Crush>5</Crush>
+    <Hack>2</Hack>
+    <Pierce>20</Pierce>
+    <Crush>2</Crush>
   </Armour>
   <Attack>
     <Melee>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>80.0</Crush>
-      <MaxRange>6.5</MaxRange>
-      <RepeatTime>1500</RepeatTime>
+      <Crush>75.0</Crush>
+      <MaxRange>6</MaxRange>
+      <RepeatTime>3000</RepeatTime>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Citizen Animal</RestrictedClasses>	  
     </Melee>
     <Charge>
       <Hack>0.0</Hack>
@@ -24,11 +25,11 @@
     </Charge>
   </Attack>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>25</BuildTime>
     <Population>5</Population>
     <Resources>
-      <wood>350</wood>
-      <metal>200</metal>
+      <wood>200</wood>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -60,12 +61,12 @@
     <BarHeight>0.5</BarHeight>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
+    <WalkSpeed>6</WalkSpeed>
     <Run>
       <Speed>11.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>40</Range>
   </Vision>
 </Entity>
