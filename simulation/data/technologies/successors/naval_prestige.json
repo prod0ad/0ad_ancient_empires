@@ -6,10 +6,10 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "parade_of_daphne.png",
 	"researchTime": 60,
-	"tooltip": "-25% Heavy ship build time",
+	"tooltip": "-25% Heavy Warship build time",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.75}
 	],
-	"affects": ["Polireme"],
+	"affects": ["Heavy Warship"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

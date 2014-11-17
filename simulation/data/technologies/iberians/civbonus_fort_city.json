@@ -1,11 +1,12 @@
 {
-	"genericName": "Fortified Settlements",
+	"genericName": "Stone Fortifications",
 	"autoResearch": true,
 	"requirements": {"civ": "iber"},
 	"modifications": [
 		{"value": "BuildingAI/DefaultArrowCount", "add": 1.0},
-		{"value": "Health/Max", "multiply": 1.25}
+		{"value": "Health/Max", "multiply": 1.25},
+		{"value": "Cost/Resources/stone", "multiply": 1.5}
 	],
-	"affects": ["CivilCentre"],
+	"affects": ["CivilCentre","Defensive Tower","Fortress"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

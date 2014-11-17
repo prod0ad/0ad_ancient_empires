@@ -1,6 +1,6 @@
 {
 	"genericName": "Soliferrum",
-	"description": "All Citizen Soldiers move 10% faster.",
+	"description": ".",
 	"requirements": {"civ": "iber"},
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 1000},
 	"requirements": {"all": [{"tech": "phase_city"},{"civ": "iber"}]},

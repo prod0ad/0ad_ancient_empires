@@ -1,0 +1,11 @@
+{
+	"genericName": "Phoenician Sailors",
+	"autoResearch": true,
+	"description": "Triremes get +15% speed.",
+	"requirements": {"civ": "pers"},
+	"modifications": [
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.15}
+	],
+	"affects": ["Medium Warship"]
+}

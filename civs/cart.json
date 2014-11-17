@@ -21,14 +21,14 @@
 					"Description": "Increases the hit points of fortresses and barracks by 30%."
 				},
 				{
-					"Name": "Barcid Army Reform",
+					"Name": "Barcid Armies (Reform)",
 					"History": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
 					"Description": "Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels."
 				},
 				{
 					"Name": "Mass Production",
 					"History": "The Carthaginians exceled at massing siege weapons, especially for defensive purposes.",
-					"Description": "Siege Weapon construction speed increased by 25%."
+					"Description": "Siege Weapon and Defense Tower construction speed increased by 25%."
 				}
 			],
 			"Heroes":

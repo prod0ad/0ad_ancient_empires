@@ -1,0 +1,12 @@
+{
+	"genericName": "Advanced Siegecraft",
+	"autoResearch": true,
+	"description": "+20% attack rate for siege units.",
+	"requirements": {"civ": "mace"},
+	"modifications": [
+	{"value": "Attack/Melee/RepeatTime", "multiply": 0.8},
+	{"value": "Attack/Ranged/RepeatTime", "multiply": 0.8}
+	],
+	"affects": ["Siege"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -79,6 +79,11 @@
 			"Name":"Hardy Peltasts",
 			"History":"The northern balkan tribes provided skilled peltasts to the Macedonian army.",
 			"Description":"+15% Javelin Infantry attack."
+		},
+		{
+			"Name":"Advanced Siegecraft",
+			"History":"The Macedonians used a wide variety of siege engines and tactics.",
+			"Description":"+20% attack rate for siege units."
 		}
 	],
 	"TeamBonuses":

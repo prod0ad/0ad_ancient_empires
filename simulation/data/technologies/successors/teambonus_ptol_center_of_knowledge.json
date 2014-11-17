@@ -1,0 +1,14 @@
+{
+	"genericName": "Centre Of Knowledge",
+	"autoResearch": true,
+	"description": " Ships and Siege Units -10% resource cost",
+	"requirements": {"civ": "ptol"},
+	"modifications": [
+		{"value": "Cost/Resources/metal", "multiply": 0.90},
+		{"value": "Cost/Resources/stone", "multiply": 0.90},
+		{"value": "Cost/Resources/food", "multiply": 0.90},		
+		{"value": "Cost/Resources/wood", "multiply": 0.90}
+	],
+	"affects": ["Mechanical"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

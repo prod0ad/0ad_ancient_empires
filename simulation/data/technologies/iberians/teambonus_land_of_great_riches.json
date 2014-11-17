@@ -1,0 +1,10 @@
+{
+	"genericName": "Land Of Great Riches",
+	"autoResearch": true,	
+	"description": "Iberia was full of natural resources including mines and timber suitable for shipbuilding. This resulted to extensive colonization by Phoenicians and Greeks.",
+	"requirements": {"civ": "iber"},
+	"modifications": [
+				{"value": "Cost/BuildTime", "multiply": 0.5}
+	],
+	"affects": ["Storehouse"]
+}

@@ -1,5 +1,5 @@
 {
-	"genericName": "Late Military Reform",
+	"genericName": "Late Achaemenid Armies (Reform).",
 	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 1000},
 	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "pers"}]},
 	"requirementsTooltip": "Unlocked in Village Phase.",

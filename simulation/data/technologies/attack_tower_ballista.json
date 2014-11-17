@@ -2,8 +2,8 @@
 	"genericName": "Ballista Tower",
 	"description": ".",
 	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 500},
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "arrow.png",
 	"researchTime": 40,
 	"tooltip": "Adds a powerful long ranged attack to Defense Towers, but removes their garrison attack bonuses.",
@@ -12,11 +12,11 @@
 		{"value": "Attack/Ranged/Pierce", "add": 4},
 		{"value": "Vision/Range", "add": 25},		
 		{"value": "Attack/Ranged/MaxRange", "add": 25},
-		{"value": "Attack/RangedPrepareTime, "multiply": 2},
-		{"value": "Attack/RangedRepeatTime, "multiply": 2},		
+		{"value": "Attack/RangedPrepareTime", "multiply": 2},
+		{"value": "Attack/RangedRepeatTime", "multiply": 2},		
 		{"value": "Attack/Ranged/Spread", "add": 0.6},
-		{"value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 0},
-		{"value": "BuildingAI/DefaultArrowCount", "multiply": 0}
+		{"value": "BuildingAI/GarrisonArrowMultiplier", "replace": 0},
+		{"value": "BuildingAI/DefaultArrowCount", "replace": 0}
 	],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	

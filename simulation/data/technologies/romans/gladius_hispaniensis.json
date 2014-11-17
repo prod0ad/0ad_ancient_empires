@@ -1,13 +1,13 @@
 {
 	"genericName": "Gladius Hispaniensis",
 	"description": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 1000},
+	"cost": {"food": 750, "wood": 0, "stone": 0, "metal": 750},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "sword.png",
 	"researchTime": 40,
-	"tooltip": "+2 attack for Infantry Swordsmen.",
-	"modifications": [{"value": "Attack/Melee/Hack", "add": 2.0}],
+	"tooltip": "20% faster attack rate for Infantry Swordsmen.",
+	"modifications": [{"value": "Attack/Melee/RepeatTime", "multiply": 0.8}],
 	"affects": ["Infantry Sword"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "wheel.png",
 	"researchTime": 40,
-	"tooltip": "Siege Weapon construction speed increased by 25%.",
+	"tooltip": "Siege Weapon Defense Tower construction speed increased by 25%.",
 	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75}],
-	"affects": ["Siege"],
+	"affects": ["Siege","Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

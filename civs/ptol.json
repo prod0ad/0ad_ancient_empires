@@ -93,9 +93,9 @@
 	"TeamBonuses":
 	[
 		{
-			"Name":"Breadbasket of the Mediterranean",
+			"Name":"Centre Of Knowledge",
 			"History":"Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
-			"Description":"Docks provide a slow trickle of food income (currently not shared/placeholder)."
+			"Description":" Ships and Siege Units -10% resource cost (currently not shared)."
 		}
 	],
 	"Structures":

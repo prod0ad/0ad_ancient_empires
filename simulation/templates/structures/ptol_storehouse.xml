@@ -10,9 +10,6 @@
       <wood>0</wood>
     </Resources>
   </Cost>
-  <Health>
-    <Max>400</Max>
-  </Health>
   <Identity>
     <Civ>ptol</Civ>
     <SpecificName>h-n-ḫt.w</SpecificName>

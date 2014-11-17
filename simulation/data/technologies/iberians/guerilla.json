@@ -1,5 +1,5 @@
 {
-	"genericName": "Guerilla",
+	"genericName": "Guerilla (Reform)",
 	"description": "All Citizen Soldiers move 10% faster.",
 	"requirements": {"civ": "iber"},
 	"cost": {"food": 750, "wood": 0, "stone": 0, "metal": 750},

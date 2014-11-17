@@ -10,7 +10,7 @@
 	"modifications": [
 		{"value": "BuildingAI/DefaultArrowCount", "multiply": 2.0},
 		{"value": "Health/Max", "multiply": 2.0},
-		{"value": "Cost/PopulationBonus", "add": 10.0
+		{"value": "Cost/PopulationBonus", "add": 10.0}
 	],
 	"affects": ["CivilCentre"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

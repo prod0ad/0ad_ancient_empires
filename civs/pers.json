@@ -16,7 +16,7 @@
 			"Technologies":
 			[
 				{
-					"Name": "Late Military Reform",
+					"Name": "Late Achaemenid Armies (Reform)",
 					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
 					"Description": "Unlocks Cardakes at the barracks and the Mercenary Hall providing additional units."
 				},			
@@ -79,6 +79,11 @@
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
 			"Description": "Citizen Melee infantry cost -10% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."
 		},
+		{
+			"Name": "Phoenician Sailors",
+			"History": "Phoenicians had an advanced maritime culture and were deployed in the Persian navy among other peoples.",
+			"Description": "Triremes get +15% speed."
+		},		
 		{
 			"Name": "Equine Transports",
 			"History": "The Persians are known as the first to transport large numbers of cavalry overseas.",
