@@ -15,7 +15,7 @@
   </Auras>
   <Cost>
     <BuildTime>100</BuildTime>
-    <PopulationBonus>2</PopulationBonus>
+    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <food>0</food>
       <wood>200</wood>

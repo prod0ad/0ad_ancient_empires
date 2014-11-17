@@ -2,7 +2,7 @@
 <Entity parent="template_structure_defense_outpost">
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Carthaginian Outpost</SpecificName>
+    <SpecificName>Outpost</SpecificName>
     <History>?</History>
   </Identity>
   <VisualActor>

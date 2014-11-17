@@ -4,14 +4,14 @@
     <PopulationBonus>15</PopulationBonus>
     <BuildTime>90</BuildTime>
     <Resources>
-      <wood>255</wood>
+      <wood>225</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
     <Max>9</Max>
   </GarrisonHolder>
   <Health>
-    <Max>1350</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
     <Civ>rome</Civ>

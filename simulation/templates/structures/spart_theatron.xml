@@ -25,7 +25,7 @@
     <Height>10.0</Height>
   </Footprint>
   <Health>
-    <Max>2000</Max>
+    <Max>2400</Max>
   </Health>
   <Identity>
     <Civ>spart</Civ>

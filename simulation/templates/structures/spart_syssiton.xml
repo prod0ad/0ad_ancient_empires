@@ -17,7 +17,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>2000</Max>
+    <Max>2400</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
