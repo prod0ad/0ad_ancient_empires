@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
   <Armour>
-    <Hack>15.0</Hack>
-    <Pierce>30.0</Pierce>
-    <Crush>3.0</Crush>
+    <Hack>14.0</Hack>
+    <Pierce>28.0</Pierce>
+    <Crush>2.0</Crush>
     <Foundation>
       <Hack>5.0</Hack>
       <Pierce>10.0</Pierce>

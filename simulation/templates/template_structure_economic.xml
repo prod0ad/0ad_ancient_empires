@@ -3,7 +3,7 @@
   <Armour>
     <Hack>10</Hack>
     <Pierce>20</Pierce>
-    <Crush>2</Crush>
+    <Crush>1</Crush>
     <Foundation>
       <Hack>5</Hack>
       <Pierce>10</Pierce>
