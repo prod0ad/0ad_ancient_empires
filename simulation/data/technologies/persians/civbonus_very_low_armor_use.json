@@ -11,5 +11,5 @@
 		{"value": "Armour/Hack", "add": -1.0},
 		{"value": "Armour/Pierce", "add": -1.0}
 	],
-	"affects": ["Citizen Soldier Melee Infantry"]
+	"affects": ["Levy Melee Infantry"]
 }

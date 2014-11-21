@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "All citizen soldiers train 20% faster.",
+	"tooltip": "All non-champion soldiers train 20% faster.",
     "modifications": [{"value": "Cost/BuildTime", "multiply": 0.8}],
-	"affects": ["Citizen", "Soldier"],
+	"affects": ["Levy"],
     "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

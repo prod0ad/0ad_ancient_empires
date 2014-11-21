@@ -15,13 +15,6 @@
     <SpecificName>pr-'a</SpecificName>
     <History>?</History>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/ptol_infantry_spearman_b	
-	  units/ptol_infantry_javelinist_b
-      units/ptol_cavalry_spearman_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/ptolemies/civic_centre.xml</Actor>
   </VisualActor>

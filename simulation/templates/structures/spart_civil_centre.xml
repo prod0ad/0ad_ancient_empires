@@ -8,11 +8,6 @@
     <SpecificName>Agorā́</SpecificName>
     <History>The most important place in most Classical Greek poleis, the Agora served many purposes; it was a place for public speeches and was the stage for civic life and commercial interests.</History>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/spart_infantry_javelinist_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/spartans/civic_centre.xml</Actor>
   </VisualActor>

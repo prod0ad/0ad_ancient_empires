@@ -13,6 +13,6 @@
 	"supersedes": "phase_town_generic",
 	"icon": "city_phase.png",
 	"researchTime": 80,
-	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers increased by another +50%",
+	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers, Vision and Hit Points for all Structures increased by +25%.",
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

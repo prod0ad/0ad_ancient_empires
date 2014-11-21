@@ -90,6 +90,7 @@
     <Technologies datatype="tokens">
       phase_town_generic
       phase_city_generic
+      phase_imperial_generic	  
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>

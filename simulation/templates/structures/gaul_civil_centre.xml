@@ -16,9 +16,6 @@
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      units/gaul_infantry_spearman_b
-    </Entities>
     <Technologies datatype="tokens">
 	  celts/gaul_migration
     </Technologies>	

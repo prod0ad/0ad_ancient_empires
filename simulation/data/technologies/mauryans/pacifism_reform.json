@@ -17,5 +17,5 @@
 		{"value": "Attack/Ranged/Crush", "multiply": 0.9},
 		{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15}		
 	],
-	"affects": ["Citizen Soldier Infantry"]
+	"affects": ["Levy Soldier Infantry","Worker"]
 }

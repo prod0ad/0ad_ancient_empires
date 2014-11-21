@@ -6,8 +6,8 @@
 	"supersedes": "phase_town_maur",
 	"icon": "city_phase.png",
 	"researchTime": 80,
-	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers increased by another +50%. Mauryans get -10% female and infantry citizen food costs by advancing phases.",
+	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers, Vision and Hit Points for all Structures increased by +25%. Mauryans get -10% Worker and infantry citizen food costs by advancing phases.",
 	"modifications": [{"value": "Cost/Resources/food", "multiply": 0.90}],
-	"affects": ["Female","Citizen Infantry"],
+	"affects": ["Worker","Infantry"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

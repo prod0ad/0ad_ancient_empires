@@ -18,6 +18,7 @@
       <DefenseTower>30</DefenseTower>
       <Fortress>10</Fortress>
       <Wonder>1</Wonder>
+      <Cleruchia>1</Cleruchia>
       <Hero>1</Hero>
       <Apadana>1</Apadana>
       <sb2>1</sb2>	  
@@ -36,6 +37,9 @@
       <Juggernaut>1</Juggernaut>
     </Limits>
     <LimitChangers>
+      <CivilCentre>
+        <Cleruchia>1</Cleruchia>
+      </CivilCentre>	
       <WarDog>
         <Kennel>10</Kennel>
       </WarDog>

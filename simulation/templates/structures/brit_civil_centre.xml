@@ -15,11 +15,6 @@
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/brit_infantry_spearman_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/britons/civic_centre.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

@@ -1,13 +1,10 @@
 {
 	"genericName": "Fortified Barracks",
+	"autoResearch": true,	
 	"description": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
 	"cost": {"food": 0, "wood": 0, "stone": 1000, "metal": 0},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "crenelations.png",
-	"researchTime": 40,
-	"tooltip": "Increases the hit points of fortresses and barracks by 30%.",
-	"modifications": [{"value": "Health/Max", "multiply": 1.3}],
+	"requirements": {"civ": "cart"},
+	"modifications": [{"value": "Health/Max", "multiply": 1.25}],
 	"affects": ["Barracks", "Fortress"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

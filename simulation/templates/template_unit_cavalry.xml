@@ -25,8 +25,8 @@
     <Height>7.5</Height>
   </Footprint>
   <Identity>
-    <Classes datatype="tokens">CitizenSoldier Organic</Classes>
-    <VisibleClasses datatype="tokens">Cavalry Citizen Soldier</VisibleClasses>
+    <Classes datatype="tokens">CitizenSoldier Organic Levy</Classes>
+    <VisibleClasses datatype="tokens">Cavalry Soldier Levy</VisibleClasses>
     <GenericName>Cavalry</GenericName>
     <Rank>Basic</Rank>
     <Formations datatype="tokens">

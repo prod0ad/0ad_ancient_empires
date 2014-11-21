@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "arrow.png",
 	"researchTime": 40,
-	"tooltip": "+15% ranged infantry, ship and structure attack.",
+	"tooltip": "+15% ranged unit, ship and structure attack.",
 	"modifications": [{"value": "Attack/Ranged/Hack", "multiply": 1.15},
 		{"value": "Attack/Ranged/Pierce", "multiply": 1.15},
 		{"value": "Attack/Ranged/Crush", "multiply": 1.15}],

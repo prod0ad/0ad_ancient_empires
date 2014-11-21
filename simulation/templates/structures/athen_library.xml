@@ -28,7 +28,7 @@
       attack_tower_ballista	  
 	  fire_arrows  
       siege_accuracy
-      siege_range	  
+      siege_range 
     </Technologies>
   </ProductionQueue>
   <Sound>

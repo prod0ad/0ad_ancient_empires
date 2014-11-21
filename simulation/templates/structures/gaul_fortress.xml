@@ -18,9 +18,6 @@
       units/gaul_champion_cavalry
       units/gaul_champion_infantry
       units/gaul_mechanical_siege_ram
-      units/gaul_hero_brennus
-      units/gaul_hero_britomartus
-      units/gaul_hero_vercingetorix	  
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

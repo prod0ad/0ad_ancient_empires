@@ -13,27 +13,6 @@
       <MaxRange>4.0</MaxRange>
     </Slaughter>
   </Attack>
-  <Builder>
-    <Rate>1.0</Rate>
-    <Entities datatype="tokens">
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_corral
-      structures/{civ}_outpost
-      other/wallset_palisade
-      structures/{civ}_dock
-      structures/{civ}_barracks
-      structures/{civ}_blacksmith
-      structures/{civ}_temple
-      structures/{civ}_market
-      structures/{civ}_defense_tower
-      structures/{civ}_wallset_stone
-      structures/{civ}_civil_centre
-      structures/{civ}_fortress
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -52,8 +31,8 @@
   </Health>
   <Identity>
     <GenericName>Infantry</GenericName>
-    <Classes datatype="tokens">CitizenSoldier Worker Organic</Classes>
-    <VisibleClasses datatype="tokens">Infantry Citizen Soldier</VisibleClasses>
+    <Classes datatype="tokens">Organic Levy</Classes>
+    <VisibleClasses datatype="tokens">Infantry Soldier Levy</VisibleClasses>
     <Rank>Basic</Rank>
   </Identity>
   <Loot>
@@ -67,20 +46,6 @@
   <Promotion>
     <RequiredXp>200</RequiredXp>
   </Promotion>
-  <ResourceGatherer>
-    <MaxDistance>2.0</MaxDistance>
-    <BaseSpeed>1.0</BaseSpeed>
-    <Rates>
-      <food.fruit>0.5</food.fruit>
-      <food.grain>0.25</food.grain>
-      <food.meat>1</food.meat>
-	  <wood.tree>0.75</wood.tree>
-	  <wood.ruins>5</wood.ruins>
-      <stone.rock>0.5</stone.rock>
-	  <stone.ruins>2</stone.ruins>
-      <metal.ore>0.5</metal.ore>
-    </Rates>
-  </ResourceGatherer>
   <Selectable>
     <Overlay>
       <Texture>

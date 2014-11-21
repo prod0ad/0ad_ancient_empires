@@ -8,14 +8,6 @@
       <metal>50</metal>
     </Resources>
   </Cost>
-  <Builder>
-    <Entities datatype="tokens">
-	  structures/sele_mercenary_camp
-	  structures/sele_anactoron	  
-      structures/sele_library
-      structures/sele_wonder
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>sele</Civ>
     <SelectionGroupName>units/sele_infantry_spearman_2_b</SelectionGroupName>

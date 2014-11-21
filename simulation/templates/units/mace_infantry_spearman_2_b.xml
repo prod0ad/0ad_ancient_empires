@@ -8,15 +8,6 @@
       <metal>50</metal>
     </Resources>
   </Cost>
-  <Builder>
-    <Entities datatype="tokens">
-	  structures/mace_mercenary_camp	
-      structures/mace_anactoron
-      structures/mace_theatron
-      structures/mace_library
-	  structures/mace_wonder
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>athen</Civ>
 	<SelectionGroupName>units/mace_infantry_spearman_2_b</SelectionGroupName>

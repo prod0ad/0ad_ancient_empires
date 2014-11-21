@@ -25,12 +25,9 @@
   </Sound>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/brit_champion_infantry	
       units/brit_champion_cavalry
-      units/brit_champion_infantry
       units/brit_mechanical_siege_ram
-      units/brit_hero_boudicca
-      units/brit_hero_caratacos
-      units/brit_hero_cunobelin	  
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

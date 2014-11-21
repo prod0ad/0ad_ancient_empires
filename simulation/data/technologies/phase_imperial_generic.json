@@ -1,0 +1,12 @@
+{
+	"genericName": "Imperial Phase",
+	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
+	"cost": {"food": 0, "wood": 0, "stone": 1000, "metal": 1000},
+	"requirements": { "class": "City", "number": 1 },
+	"requirementsTooltip": "Requires 1 new City structure.",
+	"supersedes": "phase_city_generic",
+	"icon": "political_face.png",
+	"researchTime": 80,
+	"tooltip": "Advance to Imperial Phase, which unlocks more structures and units. Territory radius for Civic Centers, Vision and Hit Points for all Structures increased by +25%.",
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

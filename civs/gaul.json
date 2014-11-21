@@ -80,7 +80,12 @@
 			"Name": "Wooden Construction",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
 			"Description": "Structures construct 20% faster but are also 20% weaker." 
-		}
+		},
+		{
+			"Name": "Herding",
+			"History": ".", 
+			"Description": "Starts with a sheep." 
+		}		
 	],
 	"TeamBonuses":
 	[
@@ -112,13 +117,9 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/gaul_infantry_spearman_b",
-			"Count": 2 
-		},
-		{
-			"Template": "units/gaul_infantry_javelinist_b",
-			"Count": 2 
-		},
+			"Template": "gaia/fauna_sheep",
+			"Count": 1
+		},		
 		{
 			"Template": "units/gaul_cavalry_javelinist_b" 
 		}
@@ -150,7 +151,8 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/structures/default_house_5": "structures/{civ}_house"
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/special_starting_unit": "gaia/fauna_sheep"		
 	},
 	"SelectableInGameSetup": true
 }

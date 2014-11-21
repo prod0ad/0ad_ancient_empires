@@ -7,6 +7,6 @@
 	"researchTime": 40,
 	"tooltip": "+50% meat gathering rate.",
 	"modifications": [{"value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5}],
-	"affects": ["Worker"],
+	"affects": ["Worker","Citizen"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

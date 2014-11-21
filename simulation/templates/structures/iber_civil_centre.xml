@@ -8,11 +8,6 @@
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_iber_cc</SpawnEntityOnDeath>
   </Health>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/iber_infantry_spearman_b
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberians/civil_centre.xml</Actor>
   </VisualActor>

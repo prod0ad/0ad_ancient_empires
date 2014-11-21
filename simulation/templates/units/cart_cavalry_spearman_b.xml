@@ -11,7 +11,7 @@
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_cavalry_spearman_b</SelectionGroupName>
-    <GenericName>Citizen Cavalry</GenericName>
+    <GenericName>Heavy Cavalry</GenericName>
     <SpecificName>Citizen Cavalry</SpecificName>
     <History>.</History>
     <Icon>units/cart_cavalry_spearman.png</Icon>

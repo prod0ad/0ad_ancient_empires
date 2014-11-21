@@ -66,8 +66,8 @@
   </Sound>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>40</Radius>
-    <Weight>30000</Weight>
+    <Radius>60</Radius>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>

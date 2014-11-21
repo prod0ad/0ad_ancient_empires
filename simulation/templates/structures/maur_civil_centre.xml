@@ -16,16 +16,13 @@
     <Static width="36.0" depth="30.0"/>
   </Obstruction>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      units/maur_infantry_spearman_b
-      units/maur_infantry_archer_b
-      units/maur_support_elephant
-    </Entities>
     <Technologies datatype="tokens">
       -phase_town_generic
       phase_town_maur
       -phase_city_generic
       phase_city_maur
+      -phase_imperial_generic
+      phase_imperial_maur	  	  
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

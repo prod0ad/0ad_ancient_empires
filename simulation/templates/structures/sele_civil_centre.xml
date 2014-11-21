@@ -8,17 +8,6 @@
     <SpecificName>Agorā́</SpecificName>
     <History>The most important place in most Hellenistic cities, the Agora served many purposes; it was a place for public speeches and was the stage for civic life and commercial interests.</History>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-	  units/sele_infantry_spearman_b
-	  units/sele_infantry_javelinist_2_b
-      units/sele_infantry_archer_2_b
-	  units/sele_cavalry_spearman_b
-    </Entities>
-	<Technologies datatype="tokens">
-	 successors/special_sele_cleruchy
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/macedonians/civic_centre.xml</Actor>
   </VisualActor>

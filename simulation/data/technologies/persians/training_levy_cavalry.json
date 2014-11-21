@@ -10,6 +10,6 @@
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],
-	"affects": ["Citizen Cavalry"],
+	"affects": ["Levy Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

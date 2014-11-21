@@ -15,6 +15,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/athen_champion_infantry
+      units/athen_champion_ranged	
+      units/athen_mechanical_siege_ram	
       units/athen_mechanical_siege_oxybeles_packed
       units/athen_mechanical_siege_lithobolos_packed
     </Entities>
@@ -23,6 +26,7 @@
       siege_armor
 	  siege_cost
 	  siege_packing
+      hellenes/athen_iphicratean_reforms		  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

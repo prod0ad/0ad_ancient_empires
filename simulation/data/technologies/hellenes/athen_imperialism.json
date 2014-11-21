@@ -1,7 +1,7 @@
 {
 	"genericName": "Imperialism",
 	"description": "Soon after the formation of the Delian league, the Athenians started treating costal towns and even their own allies as subjects.",
-	"cost": { "food": 250, "wood": 250, "stone": 250, "metal": 250 },
+	"cost": { "food": 0, "wood": 250, "stone": 250, "metal": 250 },
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "athen"}]},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "clenched_fist.png",

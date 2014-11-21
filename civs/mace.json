@@ -134,14 +134,6 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/mace_infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/mace_infantry_javelinist_b",
-			"Count": 2
-		},
-		{
 			"Template": "units/mace_cavalry_javelinist_b"
 		}
 	],

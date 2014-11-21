@@ -7,7 +7,7 @@
 	"icon": "metal_pot.png",
 	"researchTime": 40,
 	"tooltip": "Removes all Structure Minimum Range.",
-	"modifications": [{"value": "Attack/Ranged/MinRange", "multiply": 0}],
+	"modifications": [{"value": "Attack/Ranged/MinRange", "replace": 0}],
 	"affects": ["Structure"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

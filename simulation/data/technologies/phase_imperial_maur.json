@@ -1,0 +1,13 @@
+{
+	"genericName": "Imperial Phase",
+	"cost": {"food": 0, "wood": 0, "stone": 1000, "metal": 1000},
+	"requirements": { "class": "City", "number": 1 },
+	"requirementsTooltip": "Requires 1 new City structure.",
+	"supersedes": "phase_city_maur",
+	"icon": "political_face.png",
+	"researchTime": 80,
+	"tooltip": "Advance to Imperial Phase, which unlocks more structures and units. Territory radius for Civic Centers, Vision and Hit Points for all Structures increased by +25%. Mauryans get -10% worker and infantry citizen food costs by advancing phases.",
+	"modifications": [{"value": "Cost/Resources/food", "multiply": 0.90}],
+	"affects": ["Worker","Infantry"],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

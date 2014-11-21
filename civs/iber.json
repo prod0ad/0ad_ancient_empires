@@ -105,14 +105,6 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/iber_infantry_swordsman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/iber_infantry_javelinist_b",
-			"Count": 2
-		},
-		{
 			"Template": "units/iber_cavalry_spearman_b"
 		}
 	],

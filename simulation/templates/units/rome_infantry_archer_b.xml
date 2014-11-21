@@ -8,16 +8,6 @@
       <metal>30</metal>
     </Resources>
   </Cost>
-  <Builder>
-    <Entities datatype="tokens">
-	  -other/wallset_palisade
-      structures/rome_army_camp
-      structures/rome_wallset_siege
-      structures/{civ}_wonder
-	  structures/rome_library
-	  structures/rome_mercenary_camp
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>rome</Civ>
 	<SelectionGroupName>units/rome_infantry_archer_b</SelectionGroupName>

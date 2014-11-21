@@ -34,7 +34,7 @@
 		        {
 			        "Name":"Cleruchy",
 			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
-			        "Description":"20% faster batch training for the Civic Center."
+			        "Description":"25% faster batch training for the Civic Center."
 		        },
 				{
 					"Name": "Nisean War Horses",
@@ -114,15 +114,7 @@
 		{
 			"Template": "units/sele_support_female_citizen",
 			"Count": 4
-		},
-		{
-			"Template": "units/sele_infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/sele_infantry_javelinist_2_b",
-			"Count": 2
-		},		
+		},	
 		{
 			"Template": "units/sele_cavalry_spearman_b"
 		}

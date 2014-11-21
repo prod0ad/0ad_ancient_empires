@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/{civ}_house
+      structures/{civ}_storehouse
+      structures/{civ}_farmstead
+      structures/{civ}_field
+      structures/{civ}_corral
+      structures/{civ}_outpost
+      other/wallset_palisade
+      structures/{civ}_dock
+      structures/{civ}_barracks
+      structures/{civ}_blacksmith
+      structures/{civ}_temple
+      structures/{civ}_market
+      structures/{civ}_civil_centre	  
+      structures/{civ}_defense_tower
+      structures/{civ}_wallset_stone
+      structures/{civ}_fortress
+      structures/ptol_cleruchia 	  
+      structures/ptol_lighthouse	
+      structures/{civ}_mercenary_camp  		  
+      structures/{civ}_wonder	 
+      structures/{civ}_library	 
+	  structures/ptol_anactoron	  
+    </Entities>
+  </Builder>
   <Identity>
     <Civ>ptol</Civ>
     <SpecificName>Gýnē Aigyptiakós</SpecificName>

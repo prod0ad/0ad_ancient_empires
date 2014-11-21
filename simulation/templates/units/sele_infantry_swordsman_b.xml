@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_swordsman">
-  <Builder>
-    <Entities datatype="tokens">
-	  structures/sele_mercenary_camp
-	  structures/sele_anactoron	  
-      structures/sele_library
-      structures/sele_wonder
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>sele</Civ>
 	<SelectionGroupName>units/sele_infantry_swordsman_b</SelectionGroupName>
