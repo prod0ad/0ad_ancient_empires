@@ -76,7 +76,6 @@
       attack_tower_crenellations
       attack_tower_range
 	  attack_tower_boiling_oil
-      attack_tower_defense
     </Technologies>
   </ProductionQueue>
   <Sound>

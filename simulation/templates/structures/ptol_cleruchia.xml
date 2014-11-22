@@ -33,6 +33,9 @@
     <Tooltip>Train hellenistic units. Limited to 1 per Civil Centre.</Tooltip>
     <History>.</History>
     <Icon>structures/gymnasion.png</Icon>
+    <VisibleClasses datatype="tokens">
+	  Barracks
+	</VisibleClasses>	
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>

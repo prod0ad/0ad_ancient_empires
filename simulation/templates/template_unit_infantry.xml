@@ -44,7 +44,7 @@
   </Loot>
   <Looter/>
   <Promotion>
-    <RequiredXp>200</RequiredXp>
+    <RequiredXp>9999</RequiredXp>
   </Promotion>
   <Selectable>
     <Overlay>

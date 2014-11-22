@@ -22,7 +22,8 @@
       -phase_city_generic
       phase_city_maur
       -phase_imperial_generic
-      phase_imperial_maur	  	  
+      phase_imperial_maur
+      health_females_01	  
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

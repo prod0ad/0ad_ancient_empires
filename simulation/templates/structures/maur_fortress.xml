@@ -8,9 +8,6 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/maur_hero_chanakya
-      units/maur_hero_maurya
-      units/maur_hero_ashoka
       units/maur_champion_infantry
       units/maur_champion_maiden_archer
     </Entities>

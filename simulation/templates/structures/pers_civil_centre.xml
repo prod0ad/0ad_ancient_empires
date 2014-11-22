@@ -9,6 +9,11 @@
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_pers_cc</SpawnEntityOnDeath>
   </Health>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      health_females_01
+    </Technologies>
+  </ProductionQueue>    
   <VisualActor>
     <Actor>structures/persians/civil_centre.xml</Actor>
   </VisualActor>

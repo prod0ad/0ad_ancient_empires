@@ -8,7 +8,7 @@
     <SpecificName>Psilos Slinger</SpecificName>
     <History></History>
     <Icon>units/hele_infantry_slinger.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>	
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>
     <Entity>units/athen_infantry_slinger_a</Entity>

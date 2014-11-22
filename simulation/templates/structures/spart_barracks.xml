@@ -25,11 +25,12 @@
     <Entities datatype="tokens">
       units/spart_infantry_javelinist_b
 	  units/spart_infantry_swordsman_b
-	  units/spart_cavalry_javelinist_b	  
+	  units/spart_cavalry_javelinist_b	 	  
 	  units/spart_champion_infantry_pike
     </Entities>
     <Technologies datatype="tokens">
-      training_conscription
+	  training_levy_infantry
+	  training_conscription  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

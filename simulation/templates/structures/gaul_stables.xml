@@ -31,11 +31,14 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/gaul_cavalry_javelinist_b	
       units/gaul_cavalry_swordsman_b
-      units/gaul_cavalry_javelinist_b
 	  units/gaul_champion_cavalry_barracks	  
     </Entities>
     <Technologies datatype="tokens">
+	  upgrades/cavalry_light_a
+	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_heavy_e		
       training_levy_cavalry
 	  training_conscription_cavalry
       celts/health_regen_gaul_cav	  

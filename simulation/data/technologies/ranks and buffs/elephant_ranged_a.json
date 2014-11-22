@@ -3,11 +3,11 @@
 	"autoResearch": true,	
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1},	
-		{"value": "Armour/Hack", "add": 1.0},
-		{"value": "Armour/Pierce", "add": 1.0},
-		{"value": "Attack/Ranged/MaxRange", "add": 5},
-		{"value": "Vision/Range", "add": 5},	
-		{"value": "Attack/Ranged/Spread", "add": -0.1}
+		{"value": "Attack/Ranged/Hack", "multiply": 1.1},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.1},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},		
+		{"value": "Vision/Range", "multiply": 1.1}
 	],
 	"affects": ["Elephant Ranged Advanced"]
 }

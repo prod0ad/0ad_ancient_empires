@@ -7,11 +7,31 @@
   <Identity>
     <Civ>iber</Civ>
     <SpecificName>Ponti</SpecificName>
-    <Tooltip>Classes: Medium Warship Ranged
-Transport many soldiers across the sea.</Tooltip>
-    <History>.</History>
+    <Tooltip>Tough Warship able to transport units.</Tooltip>
+    <History>The ships of Gaul were described by Julias Caesar as:  flat bottoms to ride the shallows, exceptionally high bows and sterns, hulls were made entirely of oak, the foot wide cross-timbers were fastened with iron bolts as thick as a man's thumb, sails of raw hides or thin leather, adapted for sailing treacherous and stormy waters of the north atlantic.  Caesar could not injure them by ramming because they were so solidly built, and their height made it difficult to reach them with missiles or board them with grappling irons.</History>
     <Icon>units/celt_ship_trireme.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>		
   </Identity>
+  <Cost>
+    <Population>3</Population>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>200</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>800</Max>
+  </Health>  
+  <GarrisonHolder>
+    <Max>20</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Female Infantry Dog</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry Dog</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>10</LoadingRange>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>  
   <Obstruction>
     <Unit radius="6.0"/>
   </Obstruction>

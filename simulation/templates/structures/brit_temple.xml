@@ -23,9 +23,6 @@
     <Static width="22.5" depth="22.5"/>
   </Obstruction>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      units/gaul_champion_fanatic
-    </Entities>
     <Technologies datatype="tokens">
 	  fire_arrows   
     </Technologies>		

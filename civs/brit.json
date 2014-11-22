@@ -59,23 +59,23 @@
 		{
 			"Name": "Woad Paint",
 			"History": "The Britons took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
-			"Description": "Naked Fanatic Fear Aura is 10% stronger." 
+			"Description": "Naked Fanatic Fear Aura reduces enemy unit attack by an extra 10%." 
 		},		
 		{
 			"Name": "Celtic Valour",
-			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies.", 
-			"Description": "+10% citizen melee infantry walk and run speed." 
-		},
-		{
-			"Name": "Low Armor Use",
-			"History": "Most Celtic Soldiers went to war without body armor.", 
-			"Description": "Citizen Melee infantry cost -5% wood/metal but also have -10% hit points and -1 hack and pierce armor levels." 
-		},		
+			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
+			"Description": "Non-Champion melee infantry +10% walk and run speed, -10% hit points and -5% wood/metal cost." 
+		},	
 		{
 			"Name": "Wooden Construction",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
 			"Description": "Structures construct 20% faster but are also 20% weaker." 
-		}
+		},
+		{
+			"Name": "Dog Scout",
+			"History": ".", 
+			"Description": "The Britons start the game with an extra dog unit, effective at scouting." 
+		}			
 	],
 	"TeamBonuses":
 	[

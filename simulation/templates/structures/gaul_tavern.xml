@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
   <Cost>
-    <PopulationBonus>10</PopulationBonus>
+    <PopulationBonus>20</PopulationBonus>
     <BuildTime>200</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>100</wood>
+      <wood>200</wood>
       <stone>100</stone>
       <metal>0</metal>
     </Resources>
@@ -23,7 +23,7 @@
     <GenericName>Tavern</GenericName>
     <SpecificName>Taberna</SpecificName>
     <History>Taverns are where Celtic warriors go for a tall glass of mead after a hard-won battle. Some might even find rest in one of the back rooms for rent in this seedy establishment.</History>
-    <Tooltip>Add +10 to Population Cap. Recruit Naked Fanatics.</Tooltip>
+    <Tooltip>Trains Workers and Naked Fanatics.</Tooltip>
     <Icon>structures/celtic_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
@@ -38,6 +38,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/{civ}_support_female_citizen	
       units/gaul_champion_fanatic
     </Entities>
   </ProductionQueue>

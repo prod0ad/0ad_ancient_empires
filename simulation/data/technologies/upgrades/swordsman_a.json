@@ -1,0 +1,13 @@
+{
+	"genericName": "Advanced Swordsmen",
+	"autoResearch": true,
+	"icon": "upgrade_advanced.png",
+	"researchTime": 40,
+	"tooltip": "Increases Swordsman Attack, Hit Points and Vision by 10%.",
+	"modifications": 
+	[
+	    {"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Sword Infantry Levy Basic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

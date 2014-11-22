@@ -31,6 +31,9 @@
     <History>The Syssítia were where full-blooded Spartans, even Spartan kings, were barracked and dined together.</History>
     <Icon>structures/gymnasion.png</Icon>
 	<RequiredTechnology>phase_village</RequiredTechnology>
+    <VisibleClasses datatype="tokens">
+	  Barracks
+	</VisibleClasses>	
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="26.0"/>
@@ -47,13 +50,7 @@
     <Entities datatype="tokens">
 	  units/spart_infantry_spearman_b
 	  units/spart_champion_infantry_spear
-      units/spart_hero_leonidas
-      units/spart_hero_brasidas
-      units/spart_hero_agis
     </Entities>
-    <Technologies datatype="tokens">
-	  hellenes/pair_hoplites
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/spartans/syssiton.xml</Actor>

@@ -31,10 +31,13 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/brit_cavalry_swordsman_b
       units/brit_cavalry_javelinist_b
+      units/brit_cavalry_swordsman_b	  
     </Entities>
     <Technologies datatype="tokens">
+	  upgrades/cavalry_light_a
+	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_heavy_e		
       training_levy_cavalry
 	  training_conscription_cavalry
     </Technologies>

@@ -17,11 +17,10 @@
       units/iber_infantry_javelinist_b
       units/iber_infantry_swordsman_b	  
       units/iber_infantry_slinger_b
-      units/iber_cavalry_spearman_b
-      units/iber_cavalry_javelinist_b
     </Entities>
 	<Technologies datatype="tokens">
-      training_conscription
+	  training_levy_infantry
+	  training_conscription  
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

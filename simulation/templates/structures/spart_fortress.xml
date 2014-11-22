@@ -15,6 +15,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+	  units/spart_champion_infantry_spear	
       units/spart_mechanical_siege_ram
       units/spart_mechanical_siege_oxybeles_packed
     </Entities>

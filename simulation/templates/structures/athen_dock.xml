@@ -18,9 +18,9 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/athen_ship_bireme
-      units/athen_ship_trireme
+      units/athen_ship_trireme	  
     </Entities>
-	<Technologies datatype="tokens">
+	<Technologies datatype="tokens">	
     hellenes/athen_chorigoi
 	expert_sailors
     </Technologies>

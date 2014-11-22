@@ -22,13 +22,19 @@
     <Entities datatype="tokens">
       units/gaul_infantry_spearman_b
       units/gaul_infantry_javelinist_b
+      units/gaul_infantry_swordsman_b 
       units/gaul_infantry_slinger_b
 	  units/gaul_champion_infantry_barracks	  
     </Entities>
 	<Technologies datatype="tokens">
+	  upgrades/spearman_a
+	  upgrades/spearman_e		
+	  upgrades/skirmisher_a
+	  upgrades/skirmisher_e	
+	  upgrades/swordsman_e	  
+	  upgrades/slinger_e		
 	  training_levy_infantry
 	  training_conscription  
-	  ranged_combat
     </Technologies>
   </ProductionQueue>
   <VisualActor>

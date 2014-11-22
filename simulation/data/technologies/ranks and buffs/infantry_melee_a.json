@@ -3,9 +3,10 @@
 	"autoResearch": true,	
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1},	
-		{"value": "Armour/Hack", "add": 1.0},
-		{"value": "Armour/Pierce", "add": 1.0},
-		{"value": "Attack/Melee/RepeatTime", "multiply": 0.9}
+		{"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "Vision/Range", "multiply": 1.1}
 	],
 	"affects": ["Infantry Melee Advanced"]
 }

@@ -68,13 +68,8 @@
 		},
 		{
 			"Name": "Celtic Valour",
-			"History": "The individual's courage, deeds and charging in for close combat were considered as the ultimate form of bravery in Celtic societies.", 
-			"Description": "+10% citizen melee infantry walk and run speed." 
-		},
-		{
-			"Name": "Low Armor Use",
-			"History": "Most Celtic Soldiers went to war without body armor.", 
-			"Description": "Citizen Melee infantry cost -5% wood/metal but also have -10% hit points and -1 hack and pierce armor levels." 
+			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
+			"Description": "Non-Champion melee infantry +10% walk and run speed, -10% hit points and -5% wood/metal cost." 
 		},
 		{
 			"Name": "Wooden Construction",
@@ -82,9 +77,9 @@
 			"Description": "Structures construct 20% faster but are also 20% weaker." 
 		},
 		{
-			"Name": "Herding",
+			"Name": "Herd",
 			"History": ".", 
-			"Description": "Starts with a sheep." 
+			"Description": "The Gauls start the game with an extra sheep." 
 		}		
 	],
 	"TeamBonuses":

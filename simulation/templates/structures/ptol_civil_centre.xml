@@ -7,6 +7,11 @@
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      health_females_01
+    </Technologies>
+  </ProductionQueue>    
   <Obstruction>
     <Static width="40.0" depth="37"/>
   </Obstruction>

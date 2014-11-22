@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>5</Pierce>
+    <Hack>3</Hack>
+    <Pierce>4</Pierce>
     <Crush>2</Crush>
   </Armour>
   <Cost>
@@ -25,9 +25,8 @@
   </Health>
   <Identity>
     <GenericName>Merchantman</GenericName>
-    <Tooltip>Trade between docks.</Tooltip>
+    <Tooltip>Transport units and trade between docks.</Tooltip>
     <Classes datatype="tokens">Trader</Classes>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <Formations disable=""/>
   </Identity>
   <ResourceGatherer>
@@ -54,6 +53,6 @@
     <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>50</Range>
+    <Range>40</Range>
   </Vision>
 </Entity>

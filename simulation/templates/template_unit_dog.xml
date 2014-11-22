@@ -64,7 +64,7 @@
     <Unit radius="1.0"/>
   </Obstruction>
   <Promotion>
-    <RequiredXp>100</RequiredXp>
+    <RequiredXp>9999</RequiredXp>
   </Promotion>
   <ResourceGatherer disable=""/>
   <Selectable>

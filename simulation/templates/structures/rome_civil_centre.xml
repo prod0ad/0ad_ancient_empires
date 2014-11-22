@@ -26,6 +26,11 @@
   <Health>
 	<SpawnEntityOnDeath>rubble/rubble_rome_cc</SpawnEntityOnDeath>
   </Health>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      health_females_01
+    </Technologies>
+  </ProductionQueue>    
   <Obstruction>
     <Static width="37.0" depth="37.0"/>
   </Obstruction>

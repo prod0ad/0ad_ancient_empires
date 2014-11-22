@@ -30,7 +30,6 @@
     <Technologies datatype="tokens">
 	  training_levy_infantry
 	  training_conscription  
-	  ranged_combat
     </Technologies>
   </ProductionQueue>
   <VisualActor>

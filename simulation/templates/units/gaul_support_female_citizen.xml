@@ -11,7 +11,8 @@
       structures/{civ}_outpost
       other/wallset_palisade
       structures/{civ}_barracks
-      structures/{civ}_stables 	  
+      structures/{civ}_stables
+	  structures/gaul_tavern 	  
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market

@@ -15,7 +15,8 @@
       -phase_city_generic
       phase_city_athen
       -phase_imperial_generic	
-      phase_imperial_athen	  
+      phase_imperial_athen
+      health_females_01	  
       hellenes/athen_long_walls
 	  hellenes/athen_imperialism 	  
     </Technologies>
