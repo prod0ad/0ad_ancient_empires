@@ -1,6 +1,7 @@
 {
 	"genericName": "Advanced Swordsmen",
 	"autoResearch": true,
+	"requirements": {"tech": "phase_village"},
 	"icon": "upgrade_advanced.png",
 	"researchTime": 40,
 	"tooltip": "Increases Swordsman Attack, Hit Points and Vision by 10%.",
