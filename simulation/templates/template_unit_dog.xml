@@ -49,7 +49,7 @@
   <Identity>
     <Classes datatype="tokens">Organic</Classes>
     <VisibleClasses datatype="tokens">Dog</VisibleClasses>
-    <GenericName>War Dog</GenericName>
+    <GenericName>Dog</GenericName>
     <Rank>Basic</Rank>
     <Tooltip>Cannot attack structures.</Tooltip>
   </Identity>

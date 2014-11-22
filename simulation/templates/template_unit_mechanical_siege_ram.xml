@@ -13,7 +13,7 @@
       <MaxRange>6</MaxRange>
       <RepeatTime>3000</RepeatTime>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
-      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Citizen Animal</RestrictedClasses>	  
+      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Worker Ship Mechanical Animal</RestrictedClasses>	  
     </Melee>
     <Charge>
       <Hack>0.0</Hack>

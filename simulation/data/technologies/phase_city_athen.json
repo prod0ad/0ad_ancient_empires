@@ -7,7 +7,7 @@
 	"supersedes": "phase_town_athen",
 	"icon": "city_phase.png",
 	"researchTime": 80,
-	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers, Vision and Hit Points for all Structures increased by +25%. Silver Owls civ bonus grants an extra +10% metal gather rate to all workers.",
+	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers and Vision for all Structures increased by 25%. Silver Owls civ bonus grants an extra +10% metal gather rate to all workers.",
 	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.1}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"
