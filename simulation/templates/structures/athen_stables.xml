@@ -19,6 +19,8 @@
     <SpecificName>Stables</SpecificName>
     <VisibleClasses datatype="tokens">
 	  -Barracks
+	  -Village	
+	  Town
 	  Stables
 	</VisibleClasses>
     <History>Cavalry was primarily used as an elite assault force by the Persians.</History>
