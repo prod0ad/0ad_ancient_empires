@@ -6,6 +6,7 @@
   </Footprint>
   <Identity>
     <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>	
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_archer_2_e</Entity>

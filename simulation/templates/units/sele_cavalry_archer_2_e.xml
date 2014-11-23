@@ -2,6 +2,7 @@
 <Entity parent="units/sele_cavalry_archer_2_a">
   <Identity>
     <Rank>Elite</Rank>
+    <Classes datatype="tokens">Elite</Classes>		
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

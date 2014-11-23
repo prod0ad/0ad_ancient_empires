@@ -17,8 +17,8 @@
     </Charge>
   </Attack> 
   <Armour>
-    <Hack>8</Hack>
-    <Pierce>8</Pierce>
+    <Hack>7</Hack>
+    <Pierce>7</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Cost>
@@ -36,7 +36,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>1800</Max>
+    <Max>1500</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
@@ -48,7 +48,7 @@
   </UnitMotion>  
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Indian War Elephant</GenericName>
+    <GenericName>Champion War Elephant</GenericName>
     <SpecificName>Gajendra</SpecificName>
     <Icon>units/maur_champion_elephant.png</Icon>
     <History>Painted Indian war elephant with driver and bow rider. Has some armor on its chest and forehead, and swords on its tusks.</History>

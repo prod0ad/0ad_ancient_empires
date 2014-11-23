@@ -1,0 +1,13 @@
+{
+	"genericName": "Chosen Swordsmen",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in the Imperial Phase.",
+	"icon": "upgrade_elite.png",
+	"researchTime": 40,
+	"supersedes": "upgrades/swordsman_e",
+	"tooltip": "Increases Swordsman Attack, Hit Points and Vision by 10%.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Sword Infantry Levy Elite"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

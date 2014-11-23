@@ -17,9 +17,9 @@
     </Charge>
   </Attack> 
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>6</Pierce>
-    <Crush>5</Crush>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
+    <Crush>4</Crush>
   </Armour>
   <Cost>
     <Population>5</Population>
@@ -36,11 +36,11 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>1500</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Indian War Elephant</GenericName>
+    <GenericName>Champion War Elephant</GenericName>
     <SpecificName>Hinduya Pila</SpecificName>
     <Icon>units/pers_war_elephant.png</Icon>
 	<Classes datatype="tokens">Mercenary</Classes>			

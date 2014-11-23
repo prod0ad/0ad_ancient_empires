@@ -6,11 +6,12 @@
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "armor_plates_ranged.png",
 	"researchTime": 40,
-	"tooltip": "Archer +5 range and -4 second train time.",
+	"tooltip": "Infantry Archers +10% range and -25% train time.",
 	"modifications": [
-		{"value": "Attack/Ranged/MaxRange", "add": 5.0},
-		{"value": "Vision/Range", "add": 5.0},
-		{"value": "Cost/BuildTime", "add": -4}],
-	"affects": ["Archer"],
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
+		{"value": "Vision/Range", "multiply": 1.1},
+		{"value": "Cost/BuildTime", "multiply": 0.75}],
+	"affects": ["Infantry Archer"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
+

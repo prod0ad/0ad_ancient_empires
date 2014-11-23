@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>5</Pierce>
+    <Hack>5</Hack>
+    <Pierce>4</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>45</Hack>
+      <Hack>60</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
@@ -26,16 +26,17 @@
   </Cost>
   <Identity>
     <Civ>brit</Civ>
-    <GenericName>Brythonic Longswordsman</GenericName>
+    <GenericName>Champion Longswordsman</GenericName>
     <SpecificName>Delamokludda</SpecificName>
 	<SelectionGroupName>units/brit_champion_infantry</SelectionGroupName>
     <History>Two-handed swordsmen from Briton. These men are veteran soldiers who offer their lives in service to their Brythonic lords.</History>
     <Icon>units/celt_champion_infantry_brit.png</Icon>
+	<Tooltip>Slow Moving Powerful Swordsman.</Tooltip>		
   </Identity>
   <UnitMotion>
-    <WalkSpeed>7</WalkSpeed>
+    <WalkSpeed>6.5</WalkSpeed>
     <Run>
-      <Speed>15.0</Speed>
+      <Speed>13.0</Speed>
     </Run>
   </UnitMotion>
   <VisualActor>

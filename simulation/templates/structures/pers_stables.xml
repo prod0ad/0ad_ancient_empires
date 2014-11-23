@@ -35,13 +35,16 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/pers_cavalry_javelinist_b	
-      units/pers_cavalry_spearman_b
       units/pers_cavalry_swordsman_b
-      units/pers_cavalry_archer_e
+      units/pers_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-      persians/training_levy_cavalry
-	  persians/training_conscription_cavalry
+	  upgrades/cavalry_light_a
+	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_heavy_e		
+	  upgrades/cavalry_archer_e			  
+      training_levy_cavalry
+	  training_conscription_cavalry
 	  successors/special_war_horses
     </Technologies>
   </ProductionQueue>

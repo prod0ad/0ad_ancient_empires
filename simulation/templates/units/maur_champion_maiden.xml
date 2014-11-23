@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Maiden Guard</GenericName>
+    <GenericName>Champion Swordsman</GenericName>
     <SpecificName>Visha Kanya</SpecificName>
 	<SelectionGroupName>units/maur_champion_maiden</SelectionGroupName>
     <History>.</History>

@@ -7,6 +7,7 @@
     <SpecificName>Dhanurdhar</SpecificName>
     <Icon>units/maur_infantry_archer.png</Icon>
     <History>Longbowman.</History>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Promotion>
     <Entity>units/maur_infantry_archer_a</Entity>

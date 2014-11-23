@@ -27,6 +27,13 @@
       units/mace_infantry_javelinist_b	  
     </Entities>
 	<Technologies datatype="tokens">
+	  upgrades/pikeman_a
+	  upgrades/pikeman_e		
+	  upgrades/skirmisher_a
+	  upgrades/skirmisher_e		 
+	  upgrades/archer_a
+	  upgrades/archer_e		
+	  upgrades/slinger_e			  
 	  training_levy_infantry
 	  training_conscription  
     </Technologies>

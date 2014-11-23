@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_pikeman">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>2</Pierce>
+    <Hack>2</Hack>
+    <Pierce>1</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>4</Hack>
-      <Pierce>16</Pierce>
+      <Hack>12</Hack>
+      <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
@@ -25,13 +25,13 @@
     <BuildTime>7</BuildTime>
     <Resources>
       <food>50</food>
-      <wood>50</wood>
+      <wood>40</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>165</Max>
+    <Max>180</Max>
   </Health>
   <Identity>
     <Civ>ptol</Civ>
@@ -41,6 +41,7 @@
     <History>When pressed hard by the fellow successor states, the Ptolemies of Egypt began to arm and train the Egyptian people in "Macedonian fashion." These levies of indigenous Egyptians were crucial in turning back the Seleucid tide at the Battle of Raphia, cementing nationalist pride and threatening the rule of the Ptolemies over their own kingdom.</History>
     <Icon>units/ptol_infantry_spearman.png</Icon>
 	<RequiredTechnology>successors/ptol_reforms_machimoi</RequiredTechnology>
+	<Tooltip>Fast training, light Champion Pikeman. Deals double damage vs Cavalry and Elephants.</Tooltip>		
   </Identity>
   <Promotion>
     <Entity>units/ptol_champion_infantry_swordsman</Entity>

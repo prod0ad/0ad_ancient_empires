@@ -51,4 +51,7 @@
       <Speed>20.0</Speed>
     </Run>
   </UnitMotion>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
 </Entity>

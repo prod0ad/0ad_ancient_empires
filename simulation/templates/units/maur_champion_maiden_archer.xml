@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Maiden Guard Archer</GenericName>
+    <GenericName>Champion Archer</GenericName>
     <SpecificName>Visha Kanya</SpecificName>
     <History>.</History>
     <Icon>units/maur_champion_maiden_archer.png</Icon>

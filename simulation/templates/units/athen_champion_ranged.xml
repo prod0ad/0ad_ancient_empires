@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
     <Civ>athen</Civ>
-	<GenericName>Scythian Archer</GenericName>
+	<GenericName>Champion Archer</GenericName>
     <SpecificName>Toxotes Skithikos</SpecificName>
     <History>The Athenian employed Scythian archers as city police and auxillary troops.</History>
     <Icon>units/athen_champion_ranged.png</Icon>

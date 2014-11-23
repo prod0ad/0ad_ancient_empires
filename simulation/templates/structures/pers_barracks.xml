@@ -16,14 +16,20 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/pers_infantry_spearman_b
+      units/pers_infantry_javelinist_b		  
       units/pers_infantry_archer_b
-      units/pers_infantry_javelinist_b	  
       units/pers_kardakes_hoplite
       units/pers_kardakes_skirmisher	  
     </Entities>
     <Technologies datatype="tokens">
-	  persians/training_levy_infantry
-	  persians/training_conscription_infantry
+	  upgrades/spearman_a
+	  upgrades/spearman_e		
+	  upgrades/skirmisher_a
+	  upgrades/skirmisher_e		 
+	  upgrades/archer_a
+	  upgrades/archer_e				  
+	  training_levy_infantry
+	  training_conscription 
 	  persians/special_archery_tradition
     </Technologies>
   </ProductionQueue>

@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>6</Pierce>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>6</Hack>
-      <Pierce>18</Pierce>
+      <Hack>20</Hack>
+      <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Cavalry Elephant</Classes>
+		  <Multiplier>2</Multiplier>
+		</AntiCavalry>
+	  </Bonuses>  
     </Melee>
     <Charge>
       <Hack>10</Hack>
@@ -28,6 +34,7 @@
       formations/phalanx
       formations/testudo
     </Formations>
+	<Tooltip>Deals double damage vs Cavalry and Elephants.</Tooltip>	
   </Identity>
   <Sound>
     <SoundGroups>

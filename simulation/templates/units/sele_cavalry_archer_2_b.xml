@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_chariot">
   <Identity>
     <Civ>sele</Civ>
-    <Classes datatype="tokens">Chariot</Classes>
+    <Classes datatype="tokens">Chariot Basic</Classes>
 	<SelectionGroupName>units/sele_cavalry_archer_2_b</SelectionGroupName>
 	<GenericName>Babylonian Scythed Chariot</GenericName>
     <SpecificName>Babiruviya Ratha</SpecificName>

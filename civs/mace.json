@@ -34,12 +34,7 @@
 				{
 					"Name":"Silver Shields",
 					"History":"In India near the end of his long anabasis, Alexander gifted to the Royal Hypaspist corps shields of silver for their long and valiant service in his army.",
-					"Description":"Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack, health and armor."
-				},
-				{
-					"Name":"Hellenistic Metropolises",
-					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
-					"Description":"Civil Centres get double health and default arrows and support 10 additional population."
+					"Description":"Upgrade Shield Bearer Champion Infantry to Silver Shields, with greater attack and health."
 				}
 			],
 			"Heroes":

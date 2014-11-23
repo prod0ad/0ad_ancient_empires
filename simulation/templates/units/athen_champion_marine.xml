@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>athen</Civ>
-	<GenericName>Athenian Marine</GenericName>
+	<GenericName>Champion Swordsman</GenericName>
     <SpecificName>Épibatēs Athēnaïkós</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_marine.png</Icon>

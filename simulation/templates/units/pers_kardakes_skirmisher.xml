@@ -1,46 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_javelinist">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>3</Pierce>
-    <Crush>6</Crush>
+    <Hack>0</Hack>
+    <Pierce>1</Pierce>
+    <Crush>3</Crush>
   </Armour>
-  <Attack>
-    <Ranged>
-      <Hack>0</Hack>
-      <Pierce>15</Pierce>
-      <Crush>0</Crush>
-      <MaxRange>30</MaxRange>
-      <MinRange>0.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1500</PrepareTime>
-      <RepeatTime>1500</RepeatTime>
-      <Spread>1.2</Spread>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-    </Ranged>
-  </Attack>
   <Cost>
-    <BuildTime>12</BuildTime>
+    <BuildTime>8</BuildTime>
     <Population>1</Population>	
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>30</metal>
+      <metal>35</metal>
     </Resources>
   </Cost>
   <Health>
     <Max>120</Max>
   </Health>
-  <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
-  </UnitMotion>  
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Cardaces Skirmisher</GenericName>
+    <GenericName>Skirmisher</GenericName>
     <SpecificName>Peltastes Kardakes</SpecificName>
     <Icon>units/pers_kardakes_skirmisher.png</Icon>
     <History>The Kardakes were the Persian answer to the Greek hoplite. They were fielded in large numbers by Darius III in a bid to resist Alexander the Great's invasion.</History>

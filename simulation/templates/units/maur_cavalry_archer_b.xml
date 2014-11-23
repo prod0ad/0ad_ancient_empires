@@ -4,19 +4,21 @@
     <Square width="5.5" depth="10.0"/>
     <Height>5.0</Height>
   </Footprint>
-    <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/maur_cavalry_archer_a</Entity>
+  </Promotion>
   <Identity>
-    <Rank>Elite</Rank>
+    <Rank>Basic</Rank>
   </Identity>	
   <Identity>
     <Civ>maur</Civ>
-    <Classes datatype="tokens">Chariot</Classes>
+    <Classes datatype="tokens">Chariot Basic</Classes>
 	<GenericName>War Chariot</GenericName>
     <SpecificName>Rath</SpecificName>
 	<SelectionGroupName>units/maur_champion_chariot</SelectionGroupName>
-    <History>Champion Cavalry Archer.</History>
+    <History>.</History>
 	<Icon>units/maur_champion_chariot.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>	
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Obstruction>
     <Unit radius="1.3"/>

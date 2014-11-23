@@ -15,14 +15,14 @@
     </Aura1>
   </Auras>
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>2</Pierce>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>0</Hack>
-      <Pierce>16</Pierce>
+      <Hack>16</Hack>
+      <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
@@ -33,18 +33,19 @@
     <Population>1</Population>	
     <Resources>
       <food>50</food>
-      <wood>50</wood>
+      <wood>0</wood>
       <stone>0</stone>
-      <metal>0</metal>
+      <metal>35</metal>
     </Resources>
   </Cost>
   <Identity>
     <Civ>gaul</Civ>
-    <GenericName>Naked Fanatic</GenericName>
+    <GenericName>Champion Spearman</GenericName>
     <SpecificName>Gaesata</SpecificName>
     <History>A fanatic Celtic warrior, devoted to war and his Celtic liege lord. These bloodthirsty young men roamed Gaul in search of battle.</History>
     <Icon>units/celt_fanatic.png</Icon>
-    <Classes datatype="tokens">Fearsome</Classes>		
+    <Classes datatype="tokens">Fearsome</Classes>	
+	<Tooltip>Fast moving Spearman with low armor. Deals double damage vs Cavalry and Elephants.</Tooltip>			
   </Identity>
   <UnitMotion>
     <WalkSpeed>12</WalkSpeed>

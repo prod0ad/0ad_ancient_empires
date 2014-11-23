@@ -9,10 +9,10 @@
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>100</Max>
+    <Max>50</Max>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max>2000</Max>
   </Health>
   <Identity>
     <Civ>ptol</Civ>

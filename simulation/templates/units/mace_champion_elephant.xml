@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_elephant_melee">
   <Identity>
     <Civ>mace</Civ>
-	<GenericName>Towered War Elephant</GenericName>
+	<GenericName>Champion War Elephant</GenericName>
     <SpecificName>Polémou Eléphantos</SpecificName>
 	<Classes datatype="tokens">Mercenary</Classes>		
     <Icon>units/ptol_champion_elephant.png</Icon>

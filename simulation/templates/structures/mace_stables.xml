@@ -33,10 +33,13 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/mace_cavalry_javelinist_b		
       units/mace_cavalry_spearman_b
-      units/mace_cavalry_javelinist_b	
     </Entities>
     <Technologies datatype="tokens">
+	  upgrades/cavalry_light_a
+	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_heavy_e		
       training_levy_cavalry
 	  training_conscription_cavalry
     </Technologies>

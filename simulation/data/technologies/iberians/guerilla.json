@@ -7,7 +7,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "javelin_thong.png",
 	"researchTime": 40,
-	"tooltip": "All Citizen Soldier Infantry and Cavalry move 15% faster.",	
+	"tooltip": "All Levy Infantry and Cavalry move 15% faster.",	
 	"modifications": [
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
 	    {"value": "UnitMotion/Run/Speed", "multiply": 1.15}

@@ -28,7 +28,7 @@
 				{
 					"Name":"Archery Tradition",
 					"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
-					"Description":"Archers +4 range and -33% train time."
+					"Description":"Infantry Archers +10% range and -25% train time."
 				},				
 				{
 					"Name": "Nisean War Horses",
@@ -77,7 +77,7 @@
 		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
-			"Description": "Citizen Melee infantry cost -10% wood/metal and train 10% faster but also have -20% hit points and -1 hack and pierce armor levels."
+			"Description": "Levy Melee Infantry cost -10% wood/metal and train 10% faster but also have -20% hit points."
 		},
 		{
 			"Name": "Phoenician Sailors",

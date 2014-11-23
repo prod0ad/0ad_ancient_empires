@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>5</Hack>
-    <Pierce>6</Pierce>
+    <Hack>3</Hack>
+    <Pierce>4</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
@@ -22,10 +22,11 @@
   </Cost>
   <Identity>
     <Civ>athen</Civ>
-	<GenericName>Chosen Hoplite</GenericName>
+	<GenericName>Champion Spearman</GenericName>
     <SpecificName>Hoplites Epilektos</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_infantry.png</Icon>
+	<Tooltip>Fast Moving Spearman. Deals double damage vs Cavalry and Elephants.</Tooltip>	
   </Identity>
   <UnitMotion>
     <WalkSpeed>10</WalkSpeed>
