@@ -6,7 +6,7 @@
     <Crush>3</Crush>
   </Armour>
   <Health>
-    <Max>90</Max>
+    <Max>100</Max>
   </Health>
    <Vision>
     <Range>50</Range>
@@ -21,14 +21,14 @@
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.3</Spread>
+      <Spread>1.2</Spread>
     </Ranged>
   </Attack>  
   <Cost>
     <BuildTime>8</BuildTime>	
     <Resources>
       <food>50</food>
-      <wood>40</wood>
+      <wood>35</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>

@@ -3,21 +3,21 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>10.0</Pierce>
-      <Crush>50.0</Crush>
-      <MaxRange>90.0</MaxRange>
+      <Pierce>0.0</Pierce>
+      <Crush>120.0</Crush>
+      <MaxRange>100.0</MaxRange>
       <MinRange>10.0</MinRange>
-      <ProjectileSpeed>28.0</ProjectileSpeed>
+      <ProjectileSpeed>30.0</ProjectileSpeed>
       <PrepareTime>6000</PrepareTime>
       <RepeatTime>6000</RepeatTime>
       <Spread>6.0</Spread>
       <Splash>
         <Shape>Circular</Shape>
         <Range>15</Range>
-        <FriendlyFire>true</FriendlyFire>
+        <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
-        <Pierce>5.0</Pierce>
-        <Crush>25.0</Crush>
+        <Pierce>0.0</Pierce>
+        <Crush>30.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
@@ -60,6 +60,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>110</Range>
+    <Range>100</Range>
   </Vision>
 </Entity>

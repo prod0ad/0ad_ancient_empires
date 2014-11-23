@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "special_treasure.png",
 	"researchTime": 60,
-	"tooltip": "Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels.",
+	"tooltip": "Mercenaries cost 25% less metal and gain +1 pierce and hack armor levels.",
 	"modifications": 
 	[
 	    {"value": "Cost/Resources/metal", "multiply": 0.75},

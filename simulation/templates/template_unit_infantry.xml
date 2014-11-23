@@ -36,7 +36,7 @@
     <Rank>Basic</Rank>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
     <wood>0</wood>
     <stone>0</stone>
@@ -86,6 +86,6 @@
     <CostClass>infantry</CostClass>
   </UnitMotion>
   <Vision>
-    <Range>40</Range>
+    <Range>30</Range>
   </Vision>
 </Entity>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_melee_spearman">
+<Entity parent="template_unit_cavalry_melee">
   <Identity>
     <Civ>mace</Civ>
     <SelectionGroupName>units/mace_cavalry_spearman_b</SelectionGroupName>
