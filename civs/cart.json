@@ -18,7 +18,7 @@
 				{
 					"Name": "Barcid Armies (Reform)",
 					"History": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
-					"Description": "Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels."
+					"Description": "Mercenaries cost 25% less metal and gain +1 pierce and hack armor levels."
 				},
 				{
 					"Name": "Mass Production",
@@ -70,9 +70,14 @@
 			"Description": "Civic Centers, Temples, Docks and Houses -20% build time."
 		},
 		{
+			"Name": "Mercenary Levy",
+			"History": "The Carthaginians made extensive use of Mercenaries, especially ones levied from vassal states and tribes.",
+			"Description": "Mercenary units can be trained at the Barracks and Stables."
+		},		
+		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses Stables and Barracks have +25% hitpoints. Fortresses can train Barracks and Stable units."
+			"Description": "Fortresses, Stables and Barracks have +25% hitpoints. Fortresses can train Libyan Levy units."
 		}		
 	],
 	"TeamBonuses":
@@ -95,32 +100,14 @@
 			"Special":"Construct the powerful warships of the Carthaginian navy."
 		},
 		{
-			"Name":"Celtic Embassy",
+			"Name":"Embassy",
 			"Class":"",
 			"Emblem":"",
-			"History":"The Celts supplied fierce warrior mercenaries for Carthaginian armies.",
+			"History":".",
 			"Requirements":".",
 			"Phase":"",
-			"Special":"Hire Celtic mercenaries."
-		},
-		{
-			"Name":"Italiote Embassy",
-			"Class":"",
-			"Emblem":"",
-			"History":"When Hannibal invaded Italy and defeated the Romans in a series of battles, many of the Italian peoples subject to Rome, including the Italian Greeks and powerful Samnites, revolted and joined the Carthaginian cause.",
-			"Requirements":".",
-			"Phase":"",
-			"Special":"Hire Italian mercenaries."
-		},
-		{
-			"Name":"Iberian Embassy",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Iberians were known as fierce mercenaries, loyal to their paymasters.",
-			"Requirements":".",
-			"Phase":"",
-			"Special":"Hire Iberian mercenaries."
-		}		
+			"Special":"Contains upgrades for Mercenary units."
+		}	
 	],
 	"StartEntities":
 	[

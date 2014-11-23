@@ -9,7 +9,7 @@
 	"tooltip": "Mercenaries cost 20% less metal and gain +1 pierce and hack armor levels.",
 	"modifications": 
 	[
-	    {"value": "Cost/Resources/metal", "multiply": 0.80},
+	    {"value": "Cost/Resources/metal", "multiply": 0.75},
 	    {"value": "Armour/Hack", "add": 1.0},
 		{"value": "Armour/Pierce", "add": 1.0}],
 	"affects": ["Mercenary"],

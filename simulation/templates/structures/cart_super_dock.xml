@@ -9,11 +9,11 @@
     <Civ>cart</Civ>
     <GenericName>Naval Shipyard</GenericName>
     <SpecificName>Cothon</SpecificName>
-    <Classes datatype="tokens">-City Town Shipyard</Classes>
+    <Classes datatype="tokens">Shipyard</Classes>
     <History>The structure is based upon the center island of the inner harbor constructed to house the war fleet of the Carthaginian navy at Carthage.</History>
-    <Tooltip>Unique Carthaginian Dock. Trains and upgrades War Ships. Has Increased Batch Speed. Build Limit: 1.</Tooltip>
+    <Tooltip>Unique Carthaginian Dock. Trains and upgrades War Ships. Has Increased Batch Speed. Can Garrison up to 10 Ships. Build Limit: 1.</Tooltip>
     <Icon>structures/uber_dock.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
@@ -29,12 +29,12 @@
     <Height>8.0</Height>
   </Footprint>
   <GarrisonHolder>
-    <Max>20</Max>
+    <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry</List>
+    <List datatype="tokens">Ship</List>
     <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
+    <LoadingRange>10</LoadingRange>
   </GarrisonHolder>
   <Health>
     <Max>5000</Max>
@@ -69,11 +69,11 @@
       units/cart_ship_quinquereme
     </Entities>
     <Technologies datatype="tokens">
-	  shipwright  
-      training_naval_architects	
       armor_ship_reinforcedhull
       armor_ship_hypozomata
-      armor_ship_hullsheathing
+      armor_ship_hullsheathing	
+	  shipwright  
+      training_naval_architects	
 	  expert_sailors		  
     </Technologies>
   </ProductionQueue>

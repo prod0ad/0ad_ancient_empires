@@ -28,7 +28,8 @@
 	  attack_tower_ballista	  
 	  fire_arrows  
       siege_accuracy
-      siege_range	  
+      siege_range	 
+	  carthaginians/cart_triple_walls	  
     </Technologies>
   </ProductionQueue>
   <Sound>

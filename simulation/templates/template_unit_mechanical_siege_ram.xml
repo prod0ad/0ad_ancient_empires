@@ -22,6 +22,7 @@
       <MaxRange>6.5</MaxRange>
       <MinRange>0.0</MinRange>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Worker Ship Mechanical Animal</RestrictedClasses>		  
     </Charge>
   </Attack>
   <Cost>

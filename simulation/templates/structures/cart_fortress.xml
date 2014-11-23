@@ -17,7 +17,6 @@
     <Entities datatype="tokens">
       units/cart_infantry_spearman_b
       units/cart_infantry_javelinist_2_b
-      units/cart_cavalry_spearman_b	
       units/cart_champion_elephant
       units/cart_mechanical_siege_ballista_packed
       units/cart_mechanical_siege_oxybeles_packed
@@ -28,7 +27,6 @@
 	  siege_cost
 	  siege_packing
 	  carthaginians/training_siege_weapons	  
-	  carthaginians/cart_triple_walls
     </Technologies>
   </ProductionQueue>
   <VisualActor>

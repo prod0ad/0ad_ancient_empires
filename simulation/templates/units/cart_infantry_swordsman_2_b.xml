@@ -5,9 +5,10 @@
     <SelectionGroupName>units/cart_infantry_swordsman_2_b</SelectionGroupName>
     <GenericName>Swordsman</GenericName>
     <SpecificName>Italian Swordman</SpecificName>
-    <Classes datatype="tokens">Italian Mercenary -Levy</Classes>
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <History>TBD.</History>
     <Icon>units/cart_infantry_swordsman_2.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>			
   </Identity>
   <Promotion>
     <Entity>units/cart_infantry_swordsman_2_a</Entity>

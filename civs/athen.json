@@ -73,7 +73,7 @@
 		{
 			"Name":"Great Polis",
 			"History":"Athens was the largest city in ancient Greece with great walls, temples and other architectural achievements.",
-			"Description":"Athenian Structures have +10% hit points."
+			"Description":"Athenian Structures have +10% hit points and vision range."
 		},
 		{
 			"Name":"Thracian Ties",

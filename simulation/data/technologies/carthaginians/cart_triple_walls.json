@@ -1,6 +1,6 @@
 {
 	"genericName": "Triple Walls",
-	"description": "Carthaginians built their city walls in three concentric circuits. These walls were never breached. Even when the city was taken by the Romans, it was via the city's harbor, not by storming its walls. Consequently, Carthaginian walls, gates, and wall towers have 3x the health of a standard wall, but also cost twice as much and take twice as long to build.",
+	"cost": {"food": 1000, "wood": 0, "stone": 1000, "metal": 0},	
 	"requirements": {"tech": "phase_city"},	
 	"requirementsTooltip": "Unlocked in City Phase.",	
 	"tooltip": "Increases wall, gate, and wall tower hitpoints by 200%, but also doubles their build time and cost.",	
@@ -11,5 +11,6 @@
 		{"value": "Cost/BuildTime", "multiply": 2.0},
 		{"value": "Cost/Resources/stone", "multiply": 2.0}
 	],
-	"affects": ["StoneWall"]
+	"affects": ["StoneWall"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
 }

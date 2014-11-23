@@ -4,14 +4,14 @@
     <Aura1>
       <Type>range</Type>
       <Radius>30</Radius>
-      <Affects>Citizen Melee Infantry</Affects>
+      <Affects>Levy Melee Infantry</Affects>
       <AffectedPlayers>Enemy</AffectedPlayers>
       <Modifications>
         <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
         <Attack.Melee.Pierce> <Multiply>0.9</Multiply> </Attack.Melee.Pierce>		
       </Modifications>
       <AuraName>Fear Aura</AuraName>
-      <AuraDescription>Enemy Citizen Melee Infantry get 10% reduced attack. Radius: 30.</AuraDescription>
+      <AuraDescription>Enemy Levy Melee Infantry get 10% reduced attack. Radius: 30.</AuraDescription>
     </Aura1>
   </Auras>
   <Armour>

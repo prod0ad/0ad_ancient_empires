@@ -13,8 +13,9 @@
     <GenericName>Archer</GenericName>
     <SpecificName>Mauritanian Archer</SpecificName>
     <History>A mercenary archer from North Africa.</History>
-    <Classes datatype="tokens">Mercenary -Levy</Classes>	
+    <VisibleClasses datatype="tokens">Mercenary</VisibleClasses>
     <Icon>units/cart_infantry_archer.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>			
   </Identity>
   <Promotion>
     <Entity>units/cart_infantry_archer_a</Entity>
