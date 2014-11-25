@@ -8,5 +8,5 @@
 		{"value": "Cost/Resources/food", "replace": 0},
 		{"value": "Cost/Resources/stone", "replace": 0}				
 	],
-	"affects": ["Mercenary Cavalry Bow"]
+	"affects": ["Mercenary Cavalry Archer"]
 }
