@@ -1,0 +1,10 @@
+{
+	"genericName": "Scientific Adaptation",
+	"autoResearch": true,
+	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "rome"}]},
+	"tooltip": "+10% Structure, Ship and Siege Unit hit points.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1}
+	],
+	"affects": ["Structure","Mechanical"]
+}

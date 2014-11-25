@@ -22,8 +22,8 @@
   </Health>
   <Identity>
     <Civ>mace</Civ>
-    <GenericName>Mercenary Camp</GenericName>
-	<SpecificName>Stratópedo Misthophóron</SpecificName>
+    <GenericName>Mercenary Barracks</GenericName>
+	<SpecificName>Mercenary Camp</SpecificName>
     <Classes datatype="tokens">MercenaryCamp</Classes>
     <History>Mercenaries will go where the metal is.</History>
     <Tooltip>Trains and upgrades Mercenaries. Build limit: 1.</Tooltip>
@@ -35,15 +35,19 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/mace_infantry_swordsman_b
-	  units/mace_infantry_spearman_2_b	  
-	  units/mace_infantry_archer_b  
-	  units/mace_infantry_slinger_b
-      units/mace_infantry_javelinist_2_b	 
+      units/merc_hoplite_b  
+	  units/merc_cretan_archer_b	
+	  units/merc_thracian_prodromos_b	  
+	  units/merc_thracian_swordsman_b
+	  units/merc_rhodian_slinger_b
+	  units/merc_thessalian_lancer_b
+      units/merc_thureos_skirmisher_b 
       units/mace_champion_elephant		  
     </Entities>
     <Technologies datatype="tokens">
 	  pair_merc
+	  upgrades/mercenary_a
+	  upgrades/mercenary_e	
     </Technologies>
   </ProductionQueue>
   <Sound>

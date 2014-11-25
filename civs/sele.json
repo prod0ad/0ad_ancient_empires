@@ -17,11 +17,6 @@
 			"Technologies":
 			[
 				{
-					"Name":"Hellenistic Metropolises",
-					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
-					"Description":"Civil Centres get double health and default arrows and support 10 additional population."
-				},
-				{
 					"Name":"Cavalry Reform",
 					"History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. Contact with Eastern upstarts such as the Parthians and constant revolts of peripheral satrapies such as Bactria caused the Seleucids to reform their military and change their tactics, specifically in the cavalry arm.",
 					"Description":"Unlock the Seleucid Cataphract."
@@ -34,7 +29,7 @@
 		        {
 			        "Name":"Cleruchy",
 			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
-			        "Description":"25% faster batch training for the Civic Center."
+			        "Description":"25% faster batch training for the Military Barracks."
 		        },
 				{
 					"Name": "Nisean War Horses",
@@ -73,7 +68,7 @@
 		{
 			"Name":"Foreign Dynasty",
 			"History":"The Seleucids and Ptolemies chose military settlers as the core of their armies, as those troops were generally more loyal and less risky to train than conquered people.",
-			"Description":"Civic Centers provide an increased number of available units, but barracks are limited to weaker levy troops and have a reduced territory influence."
+			"Description":"Two types of Barracks. Military barracks train Hellenistic units which are generally more powerful and have more upgrades, while Levy Barracks train Subject Levies which are weaker, have less upgrades but are easier to mass produce."
 		},
 		{
 			"Name":"Mesopotamia",

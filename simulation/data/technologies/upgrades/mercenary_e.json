@@ -1,0 +1,16 @@
+{
+	"genericName": "Veteran Mercenaries",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "upgrade_elite.png",
+	"researchTime": 40,
+	"supersedes": "upgrades/mercenary_a",
+	"tooltip": "Promotes mercenaries to the elite rank but also increases their metal cost by 10%.",
+	"modifications": [
+	{"value": "Promotion/RequiredXp", "replace": 0},
+	{"value": "Cost/Resources/metal", "multiply": 1.1}
+	],
+	"affects": ["Mercenary Advanced"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

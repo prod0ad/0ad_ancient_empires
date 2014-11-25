@@ -33,13 +33,8 @@
 				{
 			         "Name":"Romanization Reforms",
 			         "History":"Late Ptolemaic Egypt switched it's pike army core to Roman influenced swordsmen trained by Roman mercenary instructors.",
-			         "Description":"All pike infantry units are replaced by Romanized Swordsman Champions. Requires Machimoi Reforms."
-		        },
-				{
-					"Name":"Hellenistic Metropolises",
-					"History":"Beginning with Alexander, the Hellenistic monarchs founded many cities throughout their empires, where Greek culture and art blended with local customs to create the motley Hellenistic civilization.",
-					"Description":"Civil Centres get double health and default arrows and support 10 additional population."
-				}
+			         "Description":"Unlock the Romanized Swordsman Champions. Requires Machimoi Reforms."
+		        }
 			],
 			"Heroes":
 			[
@@ -87,7 +82,7 @@
 		{
 			"Name":"Foreign Dynasty",
 			"History":"The Seleucids and Ptolemies chose military settlers as the core of their armies, as those troops were generally more loyal and less risky to train than conquered people.",
-			"Description":"Civic Centers provide an increased number of available units, but barracks are limited to weaker levy troops and have a reduced territory influence."
+			"Description":"Two types of Barracks. Military barracks train Hellenistic units which are generally more powerful and have more upgrades, while Levy Barracks train Subject Levies which are weaker, have less upgrades but are easier to mass produce."
 		}
 	],
 	"TeamBonuses":

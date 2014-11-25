@@ -16,6 +16,7 @@
     <Entities datatype="tokens">
       units/ptol_champion_cavalry
       units/ptol_champion_elephant
+      units/ptol_champion_infantry_swordsman
       units/ptol_mechanical_siege_polybolos_packed
       units/ptol_mechanical_siege_lithobolos_packed
       units/ptol_mechanical_siege_tower

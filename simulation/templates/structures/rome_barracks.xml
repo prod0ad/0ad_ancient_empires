@@ -15,7 +15,7 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <SpecificName>Castrum</SpecificName>
+    <SpecificName>Legion Barracks</SpecificName>
     <History>Romans specialised in the building of military camps and forts. A few of them still survive.</History>
   </Identity>
   <Obstruction>
@@ -23,14 +23,15 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/rome_infantry_spearman_a
+      units/rome_infantry_spearman_b
+      units/rome_infantry_swordsman_b	  
       units/rome_infantry_javelinist_b	
-      units/rome_infantry_swordsman_b
-      units/rome_cavalry_spearman_b
       units/rome_cavalry_javelinist_b		  
+      units/rome_cavalry_spearman_b  
     </Entities>
 	<Technologies datatype="tokens">
-      training_conscription
+      upgrades/legions_a
+      upgrades/legions_e	  
 	  romans/logistics		  
 	  romans/rome_reforms_marian	  
     </Technologies>

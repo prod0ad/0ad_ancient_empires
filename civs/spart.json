@@ -29,7 +29,7 @@
 				{
 					"Name":"Cleomenian Reforms",
 					"History":"Cleomenes III redistributed the land, freed thousands of Helots, enlisted many of them along with Spartans and Perioikoi in his newly formed pike phalanxes in an attempt to restore Spartan power.",
-					"Description":"Spartan Pikemen and Mercenary Thurephoroi are unlocked. +25% farming rate for all workers."
+					"Description":"Spartan Pikemen are unlocked. +25% farming rate for all workers."
 				}
 			],
 			"Heroes":
@@ -71,10 +71,10 @@
 			"Description":"All upgrades at the Gerousia cost no resources, but have double research time."
 		},
 		{
-			"Name":"Feminine Mystique",
-			"History":"Spartan women were some of the freest in the ancient world. They could own land and slaves and even exercise naked like Spartan men. It is said that only Spartan women gave birth to real men. Such tough-as-nails women more than once helped save their city from disaster, for example when after a lost battle against Pyrrhus of Epirus they overnight built an earthen rampart to protect the city while their men slept in preparation for the next day's siege.",
-			"Description":"Spartan female citizens are capable of constructing all available structures and have x2.5 damage versus siege weapons."
-		}	
+			"Name":"Limited Manpower",
+			"History":".",
+			"Description":"Two types of Barracks. Syssition is limited to one and trains powerful Spartan Hoplites, while Levy Barracks train Subject Levies which are easier to mass produce."
+		}
 	],
 	"TeamBonuses":
 	[
@@ -87,11 +87,10 @@
 	"Structures":
 	[
 		{
-			"Name":"Theatron",
+			"Name":"Gerousia",
 			"Class":"",
 			"Emblem":"",
-			"History":"Greek theatres were places where the immortal tragedies of Aeschylus, Sophocles and many other talented dramatists were staged to the delight of the populace. They were instrumental in enriching Hellenic culture.",
-			"Requirements":"",
+			"History":".",
 			"Phase":"City",
 			"Special":"The Hellenization civ bonus. Building a Theatron increases the territory effect of all buildings by 25%."
 		},

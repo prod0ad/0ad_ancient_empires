@@ -22,7 +22,7 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <GenericName>Auxiliary Camp</GenericName>
+    <GenericName>Mercenary Barracks</GenericName>
 	<SpecificName>Auxiliary Camp</SpecificName>
     <Classes datatype="tokens">MercenaryCamp</Classes>
     <History>Mercenaries will go where the metal is.</History>
@@ -35,13 +35,16 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/rome_infantry_spearman_2_b
-	  units/rome_infantry_archer_b  	  
-      units/rome_cavalry_swordsman_b
+      units/merc_gallic_spearman_b
+	  units/merc_syrian_archer_b 
+      units/merc_numidian_rider_b	  
+	  units/merc_iberian_slinger_b	  
       units/rome_champion_elephant	  
     </Entities>
     <Technologies datatype="tokens">
 	  pair_merc
+	  upgrades/mercenary_a
+	  upgrades/mercenary_e	
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -2,13 +2,22 @@
 <Entity parent="template_unit_cavalry_ranged_chariot">
   <Identity>
     <Civ>sele</Civ>
-    <Classes datatype="tokens">Chariot Basic</Classes>
+    <VisibleClasses datatype="tokens">
+	  SubjectLevy
+	  -Levy
+	</VisibleClasses>	
+	<Classes datatype="tokens">
+	  SubjectLevy
+	  -Levy
+	  Chariot
+	  Basic
+	</Classes>			
 	<SelectionGroupName>units/sele_cavalry_archer_2_b</SelectionGroupName>
 	<GenericName>Babylonian Scythed Chariot</GenericName>
     <SpecificName>Babiruviya Ratha</SpecificName>
     <History>Chariots were obsolete by the 5th and 4th centuries BC, but they were viewed as symbols of rank and class, hence their continued deployment on the battlefield in extremely limited roles well after their obsolescence. The crew was made up of an archer and a driver who rode in an armored car equipped with scythe-like blades underneath the chassis and the axels themselves sported a pair of the deadly knives.</History>
 	<Icon>units/pers_cavalry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Unit radius="1.3"/>

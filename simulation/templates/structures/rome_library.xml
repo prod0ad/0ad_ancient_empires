@@ -29,7 +29,6 @@
 	  fire_arrows  
       siege_accuracy
       siege_range	  
-      romans/imported_construction_technology
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -20,9 +20,9 @@
       structures/{civ}_wallset_stone
       structures/{civ}_civil_centre	  	  
       structures/{civ}_fortress		  
-      structures/{civ}_wonder	 
       structures/{civ}_library	 
-      structures/{civ}_theatron	    
+      structures/{civ}_theatron	   	  
+      structures/{civ}_wonder		  
     </Entities>
   </Builder>
   <Identity>

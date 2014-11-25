@@ -7,7 +7,7 @@
 	<Classes datatype="tokens">Mercenary</Classes>		
     <Icon>units/ptol_champion_elephant.png</Icon>
     <History>Macedonian armies since Alexander's Indian campaigns often included War Elephants and the Antigonids even brought a number of those beasts to Europe.</History>
-    <RequiredTechnology>successors/mace_antigonid_early_reform</RequiredTechnology>			
+    <RequiredTechnology>phase_imperial</RequiredTechnology>		
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/champion_elephant.xml</Actor>

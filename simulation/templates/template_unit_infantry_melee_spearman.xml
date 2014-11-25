@@ -32,7 +32,7 @@
   <Cost>
     <Resources>
       <food>50</food>
-      <wood>40</wood>
+      <wood>50</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>

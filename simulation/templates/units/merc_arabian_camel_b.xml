@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>ptol</Civ>
+    <VisibleClasses datatype="tokens">
+	  SubjectLevy
+	  Camel
+	  -Levy
+	  Mercenary
+	</VisibleClasses>
+	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+	<SelectionGroupName>units/merc_arabian_camel_b</SelectionGroupName>
+	<GenericName>Horse Archer</GenericName>
+    <SpecificName>Arabian Camel Archer</SpecificName>
+    <History>?</History>
+	<Icon>units/ptol_cavalry_archer.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/merc_arabian_camel_a</Entity>
+  </Promotion> 
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/camel.xml</select>
+      <order_walk>actor/fauna/movement/camel.xml</order_walk>
+      <death>actor/fauna/death/death_camel.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/ptolemies/cavalry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -28,6 +28,9 @@
   <Identity>
     <GenericName>Barracks</GenericName>
     <Tooltip>Train citizen-soldiers. Research training improvements. Garrison: 10.</Tooltip>
+    <Classes datatype="tokens">
+	  Barracks
+	</Classes>	
     <VisibleClasses datatype="tokens">
 	  Village
 	  Barracks

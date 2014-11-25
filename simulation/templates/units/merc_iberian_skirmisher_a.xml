@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/merc_iberian_skirmisher_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>		
+  </Identity>
+  <Promotion>
+    <Entity>units/merc_iberian_skirmisher_e</Entity>
+  </Promotion>
+  <ResourceGatherer>
+    <BaseSpeed>0.75</BaseSpeed>
+  </ResourceGatherer>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

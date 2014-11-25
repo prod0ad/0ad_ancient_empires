@@ -34,11 +34,6 @@
 					"Name": "Sibylline Books",
 					"History": "The Sibylline Books or 'Libri Sibyllini' were a collection of oracular utterances, set out in Greek hexameters, purchased from a sibyl by the last king of Rome, Tarquinius Superbus, and consulted at momentous crises through the history of the Republic and the Empire.",
 					"Description": "+25% Vision range for all units."
-				},				
-				{
-					"Name": "Imported Construction Technology",
-					"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
-					"Description": "+10% Structure, Ship and Siege Unit hit points and attack damage."
 				}				
 			],
 			"Heroes":
@@ -70,15 +65,20 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Veterans",
-			"History": "Triarii were veteran spearmen who acted as the powerful reserve of the Pre-Marian Roman legions.",
-			"Description": "Triarii trained at the barracks start at the advanced rank." 
+			"Name": "Roman Legions",
+			"History": "The Romans were early to realise the potential of swords as the main infantry weapon.",
+			"Description": "Swordsmen are unlocked in the Town instead of the City Phase." 
 		},
 		{
 			"Name": "Citizenship",
 			"History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
 			"Description": "Units within vision range of Roman Civil Centre gain +10% attack."
-		} 	
+		},
+		{
+			"Name": "Scientific Adaptation",
+			"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
+			"Description": "Researching each of the City and Imperial Phases adds 10% hit points to Structures, Ships and Siege Weapons."
+		}			
 	],
 	"TeamBonuses":
 	[

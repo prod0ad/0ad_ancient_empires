@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>mace</Civ>
+	<SelectionGroupName>units/merc_thracian_prodromos_b</SelectionGroupName>
+	<GenericName>Light Cavalry</GenericName>
+    <SpecificName>Odrysian Prodromos</SpecificName>
+	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
+    <History>Thracian cavalry skirmishers were recruited from the Odrysian tribe of central Thrace.</History>
+    <Icon>units/mace_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/merc_thracian_prodromos_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

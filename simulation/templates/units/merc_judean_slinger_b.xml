@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Identity>
+    <Civ>ptol</Civ>
+    <SelectionGroupName>units/merc_judean_slinger_b</SelectionGroupName>
+    <GenericName>Slinger</GenericName>
+    <SpecificName>Judean Slinger</SpecificName>
+    <History>Jews made up a large portion of several Egyptian cities. They were local subjects to the Ptolemaic crown and hated the Seleucids and Romans in equal measure.</History>
+    <Icon>units/hele_infantry_slinger.png</Icon>
+	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
+    <RequiredTechnology>phase_city</RequiredTechnology>	
+  </Identity>
+  <Promotion>
+    <Entity>units/merc_judean_slinger_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

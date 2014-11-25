@@ -30,7 +30,8 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
 	  pair_merc
-	  carthaginians/cart_reform	  
+	  upgrades/mercenary_a
+	  upgrades/mercenary_e	
     </Technologies>
   </ProductionQueue>
   <VisualActor>

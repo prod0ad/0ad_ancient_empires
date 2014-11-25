@@ -1,44 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-<Footprint>
-    <Square width="23" depth="23"/>
-  </Footprint>
   <Cost>
+    <BuildTime>200</BuildTime>
     <Resources>
-      <wood>150</wood>
-      <stone>150</stone>
+      <wood>100</wood>
+      <stone>100</stone>
+      <metal>100</metal>
     </Resources>
   </Cost>
+  <Footprint>
+    <Square width="30.0" depth="30.0"/>
+    <Height>8.0</Height>
+  </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <Max>2400</Max>
   </Health>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry Cavalry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>   
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Levy Barracks</GenericName>
-    <SpecificName>ḥwt-n-mš'</SpecificName>
-    <History>?</History>
-    <Tooltip>Train Egyptian and Middle-Eastern citizen-soldiers. Research training improvements. Garrison: 10.</Tooltip>
+    <SpecificName>Military Barracks</SpecificName>
+    <Tooltip>Train Hellenistic units.</Tooltip>
+    <History>.</History>
+    <Icon>structures/gymnasion.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="28.0" depth="28.0"/>
   </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_gymnasium.xml</select>
+      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
   <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/ptol_infantry_javelinist_2_b
-      units/ptol_infantry_slinger_b
-      units/ptol_cavalry_archer_b
-	  units/ptol_champion_infantry_pikeman
+      units/ptol_infantry_spearman_b	
+	  units/ptol_infantry_javelinist_b
+      units/ptol_cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
-      training_conscription
-    </Technologies>
+	  upgrades/pikeman_a
+	  upgrades/pikeman_e		
+	  upgrades/skirmisher_a
+	  upgrades/skirmisher_e		 	
+	  upgrades/cavalry_heavy_e			  
+    </Technologies>	
   </ProductionQueue>
   <TerritoryInfluence>
     <Root>false</Root>
-    <Radius>38</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
+    <Radius>60</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>    
   <VisualActor>
-    <Actor>structures/ptolemies/barracks.xml</Actor>
+    <Actor>structures/athenians/gymnasion.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

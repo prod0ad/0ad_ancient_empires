@@ -22,7 +22,7 @@
   </Health>
   <Identity>
     <Civ>athen</Civ>
-    <GenericName>Mercenary Camp</GenericName>
+    <GenericName>Mercenary Barracks</GenericName>
 	<SpecificName>Mercenary Camp</SpecificName>
     <Classes datatype="tokens">MercenaryCamp</Classes>
     <History>Mercenaries will go where the metal is.</History>
@@ -35,12 +35,16 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/athen_infantry_archer_b
-	  units/athen_infantry_javelinist_b
-      units/athen_cavalry_spearman_b	  
+	  units/merc_hoplite_b
+	  units/merc_thracian_skirmisher_b
+      units/merc_cretan_archer_b
+	  units/merc_rhodian_slinger_b
+	  units/merc_thessalian_lancer_b		  
     </Entities>
     <Technologies datatype="tokens">
 	  pair_merc
+	  upgrades/mercenary_a
+	  upgrades/mercenary_e	
     </Technologies>
   </ProductionQueue>
   <Sound>

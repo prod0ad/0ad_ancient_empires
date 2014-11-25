@@ -7,21 +7,21 @@
       structures/{civ}_farmstead
       structures/{civ}_field
       structures/{civ}_corral
+      structures/{civ}_dock	  	  
       structures/{civ}_outpost
       other/wallset_palisade
-      structures/{civ}_dock
       structures/{civ}_barracks
+	  structures/{civ}_barracks_levy	
+      structures/{civ}_mercenary_camp 	  
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market
-      structures/{civ}_civil_centre	  
       structures/{civ}_defense_tower
-	  structures/spart_syssiton	
-      structures/{civ}_fortress
-      structures/{civ}_mercenary_camp  	  
-      structures/{civ}_wonder	 
-      structures/spart_gerousia	  	
-      structures/{civ}_theatron	      	  
+      structures/{civ}_wallset_stone
+      structures/{civ}_civil_centre	  	  
+      structures/{civ}_fortress		  
+      structures/{civ}_gerousia	   	  
+      structures/{civ}_wonder		 
     </Entities>
   </Builder>
   <Attack>

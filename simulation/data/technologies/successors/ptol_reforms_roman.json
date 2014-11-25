@@ -7,10 +7,6 @@
     "supersedes": "successors/ptol_reforms_machimoi",		
 	"icon": "sword_cross.png",
 	"researchTime": 60,
-	"tooltip": "All pike infantry units are replaced by Romanized Swordsman Champions.",
-	"modifications": [
-	{"value": "Promotion/RequiredXp", "replace": 0}
-	],
-	"affects": ["Reform"],
+	"tooltip": "Unlocks Romanized Swordsman Champions.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

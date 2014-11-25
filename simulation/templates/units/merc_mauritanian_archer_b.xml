@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>cart</Civ>
+	<SelectionGroupName>units/merc_mauritanian_archer_b</SelectionGroupName>
+    <GenericName>Archer</GenericName>
+    <SpecificName>Mauritanian Archer</SpecificName>
+    <History>A mercenary archer from North Africa.</History>
+	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
+    <Icon>units/cart_infantry_archer.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>			
+  </Identity>
+  <Promotion>
+    <Entity>units/merc_mauritanian_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>
