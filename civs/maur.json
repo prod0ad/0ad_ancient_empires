@@ -19,7 +19,12 @@
 					"Name": "Wootz Steel",
 					"History": "The Wootz steel is believed to have originated in India. There are several ancient Greek and Roman literary references to high-quality Indian steel since the time of Alexander's Indian campaign.'",
 					"Description": "Sword units +2 hack damage." 
-				}, 				
+				}, 	
+				{
+					"Name": "Fire Fighters",
+					"History": "To prevent major fires breaking out in their wooden cities, The Mauryans introduced permanent water deposites for every structure.'",
+					"Description": "Structures regenerate 1 hit point per second." 
+				}, 						
 				{
 					"Name":"Pacifism Reform",
 					"History":"In regrets of the bloodshed, having slaughtered many thousands of people in his early reign expeditions, Ashoka started supporting Buddhism and pacifism.",

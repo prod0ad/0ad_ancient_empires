@@ -11,6 +11,9 @@
       units/maur_champion_infantry
       units/maur_champion_maiden_archer
     </Entities>
+    <Technologies datatype="tokens">
+	  mauryans/health_regen_structures
+    </Technologies>	
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/mauryans/fortress.xml</Actor>
