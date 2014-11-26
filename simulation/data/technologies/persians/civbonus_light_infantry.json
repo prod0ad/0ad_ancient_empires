@@ -4,6 +4,8 @@
 	"description": "The majority of Persian infantrymen were hastely levied unarmored troops.",
 	"requirements": {"civ": "pers"},
 	"modifications": [
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1},	
 		{"value": "Health/Max", "multiply": 0.75},
 		{"value": "Cost/Resources/metal", "multiply": 0.7},
 		{"value": "Cost/Resources/wood", "multiply": 0.7},

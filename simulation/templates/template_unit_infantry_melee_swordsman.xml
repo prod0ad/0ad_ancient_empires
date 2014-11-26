@@ -35,7 +35,7 @@
     <metal>5</metal>
   </Loot>
   <UnitMotion>
-    <WalkSpeed>8.5</WalkSpeed>
+    <WalkSpeed>8</WalkSpeed>
     <Run>
       <Speed>18</Speed>
     </Run>
