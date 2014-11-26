@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>5</Pierce>
-    <Crush>6</Crush>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
+    <Crush>3</Crush>
   </Armour>
   <Builder>
     <Rate>2.0</Rate>
     <Entities datatype="tokens"/>
   </Builder>
   <Cost>
-    <Population>2</Population>  
-    <BuildTime>20</BuildTime>
+    <Population>3</Population>  
+    <BuildTime>30</BuildTime>
     <Resources>
-      <food>200</food>
+      <food>150</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -21,7 +21,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>600</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>
@@ -34,7 +34,6 @@
     <Formations disable=""/>
   </Identity>
   <Loot>
-    <xp>100</xp>
     <food>25</food>
     <wood>10</wood>
     <stone>10</stone>
@@ -68,13 +67,13 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>5.5</WalkSpeed>
+    <WalkSpeed>6</WalkSpeed>
     <Run>
       <Speed>10.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>50</Range>
+    <Range>60</Range>
   </Vision>
   <VisualActor>
     <Actor>units/mauryans/support_elephant.xml</Actor>

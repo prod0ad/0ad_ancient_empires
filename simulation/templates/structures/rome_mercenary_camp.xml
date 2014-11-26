@@ -29,6 +29,10 @@
     <Tooltip>Trains and upgrades Auxiliary units. Build limit: 1.</Tooltip>
     <Icon>structures/iberian_embassy.png</Icon>
     <RequiredTechnology>romans/rome_reforms_marian</RequiredTechnology>	
+    <VisibleClasses datatype="tokens">
+	  -Village
+	  City
+	</VisibleClasses>		
   </Identity>
   <Obstruction>
     <Static width="23.5" depth="23.5"/>

@@ -69,12 +69,12 @@
 		{
 			"Name": "Celtic Valour",
 			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
-			"Description": "Non-Champion melee infantry +10% walk and run speed, -10% hit points and -5% wood/metal cost." 
+			"Description": "Non-Champion melee infantry +10% walk and run speed, -20% hit points and -10% wood/metal cost." 
 		},
 		{
 			"Name": "Wooden Construction",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures construct 20% faster but are also 20% weaker." 
+			"Description": "Structures construct 20% faster but are also 20% weaker. Most Structures provide +5 population." 
 		},
 		{
 			"Name": "Herd",

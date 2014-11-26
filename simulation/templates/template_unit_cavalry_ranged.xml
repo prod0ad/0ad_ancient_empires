@@ -5,6 +5,9 @@
     <Pierce>0</Pierce>
     <Crush>6</Crush>
   </Armour>
+  <Vision>
+    <Range>60</Range>
+  </Vision> 
   <Attack>
     <Ranged>
       <Hack>0</Hack>
@@ -27,7 +30,7 @@
     </Formations>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>18</WalkSpeed>
+    <WalkSpeed>16</WalkSpeed>
     <Run>
       <Speed>28</Speed>
     </Run>

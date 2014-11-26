@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "crenelations.png",
 	"researchTime": 40,
-	"tooltip": "Fortresses get 50% more arrows fired per garrisoned soldier.",
-	"modifications": [{"value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.5}],
+	"tooltip": "Fortresses get 30% more arrows fired per garrisoned soldier.",
+	"modifications": [{"value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.30}],
 	"affects": ["Fortress"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

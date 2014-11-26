@@ -1,13 +1,9 @@
 {
 	"genericName": "Town Phase",
-	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 0},
-	"requirements": { "class": "Village", "number": 5 },
-	"requirementsTooltip": "Requires 5 Village Phase structures (except Palisades and Farm Fields).",
-	"supersedes": "phase_village",
-	"icon": "town_phase.png",
-	"researchTime": 80,
-	"tooltip": "Advance to Town Phase, which unlocks more structures and units. Territory radius for Civic Centers and Vision for all Structures increased by 25%. Mauryans get -10% Worker and infantry citizen food costs by advancing phases.",
-	"modifications": [{"value": "Cost/Resources/food", "multiply": 0.90}],
+	"requirements": { "all": [{"tech":"phase_town_generic"}, {"civ": "maur"}]},
+	"autoResearch": true,
+	"tooltip": "Mauryans get -5 Worker and infantry citizen food costs by advancing phases.",
+	"modifications": [{"value": "Cost/Resources/food", "add": -5}],
 	"affects": ["Worker","Infantry"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

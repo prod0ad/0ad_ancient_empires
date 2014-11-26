@@ -17,12 +17,6 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -phase_town_generic
-      phase_town_maur
-      -phase_city_generic
-      phase_city_maur
-      -phase_imperial_generic
-      phase_imperial_maur
       health_females_01	  
     </Technologies>	
   </ProductionQueue>

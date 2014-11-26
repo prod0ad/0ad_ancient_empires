@@ -1,6 +1,6 @@
 {
 	"genericName": "City Phase",
-	"requirements": { "any": [{"tech":"phase_city_generic"}, {"tech":"phase_city_athen"}, {"tech":"phase_city_maur"}]},
+	"requirements": { "any": [{"tech":"phase_city_generic"}, {"tech":"phase_city_athen"}]},
 	"autoResearch": true,
 	"modifications": 
 	[{"value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivCentre"},

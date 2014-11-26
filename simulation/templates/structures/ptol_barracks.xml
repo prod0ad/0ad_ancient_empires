@@ -28,7 +28,7 @@
     <SpecificName>Military Barracks</SpecificName>
     <Tooltip>Train Hellenistic units.</Tooltip>
     <History>.</History>
-    <Icon>structures/gymnasion.png</Icon>
+    <Icon>structures/italian_embassy.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>

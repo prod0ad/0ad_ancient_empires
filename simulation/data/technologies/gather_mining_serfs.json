@@ -7,7 +7,7 @@
 		"athen": "Heilotes"
 	},
 	"description": "Increases stone gathering rates.",
-	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 50},
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 50},
 	"supersedes": "gather_mining_servants",
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",

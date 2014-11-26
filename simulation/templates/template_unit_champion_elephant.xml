@@ -2,33 +2,33 @@
 <Entity parent="template_unit_champion">
   <Attack>
     <Melee>
-      <Hack>0</Hack>
-      <Pierce>20</Pierce>
-      <Crush>40.0</Crush>
-      <MaxRange>8.0</MaxRange>
+      <Hack>30</Hack>
+      <Pierce>0</Pierce>
+      <Crush>30.0</Crush>
+      <MaxRange>7.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
     </Melee>
     <Charge>
-      <Hack>0</Hack>
-      <Pierce>60</Pierce>
-      <Crush>120</Crush>
+      <Hack>60</Hack>
+      <Pierce>0</Pierce>
+      <Crush>60</Crush>
       <MaxRange>8.0</MaxRange>
       <MinRange>0.0</MinRange>
     </Charge>
   </Attack>
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>4</Pierce>
-    <Crush>3</Crush>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
+    <Crush>4</Crush>
   </Armour>
   <Cost>
-    <Population>5</Population>
+    <Population>6</Population>
     <BuildTime>50</BuildTime>
     <Resources>
-      <food>300</food>
+      <food>360</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>200</metal>
+      <metal>140</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -36,7 +36,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>900</Max>
+    <Max>480</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>

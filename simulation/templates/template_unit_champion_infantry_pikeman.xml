@@ -2,12 +2,12 @@
 <Entity parent="template_unit_champion_infantry">
   <Armour>
     <Hack>4</Hack>
-    <Pierce>3</Pierce>
+    <Pierce>2</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>25</Hack>
+      <Hack>30</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
@@ -20,8 +20,8 @@
 	  </Bonuses>  
     </Melee>
     <Charge>
-      <Hack>10</Hack>
-      <Pierce>40</Pierce>
+      <Hack>60</Hack>
+      <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
       <MinRange>0.0</MinRange>

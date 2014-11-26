@@ -7,7 +7,7 @@
 		"athen": "Andrapodon"
 	},
 	"description": "Increases stone gathering rates.",
-	"cost": {"food": 1000, "wood": 0, "stone": 150, "metal": 150},
+	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
 	"supersedes": "gather_mining_serfs",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",

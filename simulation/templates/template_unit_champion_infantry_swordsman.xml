@@ -2,22 +2,22 @@
 <Entity parent="template_unit_champion_infantry">
   <Armour>
     <Hack>4</Hack>
-    <Pierce>4</Pierce>
+    <Pierce>3</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>20</Hack>
+      <Hack>24</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
-      <RepeatTime>750</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
     </Melee>
     <Charge>
-      <Hack>40.0</Hack>
+      <Hack>48.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>4.0</MaxRange>
       <MinRange>0.0</MinRange>
     </Charge>
   </Attack>
@@ -43,7 +43,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>8.5</WalkSpeed>
     <Run>
       <Speed>18</Speed>
       <Range>600.0</Range>

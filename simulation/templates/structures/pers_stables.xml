@@ -45,7 +45,7 @@
 	  upgrades/cavalry_archer_e			  
       training_levy_cavalry
 	  training_conscription_cavalry
-	  successors/special_war_horses
+	  persians/special_war_horses
     </Technologies>
   </ProductionQueue>
   <Sound>

@@ -7,18 +7,18 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>60</Hack>
+      <Hack>48</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
-      <RepeatTime>1500</RepeatTime>
+      <RepeatTime>2000</RepeatTime>
     </Melee>
   </Attack>
   <Cost>
     <BuildTime>20</BuildTime>
-    <Population>1</Population>	
+    <Population>3</Population>	
     <Resources>
-      <food>50</food>
+      <food>60</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>80</metal>

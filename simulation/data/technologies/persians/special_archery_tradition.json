@@ -1,12 +1,9 @@
 {
 	"genericName": "Archery Tradition",
 	"description": "The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
-	"cost": {"food": 250, "wood": 500, "stone": 0, "metal": 0},
-	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "pers"}]},
-	"requirementsTooltip": "Unlocked in Village Phase.",
-	"icon": "armor_plates_ranged.png",
-	"researchTime": 40,
-	"tooltip": "Infantry Archers +10% range and -25% train time.",
+	"autoResearch": true,
+	"requirements": {"civ": "pers"},	
+	"tooltip": "Infantry Archers get +10% range/vision and -25% train time.",
 	"modifications": [
 		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
 		{"value": "Vision/Range", "multiply": 1.1},
@@ -14,4 +11,5 @@
 	"affects": ["Infantry Archer"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
+
 

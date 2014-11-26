@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Health>
-    <Max>150</Max>
+    <Max>120</Max>
   </Health>
   <Armour>
-    <Hack>2</Hack>
+    <Hack>3</Hack>
     <Pierce>1</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>12</Hack>
+      <Hack>15</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
@@ -24,14 +24,15 @@
 	  </Bonuses>  	  
     </Melee>
     <Charge>
-      <Hack>4</Hack>
-      <Pierce>16</Pierce>
+      <Hack>30</Hack>
       <MaxRange>8.0</MaxRange>
     </Charge>
   </Attack>
   <Cost>
+    <Population>2</Population>  
+    <BuildTime>15</BuildTime>	 
     <Resources>
-      <food>50</food>
+      <food>40</food>
       <wood>50</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  

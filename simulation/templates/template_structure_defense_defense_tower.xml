@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>6.0</Pierce>
+      <Pierce>12.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>55.0</MaxRange>
       <MinRange>10.0</MinRange>
@@ -15,7 +15,7 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>2</DefaultArrowCount>
+    <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
   </BuildingAI>

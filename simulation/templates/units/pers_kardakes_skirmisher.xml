@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_javelinist">
-  <Armour>
-    <Hack>0</Hack>
-    <Pierce>1</Pierce>
-    <Crush>3</Crush>
-  </Armour>
-  <Cost>
-    <BuildTime>8</BuildTime>
-    <Population>1</Population>	
-    <Resources>
-      <food>50</food>
-      <wood>0</wood>
-      <stone>0</stone>
-      <metal>35</metal>
-    </Resources>
-  </Cost>
-  <Health>
-    <Max>120</Max>
-  </Health>
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Skirmisher</GenericName>

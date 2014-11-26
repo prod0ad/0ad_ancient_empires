@@ -30,7 +30,6 @@
 	  upgrades/archer_e				  
 	  training_levy_infantry
 	  training_conscription 
-	  persians/special_archery_tradition
     </Technologies>
   </ProductionQueue>
   <VisualActor>

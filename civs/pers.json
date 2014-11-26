@@ -24,12 +24,7 @@
 					"Name": "Immortals",
 					"History": ".",
 					"Description": "Anusiya champion infantry -50% train time."
-				},
-				{
-					"Name":"Archery Tradition",
-					"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
-					"Description":"Infantry Archers +10% range and -25% train time."
-				},				
+				},			
 				{
 					"Name": "Nisean War Horses",
 					"History": "The beautiful and powerful breed of Nisean horses increases health for Persian cavalry.",
@@ -77,17 +72,17 @@
 		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
-			"Description": "Levy Melee Infantry cost -10% wood/metal and train 10% faster but also have -20% hit points."
+			"Description": "Levy Spear Infantry are significantly weaker, cheaper and faster to train."
 		},
 		{
-			"Name": "Phoenician Sailors",
-			"History": "Phoenicians had an advanced maritime culture and were deployed in the Persian navy among other peoples.",
-			"Description": "Triremes get +15% speed."
-		},		
+			"Name":"Archery Tradition",
+			"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
+			"Description":"Infantry Archers +10% range/vision and -25% train time."
+		},			
 		{
-			"Name": "Equine Transports",
-			"History": "The Persians are known as the first to transport large numbers of cavalry overseas.",
-			"Description": "Trade Ship +10 transport capacity."
+			"Name": "Naval Expansion",
+			"History": "The Persians are known as the first to transport large numbers of cavalry overseas. They also hired Phoenicians and other experienced sailors in the Persian navy.",
+			"Description": "Triremes get +15% speed. Trade Ships get +10 transport capacity."
 		}				
 	],
 	"TeamBonuses":

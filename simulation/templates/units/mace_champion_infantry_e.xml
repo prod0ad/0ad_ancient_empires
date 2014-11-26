@@ -2,7 +2,7 @@
 <Entity parent="units/mace_champion_infantry_a">
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>33</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -10,7 +10,7 @@
     </Melee>
   </Attack>
   <Health>
-    <Max>250</Max>
+    <Max>220</Max>
   </Health>
   <Identity>
     <SpecificName>Hypaspistes Argyraspides</SpecificName>

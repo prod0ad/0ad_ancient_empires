@@ -9,7 +9,7 @@
     <Category>Field</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
       <wood>100</wood>
     </Resources>
@@ -31,8 +31,7 @@
     <Icon>structures/field.png</Icon>
   </Identity>
   <Loot>
-    <xp>100</xp>
-    <food>100</food>
+    <food>50</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>0</metal>
@@ -50,7 +49,7 @@
     <KillBeforeGather>false</KillBeforeGather>
     <Amount>Infinity</Amount>
     <Type>food.grain</Type>
-    <MaxGatherers>5</MaxGatherers>
+    <MaxGatherers>1</MaxGatherers>
 	<!-- Note to people looking to change this: see the comments
 		 around line 260 in simulation/components/ResourceGatherer.js -->
     <DiminishingReturns>14</DiminishingReturns>

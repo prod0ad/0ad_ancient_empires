@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry">
   <Armour>
-    <Hack>2</Hack>
+    <Hack>1</Hack>
     <Pierce>2</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>30</Pierce>
+      <Pierce>24</Pierce>
       <Crush>0</Crush>
       <MaxRange>35</MaxRange>
       <MinRange>0.0</MinRange>		  
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1500</PrepareTime>
-      <RepeatTime>1500</RepeatTime>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
       <Spread>1.2</Spread>
     </Ranged>
   </Attack>
   <Cost>
-    <Population>2</Population>  
-    <BuildTime>24</BuildTime>
+    <Population>3</Population>  
+    <BuildTime>25</BuildTime>
     <Resources>
-      <food>100</food>
+      <food>80</food>
       <wood>0</wood>
-	  <metal>60</metal>
+	  <metal>55</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -45,7 +45,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>18</WalkSpeed>
+    <WalkSpeed>16</WalkSpeed>
     <Run>
       <Speed>27.0</Speed>
       <Range>1000.0</Range>

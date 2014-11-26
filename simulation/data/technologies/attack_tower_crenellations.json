@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "crenelations.png",
 	"researchTime": 40,
-	"tooltip": "+50% arrows fired per garrisoned soldier.",
-	"modifications": [{"value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.5}],
+	"tooltip": "+30% arrows fired per garrisoned soldier.",
+	"modifications": [{"value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.30}],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

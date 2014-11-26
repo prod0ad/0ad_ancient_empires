@@ -3,8 +3,12 @@
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "sele"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_plates_cavalry.png",
+	"icon": "horse_trainer.png",
 	"researchTime": 40,
-	"tooltip": "Unlock the Seleucid Cataphract.",
+	"tooltip": "Unlock the Seleucid Cataphract. All Cavalry +20% hit points.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.2}
+	],
+	"affects": ["Cavalry"],	
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

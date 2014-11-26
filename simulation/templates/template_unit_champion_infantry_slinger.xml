@@ -13,36 +13,36 @@
       <MaxRange>60.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>750</PrepareTime>
-      <RepeatTime>750</RepeatTime>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
       <Spread>1.2</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>	  
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>24</BuildTime>
-    <Population>1</Population>	
+    <BuildTime>25</BuildTime>
+    <Population>2</Population>	
     <Resources>
-      <food>50</food>
+      <food>60</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>60</metal>
+      <metal>55</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>120</Max>
+    <Max>75</Max>
   </Health>  
   <Identity>
     <VisibleClasses datatype="tokens">Champion Ranged Sling</VisibleClasses>
     <GenericName>Slinger</GenericName>	
   </Identity>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed>9.5</WalkSpeed>
     <Run>
       <Speed>18.0</Speed>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>70</Range>
+    <Range>75</Range>
   </Vision>    
 </Entity>

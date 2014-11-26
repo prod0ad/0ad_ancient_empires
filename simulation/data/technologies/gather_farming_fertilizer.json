@@ -1,7 +1,7 @@
 {
 	"genericName": "Fertilizer",
 	"description": "Extra nutrients for farms.",
-	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
+	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
 	"supersedes": "gather_farming_training",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",

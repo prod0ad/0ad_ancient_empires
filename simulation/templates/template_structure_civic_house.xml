@@ -7,7 +7,7 @@
     <PopulationBonus>5</PopulationBonus>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>75</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -34,7 +34,6 @@
     <Icon>structures/house.png</Icon>
   </Identity>
   <Loot>
-    <xp>100</xp>
     <food>0</food>
     <wood>10</wood>
     <stone>10</stone>

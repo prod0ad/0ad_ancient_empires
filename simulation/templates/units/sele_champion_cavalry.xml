@@ -2,21 +2,21 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Armour>
     <Hack>5</Hack>
-    <Pierce>6</Pierce>
-    <Crush>7</Crush>
+    <Pierce>5</Pierce>
+    <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>40</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>7.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
+      <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
     <Charge>
-      <Hack>10</Hack>
-      <Pierce>100.0</Pierce>
+      <Hack>80</Hack>
+      <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>7.0</MaxRange>
       <MinRange>0.0</MinRange>
@@ -24,15 +24,15 @@
     </Charge>
   </Attack>
   <Health>
-    <Max>400</Max>
+    <Max>280</Max>
   </Health>
   <Cost>
-    <Population>2</Population>  
-    <BuildTime>30</BuildTime>
+    <Population>4</Population>  
+    <BuildTime>40</BuildTime>
     <Resources>
-      <food>100</food>
+      <food>90</food>
       <wood>0</wood>
-	  <metal>120</metal>
+	  <metal>80</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>  

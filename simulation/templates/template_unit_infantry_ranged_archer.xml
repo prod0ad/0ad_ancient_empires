@@ -3,10 +3,10 @@
   <Armour>
     <Hack>0</Hack>
     <Pierce>0</Pierce>
-    <Crush>3</Crush>
+    <Crush>2</Crush>
   </Armour>
   <Health>
-    <Max>70</Max>
+    <Max>60</Max>
   </Health>  
   <Vision>
     <Range>45</Range>
@@ -19,25 +19,25 @@
       <MaxRange>40.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
       <Spread>1.5</Spread>	  
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>12</BuildTime>	  
+    <BuildTime>20</BuildTime>	  
     <Resources>
-      <food>50</food>
-      <wood>30</wood>
+      <food>40</food>
+      <wood>25</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-    <wood>5</wood>
+    <wood>3</wood>
   </Loot> 
    <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
+    <WalkSpeed>9.5</WalkSpeed>
     <Run>
       <Speed>17.0</Speed>
     </Run>

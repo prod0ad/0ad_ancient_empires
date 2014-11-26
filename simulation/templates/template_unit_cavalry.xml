@@ -14,7 +14,7 @@
     </Slaughter>
   </Attack>
   <Cost>
-    <Population>2</Population>
+    <Population>3</Population>
     <BuildTime>15</BuildTime>  
     <Resources>
       <food>100</food>
@@ -63,7 +63,7 @@
     </Capacities>
   </ResourceGatherer>
   <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
+    <WalkSpeed>15</WalkSpeed>
     <Run>
       <Speed>26.0</Speed>
       <Range>600.0</Range>
@@ -71,7 +71,7 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>60</Range>
+    <Range>45</Range>
   </Vision>  
   <Selectable>
     <Overlay>

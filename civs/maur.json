@@ -21,11 +21,6 @@
 					"Description": "Sword units +2 hack damage." 
 				}, 				
 				{
-					"Name":"Archery Tradition",
-					"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
-					"Description":"Infantry Archers +10% range and -25% train time."
-				},
-				{
 					"Name":"Pacifism Reform",
 					"History":"In regrets of the bloodshed, having slaughtered many thousands of people in his early reign expeditions, Ashoka started supporting Buddhism and pacifism.",
 					"Description":"Infantry citizen soldiers +15% all gather rates but also 10% less hit points and attack damage."
@@ -62,13 +57,18 @@
 		{
 			"Name": "Emperor of Emperors.",
 			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
-			"Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300). Each phase researched reduces the food cost of female and infantry citizens by 10%."
+			"Description": "Mauryans have a +10% population cap bonus (i.e., 330 pop cap instead of the usual 300). Each phase researched reduces the food cost of female citizens and infantry by 5."
 		},
 		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
-			"Description": "Levy Melee Infantry cost -10% wood/metal and train 10% faster but also have -20% hit points."
+			"Description": "Levy Spear Infantry are significantly weaker, cheaper and faster to train."
 		},	
+		{
+			"Name":"Archery Tradition",
+			"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
+			"Description":"Infantry Archers +10% range/vision and -25% train time."
+		},		
 		{
 			"Name": "Wooden Construction",
 			"History": "Mauryans structures were mostly made of wood. Consequently, their structures have less health than other cultures do, but they also construct faster.",

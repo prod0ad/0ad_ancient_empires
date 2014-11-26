@@ -3,7 +3,8 @@
 	"autoResearch": true,
 	"requirements": {"civ": "iber"},
 	"modifications": [
-		{"value": "BuildingAI/DefaultArrowCount", "add": 1.0},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.25},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.25},
 		{"value": "Health/Max", "multiply": 1.25},
 		{"value": "Cost/Resources/stone", "multiply": 1.5}
 	],

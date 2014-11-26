@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Health>
-    <Max>150</Max>
+    <Max>120</Max>
   </Health>
   <Armour>
-    <Hack>2</Hack>
+    <Hack>3</Hack>
     <Pierce>2</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>9</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -24,14 +24,15 @@
 	  </Bonuses>  
     </Melee>
     <Charge>
-      <Hack>6</Hack>
-      <Pierce>12</Pierce>
+      <Hack>24</Hack>
       <MaxRange>6.0</MaxRange>	 	  
     </Charge>
   </Attack>
   <Cost>
+    <Population>2</Population>    
+    <BuildTime>15</BuildTime>	  
     <Resources>
-      <food>50</food>
+      <food>40</food>
       <wood>50</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
@@ -51,5 +52,5 @@
     <GenericName>Spearman</GenericName>
     <History>Probably one of the most primitive units in the game. Fighting with a sharp object at the end of the pole didn't require a lot of technology to develop. It also allowed the human to distance themselves from their attacker. As time passed the spears got longer and longer. Started with a fighting style similar to using a quarterstaff, then to using them in numbers as a 'pin cushion' vs. humans (sarissa in a phalanx). Later it was developed to combat cavalry. During the medieval period it evolved to the pike. These units tended to be armored as heavily as possible.</History>
     <Tooltip>Deals double damage vs Cavalry and Elephants.</Tooltip>		
-  </Identity>
+  </Identity>  
 </Entity>

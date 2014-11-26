@@ -28,7 +28,7 @@
     <SpecificName>Military Barracks</SpecificName>
     <Tooltip>Train hellenistic units.</Tooltip>
     <History>.</History>
-    <Icon>structures/gymnasion.png</Icon>
+    <Icon>structures/italian_embassy.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
@@ -57,7 +57,6 @@
 	  upgrades/archer_e			  
 	  upgrades/cavalry_heavy_e			
 	  successors/special_sele_cleruchy
-	  successors/special_war_horses	 
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>

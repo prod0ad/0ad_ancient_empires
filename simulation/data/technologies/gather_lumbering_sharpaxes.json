@@ -1,7 +1,7 @@
 {
 	"genericName": "Sharp Ax Heads",
 	"description": "Increases wood gathering rates for trees.",
-	"cost": {"food": 0, "wood": 1000, "stone": 150, "metal": 150},
+	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
 	"supersedes": "gather_lumbering_strongeraxes",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",

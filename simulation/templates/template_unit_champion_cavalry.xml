@@ -66,7 +66,7 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
+    <WalkSpeed>15</WalkSpeed>
     <Run>
       <Speed>25.0</Speed>
       <Range>1000.0</Range>
@@ -74,6 +74,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>80</Range>
+    <Range>75</Range>
   </Vision>
 </Entity>

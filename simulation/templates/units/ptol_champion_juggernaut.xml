@@ -8,9 +8,6 @@
       <metal>300</metal>
     </Resources>
   </Cost>
-  <GarrisonHolder>
-    <Max>50</Max>
-  </GarrisonHolder>
   <Health>
     <Max>2000</Max>
   </Health>

@@ -1,6 +1,6 @@
 {
 	"genericName": "Imperial Phase",
-	"requirements": { "any": [{"tech":"phase_imperial_generic"}, {"tech":"phase_imperial_athen"}, {"tech":"phase_imperial_maur"}]},
+	"requirements": { "any": [{"tech":"phase_imperial_generic"}, {"tech":"phase_imperial_athen"}]},
 	"autoResearch": true,
 	"modifications": 
 	[{"value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivCentre"},

@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Health>
-    <Max>150</Max>
+    <Max>120</Max>
   </Health>
   <Armour>
-    <Hack>2</Hack>
+    <Hack>3</Hack>
     <Pierce>2</Pierce>
     <Crush>6</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>7</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
-      <RepeatTime>750</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Melee>
     <Charge>
-      <Hack>20.0</Hack>
+      <Hack>24.0</Hack>
     </Charge>
   </Attack>
   <Cost>
+    <Population>2</Population>  
+    <BuildTime>20</BuildTime>	  
     <Resources>
-      <food>50</food>
+      <food>40</food>
       <wood>0</wood>
-	  <metal>40</metal>
+	  <metal>30</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -33,7 +35,7 @@
     <metal>5</metal>
   </Loot>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>8.5</WalkSpeed>
     <Run>
       <Speed>18</Speed>
     </Run>

@@ -3,7 +3,7 @@
 	"autoResearch": true,	
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.75},
-		{"value": "Cost/Resources/metal", "replace": 85},
+		{"value": "Cost/Resources/metal", "replace": 75},
 		{"value": "Cost/Resources/wood", "replace": 0},
 		{"value": "Cost/Resources/food", "replace": 0},
 		{"value": "Cost/Resources/stone", "replace": 0}					
