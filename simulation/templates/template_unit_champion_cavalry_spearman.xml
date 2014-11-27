@@ -13,7 +13,7 @@
       <Hack>40</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>46.0</MaxRange>
+      <MaxRange>6.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
@@ -21,7 +21,7 @@
       <Hack>60.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>6.0</MaxRange>
       <MinRange>0.0</MinRange>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Charge>

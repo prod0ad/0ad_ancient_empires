@@ -12,7 +12,7 @@
 		{"value": "Armour/Hack", "replace": 1},	
 		{"value": "Armour/Pierce", "replace": 1},
 		{"value": "Attack/Melee/Hack", "multiply": 0.5},			
-		{"value": "Cost/PopulationBonus", "replace": 1},		
+		{"value": "Cost/Population", "replace": 1},		
 		{"value": "Cost/BuildTime", "replace": 10}		
 	],
 	"affects": ["Levy Spear Infantry"]
