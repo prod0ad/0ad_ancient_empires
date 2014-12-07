@@ -2,7 +2,7 @@
 <Entity parent="units/rome_infantry_spearman_a">
   <Identity>
     <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite</Classes>			
+    <Classes datatype="tokens">Elite -Advanced</Classes>			
   </Identity>
   <Promotion>
     <Entity>units/rome_legionnaire_marian</Entity>

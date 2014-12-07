@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Requires 1 new City structure.",
 	"supersedes": "phase_city_generic",
 	"icon": "political_face.png",
-	"researchTime": 80,
+	"researchTime": 180,
 	"tooltip": "Advance to Imperial Phase, which unlocks more structures and units. Territory radius for Civic Centers and Vision for all Structures increased by 25%.",
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Requires 4 new Town Phase structures (except Walls and Civic Centers).",
 	"supersedes": "phase_town_generic",
 	"icon": "city_phase.png",
-	"researchTime": 80,
+	"researchTime": 150,
 	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers and Vision for all Structures increased by 25%.",
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

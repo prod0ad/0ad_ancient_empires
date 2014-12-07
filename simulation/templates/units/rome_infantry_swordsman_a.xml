@@ -3,7 +3,7 @@
   <Identity>
     <Rank>Advanced</Rank>
     <SpecificName>Princeps</SpecificName>
-    <Classes datatype="tokens">Advanced</Classes>			
+    <Classes datatype="tokens">Advanced -Basic</Classes>			
   </Identity>
   <Promotion>
     <Entity>units/rome_infantry_swordsman_e</Entity>
