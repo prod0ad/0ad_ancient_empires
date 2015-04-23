@@ -18,15 +18,8 @@
       units/cart_infantry_spearman_b
       units/cart_infantry_javelinist_2_b
       units/cart_champion_elephant
-      units/cart_mechanical_siege_ballista_packed
-      units/cart_mechanical_siege_oxybeles_packed
     </Entities>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-	  siege_cost
-	  siege_packing
-	  carthaginians/training_siege_weapons	  
+    <Technologies datatype="tokens"> 
 	  carthaginians/cart_reform	  	  
     </Technologies>
   </ProductionQueue>

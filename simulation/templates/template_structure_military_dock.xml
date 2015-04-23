@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
   <BuildRestrictions>
-    <Territory>own ally neutral</Territory>
     <PlacementType>shore</PlacementType>
     <Category>Dock</Category>
   </BuildRestrictions>

@@ -32,10 +32,7 @@
   <Obstruction>
     <Static width="38.5" depth="22.5"/>
   </Obstruction>
-  <TerritoryInfluence>
-    <Root>true</Root>
-    <Radius>48</Radius>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/persians/palace.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

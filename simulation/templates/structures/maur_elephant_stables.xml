@@ -47,9 +47,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>38</Radius>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/mauryans/stables.xml</Actor>
   </VisualActor>

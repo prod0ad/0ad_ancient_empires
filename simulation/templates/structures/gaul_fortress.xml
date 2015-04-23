@@ -17,11 +17,8 @@
     <Entities datatype="tokens">
       units/gaul_champion_cavalry
       units/gaul_champion_infantry
-      units/gaul_mechanical_siege_ram
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
 	  celts/gaul_reform
     </Technologies>
   </ProductionQueue>

@@ -12,7 +12,7 @@
       other/wallset_palisade
       structures/{civ}_barracks
       structures/{civ}_stables 	
-	  structures/brit_tavern	  
+	  structures/{civ}_siege_workshop  
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market 
@@ -21,7 +21,6 @@
       structures/{civ}_civil_centre	 	  
       structures/{civ}_fortress	  
       structures/{civ}_wonder	 
-      structures/brit_rotarymill
 	</Entities>
   </Builder>
   <Health>

@@ -3,7 +3,7 @@
 	"version": "0.0.18",
 	"label": "0 A.D. Ancient Empires",
 	"url": "play0ad.com",
-	"description": "A free, open-source, historical RTS game.",
+	"description": "A gameplay and historical authenticity mod for 0 A.D.",
 	"dependencies": ["0ad"],
 	"type": "gameplay.mod"
 }

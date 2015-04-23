@@ -12,18 +12,17 @@
       other/wallset_palisade
       structures/{civ}_barracks
       structures/{civ}_stables 	
-      structures/cart_embassy 		  
+      structures/{civ}_siege_workshop		  
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market 
       structures/{civ}_defense_tower
       structures/{civ}_wallset_stone
       structures/{civ}_civil_centre		  
-      structures/{civ}_fortress
-      structures/cart_super_dock		  
-      structures/{civ}_wonder	 
-      structures/cart_library	  
-    </Entities>
+      structures/{civ}_fortress	   
+      structures/{civ}_academy
+      structures/{civ}_wonder	
+    </Entities>	  
   </Builder>
   <Identity>
     <Civ>cart</Civ>

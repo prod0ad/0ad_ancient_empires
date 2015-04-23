@@ -7,9 +7,9 @@
       <Affects>Worker</Affects>
       <AffectedPlayers>Player Ally</AffectedPlayers>
       <Modifications>
-        <ResourceGatherer.Rates.food.grain> <Add>1</Add> </ResourceGatherer.Rates.food.grain>
+        <ResourceGatherer.Rates.food..grain> <Multiply>1.25</Multiply> </ResourceGatherer.Rates.food..grain>
       </Modifications>
-      <AuraName>Rotary Mill Aura</AuraName>
+      <AuraName>Farming bonus</AuraName>
       <AuraDescription>Nearby farmers work 25% faster. Range: 90.</AuraDescription>
     </Aura1>
   </Auras>
@@ -34,7 +34,7 @@
     <SpecificName>Rotary Mill</SpecificName>
     <Tooltip>Increase nearby farming output +25%.</Tooltip>
     <History>The Celts developed the first rotary flour mill.</History>
-    <Icon>structures/sb1.png</Icon>
+    <Icon>structures/rotarymill.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
@@ -50,9 +50,7 @@
   <StatusBars>
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
-  <TerritoryInfluence>
-    <Radius>32</Radius>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/celts/special.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

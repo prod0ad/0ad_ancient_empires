@@ -27,11 +27,8 @@
     <Entities datatype="tokens">
       units/brit_champion_infantry	
       units/brit_champion_cavalry
-      units/brit_mechanical_siege_ram
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
       celts/brit_large_tower	  
 	  celts/brit_reform
     </Technologies>

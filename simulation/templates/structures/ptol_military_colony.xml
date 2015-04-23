@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Attack disable=""/>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-    <Distance>
-      <FromClass>Colony</FromClass>
-      <MinDistance>120</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>
@@ -54,12 +47,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryDecay>
-    <HealthDecayRate>1</HealthDecayRate>
-  </TerritoryDecay>
-  <TerritoryInfluence>
-    <Radius>80</Radius>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/ptolemies/settlement.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

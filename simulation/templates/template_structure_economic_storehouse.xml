@@ -47,13 +47,8 @@
       gather_lumbering_sharpaxes
       gather_mining_servants
       gather_mining_serfs
-      gather_mining_slaves
       gather_mining_wedgemallet
       gather_mining_shaftmining
-      gather_mining_silvermining
-      gather_capacity_basket
-      gather_capacity_wheelbarrow
-      gather_capacity_carts
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>
@@ -67,11 +62,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>16</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>30</Range>
   </Vision>

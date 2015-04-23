@@ -1,0 +1,163 @@
+{
+	"Code": "maur",
+	"Culture": "maur",
+	"Name": "Mauryans",
+	"Emblem": "session/portraits/emblems/emblem_mauryans.png",
+	"History": "Founded in 322 B.C. by Chandragupta Maurya, the Mauryan Empire was the first to rule most of the Indian subcontinent, and was one of the largest and most populous empires of antiquity. Its military featured bowmen who used the long-range bamboo longbow, fierce female warriors, chariots, and thousands of armored war elephants. Its philosophers, especially the famous Acharya Chanakya, contributed to such varied fields such as economics, religion, diplomacy, warfare, and good governance. Under the rule of Ashoka the Great, the empire saw 40 years of peace, harmony, and prosperity.",
+	"Music":[
+			{"File":"Land_between_the_two_Seas.ogg", "Type":"peace"},
+			{"File":"Karmic Confluence.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Mauryan Indians",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name": "Wootz Steel",
+					"History": "The Wootz steel is believed to have originated in India. There are several ancient Greek and Roman literary references to high-quality Indian steel since the time of Alexander's Indian campaign.'",
+					"Description": "Sword units +2 hack damage." 
+				}, 	
+				{
+					"Name": "Fire Protection",
+					"History": "To prevent major fires breaking out in their wooden cities, The Mauryans introduced permanent water deposits in every structure.'",
+					"Description": "Structures regenerate 1 hit point per second." 
+				}, 						
+				{
+					"Name":"Pacifism Reform",
+					"History":"Regrets of the bloodshed or an effort to maintain his empire led Ashoka to support Buddhism and pacifism after slaughtering thousands of people during his early conquests.",
+					"Description":" +15% to all Worker gather rates but Levy Infantry get -10% hit points and attack damage."
+				}				
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Armored Elephant",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Powerful war beast."
+				},
+				{
+					"Name":"Elephant Archer",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Archer mounted on a tough war elephant."
+				},				
+				{
+					"Name":"Maiden Guard",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Chosen Female Archer."
+				},
+				{
+					"Name":"Noble Chariot",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Chariot Mounted Archer."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Emperor of Emperors.",
+			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
+			"Description": "+10% Maximum population. Each phase researched reduces the food cost of workers and infantry by 5."
+		},
+		{
+			"Name": "Light Infantry",
+			"History": "The majority of Indian infantrymen were unarmored troops.",
+			"Description": "Levy Spear Infantry are significantly weaker, cheaper and faster to train."
+		},	
+		{
+			"Name":"Archery Tradition",
+			"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
+			"Description":"Infantry Archers +10% range/vision and -25% train time."
+		},		
+		{
+			"Name": "Wooden Construction",
+			"History": "Mauryans structures were mostly made of wood. Consequently, their structures have less health than other cultures do, but they also construct faster.",
+			"Description": "Structures construct 20% faster but are also 20% weaker. Walls cost lumber instead of stone." 
+		}	
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Elephant Abundance.",
+			"History": "India was full of elephants, and the Mauryans often exported or gifted numbers of war elephants to allies.",
+			"Description": "Elephant Units train 20% faster (currently not shared)."
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name":"Elephant Stables",
+			"Class":"SB1",
+			"Emblem":"",
+			"History":".",
+			"Description": "Trains Various Elephant Units.",
+			"Requirements":"Temple",
+			"Phase":"Town",
+			"Special":"Trains Elephant Archer and Worker Elephant at Town Phase, then adds the champion War Elephant at the City phase."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/maur_civil_centre"
+		},
+		{
+			"Template": "units/maur_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/maur_cavalry_javelinist_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/maur_support_elephant",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line"
+	],
+	"AINames":
+	[
+		"Chandragupta Maurya",
+		"Ashoka the Great",
+		"Ashokavardhan Maurya",
+		"Acharya Bhadrabahu",
+		"Bindusara Maurya",
+		"Dasaratha Maurya",
+		"Samprati Maurya",
+		"Salisuka Maurya",
+		"Devavarman Maurya",
+		"Satadhanvan Maurya",
+		"Brihadratha Maurya"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/maur_infantry_archer_b",
+		"skirmish/units/special_starting_unit": "units/maur_support_elephant",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

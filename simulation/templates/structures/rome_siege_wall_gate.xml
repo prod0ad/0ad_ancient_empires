@@ -10,9 +10,6 @@
       <Crush>1.0</Crush>
     </Foundation>
   </Armour>
-  <BuildRestrictions>
-    <Territory>own neutral enemy</Territory>
-  </BuildRestrictions>
   <Cost>
     <Resources>
       <wood>80</wood>
@@ -43,9 +40,6 @@
       <Door width="11" depth="5" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
-  <TerritoryDecay>
-    <HealthDecayRate>1</HealthDecayRate>
-  </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/romans/siege_wall_gate.xml</Actor>

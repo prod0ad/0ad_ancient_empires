@@ -15,8 +15,7 @@
   </BattleDetection>
   <EntityLimits>
     <Limits>
-      <DefenseTower>30</DefenseTower>
-      <Fortress>10</Fortress>
+      <CivilCentre>1</CivilCentre>	
       <Wonder>1</Wonder>
       <Cleruchia>1</Cleruchia>
       <Hero>1</Hero>
@@ -37,9 +36,6 @@
       <Juggernaut>1</Juggernaut>
     </Limits>
     <LimitChangers>
-      <CivilCentre>
-        <Cleruchia>1</Cleruchia>
-      </CivilCentre>	
       <WarDog>
         <Kennel>10</Kennel>
       </WarDog>
@@ -50,6 +46,11 @@
         <PtolemyIV>4</PtolemyIV>
       </Juggernaut>
     </LimitChangers>
+    <LimitRemovers>
+      <CivilCentre>
+        <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
+      </CivilCentre>
+    </LimitRemovers>	
   </EntityLimits>
   <Player/>
   <StatisticsTracker/>

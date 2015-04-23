@@ -18,16 +18,8 @@
       units/mace_champion_infantry_a
       units/mace_champion_cavalry
 	  units/mace_champion_slinger	
-      units/mace_mechanical_siege_oxybeles_packed
-      units/mace_mechanical_siege_lithobolos_packed
-      units/mace_mechanical_siege_ram
-      units/mace_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-	  siege_cost
-	  siege_packing	
       successors/upgrade_mace_silvershields
 	  successors/mace_fetters_of_hellas
 	  successors/mace_antigonid_early_reform

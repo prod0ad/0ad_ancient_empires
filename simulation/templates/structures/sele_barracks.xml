@@ -59,11 +59,7 @@
 	  successors/special_sele_cleruchy
     </Technologies>
   </ProductionQueue>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>60</Radius>
-    <Weight>40000</Weight>
-  </TerritoryInfluence>  
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/athenians/gymnasion.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

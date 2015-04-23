@@ -1,0 +1,133 @@
+{
+	"Code": "rome",
+	"Culture": "rome",
+	"Name": "Romans",
+	"Emblem": "session/portraits/emblems/emblem_romans.png",
+	"History": "The Romans controlled one of the largest empires of the ancient world, stretching at its peak from southern Scotland to the Sahara Desert, and containing between 60 million and 80 million inhabitants, one quarter of the Earth's population at that time. Rome also remained one of the strongest nations on earth for almost 800 years. The Romans were the supreme builders of the ancient world, excelled at siege warfare and had an exquisite infantry and navy.",
+	"Music":[
+			{"File":"Juno_Protect_You.ogg", "Type":"peace"},
+			{"File":"Elysian_Fields.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name": "Marian Reforms",
+					"History": "Gaius Marius turned the roman legions into a professional force.",
+					"Description": "All Melee infantry units are replaced by Marian Legionary Champions."
+				},	
+				{
+					"Name": "Logistics",
+					"History": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",
+					"Description": "Melee infantry train 30% faster."
+				},	
+				{
+					"Name": "Gladius Hispaniensis",
+					"History": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
+					"Description": "20% faster attack rate for Infantry Swordsmen."
+				}								
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Consular Bodyguard",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Champion Guard Cavalry."
+				},
+				{
+					"Name": "Marian Legionary",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Heavy Swordsman. Unlocked by Marian Reforms."
+				}
+			]
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Roman Legions",
+			"History": "The Romans were early to realise the potential of swords as the main infantry weapon.",
+			"Description": "Swordsmen are unlocked in the Town instead of the City Phase." 
+		},
+		{
+			"Name": "Citizenship",
+			"History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
+			"Description": "Units within vision range of Roman Civil Centre gain +10% attack."
+		},
+		{
+			"Name": "Scientific Adaptation",
+			"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
+			"Description": "Each phase researched adds 10% hit points to Structures, Ships and Siege Weapons."
+		}			
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Socii",
+			"History": "Roman allies, especially the Italian ones, often provided the majority of soldiers in Roman armies.",
+			"Description": "Swordsmen train 20% faster (currently not shared)."
+		} 		
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/rome_civil_centre"
+		},
+		{
+			"Template": "units/rome_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/rome_cavalry_spearman_b"
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/testudo"
+	],
+	"AINames":
+	[
+		"Lucius Junius Brutus",
+		"Lucius Tarquinius Collatinus",
+		"Gaius Julius Caesar Octavianus",
+		"Marcus Vipsanius Agrippa",
+		"Gaius Iulius Iullus",
+		"Gaius Servilius Structus Ahala",
+		"Publius Cornelius Rufinus",
+		"Lucius Papirius Cursor",
+		"Aulus Manlius Capitolinus",
+		"Publius Cornelius Scipio Africanus",
+		"Publius Sempronius Tuditanus",
+		"Marcus Cornelius Cethegus",
+		"Quintus Caecilius Metellus Pius",
+		"Marcus Licinius Crassus"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry" : "units/rome_cavalry_spearman_b",
+		"skirmish/units/default_infantry_melee_b": "units/rome_infantry_swordsman_b",
+		"skirmish/structures/default_house_10" : "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

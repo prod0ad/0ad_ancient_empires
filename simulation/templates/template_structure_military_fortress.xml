@@ -83,11 +83,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>100</Radius>
-    <Weight>40000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>80</Range>
   </Vision>

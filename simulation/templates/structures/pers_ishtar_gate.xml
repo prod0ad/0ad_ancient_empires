@@ -30,9 +30,7 @@
       <Door width="14" depth="13" x="0" z="0"/>
     </Obstructions>
   </Obstruction>
-  <TerritoryInfluence>
-    <Root>true</Root>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>special/pers_ishtar_gate.xml</Actor>
     <FoundationActor>structures/fndn_wall.xml</FoundationActor>

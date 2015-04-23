@@ -37,11 +37,11 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
+	  gather_meat_dogs	
       gather_wicker_baskets
 	  gather_farming_plows
       gather_farming_training
       gather_farming_fertilizer
-	  gather_meat_dogs
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>
@@ -55,11 +55,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>30</Range>
   </Vision>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
-  <BuildRestrictions>
-    <Territory>own neutral enemy</Territory>
-  </BuildRestrictions>
   <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
@@ -41,9 +38,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryDecay>
-    <HealthDecayRate>1</HealthDecayRate>
-  </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>props/structures/romans/rome_tent.xml</Actor>

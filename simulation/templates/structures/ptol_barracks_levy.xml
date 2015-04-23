@@ -39,11 +39,7 @@
 	  successors/training_conscription_levy_barracks 
     </Technologies>
   </ProductionQueue>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>38</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/ptolemies/barracks.xml</Actor>
   </VisualActor>

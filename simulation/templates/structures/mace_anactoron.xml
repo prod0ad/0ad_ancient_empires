@@ -38,11 +38,7 @@
   <Obstruction>
     <Static width="28.0" depth="20.0"/>
   </Obstruction>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>40</Radius>
-    <Weight>65536</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
@@ -53,7 +49,6 @@
   </ProductionQueue>
   <Vision>
     <Range>40</Range>
-    <RetainInFog>true</RetainInFog>
   </Vision>
   <VisualActor>
     <Actor>special/greek_stoa_great.xml</Actor>

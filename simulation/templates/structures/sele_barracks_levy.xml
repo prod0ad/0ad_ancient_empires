@@ -38,11 +38,7 @@
 	  successors/training_conscription_levy_barracks 
     </Technologies>
   </ProductionQueue>
-    <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>38</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/macedonians/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

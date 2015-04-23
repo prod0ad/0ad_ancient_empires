@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
   <BuildRestrictions>
-    <Territory>own ally neutral</Territory>
     <PlacementType>shore</PlacementType>
     <Category>Dock</Category>
   </BuildRestrictions>
@@ -36,9 +35,7 @@
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
-  <TerritoryInfluence>
-    <Radius>0</Radius>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>180</Range>
   </Vision>

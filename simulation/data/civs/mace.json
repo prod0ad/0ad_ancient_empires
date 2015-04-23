@@ -1,0 +1,137 @@
+{
+	"Code":"mace",
+	"Culture":"hele",
+	"Name":"Macedonians",
+	"Emblem":"session/portraits/emblems/emblem_macedonians.png",
+	"History":"Macedonia was an ancient Greek kingdom, centered in the northeastern part of the Greek peninsula. Under the leadership of Alexander the Great, Macedonian forces and allies took over most of the world they knew, including Egypt, Persia and parts of the Indian subcontinent, allowing a diffusion of Hellenic and eastern cultures for years to come.",
+	"Music":[
+			{"File":"Rise_of_Macedon.ogg", "Type":"peace"},
+			{"File":"In_the_Shadow_of_Olympus.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Macedonians",
+			"Description":"A Hellenistic kingdom bordering the Greek city-states.",
+			"Technologies":
+			[
+				{
+					"Name":"Antigonid Reform",
+					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly Kestros Dart Sling.",
+					"Description":"Pikemen train 20% faster and get +1 hack and pierce armor levels."
+				},				
+		        {
+					"Name":"Fetters Of Hellas",
+					"History":"The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
+					"Description":"+50% Fortress hit points."
+				},
+		        {
+					"Name":"Royal Companions",
+					"History":"The elite bodyguards of the Macedonian king.",
+					"Description":"Upgrades Companion Cavalry to Royal Companions, with greater attack and health."
+				},				
+				{
+					"Name":"Silver Shields",
+					"History":"In India near the end of his long anabasis, Alexander gifted to the Royal Hypaspist corps shields of silver for their long and valiant service in his army.",
+					"Description":"Upgrade Shield Bearers to Silver Shields, with greater attack and health."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Companion Cavalry",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Elite heavy cavalry."
+				},
+				{
+					"Name":"Shield Bearer",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"The Hypaspists were versatile heavy infantry."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Horsemanship",
+			"History":"Unlike the Greek City-States, the Macedonians and their Thessalian and Thracian neighbours, who often provided them with military units, were great horsemen and fielded relatively large numbers of cavalry who were famed for their swiftness and thunderous charges.",
+			"Description":"+10% Cavalry speed"
+		},
+		{
+			"Name":"Hardy Peltasts",
+			"History":"The northern balkan tribes provided skilled peltasts to the Macedonian army.",
+			"Description":"+15% Javelin Infantry attack."
+		},
+		{
+			"Name":"Advanced Siegecraft",
+			"History":"The Macedonians used a wide variety of siege engines and tactics.",
+			"Description":"+20% attack rate for siege units."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Standardized 'Sanderd' Currency",
+			"History":"The Macedonians and the Diadochi minted coins of very high quality. On their currency the Diadochi in particular frequently depicted themselves as the rightful successor to Alexander the Great, attempting to legitimize their rule.",
+			"Description":"All units and structures -10% metal cost (currently not shared)."
+		}
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/mace_civil_centre"
+		},
+		{
+			"Template": "units/mace_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/mace_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx",
+		"formations/syntagma"
+	],
+	"AINames":
+	[
+		"Alexander the Great",
+		"Philip II",
+		"Antipater",
+		"Philip IV",
+		"Lysander",
+		"Lysimachus",
+		"Pyrrhus of Epirus",
+		"Antigonus II Gonatas",
+		"Demetrius II Aetolicus",
+		"Philip V",
+		"Perseus",
+		"Craterus",
+		"Meleager"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

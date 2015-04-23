@@ -1,0 +1,139 @@
+{
+	"Code": "brit",
+	"Culture": "celt",
+	"Name": "Britons",
+	"Emblem": "session/portraits/emblems/emblem_britons.png",
+	"History": "The Britons were the Celtic tribes of the British Isles. Using chariots, longswordsmen and powerful melee soldiers, they staged fearesome revolts against Rome to protect their customs and interests. Also, they built thousands of unique structures such as hill forts, crannogs and brochs.",
+	"Music":[
+			{"File":"Highland_Mist.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"},
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Celtica.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Britons",
+			"Description": "The Celts of the British Isles.",
+			"Technologies":
+			[
+				{
+					"Name": "Hill Forts",
+					"History": "Britain was full of Celtic Hill forts.",
+					"Description": "Increases Fortress hit points by 25% and adds an extra default arrow." 
+				}, 
+				{
+					"Name": "Boudicca's Levy (Reform)",
+					"History": "Roman expansionism resulted in large numbers of Britons going to war under Boudicca.",
+					"Description": "All citizen soldiers train 20% faster." 
+				} 
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Longswordman",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Slow moving heavy infantry with a massive attack." 
+				},
+				{
+					"Name": "Celtic Chariot",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Noble Brythonic warriors on agile chariots."
+				} 
+			] 
+		} 
+	],
+	"CivBonuses":
+	[	
+		{
+			"Name": "Celtic Valour",
+			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
+			"Description": "Non-Champion melee infantry +10% walk and run speed, -20% hit points and -10% wood/metal cost." 
+		},	
+		{
+			"Name": "Wooden Construction",
+			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
+			"Description": "Structures construct 20% faster but are also 20% weaker. Most Structures provide +5 population." 
+		},
+		{
+			"Name": "Dog Scout",
+			"History": ".", 
+			"Description": "The Britons start the game with an extra dog unit, effective at scouting." 
+		}			
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Atlantic Trade",
+			"History": "Carthaginians and Greeks traded with Briton tribes sailing out of the Mediterranean, around Iberia, to western Britain. This journey required sturdy vessels.",
+			"Description": "+50% Trade Ship hit points (currently not shared)." 
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name": "Melonas",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Celts developed the first rotary flour mill.",
+			"Requirements": "",
+			"Phase": "",
+			"Description": "25% increased farming rate for nearby farms." 
+		}	
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/brit_civil_centre" 
+		},
+		{
+			"Template": "units/brit_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/brit_cavalry_javelinist_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/brit_war_dog_e" 
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line"
+	],
+	"AINames":
+	[
+		"Karatakos",
+		"Kunobelinos",
+		"Boudicca",
+		"Prasutagus",
+		"Venutius",
+		"Cogidubnus",
+		"Commius",
+		"Comux",
+		"Adminius",
+		"Dubnovellaunus",
+		"Vosenius"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/brit_infantry_slinger_b",
+		"skirmish/units/special_starting_unit": "units/brit_war_dog_b",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

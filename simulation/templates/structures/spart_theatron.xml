@@ -46,9 +46,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>100</Radius>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/spartans/theatron.xml</Actor>
     <FoundationActor>structures/fndn_theatron.xml</FoundationActor>

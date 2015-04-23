@@ -10,9 +10,6 @@
       <Crush>1.0</Crush>
     </Foundation>
   </Armour>
-  <BuildRestrictions>
-    <Territory>own neutral enemy</Territory>
-  </BuildRestrictions>
   <Cost>
     <Resources>
       <wood>40</wood>
@@ -47,16 +44,13 @@
     <Classes datatype="tokens">
 	  SiegeWall
 	</Classes>
-    <Icon>structures/palisade.png</Icon>
+    <Icon>structures/palisade_wall</Icon>
 	<Tooltip>A wooden and turf palisade buildable in enemy and neutral territories.</Tooltip>
     <History>Quick building, but expensive wooden and earthen walls used to surround and siege an enemy town or fortified position. The most famous examples are the Roman sieges of the Iberian stronghold of Numantia and the Gallic stronghold of Alesia.</History>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="5.0"/>
   </Obstruction>
-  <TerritoryDecay>
-    <HealthDecayRate>1</HealthDecayRate>
-  </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/romans/siege_wall_medium.xml</Actor>

@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Attack disable=""/>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-    <Distance>
-      <FromClass>MercenaryCamp</FromClass>
-      <MinDistance>100</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Cost>
     <BuildTime>300</BuildTime>
     <Resources>
@@ -58,9 +51,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryDecay>
-    <HealthDecayRate>1</HealthDecayRate>
-  </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/mercenaries/camp_egyptian.xml</Actor>

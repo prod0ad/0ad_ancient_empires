@@ -1,43 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_military_barracks">
+  <Attack disable=""/>
   <Cost>
     <BuildTime>200</BuildTime>
     <Resources>
-      <wood>300</wood>
-	  <stone>0</stone>
-	  <metal>0</metal>
+      <wood>200</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
+  <Footprint>
+    <Square width="25.5" depth="25.5"/>
+    <Height>12.0</Height>
+  </Footprint>
   <Health>
-    <Max>1800</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>mace</Civ>
-    <SpecificName>Synergeíon Poliorkías</SpecificName>
-	<GenericName>Siege Workshop</GenericName>
-    <History>The Macedonians were innovators in siege craft.</History>
-    <Tooltip>Build siege engines. Research siege technologies.</Tooltip>
+    <GenericName>Siege Workshop</GenericName>
+	<SpecificName>Siege Workshop</SpecificName>
+    <History>Mercenaries will go where the metal is.</History>
+    <Tooltip>Trains and upgrades Siege Weapons.</Tooltip>
     <Icon>structures/siege_workshop.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">
+	  -Village
+	  City
+	</VisibleClasses>		
   </Identity>
+  <Obstruction>
+    <Static width="23.5" depth="23.5"/>
+  </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/mace_mechanical_siege_oxybeles_packed
       units/mace_mechanical_siege_lithobolos_packed
       units/mace_mechanical_siege_ram
-      units/mace_mechanical_siege_tower
+      units/mace_mechanical_siege_tower  
     </Entities>
     <Technologies datatype="tokens">
       siege_attack
-      siege_armor
-      siege_bolt_accuracy
 	  siege_cost
-	  siege_packing
+	  siege_packing	
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/hellenes/blacksmith.xml</Actor>
+    <Actor>structures/ptolemies/settlement.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

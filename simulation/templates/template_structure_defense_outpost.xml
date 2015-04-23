@@ -27,7 +27,6 @@
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
     <Category>House</Category>
   </BuildRestrictions>
   <Cost>
@@ -82,9 +81,6 @@
     <BarHeight>0.6</BarHeight>
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <HealthDecayRate>2</HealthDecayRate>
-  </TerritoryDecay>
   <Vision>
     <Range>80</Range>
   </Vision>

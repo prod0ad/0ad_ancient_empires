@@ -4,7 +4,7 @@
 	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 500},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "parade_of_daphne.png",
+	"icon": "uber_dock.png",
 	"researchTime": 60,
 	"tooltip": "-25% Heavy Warship build time",
 	"modifications": [

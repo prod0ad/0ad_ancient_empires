@@ -56,9 +56,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>true</Root>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>props/structures/mauryans/ashoka_pillar.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>

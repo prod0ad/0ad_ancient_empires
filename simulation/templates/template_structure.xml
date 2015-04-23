@@ -18,7 +18,7 @@
   <Guard/>
   <BuildRestrictions>
     <PlacementType>land</PlacementType>
-    <Territory>own</Territory>
+    <Territory>own enemy ally neutral</Territory>
   </BuildRestrictions>
   <Cost>
     <Population>0</Population>
@@ -32,7 +32,8 @@
     </Resources>
   </Cost>
   <Decay>
-    <Inactive/>
+    <Active>false</Active>
+    <SinkingAnim>false</SinkingAnim>
     <DelayTime>0.0</DelayTime>
     <SinkRate>3.0</SinkRate>
     <SinkAccel>9.8</SinkAccel>
@@ -67,8 +68,8 @@
     <LineTexture>art/textures/misc/rallypoint_line.png</LineTexture>
     <LineTextureMask>art/textures/misc/rallypoint_line_mask.png</LineTextureMask>
     <LineThickness>0.2</LineThickness>
-    <LineColour r="35" g="86" b="188"/>
-    <LineDashColour r="158" g="11" b="15"/>
+    <LineColor r="35" g="86" b="188"/>
+    <LineDashColor r="158" g="11" b="15"/>
     <LineStartCap>square</LineStartCap>
     <LineEndCap>round</LineEndCap>
     <LineCostClass>default</LineCostClass>
@@ -98,14 +99,13 @@
     <BarHeight>0.6</BarHeight>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
-  <TerritoryDecay>
-    <HealthDecayRate>5</HealthDecayRate>
-  </TerritoryDecay>
-  <Visibility/>
-  <Vision>
-    <Range>40</Range>
+  <Visibility>
     <RetainInFog>true</RetainInFog>
     <AlwaysVisible>false</AlwaysVisible>
+    <Preview>false</Preview>
+  </Visibility>
+  <Vision>
+    <Range>40</Range>
   </Vision>
   <VisualActor>
     <ConstructionPreview/>

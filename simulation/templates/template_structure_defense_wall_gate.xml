@@ -55,11 +55,7 @@
       <gate_unlocked>interface/select/building/sel_gate.xml</gate_unlocked>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>20</Radius>
-    <Weight>65536</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <FoundationActor>structures/fndn_wall.xml</FoundationActor>
   </VisualActor>

@@ -28,12 +28,8 @@
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own neutral</Territory>
+    <Territory>own enemy ally neutral</Territory>
     <Category>CivilCentre</Category>
-    <Distance>
-      <FromClass>CivilCentre</FromClass>
-      <MinDistance>200</MinDistance>
-    </Distance>
   </BuildRestrictions>
   <Cost>
     <PopulationBonus>20</PopulationBonus>
@@ -70,7 +66,6 @@
     </Classes>
     <VisibleClasses datatype="tokens">CivilCentre</VisibleClasses>
     <Icon>structures/civic_centre.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
     <food>0</food>

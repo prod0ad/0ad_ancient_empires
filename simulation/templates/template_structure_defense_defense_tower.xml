@@ -91,11 +91,7 @@
     <BarHeight>0.6</BarHeight>
     <HeightOffset>21.0</HeightOffset>
   </StatusBars>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>32</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>80</Range>
   </Vision>

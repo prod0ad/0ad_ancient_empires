@@ -28,7 +28,6 @@
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own neutral enemy</Territory>
     <Category>Fortress</Category>
   </BuildRestrictions>
   <Cost>
@@ -75,9 +74,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryDecay>
-    <HealthDecayRate>10</HealthDecayRate>
-  </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>

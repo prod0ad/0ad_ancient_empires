@@ -8,14 +8,10 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/pers_champion_cavalry	
-      units/pers_mechanical_siege_ram
-      units/pers_mechanical_siege_oxybeles_packed	  
+      units/pers_champion_cavalry	 
     </Entities>
     <Technologies datatype="tokens">
       siege_attack
-      siege_armor
-	  siege_cost
     </Technologies>
   </ProductionQueue>
   <VisualActor>

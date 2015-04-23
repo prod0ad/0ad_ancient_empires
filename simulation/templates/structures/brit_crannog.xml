@@ -5,7 +5,6 @@
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own ally neutral</Territory>
     <PlacementType>shore</PlacementType>
     <Category>Dock</Category>
   </BuildRestrictions>

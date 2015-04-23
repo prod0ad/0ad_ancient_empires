@@ -1,0 +1,138 @@
+{
+	"Code":"spart",
+	"Culture":"hele",
+	"Name":"Spartans",
+	"Emblem":"session/portraits/emblems/emblem_spartans.png",
+	"History":"Sparta was a prominent city-state in ancient Greece, and its dominant military power on land from circa 650 B.C. Spartan culture was obsessed with military training and excellence, with rigorous training for boys beginning at age seven. Thanks to its military might, Sparta led a coalition of Greek forces during the Greco-Persian Wars, and won over Athens in the Peloponnesian Wars, though at great cost.",
+	"Music":[
+			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Spartans",
+			"Description":"",
+			"Technologies":
+			[
+		        {
+	        	 	"Name":"Laws of Lycurgus",
+	        		"History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
+	        		"Description":"All soldiers and workers +10% hit points."
+	        	},			
+				{
+					"Name":"Cleomenian Reforms",
+					"History":"Cleomenes III redistributed the land, freed thousands of Helots, enlisted many of them along with Spartans and Perioikoi in his newly formed pike phalanxes in an attempt to restore Spartan power.",
+					"Description":"Spartan Phalangites are unlocked. +25% farming rate for all workers."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Spartan Royal Guard",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Extremely powerful Spearman."
+				},
+				{
+					"Name":"Spartan Phalangites",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Heavy Pikeman. Requires Cleomenian Reforms."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"The Agoge",
+			"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
+			"Description":"+10% health, attack and speed for melee infantry, but also +10% train time."
+			},	
+		{
+			"Name":"Wall of Men",
+			"History":"Sparta had no walls until the final years of her independence. Her men were their walls.",
+			"Description":"The Spartans can't build stone walls."
+		},	
+		{
+			"Name":"Limited Manpower",
+			"History":".",
+			"Description":"Two types of Barracks. Syssition is limited to one and trains powerful Spartan Hoplites, while Levy Barracks train Subject Levies which are easier to mass produce."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Peloponnesian League",
+			"History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies. Many of those allies often fielded superb hoplites.",
+			"Description":"+10% Citizen Spear Infantry hit points (currently not shared)."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Gerousia",
+			"Class":"",
+			"Emblem":"",
+			"History":".",
+			"Phase":"City",
+			"Special":"Researches unique upgrades at no resource cost but with a long research time."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/spart_civil_centre"
+		},
+		{
+			"Template": "units/spart_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/spart_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"AINames":
+	[
+		"Leonidas",
+		"Dienekes",
+		"Brasidas",
+		"Agis",
+		"Archidamus",
+		"Lysander",
+		"Pausanias",
+		"Agesilaus",
+		"Echestratus",
+		"Eurycrates",
+		"Eucleidas",
+		"Agesipolis"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": ""
+	},
+	"SelectableInGameSetup": true
+}

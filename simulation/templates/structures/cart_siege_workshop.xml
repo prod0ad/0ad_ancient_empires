@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>200</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="25.5" depth="25.5"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cart</Civ>
+    <GenericName>Siege Workshop</GenericName>
+	<SpecificName>Siege Workshop</SpecificName>
+    <History>Mercenaries will go where the metal is.</History>
+    <Tooltip>Trains and upgrades Siege Weapons.</Tooltip>
+    <Icon>structures/siege_workshop.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <VisibleClasses datatype="tokens">
+	  -Village
+	  City
+	</VisibleClasses>		
+  </Identity>
+  <Obstruction>
+    <Static width="23.5" depth="23.5"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/cart_mechanical_siege_ballista_packed
+      units/cart_mechanical_siege_oxybeles_packed
+    </Entities>
+    <Technologies datatype="tokens">
+      siege_attack
+	  siege_cost
+	  siege_packing
+	  carthaginians/training_siege_weapons	  	  
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/ptolemies/settlement.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

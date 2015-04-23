@@ -42,19 +42,18 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Root>false</Root>
-    <Radius>40</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      speed_trader_01
-    </Technologies>
     <Entities datatype="tokens">
       units/{civ}_support_trader
     </Entities>
+    <Technologies datatype="tokens">
+      speed_trader_01
+      gather_capacity_basket
+      gather_capacity_wheelbarrow
+      gather_capacity_carts	  
+    </Technologies>	
   </ProductionQueue>
   <Vision>
     <Range>30</Range>

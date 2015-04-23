@@ -1,0 +1,146 @@
+{
+	"Code": "gaul",
+	"Culture": "celt",
+	"Name": "Gauls",
+	"Emblem": "session/portraits/emblems/emblem_celts.png",
+	"History": "The Gauls were the Celtic tribes of continental Europe. Dominated by a priestly class of Druids, they featured a sophisticated culture of advanced metalworking, agriculture, trade and even road engineering. With heavy infantry and cavalry, Gallic warriors valiantly resisted Caesar's campaign of conquest and Rome's authoritarian rule.",
+	"Music":[
+			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Gauls",
+			"Description": "The Celts of mainland Europe.",
+			"Technologies":
+			[
+				{
+					"Name": "Late Armies (Reform)",
+					"History": "Late Gallic armies included an increased number of men armored in chainmail.",
+					"Description": "+1 hack and +1 pierce armor for melee infantry and cavalry units. Unlocks the training of champion units at the barracks."
+				},
+				{
+					"Name": "Great Migration",
+					"History": "The Gauls often relocated en mass. One prime example is the Galatian invasion of the Balkans which concluded with a large portion of them settling in the middle of Asia Minor and another one in Eastern Thrace.",
+					"Description": "All structures construct 30% faster."
+				},				
+				{
+					"Name": "Trimarchisia",
+					"History": "A special tactic used by Gallic horsemen involving extra horses and servants allowing them to rest while maintaining constant pressure on the enemy.",
+					"Description": "Cavalry units will regenerate health rapidly over time when idle." 
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Soldiuros",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Professional heavy swordsmen."
+				},
+				{
+					"Name": "Gallic Noble",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Elite Heavy Cavalry." 
+				} 
+			] 
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Carnutes",
+			"History": "Celtic religion and druidry inspired their warlike mindset.",
+			"Description": "Druids increase the attack damage of soldiers near them by 1." 
+		},
+		{
+			"Name": "Celtic Valour",
+			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
+			"Description": "Non-Champion melee infantry +10% walk and run speed, -20% hit points and -10% wood/metal cost." 
+		},
+		{
+			"Name": "Wooden Construction",
+			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
+			"Description": "Structures construct 20% faster but are also 20% weaker. Most Structures provide +5 population." 
+		},
+		{
+			"Name": "Herding",
+			"History": ".", 
+			"Description": "The Gauls start the game with an extra sheep." 
+		}		
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Foreign Service",
+			"History": "Many Gauls served in foreign armies as mercenaries, settler troops or parts of elite/royal guard units.",
+			"Description": "10% decreased train time for Champion and Mercenary units (currently not shared)." 
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name": "Melonas",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Celts developed the first rotary flour mill.",
+			"Requirements": "",
+			"Phase": "",
+			"Description": "25% increased farming rate for nearby farms." 
+		}	
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/gaul_civil_centre" 
+		},
+		{
+			"Template": "units/gaul_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "gaia/fauna_sheep",
+			"Count": 1
+		},		
+		{
+			"Template": "units/gaul_cavalry_javelinist_b" 
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line"
+	],
+	"AINames":
+	[
+		"Britomartos",
+		"Brennos",
+		"Uerkingetorix",
+		"Divico",
+		"Ambiorix",
+		"Ariovistus",
+		"Cassivellaunus",
+		"Liscus",
+		"Valetiacos"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/units/special_starting_unit": "gaia/fauna_sheep"		
+	},
+	"SelectableInGameSetup": true
+}

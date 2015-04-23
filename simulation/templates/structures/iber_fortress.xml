@@ -12,11 +12,8 @@
     <Entities datatype="tokens">
       units/iber_champion_infantry
       units/iber_champion_cavalry
-      units/iber_mechanical_siege_ram
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
 	  iberians/guerilla	  
     </Technologies>
   </ProductionQueue>

@@ -17,15 +17,9 @@
       units/ptol_champion_cavalry
       units/ptol_champion_elephant
       units/ptol_champion_infantry_swordsman
-      units/ptol_mechanical_siege_polybolos_packed
-      units/ptol_mechanical_siege_lithobolos_packed
-      units/ptol_mechanical_siege_tower
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-	  siege_cost
-	  siege_packing
+	  successors/ptol_merc_army	  
 	  successors/ptol_garrisons
 	  successors/ptol_reforms_machimoi
 	  successors/ptol_reforms_roman	  

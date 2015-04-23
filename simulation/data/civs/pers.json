@@ -1,0 +1,157 @@
+{
+	"Code": "pers",
+	"Culture": "pers",
+	"Name": "Persians",
+	"Emblem": "session/portraits/emblems/emblem_persians.png",
+	"History": "The Persian Empire, when ruled by the Achaemenid dynasty, was one of the greatest empires of antiquity, stretching at its zenith from the Indus Valley in the east to Greece in the west. The Persians were the pioneers of empire-building of the ancient world, successfully imposing a centralized rule over various peoples with different customs, laws, religions and languages, and building a cosmopolitan army made up of contingents from each of these nations.",
+	"Music":[
+			{"File":"Eastern_Dreams.ogg", "Type":"peace"},
+			{"File":"Sands_of_Time.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name": "Late Achaemenid Armies (Reform)",
+					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
+					"Description": "Unlocks War Elephants and Bactrian Lancers at the general's hall."
+				},
+			    {
+	        		"Name": "Naval Expansion",
+		        	"History": "The Persians are known as the first to transport large numbers of cavalry overseas. They also hired Phoenicians and other experienced sailors in the Persian navy.",
+			        "Description": "Triremes get +15% speed. Trade Ships get +10 transport capacity."
+		        },				
+				{
+					"Name": "Nisean War Horses",
+					"History": "The beautiful and powerful breed of Nisean horses increases health for Persian cavalry.",
+					"Description": "+20% health for cavalry."
+				} 
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Immortal",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Fast trained medium Spearman." 
+				},
+				{
+					"Name": "Scythed Chariot",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Wreckless Mesopotamian Chariot Rider." 
+				},
+				{
+					"Name": "Bactrian Lancer",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Elite Heavy Cavalry. Requires Late Acheamenid Armies." 
+				},		
+				{
+					"Name": "War Elephant",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Powerful War Beast. Requires Late Acheamenid Armies."
+				} 
+			]
+		} 
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Great King's Levy",
+			"History": "The Persians could and did levy a large number of infantry during wartime due to the sheer size of the Achaemenid Empire and the way in which it was set-up. In general the Persian infantry was well trained and fought with great tenacity. However while this was true the infantry were poor hand-to-hand, close combat fighters. Also, with the exception of the elite regiments, the Persian infantry was not a standing professional force.",
+			"Description": "Persians have a +10% population cap bonus (e.g. 330 pop cap instead of the usual 300)."
+		}, 		
+		{
+			"Name": "Persian Architecture",
+			"History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
+			"Description": "Structures have +25% hit points but build 20% slower."
+		},	
+		{
+			"Name": "Light Infantry",
+			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
+			"Description": "Levy Spear Infantry are significantly weaker, cheaper and faster to train."
+		},
+		{
+			"Name":"Archery Tradition",
+			"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
+			"Description":"Infantry Archers +10% range/vision and -25% train time."
+		}						
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Royal Road",
+			"History": "Coinage was invented by the Lydians in 7th Century B.C., but it was not very common until the Persian period. Darius the Great standardized coined money and his golden coins (known as 'darics') became commonplace not only throughout his empire, but as far to the west as Central Europe.",
+			"Description": "Traders move 15% faster (currently not shared)."
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name": "General's Hall",
+			"Class": "",
+			"Emblem": "",
+			"History": "Mercenary Generals such as Memnon of Rhodes enjoyed a high standing in late Achaemenid Persia.",
+			"Requirements": "",
+			"Phase": "city",
+			"Description": "Hires Elite and Champion Mercenary Units."			
+		}		
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/pers_civil_centre"
+		},
+		{
+			"Template": "units/pers_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/pers_cavalry_javelinist_b" 
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line"
+	],
+	"AINames":
+	[
+		"Kurush II the Great",
+		"Darayavahush I",
+		"Cambyses II",
+		"Bardiya",
+		"Xsayarsa I",
+		"Artaxshacha I",
+		"Darayavahush II",
+		"Darayavahush III",
+		"Artaxshacha II",
+		"Artaxshacha III",
+		"Haxamanish",
+		"Xsayarsa II"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/pers_infantry_archer_b",
+		"skirmish/structures/default_house_10" : "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

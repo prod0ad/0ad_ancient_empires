@@ -1,0 +1,132 @@
+{
+	"Code":"athen",
+	"Culture":"hele",
+	"Name":"Athenians",
+	"Emblem":"session/portraits/emblems/emblem_athenians.png",
+	"History":"As the cradle of Western civilization and the birthplace of democracy, Athens was famed as a center for the arts, learning and philosophy. The Athenians were also powerful warriors, particularly at sea. At its peak, Athens dominated a large part of the Hellenic world for several decades.",
+	"Music":[
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Athenians",
+			"Description":"A Hellenic people of the Ionian tribe.",
+			"Technologies":
+			[
+				{
+					"Name":"Iphicratean Reforms",
+					"History":"Iphicrates changed the equipment of Athenian Soldiers and introduced the Iphicratid boots, increasing their mobility.",
+					"Description":"All infantry units move 15% faster."
+				},
+				{
+					"Name":"Long Walls",
+					"History":"The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
+					"Description":"Stone walls build 50% faster."
+				},
+				{
+					"Name":"Imperialism",
+					"History":"Soon after the formation of the Delian league, the Athenians started treating costal towns and even their own allies as subjects.",
+					"Description":"Civic Centers provide a small tickle of metal."
+				},
+				{
+					"Name":"Chorigoi",
+					"History":"Rich Athenian Citizens often took the task of maintaining a Trireme and paying it's crew.",
+					"Description":"Triremes cost 50% less metal."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Logades",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Athenian picked hoplites who serve as the city's elite heavy infantry"
+				}
+			]
+		}
+	],	
+	"CivBonuses":
+	[
+		{
+			"Name":"Silver Owls",
+			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
+			"Description":"Metal mining gathering rates increased by +10% for each passing age."
+		},
+		{
+			"Name":"Great Polis",
+			"History":"Athens was the largest city in ancient Greece with great walls, temples and other architectural achievements.",
+			"Description":"Athenian Structures have +10% hit points and vision range."
+		},
+		{
+			"Name":"Thracian Ties",
+			"History":"Athenian colonies on the Thracian coast kept them in contact with the Thracians, heavily influencing the Athenian Military.",
+			"Description":"+15% Javelin Unit pierce damage."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Delian League",
+			"History":"Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
+			"Description":"Ships construct 25% faster (currently not shared)."
+		}
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/athen_civil_centre"
+		},
+		{
+			"Template": "units/athen_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/athen_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"AINames":
+	[
+		"Themistocles",
+		"Pericles",
+		"Cimon",
+		"Aristides",
+		"Xenophon",
+		"Hippias",
+		"Cleisthenes",
+		"Thucydides",
+		"Alcibiades",
+		"Miltiades",
+		"Cleon",
+		"Cleophon",
+		"Thrasybulus",
+		"Iphicrates",
+		"Demosthenes"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/athen_infantry_slinger_b",
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
