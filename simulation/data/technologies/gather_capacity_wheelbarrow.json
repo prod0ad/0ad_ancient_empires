@@ -3,7 +3,7 @@
 	"description": "Increases shuttling capacity for all resources.",
 	"cost": {"food": 300, "wood": 300, "stone": 0, "metal": 0},
 	"supersedes": "gather_capacity_basket",
-	"requirements": {"tech": "phase_town"},
+	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "wheelbarrow_empty.png",
 	"researchTime": 40,

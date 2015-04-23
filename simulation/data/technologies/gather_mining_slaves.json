@@ -1,20 +1,14 @@
 {
 	"genericName": "Slaves",
-	"specificName": {
-		"hele": "Andrapodon",
-		"mace": "Andrapodon",
-		"spart": "Andrapodon",
-		"athen": "Andrapodon"
-	},
 	"description": "Increases stone gathering rates.",
 	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
 	"supersedes": "gather_mining_serfs",
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in imperial Phase.",
 	"icon": "mining_stone.png",
 	"researchTime": 40,
-	"tooltip": "Buy slaves to help your workers mine for stone. +50% stone gathering rate.",
-	"modifications": [{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.50}],
+	"tooltip": "+15% stone gathering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.15}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

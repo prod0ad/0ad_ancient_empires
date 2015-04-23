@@ -1,15 +1,9 @@
 {
 	"genericName": "Servants",
-	"specificName": {
-		"hele": "Douloi",
-		"mace": "Douloi",
-		"spart": "Douloi",
-		"athen": "Douloi"
-	},
 	"description": "Increases stone gathering rates.",
 	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 50},
-	"requirements": {"tech": "phase_village"},
-	"requirementsTooltip": "Hire servants to help mine stone. No requirements.",
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "mining_stone.png",
 	"researchTime": 40,
 	"tooltip": "+15% stone gathering rate.",

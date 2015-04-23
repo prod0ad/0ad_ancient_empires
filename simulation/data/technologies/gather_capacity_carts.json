@@ -3,7 +3,7 @@
 	"description": "Increases shuttling capacity for all resources.",
 	"cost": {"food": 600, "wood": 600, "stone": 0, "metal": 0},
 	"supersedes": "gather_capacity_wheelbarrow",
-	"requirements": {"tech": "phase_city"},
+	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "handcart_empty.png",
 	"researchTime": 40,
