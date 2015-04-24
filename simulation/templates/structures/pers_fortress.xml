@@ -12,6 +12,7 @@
     </Entities>
     <Technologies datatype="tokens">
       siege_attack
+	  fort_persians_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

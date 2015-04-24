@@ -21,6 +21,7 @@
     </Entities>
     <Technologies datatype="tokens">
       successors/upgrade_mace_silvershields
+      successors/upgrade_mace_royal_companions  
 	  successors/mace_fetters_of_hellas
 	  successors/mace_antigonid_early_reform
 	  successors/mace_antigonid_late_reform

@@ -15,12 +15,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/spart_mechanical_siege_ram
-      units/spart_mechanical_siege_oxybeles_packed
+	  units/spart_infantry_spearman_b
+	  units/spart_champion_infantry_spear
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
+	  upgrades/spearman_a
+	  upgrades/spearman_e
     </Technologies>
   </ProductionQueue>
   <VisualActor>

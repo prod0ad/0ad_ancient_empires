@@ -1,0 +1,13 @@
+{
+	"genericName": "Phoenician Sailors",
+	"description": "+15% Trireme speed.",	
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "population.png",
+	"modifications": [
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.15}
+	],
+	"affects": ["Medium Warship"]
+}

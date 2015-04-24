@@ -6,5 +6,5 @@
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1}
 	],
-	"affects": ["Levy Spear Infantry"]
+	"affects": ["Spear Infantry"]
 }

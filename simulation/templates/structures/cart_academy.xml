@@ -24,12 +24,11 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-	  architecture
-	  attack_tower_ballista	  
-	  fire_arrows  
-      siege_accuracy
-      siege_range	 
-	  carthaginians/cart_triple_walls	  
+      academy_tower_ballista	  	  
+	  academy_fire_arrows  
+      academy_siege_accuracy
+      academy_siege_range
+	  academy_architecture	  
     </Technologies>
   </ProductionQueue>
   <Sound>

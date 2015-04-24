@@ -2,6 +2,7 @@
 	"genericName": "Imperial Phase",
 	"requirements": { "all": [{"tech":"phase_imperial_generic"}, {"civ": "maur"}]},
 	"autoResearch": true,
+	"icon": "political_face.png",	
 	"tooltip": "Mauryans get -5 Worker and infantry citizen food costs by advancing phases.",
 	"modifications": [{"value": "Cost/Resources/food", "add": -5}],
 	"affects": ["Worker","Infantry"],

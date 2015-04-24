@@ -51,7 +51,7 @@
 		{
 			"Name":"The Agoge",
 			"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
-			"Description":"+10% health, attack and speed for melee infantry, but also +10% train time."
+			"Description":"+10% health, attack and speed for melee infantry, but also +20% train time."
 			},	
 		{
 			"Name":"Wall of Men",
@@ -61,7 +61,7 @@
 		{
 			"Name":"Limited Manpower",
 			"History":".",
-			"Description":"Two types of Barracks. Syssition is limited to one and trains powerful Spartan Hoplites, while Levy Barracks train Subject Levies which are easier to mass produce."
+			"Description":"Maximum population reduced by 10%. Two types of Barracks. Syssition is limited to one and trains powerful Spartan Hoplites, while Levy Barracks train Levied subjects."
 		}
 	],
 	"TeamBonuses":

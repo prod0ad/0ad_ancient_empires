@@ -16,9 +16,8 @@
       phase_city_athen
       -phase_imperial_generic	
       phase_imperial_athen
-      health_females_01	  
-      hellenes/athen_long_walls
-	  hellenes/athen_imperialism 	  
+      civic_health_workers  
+      civic_vision_structure	  
     </Technologies>
   </ProductionQueue>
     <ResourceTrickle>

@@ -1,8 +1,7 @@
 {
 	"genericName": "Scientific Adaptation",
 	"autoResearch": true,
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "rome"}]},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "rome"}]},
 	"tooltip": "+10% Structure, Ship and Siege Unit hit points.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1}

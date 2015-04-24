@@ -42,13 +42,13 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      gather_lumbering_ironaxes
-      gather_lumbering_strongeraxes
-      gather_lumbering_sharpaxes
-      gather_mining_servants
-      gather_mining_serfs
-      gather_mining_wedgemallet
-      gather_mining_shaftmining
+      storehouse_lumbering_01
+      storehouse_lumbering_02
+      storehouse_lumbering_03
+      storehouse_stonemining_01
+      storehouse_stonemining_02
+      storehouse_metalmining_01
+      storehouse_metalmining_02
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

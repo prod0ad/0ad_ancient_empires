@@ -41,8 +41,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-	  hellenes/spart_tyrtean_paeans
-      hellenes/spartans_agoge
+	  hellenes/spart_laws_of_lycurgus
 	  hellenes/spart_cleom_reforms
     </Technologies>
   </ProductionQueue>

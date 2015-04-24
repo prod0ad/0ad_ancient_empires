@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/mace_champion_cavalry">
+  <Attack>
+    <Melee>
+      <Hack>45</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>6.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Royal Companion</SpecificName>
+    <Icon>units/hele_champion_cavalry_mace.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/macedonians/champion_cavalry.xml</Actor>
+  </VisualActor>
+</Entity>

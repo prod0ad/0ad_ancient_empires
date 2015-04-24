@@ -6,7 +6,6 @@
       <Pierce>12.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>55.0</MaxRange>
-      <MinRange>10.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1000</RepeatTime>
@@ -19,18 +18,11 @@
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
   </BuildingAI>
-  <BuildRestrictions>
-    <Category>DefenseTower</Category>
-    <Distance>
-      <FromClass>DefenseTower</FromClass>
-      <MinDistance>60</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Cost>
     <Population>2</Population>  
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <wood>200</wood>
       <stone>100</stone>
     </Resources>
   </Cost>
@@ -71,11 +63,11 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      vision_outpost	
-      attack_tower_watch
-      attack_tower_crenellations
-      attack_tower_range
-	  attack_tower_boiling_oil
+      tower_vision	
+      tower_watch
+      tower_crenellations
+	  tower_guard
+	  tower_keep
     </Technologies>
   </ProductionQueue>
   <Sound>

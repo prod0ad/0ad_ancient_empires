@@ -4,10 +4,12 @@
 	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
+	"supersedes": "tower_guard",	
 	"icon": "arrow.png",
-	"researchTime": 40,
-	"tooltip": "Increases Defense Tower maximum range by 10 meters.",
-	"modifications": [{"value": "Attack/Ranged/MaxRange", "add": 10}],
+	"researchTime": 60,
+	"tooltip": "Increases tower hitpoints and range by 20%.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.20},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.20}],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

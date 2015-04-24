@@ -6,10 +6,9 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "blocks_three.png",
 	"researchTime": 40,
-	"tooltip": "Defense Tower +2 all armor levels.",
-	"modifications": [{"value": "Armour/Hack", "add": 2},
-		{"value": "Armour/Pierce", "add": 2},
-		{"value": "Armour/Crush", "add": 2}],
+	"tooltip": "Increases tower hitpoints and range by 20%.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.20},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.20}],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

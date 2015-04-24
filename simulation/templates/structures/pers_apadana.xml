@@ -43,10 +43,11 @@
       units/pers_champion_infantry  
     </Entities>
     <Technologies datatype="tokens">
-      persians/late_reform	  	  
-	  architecture
-      attack_tower_ballista	 
-	  fire_arrows  	  	
+      academy_tower_ballista	  	  
+	  academy_fire_arrows  
+      academy_siege_accuracy
+      academy_siege_range
+	  academy_architecture	  
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

@@ -6,7 +6,6 @@
       <Pierce>30.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>75.0</MaxRange>
-      <MinRange>10.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
@@ -19,13 +18,6 @@
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
   </BuildingAI>
-  <BuildRestrictions>
-    <Category>Fortress</Category>
-    <Distance>
-      <FromClass>Fortress</FromClass>
-      <MinDistance>80</MinDistance>
-    </Distance>
-  </BuildRestrictions>
   <Cost>
     <Population>5</Population>
     <BuildTime>300</BuildTime>

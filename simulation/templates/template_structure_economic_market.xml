@@ -49,10 +49,10 @@
       units/{civ}_support_trader
     </Entities>
     <Technologies datatype="tokens">
-      speed_trader_01
-      gather_capacity_basket
-      gather_capacity_wheelbarrow
-      gather_capacity_carts	  
+      market_speed_trader_01
+      market_gather_capacity_01
+      market_gather_capacity_02
+      market_gather_capacity_03
     </Technologies>	
   </ProductionQueue>
   <Vision>

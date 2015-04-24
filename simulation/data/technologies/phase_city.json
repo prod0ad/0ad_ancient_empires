@@ -2,9 +2,5 @@
 	"genericName": "City Phase",
 	"requirements": { "any": [{"tech":"phase_city_generic"}, {"tech":"phase_city_athen"}]},
 	"autoResearch": true,
-	"modifications": 
-	[{"value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivCentre"},
-	 {"value": "Vision/Range", "multiply": 1.25}],
-	"affects": ["Structure"], 
-	"soundComplete": "interface/alarm/alarm_phase.xml"
+	"icon": "city_phase.png"		
 }

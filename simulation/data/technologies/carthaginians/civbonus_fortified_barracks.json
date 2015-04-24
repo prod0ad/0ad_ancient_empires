@@ -5,6 +5,6 @@
 	"cost": {"food": 0, "wood": 0, "stone": 1000, "metal": 0},
 	"requirements": {"civ": "cart"},
 	"modifications": [{"value": "Health/Max", "multiply": 1.25}],
-	"affects": ["Barracks", "Fortress"],
+	"affects": ["Barracks", "Fortress", "StoneWall"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

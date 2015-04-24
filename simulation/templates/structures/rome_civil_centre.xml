@@ -28,7 +28,8 @@
   </Health>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      health_females_01
+      civic_health_workers  
+      civic_vision_structure	
     </Technologies>
   </ProductionQueue>    
   <Obstruction>

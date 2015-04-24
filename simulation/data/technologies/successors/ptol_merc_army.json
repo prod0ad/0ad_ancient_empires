@@ -6,9 +6,9 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "special_treasure.png",
 	"researchTime": 40,
-	"tooltip": "-40% Mercenary unit train time.",
+	"tooltip": "-50% Mercenary unit train time.",
 	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.6}
+		{"value": "Cost/BuildTime", "multiply": 0.5}
 	],
 	"affects": ["Mercenary"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
