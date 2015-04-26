@@ -1,0 +1,13 @@
+{
+	"genericName": "Salt Amphora",
+	"cost": {"food": 150, "wood": 0, "stone": 150, "metal": 0},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",	
+	"supersedes": "dock_fishing_01",	
+	"icon": "metal_pot.png",
+	"researchTime": 40,
+	"tooltip": "Fishing boats +50% shuttle capacity.",
+	"modifications": [{"value": "ResourceGatherer/Capacities/food", "multiply": 1.5}],
+	"affects": ["FishingBoat"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

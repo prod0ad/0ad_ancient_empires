@@ -1,37 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Cost>
-    <BuildTime>200</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <wood>150</wood>
       <stone>100</stone>
-      <metal>100</metal>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="30.0" depth="30.0"/>
-    <Height>8.0</Height>
+    <Square width="23" depth="23"/>
   </Footprint>
   <Health>
-    <Max>2400</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
-  <GarrisonHolder>
-    <Max>20</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Infantry Cavalry</List>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>2</LoadingRange>
-  </GarrisonHolder>   
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>Military Barracks</SpecificName>
-    <Tooltip>Train Hellenistic units.</Tooltip>
-    <History>.</History>
-    <Icon>structures/italian_embassy.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="28.0" depth="28.0"/>
+    <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <Sound>
     <SoundGroups>
@@ -41,7 +26,6 @@
     </SoundGroups>
   </Sound>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/ptol_infantry_spearman_b	
 	  units/ptol_infantry_javelinist_b
@@ -52,12 +36,15 @@
 	  upgrades/pikeman_e		
 	  upgrades/skirmisher_a
 	  upgrades/skirmisher_e		 	
-	  upgrades/cavalry_heavy_e			  
+	  upgrades/cavalry_heavy_e	
+      barracks_speed_train	
+      barracks_speed_batch
+      barracks_infantry_siege	
+      barracks_ranged_accuracy	 	  
     </Technologies>	
   </ProductionQueue>
   <TerritoryInfluence disable=""/> 
   <VisualActor>
-    <Actor>structures/athenians/gymnasion.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+    <Actor>structures/ptolemies/barracks.xml</Actor>
   </VisualActor>
 </Entity>

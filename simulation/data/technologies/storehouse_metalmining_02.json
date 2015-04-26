@@ -1,8 +1,8 @@
 {
-	"genericName": "Shaft Mining",
+	"genericName": "Advanced Metal Mining",
 	"description": "Increases metal gathering rates.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 50},
-	"supersedes": "gather_mining_wedgemallet",
+	"cost": {"food": 400, "wood": 200, "stone": 0, "metal": 0},
+	"supersedes": "storehouse_metalmining_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "mining_metal.png",

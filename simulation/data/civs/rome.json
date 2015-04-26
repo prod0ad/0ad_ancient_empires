@@ -28,7 +28,7 @@
 				{
 					"Name": "Gladius Hispaniensis",
 					"History": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
-					"Description": "20% faster attack rate for Infantry Swordsmen."
+					"Description": "Infantry Swordsmen attack 20% faster."
 				}								
 			],
 			"Heroes":
@@ -60,12 +60,12 @@
 		{
 			"Name": "Citizenship",
 			"History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
-			"Description": "Units within vision range of Roman Civil Centre gain +10% attack."
+			"Description": "Units within range of Roman Civil Centres gain +10% attack."
 		},
 		{
 			"Name": "Scientific Adaptation",
 			"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
-			"Description": "Each phase researched adds 10% hit points to Structures, Ships and Siege Weapons."
+			"Description": "Structures, Ships and Siege Weapons +10% hit points for each phase researched."
 		}			
 	],
 	"TeamBonuses":

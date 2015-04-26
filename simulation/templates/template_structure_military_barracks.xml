@@ -6,7 +6,7 @@
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>300</wood>
+      <wood>250</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -27,10 +27,7 @@
   </Health>
   <Identity>
     <GenericName>Barracks</GenericName>
-    <Tooltip>Train citizen-soldiers. Research training improvements. Garrison: 10.</Tooltip>
-    <Classes datatype="tokens">
-	  Barracks
-	</Classes>	
+    <Tooltip>Trains and upgrades Infantry Units.</Tooltip>	
     <VisibleClasses datatype="tokens">
 	  Village
 	  Barracks

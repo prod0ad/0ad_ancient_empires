@@ -15,11 +15,6 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-	  fire_arrows  	  
-    </Technologies>
-  </ProductionQueue>  
   <VisualActor>
     <Actor>structures/iberians/temple.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

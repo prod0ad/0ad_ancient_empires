@@ -14,12 +14,12 @@
     <Category>Special</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime>240</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
+      <wood>200</wood>
       <stone>200</stone>
-      <metal>200</metal>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -35,7 +35,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>2000</Max>
+    <Max>2400</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

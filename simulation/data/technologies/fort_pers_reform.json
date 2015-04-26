@@ -1,8 +1,8 @@
 {
 	"genericName": "Late Achaemenid Armies (Reform).",
-	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 1000},
-	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "pers"}]},
-	"requirementsTooltip": "Unlocked in Village Phase.",
+	"cost": {"food": 375, "wood": 0, "stone": 0, "metal": 525},
+	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "pers"}]},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
 	"tooltip": "Unlocks Kardakes Hoplites and Skirmishers at the barracks and the Mercenary Hall, providing additional units.",

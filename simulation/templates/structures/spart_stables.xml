@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stables">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+      <stone>150</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>spart</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/spart_infantry_javelinist_b
+	  units/spart_cavalry_javelinist_b	 
+	  units/spart_infantry_swordsman_b	  
+	  units/spart_champion_infantry_pike
+    </Entities>
+    <Technologies datatype="tokens">	
+	  upgrades/cavalry_light_a
+	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_heavy_e		
+      stables_speed_train
+      stables_speed_cavalry_01
+    </Technologies>
+  </ProductionQueue>
+</Entity>

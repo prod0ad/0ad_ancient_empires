@@ -18,13 +18,12 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>spart</Civ>
     <GenericName>Siege Workshop</GenericName>
 	<SpecificName>Siege Workshop</SpecificName>
-    <History>Mercenaries will go where the metal is.</History>
     <Tooltip>Trains and upgrades Siege Weapons.</Tooltip>
     <Icon>structures/siege_workshop.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">
 	  -Village
 	  City

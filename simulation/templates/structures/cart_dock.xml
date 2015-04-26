@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
-  <Cost>
-    <Resources>
-      <wood>150</wood>
-    </Resources>
-  </Cost>
   <Footprint>
     <Square width="34.0" depth="23.0"/>
     <Height>8.0</Height>
@@ -28,10 +23,7 @@
       units/cart_ship_trireme
     </Entities>
     <Technologies datatype="tokens">
-	  armor_ship_reinforcedhull
-      armor_ship_hypozomata
-      armor_ship_hullsheathing
-	  expert_sailors	
+	  dock_ship_speed
     </Technologies>
   </ProductionQueue>
   <VisualActor>

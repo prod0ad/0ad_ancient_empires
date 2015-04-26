@@ -1,14 +1,14 @@
 {
-	"genericName": "Sharp Ax Heads",
+	"genericName": "Expert Lumber Harvesting",
 	"description": "Increases wood gathering rates for trees.",
-	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
-	"supersedes": "gather_lumbering_strongeraxes",
+	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 300},
+	"supersedes": "storehouse_lumbering_02",
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "wood_axe.png",
 	"researchTime": 40,
-	"tooltip": "Workers +50% lumbering rate for trees.",
-	"modifications": [{"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.50}],
+	"tooltip": "Workers +20% lumbering rate for trees.",
+	"modifications": [{"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.20}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

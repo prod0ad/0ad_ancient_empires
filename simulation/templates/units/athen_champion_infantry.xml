@@ -22,8 +22,8 @@
   </Cost>
   <Identity>
     <Civ>athen</Civ>
-	<GenericName>Champion Spearman</GenericName>
-    <SpecificName>Hoplites Epilektos</SpecificName>
+	<GenericName>Chosen Hoplite</GenericName>
+    <SpecificName>Chosen Hoplite</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_infantry.png</Icon>
 	<Tooltip>Fast Moving Spearman. Deals double damage vs Cavalry and Elephants.</Tooltip>	

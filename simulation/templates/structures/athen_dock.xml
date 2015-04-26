@@ -21,8 +21,7 @@
       units/athen_ship_trireme	  
     </Entities>
 	<Technologies datatype="tokens">	
-    hellenes/athen_chorigoi
-	expert_sailors
+	  dock_ship_speed
     </Technologies>
   </ProductionQueue>
   <VisualActor>

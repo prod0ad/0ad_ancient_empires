@@ -18,7 +18,9 @@
       units/athen_champion_infantry
     </Entities>
     <Technologies datatype="tokens">
-      hellenes/athen_iphicratean_reforms		  
+      fort_athen_chorigoi
+      fort_athen_imperialism
+      fort_athen_iphicratean_reforms	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

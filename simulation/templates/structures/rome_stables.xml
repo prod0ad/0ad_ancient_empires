@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stables">
+  <Identity>
+    <Civ>rome</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/rome_infantry_spearman_b
+      units/rome_infantry_swordsman_b	  
+      units/rome_infantry_javelinist_b	
+      units/rome_cavalry_javelinist_b		  
+      units/rome_cavalry_spearman_b  
+    </Entities>
+	<Technologies datatype="tokens">
+	  upgrades/cavalry_light_a
+	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_heavy_e		
+      stables_speed_train
+	  stables_speed_batch  
+      stables_speed_cavalry_01
+    </Technologies>
+  </ProductionQueue>
+</Entity>

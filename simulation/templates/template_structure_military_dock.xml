@@ -60,14 +60,14 @@
       units/{civ}_ship_merchant
     </Entities>
     <Technologies datatype="tokens">
-	  fishing_nets
-	  fishing_amphora
-	  transport_ship
-	armor_ship_reinforcedhull
-    armor_ship_hypozomata
-    armor_ship_hullsheathing	  
-	shipwright  
-    training_naval_architects		  
+	  dock_fishing_01
+	  dock_fishing_02
+	  dock_heavy_trasport
+	  dock_shipdefense_01
+      dock_shipdefense_02
+      dock_shipdefense_03 
+	  dock_ship_cost
+      dock_batch_speed		  
     </Technologies>
   </ProductionQueue>
   <Vision>

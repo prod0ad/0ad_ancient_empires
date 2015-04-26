@@ -1,6 +1,6 @@
 {
 	"genericName": "Experienced Mercenaries",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 250},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 600},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"requirements": {"tech": "phase_city"},
 	"icon": "upgrade_advanced.png",

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stables">
+  <Cost>
+    <Resources>
+      <wood>150</wood>
+      <stone>100</stone>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>ptol</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/ptol_infantry_javelinist_2_b
+      units/ptol_infantry_slinger_b
+      units/ptol_cavalry_archer_b
+	  units/ptol_champion_infantry_pikeman
+    </Entities>
+    <Technologies datatype="tokens">	
+	  upgrades/cavalry_light_a
+	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_heavy_e		
+      stables_speed_train
+	  stables_speed_batch  
+      stables_speed_cavalry_01
+    </Technologies>
+  </ProductionQueue>
+</Entity>

@@ -1,0 +1,13 @@
+{
+	"genericName": "Husbandry",
+	"description": "Breed the fastest horses.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "horseshoe_bronze.png",
+	"researchTime": 40,
+	"tooltip": "Cavalry +10% speed.",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.1}],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

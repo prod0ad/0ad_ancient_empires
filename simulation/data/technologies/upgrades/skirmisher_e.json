@@ -1,12 +1,12 @@
 {
 	"genericName": "Elite Skirmishers",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "upgrade_elite.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/skirmisher_a",
-	"tooltip": "Increases Skirmisher Attack, Hit Points, Range and Vision by 10%.",
+	"tooltip": "Skirmishers +10% attack, hit points, range and vision.",
 	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
 	"affects": ["Javelin Infantry Levy Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

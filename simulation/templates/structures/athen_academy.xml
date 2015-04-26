@@ -24,10 +24,9 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      academy_tower_ballista	  	  
-	  academy_fire_arrows  
       academy_siege_accuracy
       academy_siege_range
+      academy_health_regen_units		  
 	  academy_architecture	  
     </Technologies>
   </ProductionQueue>

@@ -4,11 +4,11 @@
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>60</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>6</Max>
+    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>800</Max>

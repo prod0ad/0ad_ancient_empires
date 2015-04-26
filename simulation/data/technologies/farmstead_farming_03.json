@@ -1,14 +1,14 @@
 {
-	"genericName": "Fertilizer",
+	"genericName": "Expert Farming",
 	"description": "Extra nutrients for farms.",
-	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
-	"supersedes": "gather_farming_training",
+	"cost": {"food": 0, "wood": 600, "stone": 0, "metal": 300},
+	"supersedes": "farmstead_farming_02",
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "plow.png",
 	"researchTime": 40,
-	"tooltip": "Workers +25% farming rate.",
-	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}],
+	"tooltip": "Workers +20% farming rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

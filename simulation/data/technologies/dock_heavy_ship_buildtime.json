@@ -1,0 +1,15 @@
+{
+	"genericName": "Naval Prestige",
+	"description": "The Successor Kingdoms constructed plenty of huge warships in a naval arms race.",
+	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "uber_dock.png",
+	"researchTime": 60,
+	"tooltip": "Heavy Warships -25% build time",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.75}
+	],
+	"affects": ["Heavy Warship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

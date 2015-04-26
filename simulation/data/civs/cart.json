@@ -18,12 +18,12 @@
 				{
 					"Name": "Barcid Armies (Reform)",
 					"History": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
-					"Description": "Mercenaries cost 25% less metal and gain +1 pierce and hack armor levels."
+					"Description": "Mercenaries -25% metal cost and +1 pierce and hack armor levels."
 				},
 				{
 					"Name": "Mass Production",
 					"History": "The Carthaginians excelled at massing siege weapons, especially for defensive purposes.",
-					"Description": "Siege Weapon construction speed increased by 25%."
+					"Description": "Siege Weapon -25% build time."
 				}			
 			],
 			"Heroes":
@@ -57,12 +57,12 @@
 		{
 			"Name": "Exploration",
 			"History": "Nobody knew better than the Carthaginians where in the ancient world they were going and going to go; their merchant traders had missions to everywhere.",
-			"Description": "All Traders, Cavalry and Ships +20% vision range."
+			"Description": "Traders, Cavalry and Ships +20% vision range."
 		},
 		{
 			"Name": "Colonization",
 			"History": "Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
-			"Description": "Civic Centers, Temples, Docks and Houses -20% build time."
+			"Description": "Civic Centres, Temples, Docks and Houses -20% build time."
 		},
 		{
 			"Name": "Mercenary Levy",
@@ -72,7 +72,7 @@
 		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls, Stables and Barracks have +25% hitpoints. Fortresses can train Libyan Levy units."
+			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints."
 		}		
 	],
 	"TeamBonuses":
@@ -80,7 +80,7 @@
 		{
 			"Name": "Naval Trademasters",
 			"History": "The Phoenicians and Carthaginians were broadly known as the greatest trading civilization of the ancient and classical world.",
-			"Description": "Trade Ships move 33% faster (currently not shared)."
+			"Description": "Trade Ships +33% speed (currently not shared)."
 		}
 	],
 	"Structures":

@@ -9,9 +9,9 @@
     <Category>Field</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>45</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <wood>75</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -40,7 +40,7 @@
     <Color r="119" g="82" b="46"/>
   </Minimap>
   <Obstruction>
-    <Static width="22.0" depth="22.0"/>
+    <Static width="15.0" depth="15.0"/>
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>

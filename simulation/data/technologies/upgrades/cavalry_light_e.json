@@ -1,12 +1,12 @@
 {
 	"genericName": "Elite Light Cavalry",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 250},
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "upgrade_elite.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/cavalry_light_a",
-	"tooltip": "Increases Light Cavalry Attack, Hit Points, Range and Vision by 10%.",
+	"tooltip": "Light Cavalry +10% attack, hit points, range and vision.",
 	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
 	"affects": ["Javelin Cavalry Levy Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

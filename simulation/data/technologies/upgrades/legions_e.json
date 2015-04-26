@@ -1,6 +1,6 @@
 {
 	"genericName": "Elite Legions",
-	"cost": {"food": 800, "wood": 0, "stone": 0, "metal": 400},
+	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "upgrade_elite.png",

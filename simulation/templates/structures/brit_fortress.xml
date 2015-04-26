@@ -25,12 +25,11 @@
   </Sound>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/brit_champion_infantry	
       units/brit_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">
-      celts/brit_large_tower	  
-	  celts/brit_reform
+      fort_brit_hillforts  
+	  fort_brit_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

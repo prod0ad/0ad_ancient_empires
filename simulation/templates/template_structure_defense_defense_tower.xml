@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense">
+  <BuildRestrictions>
+    <Category>DefenseTower</Category>
+    <Distance>
+      <FromClass>DefenseTower</FromClass>
+      <MinDistance>25</MinDistance>
+    </Distance>	
+  </BuildRestrictions>
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>12.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>55.0</MaxRange>
+      <MaxRange>50.0</MaxRange>
+      <MinRange>0.0</MinRange>	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1000</RepeatTime>
@@ -22,8 +30,8 @@
     <Population>2</Population>  
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <stone>100</stone>
+      <wood>100</wood>
+      <stone>150</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -65,9 +73,9 @@
     <Technologies datatype="tokens">
       tower_vision	
       tower_watch
-      tower_crenellations
 	  tower_guard
 	  tower_keep
+      tower_crenellations	  
     </Technologies>
   </ProductionQueue>
   <Sound>

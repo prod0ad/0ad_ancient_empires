@@ -19,12 +19,12 @@
 				{
 					"Name":"Antigonid Reform",
 					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly Kestros Dart Sling.",
-					"Description":"Pikemen train 20% faster and get +1 hack and pierce armor levels."
+					"Description":"Pikemen -20% train time and +1 hack and pierce armor levels."
 				},				
 		        {
 					"Name":"Fetters Of Hellas",
 					"History":"The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
-					"Description":"+50% Fortress hit points."
+					"Description":"Fortress +50% hit points."
 				},
 		        {
 					"Name":"Royal Companions",
@@ -61,17 +61,17 @@
 		{
 			"Name":"Horsemanship",
 			"History":"Unlike the Greek City-States, the Macedonians and their Thessalian and Thracian neighbours, who often provided them with military units, were great horsemen and fielded relatively large numbers of cavalry who were famed for their swiftness and thunderous charges.",
-			"Description":"+10% Cavalry speed"
+			"Description":"Cavalry +10% speed"
 		},
 		{
 			"Name":"Hardy Peltasts",
 			"History":"The northern balkan tribes provided skilled peltasts to the Macedonian army.",
-			"Description":"+15% Javelin Infantry attack."
+			"Description":"Javelin Infantry +15% attack."
 		},
 		{
 			"Name":"Advanced Siegecraft",
 			"History":"The Macedonians used a wide variety of siege engines and tactics.",
-			"Description":"+20% attack rate for siege units."
+			"Description":"Siege Units +20% attack rate."
 		}
 	],
 	"TeamBonuses":

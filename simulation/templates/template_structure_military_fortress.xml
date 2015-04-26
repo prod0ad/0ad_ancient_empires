@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>fortress</Category>
+    <Distance>
+      <FromClass>Fortress</FromClass>
+      <MinDistance>50</MinDistance>
+    </Distance>	
+  </BuildRestrictions>
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>30.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>75.0</MaxRange>
+      <MinRange>0.0</MinRange>	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
@@ -23,7 +31,7 @@
     <BuildTime>300</BuildTime>
     <Resources>
       <wood>0</wood>
-      <stone>650</stone>
+      <stone>800</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -39,7 +47,7 @@
     <LoadingRange>6</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max>5000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

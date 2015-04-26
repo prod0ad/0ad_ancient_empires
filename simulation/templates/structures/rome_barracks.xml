@@ -3,7 +3,7 @@
   <Cost>
     <Resources>
       <wood>150</wood>
-      <stone>150</stone>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -32,9 +32,11 @@
     </Entities>
 	<Technologies datatype="tokens">
       upgrades/legions_a
-      upgrades/legions_e	  
-	  romans/logistics		  
-	  romans/rome_reforms_marian	  
+      upgrades/legions_e	   
+      barracks_speed_train	
+      barracks_speed_batch
+      barracks_infantry_siege	
+      barracks_ranged_accuracy	 	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

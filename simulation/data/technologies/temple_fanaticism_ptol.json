@@ -1,0 +1,19 @@
+{
+	"genericName": "Fanaticism",
+	"cost": {"food": 225, "wood": 0, "stone": 0, "metal": 225},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",	
+	"icon": "clenched_fist.png",
+	"researchTime": 20,
+	"tooltip": "Workers +10% all resource gather rates and Soldiers +10% attack.",
+	"modifications": [
+	{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.10},
+	{"value": "Attack/Melee/Hack", "multiply": 1.10},
+	{"value": "Attack/Melee/Pierce", "multiply": 1.10},
+	{"value": "Attack/Melee/Crush", "multiply": 1.10},
+	{"value": "Attack/Ranged/Pierce", "multiply": 1.10},
+	{"value": "Attack/Ranged/Crush", "multiply": 1.10}
+	],
+	"affects": ["Worker","Soldier","Citizen"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

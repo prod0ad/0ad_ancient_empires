@@ -1,14 +1,14 @@
 {
-	"genericName": "Sturdy Foundations",
+	"genericName": "Guard Tower",
 	"description": "Reinforce the foundations in preparation of an attack.",
-	"cost": {"food": 0, "wood": 500, "stone": 500, "metal": 500},
+	"cost": {"food": 125, "wood": 175, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "blocks_three.png",
+	"icon": "defense_tower.png",
 	"researchTime": 40,
-	"tooltip": "Increases tower hitpoints and range by 20%.",
-	"modifications": [{"value": "Health/Max", "multiply": 1.20},
-		{"value": "Attack/Ranged/MaxRange", "multiply": 1.20}],
+	"tooltip": "Defense Towers +15% hit points and range.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.15},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.15}],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

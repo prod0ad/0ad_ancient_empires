@@ -17,18 +17,14 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -heal_range
-      -heal_range_2
-      -heal_rate
-      -heal_rate_2
-      -heal_temple
-      -health_regen_units
-	  successors/heal_range_ptol
-      successors/heal_range_ptol_2
-      successors/heal_rate_ptol
-      successors/heal_rate_ptol_2
-      successors/heal_temple_ptol
-      successors/health_regen_units_ptol
+      -temple_healer_skills
+      -temple_healer_skills_2
+      -temple_heal_temple
+	  -temple_fanaticism	  
+	  temple_healer_skills_ptol
+      temple_healer_skills_ptol_2
+      temple_heal_temple_ptol
+	  temple_fanaticism_ptol	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

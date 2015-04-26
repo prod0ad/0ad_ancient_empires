@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_house">
   <Cost>
-    <PopulationBonus>20</PopulationBonus>
+    <PopulationBonus>10</PopulationBonus>
     <BuildTime>60</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <wood>50</wood>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>6</Max>
+    <Max>10</Max>
   </GarrisonHolder>
   <Health>
     <Max>800</Max>

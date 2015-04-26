@@ -20,23 +20,16 @@
 				{
 					"Name": "Hill Forts",
 					"History": "Britain was full of Celtic Hill forts.",
-					"Description": "Increases Fortress hit points by 25% and adds an extra default arrow." 
+					"Description": "Fortress +25% hit points and an extra default arrow." 
 				}, 
 				{
 					"Name": "Boudicca's Levy (Reform)",
 					"History": "Roman expansionism resulted in large numbers of Britons going to war under Boudicca.",
-					"Description": "All citizen soldiers train 20% faster." 
+					"Description": "Levy Units -30% train time." 
 				} 
 			],
 			"Heroes":
 			[
-				{
-					"Name": "Longswordman",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Slow moving heavy infantry with a massive attack." 
-				},
 				{
 					"Name": "Celtic Chariot",
 					"Class": "",
@@ -52,13 +45,18 @@
 		{
 			"Name": "Celtic Valour",
 			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
-			"Description": "Non-Champion melee infantry +10% walk and run speed, -20% hit points and -10% wood/metal cost." 
-		},	
+			"Description": "Levy Melee Infantry +10% speed and -10% wood/metal cost, but -20% hit points." 
+		},
 		{
 			"Name": "Wooden Construction",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures construct 20% faster but are also 20% weaker. Most Structures provide +5 population." 
+			"Description": "Structures -20% build time but -20% hit points. Most Structures provide +5 population." 
 		},
+		{
+			"Name": "Shepherds and Hounds",
+			"History": ".", 
+			"Description": "This tech is auto-researched for free (Workers +50% meat gathering rate)." 
+		},		
 		{
 			"Name": "Dog Scout",
 			"History": ".", 
@@ -70,20 +68,11 @@
 		{
 			"Name": "Atlantic Trade",
 			"History": "Carthaginians and Greeks traded with Briton tribes sailing out of the Mediterranean, around Iberia, to western Britain. This journey required sturdy vessels.",
-			"Description": "+50% Trade Ship hit points (currently not shared)." 
+			"Description": "Trade Ships +50% hit points (currently not shared)." 
 		} 
 	],
 	"Structures":
 	[
-		{
-			"Name": "Melonas",
-			"Class": "",
-			"Emblem": "",
-			"History": "The Celts developed the first rotary flour mill.",
-			"Requirements": "",
-			"Phase": "",
-			"Description": "25% increased farming rate for nearby farms." 
-		}	
 	],
 	"StartEntities":
 	[
@@ -99,7 +88,7 @@
 			"Count": 1
 		},
 		{
-			"Template": "units/brit_war_dog_e" 
+			"Template": "units/brit_war_dog_b" 
 		}
 	],
 	"Formations":

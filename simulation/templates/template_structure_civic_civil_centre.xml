@@ -30,15 +30,19 @@
   <BuildRestrictions>
     <Territory>own enemy ally neutral</Territory>
     <Category>CivilCentre</Category>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>100</MinDistance>
+    </Distance>	
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>20</PopulationBonus>
-    <BuildTime>500</BuildTime>
+    <PopulationBonus>15</PopulationBonus>
+    <BuildTime>360</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>500</wood>
-      <stone>500</stone>
-      <metal>500</metal>
+      <wood>400</wood>
+      <stone>400</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -103,12 +107,12 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>140</Radius>
+    <Radius>150</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <AlertRaiser>
     <MaximumLevel>2</MaximumLevel>
-    <Range>140</Range>
+    <Range>150</Range>
   </AlertRaiser>
   <Vision>
     <Range>90</Range>

@@ -3,7 +3,7 @@
   <Cost>
     <Resources>
       <wood>150</wood>
-      <stone>150</stone>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -34,8 +34,10 @@
 	  upgrades/archer_a
 	  upgrades/archer_e		
 	  upgrades/slinger_e			  
-	  training_levy_infantry
-	  training_conscription  
+      barracks_speed_train	
+      barracks_speed_batch
+      barracks_infantry_siege	
+      barracks_ranged_accuracy	 
     </Technologies>
   </ProductionQueue>
   <VisualActor>

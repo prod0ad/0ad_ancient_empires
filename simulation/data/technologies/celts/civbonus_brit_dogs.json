@@ -1,0 +1,10 @@
+{
+	"genericName": "Ardiosmanae",
+	"autoResearch": true,	
+	"description": "Workers +50% hunting and herding rate.",
+	"requirements": {"civ": "brit"},
+	"modifications": [
+		{"value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5}
+	],
+	"affects": ["Worker"]
+}

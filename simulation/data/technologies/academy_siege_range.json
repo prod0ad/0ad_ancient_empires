@@ -1,12 +1,12 @@
 {
 	"genericName": "Engineering",
 	"description": "Immobile siege weapons are assembled and disassembled faster",
-	"cost": {"food": 750, "wood": 0, "stone": 0, "metal": 750},
+	"cost": {"food": 275, "wood": 0, "stone": 0, "metal": 325},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "calipers.png",
 	"researchTime": 40,
-	"tooltip": "Ranged Siege Weapons and Heavy Warship +20 range and vision.",
+	"tooltip": "Ranged Siege Weapons and Heavy Warships +20 range and vision.",
 	"modifications": [		
 	{"value": "Attack/Ranged/MaxRange", "add": 20},
 	{"value": "Vision/Range", "add": 20}	],

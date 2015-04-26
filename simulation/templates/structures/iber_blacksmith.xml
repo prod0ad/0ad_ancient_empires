@@ -7,8 +7,7 @@
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      attack_steel_working
-	  iberians/soliferrum
+      blacksmith_steel_working
     </Technologies>
   </ProductionQueue>
   <VisualActor>

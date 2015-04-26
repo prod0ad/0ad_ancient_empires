@@ -7,12 +7,6 @@
   <Promotion>
     <Entity>units/athen_infantry_archer_2_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
-  <Stamina>
-    <Max>700</Max>
-  </Stamina>
   <VisualActor>
     <Actor>units/macedonians/infantry_archer_a.xml</Actor>
   </VisualActor>

@@ -82,7 +82,7 @@
     <HeightOffset>18.0</HeightOffset>
   </StatusBars>
   <Vision>
-    <Range>80</Range>
+    <Range>60</Range>
   </Vision>
   <VisualActor>
     <Actor>props/special/palisade_rocks_outpost.xml</Actor>

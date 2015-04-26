@@ -24,8 +24,10 @@
 	  upgrades/archer_a
 	  upgrades/archer_e		
 	  upgrades/swordsman_e			  
-	  training_levy_infantry
-	  training_conscription 
+      barracks_speed_train	
+      barracks_speed_batch
+      barracks_infantry_siege	
+      barracks_ranged_accuracy	 
     </Technologies>
   </ProductionQueue>
   <VisualActor>

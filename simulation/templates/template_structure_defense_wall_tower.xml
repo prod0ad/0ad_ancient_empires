@@ -26,7 +26,7 @@
   <Cost>
     <BuildTime>80</BuildTime>
     <Resources>
-      <stone>80</stone>
+      <stone>50</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -42,7 +42,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>4000</Max>
+    <Max>3000</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_wall_tower</SpawnEntityOnDeath>
   </Health>
   <Identity>

@@ -28,7 +28,7 @@
 				{
 					"Name":"Pacifism Reform",
 					"History":"Regrets of the bloodshed or an effort to maintain his empire led Ashoka to support Buddhism and pacifism after slaughtering thousands of people during his early conquests.",
-					"Description":" +15% to all Worker gather rates but Levy Infantry get -10% hit points and attack damage."
+					"Description":" Workers +15% all gather rates but Levy Infantry -10% hit points and attack damage."
 				}				
 			],
 			"Heroes":
@@ -69,7 +69,7 @@
 		{
 			"Name": "Emperor of Emperors.",
 			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
-			"Description": "+10% Maximum population. Each phase researched reduces the food cost of workers and infantry by 5."
+			"Description": "Maximum population +10%. Workers and Infantry -5 food cost for each phase researched."
 		},
 		{
 			"Name": "Light Infantry",
@@ -84,7 +84,7 @@
 		{
 			"Name": "Wooden Construction",
 			"History": "Mauryans structures were mostly made of wood. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures construct 20% faster but are also 20% weaker. Walls cost lumber instead of stone." 
+			"Description": "Structures -20% build time but -20% hit points. Walls cost lumber instead of stone." 
 		}	
 	],
 	"TeamBonuses":

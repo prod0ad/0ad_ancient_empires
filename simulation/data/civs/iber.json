@@ -23,12 +23,12 @@
 				{
 					"Name": "Soliferrum",
 					"History": "The Iberians used heavy iron javelins.",
-					"Description": "Javelin units +25% attack but -10% movement speed." 
+					"Description": "Javelin units +25% attack but -10% speed." 
 				}, 				
 		        {
 			        "Name": "Guerilla (Reform)",
 			        "History": "The Iberians employed successful skirmish and ambush tactics in their wars and rebellions against the Romans. They even reached as far as raiding Roman possessions in Africa.",
-			        "Description": "All Levy Infantry and Cavalry move 15% faster."
+			        "Description": "Levy Infantry and Cavalry move 15% faster."
 		        } 				
 			],
 			"Heroes":
@@ -55,7 +55,7 @@
 		{
 			"Name": "Stone Fortifications",
 			"History": "With exception to alluvial plains and river valleys, stone is abundant in the Iberian Peninsula and was greatly used in construction of structures.",
-			"Description": "Iberian Civil Centres, Fortresses and Defense Towers get +25% attack and hit points but also +50% stone cost. +25% Stone mining rate for workers."
+			"Description": "Civil Centres, Fortresses and Defense Towers +25% attack and hit points but +50% stone cost. Workers +25% Stone mining rate."
 		},
 		{
 			"Name": "Flaming Javelins",
@@ -65,7 +65,7 @@
 		{
 			"Name": "Low Armor Use",
 			"History": "Most Iberian Soldiers went to war without body armor.", 
-			"Description": "Citizen Melee infantry cost -5% wood/metal but also have -10% hit points and -1 hack and pierce armor levels." 
+			"Description": "Citizen Melee infantry -5% wood/metal cost but -10% hit points and -1 hack and pierce armor levels." 
 		}		
 	],
 	"TeamBonuses":
@@ -73,7 +73,7 @@
 			{
 				"Name": "Land Of Great Riches",
 				"History": "Iberia was full of natural resources including mines and timber suitable for shipbuilding. This resulted to extensive colonization by Phoenicians and Greeks.",
-				"Description": "-50% storehouse construction time (currently not shared)." 
+				"Description": "Storehouse -50% build time (currently not shared)." 
 			} 
 	],
 	"Structures":

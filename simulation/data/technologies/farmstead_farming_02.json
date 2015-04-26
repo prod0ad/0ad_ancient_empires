@@ -1,8 +1,8 @@
 {
-	"genericName": "Gather Training",
+	"genericName": "Advanced Farming",
 	"description": "Training for workers to increase farm gathering speed.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 50},
-	"supersedes": "gather_farming_plows",
+	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
+	"supersedes": "farmstead_farming_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "plow.png",

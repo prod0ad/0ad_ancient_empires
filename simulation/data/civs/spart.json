@@ -19,12 +19,12 @@
 		        {
 	        	 	"Name":"Laws of Lycurgus",
 	        		"History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
-	        		"Description":"All soldiers and workers +10% hit points."
+	        		"Description":"Soldiers and Workers +10% hit points."
 	        	},			
 				{
 					"Name":"Cleomenian Reforms",
 					"History":"Cleomenes III redistributed the land, freed thousands of Helots, enlisted many of them along with Spartans and Perioikoi in his newly formed pike phalanxes in an attempt to restore Spartan power.",
-					"Description":"Spartan Phalangites are unlocked. +25% farming rate for all workers."
+					"Description":"Spartan Phalangites are unlocked. Workers +25% farming rate ."
 				}
 			],
 			"Heroes":
@@ -51,7 +51,7 @@
 		{
 			"Name":"The Agoge",
 			"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
-			"Description":"+10% health, attack and speed for melee infantry, but also +20% train time."
+			"Description":"Melee Infantry +10% health, attack and speed, but also +20% train time."
 			},	
 		{
 			"Name":"Wall of Men",
@@ -61,7 +61,7 @@
 		{
 			"Name":"Limited Manpower",
 			"History":".",
-			"Description":"Maximum population reduced by 10%. Two types of Barracks. Syssition is limited to one and trains powerful Spartan Hoplites, while Levy Barracks train Levied subjects."
+			"Description":"Maximum population -10%. Two types of Barracks. Syssition is limited to one and trains powerful Spartan Hoplites, while Levy Barracks train Levied subjects."
 		}
 	],
 	"TeamBonuses":
@@ -69,7 +69,7 @@
 		{
 			"Name":"Peloponnesian League",
 			"History":"Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies. Many of those allies often fielded superb hoplites.",
-			"Description":"+10% Citizen Spear Infantry hit points (currently not shared)."
+			"Description":"Citizen Spear Infantry +10% hit points (currently not shared)."
 		}
 	],
 	"Structures":

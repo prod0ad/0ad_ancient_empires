@@ -21,7 +21,7 @@
       units/pers_ship_trireme
     </Entities>
     <Technologies datatype="tokens">
-	  phoenician_sailors
+	  dock_ship_speed
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

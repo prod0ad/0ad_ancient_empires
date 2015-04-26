@@ -19,7 +19,7 @@
 				{
 					"Name":"Cavalry Reform",
 					"History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. Contact with Eastern upstarts such as the Parthians and constant revolts of peripheral satrapies such as Bactria caused the Seleucids to reform their military and change their tactics, specifically in the cavalry arm.",
-					"Description":"Unlock the Seleucid Cataphract. All cavalry get +20% hit points."
+					"Description":"Unlock the Seleucid Cataphract. Cavalry +20% hit points."
 				},
 				{
 					"Name":"Infantry Reform",
@@ -29,7 +29,7 @@
 		        {
 			        "Name":"Cleruchy",
 			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
-			        "Description":"25% faster batch training for the Military Barracks."
+			        "Description":"Barracks -25% batch training time."
 		        }
 			],
 			"Heroes":
@@ -90,7 +90,7 @@
 		{
 			"Name":"Great City Founders",
 			"History":"Even more so than other Successors, the Seleucids founded a huge number of cities, more often than not named Antiochia or Seleucia.",
-			"Description":"Civic Centers are 20% cheaper (currently not shared)."
+			"Description":"Civic Centers -20% resource cost (currently not shared)."
 		}
 	],
 	"Structures":

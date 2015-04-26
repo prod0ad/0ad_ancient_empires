@@ -1,0 +1,15 @@
+{
+	"genericName": "Chorigoi",
+	"description": "Rich Athenian Citizens often took the task of maintaining a Trireme and paying it's crew.",
+	"cost": { "food": 150, "wood": 0, "stone": 0, "metal": 150 },
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "athen"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "political_face.png",
+	"researchTime": 40,
+	"tooltip": "Triremes -50% metal cost.",
+	"modifications": [
+		{"value": "Cost/Resources/metal", "multiply": 0.5}
+	],
+		"affects": ["Trireme"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

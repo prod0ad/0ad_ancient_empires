@@ -1,13 +1,13 @@
 {
 	"genericName": "Wheelbarrow",
 	"description": "Increases shuttling capacity for all resources.",
-	"cost": {"food": 300, "wood": 300, "stone": 0, "metal": 0},
-	"supersedes": "gather_capacity_basket",
+	"cost": {"food": 250, "wood": 350, "stone": 0, "metal": 0},
+	"supersedes": "market_gather_capacity_01",
 	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "wheelbarrow_empty.png",
 	"researchTime": 40,
-	"tooltip": "Workers use wheelbarrows. +5 shuttle capacity for all resources.",
+	"tooltip": "Workers +5 shuttle capacity for all resources.",
 	"modifications": [
 		{"value": "ResourceGatherer/Capacities/food", "add": 5},
 		{"value": "ResourceGatherer/Capacities/wood", "add": 5},

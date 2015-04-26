@@ -19,22 +19,17 @@
 				{
 					"Name":"Iphicratean Reforms",
 					"History":"Iphicrates changed the equipment of Athenian Soldiers and introduced the Iphicratid boots, increasing their mobility.",
-					"Description":"All infantry units move 15% faster."
-				},
-				{
-					"Name":"Long Walls",
-					"History":"The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
-					"Description":"Stone walls build 50% faster."
+					"Description":"Infantry Units +15% speed."
 				},
 				{
 					"Name":"Imperialism",
 					"History":"Soon after the formation of the Delian league, the Athenians started treating costal towns and even their own allies as subjects.",
-					"Description":"Civic Centers provide a small tickle of metal."
+					"Description":"Civil Centres provide a small tickle of metal."
 				},
 				{
 					"Name":"Chorigoi",
 					"History":"Rich Athenian Citizens often took the task of maintaining a Trireme and paying it's crew.",
-					"Description":"Triremes cost 50% less metal."
+					"Description":"Triremes -50% metal cost."
 				}
 			],
 			"Heroes":
@@ -54,17 +49,22 @@
 		{
 			"Name":"Silver Owls",
 			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
-			"Description":"Metal mining gathering rates increased by +10% for each passing age."
+			"Description":"Workers +10% metal mining rate for each phase researched."
 		},
 		{
 			"Name":"Great Polis",
 			"History":"Athens was the largest city in ancient Greece with great walls, temples and other architectural achievements.",
-			"Description":"Athenian Structures have +10% hit points and vision range."
+			"Description":"Structures +10% hit points and vision range."
 		},
+		{
+			"Name":"Long Walls",
+			"History":"The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
+			"Description":"Stone Walls build 50% faster."
+		},		
 		{
 			"Name":"Thracian Ties",
 			"History":"Athenian colonies on the Thracian coast kept them in contact with the Thracians, heavily influencing the Athenian Military.",
-			"Description":"+15% Javelin Unit pierce damage."
+			"Description":"Ranged Infantry +10% pierce damage."
 		}
 	],
 	"TeamBonuses":

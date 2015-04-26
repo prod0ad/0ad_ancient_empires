@@ -1,8 +1,8 @@
 {	
-	"genericName": "Serfs",
+	"genericName": "Advanced Stone Mining",
 	"description": "Increases stone gathering rates.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 50},
-	"supersedes": "gather_mining_servants",
+	"cost": {"food": 250, "wood": 350, "stone": 0, "metal": 0},
+	"supersedes": "storehouse_stonemining_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "mining_stone.png",

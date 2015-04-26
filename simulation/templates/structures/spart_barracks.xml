@@ -1,65 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <BuildRestrictions>
-    <Category>Syssition</Category>
-  </BuildRestrictions>
-  <Cost>
-    <BuildTime>200</BuildTime>
-    <PopulationBonus>10</PopulationBonus>
-    <Resources>
-      <wood>100</wood>
-      <stone>100</stone>
-      <metal>100</metal>
-    </Resources>
-  </Cost>
   <Footprint>
-    <Square width="20.0" depth="30.0"/>
-    <Height>8.0</Height>
+    <Square width="25.0" depth="25.0"/>
+    <Height>12.0</Height>
   </Footprint>
   <Health>
-    <Max>2400</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>spart</Civ>
-    <GenericName>Military Mess Hall</GenericName>
+    <GenericName>Barracks</GenericName>
     <SpecificName>Syssítion</SpecificName>
-    <Classes datatype="tokens">
-	  Syssiton
-	  Barracks
-	</Classes>
-    <Tooltip>Train Spartan Hoplites and Royal guard and research special technologies. Adds 10 population bonus. Build Limit: 1.</Tooltip>
-    <History>The Syssítia were where full-blooded Spartans, even Spartan kings, were barracked and dined together.</History>
-    <Icon>structures/gymnasion.png</Icon>
-	<RequiredTechnology>phase_village</RequiredTechnology>
-    <VisibleClasses datatype="tokens">
-	  Barracks
-	  Village
-	</VisibleClasses>	
   </Identity>
   <Obstruction>
-    <Static width="16.0" depth="26.0"/>
+    <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_gymnasium.xml</select>
-      <constructed>interface/complete/building/complete_gymnasium.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-    </SoundGroups>
-  </Sound>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
 	  units/spart_infantry_spearman_b
 	  units/spart_champion_infantry_spear
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a
-	  upgrades/spearman_e		 
+	  upgrades/spearman_e	
+      barracks_speed_train	
+      barracks_speed_batch
+      barracks_infantry_siege	
     </Technologies>	
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/spartans/syssiton.xml</Actor>
-    <FoundationActor>structures/fndn_4x6.xml</FoundationActor>
+    <Actor>structures/spartans/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

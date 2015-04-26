@@ -4,9 +4,9 @@
     <Category>Barracks</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime>180</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>250</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -40,16 +40,16 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      blacksmith/attack_melee_01
-      blacksmith/attack_melee_02
-      blacksmith/attack_ranged_01
-      blacksmith/attack_ranged_02	
-      blacksmith/armor_infantry_01
-      blacksmith/armor_infantry_02
-      blacksmith/armor_infantry_ranged_01
-      blacksmith/armor_infantry_ranged_02
-      blacksmith/armor_cav_01
-      blacksmith/armor_cav_02
+      blacksmith_attack_melee_01
+      blacksmith_attack_melee_02
+      blacksmith_attack_ranged_01
+      blacksmith_attack_ranged_02	
+      blacksmith_armor_infantry_01
+      blacksmith_armor_infantry_02
+      blacksmith_armor_infantry_ranged_01
+      blacksmith_armor_infantry_ranged_02
+      blacksmith_armor_cav_01
+      blacksmith_armor_cav_02
     </Technologies>
   </ProductionQueue>
   <Sound>

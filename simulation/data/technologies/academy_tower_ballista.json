@@ -1,9 +1,9 @@
 {
 	"genericName": "Ballista Tower",
 	"description": ".",
-	"cost": {"food": 500, "wood": 500, "stone": 0, "metal": 500},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"cost": {"food": 0, "wood": 525, "stone": 0, "metal": 375},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "arrow.png",
 	"researchTime": 40,
 	"tooltip": "Adds a powerful long ranged attack to Defense Towers, but removes their garrison attack bonuses.",

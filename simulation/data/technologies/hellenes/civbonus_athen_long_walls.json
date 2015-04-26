@@ -1,0 +1,11 @@
+{
+	"genericName": "Athenian Long Walls",
+	"autoResearch": true,
+	"description": ".",
+	"requirements": {"civ": "athen"},
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.50}
+	],
+	"affects": ["StoneWall"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

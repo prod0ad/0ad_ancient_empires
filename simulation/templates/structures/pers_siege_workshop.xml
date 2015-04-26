@@ -2,10 +2,10 @@
 <Entity parent="template_structure_military_barracks">
   <Attack disable=""/>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime>180</BuildTime>
     <Resources>
       <wood>200</wood>
-      <stone>0</stone>
+      <stone>100</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -21,10 +21,9 @@
     <Civ>pers</Civ>
     <GenericName>Siege Workshop</GenericName>
 	<SpecificName>Siege Workshop</SpecificName>
-    <History>Mercenaries will go where the metal is.</History>
     <Tooltip>Trains and upgrades Siege Weapons.</Tooltip>
     <Icon>structures/siege_workshop.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <VisibleClasses datatype="tokens">
 	  -Village
 	  City
@@ -41,6 +40,7 @@
     <Technologies datatype="tokens">
       siege_attack
 	  siege_cost
+	  siege_packing	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>
