@@ -38,7 +38,6 @@
       units/merc_iberian_lancer_b
     </Entities>  
     <Technologies datatype="tokens">
-	  pair_merc
 	  upgrades/mercenary_a
 	  upgrades/mercenary_e	
     </Technologies>

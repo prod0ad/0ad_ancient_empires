@@ -28,7 +28,7 @@
 				{
 					"Name": "Mass Production",
 					"History": "The Carthaginians excelled at massing siege weapons, especially for defensive purposes.",
-					"Description": "Siege Weapon -25% build time."
+					"Description": "Siege Weapons -25% build time."
 				}			
 			],
 			"Heroes":
@@ -72,7 +72,7 @@
 		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints. Fortresses can train Barracks and Siege Workshop units."
+			"Description": "Fortresses, Walls and Barracks +25% hitpoints. Fortresses can train Barracks and Siege Workshop units."
 		}		
 	],
 	"TeamBonuses":
@@ -89,8 +89,8 @@
 			"Name":"Embassy",
 			"Class":"",
 			"Emblem":"",
-			"History":"Contains unique upgrades for Mercenary units.",
-			"Description": "Trains various Mercenary units.",			
+			"History":".",
+			"Description": "Trains and upgrades Mercenary units. Replaces the Stables",			
 			"Requirements":".",
 			"Phase":"",
 			"Special":"."

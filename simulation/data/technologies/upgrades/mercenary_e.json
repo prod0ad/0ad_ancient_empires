@@ -6,10 +6,9 @@
 	"icon": "upgrade_elite.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/mercenary_a",
-	"tooltip": "Promotes mercenaries to the elite rank but also increases their metal cost by 10%.",
+	"tooltip": "Promotes mercenaries to the elite rank.",
 	"modifications": [
 	{"value": "Promotion/RequiredXp", "replace": 0},
-	{"value": "Cost/Resources/metal", "multiply": 1.1}
 	],
 	"affects": ["Mercenary Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -9,8 +9,8 @@
   </Heal>
   <Cost>
     <Resources>
-      <food>100</food>
-      <metal>75</metal>	  
+      <food>80</food>
+      <metal>50</metal>	  
     </Resources>
   </Cost>
   <Health>
