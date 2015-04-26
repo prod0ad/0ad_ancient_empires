@@ -3,8 +3,8 @@
   <Identity>
     <Civ>sele</Civ>
 	<SelectionGroupName>units/merc_thracian_swordsman_b</SelectionGroupName>
-	<GenericName>Swordsman</GenericName>
-    <SpecificName>Rhomphaiaphoros Thrakikós</SpecificName>
+	<GenericName>Thracian Swordsman</GenericName>
+    <SpecificName>Rhomphaiaphoros</SpecificName>
 	<Classes datatype="tokens">Mercenary -Levy</Classes>		
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/sele_infantry_swordsman.png</Icon>

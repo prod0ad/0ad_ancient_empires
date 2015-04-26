@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_iberian_lancer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/iberians/cavalry_spearman_a.xml</Actor>
   </VisualActor>

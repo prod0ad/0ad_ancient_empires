@@ -2,7 +2,7 @@
 	"genericName": "Fortified Barracks",
 	"autoResearch": true,	
 	"description": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-	"cost": {"food": 0, "wood": 0, "stone": 1000, "metal": 0},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0},
 	"requirements": {"civ": "cart"},
 	"modifications": [{"value": "Health/Max", "multiply": 1.25}],
 	"affects": ["Barracks", "Fortress", "StoneWall"],

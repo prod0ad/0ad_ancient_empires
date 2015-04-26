@@ -4,10 +4,8 @@
     <Civ>cart</Civ>
     <SelectionGroupName>units/merc_italian_swordsman_b</SelectionGroupName>
     <GenericName>Swordsman</GenericName>
-    <SpecificName>Italian Swordsman</SpecificName>
-	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+    <SpecificName>Italian Swordsman</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <History>TBD.</History>
     <Icon>units/cart_infantry_swordsman_2.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>			
   </Identity>

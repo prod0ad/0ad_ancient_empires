@@ -7,12 +7,6 @@
   <Promotion>
     <Entity>units/merc_mauritanian_archer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
-  <Stamina>
-    <Max>700</Max>
-  </Stamina>
   <VisualActor>
     <Actor>units/carthaginians/infantry_archer_a.xml</Actor>
   </VisualActor>

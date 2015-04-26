@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_thessalian_lancer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/spartans/cavalry_spearman_a.xml</Actor>
   </VisualActor>

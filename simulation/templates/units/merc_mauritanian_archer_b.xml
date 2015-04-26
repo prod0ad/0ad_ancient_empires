@@ -4,9 +4,7 @@
     <Civ>cart</Civ>
 	<SelectionGroupName>units/merc_mauritanian_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
-    <SpecificName>Mauritanian Archer</SpecificName>
-    <History>A mercenary archer from North Africa.</History>
-	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+    <SpecificName>Mauritanian Archer</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/cart_infantry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>			

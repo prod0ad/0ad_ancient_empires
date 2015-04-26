@@ -7,7 +7,6 @@
     <SpecificName>Prodromos Aetolikos</SpecificName>
 	<Classes datatype="tokens">Mercenary -Levy</Classes>		
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <History>?</History>
     <Icon>units/mace_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

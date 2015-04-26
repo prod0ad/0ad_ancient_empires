@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_gallic_spearman_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/celts/infantry_spearman_a.xml</Actor>
   </VisualActor>

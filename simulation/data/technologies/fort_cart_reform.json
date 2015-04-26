@@ -1,7 +1,7 @@
 {
 	"genericName": "Barcid Armies (Reform)",
 	"description": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
-	"cost": {"food": 325, "wood": 0, "stone": 0, "metal": 575},
+	"cost": {"food": 425, "wood": 0, "stone": 0, "metal": 475},
 	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "cart"}]},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",

@@ -1,0 +1,11 @@
+{
+	"genericName": "Time Of Need",
+	"description": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
+	"cost": {"food": 325, "wood": 0, "stone": 0, "metal": 275},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "cart"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "cauldron.png",
+	"researchTime": 40,
+	"tooltip": "Allows the training of Sacred Band Infantry and Cavalry Champions at the Temple.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

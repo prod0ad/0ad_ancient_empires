@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_aetolian_prodromos_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/macedonians/cavalry_javelinist_a.xml</Actor>
   </VisualActor>

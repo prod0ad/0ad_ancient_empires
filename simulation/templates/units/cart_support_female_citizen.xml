@@ -11,7 +11,7 @@
       structures/{civ}_outpost
       other/wallset_palisade
       structures/{civ}_barracks
-      structures/{civ}_stables 	
+      structures/{civ}_embassy	
       structures/{civ}_siege_workshop		  
       structures/{civ}_blacksmith
       structures/{civ}_temple
@@ -26,8 +26,8 @@
   </Builder>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Aštāh</SpecificName>
-    <GenericName>Carthaginian Woman</GenericName>
+    <SpecificName>Worker</SpecificName>
+    <GenericName>Worker</GenericName>
     <History>Unlike many ancient cities, Carthage was found by a woman; Queen Dido, hailing originally from Tyre. Carthaginian women were famous for their beauty and were capable of extremely hard physical work. The records written about the Third Punic War mentioned that all citizens of Carthage, including the women, worked incessantly to manufacture weapons and prepare the city for siege. The women even cut their own hair for use in the springs of artillery pieces.</History>
     <Icon>units/cart_support_female_citizen.png</Icon>
 	<SelectionGroupName>units/cart_support_female_citizen</SelectionGroupName>

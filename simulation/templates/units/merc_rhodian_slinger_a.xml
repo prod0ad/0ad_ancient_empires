@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_rhodian_slinger_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/macedonians/infantry_slinger_a.xml</Actor>
   </VisualActor>

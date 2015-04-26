@@ -7,7 +7,6 @@
     <SpecificName>Sphendonetes Rhodikos</SpecificName>
 	<Classes datatype="tokens">Mercenary -Levy</Classes>		
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <History></History>
     <Icon>units/hele_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

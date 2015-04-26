@@ -7,9 +7,7 @@
   <Promotion>
     <Entity>units/merc_gallic_epos_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
+
   <VisualActor>
     <Actor>units/celts/cavalry_swordsman_a.xml</Actor>
   </VisualActor>

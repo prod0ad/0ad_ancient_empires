@@ -7,7 +7,6 @@
     <SpecificName>Italian Lancer</SpecificName>
 	<Classes datatype="tokens">Mercenary -Levy</Classes>		
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <History>.</History>
     <Icon>units/cart_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>

@@ -10,9 +10,6 @@
   <Promotion>
     <Entity>units/merc_arabian_camel_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/ptolemies/cavalry_archer_a.xml</Actor>
   </VisualActor>

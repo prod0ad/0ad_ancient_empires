@@ -12,7 +12,6 @@
 	<SelectionGroupName>units/merc_arabian_camel_b</SelectionGroupName>
 	<GenericName>Horse Archer</GenericName>
     <SpecificName>Arabian Camel Archer</SpecificName>
-    <History>?</History>
 	<Icon>units/ptol_cavalry_archer.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

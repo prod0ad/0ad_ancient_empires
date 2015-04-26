@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_cappadocian_lancer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/persians/cavalry_spearman_a.xml</Actor>
   </VisualActor>

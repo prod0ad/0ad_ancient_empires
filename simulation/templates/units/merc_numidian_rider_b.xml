@@ -4,10 +4,8 @@
     <Civ>cart</Civ>
     <SelectionGroupName>units/merc_numidian_rider_b</SelectionGroupName>
     <GenericName>Light Cavalry</GenericName>
-    <SpecificName>Numidian Rider</SpecificName>
-	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+    <SpecificName>Numidian Rider</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <History>The Carthaginians possessed the greatest light cavalry of the ancient world in the Numidians. Tough and hardy like their mounts, the Numidians were famous for their ability to ride bareback and without bridles. Riders controlled their horses through a combination of voice commands, knee pressure, and a rope around the animals' necks. Used mostly for pursuing defeated opponents, the Numidians' favored weapon was a javelin that could be used for close combat if necessary.</History>
     <Icon>units/cart_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>			
   </Identity>

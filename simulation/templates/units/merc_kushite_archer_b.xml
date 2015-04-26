@@ -7,7 +7,6 @@
 	<SelectionGroupName>units/merc_kushite_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
     <SpecificName>Kushite Bowman</SpecificName>
-    <History>?</History>
     <Icon>units/hele_infantry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <GenericName>Blockhouse Fort</GenericName>
+    <GenericName>Fortress</GenericName>
     <SpecificName>Fortress</SpecificName>
     <History>The Carthaginians built a number of rather 'monolithic' blockhouse forts sited at critical locations in North Africa, sometimes also in conjunction with long lengths of wall intended to keep the wilder people of the desert to the south from freely ranging into the ?civilised? territories under their direct control.</History>
   </Identity>
@@ -15,12 +15,16 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/cart_champion_elephant	
       units/cart_infantry_spearman_b
       units/cart_infantry_javelinist_2_b
-      units/cart_champion_elephant
+      units/cart_mechanical_siege_ballista_packed
+      units/cart_mechanical_siege_oxybeles_packed	  
     </Entities>
     <Technologies datatype="tokens"> 
-	  carthaginians/cart_reform	  	  
+	  fort_cart_temple_champions	
+	  fort_cart_siege_buildtime	
+	  fort_cart_reform	  	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

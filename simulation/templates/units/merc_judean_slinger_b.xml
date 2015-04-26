@@ -5,7 +5,6 @@
     <SelectionGroupName>units/merc_judean_slinger_b</SelectionGroupName>
     <GenericName>Slinger</GenericName>
     <SpecificName>Judean Slinger</SpecificName>
-    <History>Jews made up a large portion of several Egyptian cities. They were local subjects to the Ptolemaic crown and hated the Seleucids and Romans in equal measure.</History>
     <Icon>units/hele_infantry_slinger.png</Icon>
 	<Classes datatype="tokens">Mercenary -Levy</Classes>		
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		

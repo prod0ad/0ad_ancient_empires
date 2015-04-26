@@ -4,10 +4,8 @@
     <Civ>iber</Civ>
 	<SelectionGroupName>units/merc_iberian_lancer_b</SelectionGroupName>
     <SpecificName>Iberian Lancer</SpecificName>
-	<Classes datatype="tokens">Mercenary -Levy</Classes>		
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/iber_cavalry_spearman.png</Icon>
-    <History>Armed like the light infantry, Iberian cavalry were often pursued as mercenaries, especially by the Carthaginians. Mounted on excellent horses and wielding high-grade swords they were capable of taking on heavy or light cavalry. As with all Iberians armor was scarce, but they wore the ubiquitous sinew caps made famous by the peoples of the peninsula.</History>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

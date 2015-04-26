@@ -3,8 +3,8 @@
   <Cost>
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <stone>200</stone>
+      <wood>150</wood>
+      <stone>150</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -21,13 +21,22 @@
     <SpecificName>Embassy</SpecificName>
     <History>The Carthaginian army was a cosmopolitan affair, made up of mercenaries from dozens of lands.</History>
     <Tooltip>Contains Upgrades for Mercenaries.</Tooltip>
-    <Icon>structures/colony.png</Icon>
+    <Icon>structures/italian_embassy.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
   <ProductionQueue>
+    <Entities datatype="tokens">
+      units/merc_gallic_spearman_b	
+      units/merc_numidian_rider_b	
+      units/merc_mauritanian_archer_b  
+      units/merc_numidian_rider_b	  
+      units/merc_italian_swordsman_b
+      units/merc_iberian_slinger_b 	
+      units/merc_iberian_lancer_b
+    </Entities>  
     <Technologies datatype="tokens">
 	  pair_merc
 	  upgrades/mercenary_a

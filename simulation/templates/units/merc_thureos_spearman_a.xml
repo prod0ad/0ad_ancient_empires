@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_thureos_spearman_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/ptolemies/infantry_spearman_2_a.xml</Actor>
   </VisualActor>

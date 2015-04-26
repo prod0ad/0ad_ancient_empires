@@ -21,6 +21,11 @@
 					"Description": "Mercenaries -25% metal cost and +1 pierce and hack armor levels."
 				},
 				{
+					"Name": "Time Of Need",
+					"History": "The noble citizens of carthage in rare cases formed the Sacred Band units to fight in wars.",
+					"Description": "Allows the training of Sacred Band Infantry and Cavalry Champions at the Temple."
+				},				
+				{
 					"Name": "Mass Production",
 					"History": "The Carthaginians excelled at massing siege weapons, especially for defensive purposes.",
 					"Description": "Siege Weapon -25% build time."
@@ -40,14 +45,14 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Punic Nobles employing hoplite-like tactics and armament."
+					"History": "Punic Nobles employing hoplite-like tactics and armament. Requires Time Of Need."
 				},
 				{
 					"Name": "Sacred Band Cavalry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Punic Nobles fight as heavy cavalry.'"
+					"History": "Punic Nobles fight who as heavy cavalry. Requires Time Of Need."
 				}
 			]
 		}
@@ -63,16 +68,11 @@
 			"Name": "Colonization",
 			"History": "Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
 			"Description": "Civic Centres, Temples, Docks and Houses -20% build time."
-		},
-		{
-			"Name": "Mercenary Levy",
-			"History": "The Carthaginians made extensive use of Mercenaries, especially ones levied from vassal states and tribes.",
-			"Description": "Mercenary units can be trained at the Barracks and Stables."
-		},		
+		},	
 		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints."
+			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints. Fortresses can train Barracks and Siege Workshop units."
 		}		
 	],
 	"TeamBonuses":
@@ -90,6 +90,7 @@
 			"Class":"",
 			"Emblem":"",
 			"History":"Contains unique upgrades for Mercenary units.",
+			"Description": "Trains various Mercenary units.",			
 			"Requirements":".",
 			"Phase":"",
 			"Special":"."
@@ -105,7 +106,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/cart_cavalry_spearman_b"
+			"Template": "units/merc_numidian_rider_b"
 		}
 	],
 	"Formations":

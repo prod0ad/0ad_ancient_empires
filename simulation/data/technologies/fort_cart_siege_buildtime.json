@@ -4,7 +4,7 @@
 	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 150},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "cart"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "military_engineers.png",
+	"icon": "calipers.png",
 	"researchTime": 40,
 	"tooltip": "Siege Weapon construction speed increased by 25%.",
 	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75}],

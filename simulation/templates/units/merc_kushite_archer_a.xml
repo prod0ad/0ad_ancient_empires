@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/merc_kushite_archer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/ptolemies/infantry_archer_b.xml</Actor>
   </VisualActor>
