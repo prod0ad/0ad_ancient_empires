@@ -3,7 +3,7 @@
   <Identity>
     <Civ>iber</Civ>
 	<SelectionGroupName>units/iber_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Kantabriako Zaldun</SpecificName>
+    <SpecificName>Iberian Scout</SpecificName>
     <History></History>
     <Icon>units/iber_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	

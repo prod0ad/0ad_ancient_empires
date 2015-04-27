@@ -13,10 +13,7 @@
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
 	  upgrades/cavalry_light_e		
-	  upgrades/cavalry_heavy_e		
-	  upgrades/cavalry_light_a
-	  upgrades/cavalry_light_e		
-	  upgrades/cavalry_heavy_e		
+	  upgrades/cavalry_heavy_e				
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01

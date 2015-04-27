@@ -10,11 +10,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/iber_champion_infantry
       units/iber_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">
-	  iberians/guerilla	  
+	  fort_iber_steel
+	  fort_iber_soliferrum	 
+	  fort_iber_guerilla	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

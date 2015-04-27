@@ -1,17 +1,14 @@
 {
 	"genericName": "Steel Working",
-	"specificName": {
-		"maur": "Wootz Steel",
-		"iber": "Toledo Steel"
-	},
+	"specificName": "Wootz Steel",
 	"description": "Secret steel working techniques give sword blades distinctive and beautiful markings. Not only that, but the steel's hardness is unparalleled.",
 	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 350},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "metalworker.png",
 	"researchTime": 40,
-	"tooltip": "Sword units +2 attack.",
-	"modifications": [{"value": "Attack/Melee/Hack", "add": 2.0}],
+	"tooltip": "Sword units +15% attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15}],
 	"affects": ["Sword"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

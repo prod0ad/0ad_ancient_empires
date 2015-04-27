@@ -15,6 +15,10 @@
   </Auras>
   <BuildRestrictions>
     <Category>Monument</Category>
+    <Distance>
+      <FromClass>Monument</FromClass>
+      <MinDistance>80</MinDistance>
+    </Distance>	
   </BuildRestrictions>
   <Cost>
     <BuildTime>120</BuildTime>
@@ -55,7 +59,7 @@
   </Sound>
   <TerritoryInfluence disable=""/>
   <Vision>
-    <Range>60</Range>
+    <Range>50</Range>
   </Vision>
   <VisualActor>
     <Actor>structures/iberians/sb_1.xml</Actor>

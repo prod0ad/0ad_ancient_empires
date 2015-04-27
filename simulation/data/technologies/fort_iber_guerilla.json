@@ -1,17 +1,17 @@
 {
 	"genericName": "Guerilla (Reform)",
-	"description": "All Citizen Soldiers move 10% faster.",
+	"description": "Infantry and Workers +10% speed",
 	"requirements": {"civ": "iber"},
 	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"all": [{"tech": "phase_imperial"},{"civ": "iber"}]},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "All Levy Infantry and Cavalry move 15% faster.",	
+	"tooltip": "Infantry and Workers +10% speed.",	
 	"modifications": [
-	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
-	    {"value": "UnitMotion/Run/Speed", "multiply": 1.15}
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.10},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.10}
 	],
-	"affects": ["Levy Soldier"],
+	"affects": ["Infantry","Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
 }

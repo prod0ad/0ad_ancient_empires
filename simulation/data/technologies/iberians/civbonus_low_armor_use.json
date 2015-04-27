@@ -1,0 +1,12 @@
+{
+	"genericName": "Low Armor Use",
+	"autoResearch": true,
+	"description": "Most Iberian Soldiers went to war without body armor.",
+	"requirements": {"civ": "iber"},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 0.85},
+		{"value": "Cost/Resources/metal", "multiply": 0.9},
+		{"value": "Cost/Resources/wood", "multiply": 0.9}		
+	],
+	"affects": ["Levy Infantry Melee"]
+}
