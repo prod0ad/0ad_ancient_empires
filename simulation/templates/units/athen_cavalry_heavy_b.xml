@@ -3,8 +3,8 @@
   <Identity>
     <Civ>athen</Civ>
 	<SelectionGroupName>units/athen_cavalry_heavy_b</SelectionGroupName>
-	<GenericName>Hippeus</GenericName>
-    <SpecificName>Heavy Cavalry</SpecificName>
+	<GenericName>Heavy Cavalry</GenericName>
+    <SpecificName>Athenian Hippeus</SpecificName>
     <Icon>units/hele_cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

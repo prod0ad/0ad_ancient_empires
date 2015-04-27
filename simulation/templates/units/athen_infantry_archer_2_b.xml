@@ -3,8 +3,8 @@
   <Identity>
     <Civ>athen</Civ>
 	<SelectionGroupName>units/athen_infantry_archer_2_b</SelectionGroupName>
-    <GenericName>Toxotes</GenericName>
-    <SpecificName>Archer</SpecificName>
+    <GenericName>Archer</GenericName>
+    <SpecificName>Athenian Toxotes</SpecificName>
     <Icon>units/hele_infantry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>

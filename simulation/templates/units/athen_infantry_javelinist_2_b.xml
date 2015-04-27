@@ -3,8 +3,8 @@
   <Identity>
     <Civ>athen</Civ>
     <SelectionGroupName>units/athen_infantry_javelinist_2_b</SelectionGroupName>
-    <GenericName>Peltast</GenericName>
-    <SpecificName>Skirmisher</SpecificName>
+    <GenericName>Skirmisher</GenericName>
+    <SpecificName>Athenian Peltast</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>		
     <Icon>units/hele_infantry_javelinist.png</Icon>
   </Identity>

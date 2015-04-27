@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/gaul_infantry_slinger_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/celts/infantry_slinger_a.xml</Actor>
   </VisualActor>

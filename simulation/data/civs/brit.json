@@ -55,13 +55,8 @@
 		{
 			"Name": "Shepherds and Hounds",
 			"History": ".", 
-			"Description": "This tech is auto-researched for free (Workers +50% meat gathering rate)." 
-		},		
-		{
-			"Name": "Dog Scout",
-			"History": ".", 
-			"Description": "The Britons start the game with an extra dog unit, effective at scouting." 
-		}			
+			"Description": "This tech is auto-researched for free (Workers +50% meat gathering rate). The Britons start the game with an extra dog unit, effective at scouting." 
+		}		
 	],
 	"TeamBonuses":
 	[

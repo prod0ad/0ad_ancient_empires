@@ -4,7 +4,7 @@
 	"cost": {"food": 300, "wood": 300, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "wheel.png",
+	"icon": "handcart_empty.png",
 	"researchTime": 40,
 	"tooltip": "All structures are constructed 30% faster.",
 	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.70}],

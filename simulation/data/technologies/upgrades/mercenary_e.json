@@ -8,7 +8,7 @@
 	"supersedes": "upgrades/mercenary_a",
 	"tooltip": "Promotes mercenaries to the elite rank.",
 	"modifications": [
-	{"value": "Promotion/RequiredXp", "replace": 0},
+	{"value": "Promotion/RequiredXp", "replace": 0}
 	],
 	"affects": ["Mercenary Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

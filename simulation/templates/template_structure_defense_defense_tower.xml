@@ -4,7 +4,7 @@
     <Category>DefenseTower</Category>
     <Distance>
       <FromClass>DefenseTower</FromClass>
-      <MinDistance>25</MinDistance>
+      <MinDistance>40</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Attack>

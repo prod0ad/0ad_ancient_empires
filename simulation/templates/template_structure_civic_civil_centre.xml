@@ -32,7 +32,7 @@
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
-      <MinDistance>100</MinDistance>
+      <MinDistance>120</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Cost>

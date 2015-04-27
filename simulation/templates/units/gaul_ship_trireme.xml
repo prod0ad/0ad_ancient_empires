@@ -6,9 +6,8 @@
   </Footprint>
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Ponti</SpecificName>
+    <SpecificName>Gallic Ponti</SpecificName>
     <Tooltip>Tough Warship able to transport units.</Tooltip>
-    <History>The ships of Gaul were described by Julias Caesar as:  flat bottoms to ride the shallows, exceptionally high bows and sterns, hulls were made entirely of oak, the foot wide cross-timbers were fastened with iron bolts as thick as a man's thumb, sails of raw hides or thin leather, adapted for sailing treacherous and stormy waters of the north atlantic.  Caesar could not injure them by ramming because they were so solidly built, and their height made it difficult to reach them with missiles or board them with grappling irons.</History>
     <Icon>units/celt_ship_trireme.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>		
   </Identity>

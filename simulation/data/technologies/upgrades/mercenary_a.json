@@ -7,7 +7,7 @@
 	"researchTime": 40,
 	"tooltip": "Promotes mercenaries to the advanced rank.",
 	"modifications": [
-	{"value": "Promotion/RequiredXp", "replace": 0},
+	{"value": "Promotion/RequiredXp", "replace": 0}
 	],
 	"affects": ["Mercenary Basic"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -3,8 +3,8 @@
   <Identity>
     <Civ>athen</Civ>
     <SelectionGroupName>units/athen_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Sphendonites</GenericName>
-    <SpecificName>Slinger</SpecificName>
+    <GenericName>Slinger</GenericName>
+    <SpecificName>Athenian Sphendonites</SpecificName>
     <History></History>
     <Icon>units/hele_infantry_slinger.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>	

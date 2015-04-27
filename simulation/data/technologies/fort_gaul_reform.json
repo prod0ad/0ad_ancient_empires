@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "+1 hack and +1 pierce armor for Melee Infantry and Cavalry units. Unlocks Champion Units in the Barracks and Stables.",
+	"tooltip": "+1 hack and +1 pierce armor for Melee Infantry and Cavalry units. Solduros can be trained at the Barracks.",
 	"modifications": [{"value": "Armour/Hack", "add": 2.0},
 		{"value": "Armour/Pierce", "add": 1.0}],
 	"affects": ["Melee"],

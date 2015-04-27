@@ -20,7 +20,7 @@
 				{
 					"Name": "Late Armies (Reform)",
 					"History": "Late Gallic armies included an increased number of men armored in chainmail.",
-					"Description": "Melee Infantry and Cavalry +1 hack and pierce armor. Champion units can be trained at the barracks."
+					"Description": "Melee Infantry and Cavalry +1 hack and pierce armor. Solduros can be trained at the barracks."
 				},
 				{
 					"Name": "Great Migration",
@@ -36,19 +36,12 @@
 			"Heroes":
 			[
 				{
-					"Name": "Soldiuros",
+					"Name": "Solduros",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
 					"History": "Professional heavy swordsmen."
-				},
-				{
-					"Name": "Gallic Noble",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Elite Heavy Cavalry." 
-				} 
+				}
 			] 
 		} 
 	],
@@ -85,15 +78,6 @@
 	],
 	"Structures":
 	[
-		{
-			"Name": "Melonas",
-			"Class": "",
-			"Emblem": "",
-			"History": "The Celts developed the first rotary flour mill.",
-			"Requirements": "",
-			"Phase": "",
-			"Description": "Workers in range get +25% farming rate." 
-		}	
 	],
 	"StartEntities":
 	[
