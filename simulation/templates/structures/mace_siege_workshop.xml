@@ -34,9 +34,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/mace_mechanical_siege_ram	
       units/mace_mechanical_siege_oxybeles_packed
       units/mace_mechanical_siege_lithobolos_packed
-      units/mace_mechanical_siege_ram
       units/mace_mechanical_siege_tower  
     </Entities>
     <Technologies datatype="tokens">

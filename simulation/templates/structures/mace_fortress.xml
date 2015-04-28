@@ -16,15 +16,12 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/mace_champion_infantry_a
-      units/mace_champion_cavalry
-	  units/mace_champion_slinger	
     </Entities>
     <Technologies datatype="tokens">
-      successors/upgrade_mace_silvershields
-      successors/upgrade_mace_royal_companions  
-	  successors/mace_fetters_of_hellas
-	  successors/mace_antigonid_early_reform
-	  successors/mace_antigonid_late_reform
+      fort_mace_silvershields
+	  fort_mace_fetters_of_hellas
+      fort_mace_kestros_slings	  
+	  fort_mace_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

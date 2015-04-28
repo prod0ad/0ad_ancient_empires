@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>mace</Civ>
+	<SelectionGroupName>units/mace_infantry_archer_b</SelectionGroupName>
+    <GenericName>Archer</GenericName>
+    <SpecificName>Toxotes</SpecificName>
+    <Icon>units/hele_infantry_archer.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
+  </Identity>
+  <Promotion>
+    <Entity>units/mace_infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

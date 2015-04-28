@@ -1,13 +1,12 @@
 {
 	"genericName": "Late Antigonid Reform",
 	"description": "The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly kestros sling.",
-	"cost": {"food": 1000, "wood": 0, "stone": 0, "metal": 1000},
-	"requirements": { "all": [{"tech": "successors/mace_antigonid_early_reform"}, {"tech": "phase_imperial_generic"}]},	
-	"requirementsTooltip": "Requires Early Antigonid Reform.",
-    "supersedes": "successors/mace_antigonid_early_reform",	
-	"icon": "helmet_hero_side.png",
+	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"requirements": {"tech": "phase_imperial_generic"},	
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Pikemen train 20% faster and get +1 hack and pierce armor levels. Unlocks the Kestros Slinger Champion.",
+	"tooltip": "Pikemen train 20% faster and get +1 hack and pierce armor levels.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8},
 		{"value": "Armour/Hack", "add": 1.0},

@@ -18,19 +18,19 @@
 			[
 				{
 					"Name":"Antigonid Reform",
-					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks as well as the introduction of the deadly Kestros Dart Sling.",
+					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks.",
 					"Description":"Pikemen -20% train time and +1 hack and pierce armor levels."
+				},	
+			        {
+					"Name":"Kestros Sling",
+					"History":"A deadly dart throwing sling used in late Macedon.",
+					"Description":"Slingers +20% attack."
 				},				
 		        {
 					"Name":"Fetters Of Hellas",
 					"History":"The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
 					"Description":"Fortress +50% hit points."
-				},
-		        {
-					"Name":"Royal Companions",
-					"History":"The elite bodyguards of the Macedonian king.",
-					"Description":"Upgrades Companion Cavalry to Royal Companions, with greater attack and health."
-				},				
+				},			
 				{
 					"Name":"Silver Shields",
 					"History":"In India near the end of his long anabasis, Alexander gifted to the Royal Hypaspist corps shields of silver for their long and valiant service in his army.",
@@ -40,18 +40,11 @@
 			"Heroes":
 			[
 				{
-					"Name":"Companion Cavalry",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Elite heavy cavalry."
-				},
-				{
 					"Name":"Shield Bearer",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"The Hypaspists were versatile heavy infantry."
+					"History":"The Hypaspists are versatile heavy infantry."
 				}
 			]
 		}

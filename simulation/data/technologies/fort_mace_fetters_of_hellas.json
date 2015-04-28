@@ -1,7 +1,7 @@
 {
 	"genericName": "Fetters Of Hellas",
 	"description": "The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
-	"cost": {"food": 750, "wood": 750, "stone": 750, "metal": 750},
+	"cost": {"food": 0, "wood": 0, "stone": 300, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "crenelations.png",

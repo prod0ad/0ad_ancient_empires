@@ -6,8 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>mace</Civ>
-    <SpecificName>Ploîon Phortēgikón</SpecificName>
-    <History>Need History</History>
+    <SpecificName>Merchantman</SpecificName>
     <Icon>units/hele_ship_merchant.png</Icon>
   </Identity>
   <Obstruction>
