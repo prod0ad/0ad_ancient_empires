@@ -8,6 +8,7 @@
     <Entities datatype="tokens">
       units/mace_cavalry_javelinist_b		
       units/mace_cavalry_spearman_b
+      units/mace_elephant		  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
@@ -16,7 +17,6 @@
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01
-      stables_speed_cavalry_02
       stables_heavy_cavarly_breeds	  
     </Technologies>
   </ProductionQueue>		

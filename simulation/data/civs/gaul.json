@@ -65,7 +65,7 @@
 		{
 			"Name": "Herding",
 			"History": ".", 
-			"Description": "The Gauls start the game with an extra sheep." 
+			"Description": "A Sheep added to starting units." 
 		}		
 	],
 	"TeamBonuses":
@@ -78,6 +78,16 @@
 	],
 	"Structures":
 	[
+		{
+			"Name":"Rotary Mill",
+			"Class":"",
+			"Emblem":"",
+			"History":".",
+			"Description": "Workers in range +25% farming rate. Replaces the Academy.",			
+			"Requirements":".",
+			"Phase":"",
+			"Special":"."
+		}	
 	],
 	"StartEntities":
 	[

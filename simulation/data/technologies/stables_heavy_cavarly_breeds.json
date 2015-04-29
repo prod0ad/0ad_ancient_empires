@@ -10,6 +10,6 @@
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.2}
 	],
-	"affects": ["Cavalry"],
+	"affects": ["Cavalry","Elephant"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

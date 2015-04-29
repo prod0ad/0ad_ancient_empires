@@ -26,6 +26,7 @@
     <Entities datatype="tokens">
       units/cart_infantry_spearman_b
       units/cart_infantry_javelinist_2_b
+      units/cart_elephant		  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a
@@ -34,7 +35,9 @@
 	  upgrades/skirmisher_e		
       barracks_speed_train	
       barracks_speed_batch
-      barracks_infantry_siege	 
+      barracks_ranged_accuracy	 	  
+      stables_speed_cavalry_01
+      stables_speed_cavalry_02	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

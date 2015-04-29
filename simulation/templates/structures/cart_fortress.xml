@@ -15,14 +15,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/cart_champion_elephant	
-      units/cart_infantry_spearman_b
-      units/cart_infantry_javelinist_2_b
-      units/cart_mechanical_siege_ballista_packed
-      units/cart_mechanical_siege_oxybeles_packed	  
+      units/cart_champion_infantry
+      units/cart_champion_cavalry 
     </Entities>
     <Technologies datatype="tokens"> 
-	  fort_cart_temple_champions	
 	  fort_cart_siege_buildtime	
 	  fort_cart_reform	  	  
     </Technologies>

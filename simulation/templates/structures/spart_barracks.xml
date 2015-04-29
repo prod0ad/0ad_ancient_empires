@@ -25,7 +25,6 @@
 	  upgrades/spearman_e	
       barracks_speed_train	
       barracks_speed_batch
-      barracks_infantry_siege	
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

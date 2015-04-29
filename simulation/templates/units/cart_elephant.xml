@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_elephant_melee">
+  <Identity>
+    <Civ>cart</Civ>
+	<GenericName>War Elephant</GenericName>
+    <SpecificName>War Elephant</SpecificName>
+    <Icon>units/cart_champion_cavalry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/carthaginians/champion_unit_2.xml</Actor>
+  </VisualActor>
+</Entity>

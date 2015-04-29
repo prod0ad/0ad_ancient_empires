@@ -53,9 +53,9 @@
 			"Description": "Structures -20% build time but -20% hit points. Most Structures provide +5 population." 
 		},
 		{
-			"Name": "Shepherds and Hounds",
+			"Name": "Dog Breeding",
 			"History": ".", 
-			"Description": "This tech is auto-researched for free (Workers +50% meat gathering rate). The Britons start the game with an extra dog unit, effective at scouting." 
+			"Description": "Shepherd and Hounds free (Workers +50% meat gathering rate). A Dog Scout is added to starting units." 
 		}		
 	],
 	"TeamBonuses":
@@ -68,6 +68,16 @@
 	],
 	"Structures":
 	[
+		{
+			"Name":"Rotary Mill",
+			"Class":"",
+			"Emblem":"",
+			"History":".",
+			"Description": "Workers in range +25% farming rate. Replaces the Academy.",			
+			"Requirements":".",
+			"Phase":"",
+			"Special":"."
+		}	
 	],
 	"StartEntities":
 	[

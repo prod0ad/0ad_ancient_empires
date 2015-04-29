@@ -19,12 +19,7 @@
 					"Name": "Barcid Armies (Reform)",
 					"History": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
 					"Description": "Mercenaries -25% metal cost and +1 pierce and hack armor levels."
-				},
-				{
-					"Name": "Time Of Need",
-					"History": "The noble citizens of carthage in rare cases formed the Sacred Band units to fight in wars.",
-					"Description": "Allows the training of Sacred Band Infantry and Cavalry Champions at the Temple."
-				},				
+				},			
 				{
 					"Name": "Mass Production",
 					"History": "The Carthaginians excelled at massing siege weapons, especially for defensive purposes.",
@@ -34,25 +29,18 @@
 			"Heroes":
 			[
 				{
-					"Name": "War Elephant",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Massive war beast."
-				},
-				{
 					"Name": "Sacred Band Infantry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Punic Nobles employing hoplite-like tactics and armament. Requires Time Of Need."
+					"History": "Punic Nobles employing hoplite-like tactics and armament."
 				},
 				{
 					"Name": "Sacred Band Cavalry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Punic Nobles fight who as heavy cavalry. Requires Time Of Need."
+					"History": "Punic Nobles who fight as heavy cavalry."
 				}
 			]
 		}
@@ -72,7 +60,7 @@
 		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls and Barracks +25% hitpoints. Fortresses can train Barracks and Siege Workshop units."
+			"Description": "Fortresses, Walls and Barracks +25% hitpoints."
 		}		
 	],
 	"TeamBonuses":
@@ -90,7 +78,7 @@
 			"Class":"",
 			"Emblem":"",
 			"History":".",
-			"Description": "Trains and upgrades Mercenary units. Replaces the Stables",			
+			"Description": "Trains and upgrades Mercenary units. Replaces the Stables (Stable units and techs moved to the barracks).",			
 			"Requirements":".",
 			"Phase":"",
 			"Special":"."

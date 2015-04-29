@@ -1,5 +1,5 @@
 {
-	"genericName": "Chosen Swordsmen",
+	"genericName": "Longswordsmen",
 	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in the Imperial Phase.",
@@ -8,6 +8,6 @@
 	"supersedes": "upgrades/swordsman_e",
 	"tooltip": "Swordsmen +10% attack, hit points and vision.",
 	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
-	"affects": ["Sword Infantry Levy Elite"],
+	"affects": ["Sword Infantry Levy Chosen"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

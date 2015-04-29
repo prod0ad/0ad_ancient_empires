@@ -5,10 +5,7 @@
 	<GenericName>Champion Cavalry</GenericName>
     <SpecificName>Sacred Band of Astarte</SpecificName>
     <History>The Sacred Band of Astarte was an elite cavalry regiment recruited from amongst the upper class of the city.</History>
-    <Icon>units/cart_sacred_band_cavalry.png</Icon>
-    <RequiredTechnology>
-	fort_cart_temple_champions
-	</RequiredTechnology>			
+    <Icon>units/cart_sacred_band_cavalry.png</Icon>		
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_3.xml</Actor>
