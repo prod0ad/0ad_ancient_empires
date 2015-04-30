@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_elephant_ranged">
+  <Identity>
+    <Civ>maur</Civ>
+    <SelectionGroupName>units/maur_champion_elephant_archer</SelectionGroupName>
+    <GenericName>Champion Elephant</GenericName>
+    <SpecificName>Elephant Archer</SpecificName>
+    <Icon>units/maur_cavalry_archer.png</Icon>
+    <Tooltip>.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauryans/elephant_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

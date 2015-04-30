@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/maur_cavalry_javelinist_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/mauryans/cavalry_javelinist_a.xml</Actor>
   </VisualActor>

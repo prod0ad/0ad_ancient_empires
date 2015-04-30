@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/maur_cavalry_archer_b">
+<Entity parent="units/maur_chariot_archer_b">
   <Footprint replace="">
     <Square width="8.0" depth="11.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Identity>
     <Rank>Advanced</Rank>
-    <Classes datatype="tokens">Advanced</Classes>		
+    <Classes datatype="tokens">Advanced -Basic</Classes>		
   </Identity>
   <Promotion>
-    <Entity>units/maur_cavalry_archer_e</Entity>
+    <Entity>units/maur_chariot_archer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/mauryans/chariot_a.xml</Actor>

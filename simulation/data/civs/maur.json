@@ -34,32 +34,11 @@
 			"Heroes":
 			[
 				{
-					"Name":"Armored Elephant",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Powerful war beast."
-				},
-				{
 					"Name":"Elephant Archer",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
 					"History":"Archer mounted on a tough war elephant."
-				},				
-				{
-					"Name":"Maiden Guard",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Chosen Female Archer."
-				},
-				{
-					"Name":"Noble Chariot",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Chariot Mounted Archer."
 				}
 			]
 		}
@@ -71,6 +50,11 @@
 			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
 			"Description": "Maximum population +10%. Workers and Infantry -5 food cost for each phase researched."
 		},
+		{
+			"Name":"Indian Elephants",
+			"History":"Indian Elephants were larger and stronger than the north african ones most Mediterranean states used.",
+			"Description":"Elephant Units +25% hit points."
+		},			
 		{
 			"Name": "Light Infantry",
 			"History": "The majority of Indian infantrymen were unarmored troops.",
@@ -92,7 +76,7 @@
 		{
 			"Name": "Elephant Abundance.",
 			"History": "India was full of elephants, and the Mauryans often exported or gifted numbers of war elephants to allies.",
-			"Description": "Elephant Units train 20% faster (currently not shared)."
+			"Description": "Elephant Units -20% train time (currently not shared)."
 		} 
 	],
 	"Structures":
@@ -105,7 +89,7 @@
 			"Description": "Trains Various Elephant Units.",
 			"Requirements":"Temple",
 			"Phase":"Town",
-			"Special":"Trains Elephant Archer and Worker Elephant at Town Phase, then adds the champion War Elephant at the City phase."
+			"Special":"Trains and upgrades Elephant units. Replaces the Academy"
 		}
 	],
 	"StartEntities":

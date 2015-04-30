@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_elephant">
+  <Attack>
+    <Melee disable=""/>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>12</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>60.0</MaxRange>
+      <MinRange>0.0</MinRange>	  
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <Spread>1.3</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses> 
+    </Ranged>
+  </Attack> 
+  <Cost>
+    <Population>5</Population>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <food>240</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>70</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="3.5"/>
+    <Height>8.0</Height>
+  </Footprint>  
+  <Identity>
+    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
+    <Tooltip>Powerful unit especially strong versus Cavalry and Structures.</Tooltip>	
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/elephant_select.xml</select>
+      <order_walk>actor/fauna/animal/elephant_order.xml</order_walk>
+      <order_attack>actor/fauna/animal/elephant_attack.xml</order_attack>
+      <death>actor/fauna/animal/elephant_death.xml</death>
+      <trained>actor/fauna/animal/elephant_trained.xml</trained>
+    </SoundGroups>
+  </Sound>  
+</Entity>

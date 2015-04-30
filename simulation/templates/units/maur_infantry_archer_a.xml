@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/maur_infantry_archer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/mauryans/infantry_archer_a.xml</Actor>
   </VisualActor>

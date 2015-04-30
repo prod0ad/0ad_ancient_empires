@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_war_elephant">
+  <Identity>
+    <Civ>ptol</Civ>
+	<GenericName>War Elephant</GenericName>
+    <SpecificName>Forest Elephant</SpecificName>
+    <Icon>units/ptol_champion_elephant.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ptolemies/champion_elephant.xml</Actor>
+  </VisualActor>
+</Entity>

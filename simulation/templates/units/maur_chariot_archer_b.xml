@@ -5,18 +5,17 @@
     <Height>5.0</Height>
   </Footprint>
   <Promotion>
-    <Entity>units/maur_cavalry_archer_a</Entity>
+    <Entity>units/maur_chariot_archer_a</Entity>
   </Promotion>
   <Identity>
     <Rank>Basic</Rank>
   </Identity>	
   <Identity>
     <Civ>maur</Civ>
-    <Classes datatype="tokens">Chariot Basic</Classes>
-	<GenericName>War Chariot</GenericName>
-    <SpecificName>Rath</SpecificName>
+    <Classes datatype="tokens">Levy Chariot Basic</Classes>
+	<GenericName>Chariot Archer</GenericName>
+    <SpecificName>Indian Chariot</SpecificName>
 	<SelectionGroupName>units/maur_champion_chariot</SelectionGroupName>
-    <History>.</History>
 	<Icon>units/maur_champion_chariot.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>

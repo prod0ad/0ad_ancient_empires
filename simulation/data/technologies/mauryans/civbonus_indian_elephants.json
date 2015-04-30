@@ -1,0 +1,10 @@
+{
+	"genericName": "Indian Elephants",
+	"autoResearch": true,	
+	"description": ".",
+	"requirements": {"civ": "maur"},
+	"modifications": [	
+		{"value": "Health/Max", "multiply": 1.25}		
+	],
+	"affects": ["Elephant"]
+}

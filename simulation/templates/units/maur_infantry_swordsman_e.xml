@@ -2,12 +2,12 @@
 <Entity parent="units/maur_infantry_swordsman_a">
   <Identity>
     <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite</Classes>		
+    <Classes datatype="tokens">Elite -Advanced</Classes>		
   </Identity>
-  <Promotion disable=""/>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
+  <Promotion>
+    <Entity>units/maur_infantry_swordsman_u</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
   <VisualActor>
     <Actor>units/mauryans/infantry_swordsman_e.xml</Actor>
   </VisualActor>

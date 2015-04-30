@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_war_elephant">
+  <Identity>
+    <Civ>rome</Civ>
+	<GenericName>War Elephant</GenericName>
+    <SpecificName>Forest Elephant</SpecificName>
+    <Icon>units/cart_champion_cavalry.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>	
+  </Identity>
+  <VisualActor>
+    <Actor>units/carthaginians/champion_unit_2.xml</Actor>
+  </VisualActor>
+</Entity>

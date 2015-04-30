@@ -8,11 +8,12 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/maur_champion_infantry
-      units/maur_champion_maiden_archer
+      units/maur_champion_elephant_archer
     </Entities>
     <Technologies datatype="tokens">
-	  mauryans/health_regen_structures
+	  fort_maur_steel
+	  fort_maur_regen_structures
+	  fort_maur_pacifism_reform
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

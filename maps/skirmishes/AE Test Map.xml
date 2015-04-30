@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="368.862" y="188.968" z="-38.3135"/>
-		<Rotation angle="0.0199913"/>
+		<Position x="387.956" y="116.104" z="-1.36093"/>
+		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -3508,42 +3508,35 @@
 		<Entity uid="1525">
 			<Template>skirmish/units/default_cavalry</Template>
 			<Player>2</Player>
-			<Position x="368.37546" z="156.91147"/>
-			<Orientation y="2.35622"/>
+			<Position x="364.08838" z="159.57688"/>
+			<Orientation y="-0.6336"/>
 			<Actor seed="21124"/>
-		</Entity>
-		<Entity uid="1526">
-			<Template>skirmish/units/special_starting_unit</Template>
-			<Player>2</Player>
-			<Position x="367.70905" z="114.89834"/>
-			<Orientation y="0.71781"/>
-			<Actor seed="7836"/>
 		</Entity>
 		<Entity uid="1527">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="397.44996" z="163.80726"/>
+			<Position x="396.85483" z="158.66135"/>
 			<Orientation y="-1.90215"/>
 			<Actor seed="35116"/>
 		</Entity>
 		<Entity uid="1528">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="404.01063" z="157.74704"/>
+			<Position x="404.08613" z="153.41947"/>
 			<Orientation y="-2.05634"/>
 			<Actor seed="43846"/>
 		</Entity>
 		<Entity uid="1529">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="410.12125" z="151.05704"/>
+			<Position x="410.94498" z="147.49903"/>
 			<Orientation y="-2.54018"/>
 			<Actor seed="43844"/>
 		</Entity>
 		<Entity uid="1530">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="415.74164" z="144.8368"/>
+			<Position x="417.26151" z="141.98704"/>
 			<Orientation y="-2.50185"/>
 			<Actor seed="12572"/>
 		</Entity>
@@ -5353,34 +5346,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="42412"/>
 		</Entity>
-		<Entity uid="1789">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>1</Player>
-			<Position x="424.54899" z="571.80481"/>
-			<Orientation y="-0.80044"/>
-			<Actor seed="64802"/>
-		</Entity>
-		<Entity uid="1790">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>1</Player>
-			<Position x="419.84055" z="567.60187"/>
-			<Orientation y="-0.61597"/>
-			<Actor seed="53754"/>
-		</Entity>
-		<Entity uid="1791">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>1</Player>
-			<Position x="426.43778" z="563.51734"/>
-			<Orientation y="-0.43653"/>
-			<Actor seed="40162"/>
-		</Entity>
-		<Entity uid="1792">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>1</Player>
-			<Position x="419.77747" z="560.79853"/>
-			<Orientation y="-0.61019"/>
-			<Actor seed="61628"/>
-		</Entity>
 		<Entity uid="1793">
 			<Template>gaia/fauna_sheep</Template>
 			<Player>2</Player>
@@ -5807,6 +5772,69 @@
 			<Position x="198.96213" z="679.78412"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31874"/>
+		</Entity>
+		<Entity uid="1928">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>1</Player>
+			<Position x="383.1295" z="645.06763"/>
+			<Orientation y="0.71625"/>
+			<Actor seed="18334"/>
+		</Entity>
+		<Entity uid="1929">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>1</Player>
+			<Position x="387.48133" z="639.44581"/>
+			<Orientation y="0.6865"/>
+			<Actor seed="27266"/>
+		</Entity>
+		<Entity uid="1930">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>1</Player>
+			<Position x="397.57731" z="629.09491"/>
+			<Orientation y="0.73618"/>
+			<Actor seed="56874"/>
+		</Entity>
+		<Entity uid="1931">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>1</Player>
+			<Position x="401.44059" z="624.0276"/>
+			<Orientation y="0.7948"/>
+			<Actor seed="13214"/>
+		</Entity>
+		<Entity uid="1937">
+			<Template>skirmish/units/special_starting_unit</Template>
+			<Player>2</Player>
+			<Position x="369.4127" z="115.953"/>
+			<Orientation y="-2.5037"/>
+			<Actor seed="7836"/>
+		</Entity>
+		<Entity uid="1938">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="375.02964" z="111.86118"/>
+			<Orientation y="-2.44077"/>
+			<Actor seed="4374"/>
+		</Entity>
+		<Entity uid="1939">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="380.70682" z="107.52811"/>
+			<Orientation y="-2.28576"/>
+			<Actor seed="57222"/>
+		</Entity>
+		<Entity uid="1940">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="363.71332" z="122.39797"/>
+			<Orientation y="-2.49575"/>
+			<Actor seed="34378"/>
+		</Entity>
+		<Entity uid="1941">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="357.4357" z="128.83805"/>
+			<Orientation y="-2.36634"/>
+			<Actor seed="13214"/>
 		</Entity>
 	</Entities>
 	<Paths/>

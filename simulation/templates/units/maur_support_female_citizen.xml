@@ -11,17 +11,16 @@
       structures/{civ}_outpost
       other/wallset_palisade
       structures/{civ}_barracks
-      structures/{civ}_stables 	  
-      structures/maur_elephant_stables 		  
+      structures/{civ}_stables 	  	  
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market
       structures/{civ}_defense_tower
       structures/{civ}_wallset_stone
       structures/{civ}_civil_centre	  	  
-      structures/{civ}_fortress		  
+      structures/{civ}_fortress	
+      structures/{civ}_elephant_stables 		  
       structures/{civ}_wonder	  
-      structures/maur_pillar_ashoka 
     </Entities>
   </Builder>
   <Identity>

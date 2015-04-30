@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/maur_cavalry_archer_a">
+<Entity parent="units/maur_chariot_archer_a">
   <Identity>
     <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite</Classes>		
+    <Classes datatype="tokens">Elite -Advanced</Classes>		
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
