@@ -6,9 +6,9 @@
 	"icon": "upgrade_elite.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/mercenary_a",
-	"tooltip": "Promotes mercenaries to the elite rank.",
+	"tooltip": "Melee Mercenaries +10% attack, hit points and vision. Ranged Mercenaries +10% attack, hit points, range and vision.",
 	"modifications": [
-	{"value": "Promotion/RequiredXp", "replace": 0}
+	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],
 	"affects": ["Mercenary Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

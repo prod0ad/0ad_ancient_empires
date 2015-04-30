@@ -72,7 +72,7 @@
   </StatusBars>
   <TerritoryInfluence disable=""/>
   <Vision>
-    <Range>90</Range>
+    <Range>60</Range>
   </Vision>
     <ResourceTrickle>
 	<FoodRate>0</FoodRate>

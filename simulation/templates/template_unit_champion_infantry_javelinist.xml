@@ -34,9 +34,6 @@
   </Health>
   <UnitMotion>
     <WalkSpeed>10</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
   </UnitMotion>  
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
@@ -51,6 +48,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>75</Range>
+    <Range>60</Range>
   </Vision>    
 </Entity>

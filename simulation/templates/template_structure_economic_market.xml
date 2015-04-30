@@ -56,7 +56,7 @@
     </Technologies>	
   </ProductionQueue>
   <Vision>
-    <Range>30</Range>
+    <Range>40</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

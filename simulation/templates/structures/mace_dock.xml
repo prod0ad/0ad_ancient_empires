@@ -22,7 +22,7 @@
 	  units/mace_ship_quinquereme
     </Entities>
     <Technologies datatype="tokens">
-      successors/naval_prestige
+      dock_heavy_ship_buildtime
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

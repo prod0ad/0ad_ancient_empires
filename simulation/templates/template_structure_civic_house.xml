@@ -56,7 +56,7 @@
   </StatusBars>
   <TerritoryInfluence disable=""/>
   <Vision>
-    <Range>30</Range>
+    <Range>25</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_3x3.xml</FoundationActor>

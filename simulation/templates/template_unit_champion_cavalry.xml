@@ -74,6 +74,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>75</Range>
+    <Range>60</Range>
   </Vision>
 </Entity>

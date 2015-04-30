@@ -1,13 +1,15 @@
 {
 	"genericName": "Elite Legions",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "upgrade_elite.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/legions_a",
 	"tooltip": "Increases Spearman and Swordsman Attack, Hit Points and Vision by 10%.",
-	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}
+	],
 	"affects": ["Melee Infantry Levy Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -55,7 +55,7 @@
 		{
 			"Name": "Dog Breeding",
 			"History": ".", 
-			"Description": "Shepherd and Hounds free (Workers +50% meat gathering rate). A Dog Scout is added to starting units." 
+			"Description": "Shepherds and Hounds tech free (Workers +50% meat gathering rate). A Dog Scout is added to starting units." 
 		}		
 	],
 	"TeamBonuses":

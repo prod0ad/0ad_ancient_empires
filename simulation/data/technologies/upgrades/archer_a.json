@@ -6,8 +6,7 @@
 	"icon": "upgrade_advanced.png",
 	"researchTime": 40,
 	"tooltip": "Archers +10% attack, hit points, range and vision.",
-	"modifications": 
-	[
+	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],
 	"affects": ["Archer Infantry Levy Basic"],

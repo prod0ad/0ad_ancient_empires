@@ -93,7 +93,7 @@
   </StatusBars>
   <TerritoryInfluence disable=""/>
   <Vision>
-    <Range>80</Range>
+    <Range>75</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>

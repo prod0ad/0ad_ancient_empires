@@ -1,13 +1,15 @@
 {
-	"genericName": "Longswordsmen",
+	"genericName": "Champion Swordsmen",
 	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in the Imperial Phase.",
-	"icon": "upgrade_elite.png",
+	"icon": "sword.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/swordsman_e",
 	"tooltip": "Swordsmen +10% attack, hit points and vision.",
-	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
-	"affects": ["Sword Infantry Levy Chosen"],
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Sword Infantry Levy Elite"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

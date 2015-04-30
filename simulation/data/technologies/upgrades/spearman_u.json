@@ -7,7 +7,9 @@
 	"researchTime": 40,
 	"supersedes": "upgrades/spearman_e",
 	"tooltip": "Spearmen +10% attack, hit points and vision.",
-	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}
+	],
 	"affects": ["Spearman Levy Elite"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

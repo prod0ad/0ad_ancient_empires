@@ -107,7 +107,7 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>150</Radius>
+    <Radius>120</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <AlertRaiser>
@@ -115,7 +115,7 @@
     <Range>150</Range>
   </AlertRaiser>
   <Vision>
-    <Range>90</Range>
+    <Range>60</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

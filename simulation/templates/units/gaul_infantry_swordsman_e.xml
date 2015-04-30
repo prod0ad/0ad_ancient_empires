@@ -2,9 +2,12 @@
 <Entity parent="units/gaul_infantry_swordsman_a">
   <Identity>
     <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite</Classes>		
+    <Classes datatype="tokens">Elite -Advanced</Classes>			
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/gaul_infantry_swordsman_u</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
   <VisualActor>
     <Actor>units/carthaginians/infantry_swordsman_e.xml</Actor>
   </VisualActor>

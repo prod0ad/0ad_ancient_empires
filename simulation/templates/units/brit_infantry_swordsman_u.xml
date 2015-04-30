@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/brit_infantry_swordsman_e">
   <Identity>
-    <Rank>Chosen</Rank>
-    <Classes datatype="tokens">Chosen</Classes>		
-  </Identity>
-  <Identity>
     <Civ>brit</Civ>
     <GenericName>Swordsman</GenericName>
     <SpecificName>Longswordsman</SpecificName>

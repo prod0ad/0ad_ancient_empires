@@ -1,0 +1,14 @@
+{
+	"genericName": "Advanced Spearmen",
+	"autoResearch": true,
+	"requirements": {"tech": "upgrades/spearman_a"},
+	"modifications": [
+	    {"value": "Health/Max", "multiply": 1.1},	
+	    {"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "Vision/Range", "multiply": 1.1}
+	],
+	"affects": ["Spearman Levy"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

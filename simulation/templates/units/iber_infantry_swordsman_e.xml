@@ -4,7 +4,10 @@
     <Rank>Elite</Rank>
     <Classes datatype="tokens">Elite</Classes>		
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/iber_infantry_swordsman_u</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
   <VisualActor>
     <Actor>units/iberians/infantry_swordsman_e.xml</Actor>
   </VisualActor>

@@ -7,7 +7,9 @@
 	"researchTime": 40,
 	"supersedes": "upgrades/skirmisher_a",
 	"tooltip": "Skirmishers +10% attack, hit points, range and vision.",
-	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}	
+	],
 	"affects": ["Javelin Infantry Levy Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

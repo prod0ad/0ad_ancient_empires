@@ -6,8 +6,7 @@
 	"icon": "upgrade_advanced.png",
 	"researchTime": 40,
 	"tooltip": "Spearmen +10% attack, hit points and vision.",
-	"modifications": 
-	[
+	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],
 	"affects": ["Spearman Levy Basic"],

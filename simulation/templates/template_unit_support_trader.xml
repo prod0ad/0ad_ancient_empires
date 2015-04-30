@@ -48,6 +48,6 @@ Trade resources between your own markets and those of your allies.</Tooltip>
     <WalkSpeed>9</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>60</Range>
+    <Range>25</Range>
   </Vision>
 </Entity>

@@ -60,7 +60,7 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>30</Range>
+    <Range>25</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_2x4.xml</FoundationActor>
