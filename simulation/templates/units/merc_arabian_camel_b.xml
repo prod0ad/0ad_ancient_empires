@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
+  <Cost>
+    <BuildTime>8</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>45</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>ptol</Civ>
     <VisibleClasses datatype="tokens">
@@ -7,8 +16,7 @@
 	  Camel
 	  -Levy
 	  Mercenary
-	</VisibleClasses>
-	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+	</VisibleClasses>	
 	<SelectionGroupName>units/merc_arabian_camel_b</SelectionGroupName>
 	<GenericName>Horse Archer</GenericName>
     <SpecificName>Arabian Camel Archer</SpecificName>

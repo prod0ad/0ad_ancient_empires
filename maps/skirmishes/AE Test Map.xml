@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="387.956" y="116.104" z="-1.36093"/>
+		<Position x="391.983" y="244.586" z="-132.64"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>

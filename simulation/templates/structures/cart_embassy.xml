@@ -30,12 +30,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/merc_gallic_spearman_b	
-      units/merc_numidian_rider_b	
-      units/merc_mauritanian_archer_b  
-      units/merc_numidian_rider_b	  
-      units/merc_italian_swordsman_b
-      units/merc_iberian_slinger_b 	
-      units/merc_iberian_lancer_b
     </Entities>  
     <Technologies datatype="tokens">
 	  upgrades/mercenary_a

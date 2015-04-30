@@ -18,7 +18,7 @@
 				{
 					"Name": "Barcid Armies (Reform)",
 					"History": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
-					"Description": "Mercenaries -25% metal cost and +1 pierce and hack armor levels."
+					"Description": "Mercenaries -25% metal cost and +1 pierce and hack armor."
 				},			
 				{
 					"Name": "Mass Production",
@@ -54,13 +54,18 @@
 		},
 		{
 			"Name": "Colonization",
-			"History": "Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
+			"History": "The Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
 			"Description": "Civic Centres, Temples, Docks and Houses -20% build time."
 		},	
 		{
+			"Name": "Mercenaries",
+			"History": "The Carthaginians made extensive use of mercenary and subject troops.",
+			"Description": "Mercenary units available at the Barracks (without the need to research the Mercenaries special tech)."
+		},			
+		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls and Barracks +25% hitpoints."
+			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints."
 		}		
 	],
 	"TeamBonuses":
@@ -73,16 +78,6 @@
 	],
 	"Structures":
 	[
-		{
-			"Name":"Embassy",
-			"Class":"",
-			"Emblem":"",
-			"History":".",
-			"Description": "Trains and upgrades Mercenary units. Replaces the Stables (Stable units and techs moved to the barracks).",			
-			"Requirements":".",
-			"Phase":"",
-			"Special":"."
-		}	
 	],
 	"StartEntities":
 	[
@@ -94,7 +89,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/merc_numidian_rider_b"
+			"Template": "units/cart_cavalry_light_numi_b"
 		}
 	],
 	"Formations":

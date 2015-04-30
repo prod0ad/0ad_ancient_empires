@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_swordsman">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>sele</Civ>
 	<SelectionGroupName>units/merc_thracian_swordsman_b</SelectionGroupName>
 	<GenericName>Thracian Swordsman</GenericName>
-    <SpecificName>Rhomphaiaphoros</SpecificName>
-	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+    <SpecificName>Rhomphaiaphoros</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/sele_infantry_swordsman.png</Icon>
     <History>Thracian tribesmen who wield the fearsome rhomphaia polearm weapon in combat. They were ubiquitous mercenary swordsmen and skirmishers throughout Hellenistic times, sometimes even serving in two opposing armies.</History>

@@ -6,10 +6,10 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "horse_trainer.png",
 	"researchTime": 40,
-	"tooltip": "Cavalry train 10% faster. Unlocks Conscription.",
+	"tooltip": "Levy Cavalry train 10% faster. Unlocks Conscription.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.9}
 	],
-	"affects": ["Cavalry"],
+	"affects": ["Cavalry Levy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

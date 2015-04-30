@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
+  <Cost>
+    <BuildTime>8</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>45</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>ptol</Civ>
     <SelectionGroupName>units/merc_thureos_spearman_b</SelectionGroupName>

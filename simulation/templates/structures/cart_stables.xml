@@ -7,8 +7,9 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/merc_numidian_rider_b
-      units/merc_iberian_lancer_b
+      units/cart_cavalry_light_numi_b
+      units/cart_cavalry_heavy_iber_b
+      units/cart_war_elephant		  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
@@ -17,7 +18,7 @@
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01
-      stables_speed_cavalry_02
+      stables_speed_cavalry_02	  
     </Technologies>
   </ProductionQueue>
 </Entity>

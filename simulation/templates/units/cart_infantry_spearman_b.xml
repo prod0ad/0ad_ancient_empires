@@ -3,8 +3,8 @@
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Libyan Infantry</GenericName>
-    <SpecificName>Spearman</SpecificName>
+    <GenericName>Spearman</GenericName>
+    <SpecificName>Liby-Phoenician Infantry</SpecificName>
     <Icon>units/cart_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

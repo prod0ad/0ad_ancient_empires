@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee">
+  <Cost>
+    <BuildTime>8</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>45</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>cart</Civ>
 	<SelectionGroupName>units/merc_gallic_epos_b</SelectionGroupName>
     <GenericName>Heavy Cavalry</GenericName>
-	<SpecificName>Gallic Lancer</SpecificName>
-	<Classes datatype="tokens">Mercenary -Levy</Classes>		
+	<SpecificName>Gallic Lancer</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/cart_cavalry_swordsman_2.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>			
