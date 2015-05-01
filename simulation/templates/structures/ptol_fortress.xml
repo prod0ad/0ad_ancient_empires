@@ -14,15 +14,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/ptol_champion_cavalry
-      units/ptol_champion_elephant
-      units/ptol_champion_infantry_swordsman
+      units/ptol_champion_infantry_pikeman
     </Entities>
     <Technologies datatype="tokens">
-	  successors/ptol_merc_army	  
-	  successors/ptol_garrisons
-	  successors/ptol_reforms_machimoi
-	  successors/ptol_reforms_roman	  
+	  fort_ptol_merc_army	  
+	  fort_ptol_garrisons
+	  fort_ptol_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

@@ -17,9 +17,9 @@
 			"Technologies":
 			[
 				{
-					"Name":"Antigonid Reform",
+					"Name":"Antigonid Reforms",
 					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks.",
-					"Description":"Pikemen -20% train time and +1 hack and pierce armor levels."
+					"Description":"Pikemen and Mercenaries train 20% faster and get +1 hack and pierce armor."
 				},	
 			        {
 					"Name":"Kestros Sling",

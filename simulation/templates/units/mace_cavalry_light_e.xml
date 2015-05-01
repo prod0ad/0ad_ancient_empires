@@ -6,6 +6,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_javelinist_e.xml</Actor>
+    <Actor>units/athenians/cavalry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

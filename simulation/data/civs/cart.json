@@ -56,12 +56,7 @@
 			"Name": "Colonization",
 			"History": "The Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
 			"Description": "Civic Centres, Temples, Docks and Houses -20% build time."
-		},	
-		{
-			"Name": "Mercenaries",
-			"History": "The Carthaginians made extensive use of mercenary and subject troops.",
-			"Description": "Mercenary units available at the Barracks (without the need to research the Mercenaries special tech)."
-		},			
+		},		
 		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
@@ -127,6 +122,7 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_infantry_ranged_b": "units/cart_infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/cart_cavalry_light_numi_b",		
 		"skirmish/structures/default_house_10": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

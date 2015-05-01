@@ -1,0 +1,15 @@
+{
+	"genericName": "Elite Mercenary Archers",
+	"autoResearch": true,
+	"requirements": {"tech": "upgrades/archer_merc_e"},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},	
+		{"value": "Attack/Ranged/Hack", "multiply": 1.1},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.1},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},		
+		{"value": "Vision/Range", "multiply": 1.1}			
+	],
+	"affects": ["Archer Infantry Mercenary"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -11,15 +11,15 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/ptol_infantry_javelinist_2_b
-      units/ptol_infantry_slinger_b
+      units/ptol_cavalry_light_b
+      units/ptol_cavalry_heavy_b
       units/ptol_cavalry_archer_b
-	  units/ptol_champion_infantry_pikeman
+	  units/ptol_war_elephant
     </Entities>
     <Technologies datatype="tokens">	
 	  upgrades/cavalry_light_a
 	  upgrades/cavalry_light_e		
-	  upgrades/cavalry_heavy_e		
+	  upgrades/cavalry_heavy_e	
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01

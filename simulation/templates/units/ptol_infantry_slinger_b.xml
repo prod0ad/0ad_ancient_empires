@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>46</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>ptol</Civ>
     <SelectionGroupName>units/ptol_infantry_slinger_b</SelectionGroupName>
-    <GenericName>Judean Slinger</GenericName>
-    <SpecificName>Ebraïkós Sphendonistes</SpecificName>
-    <History>Jews made up a large portion of several Egyptian cities. They were local subjects to the Ptolemaic crown and hated the Seleucids and Romans in equal measure.</History>
+    <GenericName>Slinger</GenericName>
+    <SpecificName>Judean Slinger</SpecificName>
     <Icon>units/hele_infantry_slinger.png</Icon>
-    <VisibleClasses datatype="tokens">
-	  SubjectLevy
-	  -Levy
-	</VisibleClasses>		
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>

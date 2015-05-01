@@ -23,48 +23,22 @@
 				{
 			         "Name":"Ptolemaic Garrisons",
 			         "History":"The Ptolemies relied extensively on fortified garrisons to protect their overseas and distant possessions.",
-			         "Description":"Fortresses +50% arrows per garrisoned soldier."
-		        },
-				{
-			         "Name":"Machimoi Reforms",
-			         "History":"In order to counter the Seleucid threat, the Ptolemies eventually started training Egyptians to fight as pikemen.",
-			         "Description":"Unlock the Machimos Phalangites Champion."
+			         "Description":"Fortresses +30% arrows per garrisoned soldier."
 		        },
 				{
 			         "Name":"Romanization Reforms",
-			         "History":"Late Ptolemaic Egypt switched it's pike army core to Roman influenced swordsmen trained by Roman mercenary instructors.",
-			         "Description":"Unlock the Romanized Thorakites Champion."
+			         "History":"Late Ptolemaic Egypt employed to Roman influenced swordsmen often trained by Roman mercenary instructors.",
+			         "Description":"Swordsmen -20% build time and +20% hit points."
 		        }
 			],
 			"Heroes":
 			[
 				{
-					"Name":"Agema",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Royal Guard Cavalry."
-				},			
-				{
-					"Name":"War Elephant",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Powerful War Beast."
-				},
-				{
 					"Name":"Machimos Phalangites",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Weak for a champion unit but costs no metal. Requires Machimoi Reform."
-				},
-				{
-					"Name":"Romanized Thorakites",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Heavy Swordsman. Requires Romanization Reform."
+					"History":"Weak for a champion unit but costs no metal."
 				}
 			]
 		}
@@ -88,8 +62,8 @@
 		},
 		{
 			"Name":"Foreign Dynasty",
-			"History":"The Seleucids and Ptolemies chose military settlers as the core of their armies, as those troops were generally more loyal and less risky to train than conquered people.",
-			"Description":"Military barracks train strong units with many upgrades while Levy Barracks train levied subjects which are weaker, have less upgrades but are easier to mass produce."
+			"History":".",
+			"Description":"Infantry Spearmen are mercenaries, costing metal instead of food/wood."
 		}
 	],
 	"TeamBonuses":
@@ -122,7 +96,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/ptol_cavalry_spearman_b"
+			"Template": "units/ptol_cavalry_light_b"
 		}
 	],
 	"Formations":
@@ -164,8 +138,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/ptol_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/ptol_cavalry_archer_b",
+		"skirmish/units/default_cavalry": "units/ptol_cavalry_light_b",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

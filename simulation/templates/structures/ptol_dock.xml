@@ -20,7 +20,6 @@
       units/ptol_ship_bireme
       units/ptol_ship_trireme
       units/ptol_ship_quinquereme
-      units/ptol_champion_juggernaut
     </Entities>
     <Technologies datatype="tokens">
 	  dock_ship_speed

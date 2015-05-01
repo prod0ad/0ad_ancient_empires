@@ -1,0 +1,11 @@
+{
+	"genericName": "Recruiting Agents",
+	"description": "Unlocks mercenary units.",
+	"cost": {"food": 375, "wood": 0, "stone": 0, "metal": 225},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "Unlocks mercenary units.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

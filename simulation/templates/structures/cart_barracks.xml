@@ -35,8 +35,10 @@
 	  upgrades/spearman_e		
 	  upgrades/skirmisher_a
 	  upgrades/skirmisher_e		
-	  upgrades/mercenary_a
-	  upgrades/mercenary_e		  
+	  upgrades/archer_merc_a
+	  upgrades/archer_merc_e
+	  upgrades/swordsman_merc_e		  
+	  upgrades/slinger_merc_e		  
       barracks_speed_train	
       barracks_speed_batch
       barracks_ranged_accuracy	 	  

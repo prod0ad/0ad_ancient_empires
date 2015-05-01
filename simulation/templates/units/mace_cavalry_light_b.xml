@@ -5,13 +5,13 @@
 	<SelectionGroupName>units/mace_cavalry_light_b</SelectionGroupName>
 	<GenericName>Odrysian Skirmish Cavalry</GenericName>
     <SpecificName>Hippakontistès Odrysón</SpecificName>
-    <Icon>units/mace_cavalry_javelinist.png</Icon>
+    <Icon>units/hele_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/mace_cavalry_light_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_javelinist_b.xml</Actor>
+    <Actor>units/athenians/cavalry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

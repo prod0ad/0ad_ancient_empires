@@ -23,6 +23,7 @@
   </Attack>
     <Cost>
     <BuildTime>8</BuildTime>
+    <Population>2</Population>			
     <Resources>
       <food>40</food>
       <wood>50</wood>
@@ -35,15 +36,9 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
-    <Classes datatype="tokens">Reform</Classes>	
-    <VisibleClasses datatype="tokens">
-	  SubjectLevy
-	</VisibleClasses>	
-	<GenericName>Egyptian Pikeman</GenericName>
-    <SpecificName>Makhimos Phalangites</SpecificName>
-    <History>When pressed hard by the fellow successor states, the Ptolemies of Egypt began to arm and train the Egyptian people in "Macedonian fashion." These levies of indigenous Egyptians were crucial in turning back the Seleucid tide at the Battle of Raphia, cementing nationalist pride and threatening the rule of the Ptolemies over their own kingdom.</History>
+	<GenericName>Champion Pikeman</GenericName>
+    <SpecificName>Egyptian Machimos</SpecificName>
     <Icon>units/ptol_infantry_spearman.png</Icon>
-	<RequiredTechnology>successors/ptol_reforms_machimoi</RequiredTechnology>
 	<Tooltip>Fast training, light Champion Pikeman. Deals double damage vs Cavalry and Elephants.</Tooltip>		
   </Identity>
   <Promotion disable=""/>
@@ -54,6 +49,6 @@
     </Run>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_spearman_a.xml</Actor>
+    <Actor>units/ptolemies/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>
