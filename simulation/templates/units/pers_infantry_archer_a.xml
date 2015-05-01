@@ -7,9 +7,6 @@
   <Promotion>
     <Entity>units/pers_infantry_archer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/persians/infantry_archer_a.xml</Actor>
   </VisualActor>

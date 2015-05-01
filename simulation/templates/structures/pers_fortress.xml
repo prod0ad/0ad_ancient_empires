@@ -8,11 +8,12 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/pers_champion_cavalry	 
+      units/pers_champion_infantry 	 
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-	  fort_persians_reform
+      fort_pers_immortals
+	  fort_pers_architecture
+	  fort_pers_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

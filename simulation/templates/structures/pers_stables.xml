@@ -6,15 +6,18 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/pers_cavalry_javelinist_b	
-      units/pers_cavalry_swordsman_b
-      units/pers_cavalry_archer_b
+      units/pers_cavalry_light_b	
+      units/pers_cavalry_heavy_b
+      units/pers_cavalry_archer_scyth_b
+      units/pers_chariot_archer_b
+      units/pers_war_elephant	  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
 	  upgrades/cavalry_light_e		
 	  upgrades/cavalry_heavy_e		
-	  upgrades/cavalry_archer_e			  	
+	  upgrades/cavalry_archer_e	
+	  upgrades/chariot_archer_e		  
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01

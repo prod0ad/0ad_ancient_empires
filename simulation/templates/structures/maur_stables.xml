@@ -16,7 +16,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/maur_cavalry_javelinist_b
+      units/maur_cavalry_light_b
       units/maur_cavalry_swordsman_b	  
       units/maur_chariot_archer_b
     </Entities>

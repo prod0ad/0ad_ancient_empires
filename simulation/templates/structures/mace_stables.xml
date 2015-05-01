@@ -6,7 +6,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mace_cavalry_javelinist_b		
+      units/mace_cavalry_light_b		
       units/mace_cavalry_spearman_b
       units/mace_war_elephant		  
     </Entities>

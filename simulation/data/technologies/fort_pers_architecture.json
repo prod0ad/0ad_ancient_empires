@@ -1,0 +1,14 @@
+{
+	"genericName": "Persian Architecture",
+	"cost": {"food": 0, "wood": 0, "stone": 450, "metal": 150},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "stone_blocks_brown.png",
+	"researchTime": 40,
+	"tooltip": "All Persian structures +25% health.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.25}
+	],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

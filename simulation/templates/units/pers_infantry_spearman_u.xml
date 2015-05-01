@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/pers_infantry_spearman_e">
+  <Promotion disable=""/>
+  <Identity>
+    <GenericName>Spearman</GenericName>	
+    <SpecificName>Kardakes Hoplite</SpecificName>
+    <Icon>units/pers_kardakes.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/persians/kardakes_hoplite.xml</Actor>
+  </VisualActor>
+</Entity>

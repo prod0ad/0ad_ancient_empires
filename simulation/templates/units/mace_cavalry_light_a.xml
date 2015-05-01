@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/mace_cavalry_light_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>		
+  </Identity>
+  <Promotion>
+    <Entity>units/mace_cavalry_light_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

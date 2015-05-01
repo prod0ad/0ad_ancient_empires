@@ -13,7 +13,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/sele_infantry_javelinist_b
-      units/sele_cavalry_javelinist_b
+      units/sele_cavalry_light_b
       units/sele_cavalry_archer_2_e
     </Entities>
     <Technologies datatype="tokens">

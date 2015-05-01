@@ -22,6 +22,7 @@
     </Entities>
     <Technologies datatype="tokens">
 	  dock_ship_speed
+	  -dock_heavy_trasport	  
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

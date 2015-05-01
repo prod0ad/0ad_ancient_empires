@@ -6,6 +6,7 @@
   </Identity>
   <Promotion>
     <Entity>units/pers_infantry_javelinist_e</Entity>
+    <RequiredXp>9999</RequiredXp>		
   </Promotion>
   <VisualActor>
     <Actor>units/persians/infantry_javelinist_a.xml</Actor>

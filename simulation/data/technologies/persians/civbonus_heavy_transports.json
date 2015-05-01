@@ -1,0 +1,9 @@
+{
+	"genericName": "Heavy Trasports",
+	"autoResearch": true,	
+	"requirements": {"civ": "pers"},
+	"tooltip": "Merchantmen +10 transport capacity.",
+	"modifications": [{"value": "GarrisonHolder/Max", "add": 10}],
+	"affects": ["Trader Ship"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

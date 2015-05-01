@@ -1,10 +1,19 @@
 {
-	"genericName": "Late Achaemenid Armies (Reform).",
-	"cost": {"food": 375, "wood": 0, "stone": 0, "metal": 525},
-	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "pers"}]},
-	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"genericName": "Cardakes Reform",
+	"cost": {"food": 750, "wood": 0, "stone": 0, "metal": 150},
+	"requirements": { "all": [{"tech":"phase_imperial"}, {"tech":"upgrades/spearman_e"}, {"tech":"upgrades/skirmisher_e"}]},	
+	"requirementsTooltip": "Unlocked in Imperial Phase. Requires Elite Spearmen and Elite Skirmishers.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Unlocks Kardakes Hoplites and Skirmishers at the barracks and the Mercenary Hall, providing additional units.",
+	"tooltip": "Spearmen +10% attack, hit points and vision. Skirmishers +10% attack, hit points, range and vision.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},	
+		{"value": "Attack/Ranged/Hack", "multiply": 1.1},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.1},
+		{"value": "Vision/Range", "multiply": 1.1},		
+	    {"value": "Promotion/RequiredXp", "replace": 0}	
+	],
+	"affects": ["Javelin Infantry Levy","Spearman Infantry Levy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

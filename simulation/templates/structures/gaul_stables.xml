@@ -7,7 +7,7 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/gaul_cavalry_javelinist_b	
+      units/gaul_cavalry_light_b	
       units/gaul_cavalry_swordsman_b
     </Entities>
     <Technologies datatype="tokens">

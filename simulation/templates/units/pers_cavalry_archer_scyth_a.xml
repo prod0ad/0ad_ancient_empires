@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/pers_cavalry_archer_scyth_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>			
+  </Identity>
+  <Promotion>
+    <Entity>units/pers_cavalry_archer_scyth_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/seleucids/cavalry_archer_a.xml</Actor>
+  </VisualActor>
+</Entity>

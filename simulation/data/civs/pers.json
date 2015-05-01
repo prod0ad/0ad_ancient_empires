@@ -16,46 +16,30 @@
 			"Technologies":
 			[
 				{
-					"Name": "Late Achaemenid Armies (Reform)",
+					"Name": "Kardakes Reform",
 					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
-					"Description": "Unlocks War Elephants and Bactrian Lancers at the general's hall."
-				},		
+					"Description": "Spearmen +10% attack, hit points and vision. Skirmishers +10% attack, hit points, range and vision."
+				},
+	            {
+		    	    "Name": "Persian Architecture",
+		     	    "History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
+		    	    "Description": "Structures +25% hit points."
+		        },					
 				{
-					"Name": "Nisean War Horses",
-					"History": "The beautiful and powerful breed of Nisean horses increases health for Persian cavalry.",
-					"Description": "Cavalry +20% health."
+					"Name": "Immortals",
+					"History": ".",
+					"Description": "Champion Spearmen -50% train time."
 				} 
 			],
 			"Heroes":
 			[
 				{
-					"Name": "Immortal",
+					"Name": "Anusyia",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Fast trained medium Spearman." 
-				},
-				{
-					"Name": "Scythed Chariot",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Wreckless Mesopotamian Chariot Rider." 
-				},
-				{
-					"Name": "Bactrian Lancer",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Elite Heavy Cavalry. Requires Late Acheamenid Armies." 
-				},		
-				{
-					"Name": "War Elephant",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Powerful War Beast. Requires Late Acheamenid Armies."
-				} 
+					"History": "Fast trained medium Champion Spearman." 
+				}
 			]
 		} 
 	],
@@ -67,11 +51,6 @@
 			"Description": "Maximum population +10%."
 		}, 		
 		{
-			"Name": "Persian Architecture",
-			"History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
-			"Description": "Structures +25% hit points, but +20% build time."
-		},	
-		{
 			"Name": "Light Infantry",
 			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
 			"Description": "Levy Spear Infantry are significantly weaker, cheaper and faster to train."
@@ -80,7 +59,12 @@
 			"Name":"Archery Tradition",
 			"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
 			"Description":"Infantry Archers +10% range/vision and -25% train time."
-		}						
+		},
+		{
+			"Name": "Naval Invasion",
+			"History": "The Persians, employing their skilled phoenician and other maritime subjects were among the first to large large scale naval invasions including the trasportation of cavalry.",
+			"Description": "Heavy Transports tech free (Merchantmen +10 transport capacity)."
+		}		
 	],
 	"TeamBonuses":
 	[
@@ -93,13 +77,13 @@
 	"Structures":
 	[
 		{
-			"Name": "General's Hall",
+			"Name": "Apadana",
 			"Class": "",
 			"Emblem": "",
-			"History": "Mercenary Generals such as Memnon of Rhodes enjoyed a high standing in late Achaemenid Persia.",
+			"History": ".",
 			"Requirements": "",
 			"Phase": "city",
-			"Description": "Hires Elite and Champion Mercenary Units."			
+			"Description": "Adds a trickle of all resource types and researches academic techs. Replaces the Academy."			
 		}		
 	],
 	"StartEntities":
@@ -112,7 +96,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/pers_cavalry_javelinist_b" 
+			"Template": "units/pers_cavalry_light_b" 
 		}
 	],
 	"Formations":

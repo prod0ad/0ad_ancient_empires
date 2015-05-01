@@ -17,9 +17,7 @@
     <Entities datatype="tokens">
       units/pers_infantry_spearman_b
       units/pers_infantry_javelinist_b		  
-      units/pers_infantry_archer_b
-      units/pers_kardakes_hoplite
-      units/pers_kardakes_skirmisher	  
+      units/pers_infantry_archer_b	  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a

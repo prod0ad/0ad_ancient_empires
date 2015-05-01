@@ -5,7 +5,7 @@
     <GenericName>War Elephant</GenericName>
     <SpecificName>Indian Elephant</SpecificName>
     <Icon>units/pers_war_elephant.png</Icon>
-    <RequiredTechnology>phase_imperial</RequiredTechnology>	
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <VisualActor>
     <Actor>units/persians/war_elephant.xml</Actor>
