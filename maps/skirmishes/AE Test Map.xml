@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="391.983" y="244.586" z="-132.64"/>
+		<Position x="438.276" y="189.244" z="-52.9198"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -46,6 +46,7 @@
   "LockTeams": false,
   "Name": "AE Test Map",
   "PlayerData": [
+    null,
     {},
     {}
   ],
@@ -3466,7 +3467,7 @@
 		<Entity uid="1517">
 			<Template>gaia/flora_bush_grapes</Template>
 			<Player>0</Player>
-			<Position x="423.71381" z="177.96985"/>
+			<Position x="427.10151" z="178.28388"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="30760"/>
 		</Entity>
@@ -3508,35 +3509,35 @@
 		<Entity uid="1525">
 			<Template>skirmish/units/default_cavalry</Template>
 			<Player>2</Player>
-			<Position x="364.08838" z="159.57688"/>
+			<Position x="366.67475" z="160.44101"/>
 			<Orientation y="-0.6336"/>
 			<Actor seed="21124"/>
 		</Entity>
 		<Entity uid="1527">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="396.85483" z="158.66135"/>
+			<Position x="393.45813" z="163.93036"/>
 			<Orientation y="-1.90215"/>
 			<Actor seed="35116"/>
 		</Entity>
 		<Entity uid="1528">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="404.08613" z="153.41947"/>
+			<Position x="400.38624" z="157.54148"/>
 			<Orientation y="-2.05634"/>
 			<Actor seed="43846"/>
 		</Entity>
 		<Entity uid="1529">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="410.94498" z="147.49903"/>
+			<Position x="406.80588" z="151.70752"/>
 			<Orientation y="-2.54018"/>
 			<Actor seed="43844"/>
 		</Entity>
 		<Entity uid="1530">
 			<Template>skirmish/units/default_support_female_citizen</Template>
 			<Player>2</Player>
-			<Position x="417.26151" z="141.98704"/>
+			<Position x="413.13178" z="144.54453"/>
 			<Orientation y="-2.50185"/>
 			<Actor seed="12572"/>
 		</Entity>
@@ -5345,34 +5346,6 @@
 			<Position x="399.30335" z="99.74996"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42412"/>
-		</Entity>
-		<Entity uid="1793">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="331.80292" z="184.44962"/>
-			<Orientation y="2.23412"/>
-			<Actor seed="42194"/>
-		</Entity>
-		<Entity uid="1794">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="331.60676" z="191.24167"/>
-			<Orientation y="2.2117"/>
-			<Actor seed="37250"/>
-		</Entity>
-		<Entity uid="1795">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="327.20832" z="182.47156"/>
-			<Orientation y="2.24077"/>
-			<Actor seed="59646"/>
-		</Entity>
-		<Entity uid="1796">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="322.29828" z="192.23197"/>
-			<Orientation y="2.25901"/>
-			<Actor seed="24784"/>
 		</Entity>
 		<Entity uid="1842">
 			<Template>gaia/flora_tree_oak_large</Template>
