@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sele_infantry_pikeman_e">
+  <Identity>			
+    <SpecificName>Argyraspides</SpecificName>
+    <Icon>units/sele_champion_infantry_pikeman.png</Icon>	
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/seleucids/champion_infantry_pikeman.xml</Actor>
+  </VisualActor>
+</Entity>

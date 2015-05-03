@@ -11,7 +11,7 @@
       structures/{civ}_outpost
       other/wallset_palisade
       structures/{civ}_barracks
-      structures/{civ}_barracks_levy	   
+      structures/{civ}_stables	   
       structures/{civ}_siege_workshop		  
       structures/{civ}_blacksmith
       structures/{civ}_temple
@@ -20,14 +20,14 @@
       structures/{civ}_wallset_stone
       structures/{civ}_civil_centre	  	  
       structures/{civ}_fortress		  	   
-      structures/{civ}_library	 
+      structures/{civ}_academy	 
       structures/{civ}_wonder	 	  
     </Entities>
   </Builder>
   <Identity>
     <Civ>sele</Civ>
-    <SpecificName>Syrías Gýnē</SpecificName>
-    <GenericName>Syrian Woman</GenericName>
+    <SpecificName>Worker</SpecificName>
+    <GenericName>Worker</GenericName>
     <History>?</History>
     <Icon>units/sele_support_female.png</Icon>
 	<SelectionGroupName>units/sele_support_female_citizen</SelectionGroupName>

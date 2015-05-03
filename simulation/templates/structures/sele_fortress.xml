@@ -15,16 +15,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/sele_champion_infantry_pikeman
-      units/sele_champion_cavalry_2
-      units/sele_champion_elephant
       units/sele_champion_cavalry		  
       units/sele_champion_infantry_swordsman
     </Entities>
     <Technologies datatype="tokens">
-	  successors/sele_reform_cav
-      successors/sele_reform_inf	  
-      successors/special_parade_of_daphne	  	  
+	  fort_sele_cleruchy  	  
+      fort_sele_reform	  	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

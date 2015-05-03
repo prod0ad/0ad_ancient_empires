@@ -1,58 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_spearman">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>5</Pierce>
-    <Crush>6</Crush>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>40</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>7.0</MaxRange>
-      <RepeatTime>2000</RepeatTime>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
-    </Melee>
-    <Charge>
-      <Hack>80</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>7.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
-    </Charge>
-  </Attack>
-  <Health>
-    <Max>280</Max>
-  </Health>
-  <Cost>
-    <Population>4</Population>  
-    <BuildTime>40</BuildTime>
-    <Resources>
-      <food>90</food>
-      <wood>0</wood>
-	  <metal>80</metal>
-      <stone>0</stone>	  
-    </Resources>
-  </Cost>  
   <Identity>
     <Civ>sele</Civ>
-    <GenericName>Seleucid Cataphract</GenericName>
-    <SpecificName>Seleukidón Kataphraktos</SpecificName>
-    <Icon>units/ptol_champion_cavalry.png</Icon>
-    <History>Cataphracts were the crushing blow of the Seleucid cavalry. The development of the Seleucid cataphract is not well understood, as is the relationship between these men and future generations of cataphract cavalry. At best it seems the Seleucids adopted the catapharct from encounters with Iranian nomads like the Massagetes, Scythian steppes tribes, or Bactrians in the East.</History>
-    <RequiredTechnology>successors/sele_reform_cav</RequiredTechnology>
+	<GenericName>Champion Cavalry</GenericName>
+    <SpecificName>Seleucid Cataphract</SpecificName>
+    <History>The Hetairoi, or Companion cavalry, were a preferred general stand in Macedonian armies. Macedonian noblemen made up this elite cavalry unit, which was key to victory for Macedonian kings starting with Philip II, who increased their number from 600 to several thousand.</History>
+    <Icon>units/hele_champion_cavalry_mace.png</Icon>
+	<SelectionGroupName>units/mace_champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/ptolemies/champion_cavalry.xml</Actor>
+    <Actor>units/macedonians/champion_cavalry.xml</Actor>
   </VisualActor>
-  <UnitMotion>
-    <WalkSpeed>13</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-      <Range>1000.0</Range>
-      <RangeMin>10.0</RangeMin>
-    </Run>
-  </UnitMotion> 
 </Entity>

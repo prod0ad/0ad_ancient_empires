@@ -2,6 +2,7 @@
 <Entity parent="units/ptol_infantry_spearman_merc_b">
   <Identity>
     <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Advanced</Classes>			
   </Identity>
   <Promotion>
     <Entity>units/ptol_infantry_spearman_merc_e</Entity>

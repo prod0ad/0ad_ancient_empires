@@ -1,7 +1,7 @@
 {
 	"genericName": "Shepherds and Hounds",
 	"description": ".",
-	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 50},
+	"cost": {"food": 50, "wood": 0, "stone": 0, "metal": 50},
 	"requirements": {"tech": "phase_village"},
 	"icon": "celt_war_dog.png",
 	"researchTime": 40,

@@ -5,10 +5,7 @@
     <Classes datatype="tokens">Elite</Classes>			
   </Identity>
   <Promotion disable=""/>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
-    <Actor>units/persians/infantry_javelinist_e.xml</Actor>
+    <Actor>units/athenians/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

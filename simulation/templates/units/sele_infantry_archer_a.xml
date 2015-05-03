@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/sele_infantry_archer_2_b">
+<Entity parent="units/sele_infantry_archer_b">
   <Identity>
     <Rank>Advanced</Rank>
     <Classes datatype="tokens">Advanced</Classes>			
   </Identity>
   <Promotion>
-    <Entity>units/sele_infantry_archer_2_e</Entity>
+    <Entity>units/sele_infantry_archer_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/macedonians/infantry_archer_a.xml</Actor>
   </VisualActor>

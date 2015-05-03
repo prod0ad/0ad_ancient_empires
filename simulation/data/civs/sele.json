@@ -17,19 +17,14 @@
 			"Technologies":
 			[
 				{
-					"Name":"Cavalry Reform",
-					"History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. Contact with Eastern upstarts such as the Parthians and constant revolts of peripheral satrapies such as Bactria caused the Seleucids to reform their military and change their tactics, specifically in the cavalry arm.",
-					"Description":"Unlock the Seleucid Cataphract. Cavalry +20% hit points."
-				},
-				{
 					"Name":"Infantry Reform",
 					"History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. War with the Romans from the West and invasions from the Galatians forced the Seleucids to reform some of their infantry regiments to be more flexible.",
-					"Description":"Unlock the Thorakites Heavy Swordsman."
+					"Description":"Unlock the Thorakites Champion Swordman."
 				},
 		        {
 			        "Name":"Cleruchy",
 			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
-			        "Description":"Barracks -25% batch training time."
+			        "Description":"All soldiers -25% training time."
 		        }
 			],
 			"Heroes":
@@ -76,9 +71,19 @@
 	[
 		{
 			"Name":"Foreign Dynasty",
-			"History":"The Seleucids and Ptolemies chose military settlers as the core of their armies, as those troops were generally more loyal and less risky to train than conquered people.",
-			"Description":"Military barracks train strong units with many upgrades while Levy Barracks train levied subjects which are weaker, have less upgrades but are easier to mass produce."
+			"History":".",
+			"Description":"Infantry Spearmen are mercenaries, costing metal instead of food/wood."
 		},
+		{
+			"Name":"Indian Elephants",
+			"History":"Indian Elephants were larger and stronger than the north african ones most Mediterranean states used.",
+			"Description":"Elephant Units +25% hit points."
+		},		
+		{
+			"Name":"Nisean Horses",
+			"History":"The Seleucids had access to the heavy Nisean Horses.",
+			"Description":"Cavalry Units +25% hit points."
+		},				
 		{
 			"Name":"Mesopotamia",
 			"History":"For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
@@ -106,7 +111,7 @@
 			"Count": 4
 		},	
 		{
-			"Template": "units/sele_cavalry_spearman_b"
+			"Template": "units/sele_cavalry_light_b"
 		}
 	],
 	"Formations":
@@ -159,7 +164,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry" : "units/sele_cavalry_javelinist",
+		"skirmish/units/default_cavalry" : "units/sele_cavalry_light_b",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

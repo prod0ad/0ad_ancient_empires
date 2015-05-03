@@ -2,8 +2,7 @@
 <Entity parent="template_unit_mechanical_ship_fishing">
   <Identity>
     <Civ>sele</Civ>
-    <SpecificName>Ploîon Halieutikón</SpecificName>
-    <History>Need History</History>
+    <SpecificName>Fishing Boat</SpecificName>
     <Icon>units/hele_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

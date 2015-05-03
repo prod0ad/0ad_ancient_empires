@@ -3,8 +3,7 @@
   <Identity>
     <Civ>sele</Civ>
     <SelectionGroupName>units/sele_support_healer_b</SelectionGroupName>
-    <SpecificName>Hiereús</SpecificName>
-    <History>The Seleucids worshiped the Olympic Pantheon mixed with local Eastern gods and cults. The priests of the various sects were renown for "curing" various ailments.</History>
+    <SpecificName>Priest</SpecificName>
     <Icon>units/hele_support_healer.png</Icon>
   </Identity>
   <Promotion>
