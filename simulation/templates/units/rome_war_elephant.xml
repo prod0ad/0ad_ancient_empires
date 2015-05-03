@@ -5,7 +5,7 @@
 	<GenericName>War Elephant</GenericName>
     <SpecificName>Forest Elephant</SpecificName>
     <Icon>units/cart_champion_cavalry.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>	
+    <RequiredTechnology>fort_rome_reform</RequiredTechnology>	
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_2.xml</Actor>

@@ -5,15 +5,13 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/rome_infantry_spearman_b
-      units/rome_infantry_swordsman_b	  
-      units/rome_infantry_javelinist_b	
-      units/rome_cavalry_light_b		  
-      units/rome_cavalry_spearman_b  
+      units/rome_cavalry_light_b
+      units/rome_cavalry_heavy_b  
+      units/rome_war_elephant
     </Entities>
 	<Technologies datatype="tokens">
-	  upgrades/cavalry_light_a
-	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_light_a	
+	  upgrades/cavalry_light_e		  
 	  upgrades/cavalry_heavy_e		
       stables_speed_train
 	  stables_speed_batch  

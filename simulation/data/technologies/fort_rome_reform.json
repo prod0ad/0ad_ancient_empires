@@ -1,0 +1,20 @@
+{
+	"genericName": "Marian Reforms",
+	"description": "Gaius Marius turned the roman legions into a professional force.",
+	"cost": {"food": 275, "wood": 0, "stone": 0, "metal": 625},
+	"requirements": { "all": [{"tech":"phase_imperial"}, {"tech":"upgrades/spearman_e"}, {"tech":"upgrades/swordsman_e"}]},
+	"requirementsTooltip": "Unlocked in Imperial Phase. Requires Elite Spearmen and Elite Swordsmen.",
+	"icon": "helmet_corinthian_crest.png",
+	"researchTime": 60,
+	"tooltip": "Infantry Swordsmen are upgraded to Marian Legionaries and several units are replaced or unlocked.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},	
+	    {"value": "Attack/Melee/Hack", "multiply": 1.1},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
+		{"value": "Attack/Melee/Crush", "multiply": 1.1},
+		{"value": "Vision/Range", "multiply": 1.1},
+	    {"value": "Promotion/RequiredXp", "replace": 0}		
+	],
+	"affects": ["Premarian Sword"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

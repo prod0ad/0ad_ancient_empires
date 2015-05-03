@@ -2,15 +2,13 @@
 <Entity parent="units/rome_infantry_swordsman_a">
   <Identity>
     <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite -Advanced</Classes>			
+    <Classes datatype="tokens">Elite -Advanced</Classes>	
+    <SpecificName>Roman Princeps</SpecificName>	
   </Identity>
   <Promotion>
-    <Entity>units/rome_legionnaire_marian</Entity>
+    <Entity>units/rome_infantry_swordsman_u</Entity>
     <RequiredXp>9999</RequiredXp>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/romans/infantry_swordsman_e.xml</Actor>
   </VisualActor>

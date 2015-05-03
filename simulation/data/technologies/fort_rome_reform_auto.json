@@ -1,0 +1,10 @@
+{
+	"genericName": "Marian Reforms",
+	"autoResearch": true,
+	"requirements": {"tech": "fort_rome_reform"},
+	"modifications": [
+	{"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Premarian Spearman"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

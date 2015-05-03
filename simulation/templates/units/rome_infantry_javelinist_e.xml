@@ -2,12 +2,9 @@
 <Entity parent="units/rome_infantry_javelinist_a">
   <Identity>
     <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite</Classes>			
+    <Classes datatype="tokens">Elite -Advanced</Classes>			
   </Identity>
   <Promotion disable=""/>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/romans/infantry_javelinist_e.xml</Actor>
   </VisualActor>

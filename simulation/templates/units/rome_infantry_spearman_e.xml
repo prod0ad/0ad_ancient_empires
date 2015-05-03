@@ -5,12 +5,9 @@
     <Classes datatype="tokens">Elite -Advanced</Classes>			
   </Identity>
   <Promotion>
-    <Entity>units/rome_legionnaire_marian</Entity>
+    <Entity>units/rome_infantry_spearman_u</Entity>
     <RequiredXp>9999</RequiredXp>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/romans/infantry_spearman_e.xml</Actor>
   </VisualActor>

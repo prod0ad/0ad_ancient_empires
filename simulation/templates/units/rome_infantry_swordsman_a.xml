@@ -2,15 +2,12 @@
 <Entity parent="units/rome_infantry_swordsman_b">
   <Identity>
     <Rank>Advanced</Rank>
-    <SpecificName>Princeps</SpecificName>
     <Classes datatype="tokens">Advanced -Basic</Classes>			
   </Identity>
   <Promotion>
     <Entity>units/rome_infantry_swordsman_e</Entity>
+	<RequiredXp>9999</RequiredXp>		
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/romans/infantry_swordsman_a.xml</Actor>
   </VisualActor>

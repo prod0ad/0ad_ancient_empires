@@ -25,14 +25,17 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/rome_infantry_spearman_b
-      units/rome_infantry_swordsman_b	  
-      units/rome_infantry_javelinist_b	
-      units/rome_cavalry_light_b		  
-      units/rome_cavalry_spearman_b  
+      units/rome_infantry_javelinist_b
+      units/rome_infantry_swordsman_b		  
+      units/rome_infantry_archer_aux_b			  
+      units/rome_infantry_slinger_aux_b
     </Entities>
 	<Technologies datatype="tokens">
-      upgrades/legions_a
-      upgrades/legions_e	   
+      upgrades/spearman_a
+      upgrades/spearman_e	  
+      upgrades/skirmisher_a
+      upgrades/skirmisher_e	
+      upgrades/swordsman_e		  
       barracks_speed_train	
       barracks_speed_batch
       barracks_ranged_accuracy	 	  

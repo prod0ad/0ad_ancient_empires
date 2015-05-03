@@ -10,7 +10,9 @@
       units/rome_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
+      fort_rome_gladius
+	  fort_rome_logistics
+	  fort_rome_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

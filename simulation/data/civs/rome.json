@@ -18,7 +18,7 @@
 				{
 					"Name": "Marian Reforms",
 					"History": "Gaius Marius turned the roman legions into a professional force.",
-					"Description": "All Melee infantry units are replaced by Marian Legionary Champions."
+					"Description": "Infantry Swordsmen are upgraded to Marian Legionaries and several units are replaced or unlocked."
 				},	
 				{
 					"Name": "Logistics",
@@ -39,13 +39,6 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "Champion Guard Cavalry."
-				},
-				{
-					"Name": "Marian Legionary",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "Heavy Swordsman. Unlocked by Marian Reforms."
 				}
 			]
 		} 
@@ -58,7 +51,7 @@
 			"Description": "Swordsmen are unlocked in the Town instead of the City Phase." 
 		},
 		{
-			"Name": "Citizenship",
+			"Name": "Roman Citizenship",
 			"History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
 			"Description": "Units within range of Roman Civil Centres gain +10% attack."
 		},
@@ -89,7 +82,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/rome_cavalry_spearman_b"
+			"Template": "units/rome_cavalry_light_b"
 		}
 	],
 	"Formations":
@@ -125,7 +118,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry" : "units/rome_cavalry_spearman_b",
+		"skirmish/units/default_cavalry" : "units/rome_cavalry_light_b",
 		"skirmish/units/default_infantry_melee_b": "units/rome_infantry_swordsman_b",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house"
 	},
