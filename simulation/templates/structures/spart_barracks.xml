@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_special">
+<Entity parent="template_structure_military_barracks">
   <Footprint>
     <Square width="25.0" depth="25.0"/>
     <Height>12.0</Height>
@@ -18,13 +18,22 @@
   <ProductionQueue>
     <Entities datatype="tokens">
 	  units/spart_infantry_spearman_b
-	  units/spart_champion_infantry_spear
+      units/spart_infantry_javelinist_b 
+      units/spart_infantry_archer_b 	  
+	  units/spart_infantry_swordsman_b	
+	  units/spart_champion_infantry_pike  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a
 	  upgrades/spearman_e	
+	  upgrades/skirmisher_a
+	  upgrades/skirmisher_e	  
+	  upgrades/archer_merc_a
+	  upgrades/archer_merc_e	
+	  upgrades/swordsman_e		  
       barracks_speed_train	
       barracks_speed_batch
+	  barracks_ranged_accuracy
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

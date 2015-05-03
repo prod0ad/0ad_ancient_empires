@@ -15,12 +15,11 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/spart_infantry_spearman_b
 	  units/spart_champion_infantry_spear
     </Entities>
     <Technologies datatype="tokens">
-	  upgrades/spearman_a
-	  upgrades/spearman_e
+      fort_spart_land_reform	
+      fort_spart_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

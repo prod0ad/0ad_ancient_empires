@@ -10,7 +10,7 @@
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      civic_health_workers  
+      -civic_health_workers  
       civic_vision_structure	
     </Technologies>
   </ProductionQueue>    

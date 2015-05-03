@@ -7,7 +7,4 @@
   <Promotion>
     <Entity>units/spart_infantry_swordsman_e</Entity>
   </Promotion>
-  <ResourceGatherer>
-    <BaseSpeed>0.75</BaseSpeed>
-  </ResourceGatherer>
 </Entity>

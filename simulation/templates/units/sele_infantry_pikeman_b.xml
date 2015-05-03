@@ -6,6 +6,7 @@
 	<GenericName>Pikeman</GenericName>
     <SpecificName>Chalkaspides</SpecificName>
     <Icon>units/sele_infantry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Promotion>
     <Entity>units/sele_infantry_pikeman_a</Entity>

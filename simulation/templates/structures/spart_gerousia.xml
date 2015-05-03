@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <Cost>
-    <BuildTime>200</BuildTime>
-    <Resources>
-      <food>0</food>
-      <wood>0</wood>
-      <stone>100</stone>
-      <metal>200</metal>
-    </Resources>
-  </Cost>
   <Footprint replace="">
     <Circle radius="12.0"/>
     <Height>8.0</Height>
   </Footprint>
   <BuildRestrictions>
-    <Category>Gerousia</Category>
-  </BuildRestrictions>  
-  <Health>
-    <Max>2400</Max>
-  </Health>
+    <Category>Library</Category>
+  </BuildRestrictions>
   <Identity>
     <Civ>spart</Civ>
     <GenericName>Spartan Senate</GenericName>
@@ -38,13 +26,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Technologies datatype="tokens">
-	  hellenes/spart_laws_of_lycurgus
-	  hellenes/spart_cleom_reforms
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/hellenes/tholos.xml</Actor>
   </VisualActor>

@@ -1,0 +1,10 @@
+{
+	"genericName": "Laws Of Lycurgus",
+	"autoResearch": true,
+	"requirements": {"civ": "spart"},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.5}
+	],
+		"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

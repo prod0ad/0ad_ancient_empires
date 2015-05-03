@@ -30,32 +30,11 @@
 			"Heroes":
 			[
 				{
-					"Name":"Companion Cavalry",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Elite Heavy Horseman."
-				},
-				{
-					"Name":"Armored Elephant",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Powerful war beast."
-				},
-				{
-					"Name":"Silver Shield Pikeman",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Elite pikeman."
-				},
-				{
 					"Name":"Cataphract",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Extremely Heavy Cavalry. Requires Cavalry Reform."
+					"History":"Extremely Heavy Cavalry."
 				},				
 				{
 					"Name":"Thorakites",

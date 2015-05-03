@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/merc_cretan_archer_b">
+<Entity parent="units/spart_infantry_archer_b">
   <Identity>
     <Rank>Advanced</Rank>
     <Classes datatype="tokens">Advanced</Classes>		
   </Identity>
   <Promotion>
-    <Entity>units/merc_cretan_archer_e</Entity>
+    <Entity>units/spart_infantry_archer_e</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/macedonians/infantry_archer_a.xml</Actor>

@@ -1,12 +1,12 @@
 {
-	"genericName": "Cleomenian Reforms",
+	"genericName": "Land Reform",
 	"description": "Cleomenes III redistributed the land, freed a thousands of Helots, enlisted many of them along with Spartans and Perioiki in his newly formed pike phalanxes",
 	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 0 },
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "spart"}]},
+	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "helmet_corinthian_crest.png",
-	"researchTime": 120,
-	"tooltip": "Spartan Pikemen and Mercenary Thurephoroi are unlocked. +25% farming rate for all workers.",
+	"icon": "plow.png",
+	"researchTime": 80,
+	"tooltip": "Workers +25% farming rate.",
 	"modifications": [
 		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}
 	],

@@ -16,7 +16,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/sele_champion_cavalry		  
-      units/sele_champion_infantry_swordsman
     </Entities>
     <Technologies datatype="tokens">
 	  fort_sele_cleruchy  	  

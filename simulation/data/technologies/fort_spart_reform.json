@@ -1,0 +1,11 @@
+{
+	"genericName": "Cleomenian Reforms",
+	"description": "Cleomenes III redistributed the land, freed a thousands of Helots, enlisted many of them along with Spartans and Perioiki in his newly formed pike phalanxes",
+	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 0 },
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "helmet_corinthian_crest.png",
+	"researchTime": 120,
+	"tooltip": "Spartan Pikemen unlocked.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
