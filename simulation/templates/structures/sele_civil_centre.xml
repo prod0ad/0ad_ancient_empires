@@ -5,8 +5,6 @@
   </Health>
   <Identity>
     <Civ>sele</Civ>
-    <SpecificName>Civil Centre</SpecificName>
-    <History>The most important place in most Hellenistic cities, the Agora served many purposes; it was a place for public speeches and was the stage for civic life and commercial interests.</History>
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">

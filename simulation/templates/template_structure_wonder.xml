@@ -42,7 +42,7 @@
     <RequiredTechnology>phase_imperial</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>200</xp>
+    <xp>0</xp>
     <food>0</food>
     <wood>100</wood>
     <stone>100</stone>

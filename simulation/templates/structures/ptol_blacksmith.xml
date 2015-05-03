@@ -2,8 +2,6 @@
 <Entity parent="template_structure_military_blacksmith">
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
   <VisualActor>
     <Actor>structures/ptolemies/blacksmith.xml</Actor>

@@ -6,8 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>mktr-'a</SpecificName>
-    <History>?</History>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="26.0"/>

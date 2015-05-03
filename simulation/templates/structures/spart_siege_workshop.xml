@@ -2,9 +2,9 @@
 <Entity parent="template_structure_military_barracks">
   <Attack disable=""/>
   <Cost>
-    <BuildTime>200</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>300</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>

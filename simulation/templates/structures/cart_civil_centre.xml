@@ -2,8 +2,6 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Civil Centre</SpecificName>
-    <History>Carthiginian's History</History>
   </Identity>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_kart_cc</SpawnEntityOnDeath>

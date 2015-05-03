@@ -1,0 +1,15 @@
+{
+	"genericName": "House Large",
+	"autoResearch": true,	
+	"requirements": {"any":[{"civ": "athen"}, {"civ": "cart"}, {"civ": "mace"}, {"civ": "pers"}, {"civ": "rome"}, {"civ": "sele"}, {"civ": "spart"}]},
+	"modifications": [
+		{"value": "GarrisonHolder/Max", "multiply": 2.0},
+		{"value": "Health/Max", "multiply": 2.0},
+		{"value": "Cost/PopulationBonus", "multiply": 2.0},
+		{"value": "Cost/Resources/wood", "multiply": 2.0},		
+		{"value": "Cost/BuildTime", "multiply": 2.0},			
+		{"value": "Looter/Resource/wood", "multiply": 2.0}	
+	],
+	"affects": ["House"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

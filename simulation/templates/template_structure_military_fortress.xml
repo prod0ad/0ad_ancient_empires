@@ -4,7 +4,7 @@
     <Category>fortress</Category>
     <Distance>
       <FromClass>Fortress</FromClass>
-      <MinDistance>80</MinDistance>
+      <MinDistance>60</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Attack>
@@ -28,10 +28,10 @@
   </BuildingAI>
   <Cost>
     <Population>5</Population>
-    <BuildTime>300</BuildTime>
+    <BuildTime>200</BuildTime>
     <Resources>
       <wood>0</wood>
-      <stone>800</stone>
+      <stone>750</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -52,6 +52,7 @@
   </Health>
   <Identity>
     <GenericName>Fortress</GenericName>
+    <SpecificName>Fortress</SpecificName>	
     <Tooltip>Train Champions and research unique techs</Tooltip>
     <Classes datatype="tokens">GarrisonFortress Fortress</Classes>
     <VisibleClasses datatype="tokens">
@@ -63,10 +64,10 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
     <wood>0</wood>
-    <stone>65</stone>
+    <stone>75</stone>
     <metal>0</metal>
   </Loot>
   <Obstruction>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_barracks">
   <Cost>
     <Resources>
-      <wood>150</wood>
+      <wood>100</wood>
       <stone>100</stone>
     </Resources>
   </Cost>
@@ -15,9 +15,6 @@
   </Health>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Barracks</SpecificName>
-    <History>The Carthaginians incorporated stables and barracks into their city walls.</History>
-    <Tooltip>Train North African citizen-soldiers. Research improvements for North African units.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="22.0" depth="23.0"/>

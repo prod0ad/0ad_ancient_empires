@@ -4,7 +4,7 @@
     <Category>DefenseTower</Category>
     <Distance>
       <FromClass>DefenseTower</FromClass>
-      <MinDistance>40</MinDistance>
+      <MinDistance>45</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Attack>
@@ -30,7 +30,7 @@
     <Population>2</Population>  
     <BuildTime>150</BuildTime>
     <Resources>
-      <wood>100</wood>
+      <wood>50</wood>
       <stone>150</stone>
     </Resources>
   </Cost>
@@ -52,6 +52,7 @@
   </Health>
   <Identity>
     <GenericName>Defense Tower</GenericName>
+    <SpecificName>Defense Tower</SpecificName>	
     <Tooltip>Shoots arrows. Garrison to provide extra defense.</Tooltip>
     <Classes datatype="tokens">Tower GarrisonTower -ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">Town DefenseTower</VisibleClasses>
@@ -59,10 +60,10 @@
 	<RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
-    <wood>10</wood>
-    <stone>10</stone>
+    <wood>5</wood>
+    <stone>15</stone>
     <metal>0</metal>
   </Loot>
   <Obstruction>

@@ -5,11 +5,6 @@
   </Cost>
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Blacksmith</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">
-	  Town
-    </VisibleClasses>
   </Identity>
   <VisualActor>
     <Actor>structures/celts/blacksmith.xml</Actor>

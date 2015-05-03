@@ -4,7 +4,7 @@
     <PopulationBonus>5</PopulationBonus>
     <Resources>
       <stone>0</stone>
-      <wood>300</wood>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -16,8 +16,6 @@
   </Health>
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Temple</SpecificName>
-    <History>Celts built large sanctuaries for feasting and worship. One such structure was the Sanctuary of Corent in modern-day France.</History>
   </Identity>
   <Obstruction>
     <Static width="22.5" depth="22.5"/>

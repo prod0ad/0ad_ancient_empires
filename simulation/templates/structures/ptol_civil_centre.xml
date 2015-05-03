@@ -18,8 +18,6 @@
   </Obstruction>
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>pr-'a</SpecificName>
-    <History>?</History>
   </Identity>
   <VisualActor>
     <Actor>structures/ptolemies/civic_centre.xml</Actor>

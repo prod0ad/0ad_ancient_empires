@@ -16,9 +16,9 @@
     <Category>Temple</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>180</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
-      <stone>300</stone>
+      <stone>200</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -39,7 +39,8 @@
   </Health>
   <Identity>
     <GenericName>Temple</GenericName>
-    <Tooltip>Train healers. Garrison up to 20 units to heal them at a quick rate (3 HP per second). Research healing and religious improvements.</Tooltip>
+    <SpecificName>Temple</SpecificName>
+    <Tooltip>Train healers. Garrison up to 20 units to heal them. Research healing and religious upgrades.</Tooltip>
     <VisibleClasses datatype="tokens">
       Town
       Temple
@@ -48,11 +49,11 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
-    <wood>10</wood>
-    <stone>50</stone>
-    <metal>500</metal>
+    <wood>0</wood>
+    <stone>10</stone>
+    <metal>100</metal>
   </Loot>
   <Obstruction>
     <Static width="17.5" depth="30.0"/>

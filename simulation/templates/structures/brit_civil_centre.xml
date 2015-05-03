@@ -6,8 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Civil Centre</SpecificName>
-    <History>This was be the center of the town, a great hall where the clan leader resided. All political matters were probably performed inside such a structure.</History>
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">

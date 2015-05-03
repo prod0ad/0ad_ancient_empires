@@ -6,8 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Griham</SpecificName>
-    <History>House.</History>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>

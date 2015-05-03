@@ -6,8 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Storehouse</SpecificName>
-    <History>Resources and building materials were kept in warehouses.</History>
   </Identity>
   <Obstruction>
     <Static width="15.0" depth="15.0"/>

@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_blacksmith">
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Lohakāra</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/mauryans/blacksmith.xml</Actor>

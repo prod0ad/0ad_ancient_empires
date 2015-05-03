@@ -2,9 +2,6 @@
 <Entity parent="template_structure_military_fortress">
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Durg</SpecificName>
-    <History>Fortress.</History>
-    <Tooltip>Train heroes and champion units.</Tooltip>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">

@@ -19,6 +19,7 @@
   </Health>
   <Identity>
     <GenericName>Storehouse</GenericName>
+    <SpecificName>Storehouse</SpecificName>	
     <Tooltip>Dropsite for wood, stone, and metal resources. Research gathering improvements for these resources.</Tooltip>
     <Classes datatype="tokens">
 	  DropsiteWood
@@ -30,7 +31,7 @@
     <Icon>structures/storehouse.png</Icon>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
     <wood>10</wood>
     <stone>0</stone>

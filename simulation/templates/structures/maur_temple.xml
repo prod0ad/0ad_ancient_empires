@@ -3,7 +3,7 @@
   <Cost>
     <Resources>
       <stone>0</stone>
-      <wood>300</wood>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -15,8 +15,6 @@
   </Health>
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Devalaya</SpecificName>
-    <History>Temple.</History>
   </Identity>
   <Obstruction>
     <Static width="15.0" depth="30.5"/>

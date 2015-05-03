@@ -30,7 +30,7 @@
     <Category>House</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>20</BuildTime>
     <Resources>
       <wood>50</wood>
       <stone>0</stone>
@@ -54,15 +54,16 @@
   </Health>
   <Identity>
     <GenericName>Outpost</GenericName>
-    <Tooltip>Build in neutral and own territories to scout areas of the map. Slowly loses health while in neutral territory.</Tooltip>
+    <SpecificName>Outpost</SpecificName>	
+    <Tooltip>Cheap Tower with good line of sight.</Tooltip>
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">Village Outpost</VisibleClasses>
     <Icon>structures/outpost.png</Icon>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
-    <wood>8</wood>
+    <wood>2</wood>
     <stone>0</stone>
     <metal>0</metal>
   </Loot>

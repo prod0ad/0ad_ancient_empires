@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_blacksmith">
   <Identity>
     <Civ>pers</Civ>
-    <SpecificName>Arštišta</SpecificName>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>

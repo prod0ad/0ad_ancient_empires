@@ -2,7 +2,6 @@
 <Entity parent="template_structure_military_fortress">
   <Identity>
     <Civ>gaul</Civ>
-    <SpecificName>Fortress</SpecificName>
   </Identity>
   <Sound>
     <SoundGroups>

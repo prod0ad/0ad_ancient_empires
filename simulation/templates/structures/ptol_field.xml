@@ -2,7 +2,5 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>ptol</Civ>
-    <SpecificName>?</SpecificName>
-    <History>?</History>
   </Identity>
 </Entity>

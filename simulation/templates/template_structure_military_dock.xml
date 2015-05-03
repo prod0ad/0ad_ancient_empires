@@ -6,9 +6,9 @@
   </BuildRestrictions>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
-    <BuildTime>150</BuildTime>
+    <BuildTime>90</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -21,15 +21,16 @@
   </Health>
   <Identity>
     <GenericName>Dock</GenericName>
-    <Tooltip>Build upon a shoreline to construct naval vessels and to open sea trade. Research naval improvements.</Tooltip>
-    <Classes datatype="tokens">Naval NavalMarket</Classes>
+    <SpecificName>Dock</SpecificName>	
+    <Tooltip>Builds and upgrades ships. Also serves as a market and a resource drop off</Tooltip>
+    <Classes datatype="tokens">Naval NavalMarket</Classes>	
     <VisibleClasses datatype="tokens">Economic Village Market Dock</VisibleClasses>
     <Icon>structures/dock.png</Icon>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
-    <wood>30</wood>
+    <wood>15</wood>
     <stone>0</stone>
     <metal>0</metal>
   </Loot>

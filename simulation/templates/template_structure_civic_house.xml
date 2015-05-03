@@ -28,15 +28,16 @@
   </Health>
   <Identity>
     <GenericName>House</GenericName>
-    <Tooltip>Increase the population limit.</Tooltip>
+    <SpecificName>House</SpecificName>	
+    <Tooltip>Increases the population limit.</Tooltip>
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">Village House</VisibleClasses>
     <Icon>structures/house.png</Icon>
   </Identity>
   <Loot>
     <food>0</food>
-    <wood>10</wood>
-    <stone>10</stone>
+    <wood>3</wood>
+    <stone>0</stone>
     <metal>0</metal>
   </Loot>
   <Obstruction>

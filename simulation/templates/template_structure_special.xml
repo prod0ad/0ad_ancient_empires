@@ -17,11 +17,17 @@
     <BuildTime>240</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>200</wood>
-      <stone>200</stone>
+      <wood>0</wood>
+      <stone>300</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <food>0</food>
+    <wood>0</wood>
+    <stone>30</stone>
+    <metal>0</metal>
+  </Loot>
   <Footprint>
     <Square width="24.0" depth="24.0"/>
     <Height>8.0</Height>

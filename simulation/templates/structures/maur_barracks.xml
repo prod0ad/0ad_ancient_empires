@@ -6,8 +6,6 @@
   </Footprint>
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Sainyavasa</SpecificName>
-    <History>Barracks.</History>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>

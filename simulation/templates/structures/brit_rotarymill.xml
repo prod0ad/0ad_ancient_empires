@@ -14,12 +14,12 @@
     </Aura1>
   </Auras>
   <Cost>
-    <BuildTime>100</BuildTime>
+    <BuildTime>120</BuildTime>
     <PopulationBonus>5</PopulationBonus>
     <Resources>
       <food>0</food>
       <wood>200</wood>
-      <stone>100</stone>
+      <stone>0</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -32,8 +32,7 @@
     <Civ>Brit</Civ>
     <GenericName>Rotary Mill</GenericName>
     <SpecificName>Rotary Mill</SpecificName>
-    <Tooltip>Increase nearby farming output +25%.</Tooltip>
-    <History>The Celts developed the first rotary flour mill.</History>
+    <Tooltip>Increases nearby farming output +25%.</Tooltip>
     <Icon>structures/rotarymill.png</Icon>
   </Identity>
   <Obstruction>

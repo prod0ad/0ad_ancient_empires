@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_stables">
-  <Cost>
-    <Resources>
-      <wood>200</wood>
-      <stone>200</stone>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>maur</Civ>
-    <GenericName>Stables</GenericName>
-    <SpecificName>Stables</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="18.0" depth="16.0"/>

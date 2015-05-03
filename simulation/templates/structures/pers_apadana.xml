@@ -4,13 +4,13 @@
     <Category>Apadana</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>300</BuildTime>
+    <BuildTime>150</BuildTime>
     <PopulationBonus>10</PopulationBonus>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>300</stone>
-      <metal>200</metal>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -29,7 +29,6 @@
 	  Palace
 	  Apadana
 	</Classes>
-    <History>The term Apadana designates a large hypostyle palace found in Persia. The best known example, and by far the largest, was the great Apadana at Persepolis. Functioning as the empire's central audience hall, the palace is famous for the reliefs of the tribute-bearers and of the army, including the Immortals. The annual tribute that the Persians received from their satrapies and vassal states, as regularised by Darius the Great, accounted for incredible annual revenue.</History>
     <Icon>structures/palace.png</Icon>
     <Tooltip>Adds a trickle of all resource types and researches academic techs. Build Limit: 1.</Tooltip>
   </Identity>

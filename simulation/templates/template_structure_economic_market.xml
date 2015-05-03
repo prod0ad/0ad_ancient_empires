@@ -4,9 +4,9 @@
     <Category>Market</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
-      <wood>250</wood>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -19,18 +19,19 @@
   </Health>
   <Identity>
     <GenericName>Market</GenericName>
-    <Tooltip>Create trade units to trade between other markets. Barter resources. Research trading and bartering improvements.</Tooltip>
+    <SpecificName>Market</SpecificName>
+    <Tooltip>Spawns Traders, trades resources and provides ecomomic upgrades.</Tooltip>
     <Classes datatype="tokens">BarterMarket -ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">Town Market</VisibleClasses>
     <Icon>structures/market.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>100</xp>
-    <food>25</food>
-    <wood>25</wood>
-    <stone>25</stone>
-    <metal>25</metal>
+    <xp>0</xp>
+    <food>5</food>
+    <wood>5</wood>
+    <stone>5</stone>
+    <metal>5</metal>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="26.0"/>

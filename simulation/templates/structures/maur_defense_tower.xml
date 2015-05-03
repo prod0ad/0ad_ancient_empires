@@ -2,8 +2,6 @@
 <Entity parent="template_structure_defense_defense_tower">
   <Identity>
     <Civ>maur</Civ>
-    <SpecificName>Udarka</SpecificName>
-    <History>Defense Tower.</History>
   </Identity>
   <StatusBars>
     <BarWidth>6.0</BarWidth>

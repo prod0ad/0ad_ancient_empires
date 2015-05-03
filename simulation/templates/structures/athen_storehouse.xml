@@ -2,8 +2,6 @@
 <Entity parent="template_structure_economic_storehouse">
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Storehouse</SpecificName>
-    <History>Resources and building materials were kept in warehouses.</History>
   </Identity>
   <VisualActor>
     <Actor>structures/athenians/storehouse.xml</Actor>

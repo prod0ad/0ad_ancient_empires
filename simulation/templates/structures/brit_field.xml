@@ -2,7 +2,5 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Field</SpecificName>
-    <History>A farmer's field. The Celts were good farmers.</History>
   </Identity>
 </Entity>

@@ -32,7 +32,7 @@
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
-      <MinDistance>160</MinDistance>
+      <MinDistance>150</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Cost>
@@ -40,8 +40,8 @@
     <BuildTime>360</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>400</wood>
-      <stone>400</stone>
+      <wood>500</wood>
+      <stone>250</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -62,8 +62,9 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
     <Identity>
-    <GenericName>Civic Center</GenericName>
-    <Tooltip>Build to acquire large tracts of territory. Train citizens. Garrison: 20.</Tooltip>
+    <GenericName>Civil Centre</GenericName>
+    <SpecificName>Town Centeŕ</SpecificName>	
+    <Tooltip>Trains citizens and contains upgrades.</Tooltip>
     <Classes datatype="tokens">
       Defensive
       CivCentre
@@ -74,8 +75,8 @@
   <Loot>
     <food>0</food>
     <wood>50</wood>
-    <stone>50</stone>
-    <metal>50</metal>
+    <stone>25</stone>
+    <metal>0</metal>
   </Loot>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_stables">
   <Cost>
     <Resources>
-      <wood>150</wood>
+      <wood>100</wood>
       <stone>100</stone>
     </Resources>
   </Cost>

@@ -2,7 +2,6 @@
 <Entity parent="template_structure_civic_civil_centre">
   <Identity>
     <Civ>iber</Civ>
-    <SpecificName>Oppidum</SpecificName>
   </Identity>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_iber_cc</SpawnEntityOnDeath>

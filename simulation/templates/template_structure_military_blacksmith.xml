@@ -4,9 +4,9 @@
     <Category>Barracks</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>180</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
-      <wood>250</wood>
+      <wood>200</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -19,7 +19,8 @@
   </Health>
   <Identity>
     <GenericName>Blacksmith</GenericName>
-    <Tooltip>Research weapons and armor improvements.</Tooltip>
+    <SpecificName>Blacksmith</SpecificName>	
+    <Tooltip>Research weapon and armor upgrades.</Tooltip>
     <VisibleClasses datatype="tokens">
 	  Town
 	  Blacksmith
@@ -28,11 +29,11 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
-    <wood>50</wood>
+    <wood>20</wood>
     <stone>0</stone>
-    <metal>100</metal>
+    <metal>0</metal>
   </Loot>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

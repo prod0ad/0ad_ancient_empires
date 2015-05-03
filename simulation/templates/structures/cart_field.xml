@@ -2,7 +2,5 @@
 <Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>cart</Civ>
-    <SpecificName>Field</SpecificName>
-    <History>A farmer's field.</History>
   </Identity>
 </Entity>

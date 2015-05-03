@@ -25,8 +25,8 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <stone>100</stone>
-      <metal>100</metal>
+      <stone>200</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -41,10 +41,9 @@
   <Identity>
     <Civ>iber</Civ>
     <GenericName>Revered Monument</GenericName>
-    <SpecificName>Gur Oroigarri</SpecificName>
+    <SpecificName>Revered Monument</SpecificName>
     <Icon>structures/iberian_bull.png</Icon>
-    <Tooltip>All units within vision of this monument get +10% attack damage. Effect Range: 50 meters.</Tooltip>
-    <History>The Iberians were a religious people who built small monuments to their various gods. These monuments could also serve as family tombs.</History>
+    <Tooltip>Nearby soldiers +10% attack.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
