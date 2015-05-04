@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>3</Pierce>
-    <Crush>6</Crush>
+    <Hack>2</Hack>
+    <Pierce>2</Pierce>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>24</Hack>
+      <Hack>8</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
     </Melee>
-    <Charge>
-      <Hack>48</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>6.0</MaxRange>
-      <MinRange>0.0</MinRange>
-    </Charge>
   </Attack>
   <Cost>
     <BuildTime>10</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>60</food>
+      <food>40</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>60</metal>
+      <metal>30</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>4</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>3</metal>
+  </Loot>  
+  <Health>
+    <Max>135</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>  
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Champion Spearman</GenericName>
-    <SpecificName>Anusiya</SpecificName>
+    <SpecificName>Anusyia</SpecificName>
     <Classes datatype="tokens">Immortal</Classes>
     <Icon>units/pers_champion_infantry.png</Icon>
-    <History>The Anusiya (or "Attendants") were the elite of the Persian army, handsomely equipped with armor and weapons, including swords which were rare weapons in the normal ranks. A unit of 10,000 men, their number was always kept to full strength whenever a man was killed or wounded, resulting in their nickname, "The Immortals". They were ferocious fighters and well respected.</History>
-  </Identity>
-   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
-  </UnitMotion> 
+	<Tooltip>Fast moving and fast trained Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+  </Identity> 
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>
   </VisualActor>

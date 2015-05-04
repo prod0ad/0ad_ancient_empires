@@ -38,7 +38,7 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Elite Cavalry Skirmisher effective against structures."
+					"History": "Champion Ranged Cavalry. Deals x4 damage to Structures and Mechanical."
 				}
 			]
 		} 
@@ -54,12 +54,7 @@
 			"Name": "Stone Mining",
 			"History": "With exception to alluvial plains and river valleys, stone is abundant in the Iberian Peninsula and was greatly used in construction of structures.",
 			"Description": " Workers +25% Stone mining rate."
-		},		
-		{
-			"Name": "Flaming Javelins",
-			"History": "Iberian tribesmen were noted for wrapping bundles of grass about the shafts of their throwing spears, soaking that in some sort of flammable pitch, then setting it afire just before throwing.",
-			"Description": "Elite rank Skirmishers and Iberian Nobles deal additional crush damage." 
-		},		
+		},			
 		{
 			"Name": "Low Armor Use",
 			"History": "Most Iberian Soldiers went to war without body armor.", 

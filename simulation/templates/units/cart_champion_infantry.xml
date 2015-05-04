@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>3</Pierce>
+    <Crush>7</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>12</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>6.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>40</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>35</metal>
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>4</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>  
+  <Health>
+    <Max>180</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>8</WalkSpeed>
+  </UnitMotion>  
   <Identity>
     <Civ>cart</Civ>
 	<GenericName>Champion Spearman</GenericName>
-    <SpecificName>Sacred Band of Ba'al</SpecificName>
-    <History>The Sacred Band was a group of elite infantry dedicated to the service of the Phoenician god Ba'al. In addition to providing crack troops, the unit trained Carthaginians aspiring to command Punic mercenary armies. Specially picked troops carried the unit standard emblazoned with the symbols of Carthage into battle.</History>
+    <SpecificName>Sacred Band Infantry</SpecificName>
     <Icon>units/cart_champion_infantry.png</Icon>	
-	<Tooltip>Deals double damage vs Cavalry and Elephants.</Tooltip>		
+	<Tooltip>Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>		
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/champion_spearman.xml</Actor>

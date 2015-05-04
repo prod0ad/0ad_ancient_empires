@@ -3,7 +3,7 @@
   <Armour>
     <Hack>0</Hack>
     <Pierce>0</Pierce>
-    <Crush>2</Crush>
+    <Crush>4</Crush>
   </Armour>
   <Health>
     <Max>60</Max>
@@ -16,36 +16,36 @@
       <Hack>0</Hack>
       <Pierce>6</Pierce>
       <Crush>0</Crush>
-      <MaxRange>40.0</MaxRange>
+      <MaxRange>36.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.5</Spread>	  
+      <Spread>1.4</Spread>	  
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>20</BuildTime>	  
+    <BuildTime>25</BuildTime>	  
     <Resources>
       <food>40</food>
-      <wood>25</wood>
+      <wood>20</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-    <wood>3</wood>
+      <food>4</food>
+      <wood>2</wood>
+	  <metal>0</metal>
+      <stone>0</stone>	 
   </Loot> 
    <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>17.0</Speed>
-    </Run>
   </UnitMotion> 
   <Identity>
     <VisibleClasses datatype="tokens">Archer</VisibleClasses>
     <GenericName>Archer</GenericName>
-    <History>They tended to be lightly armored. They usually only participated in the first stage of a battle, sending a volley of arrows raining down the enemy. Of course they would have to stop shooting once the melee units closed in. This means their job was largely over once the 'true battle' was underway. They spent hours training with a bow, but if you were hit by an arrow it was more likely an act of random chance than being specifically targeted by an archer.</History>
+    <Tooltip>Long ranged support infantry.</Tooltip>	
   </Identity>
   <Sound>
     <SoundGroups>

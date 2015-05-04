@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>2</Pierce>
-    <Crush>6</Crush>
+    <Hack>3</Hack>
+    <Pierce>1</Pierce>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>18</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
@@ -15,23 +15,41 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry Elephant</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>3</Multiplier>
 		</AntiCavalry>
 	  </Bonuses>  
     </Melee>
-    <Charge>
-      <Hack>60</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>8.0</MaxRange>
-      <MinRange>0.0</MinRange>
-    </Charge>
   </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>40</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>30</metal>
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>4</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>3</metal>
+  </Loot>  
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>7</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>40</Range>
+  </Vision>  
   <Identity>
     <VisibleClasses datatype="tokens">Melee Spear Pike</VisibleClasses>
     <GenericName>Champion Pikeman</GenericName>
-	<History>Pike, or sarissa, infantry were developed by Philip II of Macedon based on the hoplite of the Greek city-states. The Macedonian pikemen, or phalangites, wielded an extra long spear (sarissa) approximatly 4 to 7 meters (13–21 feet) in length. Because of it's length and weight, the pike required the use of both hands, so the shield was slung over the pikeman's shoulder with a leather strap. Front-line pikemen of the age were generally highly-armored, while those in the back lines were lightly armored. Such pike-wielding troops were employed by numerous states, from Carthage to Syria, and were used to fix enemy infantry in position while the army's cavalry worked to turn the enemy flanks.</History>
-	<Tooltip>Deals double damage vs Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
     <Formations datatype="tokens">
       formations/phalanx
       formations/syntagma
@@ -51,15 +69,4 @@
       <death>actor/human/death/death.xml</death>
     </SoundGroups>
   </Sound>
-  <Stamina>
-    <Max>1200</Max>
-  </Stamina>
-  <UnitMotion>
-    <WalkSpeed>7</WalkSpeed>
-    <Run>
-      <Speed>14.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
-  </UnitMotion>
 </Entity>

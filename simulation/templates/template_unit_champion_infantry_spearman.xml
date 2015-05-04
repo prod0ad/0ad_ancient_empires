@@ -15,18 +15,14 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry Elephant</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>3</Multiplier>
 		</AntiCavalry>
 	  </Bonuses>  
     </Melee>
-    <Charge>
-      <Hack>48</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>6.0</MaxRange>
-      <MinRange>0.0</MinRange>
-    </Charge>
   </Attack>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
   <Identity>
     <GenericName>Champion Spearman</GenericName>
     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>

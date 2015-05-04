@@ -3,7 +3,7 @@
   <Armour>
     <Hack>0</Hack>
     <Pierce>1</Pierce>
-    <Crush>3</Crush>
+    <Crush>4</Crush>
   </Armour>
   <Health>
     <Max>75</Max>
@@ -14,9 +14,9 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>8</Pierce>
+      <Pierce>10</Pierce>
       <Crush>0</Crush>
-      <MaxRange>25</MaxRange>
+      <MaxRange>20</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
@@ -28,23 +28,23 @@
     <BuildTime>10</BuildTime>	
     <Resources>
       <food>40</food>
-      <wood>30</wood>
+      <wood>25</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-    <wood>3</wood>
+      <food>4</food>
+      <wood>3</wood>
+	  <metal>0</metal>
+      <stone>0</stone>	
   </Loot>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
+    <WalkSpeed>9.5</WalkSpeed>
   </UnitMotion>  
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
     <GenericName>Skirmisher</GenericName>
-    <History>These were the skirmishers. These lightly armored units would advance quickly, throw a hail of javelins and then retreat back to their ranks. Grab another spear and repeat. They would do well against any unit that wasn't wearing proper armor, but more poorly if they fought hand to hand vs a well armored unit. They didn't always have to throw their spears either. They used these light small spears in hand to hand similar to a quarterstaff. Also note that the development of the pilum was a key transition. The pilum was a weapon with a long steel shaft that would sink into a shield and was nearly impossible to remove. This rendered the shield useless. They also weighted and balanced them to make them accurately hit with a punch.</History>
+    <Tooltip>Fast trained short ranged infantry.</Tooltip>	
   </Identity>
 </Entity>

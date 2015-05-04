@@ -9,9 +9,9 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>120.0</Crush>
-      <MaxRange>90</MaxRange>
-      <MinRange>12.0</MinRange>
+      <Crush>72.0</Crush>
+      <MaxRange>75</MaxRange>
+      <MinRange>20.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
       <PrepareTime>6000</PrepareTime>
       <RepeatTime>6000</RepeatTime>
@@ -22,15 +22,15 @@
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
-        <Crush>30.0</Crush>
+        <Crush>36.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>40</BuildTime>
+    <BuildTime>45</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <stone>100</stone>
+      <wood>160</wood>
+      <stone>80</stone>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -38,7 +38,7 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>150</Max>
+    <Max>105</Max>
   </Health>
   <Identity>
     <GenericName>Siege Catapult</GenericName>
@@ -46,10 +46,10 @@
     <Classes datatype="tokens">Ranged Catapult</Classes>
   </Identity>
   <Loot>
-    <xp>300</xp>
+    <xp>0</xp>
     <food>0</food>
-    <wood>20</wood>
-    <stone>10</stone>
+    <wood>16</wood>
+    <stone>8</stone>
     <metal>0</metal>
   </Loot>
   <Selectable>
@@ -70,12 +70,9 @@
     <BarHeight>0.5</BarHeight>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>7</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-    </Run>
+    <WalkSpeed>6</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>100</Range>
+    <Range>75</Range>
   </Vision>
 </Entity>

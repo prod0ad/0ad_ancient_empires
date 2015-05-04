@@ -2,12 +2,12 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
     <Hack>4</Hack>
-    <Pierce>4</Pierce>
-    <Crush>6</Crush>
+    <Pierce>3</Pierce>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>18</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -15,37 +15,41 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>25</BuildTime>
-    <Population>3</Population>	
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>	
     <Resources>
-      <food>60</food>
+      <food>40</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>80</metal>
+      <metal>50</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>4</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>  
   <Health>
-    <Max>200</Max>
+    <Max>165</Max>
   </Health>
+  <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>  
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Champion Spearman</GenericName>
-    <SpecificName>Hypaspistes</SpecificName>
+    <SpecificName>Shield Bearer</SpecificName>
     <Icon>units/macedonian_hypaspist.png</Icon>
 	<SelectionGroupName>units/mace_champion_infantry_a</SelectionGroupName>
-	<Tooltip>Hard-hitting and fast Spearman. Deals double damage vs Cavalry and Elephants.</Tooltip>			
+	<Tooltip>Fast and tough Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>			
 	<RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/mace_champion_infantry_e</Entity>
     <RequiredXp>9999</RequiredXp>
   </Promotion>
-  <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
-    <Run>
-      <Speed>18</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/macedonians/mace_champion_hypaspist.xml</Actor>
   </VisualActor>

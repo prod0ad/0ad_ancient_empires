@@ -9,27 +9,18 @@
     <Melee>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>75.0</Crush>
+      <Crush>80.0</Crush>
       <MaxRange>6</MaxRange>
-      <RepeatTime>3000</RepeatTime>
+      <RepeatTime>4000</RepeatTime>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
       <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Worker Ship Mechanical Animal</RestrictedClasses>	  
     </Melee>
-    <Charge>
-      <Hack>0.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>160.0</Crush>
-      <MaxRange>6.5</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
-      <RestrictedClasses datatype="tokens">Infantry Cavalry Champion Worker Ship Mechanical Animal</RestrictedClasses>		  
-    </Charge>
   </Attack>
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>30</BuildTime>
     <Population>5</Population>
     <Resources>
-      <wood>200</wood>
+      <wood>150</wood>
       <metal>50</metal>
     </Resources>
   </Cost>
@@ -42,7 +33,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>
@@ -63,11 +54,8 @@
   </StatusBars>
   <UnitMotion>
     <WalkSpeed>6</WalkSpeed>
-    <Run>
-      <Speed>11.0</Speed>
-    </Run>
   </UnitMotion>
   <Vision>
-    <Range>40</Range>
+    <Range>30</Range>
   </Vision>
 </Entity>

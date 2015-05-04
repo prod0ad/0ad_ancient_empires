@@ -3,7 +3,7 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>24.0</Pierce>
+      <Pierce>12.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>40.0</MaxRange>
       <MinRange>0.0</MinRange>
@@ -14,29 +14,37 @@
 	  <Bonuses>
 		<AntiShip>
 		  <Classes>Ship</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>4</Multiplier>
 		</AntiShip>
 	  </Bonuses>  	  
     </Ranged>
   </Attack>
   <Cost>
     <Population>2</Population>
-    <BuildTime>20</BuildTime>
+    <BuildTime>40</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <metal>100</metal>
+      <wood>120</wood>
+      <metal>40</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>12</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>  
   <Footprint>
     <Square width="8.0" depth="33.0"/>
     <Height>10.0</Height>
   </Footprint>
   <Health>
-    <Max>400</Max>
+    <Max>480</Max>
   </Health>
   <Identity>
     <GenericName>Light Warship</GenericName>
     <Classes datatype="tokens">Warship Light Bow Ranged</Classes>
+    <Tooltip>Light Warship. Deals x4 damage to other ships.</Tooltip>	
 	<RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <ResourceGatherer disable=""/>
@@ -52,10 +60,7 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>  
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
+    <WalkSpeed>12</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>45</Range>

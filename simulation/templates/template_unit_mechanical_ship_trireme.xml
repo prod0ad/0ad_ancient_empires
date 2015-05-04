@@ -3,40 +3,48 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>36.0</Pierce>
+      <Pierce>18.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>50.0</MaxRange>
+      <MaxRange>48.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.5</Spread>
+      <Spread>1.4</Spread>
 	  <Bonuses>
 		<AntiShip>
 		  <Classes>Ship</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>4</Multiplier>
 		</AntiShip>
 	  </Bonuses>  		  
     </Ranged>
   </Attack>
   <Cost>
     <Population>3</Population>
-    <BuildTime>30</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <wood>150</wood>
-      <metal>150</metal>
+      <wood>140</wood>
+      <metal>80</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>14</wood>
+    <stone>0</stone>
+    <metal>8</metal>
+  </Loot>
   <Footprint>
     <Square width="10.0" depth="40.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>600</Max>
+    <Max>720</Max>
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>
     <Classes datatype="tokens">Warship Medium Ranged</Classes>
+    <Tooltip>Medium Warship. Deals x4 damage to other ships.</Tooltip>
 	<RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <ResourceGatherer disable=""/>
@@ -53,9 +61,6 @@
   </StatusBars>
   <UnitMotion>
     <WalkSpeed>13</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-    </Run>
   </UnitMotion>
   <Vision>
     <Range>60</Range>

@@ -8,14 +8,14 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>30.0</Pierce>
-      <Crush>10.0</Crush>
-      <MaxRange>55.0</MaxRange>
-      <MinRange>2.0</MinRange>
+      <Pierce>18.0</Pierce>
+      <Crush>6.0</Crush>
+      <MaxRange>38.0</MaxRange>
+      <MinRange>8.0</MinRange>
       <ElevationBonus>10</ElevationBonus>
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>2000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <PrepareTime>4000</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
       <Spread>2.0</Spread>
       <PreferredClasses datatype="tokens">Structure</PreferredClasses>
     </Ranged>
@@ -27,9 +27,9 @@
   </BuildingAI>
   <Cost>
     <Population>10</Population>
-    <BuildTime>50</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <wood>350</wood>
+      <wood>200</wood>
       <metal>150</metal>
     </Resources>
   </Cost>
@@ -46,7 +46,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>1000</Max>
+    <Max>900</Max>
   </Health>
   <Identity>
     <GenericName>Siege Tower</GenericName>
@@ -79,11 +79,8 @@
   </StatusBars>
   <UnitMotion>
     <WalkSpeed>5</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-    </Run>
   </UnitMotion>
   <Vision>
-    <Range>120</Range>
+    <Range>90</Range>
   </Vision>
 </Entity>

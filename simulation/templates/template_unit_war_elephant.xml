@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>20</Radius>
+      <Affects>Soldier</Affects>
+	  <AffectedPlayers>Enemy</AffectedPlayers>
+      <Modifications>
+        <Attack.Melee.Hack> <Multiply>0.8</Multiply> </Attack.Melee.Hack>
+        <Attack.Ranged.Pierce> <Multiply>0.8</Multiply> </Attack.Ranged.Pierce>		
+        <Attack.Ranged.Crush> <Multiply>0.8</Multiply> </Attack.Ranged.Crush>				
+      </Modifications>
+      <AuraName>Feared (20%)</AuraName>
+      <AuraDescription>Enemy units in range -20% attack (does not stack).</AuraDescription>
+    </Aura1>
+  </Auras>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>20</Hack>
       <Pierce>0</Pierce>
-      <Crush>30.0</Crush>
+      <Crush>20.0</Crush>
       <MaxRange>7.0</MaxRange>
-      <RepeatTime>1500</RepeatTime>
+      <RepeatTime>2000</RepeatTime>
     </Melee>
   </Attack>
   <Armour>
@@ -14,27 +29,35 @@
     <Pierce>5</Pierce>
     <Crush>4</Crush>
   </Armour>
-  <Health>
-    <Max>480</Max>
-  </Health>  
   <Cost>
-    <Population>6</Population>
+    <Population>5</Population>
     <BuildTime>50</BuildTime>
     <Resources>
-      <food>360</food>
+      <food>200</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>140</metal>
+      <metal>75</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>20</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>8</metal>
+  </Loot>
   <Footprint>
     <Circle radius="3.5"/>
     <Height>6.0</Height>
   </Footprint>
+  <Health>
+    <Max>480</Max>
+  </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Elephant Levy Melee -Champion</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
+    <Tooltip>Powerful unit with fear aura. Especially strong against Structures.</Tooltip>	
   </Identity>
   <Obstruction>
     <Unit radius="3.0"/>
@@ -67,10 +90,7 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-    </Run>
+    <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>75</Range>
@@ -79,3 +99,4 @@
     <Actor>units/mauryans/champion_elephant.xml</Actor>
   </VisualActor>
 </Entity>
+

@@ -11,6 +11,13 @@
       <metal>50</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>10</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>  
   <GarrisonHolder>
     <Max>20</Max>
     <EjectHealth>0</EjectHealth>
@@ -21,7 +28,7 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>400</Max>
+    <Max>480</Max>
   </Health>
   <Identity>
     <GenericName>Merchantman</GenericName>
@@ -53,6 +60,6 @@
     <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>50</Range>
+    <Range>40</Range>
   </Vision>
 </Entity>

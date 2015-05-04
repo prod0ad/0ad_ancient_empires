@@ -2,14 +2,14 @@
 <Entity parent="template_unit_infantry_ranged">
   <Armour>
     <Hack>0</Hack>
-    <Pierce>0</Pierce>
-    <Crush>2</Crush>
+    <Pierce>1</Pierce>
+    <Crush>4</Crush>
   </Armour>
   <Health>
     <Max>60</Max>
   </Health>
   <Vision>
-    <Range>45</Range>
+    <Range>40</Range>
   </Vision>    
   <Attack>
     <Ranged>
@@ -25,7 +25,7 @@
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>20</BuildTime>	  
+    <BuildTime>25</BuildTime>	  
     <Resources>
       <food>40</food>
       <wood>0</wood>
@@ -34,16 +34,17 @@
     </Resources>
   </Cost>
   <Loot>
-    <stone>3</stone>
+      <food>4</food>
+      <wood>0</wood>
+	  <metal>0</metal>
+      <stone>2</stone>	  
   </Loot>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
   </UnitMotion>  
   <Identity>
     <VisibleClasses datatype="tokens">Sling</VisibleClasses>
     <GenericName>Slinger</GenericName>
+    <Tooltip>Long ranged infantry. Effective against ranged units.</Tooltip>		
   </Identity>
 </Entity>

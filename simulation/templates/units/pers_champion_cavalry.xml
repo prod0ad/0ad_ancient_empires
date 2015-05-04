@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_cavalry_spearman">
+<Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>pers</Civ>
     <GenericName>Bactrian Heavy Lancer</GenericName>

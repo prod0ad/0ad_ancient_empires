@@ -6,7 +6,7 @@
     <GenericName>Champion Elephant</GenericName>
     <SpecificName>Elephant Archer</SpecificName>
     <Icon>units/maur_cavalry_archer.png</Icon>
-    <Tooltip>.</Tooltip>
+    <Tooltip>Champion Ranged Elephant with fear aura.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/mauryans/elephant_archer_b.xml</Actor>

@@ -4,9 +4,9 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>120.0</Crush>
+      <Crush>72.0</Crush>
       <MaxRange>75.0</MaxRange>
-      <MinRange>10.0</MinRange>
+      <MinRange>20.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
       <PrepareTime>6000</PrepareTime>
       <RepeatTime>6000</RepeatTime>
@@ -17,28 +17,35 @@
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
-        <Crush>30.0</Crush>
+        <Crush>36.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
   <Cost>
     <Population>5</Population>
-    <BuildTime>50</BuildTime>
+    <BuildTime>80</BuildTime>
     <Resources>
       <wood>200</wood>
-      <metal>200</metal>
+      <metal>150</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>20</wood>
+    <stone>0</stone>
+    <metal>15</metal>
+  </Loot>  
   <Footprint>
     <Square width="12.0" depth="48.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>900</Max>
+    <Max>1200</Max>
   </Health>
   <Identity>
     <GenericName>Heavy Warship</GenericName>
-    <Tooltip>Powerful Ship with a Long Ranged Crush Attack.</Tooltip>
+    <Tooltip>Powerful Warship with a long ranged crush attack.</Tooltip>
     <Classes datatype="tokens">Warship Heavy Ranged</Classes>
 	<RequiredTechnology>phase_imperial</RequiredTechnology>
   </Identity>
@@ -54,12 +61,9 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>20</Speed>
-    </Run>
+    <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>90</Range>
+    <Range>75</Range>
   </Vision>
 </Entity>

@@ -3,14 +3,14 @@
   <Armour>
     <Hack>1</Hack>
     <Pierce>2</Pierce>
-    <Crush>6</Crush>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>24</Pierce>
+      <Pierce>18</Pierce>
       <Crush>0</Crush>
-      <MaxRange>35</MaxRange>
+      <MaxRange>28</MaxRange>
       <MinRange>0.0</MinRange>		  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
@@ -20,14 +20,30 @@
   </Attack>
   <Cost>
     <Population>3</Population>  
-    <BuildTime>25</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>70</food>
       <wood>0</wood>
-	  <metal>55</metal>
+	  <metal>40</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>7</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>  
+  <Health>
+    <Max>210</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>14</WalkSpeed>
+  </UnitMotion> 
+  <Vision>
+    <Range>50</Range>
+  </Vision>    
   <Identity>
     <VisibleClasses datatype="tokens">Ranged Javelin</VisibleClasses>
     <GenericName>Champion Cavalry Skirmisher</GenericName>
@@ -44,12 +60,4 @@
       <attack>attack/weapon/arrowfly.xml</attack>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <WalkSpeed>16</WalkSpeed>
-    <Run>
-      <Speed>27.0</Speed>
-      <Range>1000.0</Range>
-      <RangeMin>10.0</RangeMin>
-    </Run>
-  </UnitMotion>
 </Entity>

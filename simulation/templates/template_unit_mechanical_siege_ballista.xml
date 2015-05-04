@@ -8,49 +8,49 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>30.0</Pierce>
-      <Crush>10.0</Crush>
-      <MaxRange>80</MaxRange>
-      <MinRange>8.0</MinRange>
+      <Pierce>24.0</Pierce>
+      <Crush>8.0</Crush>
+      <MaxRange>60</MaxRange>
+      <MinRange>10.0</MinRange>
       <Spread>2.0</Spread>
       <ProjectileSpeed>300.0</ProjectileSpeed>
-      <PrepareTime>2000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <PrepareTime>4000</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
       <Splash>
         <Shape>Linear</Shape>
-        <Range>8</Range>
+        <Range>15</Range>
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
-        <Pierce>20.0</Pierce>
-        <Crush>5.0</Crush>
+        <Pierce>12.0</Pierce>
+        <Crush>4.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
   <Cost>
     <BuildTime>30</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <metal>100</metal>
+      <wood>75</wood>
+      <metal>75</metal>
     </Resources>
-    <Population>2</Population>
+    <Population>3</Population>
   </Cost>
   <Footprint replace="">
     <Square width="5.0" depth="12.0"/>
     <Height>2.0</Height>
   </Footprint>
   <Health>
-    <Max>100</Max>
+    <Max>75</Max>
   </Health>
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
 	<Classes datatype="tokens">BoltShooter Ranged</Classes>
   </Identity>
   <Loot>
-    <xp>200</xp>
+    <xp>0</xp>
     <food>0</food>
-    <wood>10</wood>
+    <wood>8</wood>
     <stone>0</stone>
-    <metal>10</metal>
+    <metal>8</metal>
   </Loot>
   <Selectable>
     <Overlay>
@@ -62,11 +62,8 @@
   </Selectable>
   <UnitMotion>
     <WalkSpeed>7</WalkSpeed>
-    <Run>
-      <Speed>12.0</Speed>
-    </Run>
   </UnitMotion>
   <Vision>
-    <Range>90</Range>
+    <Range>60</Range>
   </Vision>
 </Entity>

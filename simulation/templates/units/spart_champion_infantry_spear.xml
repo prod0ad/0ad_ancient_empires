@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>20</Radius>
+      <Affects>Soldier</Affects>
+	  <AffectedPlayers>Enemy</AffectedPlayers>
+      <Modifications>
+        <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
+        <Attack.Ranged.Pierce> <Multiply>0.9</Multiply> </Attack.Ranged.Pierce>		
+        <Attack.Ranged.Crush> <Multiply>0.9</Multiply> </Attack.Ranged.Crush>				
+      </Modifications>
+      <AuraName>Feared (10%)</AuraName>
+      <AuraDescription>Enemy units in range -10% attack (does not stack).</AuraDescription>
+    </Aura1>
+  </Auras>
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>5</Pierce>
-    <Crush>6</Crush>
+    <Hack>4</Hack>
+    <Pierce>3</Pierce>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>18</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -15,20 +30,33 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>30</BuildTime>
+    <Population>2</Population>	
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>80</metal>
+      <metal>50</metal>
     </Resources>
-  </Cost> 
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>5</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>  
+  <Health>
+    <Max>210</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>8</WalkSpeed>
+  </UnitMotion>  
   <Identity>
     <Civ>spart</Civ>
-	<GenericName>Spartan Royal Guard</GenericName>
-    <SpecificName>Spartiā́tes Hippeis</SpecificName>
-    <Tooltip>Powerful infantry with better all around attributes than other spearmen. Deals double damage vs Cavalry and Elephants.</Tooltip>
-    <History>300 chosen spartans formed the royal guard and were give the title of hippeis (cavalrymen) even though they fought as hoplites.</History>
+	<GenericName>Champion Spearman</GenericName>
+    <SpecificName>Spartan Royal Guard</SpecificName>
+	<Tooltip>Powerful Champion Spearman with fear aura. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
     <Icon>units/spart_champion_infantry_spear.png</Icon>
   </Identity>
   <VisualActor>

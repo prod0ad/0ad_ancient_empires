@@ -9,27 +9,27 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>12</Pierce>
+      <Pierce>10</Pierce>
       <Crush>0</Crush>
-      <MaxRange>40</MaxRange>
+      <MaxRange>32</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.5</Spread>	  
+      <Spread>1.4</Spread>	  
     </Ranged>
   </Attack>
   <Cost>
     <Population>4</Population>
     <BuildTime>40</BuildTime>  
     <Resources>
-      <food>140</food>
+      <food>120</food>
       <wood>0</wood>
-	  <metal>60</metal>
+	  <metal>40</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Health>
-    <Max>200</Max>
+    <Max>180</Max>
   </Health>
   <Footprint replace="">
     <Square width="7.5" depth="15.0"/>
@@ -37,22 +37,19 @@
   </Footprint>  
   <Identity>
 	<VisibleClasses datatype="tokens">Chariot Archer</VisibleClasses>
-    <GenericName>Cavalry Archer</GenericName>
-    <History>A very rare unit in Part 1. It was used by the Persians, but it didn't gain much traction until the Parthians, Huns, Mongols, and other people of the nomadic steeps introduced them to Western Europe. This was the most effective unit on the battlefield for several hundred years until the well armored knight came along. Therefore, this unit will gain much more prominence in Part 2.</History>
+    <GenericName>Chariot Archer</GenericName>
+    <Tooltip>Fast moving long ranged chariot. Effective against melee units.</Tooltip>	
   </Identity>
   <Loot>
-    <food>0</food>
-    <wood>5</wood>
+    <food>12</food>
+    <wood>0</wood>
     <stone>0</stone>
-    <metal>10</metal>
+    <metal>4</metal>
   </Loot>
   <Obstruction>
     <Unit radius="2.0"/>
   </Obstruction>
   <UnitMotion>
-    <WalkSpeed>16.0</WalkSpeed>
-    <Run>
-      <Speed>34.0</Speed>
-    </Run>
+    <WalkSpeed>14.0</WalkSpeed>
   </UnitMotion>
 </Entity>

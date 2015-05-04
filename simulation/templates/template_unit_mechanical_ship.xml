@@ -3,18 +3,25 @@
   <Armour>
     <Hack>4</Hack>
     <Pierce>5</Pierce>
-    <Crush>3</Crush>
+    <Crush>2</Crush>
   </Armour>
   <Cost>
     <Population>1</Population>
     <BuildTime>20</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>50</wood>
+      <wood>75</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>8</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>  
   <Decay>
     <SinkingAnim>true</SinkingAnim>
     <DelayTime>0.0</DelayTime>
@@ -26,7 +33,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>100</Max>
+    <Max>240</Max>
   </Health>
   <Identity>
     <GenericName>Ship</GenericName>

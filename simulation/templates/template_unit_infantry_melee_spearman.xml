@@ -10,7 +10,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>12</Hack>
+      <Hack>8</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -19,14 +19,10 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry Elephant</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>3</Multiplier>
 		</AntiCavalry>
 	  </Bonuses>  
     </Melee>
-    <Charge>
-      <Hack>24</Hack>
-      <MaxRange>6.0</MaxRange>	 	  
-    </Charge>
   </Attack>
   <Cost>
     <Population>2</Population>    
@@ -39,18 +35,17 @@
     </Resources>
   </Cost>
   <Loot>
-    <wood>5</wood>
+      <food>4</food>
+      <wood>5</wood>
+	  <metal>0</metal>
+      <stone>0</stone>	 
   </Loot>
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>16</Speed>
-    </Run>
   </UnitMotion> 
   <Identity>
     <VisibleClasses datatype="tokens">Spear Spearman</VisibleClasses>
     <GenericName>Spearman</GenericName>
-    <History>Probably one of the most primitive units in the game. Fighting with a sharp object at the end of the pole didn't require a lot of technology to develop. It also allowed the human to distance themselves from their attacker. As time passed the spears got longer and longer. Started with a fighting style similar to using a quarterstaff, then to using them in numbers as a 'pin cushion' vs. humans (sarissa in a phalanx). Later it was developed to combat cavalry. During the medieval period it evolved to the pike. These units tended to be armored as heavily as possible.</History>
-    <Tooltip>Deals double damage vs Cavalry and Elephants.</Tooltip>		
+    <Tooltip>Basic melee infantry. Deals x3 damage to Cavalry and Elephants.</Tooltip>		
   </Identity>  
 </Entity>

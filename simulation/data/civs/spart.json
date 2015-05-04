@@ -34,14 +34,14 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Extremely powerful Spearman."
+					"History":"Powerful Champion Spearman with fear aura. Deals x3 damage to Cavalry and Elephants."
 				},
 				{
 					"Name":"Lacedemonian Phalangite",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Heavy Pikeman. Requires Cleomenian Reforms."
+					"History":"Champion Pikeman. Deals x3 damage to Cavalry and Elephants. Requires Cleomenian Reforms."
 				}
 			]
 		}

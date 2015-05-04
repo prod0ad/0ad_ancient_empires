@@ -2,19 +2,12 @@
 <Entity parent="template_unit_champion">
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>20</Hack>
       <Pierce>0</Pierce>
-      <Crush>30.0</Crush>
+      <Crush>20.0</Crush>
       <MaxRange>7.0</MaxRange>
-      <RepeatTime>1500</RepeatTime>
+      <RepeatTime>2000</RepeatTime>
     </Melee>
-    <Charge>
-      <Hack>60</Hack>
-      <Pierce>0</Pierce>
-      <Crush>60</Crush>
-      <MaxRange>8.0</MaxRange>
-      <MinRange>0.0</MinRange>
-    </Charge>
   </Attack>
   <Armour>
     <Hack>5</Hack>
@@ -22,15 +15,22 @@
     <Crush>4</Crush>
   </Armour>
   <Cost>
-    <Population>6</Population>
+    <Population>5</Population>
     <BuildTime>50</BuildTime>
     <Resources>
-      <food>360</food>
+      <food>200</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>140</metal>
+      <metal>75</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>20</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>8</metal>
+  </Loot>
   <Footprint>
     <Circle radius="3.5"/>
     <Height>6.0</Height>
@@ -39,10 +39,10 @@
     <Max>480</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
+    <VisibleClasses datatype="tokens">Elephant Levy Melee -Champion</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
-    <History>War elephants were used by many Eastern and African cultures.</History>
+    <Tooltip>Powerful unit especially strong versus Cavalry and Structures.</Tooltip>	
   </Identity>
   <Obstruction>
     <Unit radius="3.0"/>
@@ -71,19 +71,11 @@
       <trained>actor/fauna/animal/elephant_trained.xml</trained>
     </SoundGroups>
   </Sound>
-  <Stamina>
-    <Max>2500</Max>
-  </Stamina>
   <StatusBars>
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>20.0</Speed>
-      <Range>1000.0</Range>
-      <RangeMin>10.0</RangeMin>
-    </Run>
+    <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>75</Range>

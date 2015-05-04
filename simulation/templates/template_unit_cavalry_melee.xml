@@ -5,37 +5,33 @@
     <Crush>6</Crush>
   </Armour>
   <Health>
-    <Max>180</Max>
+    <Max>225</Max>
   </Health>   
   <Attack>
     <Melee>
-      <Hack>25</Hack>
+      <Hack>32</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
-    <Charge>
-      <Hack>50.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>6.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
-    </Charge>
   </Attack>
   <Cost>
+    <Population>3</Population>  
     <BuildTime>30</BuildTime>   
     <Resources>
-      <food>80</food>
+      <food>70</food>
       <wood>0</wood>
-	  <metal>40</metal>
+	  <metal>50</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>  
+   <Vision>
+    <Range>50</Range>
+  </Vision>   
   <Loot>
-    <food>10</food>
+    <food>7</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>5</metal>
@@ -43,5 +39,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Heavy Cavalry</GenericName>
+    <Tooltip>Powerful heavy cavalry.</Tooltip>		
   </Identity>
 </Entity>

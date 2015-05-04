@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_cavalry_swordsman">
+<Entity parent="template_unit_champion_cavalry_heavy">
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
+    <Crush>7</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+	  <Bonuses>
+		<AntiChampion>
+		  <Classes>Champion</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiChampion>
+	  </Bonuses>	  
+    </Melee>
+  </Attack> 
   <Identity>
     <Civ>rome</Civ>
-	<SpecificName>Eques Consularis</SpecificName>
-	<GenericName>Consular Bodyguard</GenericName>
+	<SpecificName>Consular Bodyguard</SpecificName>
+	<GenericName>Champion Cavalry</GenericName>
     <Icon>units/rome_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/rome_champion_cavalry</SelectionGroupName>
-    <History>The Equites Consulares were the best of the Roman cavalry that were picked out by the commanding Consul and served under him directly. They functioned about identical to later Praetorian cavalry, but were usually made up of the most local Italian allies. The Italic cavalry was of better quality and quantity then the citizen cavalry of the Republic, and were highly prized for service.</History>
+	<Tooltip>Champion Cavalry. Deals x1.5 damage to Champion Units.</Tooltip>	
   </Identity>
   <VisualActor>
     <Actor>units/romans/champion_unit_2.xml</Actor>

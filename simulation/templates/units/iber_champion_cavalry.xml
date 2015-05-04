@@ -2,9 +2,12 @@
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Attack>
     <Ranged>
-      <Pierce>16</Pierce>
-      <Crush>8</Crush>
-      <MaxRange>35</MaxRange>
+	  <Bonuses>
+		<Fiery>
+		  <Classes>Structure Mechanical</Classes>
+		  <Multiplier>4</Multiplier>
+		</Fiery>
+	  </Bonuses>	
     </Ranged>
   </Attack>
   <Identity>
@@ -12,7 +15,7 @@
     <SpecificName>Iberian Noble</SpecificName>
     <Icon>units/iber_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>
-	<Tooltip>Good vs Buildings.</Tooltip>
+	<Tooltip>Champion Ranged Cavalry. Deals x4 damage to Structures and Mechanical.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/champion_unit_2.xml</Actor>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_cavalry_spearman">
+<Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>cart</Civ>
 	<GenericName>Champion Cavalry</GenericName>
-    <SpecificName>Sacred Band of Astarte</SpecificName>
-    <History>The Sacred Band of Astarte was an elite cavalry regiment recruited from amongst the upper class of the city.</History>
+    <SpecificName>Sacred Band Cavalry</SpecificName>
+	<Tooltip>Champion Cavalry.</Tooltip>	
     <Icon>units/cart_sacred_band_cavalry.png</Icon>		
   </Identity>
   <VisualActor>

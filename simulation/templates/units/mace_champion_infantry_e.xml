@@ -2,7 +2,7 @@
 <Entity parent="units/mace_champion_infantry_a">
   <Attack>
     <Melee>
-      <Hack>33</Hack>
+      <Hack>21</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -10,10 +10,13 @@
     </Melee>
   </Attack>
   <Health>
-    <Max>220</Max>
+    <Max>180</Max>
   </Health>
+  <Vision>
+    <Range>44</Range>
+  </Vision>
   <Identity>
-    <SpecificName>Hypaspistes Argyraspides</SpecificName>
+    <SpecificName>Silver Shield</SpecificName>
     <Icon>units/macedonian_argyraspidai.png</Icon>
   </Identity>
   <Promotion disable=""/>

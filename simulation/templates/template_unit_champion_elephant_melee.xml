@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_elephant">
-  <Identity>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
-    <Tooltip>Powerful unit especially strong versus Cavalry and Structures.</Tooltip>	
-  </Identity>
-</Entity>

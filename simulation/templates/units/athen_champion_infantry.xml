@@ -3,37 +3,48 @@
   <Armour>
     <Hack>3</Hack>
     <Pierce>3</Pierce>
-    <Crush>6</Crush>
+    <Crush>7</Crush>
   </Armour>
   <Attack>
     <Melee>
+      <Hack>12</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
       <MaxRange>7.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
     </Melee>
   </Attack>
   <Cost>
     <BuildTime>20</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>60</food>
+      <food>40</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>60</metal>
+      <metal>35</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>4</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>    
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>  
   <Identity>
     <Civ>athen</Civ>
 	<GenericName>Champion Spearman</GenericName>
-    <SpecificName>Chosen Hoplite</SpecificName>
+    <SpecificName>Logades</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_infantry.png</Icon>
-	<Tooltip>Fast Moving Spearman. Deals double damage vs Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Fast moving Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
   </Identity>
-  <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
-    <Run>
-      <Speed>18.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/athenians/champion_unit_spear.xml</Actor>
   </VisualActor>

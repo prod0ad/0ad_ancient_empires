@@ -17,9 +17,6 @@
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Melee>
-    <Charge>
-      <Hack>24.0</Hack>
-    </Charge>
   </Attack>
   <Cost>
     <Population>2</Population>  
@@ -32,17 +29,17 @@
     </Resources>
   </Cost>
   <Loot>
-    <metal>5</metal>
+      <food>4</food>
+      <wood>0</wood>
+	  <metal>3</metal>
+      <stone>0</stone>
   </Loot>
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>18</Speed>
-    </Run>
   </UnitMotion>
   <Identity>
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
     <GenericName>Swordsman</GenericName>
-    <History>Weapon is basically a developed sickle. Probably from the club, to the axe, to the sickle to the sword. It was the Romans who used them to combat the long range of the sarissa. Their spears were so long they had to use two hands to wield them. In a formation they were almost impossible to maneuver. If flanked, they were easily cut down by a sword as demonstrated by the Romans at the battle of Cynoscephalae. Generally swordsmen were well armored, had shields, and tended to be nobles. A good sword was an expensive weapon.</History>
+    <Tooltip>Offensive melee infantry.</Tooltip>			
   </Identity>
 </Entity>
