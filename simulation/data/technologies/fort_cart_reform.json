@@ -1,17 +1,19 @@
 {
-	"genericName": "Barcid Armies (Reform)",
-	"description": "Hannibal's successful campaigns allowed him to gather a strong core of loyal mercenaries, often protected by looted roman armor.",
-	"cost": {"food": 425, "wood": 0, "stone": 0, "metal": 475},
-	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "cart"}]},
+	"genericName": "Xanthippian Reforms",
+	"description": "The Spartan Mercenary general Xanthippus retrained the Carthaginian Army allowing it to fight in accordance to it's strenghts and weaknesses.",
+	"cost": {"food": 325, "wood": 0, "stone": 0, "metal": 575},
+	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Mercenaries cost 25% less metal and gain +1 pierce and hack armor levels.",
+	"tooltip": "All Soldiers +10% attack.",
 	"modifications": 
 	[
-	    {"value": "Cost/Resources/metal", "multiply": 0.75},
-	    {"value": "Armour/Hack", "add": 1.0},
-		{"value": "Armour/Pierce", "add": 1.0}],
-	"affects": ["Mercenary"],
+        {"value": "Attack/Melee/Hack", "multiply": 1.10},
+		{"value": "Attack/Melee/Crush", "multiply": 1.10},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.10},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.10}
+	],
+	"affects": ["Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

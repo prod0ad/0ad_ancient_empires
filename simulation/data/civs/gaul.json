@@ -50,23 +50,28 @@
 		{
 			"Name": "Carnutes",
 			"History": "Celtic religion and druidry inspired their warlike mindset.",
-			"Description": "Druids give +1 attack to nearby soldiers." 
-		},
-		{
-			"Name": "Celtic Valour",
-			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
-			"Description": "Levy Melee Infantry +10% speed and -10% wood/metal cost, but -20% hit points." 
-		},
-		{
-			"Name": "Wooden Construction",
-			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures -20% build time but -20% hit points. Most Structures provide +5 population." 
+			"Description": "Druids give player units in range +10% attack (doesn't stack)." 
 		},
 		{
 			"Name": "Herding",
 			"History": ".", 
 			"Description": "A Sheep added to starting units." 
-		}		
+		},			
+		{
+			"Name": "Celtic Valour",
+			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
+			"Description": "Melee Infantry +10% speed." 
+		},	
+		{
+			"Name": "Wooden Structures",
+			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
+			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone. Most Structures +5 population." 
+		},
+		{
+			"Name": "Light Infantry",
+			"History": "The majority of Gallic infantrymen were hastely levied unarmored troops.",
+			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
+		}			
 	],
 	"TeamBonuses":
 	[

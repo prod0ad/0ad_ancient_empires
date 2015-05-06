@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Workers get +15% all gather rates but Levy Infantry get -10% hit points and attack damage.",	
+	"tooltip": "Workers +15% all gather rates, Levy Infantry -10% hit points and attack.",	
 	"modifications": [
 		{"value": "Health/Max", "multiply": 0.9},
 		{"value": "Attack/Melee/Hack", "multiply": 0.9},

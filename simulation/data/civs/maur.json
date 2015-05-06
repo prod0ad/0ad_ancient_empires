@@ -16,20 +16,20 @@
 			"Technologies":
 			[
 				{
+					"Name":"Pacifism (Reform)",
+					"History":"Regrets of the bloodshed or an effort to maintain his empire led Ashoka to support Buddhism and pacifism after slaughtering thousands of people during his early conquests.",
+					"Description":"Workers +15% all gather rates, Levy Infantry -10% hit points and attack."
+				},				
+				{
 					"Name": "Wootz Steel",
 					"History": "The Wootz steel is believed to have originated in India. There are several ancient Greek and Roman literary references to high-quality Indian steel since the time of Alexander's Indian campaign.'",
-					"Description": "Sword units +2 hack damage." 
+					"Description": "Sword units +15% attack." 
 				}, 	
 				{
 					"Name": "Fire Protection",
 					"History": "To prevent major fires breaking out in their wooden cities, The Mauryans introduced permanent water deposits in every structure.'",
 					"Description": "Structures regenerate 1 hit point per second." 
-				}, 						
-				{
-					"Name":"Pacifism Reform",
-					"History":"Regrets of the bloodshed or an effort to maintain his empire led Ashoka to support Buddhism and pacifism after slaughtering thousands of people during his early conquests.",
-					"Description":" Workers +15% all gather rates but Levy Infantry -10% hit points and attack damage."
-				}				
+				} 									
 			],
 			"Heroes":
 			[
@@ -48,7 +48,7 @@
 		{
 			"Name": "Emperor of Emperors.",
 			"History": "The Mauryan Empire encompassed dozens of formerly independent kingdoms over an area of 5 million square kilometers, with a population of close to 60 million people. The Mauryan regents held the title Emperor of Emperors and commanded a standing army of 600,000 infantry, 9000 elephants, 8000 chariots, and 30,000 cavalry, making it arguably the largest army of its time.",
-			"Description": "Maximum population +10%. Workers and Infantry -5 food cost for each phase researched."
+			"Description": "Workers and Infantry -5 food cost for each phase researched. Maximum population +10%."
 		},
 		{
 			"Name":"Indian Elephants",
@@ -56,20 +56,20 @@
 			"Description":"Elephant Units +25% hit points."
 		},			
 		{
-			"Name": "Light Infantry",
-			"History": "The majority of Indian infantrymen were unarmored troops.",
-			"Description": "Levy Spear Infantry are significantly weaker, cheaper and faster to train."
-		},	
-		{
 			"Name":"Archery Tradition",
 			"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
-			"Description":"Infantry Archers +10% range/vision and -25% train time."
+			"Description":"Infantry Archers +10% range/vision, -25% train time."
 		},		
 		{
-			"Name": "Wooden Construction",
-			"History": "Mauryans structures were mostly made of wood. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures -20% build time but -20% hit points. Walls cost lumber instead of stone." 
-		}	
+			"Name": "Wooden Structures",
+			"History": "Mauryan structures were mostly made of wood. Consequently, their structures have less health than other cultures do, but they also construct faster.",
+			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone." 
+		},
+		{
+			"Name": "Light Infantry",
+			"History": "The majority of Indian infantrymen were hastely levied unarmored troops.",
+			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
+		}		
 	],
 	"TeamBonuses":
 	[

@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "sword.png",
 	"researchTime": 40,
-	"tooltip": "20% faster attack rate for Infantry Swordsmen.",
+	"tooltip": "Infantry Swordsmen +20% attack rate.",
 	"modifications": [{"value": "Attack/Melee/RepeatTime", "multiply": 0.8}],
 	"affects": ["Infantry Sword"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

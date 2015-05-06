@@ -17,15 +17,15 @@
   </Auras>
   <Attack>
     <Melee>
-      <Hack>20</Hack>
+      <Hack>30</Hack>
       <Pierce>0</Pierce>
-      <Crush>20.0</Crush>
+      <Crush>30.0</Crush>
       <MaxRange>7.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
     </Melee>
   </Attack>
   <Armour>
-    <Hack>5</Hack>
+    <Hack>6</Hack>
     <Pierce>5</Pierce>
     <Crush>4</Crush>
   </Armour>

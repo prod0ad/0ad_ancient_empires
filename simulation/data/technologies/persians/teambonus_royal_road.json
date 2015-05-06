@@ -4,6 +4,6 @@
 	"requirements": {"civ": "pers"},
 	"tooltip": "Traders move 15% faster (currently not shared).",
 	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.15}],
-	"affects": ["Trader"],
+	"affects": ["Support Trader"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

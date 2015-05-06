@@ -17,15 +17,20 @@
 			"Technologies":
 			[		
 				{
-					"Name":"Cleomenian Reforms",
-					"History":"Cleomenes III redistributed the land, freed thousands of Helots, enlisted many of them along with Spartans and Perioikoi in his newly formed pike phalanxes in an attempt to restore Spartan power.",
-					"Description":"Spartan Phalangites are unlocked."
+					"Name":"Cleomenian Reform",
+					"History":"Cleomenes III formed pike phalanxes in an attempt to restore Spartan military power.",
+					"Description":"Lacedemonian Phalangites unlocked."
 				},
 				{
 					"Name":"Land Reform",
-					"History":".",
+					"History":"Several notable Spartans attempted to redistribute the land.",
 					"Description":"Workers +25% farming rate."
-				}				
+				},	
+				{
+					"Name":"Social Reform",
+					"History":"Several notable Spartans attempted to increase the Spartan manpower pool by freeing helots or increasing the social status of Perioikoi.",
+					"Description":"Maximum population +20% (negates the Spartan starting penalty)."
+				}					
 			],
 			"Heroes":
 			[
@@ -37,7 +42,7 @@
 					"History":"Powerful Champion Spearman with fear aura. Deals x3 damage to Cavalry and Elephants."
 				},
 				{
-					"Name":"Lacedemonian Phalangite",
+					"Name":"Lacedemonian Phalangites",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
@@ -51,12 +56,12 @@
 		{
 			"Name":"The Agoge",
 			"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
-			"Description":"Melee Infantry +10% health, attack and speed, but also +20% train time."
+			"Description":"Melee Infantry +10% health, attack and speed, +20% train time."
 		},
 		{
 	     	"Name":"Laws of Lycurgus",
 	    	"History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
-	  		"Description":"Civic Duty free (Workers +50% hit points). Unique techs are free but have double research time."
+	  		"Description":"Special techs free but very slow research time. Civic Duty free (Workers +50% hit points)."
 	    },			
 		{
 			"Name":"Wall of Men",
@@ -66,7 +71,7 @@
 		{
 			"Name":"Limited Manpower",
 			"History":".",
-			"Description":"Maximum population -10%."
+			"Description":"Maximum population -20%."
 		}
 	],
 	"TeamBonuses":

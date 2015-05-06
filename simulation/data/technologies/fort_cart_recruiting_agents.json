@@ -1,14 +1,15 @@
 {
-	"genericName": "Immortals",
+	"genericName": "Recruiting Agents",
 	"cost": {"food": 425, "wood": 0, "stone": 0, "metal": 175},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "fist_spear.png",
+	"icon": "helmet_hero_side.png",
 	"researchTime": 40,
-	"tooltip": "Champion Spearmen -50% train time.",
-	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.50}
+	"tooltip": "Mercenaries -25% metal cost.",
+	"modifications": 
+	[
+	    {"value": "Cost/Resources/metal", "multiply": 0.75}
 	],
-	"affects": ["Champion Spear"],
+	"affects": ["Mercenary"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

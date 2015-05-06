@@ -1,5 +1,5 @@
 {
-	"genericName": "Cardakes Reform",
+	"genericName": "Cardakes (Reform)",
 	"cost": {"food": 750, "wood": 0, "stone": 0, "metal": 150},
 	"requirements": { "all": [{"tech":"phase_imperial"}, {"tech":"upgrades/spearman_e"}, {"tech":"upgrades/skirmisher_e"}]},	
 	"requirementsTooltip": "Unlocked in Imperial Phase. Requires Elite Spearmen and Elite Skirmishers.",

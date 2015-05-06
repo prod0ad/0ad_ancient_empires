@@ -2,5 +2,5 @@
 	"genericName": "Underdogs",
 	"autoResearch": true,
 	"requirements": {"civ": "spart"},
-	"modifications": [{"value": "Player/MaxPopulation", "multiply": 0.9}]
+	"modifications": [{"value": "Player/MaxPopulation", "multiply": 0.8}]
 }

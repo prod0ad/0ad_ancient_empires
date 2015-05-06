@@ -1,11 +1,11 @@
 {
 	"genericName": "Land Reform",
-	"description": "Cleomenes III redistributed the land, freed a thousands of Helots, enlisted many of them along with Spartans and Perioiki in his newly formed pike phalanxes",
+	"description": "Several notable Spartans attempted to redistribute the land.",
 	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 0 },
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "plow.png",
-	"researchTime": 80,
+	"researchTime": 180,
 	"tooltip": "Workers +25% farming rate.",
 	"modifications": [
 		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}

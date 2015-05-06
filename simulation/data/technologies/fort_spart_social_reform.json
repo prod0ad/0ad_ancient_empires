@@ -1,0 +1,14 @@
+{
+	"genericName": "Social Reform",
+	"description": "Several notable Spartans attempted to increase the Spartan manpower pool by freeing helots or increasing the social status of Perioikoi.",
+	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 0 },
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "agoge.png",
+	"researchTime": 180,
+	"tooltip": "Maximum population +20% (negates the Spartan starting penalty).",
+	"modifications": [
+		{"value": "Player/MaxPopulation", "multiply": 1.2}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

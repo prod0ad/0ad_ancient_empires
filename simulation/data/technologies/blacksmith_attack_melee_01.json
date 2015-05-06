@@ -5,10 +5,10 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "metalworker.png",
 	"researchTime": 40,
-	"tooltip": "Melee Infantry and Cavalry +20% attack.",
-	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.2},
-		{"value": "Attack/Melee/Pierce", "multiply": 1.2},
-		{"value": "Attack/Melee/Crush", "multiply": 1.2}],
-	"affects": ["Melee"],
+	"tooltip": "Melee Infantry and Cavalry +15% attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.15},
+		{"value": "Attack/Melee/Crush", "multiply": 1.15}],
+	"affects": ["Melee Infantry","Melee Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -16,7 +16,7 @@
 			"Technologies":
 			[
 				{
-					"Name": "Kardakes Reform",
+					"Name": "Cardakes (Reform)",
 					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
 					"Description": "Spearmen +10% attack, hit points and vision. Skirmishers +10% attack, hit points, range and vision."
 				},
@@ -51,19 +51,19 @@
 			"Description": "Maximum population +10%."
 		}, 		
 		{
-			"Name": "Light Infantry",
-			"History": "The majority of eastern infantrymen were hastely levied unarmored troops.",
-			"Description": "Levy Spear Infantry are significantly weaker, cheaper and faster to train."
+			"Name": "Naval Invasion",
+			"History": "The Persians, employing their skilled phoenician and other maritime subjects were among the first to large large scale naval invasions including the trasportation of cavalry.",
+			"Description": "Heavy Transports free (Merchantmen +10 transport capacity)."
 		},
 		{
 			"Name":"Archery Tradition",
 			"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
-			"Description":"Infantry Archers +10% range/vision and -25% train time."
-		},
+			"Description":"Infantry Archers +10% range/vision, -25% train time."
+		},		
 		{
-			"Name": "Naval Invasion",
-			"History": "The Persians, employing their skilled phoenician and other maritime subjects were among the first to large large scale naval invasions including the trasportation of cavalry.",
-			"Description": "Heavy Transports tech free (Merchantmen +10 transport capacity)."
+			"Name": "Light Infantry",
+			"History": "The majority of Persian infantrymen were hastely levied unarmored troops.",
+			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
 		}		
 	],
 	"TeamBonuses":

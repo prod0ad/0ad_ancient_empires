@@ -19,7 +19,7 @@
 				{
 					"Name":"Antigonid Reforms",
 					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks.",
-					"Description":"Pikemen and Mercenaries train 20% faster and get +1 hack and pierce armor."
+					"Description":"Pikemen and Mercenaries -20% train time, +1 hack and pierce armor."
 				},	
 			        {
 					"Name":"Kestros Sling",
@@ -34,7 +34,7 @@
 				{
 					"Name":"Silver Shields",
 					"History":"In India near the end of his long anabasis, Alexander gifted to the Royal Hypaspist corps shields of silver for their long and valiant service in his army.",
-					"Description":"Upgrade Shield Bearers to Silver Shields, with greater attack and health."
+					"Description":"Upgrade Shield Bearers to Silver Shields, with increased attack and hit points."
 				}
 			],
 			"Heroes":
@@ -72,7 +72,7 @@
 		{
 			"Name":"Standardized 'Sanderd' Currency",
 			"History":"The Macedonians and the Diadochi minted coins of very high quality. On their currency the Diadochi in particular frequently depicted themselves as the rightful successor to Alexander the Great, attempting to legitimize their rule.",
-			"Description":"All units and structures -10% metal cost (currently not shared)."
+			"Description":"All units -10% metal cost (currently not shared)."
 		}
 	],
 	"Structures":

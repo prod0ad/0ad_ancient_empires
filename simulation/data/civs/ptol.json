@@ -16,19 +16,19 @@
 			"Technologies":
 			[
 				{
+			         "Name":"Romanization Reforms",
+			         "History":"Late Ptolemaic Egypt employed to Roman influenced swordsmen often trained by Roman mercenary instructors.",
+			         "Description":"Swordsmen -20% build time, +20% hit points."
+		        },			
+				{
 			         "Name":"Mercenary Army",
-			         "History":"The Greco-Macedonian Ptolemy Dynasty relied on large numbers of Greek and foreign mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty can be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
+			         "History":"The Ptolemaic Dynasty relied on large numbers of mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty can be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
 			         "Description":"Mercenaries -50% train time."
 		        },
 				{
 			         "Name":"Ptolemaic Garrisons",
 			         "History":"The Ptolemies relied extensively on fortified garrisons to protect their overseas and distant possessions.",
 			         "Description":"Fortresses +30% arrows per garrisoned soldier."
-		        },
-				{
-			         "Name":"Romanization Reforms",
-			         "History":"Late Ptolemaic Egypt employed to Roman influenced swordsmen often trained by Roman mercenary instructors.",
-			         "Description":"Swordsmen -20% build time and +20% hit points."
 		        }
 			],
 			"Heroes":
@@ -58,12 +58,12 @@
 		{
 			"Name":"Clay Structures",
 			"History":"Clay construction provided cheap structures for the Egyptians.",
-			"Description":"Houses, Farmsteads, Storehouses and Corrals cost no resources but take longer to build."
+			"Description":"Houses, Farmsteads and Storehouses have no cost but increased build time."
 		},
 		{
 			"Name":"Foreign Dynasty",
 			"History":".",
-			"Description":"Infantry Spearmen are mercenaries, costing metal instead of food/wood."
+			"Description":"Infantry Spearmen are mercenaries."
 		}
 	],
 	"TeamBonuses":
@@ -76,15 +76,6 @@
 	],
 	"Structures":
 	[
-		{
-			"Name":"Lighthouse",
-			"Class":"",
-			"Emblem":"",
-			"History":"The Ptolemaic dynasty in Egypt built the magnificent Lighthouse of Alexandria near the harbor mouth of that Nile Delta city. This structure could be seen for many kilometers out to sea and was one of the Seven Wonders of the World.",
-			"Requirements":".",
-			"Phase":"City",
-			"Description":"Has a huge line of sight. Limit: 1."
-		}
 	],
 	"StartEntities":
 	[

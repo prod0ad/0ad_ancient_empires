@@ -23,12 +23,12 @@
 				{
 					"Name": "Logistics",
 					"History": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",
-					"Description": "Melee infantry train 30% faster."
+					"Description": "Melee infantry -30% train time."
 				},	
 				{
 					"Name": "Gladius Hispaniensis",
 					"History": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
-					"Description": "Infantry Swordsmen attack 20% faster."
+					"Description": "Infantry Swordsmen +20% attack rate."
 				}								
 			],
 			"Heroes":
@@ -46,20 +46,20 @@
 	"CivBonuses":
 	[
 		{
+			"Name": "Scientific Adaptation",
+			"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
+			"Description": "Structures, Ships and Siege Weapons +10% hit points for each phase researched."
+		},		
+		{
 			"Name": "Roman Legions",
 			"History": "The Romans were early to realise the potential of swords as the main infantry weapon.",
-			"Description": "Swordsmen are unlocked in the Town instead of the City Phase." 
+			"Description": "Swordsmen are unlocked in the Town Phase." 
 		},
 		{
 			"Name": "Roman Citizenship",
 			"History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
-			"Description": "Units within range of Roman Civil Centres gain +10% attack."
-		},
-		{
-			"Name": "Scientific Adaptation",
-			"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
-			"Description": "Structures, Ships and Siege Weapons +10% hit points for each phase researched."
-		}			
+			"Description": "Civil Centres give units in range +10% attack."
+		}		
 	],
 	"TeamBonuses":
 	[

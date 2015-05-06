@@ -22,9 +22,14 @@
 					"Description":"Unlock the Thorakites Champion Swordman."
 				},
 		        {
+			        "Name":"Silk Route",
+			        "History":".",
+			        "Description":"Traders and Merchantmen -40% resource cost and train time."
+		        },				
+		        {
 			        "Name":"Cleruchy",
 			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
-			        "Description":"All soldiers -25% training time."
+			        "Description":"All soldiers -10% resource cost and train time."
 		        }
 			],
 			"Heroes":
@@ -49,32 +54,32 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Foreign Dynasty",
-			"History":".",
-			"Description":"Infantry Spearmen are mercenaries, costing metal instead of food/wood."
-		},
+			"Name":"Mesopotamia",
+			"History":"For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
+			"Description":"Farms -25% wood cost and build time."
+		},	
+		{
+			"Name":"Nisean Horses",
+			"History":"The Seleucids had access to the heavy Nisean Horses.",
+			"Description":"Cavalry Units +25% hit points."
+		},			
 		{
 			"Name":"Indian Elephants",
 			"History":"Indian Elephants were larger and stronger than the north african ones most Mediterranean states used.",
 			"Description":"Elephant Units +25% hit points."
 		},		
-		{
-			"Name":"Nisean Horses",
-			"History":"The Seleucids had access to the heavy Nisean Horses.",
-			"Description":"Cavalry Units +25% hit points."
-		},				
-		{
-			"Name":"Mesopotamia",
-			"History":"For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
-			"Description":"Farms -25% wood cost and construction time."
-		}		
+	    {
+			"Name":"Foreign Dynasty",
+			"History":".",
+			"Description":"Infantry Spearmen are mercenaries."
+		}	
 	],
 	"TeamBonuses":
 	[
 		{
 			"Name":"Great City Founders",
 			"History":"Even more so than other Successors, the Seleucids founded a huge number of cities, more often than not named Antiochia or Seleucia.",
-			"Description":"Civic Centers -20% resource cost (currently not shared)."
+			"Description":"Civic Centers -15% resource cost and build time (currently not shared)."
 		}
 	],
 	"Structures":

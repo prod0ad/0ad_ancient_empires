@@ -1,5 +1,5 @@
 {
-	"genericName": "Guerilla (Reform)",
+	"genericName": "Guerrilla Warfare (Reform)",
 	"description": "Infantry and Workers +10% speed",
 	"requirements": {"civ": "iber"},
 	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},

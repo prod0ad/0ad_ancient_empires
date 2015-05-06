@@ -15,6 +15,11 @@
 			"Description": "",
 			"Technologies":
 			[
+		        {
+			        "Name": "Guerrilla Warfare (Reform)",
+			        "History": "The Iberians employed successful skirmish and ambush tactics in their wars and rebellions against the Romans. They even reached as far as raiding Roman possessions in Africa.",
+			        "Description": "Infantry and Workers +10% speed."
+		        }, 				
 				{
 					"Name": "Toledo Steel",
 					"History": "The Iberians were known to produce the finest iron and steel implements and weapons of the age. The famous 'Toledo Steel.'",
@@ -24,12 +29,7 @@
 					"Name": "Soliferrum",
 					"History": "The Iberians used heavy iron javelins.",
 					"Description": "Javelin units +20% attack." 
-				}, 				
-		        {
-			        "Name": "Guerilla (Reform)",
-			        "History": "The Iberians employed successful skirmish and ambush tactics in their wars and rebellions against the Romans. They even reached as far as raiding Roman possessions in Africa.",
-			        "Description": "Infantry and Workers +10% speed."
-		        } 				
+				} 					
 			],
 			"Heroes":
 			[
@@ -48,18 +48,18 @@
 		{
 			"Name": "Fortifications",
 			"History": "With exception to alluvial plains and river valleys, stone is abundant in the Iberian Peninsula and was greatly used in construction of structures.",
-			"Description": "Civil Centres, Fortresses and Defense Towers +25% attack and hit points but +25% stone cost."
+			"Description": "Civil Centres, Fortresses and Defense Towers +25% attack and hit points, +25% stone cost."
 		},
 		{
 			"Name": "Stone Mining",
 			"History": "With exception to alluvial plains and river valleys, stone is abundant in the Iberian Peninsula and was greatly used in construction of structures.",
-			"Description": " Workers +25% Stone mining rate."
+			"Description": " Workers +25% stone mining rate."
 		},			
 		{
-			"Name": "Low Armor Use",
-			"History": "Most Iberian Soldiers went to war without body armor.", 
-			"Description": "Citizen Melee infantry -10% wood/metal cost but -15% hit points." 
-		}		
+			"Name": "Light Infantry",
+			"History": "The majority of Iberian infantrymen were hastely levied unarmored troops.",
+			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
+		}	
 	],
 	"TeamBonuses":
 	[

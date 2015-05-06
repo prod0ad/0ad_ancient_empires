@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "sibylline_books.png",
 	"researchTime": 40,
-	"tooltip": "Melee infantry train 30% faster.",
+	"tooltip": "Melee infantry -30% train time.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.70}
 	],
