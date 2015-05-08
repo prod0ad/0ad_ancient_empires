@@ -40,8 +40,8 @@
     <BuildTime>360</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>500</wood>
-      <stone>250</stone>
+      <wood>400</wood>
+      <stone>200</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -108,7 +108,7 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>140</Radius>
+    <Radius>200</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <AlertRaiser>

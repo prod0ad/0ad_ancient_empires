@@ -10,6 +10,6 @@
 		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},		
 		{"value": "Vision/Range", "multiply": 1.1}			
 	],
-	"affects": ["Archer Infantry Mercenary"],
+	"affects": ["Bow Infantry Mercenary"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

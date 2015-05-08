@@ -5,11 +5,11 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Rank>Advanced</Rank>
-    <Classes datatype="tokens">Advanced</Classes>	
+	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>	
   </Identity>
   <Promotion>
     <Entity>units/sele_chariot_archer_e</Entity>
+    <RequiredXp>9999</RequiredXp>		
   </Promotion>
   <VisualActor>
     <Actor>units/persians/cavalry_archer_a.xml</Actor>

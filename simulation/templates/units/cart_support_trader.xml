@@ -6,7 +6,9 @@
   </Footprint>
   <Identity>
     <Civ>cart</Civ>
-    <Classes datatype="tokens">Camel</Classes>
+    <VisibleClasses datatype="tokens">
+	  Camel
+	</VisibleClasses>	
     <SpecificName>Trader</SpecificName>
     <Icon>units/cart_support_trader.png</Icon>
   </Identity>

@@ -1,7 +1,7 @@
 {
 	"genericName": "House Large",
 	"autoResearch": true,	
-	"requirements": {"any":[{"civ": "athen"}, {"civ": "cart"}, {"civ": "mace"}, {"civ": "pers"}, {"civ": "rome"}, {"civ": "sele"}, {"civ": "spart"}]},
+	"requirements": {"any":[{"civ": "athen"}, {"civ": "cart"}, {"civ": "mace"}, {"civ": "pers"}, {"civ": "ptol"}, {"civ": "rome"}, {"civ": "sele"}, {"civ": "spart"}]},
 	"modifications": [
 		{"value": "GarrisonHolder/Max", "multiply": 2.0},
 		{"value": "Health/Max", "multiply": 2.0},

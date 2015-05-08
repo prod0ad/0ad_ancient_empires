@@ -6,10 +6,14 @@
   </Footprint>
   <Identity>
     <Civ>sele</Civ>
+    <VisibleClasses datatype="tokens">
+	  Camel
+	</VisibleClasses>	
+	<GenericName>Trader</GenericName>
     <SpecificName>Trader</SpecificName>
-    <Icon>units/hele_support_trader.png</Icon>
+    <Icon>units/pers_support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/hellenes/trader.xml</Actor>
+    <Actor>units/persians/trader.xml</Actor>
   </VisualActor>
 </Entity>

@@ -5,7 +5,7 @@
 	"supersedes": "stables_speed_cavalry_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "horseshoe_silver.png",
+	"icon": "horse_rider.png",
 	"researchTime": 40,
 	"tooltip": "Cavalry +10% speed.",
 	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.1}],

@@ -1,0 +1,15 @@
+{
+	"genericName": "Elite Camel Archer",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "cavalry_archer_e.png",
+	"researchTime": 40,
+	"supersedes": "upgrades/cavalry_archer_a",
+	"tooltip": "Camel Archers +10% attack, hit points, range and vision.",
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}		
+	],
+	"affects": ["Bow Camel Levy Advanced"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

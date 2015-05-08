@@ -14,9 +14,9 @@
     <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Animal</List>
+    <List datatype="tokens">Domestic</List>
     <BuffHeal>1</BuffHeal>
-    <LoadingRange>2</LoadingRange>
+    <LoadingRange>5</LoadingRange>
   </GarrisonHolder>
   <Health>
     <Max>600</Max>
@@ -32,7 +32,7 @@
     <Icon>structures/corral.png</Icon>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
     <wood>10</wood>
     <stone>0</stone>
@@ -46,11 +46,6 @@
     <Entities datatype="tokens">
       gaia/fauna_sheep
     </Entities>
-    <Technologies datatype="tokens">
-      gather_animals_stockbreeding
-      speed_cavalry_01
-      speed_cavalry_02
-    </Technologies>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

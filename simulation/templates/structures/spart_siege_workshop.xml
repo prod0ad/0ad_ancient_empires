@@ -39,8 +39,7 @@
     </Entities>
     <Technologies datatype="tokens">
       siege_attack
-	  siege_cost
-	  siege_packing		  
+	  siege_cost	  
     </Technologies>
   </ProductionQueue>
   <Sound>

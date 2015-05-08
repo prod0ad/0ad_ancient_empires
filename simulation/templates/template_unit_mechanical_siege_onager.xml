@@ -44,6 +44,7 @@
     <GenericName>Siege Catapult</GenericName>
     <Tooltip>Causes splash damage.</Tooltip>
     <Classes datatype="tokens">Ranged Catapult</Classes>
+    <RequiredTechnology>phase_imperial</RequiredTechnology>	
   </Identity>
   <Loot>
     <xp>0</xp>

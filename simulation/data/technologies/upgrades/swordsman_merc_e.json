@@ -3,7 +3,7 @@
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "upgrade_elite.png",
+	"icon": "swordsman_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/swordsman_merc_a",
 	"tooltip": "Swordsmen +10% attack, hit points and vision.",

@@ -3,12 +3,12 @@
 	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "upgrade_advanced.png",
+	"icon": "archer_a.png",
 	"researchTime": 40,
 	"tooltip": "Archers +10% attack, hit points, range and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],
-	"affects": ["Archer Infantry Levy Basic"],
+	"affects": ["Bow Infantry Levy Basic"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

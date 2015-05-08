@@ -30,9 +30,9 @@
       units/ptol_infantry_spearman_merc_b
       units/ptol_infantry_pikeman_b	  
 	  units/ptol_infantry_javelinist_b
-      units/ptol_infantry_archer_kush_b		  
+      units/ptol_infantry_archer_b		  
       units/ptol_infantry_swordsman_merc_b	    
-      units/ptol_infantry_slinger_b
+      units/ptol_infantry_slinger_b 
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_merc_a
@@ -41,10 +41,10 @@
 	  upgrades/pikeman_e		
 	  upgrades/skirmisher_a
 	  upgrades/skirmisher_e	
+	  upgrades/skirmisher_u		
 	  upgrades/archer_merc_a
 	  upgrades/archer_merc_e	  
-	  upgrades/swordsman_e
-	  upgrades/swordsman_u	  	  
+	  upgrades/swordsman_e 	  
 	  upgrades/slinger_merc_e	
       barracks_speed_train	
       barracks_speed_batch

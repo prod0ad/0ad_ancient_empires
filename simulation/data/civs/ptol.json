@@ -16,9 +16,19 @@
 			"Technologies":
 			[
 				{
-			         "Name":"Romanization Reforms",
+			         "Name":"Romanization Reform",
 			         "History":"Late Ptolemaic Egypt employed to Roman influenced swordsmen often trained by Roman mercenary instructors.",
-			         "Description":"Swordsmen -20% build time, +20% hit points."
+			         "Description":"Unlock the Thorakites Champion Swordsman."
+		        },	
+				{
+			         "Name":"Machimoi Epilektoi",
+			         "History":"Machimoi Epilektoi were an elite force among the Machimoi.",
+			         "Description":"Machimoi +10% attack, hit points and vision."
+		        },
+				{
+			         "Name":"Agema Thorakites",
+			         "History":"Agema was the name of various royal guard units in hellenistic armies.",
+			         "Description":"Thorakites +10% attack, hit points and vision."
 		        },			
 				{
 			         "Name":"Mercenary Army",
@@ -39,7 +49,14 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"Cheap, fast training Champion Pikeman. Deals x3 damage to Cavalry and Elephants."
-				}
+				},
+				{
+					"Name":"Thorakites",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Champion Swordsman. Requires Romanization Reform."
+				}				
 			]
 		}
 	],
@@ -58,7 +75,7 @@
 		{
 			"Name":"Clay Structures",
 			"History":"Clay construction provided cheap structures for the Egyptians.",
-			"Description":"Houses, Farmsteads and Storehouses have no cost but increased build time."
+			"Description":"Houses, Farmsteads, Corrals and Storehouses no resource cost, increased build time."
 		},
 		{
 			"Name":"Foreign Dynasty",
@@ -87,7 +104,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/ptol_cavalry_light_b"
+			"Template": "units/ptol_cavalry_javelinist_b"
 		}
 	],
 	"Formations":
@@ -129,7 +146,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry": "units/ptol_cavalry_light_b",
+		"skirmish/units/default_cavalry": "units/ptol_cavalry_javelinist_b",
 		"skirmish/structures/default_house_5": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

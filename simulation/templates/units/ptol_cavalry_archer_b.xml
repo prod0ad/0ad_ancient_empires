@@ -3,13 +3,13 @@
   <Identity>
     <Civ>ptol</Civ>
     <VisibleClasses datatype="tokens">
-	  Camel
+	  Camel -Cavalry
 	</VisibleClasses>	
 	<SelectionGroupName>units/ptol_cavalry_archer_b</SelectionGroupName>
 	<GenericName>Cavalry Archer</GenericName>
-    <SpecificName>Nabatean Camel</SpecificName>
+    <SpecificName>Nabatean Camel Archer</SpecificName>
 	<Icon>units/ptol_cavalry_archer.png</Icon>
-    <Tooltip>Classes: Ranged Cavalry Camel Archer.</Tooltip>
+    <Tooltip>Ranged Camel Archer.</Tooltip>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

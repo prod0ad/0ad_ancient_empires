@@ -34,6 +34,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/ptol_mechanical_siege_ram 	
       units/ptol_mechanical_siege_polybolos_packed
       units/ptol_mechanical_siege_lithobolos_packed
       units/ptol_mechanical_siege_tower 

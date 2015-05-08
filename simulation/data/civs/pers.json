@@ -16,9 +16,9 @@
 			"Technologies":
 			[
 				{
-					"Name": "Cardakes (Reform)",
+					"Name": "Modernization (Reform)",
 					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
-					"Description": "Spearmen +10% attack, hit points and vision. Skirmishers +10% attack, hit points, range and vision."
+					"Description": "Infantry and Cavarly units +1 all armor types."
 				},
 	            {
 		    	    "Name": "Persian Architecture",
@@ -96,7 +96,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/pers_cavalry_light_b" 
+			"Template": "units/pers_cavalry_javelinist_b" 
 		}
 	],
 	"Formations":

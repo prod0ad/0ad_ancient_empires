@@ -3,6 +3,13 @@
   <Identity>
     <Civ>maur</Civ>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -blacksmith_armor_infantry_02
+      -blacksmith_armor_infantry_ranged_02
+    </Technologies>
+  </ProductionQueue>   
   <VisualActor>
     <Actor>structures/mauryans/blacksmith.xml</Actor>
   </VisualActor>

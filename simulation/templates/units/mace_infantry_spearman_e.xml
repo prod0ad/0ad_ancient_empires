@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/mace_infantry_spearman_a">
   <Identity>
-    <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite</Classes>		
+	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>
+    <SpecificName>Thureophoros</SpecificName>	
+    <Icon>units/sele_infantry_spearman_2.png</Icon>	
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/athenians/infantry_spearman_e.xml</Actor>
+    <Actor>units/ptolemies/infantry_spearman_2_e.xml</Actor>
   </VisualActor>
 </Entity>

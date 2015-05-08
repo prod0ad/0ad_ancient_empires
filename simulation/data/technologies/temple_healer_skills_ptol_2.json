@@ -5,7 +5,7 @@
 	"supersedes": "temple_healer_skills_ptol",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "healing_rate.png",
+	"icon": "healing_range.png",
 	"researchTime": 20,
 	"tooltip": "Healers +20% healing rate and range.",
 	"modifications": [

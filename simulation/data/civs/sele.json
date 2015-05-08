@@ -21,6 +21,16 @@
 					"History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. War with the Romans from the West and invasions from the Galatians forced the Seleucids to reform some of their infantry regiments to be more flexible.",
 					"Description":"Unlock the Thorakites Champion Swordman."
 				},
+				{
+			         "Name":"Agema Cataphract",
+			         "History":"Agema was the name of various royal guard units in hellenistic armies.",
+			         "Description":"Cataphract +10% attack, hit points and vision."
+		        },	
+				{
+			         "Name":"Agema Thorakites",
+			         "History":"Agema was the name of various royal guard units in hellenistic armies.",
+			         "Description":"Thorakites +10% attack, hit points and vision."
+		        },					
 		        {
 			        "Name":"Silk Route",
 			        "History":".",
@@ -56,7 +66,7 @@
 		{
 			"Name":"Mesopotamia",
 			"History":"For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
-			"Description":"Farms -25% wood cost and build time."
+			"Description":"Farms -20% wood cost and build time."
 		},	
 		{
 			"Name":"Nisean Horses",
@@ -95,7 +105,7 @@
 			"Count": 4
 		},	
 		{
-			"Template": "units/sele_cavalry_light_b"
+			"Template": "units/sele_cavalry_javelinist_b"
 		}
 	],
 	"Formations":
@@ -148,7 +158,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry" : "units/sele_cavalry_light_b",
+		"skirmish/units/default_cavalry" : "units/sele_cavalry_javelinist_b",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

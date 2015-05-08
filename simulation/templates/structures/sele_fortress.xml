@@ -12,15 +12,18 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/sele_champion_cavalry		  
+      units/sele_champion_cavalry
+      units/sele_champion_infantry_swordsman		  
     </Entities>
     <Technologies datatype="tokens">
+	  fort_sele_cavalry_champion	
+	  fort_sele_swordsman_champion  	
 	  fort_sele_cleruchy  	
 	  fort_sele_silk_route  
       fort_sele_reform	  	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/macedonians/fortress_up.xml</Actor>
+    <Actor>structures/seleucids/fortress.xml</Actor>
   </VisualActor>
 </Entity>

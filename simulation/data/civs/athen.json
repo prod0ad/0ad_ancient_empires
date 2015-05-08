@@ -35,7 +35,7 @@
 			"Heroes":
 			[
 				{
-					"Name":"Logades",
+					"Name":"Epilektos",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
@@ -47,14 +47,14 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Silver Owls",
+			"Name":"Laurion Mines",
 			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
 			"Description":"Workers +10% metal mining rate for each phase researched."
 		},
 		{
 			"Name":"Great Polis",
 			"History":"Athens was the largest city in ancient Greece with great walls, temples and other architectural achievements.",
-			"Description":"Structures +10% hit points and vision range."
+			"Description":"Structures +10% hit points and vision."
 		},
 		{
 			"Name":"Long Walls",

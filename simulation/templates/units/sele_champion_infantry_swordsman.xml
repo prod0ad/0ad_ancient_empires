@@ -4,10 +4,14 @@
     <Civ>sele</Civ>
 	<GenericName>Champion Swordsman</GenericName>
     <SpecificName>Thorakites</SpecificName>
-    <Icon>units/sele_champion_swordsman.png</Icon>
+    <Icon>units/mace_thorakites.png</Icon>
     <RequiredTechnology>fort_sele_reform</RequiredTechnology>
   </Identity>
+  <Promotion>
+    <Entity>units/sele_champion_infantry_swordsman_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>  
   <VisualActor>
-    <Actor>units/seleucids/champion_infantry_swordsman.xml</Actor>
+    <Actor>units/macedonians/thorakites.xml</Actor>
   </VisualActor>
 </Entity>

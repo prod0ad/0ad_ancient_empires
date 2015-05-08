@@ -4,8 +4,8 @@
 	"description": "For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
 	"requirements": {"civ": "sele"},
 	"modifications": [
-		{"value": "Cost/Resources/wood", "multiply": 0.75},
-		{"value": "Cost/BuildTime", "multiply": 0.75}		
+		{"value": "Cost/Resources/wood", "multiply": 0.8},
+		{"value": "Cost/BuildTime", "multiply": 0.8}		
 	],
 	"affects": ["Field"]
 }

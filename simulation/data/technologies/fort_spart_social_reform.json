@@ -4,11 +4,11 @@
 	"cost": { "food": 0, "wood": 0, "stone": 0, "metal": 0 },
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "agoge.png",
+	"icon": "population.png",
 	"researchTime": 180,
 	"tooltip": "Maximum population +20% (negates the Spartan starting penalty).",
 	"modifications": [
-		{"value": "Player/MaxPopulation", "multiply": 1.2}
+		{"value": "Player/MaxPopulation", "multiply": 1.0}
 	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

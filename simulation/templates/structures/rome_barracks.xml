@@ -24,8 +24,8 @@
       units/rome_infantry_spearman_b
       units/rome_infantry_javelinist_b
       units/rome_infantry_swordsman_b		  
-      units/rome_infantry_archer_aux_b			  
-      units/rome_infantry_slinger_aux_b
+      units/rome_infantry_archer_b			  
+      units/rome_infantry_slinger_b
     </Entities>
 	<Technologies datatype="tokens">
       upgrades/spearman_a

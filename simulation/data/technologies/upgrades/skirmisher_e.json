@@ -3,7 +3,7 @@
 	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "upgrade_elite.png",
+	"icon": "skirmisher_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/skirmisher_a",
 	"tooltip": "Skirmishers +10% attack, hit points, range and vision.",

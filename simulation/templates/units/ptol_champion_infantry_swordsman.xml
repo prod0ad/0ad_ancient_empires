@@ -2,14 +2,16 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Romanized Heavy Swordsman</GenericName>
-    <SpecificName>Thorakitès Rhomaïkós</SpecificName>
-    <History>Late Ptolemaic Egypt switched it's pike army core to Roman influenced swordsmen trained by Roman mercenary instructors.</History>
-    <Icon>units/sele_champion_swordsman.png</Icon>
-    <RequiredTechnology>successors/ptol_reforms_roman</RequiredTechnology>
+	<GenericName>Champion Swordsman</GenericName>
+    <SpecificName>Thorakites</SpecificName>
+    <Icon>units/mace_thorakites.png</Icon>
+    <RequiredTechnology>fort_ptol_reform</RequiredTechnology>
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/ptol_champion_infantry_swordsman_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
   <VisualActor>
-    <Actor>units/seleucids/champion_infantry_swordsman.xml</Actor>
+    <Actor>units/macedonians/thorakites.xml</Actor>
   </VisualActor>
 </Entity>

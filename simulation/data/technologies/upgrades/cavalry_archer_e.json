@@ -3,13 +3,13 @@
 	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "upgrade_elite.png",
+	"icon": "cavalry_archer_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/cavalry_archer_a",
 	"tooltip": "Horse Archers +10% attack, hit points, range and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}		
 	],
-	"affects": ["Archer Cavalry Levy Advanced"],
+	"affects": ["Bow Cavalry Levy Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -5,8 +5,7 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Rank>Advanced</Rank>
-    <Classes datatype="tokens">Advanced -Basic</Classes>		
+    <VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>	
   </Identity>
   <Promotion>
     <Entity>units/pers_chariot_archer_e</Entity>

@@ -2,11 +2,11 @@
 <Entity parent="template_unit_support_female_citizen">
   <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_civil_centre		
       structures/{civ}_house
       structures/{civ}_storehouse
       structures/{civ}_farmstead
       structures/{civ}_field
+      structures/{civ}_corral		  	  
       structures/{civ}_dock	  	  
       structures/{civ}_outpost
       other/wallset_palisade
@@ -16,29 +16,17 @@
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market
-      structures/{civ}_defense_tower  	  
+      structures/{civ}_defense_tower
+      structures/{civ}_wallset_stone	
+      structures/{civ}_civil_centre		  	  
       structures/{civ}_fortress		    
       structures/{civ}_wonder		 
     </Entities>
   </Builder>
-  <Attack>
-    <Melee>
-      <Bonuses>
-       <BonusSiege>
-          <Classes>Siege</Classes>
-          <Multiplier>2.5</Multiplier>
-        </BonusSiege>
-      </Bonuses>
-      <RestrictedClasses datatype="tokens">-Infantry -Cavalry -Champion -CitizenSoldier</RestrictedClasses>
-    </Melee>
-  </Attack>
-  <Health>
-    <Max>90</Max>
-  </Health>
   <Identity>
     <Civ>spart</Civ>
-    <GenericName>Spartan Woman</GenericName>
-    <SpecificName>Spartiā̂tis</SpecificName>
+    <GenericName>Worker</GenericName>
+    <SpecificName>Worker</SpecificName>
     <History>Spartan women were some of the freest in the ancient world. They could own land and slaves and even exercise naked like Spartan men. It is said that only Spartan women gave birth to real men. Such tough as nails women more than once helped save their city from disaster, for example when after a lost battle against Pyrrhus of Epirus they overnight built an earthen rampart to protect the city while their men slept in preparation for the next day's siege.</History>
     <Icon>units/hele_support_female_citizen.png</Icon>
     <Tooltip>Classes: Citizen Support Worker Female.

@@ -43,7 +43,7 @@
     <WalkSpeed>9</WalkSpeed>
   </UnitMotion> 
   <Identity>
-    <VisibleClasses datatype="tokens">Archer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Bow</VisibleClasses>
     <GenericName>Archer</GenericName>
     <Tooltip>Long ranged support infantry.</Tooltip>	
   </Identity>

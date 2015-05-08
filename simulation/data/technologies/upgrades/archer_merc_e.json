@@ -3,13 +3,13 @@
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "upgrade_elite.png",
+	"icon": "archer_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/archer_merc_a",
 	"tooltip": "Archers +10% attack, hit points, range and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}		
 	],
-	"affects": ["Archer Infantry Mercenary Advanced"],
+	"affects": ["Bow Infantry Mercenary Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -3,7 +3,7 @@
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "upgrade_elite.png",
+	"icon": "slinger_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/slinger_merc_a",
 	"tooltip": "Slingers +10% attack, hit points, range and vision.",

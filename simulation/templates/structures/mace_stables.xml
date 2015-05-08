@@ -11,9 +11,9 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mace_cavalry_light_b		
+      units/mace_cavalry_javelinist_b		
       units/mace_cavalry_spearman_b
-      units/mace_war_elephant		  
+      units/mace_champion_elephant		  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a

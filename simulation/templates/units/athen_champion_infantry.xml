@@ -40,7 +40,7 @@
   <Identity>
     <Civ>athen</Civ>
 	<GenericName>Champion Spearman</GenericName>
-    <SpecificName>Logades</SpecificName>
+    <SpecificName>Epilektos</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_infantry.png</Icon>
 	<Tooltip>Fast moving Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	

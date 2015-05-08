@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/ptol_champion_infantry_pikeman">  
+  <Identity>
+    <Civ>ptol</Civ>
+	<GenericName>Champion Pikeman</GenericName>
+    <SpecificName>Machimos Epilektos</SpecificName>
+    <Icon>units/ptol_infantry_spearman.png</Icon>
+	<Tooltip>Cheap, fast training Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/ptolemies/infantry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

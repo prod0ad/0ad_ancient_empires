@@ -6,10 +6,11 @@
   </Footprint>
   <Promotion>
     <Entity>units/maur_chariot_archer_a</Entity>
+    <RequiredXp>9999</RequiredXp>		
   </Promotion>
   <Identity>
     <Civ>maur</Civ>
-    <Classes datatype="tokens">Levy Chariot Basic</Classes>
+    <VisibleClasses datatype="tokens">Levy Chariot Basic</VisibleClasses>
 	<GenericName>Chariot Archer</GenericName>
     <SpecificName>Indian Chariot</SpecificName>
 	<SelectionGroupName>units/maur_champion_chariot</SelectionGroupName>

@@ -22,8 +22,8 @@
     <Population>4</Population>
     <BuildTime>40</BuildTime>  
     <Resources>
-      <food>120</food>
-      <wood>0</wood>
+      <food>0</food>
+      <wood>120</wood>
 	  <metal>40</metal>
       <stone>0</stone>	  
     </Resources>
@@ -36,7 +36,7 @@
     <Height>5.0</Height>
   </Footprint>  
   <Identity>
-	<VisibleClasses datatype="tokens">Chariot Archer</VisibleClasses>
+	<VisibleClasses datatype="tokens">Chariot Bow</VisibleClasses>
     <GenericName>Chariot Archer</GenericName>
     <Tooltip>Fast moving long ranged chariot. Effective against melee units.</Tooltip>	
   </Identity>

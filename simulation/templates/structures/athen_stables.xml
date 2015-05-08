@@ -11,8 +11,8 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/athen_cavalry_light_b	
-      units/athen_cavalry_heavy_b
+      units/athen_cavalry_javelinist_b	
+      units/athen_cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a

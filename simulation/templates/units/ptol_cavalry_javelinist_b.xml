@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Identity>
+    <Civ>ptol</Civ>
+	<SelectionGroupName>units/ptol_cavalry_javelinist_b</SelectionGroupName>
+    <SpecificName>Cleruch Tarantine</SpecificName>
+    <GenericName>Light Cavalry</GenericName>
+    <Icon>units/mace_cavalry_javelinist.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
+  </Identity>
+  <Promotion>
+    <Entity>units/ptol_cavalry_javelinist_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

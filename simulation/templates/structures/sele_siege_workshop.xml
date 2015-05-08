@@ -34,6 +34,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
+      units/sele_mechanical_siege_ram	
       units/sele_mechanical_siege_lithobolos_packed
       units/sele_mechanical_siege_tower
     </Entities>

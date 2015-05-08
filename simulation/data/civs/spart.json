@@ -22,6 +22,11 @@
 					"Description":"Lacedemonian Phalangites unlocked."
 				},
 				{
+					"Name":"Armor Reform",
+					"History":"The Spartans tried to adapt to the introduction of peltasts by using lighter equipment.",
+					"Description":"Spartan Royal Guard +10% speed."
+				},					
+				{
 					"Name":"Land Reform",
 					"History":"Several notable Spartans attempted to redistribute the land.",
 					"Description":"Workers +25% farming rate."
@@ -30,6 +35,11 @@
 					"Name":"Social Reform",
 					"History":"Several notable Spartans attempted to increase the Spartan manpower pool by freeing helots or increasing the social status of Perioikoi.",
 					"Description":"Maximum population +20% (negates the Spartan starting penalty)."
+				},	
+				{
+					"Name":"Defence Reform",
+					"History":"Late Spartans eventually constructed the walls they had defiantly avoided to in their heyday",
+					"Description":"Stone Walls unlocked (negates the Spartan starting penalty)."
 				}					
 			],
 			"Heroes":
@@ -61,7 +71,7 @@
 		{
 	     	"Name":"Laws of Lycurgus",
 	    	"History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
-	  		"Description":"Special techs free but very slow research time. Civic Duty free (Workers +50% hit points)."
+	  		"Description":"Special techs free, very slow research time. Civic Duty free (Workers +50% hit points)."
 	    },			
 		{
 			"Name":"Wall of Men",
@@ -95,7 +105,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/spart_cavalry_light_b"
+			"Template": "units/spart_cavalry_javelinist_b"
 		}
 	],
 	"Formations":
@@ -110,7 +120,8 @@
 		"formations/skirmish",
 		"formations/wedge",
 		"formations/battle_line",
-		"formations/phalanx"
+		"formations/phalanx",
+		"formations/syntagma"		
 	],
 	"AINames":
 	[

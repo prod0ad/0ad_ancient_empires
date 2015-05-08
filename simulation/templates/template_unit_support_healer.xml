@@ -19,9 +19,7 @@
   <Identity>
     <Classes datatype="tokens">Healer</Classes>
     <GenericName>Healer</GenericName>
-    <Tooltip>Classes: Support Healer.
-Heal units.</Tooltip>
-    <Rank>Basic</Rank>
+    <Tooltip>Heal units.</Tooltip>
   </Identity>
   <Promotion>
     <RequiredXp>9999</RequiredXp>

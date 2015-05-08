@@ -9,6 +9,6 @@
 	"tooltip": "Foot Archers, Structures, Light and Medium Warships +3 crush attack.",
 	"modifications": [
 		{"value": "Attack/Ranged/Crush", "add": 3}],
-	"affects": ["Infantry Archer","Warship Light","Warship Medium","Structure"],
+	"affects": ["Infantry Bow","Warship Light","Warship Medium","Structure"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -30,7 +30,7 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Bow</VisibleClasses>
     <GenericName>Champion Cavalry Archer.</GenericName>
     <Formations datatype="tokens">
       formations/skirmish

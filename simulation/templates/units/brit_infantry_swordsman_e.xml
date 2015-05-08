@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/brit_infantry_swordsman_a">
   <Identity>
-    <Rank>Elite</Rank>
-    <Classes datatype="tokens">Elite -Advanced</Classes>			
+	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>			
   </Identity>
   <Promotion>
     <Entity>units/brit_infantry_swordsman_u</Entity>

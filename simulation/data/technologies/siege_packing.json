@@ -1,5 +1,5 @@
 {
-	"genericName": "Military Engineers",
+	"genericName": "Artillery Instructors",
 	"description": "Immobile siege weapons are assembled and disassembled faster",
 	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_imperial"},

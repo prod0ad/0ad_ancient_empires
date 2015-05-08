@@ -5,7 +5,7 @@
 	<SelectionGroupName>units/rome_infantry_swordsman_b</SelectionGroupName>
 	<GenericName>Swordsman</GenericName>
     <SpecificName>Roman Hastatus</SpecificName>
-    <Classes datatype="tokens">Premarian Legion Basic</Classes>		
+    <VisibleClasses datatype="tokens">Premarian Legion Basic</VisibleClasses>	
     <Icon>units/rome_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>

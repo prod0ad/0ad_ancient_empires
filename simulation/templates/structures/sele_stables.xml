@@ -11,21 +11,21 @@
   </Identity>	
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/sele_cavalry_light_b
-	  units/sele_cavalry_heavy_b
+      units/sele_cavalry_javelinist_b
+	  units/sele_cavalry_spearman_b
       units/sele_cavalry_archer_b
       units/sele_chariot_archer_b	  
-      units/sele_war_elephant
+      units/sele_champion_elephant
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
 	  upgrades/cavalry_light_e		
 	  upgrades/cavalry_heavy_e		
-	  upgrades/cavalry_archer_e		  
+	  upgrades/cavalry_archer_e		
+	  upgrades/chariot_archer_e		  
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01
-      stables_speed_cavalry_02 
     </Technologies>
   </ProductionQueue>
 </Entity>

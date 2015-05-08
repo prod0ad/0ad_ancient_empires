@@ -22,15 +22,16 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/athen_infantry_spearman_b
-      units/athen_infantry_javelinist_2_b		  
-	  units/athen_infantry_archer_2_b
+      units/athen_infantry_javelinist_b		  
+	  units/athen_infantry_archer_b
       units/athen_infantry_slinger_b 	  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a
 	  upgrades/spearman_e		
 	  upgrades/skirmisher_a
-	  upgrades/skirmisher_e		 
+	  upgrades/skirmisher_e	
+	  upgrades/skirmisher_u			 
 	  upgrades/archer_a
 	  upgrades/archer_e		
 	  upgrades/slinger_e			  

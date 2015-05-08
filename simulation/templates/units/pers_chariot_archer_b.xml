@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>pers</Civ>
-    <Classes datatype="tokens">Levy Chariot Basic</Classes>
+    <VisibleClasses datatype="tokens">Levy Chariot Basic</VisibleClasses>
 	<SelectionGroupName>units/pers_chariot_archer_b</SelectionGroupName>
 	<GenericName>Chariot Archer</GenericName>
     <SpecificName>Scythed Chariot</SpecificName>

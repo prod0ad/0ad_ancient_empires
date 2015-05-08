@@ -11,10 +11,10 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/ptol_cavalry_light_b
-      units/ptol_cavalry_heavy_b
+      units/ptol_cavalry_javelinist_b
+      units/ptol_cavalry_spearman_merc_b
       units/ptol_cavalry_archer_b
-	  units/ptol_war_elephant
+	  units/ptol_champion_elephant
     </Entities>
     <Technologies datatype="tokens">	
 	  upgrades/cavalry_light_a

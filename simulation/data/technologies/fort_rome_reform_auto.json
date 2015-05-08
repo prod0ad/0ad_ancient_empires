@@ -5,6 +5,6 @@
 	"modifications": [
 	{"value": "Promotion/RequiredXp", "replace": 0}
 	],
-	"affects": ["Premarian Spearman"],
+	"affects": ["Premarian Infantry Spear"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

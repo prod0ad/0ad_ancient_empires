@@ -3,7 +3,7 @@
 	"cost": {"food": 225, "wood": 0, "stone": 0, "metal": 75},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "upgrade_advanced.png",
+	"icon": "skirmisher_a.png",
 	"researchTime": 40,
 	"tooltip": "Skirmishers +10% attack, hit points, range and vision.",
 	"modifications": [

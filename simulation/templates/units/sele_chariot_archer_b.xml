@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_chariot">
+  <Footprint replace="">
+    <Square width="5.5" depth="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <Identity>
     <Civ>sele</Civ>
-    <VisibleClasses datatype="tokens">
-	  Chariot
-	</VisibleClasses>			
+    <VisibleClasses datatype="tokens">Levy Chariot Basic</VisibleClasses>		
 	<SelectionGroupName>units/sele_chariot_archer_b</SelectionGroupName>
 	<GenericName>Chariot Archer</GenericName>
     <SpecificName>Scythed Chariot</SpecificName>
@@ -16,6 +18,7 @@
   </Obstruction>
   <Promotion>
     <Entity>units/sele_chariot_archer_a</Entity>
+    <RequiredXp>9999</RequiredXp>		
   </Promotion>
   <VisualActor>
     <Actor>units/persians/cavalry_archer_b.xml</Actor>

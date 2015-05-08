@@ -11,11 +11,11 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/pers_cavalry_light_b	
-      units/pers_cavalry_heavy_b
-      units/pers_cavalry_archer_scyth_b
+      units/pers_cavalry_javelinist_b	
+      units/pers_cavalry_spearman_b
+      units/pers_cavalry_archer_b
       units/pers_chariot_archer_b
-      units/pers_war_elephant	  
+      units/pers_champion_elephant	  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
@@ -26,7 +26,6 @@
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01
-      stables_speed_cavalry_02
       stables_heavy_cavarly_breeds	  
     </Technologies>
   </ProductionQueue>	

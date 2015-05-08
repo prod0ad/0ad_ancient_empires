@@ -31,7 +31,7 @@
     <Max>135</Max>
   </Health>
   <Identity>
-	<VisibleClasses datatype="tokens">Archer</VisibleClasses>
+	<VisibleClasses datatype="tokens">Bow</VisibleClasses>
     <GenericName>Cavalry Archer</GenericName>
     <Tooltip>Fast moving long ranged cavalry. Effective against melee units.</Tooltip>	
   </Identity>

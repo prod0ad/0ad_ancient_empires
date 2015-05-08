@@ -33,7 +33,7 @@
     <Max>75</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged Bow</VisibleClasses>
     <GenericName>Champion Archer</GenericName>
     <Formations datatype="tokens">
       formations/skirmish

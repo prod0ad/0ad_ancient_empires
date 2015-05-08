@@ -1,0 +1,14 @@
+{
+	"genericName": "Camel Herd",
+	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "camel.png",
+	"researchTime": 40,
+	"tooltip": "Camel units -25% food cost.",	
+	"modifications": [
+		{"value": "Cost/Resources/food", "multiply": 0.75}	
+	],
+	"affects": ["Camel"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

@@ -11,9 +11,9 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/rome_cavalry_light_b
-      units/rome_cavalry_heavy_b  
-      units/rome_war_elephant
+      units/rome_cavalry_javelinist_b
+      units/rome_cavalry_spearman_b  
+      units/rome_champion_elephant
     </Entities>
 	<Technologies datatype="tokens">
 	  upgrades/cavalry_light_a	

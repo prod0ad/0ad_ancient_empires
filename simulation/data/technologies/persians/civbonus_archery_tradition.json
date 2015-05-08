@@ -8,7 +8,7 @@
 		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
 		{"value": "Vision/Range", "multiply": 1.1},
 		{"value": "Cost/BuildTime", "multiply": 0.75}],
-	"affects": ["Infantry Archer"],
+	"affects": ["Infantry Bow"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
 

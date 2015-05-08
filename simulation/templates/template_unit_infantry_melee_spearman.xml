@@ -44,7 +44,7 @@
     <WalkSpeed>8</WalkSpeed>
   </UnitMotion> 
   <Identity>
-    <VisibleClasses datatype="tokens">Spear Spearman</VisibleClasses>
+    <VisibleClasses datatype="tokens">Spear</VisibleClasses>
     <GenericName>Spearman</GenericName>
     <Tooltip>Basic melee infantry. Deals x3 damage to Cavalry and Elephants.</Tooltip>		
   </Identity>  

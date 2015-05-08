@@ -4,8 +4,8 @@
     <Civ>rome</Civ>
     <SelectionGroupName>units/rome_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
-    <SpecificName>Triarius</SpecificName>
-    <Classes datatype="tokens">Premarian Legion Basic</Classes>		
+    <SpecificName>Roman Triarius</SpecificName>
+    <VisibleClasses datatype="tokens">Premarian Legion Basic</VisibleClasses>	
     <Icon>units/rome_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

@@ -1,5 +1,5 @@
 {
-	"genericName": "Celtic Valour",
+	"genericName": "Furor Celtica",
 	"autoResearch": true,
 	"description": "Melee Infantry move 10% faster",
 	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},

@@ -82,7 +82,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/rome_cavalry_light_b"
+			"Template": "units/rome_cavalry_javelinist_b"
 		}
 	],
 	"Formations":
@@ -118,7 +118,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry" : "units/rome_cavalry_light_b",
+		"skirmish/units/default_cavalry" : "units/rome_cavalry_javelinist_b",
 		"skirmish/units/default_infantry_melee_b": "units/rome_infantry_swordsman_b",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house"
 	},

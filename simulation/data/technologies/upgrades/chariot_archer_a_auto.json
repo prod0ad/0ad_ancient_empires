@@ -10,6 +10,6 @@
 		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},		
 		{"value": "Vision/Range", "multiply": 1.1}		
 	],
-	"affects": ["Archer Chariot Levy"],
+	"affects": ["Bow Chariot Levy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

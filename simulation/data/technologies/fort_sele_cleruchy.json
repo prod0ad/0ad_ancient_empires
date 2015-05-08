@@ -1,7 +1,7 @@
 {
 	"genericName": "Cleruchy",
 	"description": "The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land in return for military service.",
-	"cost": {"food": 300, "wood": 300, "stone": 0, "metal": 0},
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "grain.png",

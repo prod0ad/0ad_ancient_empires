@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>4</Pierce>
+    <Hack>5</Hack>
+    <Pierce>5</Pierce>
     <Crush>7</Crush>
   </Armour>
   <Attack>
@@ -32,9 +32,6 @@
     <stone>0</stone>
     <metal>7</metal>
   </Loot>  
-  <Health>
-    <Max>275</Max>
-  </Health>
   <UnitMotion>
     <WalkSpeed>11.5</WalkSpeed>
   </UnitMotion>
@@ -44,8 +41,12 @@
     <SpecificName>Seleucid Cataphract</SpecificName>
 	<Tooltip>Resilient slow moving Champion Cavalry.</Tooltip>	
     <Icon>units/ptol_champion_cavalry.png</Icon>
-	<SelectionGroupName>units/mace_champion_cavalry</SelectionGroupName>
+	<SelectionGroupName>units/sele_champion_cavalry</SelectionGroupName>
   </Identity>
+  <Promotion>
+    <Entity>units/sele_champion_cavalry_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>  
   <VisualActor>
     <Actor>units/ptolemies/champion_cavalry.xml</Actor>
   </VisualActor>

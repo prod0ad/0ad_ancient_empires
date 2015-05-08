@@ -1,0 +1,14 @@
+{
+	"genericName": "Elephant Herd",
+	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "elephant.png",
+	"researchTime": 40,
+	"tooltip": "Elephant units -25% food cost.",	
+	"modifications": [
+		{"value": "Cost/Resources/food", "multiply": 0.75}	
+	],
+	"affects": ["Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

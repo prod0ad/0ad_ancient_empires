@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_pikeman">
+  <Health>
+    <Max>135</Max>
+  </Health>
   <Cost>
     <BuildTime>10</BuildTime>
     <Population>2</Population>	
@@ -24,8 +27,11 @@
     <Icon>units/ptol_infantry_spearman.png</Icon>
 	<Tooltip>Cheap, fast training Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/ptol_champion_infantry_pikeman_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_spearman_e.xml</Actor>
+    <Actor>units/ptolemies/infantry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

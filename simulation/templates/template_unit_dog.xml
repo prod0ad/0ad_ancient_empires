@@ -50,7 +50,6 @@
     <Classes datatype="tokens">Organic</Classes>
     <VisibleClasses datatype="tokens">Dog</VisibleClasses>
     <GenericName>Dog</GenericName>
-    <Rank>Basic</Rank>
     <Tooltip>Cannot attack structures.</Tooltip>
   </Identity>
   <Loot>
