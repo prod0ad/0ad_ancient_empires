@@ -1,6 +1,6 @@
 {
 	"genericName": "Champion Pikemen",
-	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 300},
+	"cost": {"food": 375, "wood": 0, "stone": 0, "metal": 225},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "pikeman_u.png",

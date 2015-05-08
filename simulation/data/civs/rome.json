@@ -18,8 +18,13 @@
 				{
 					"Name": "Marian Reforms",
 					"History": "Gaius Marius turned the roman legions into a professional force.",
-					"Description": "Infantry Swordsmen are upgraded to Marian Legionaries and several units are replaced or unlocked."
-				},	
+					"Description": "Infantry Swordsmen are replaced by Marian Legionaries and Infantry Spearmen by Mercenary Auxiliary Spearmen."
+				},
+				{
+					"Name": "Dictatorship",
+					"History": ".",
+					"Description": "Champion Cavalry +10 attack and speed.."
+				},					
 				{
 					"Name": "Logistics",
 					"History": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",

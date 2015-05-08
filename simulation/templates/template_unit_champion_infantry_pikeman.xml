@@ -47,7 +47,7 @@
     <Range>40</Range>
   </Vision>  
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Spear Pike</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Pike</VisibleClasses>
     <GenericName>Champion Pikeman</GenericName>
 	<Tooltip>Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
     <Formations datatype="tokens">

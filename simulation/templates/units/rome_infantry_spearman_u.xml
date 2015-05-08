@@ -10,7 +10,7 @@
     </Resources>
   </Cost> 
   <Identity>
-	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
+	<VisibleClasses datatype="tokens">Mercenary</VisibleClasses>	
     <Icon>units/celt_infantry_spearman.png</Icon>	
     <SpecificName>Auxiliary Spearman</SpecificName>		
   </Identity>

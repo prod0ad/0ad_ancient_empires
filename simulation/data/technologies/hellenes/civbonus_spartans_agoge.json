@@ -9,6 +9,6 @@
 	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1},	
 		{"value": "Attack/Melee/Hack", "multiply": 1.1}		
 	],
-	"affects": ["Spear Infantry"],
+	"affects": ["Melee Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

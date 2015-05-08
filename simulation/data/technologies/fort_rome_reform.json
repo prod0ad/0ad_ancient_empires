@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase. Requires Elite Spearmen and Elite Swordsmen.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Infantry Swordsmen are upgraded to Marian Legionaries and several units are replaced or unlocked.",
+	"tooltip": "Infantry Swordsmen are replaced by Marian Legionaries and Infantry Spearmen by Mercenary Auxiliary Spearmen.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.1},

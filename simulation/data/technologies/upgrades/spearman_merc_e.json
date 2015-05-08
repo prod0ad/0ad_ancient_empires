@@ -1,6 +1,6 @@
 {
 	"genericName": "Elite Mercenary Spearmen",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "spearman_e.png",

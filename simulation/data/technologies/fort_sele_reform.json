@@ -1,6 +1,6 @@
 {
 	"genericName": "Infantry Reform",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",

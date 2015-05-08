@@ -1,6 +1,6 @@
 {
 	"genericName": "Champion Swordsmen",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in the Imperial Phase.",
 	"icon": "sword.png",

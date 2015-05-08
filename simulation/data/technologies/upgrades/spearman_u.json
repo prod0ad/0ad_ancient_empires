@@ -1,6 +1,6 @@
 {
 	"genericName": "Chosen Spearmen",
-	"cost": {"food": 525, "wood": 0, "stone": 0, "metal": 375},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in thee Imperial Phase.",
 	"icon": "spearman_u.png",

@@ -44,7 +44,7 @@
     <WalkSpeed>7</WalkSpeed>
   </UnitMotion>  
   <Identity>
-    <VisibleClasses datatype="tokens">Spear Pike</VisibleClasses>
+    <VisibleClasses datatype="tokens">Pike</VisibleClasses>
     <GenericName>Pikeman</GenericName>
     <Tooltip>Slow moving advanced infantry. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
     <Formations datatype="tokens">

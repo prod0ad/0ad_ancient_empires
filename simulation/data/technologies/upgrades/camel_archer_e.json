@@ -1,6 +1,6 @@
 {
 	"genericName": "Elite Camel Archer",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 150},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "cavalry_archer_e.png",

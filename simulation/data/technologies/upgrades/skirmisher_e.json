@@ -1,6 +1,6 @@
 {
 	"genericName": "Elite Skirmishers",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 100},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "skirmisher_e.png",
