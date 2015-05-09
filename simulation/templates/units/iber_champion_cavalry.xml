@@ -8,10 +8,14 @@
   <Attack>
     <Ranged>
 	  <Bonuses>
-		<BonusStructures>
-		  <Classes>Structure Mechanical</Classes>
-		  <Multiplier>4</Multiplier>
-		</BonusStructures>
+		<AntiStructure>
+		  <Classes>Structure</Classes>
+		  <Multiplier>5</Multiplier>
+		</AntiStructure>
+		<AntiMech>
+		  <Classes>Mechanical</Classes>
+		  <Multiplier>5</Multiplier>
+		</AntiMech>		
 	  </Bonuses>	
     </Ranged>
   </Attack>
@@ -20,7 +24,7 @@
     <SpecificName>Iberian Noble</SpecificName>
     <Icon>units/iber_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>
-	<Tooltip>Champion Ranged Cavalry. Deals x4 damage to Structures and Mechanical.</Tooltip>
+	<Tooltip>Champion Ranged Cavalry. Deals x5 damage to Structures and Mechanical.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/champion_unit_2.xml</Actor>

@@ -3,8 +3,8 @@
   <Identity>
     <Civ>mace</Civ>
 	<SelectionGroupName>units/mace_cavalry_javelinist_b</SelectionGroupName>
-	<GenericName>Odrysian Skirmish Cavalry</GenericName>
-    <SpecificName>Hippakontistès Odrysón</SpecificName>
+	<GenericName>Light Cavalry</GenericName>
+    <SpecificName>Thracian Prodromos</SpecificName>
     <Icon>units/hele_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

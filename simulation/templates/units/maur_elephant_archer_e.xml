@@ -5,9 +5,6 @@
     <VisibleClasses datatype="tokens">Elite</VisibleClasses>	
   </Identity>
   <Promotion disable=""/>
-  <ResourceGatherer>
-    <BaseSpeed>0.5</BaseSpeed>
-  </ResourceGatherer>
   <VisualActor>
     <Actor>units/mauryans/elephant_archer_e.xml</Actor>
   </VisualActor>

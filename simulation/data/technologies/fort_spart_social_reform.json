@@ -6,9 +6,9 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "population.png",
 	"researchTime": 180,
-	"tooltip": "Maximum population +20% (negates the Spartan starting penalty).",
+	"tooltip": "Infantry Units -10% train time.",
 	"modifications": [
-		{"value": "Player/MaxPopulation", "multiply": 1.2}
+		{"value": "Cost/BuildTime", "multiply": 0.9}
 	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

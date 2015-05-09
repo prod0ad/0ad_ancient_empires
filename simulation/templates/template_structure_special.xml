@@ -40,6 +40,9 @@
     <BuffHeal>1</BuffHeal>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+  </ProductionQueue>  
   <Health>
     <Max>2400</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
@@ -47,10 +50,12 @@
   <Identity>
     <GenericName>Special Building</GenericName>
     <Tooltip>This is a special building unique to a particular civilization.</Tooltip>
-    <Classes datatype="tokens">
+    <VisibleClasses datatype="tokens">
       City
+    </VisibleClasses>
+    <Classes datatype="tokens">
       SpecialBuilding
-    </Classes>
+    </Classes>	
     <Icon>.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

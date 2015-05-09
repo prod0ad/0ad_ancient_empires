@@ -18,9 +18,13 @@
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
 	  <Bonuses>
 		<AntiCavalry>
-		  <Classes>Cavalry Elephant</Classes>
+		  <Classes>Cavalry</Classes>
 		  <Multiplier>3</Multiplier>
 		</AntiCavalry>
+		<AntiElephant>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>3</Multiplier>
+		</AntiElephant>		
 	  </Bonuses>  
     </Melee>
   </Attack>

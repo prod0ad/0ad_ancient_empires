@@ -1,0 +1,13 @@
+{
+	"genericName": "Larger Crew",
+	"description": ".",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "arrow.png",
+	"researchTime": 40,
+	"tooltip": "Elephant Archer +50% attack.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Champion Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

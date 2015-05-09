@@ -19,7 +19,12 @@
 					"Name":"Pacifism (Reform)",
 					"History":"Regrets of the bloodshed or an effort to maintain his empire led Ashoka to support Buddhism and pacifism after slaughtering thousands of people during his early conquests.",
 					"Description":"Workers +15% all gather rates, Levy Infantry -10% hit points and attack."
-				},				
+				},
+				{
+					"Name": "Larger Crew",
+					"History": "Adds an extra Archer.'",
+					"Description": "Elephant Archer +50% attack." 
+				}, 					
 				{
 					"Name": "Wootz Steel",
 					"History": "The Wootz steel is believed to have originated in India. There are several ancient Greek and Roman literary references to high-quality Indian steel since the time of Alexander's Indian campaign.'",

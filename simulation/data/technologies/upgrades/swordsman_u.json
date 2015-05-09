@@ -3,7 +3,7 @@
 	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in the Imperial Phase.",
-	"icon": "sword.png",
+	"icon": "swordsman_u.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/swordsman_e",
 	"tooltip": "Swordsmen +10% attack, hit points and vision.",

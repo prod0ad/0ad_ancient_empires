@@ -10,6 +10,7 @@
   <Identity>
     <Civ>maur</Civ>
     <SpecificName>Corral</SpecificName>
+  </Identity>	
   <ProductionQueue>
     <Technologies datatype="tokens">
       corral_stockbreeding
@@ -17,7 +18,6 @@
       corral_cost_elephant 
     </Technologies>
   </ProductionQueue>	
-  </Identity>
   <Obstruction>
     <Static width="13.0" depth="13.0"/>
   </Obstruction>

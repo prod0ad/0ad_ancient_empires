@@ -18,7 +18,7 @@
     <Height>7.5</Height>
   </Footprint>
   <Identity>
-    <VisibleClasses datatype="tokens">Cavalry Soldier Levy Organic Basic</VisibleClasses>
+    <VisibleClasses datatype="tokens">Cavalry Soldier Levy Organic Basic</VisibleClasses>	
     <GenericName>Cavalry</GenericName>
     <Formations datatype="tokens">
       formations/wedge

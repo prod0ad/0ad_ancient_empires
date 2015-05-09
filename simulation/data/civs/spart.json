@@ -34,7 +34,7 @@
 				{
 					"Name":"Social Reform",
 					"History":"Several notable Spartans attempted to increase the Spartan manpower pool by freeing helots or increasing the social status of Perioikoi.",
-					"Description":"Maximum population +20% (negates the Spartan starting penalty)."
+					"Description":"Infantry Units -10% train time."
 				},	
 				{
 					"Name":"Defence Reform",
