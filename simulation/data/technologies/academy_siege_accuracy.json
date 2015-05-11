@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "accuracy_bolt.png",
 	"researchTime": 40,
-	"tooltip": "Ranged Siege Weapons and Heavy Warships +25% accuracy.",
-	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.75}],
+	"tooltip": "Ranged Siege Weapons and Heavy Warships +30% accuracy.",
+	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.70}],
 	"affects": ["Siege Ranged","Warship Heavy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

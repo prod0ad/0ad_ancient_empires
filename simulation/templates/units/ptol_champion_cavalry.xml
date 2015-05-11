@@ -2,12 +2,16 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Royal Guard Cavalry</GenericName>
-    <SpecificName>Agema Basilikos</SpecificName>
+	<GenericName>Champion Cavalry</GenericName>
+    <SpecificName>Royal Companion</SpecificName>
     <History>?</History>
     <Icon>units/ptol_champion_cavalry.png</Icon>
   </Identity>
+  <Promotion>
+    <Entity>units/ptol_champion_cavalry_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>    
   <VisualActor>
-    <Actor>units/ptolemies/champion_cavalry.xml</Actor>
+    <Actor>units/ptolemies/cavalry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

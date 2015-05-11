@@ -7,6 +7,6 @@
 	"researchTime": 120,
 	"tooltip": "Spartan Royal Guard +10% speed.",
 	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.1}],
-	"affects": ["Spear Champion"],
+	"affects": ["Spear Unique"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

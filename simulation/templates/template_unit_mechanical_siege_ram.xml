@@ -9,7 +9,7 @@
     <Melee>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>80.0</Crush>
+      <Crush>60.0</Crush>
       <MaxRange>6</MaxRange>
       <RepeatTime>4000</RepeatTime>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
@@ -17,11 +17,11 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>40</BuildTime>
     <Population>5</Population>
     <Resources>
       <wood>150</wood>
-      <metal>50</metal>
+      <metal>75</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -53,7 +53,7 @@
     <BarHeight>0.5</BarHeight>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>6</WalkSpeed>
+    <WalkSpeed>5</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>30</Range>

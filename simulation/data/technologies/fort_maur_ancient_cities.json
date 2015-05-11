@@ -1,0 +1,14 @@
+{
+	"genericName": "Ancient Cities",
+	"description": "India was one of the first regions having huge settlements.",
+	"description": ".",
+	"cost": {"food": 0, "wood": 400, "stone": 200, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "ionic_column.png",
+	"researchTime": 40,
+	"tooltip": "Civil Centre +20 population.",
+	"modifications": [{"value": "Cost/PopulationBonus", "add": 20}],
+	"affects": ["CivilCentre"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

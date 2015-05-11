@@ -17,9 +17,9 @@
   </Auras>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>35</Hack>
       <Pierce>0</Pierce>
-      <Crush>30.0</Crush>
+      <Crush>35.0</Crush>
       <MaxRange>7.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
     </Melee>
@@ -54,7 +54,7 @@
     <Max>480</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Elephant Levy Melee -Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Elephant Levy Melee -Unique</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
     <Tooltip>Powerful unit with fear aura. Especially strong against Structures.</Tooltip>	

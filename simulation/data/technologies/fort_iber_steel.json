@@ -7,7 +7,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "metalworker.png",
 	"researchTime": 40,
-	"tooltip": "Sword units +15% attack.",
+	"tooltip": "Swordmen +15% attack.",
 	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15}],
 	"affects": ["Sword"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

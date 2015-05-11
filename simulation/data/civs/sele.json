@@ -22,9 +22,9 @@
 					"Description":"Unlock the Thorakites Champion Swordman."
 				},
 				{
-			         "Name":"Agema Cataphract",
-			         "History":"Agema was the name of various royal guard units in hellenistic armies.",
-			         "Description":"Cataphract +10% attack, hit points and vision."
+			         "Name":"Seleucid Cataphracts",
+			         "History":"Antiochus III reformed his heavy cavalry adding extensive armor, impressed by eastern cataphracts during his campaigns to reclaim the northeast satrapies.",
+			         "Description":"Champion and Heavy Cavalry +3 hack, +2 pierce armor, -15% speed."
 		        },	
 				{
 			         "Name":"Agema Thorakites",
@@ -45,11 +45,11 @@
 			"Heroes":
 			[
 				{
-					"Name":"Cataphract",
+					"Name":"Hetairos",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Resilient slow moving Champion Cavalry."
+					"History":"Champion Cavalry."
 				},				
 				{
 					"Name":"Thorakites",
@@ -69,15 +69,10 @@
 			"Description":"Farms -20% wood cost and build time."
 		},	
 		{
-			"Name":"Nisean Horses",
-			"History":"The Seleucids had access to the heavy Nisean Horses.",
-			"Description":"Cavalry Units +25% hit points."
+			"Name":"Heavy Mounts",
+			"History":"The Seleucids had access to heavy Nisean Horses and huge Indian Elephants.",
+			"Description":"Bloodlines free (Cavalry and Elephants +25% hit points)."
 		},			
-		{
-			"Name":"Indian Elephants",
-			"History":"Indian Elephants were larger and stronger than the north african ones most Mediterranean states used.",
-			"Description":"Elephant Units +25% hit points."
-		},		
 	    {
 			"Name":"Foreign Dynasty",
 			"History":".",

@@ -6,4 +6,7 @@
   <Promotion>
     <Entity>units/spart_infantry_swordsman_e</Entity>
   </Promotion>
+  <VisualActor>
+    <Actor>units/spartans/infantry_sword_a.xml</Actor>
+  </VisualActor>  
 </Entity>

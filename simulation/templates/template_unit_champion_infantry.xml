@@ -57,16 +57,8 @@
       <death>actor/human/death/death.xml</death>
     </SoundGroups>
   </Sound>
-  <Stamina>
-    <Max>1500</Max>
-  </Stamina>
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>16</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
   </UnitMotion>
   <Vision>
     <Range>45</Range>

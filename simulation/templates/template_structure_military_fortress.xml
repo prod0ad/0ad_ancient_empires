@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
   <Armour>
-    <Hack>14</Hack>
+    <Hack>13</Hack>
     <Pierce>28</Pierce>
-    <Crush>3</Crush>
+    <Crush>6</Crush>
     <Foundation>
       <Hack>5</Hack>
       <Pierce>10</Pierce>
@@ -22,7 +22,7 @@
       <Hack>0.0</Hack>
       <Pierce>30.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>60.0</MaxRange>
+      <MaxRange>62.0</MaxRange>
       <MinRange>0.0</MinRange>	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
@@ -34,7 +34,7 @@
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
+    <GarrisonArrowClasses>Soldier Worker</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
     <Population>5</Population>

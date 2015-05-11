@@ -6,10 +6,10 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "calipers.png",
 	"researchTime": 40,
-	"tooltip": "Ranged Siege Weapons and Heavy Warships +20 range and vision.",
+	"tooltip": "Ranged Siege Weapons and Heavy Warships +30% range and vision.",
 	"modifications": [		
-	{"value": "Attack/Ranged/MaxRange", "add": 20},
-	{"value": "Vision/Range", "add": 20}	],
+	{"value": "Attack/Ranged/MaxRange", "multiply": 1.3},
+	{"value": "Vision/Range", "add": 1.3}	],
 	"affects": ["Siege Ranged","Warship Heavy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

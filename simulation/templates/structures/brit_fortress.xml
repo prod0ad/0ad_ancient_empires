@@ -25,6 +25,7 @@
       units/brit_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">
+      fort_brit_swift_chariots 	
       fort_brit_hillforts  
 	  fort_brit_reform
     </Technologies>

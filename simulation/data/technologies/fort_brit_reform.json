@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "All non-champion soldiers train 30% faster.",
+	"tooltip": "Levy Units -30% train time.",
     "modifications": [{"value": "Cost/BuildTime", "multiply": 0.7}],
 	"affects": ["Levy"],
     "soundComplete": "interface/alarm/alarm_upgradearmory.xml"

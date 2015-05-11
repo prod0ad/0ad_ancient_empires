@@ -12,6 +12,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>  
   <VisualActor>
-    <Actor>units/macedonians/thorakites.xml</Actor>
+    <Actor>units/seleucids/thorakites.xml</Actor>
   </VisualActor>
 </Entity>

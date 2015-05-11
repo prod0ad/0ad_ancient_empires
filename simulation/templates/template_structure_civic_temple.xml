@@ -13,9 +13,9 @@
     </heal>
   </Auras>
   <Armour>
-    <Hack>14</Hack>
-    <Pierce>26</Pierce>
-    <Crush>2</Crush>
+    <Hack>10</Hack>
+    <Pierce>25</Pierce>
+    <Crush>5</Crush>
     <Foundation>
       <Hack>5</Hack>
       <Pierce>10</Pierce>

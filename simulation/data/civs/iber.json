@@ -19,17 +19,17 @@
 			        "Name": "Guerrilla Warfare (Reform)",
 			        "History": "The Iberians employed successful skirmish and ambush tactics in their wars and rebellions against the Romans. They even reached as far as raiding Roman possessions in Africa.",
 			        "Description": "Infantry and Workers +10% speed."
-		        }, 				
-				{
-					"Name": "Toledo Steel",
-					"History": "The Iberians were known to produce the finest iron and steel implements and weapons of the age. The famous 'Toledo Steel.'",
-					"Description": "Sword units +15% attack." 
-				}, 
+		        }, 	
 				{
 					"Name": "Soliferrum",
 					"History": "The Iberians used heavy iron javelins.",
-					"Description": "Javelin units +20% attack." 
-				} 					
+					"Description": "Iberian Nobles +20% attack." 
+				}, 						
+				{
+					"Name": "Toledo Steel",
+					"History": "The Iberians were known to produce the finest iron and steel implements and weapons of the age. The famous 'Toledo Steel.'",
+					"Description": "Swordmen +15% attack." 
+				}			
 			],
 			"Heroes":
 			[
@@ -78,7 +78,7 @@
 			"History": "Increases the attack damage of nearby friendly units.",
 			"Requirements": "",
 			"Phase": "",
-		    "Description": "Units in range +10% attack. Replaces the Academy. Build Limit: 5", 			
+		    "Description": "Units in range +10% attack. Build Limit: 5", 			
 			"Special": "."
 		} 
 	],

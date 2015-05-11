@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sele_champion_elephant">
+  <Identity>
+    <Civ>sele</Civ>
+    <GenericName>War Elephant</GenericName>
+    <SpecificName>Armored Elephant</SpecificName>
+    <Icon>units/maur_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Promotion disable=""/>    
+  <VisualActor>
+    <Actor>units/seleucids/champion_elephant_e.xml</Actor>
+  </VisualActor>
+</Entity>

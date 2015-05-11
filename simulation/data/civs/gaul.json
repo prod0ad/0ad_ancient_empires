@@ -20,7 +20,7 @@
 				{
 					"Name": "Late Armies (Reform)",
 					"History": "Late Gallic armies included an increased number of men armored in chainmail.",
-					"Description": "Melee Infantry and Cavalry +1 hack and pierce armor. Solduros can be trained at the barracks."
+					"Description": "Solduros can be trained at the barracks and Gallic Nobles at the Stables."
 				},
 				{
 					"Name": "Great Migration",
@@ -40,8 +40,15 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Professional heavy swordsmen."
-				}
+					"History": "Champion Swordsman."
+				},
+				{
+					"Name": "Gallic Noble",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Champion Cavalry."
+				}				
 			] 
 		} 
 	],
@@ -88,7 +95,7 @@
 			"Class":"",
 			"Emblem":"",
 			"History":".",
-			"Description": "Workers in range +25% farming rate. Replaces the Academy.",			
+			"Description": "Workers in range +25% farming rate.",			
 			"Requirements":".",
 			"Phase":"",
 			"Special":"."

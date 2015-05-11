@@ -4,5 +4,5 @@
 	"description": "Many Gauls served in foreign armies as mercenaries, settler troops or parts of elite/royal guard units.",
 	"requirements": {"civ": "gaul"},
     "modifications": [{"value": "Cost/BuildTime", "multiply": 0.9}],
-	"affects": ["Champion", "Mercenary"]
+	"affects": ["Unique", "Mercenary"]
 }

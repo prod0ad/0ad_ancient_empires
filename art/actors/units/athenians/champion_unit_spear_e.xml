@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <animations>
+        <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="100"/>
+        <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="90"/>
+        <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="85"/>
+        <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="50"/>
+        <animation file="infantry/spear/idle/isp_01.psa" name="Idle" speed="110"/>
+        <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>
+        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="40"/>
+        <animation event="0.5" file="infantry/sword/attack/isw_s_def_06.psa" name="attack_melee" speed="111"/>
+        <animation file="infantry/general/death/inf_02.psa" name="Death" speed="700"/>
+        <animation file="infantry/general/death/inf_06.psa" name="Death" speed="500"/>
+        <animation file="infantry/general/death/inf_07.psa" name="Death" speed="400"/>
+      </animations>
+      <mesh>skeletal/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/hele_hoplite_e2.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/athen_round_epilektos.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/spear_lance.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/cape_long_ragged.xml" attachpoint="shoulders"/>			
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Armour-Linen-Linothorax">
+      <textures>
+        <texture file="skeletal/hele_pezhetairoi_3.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armour-Reinforced Linothorax">
+      <textures>
+        <texture file="skeletal/hele_pezhetairoi.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

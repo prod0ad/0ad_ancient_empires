@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman"> 
+  <Identity>
+    <Civ>spart</Civ>
+  </Identity>
+  <Promotion disable=""/>    
+  <VisualActor>
+    <Actor>units/spartans/champion_infantry_e.xml</Actor>
+  </VisualActor>
+</Entity>

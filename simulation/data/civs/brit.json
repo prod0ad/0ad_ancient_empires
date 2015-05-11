@@ -21,7 +21,12 @@
 					"Name": "Boudicca's Levy (Reform)",
 					"History": "Roman expansionism resulted in large numbers of Britons going to war under Boudicca.",
 					"Description": "Levy Units -30% train time." 
-				}, 			
+				}, 	
+				{
+					"Name": "Swift Chariots",
+					"History": ".",
+					"Description": "Celtic Chariots +10% speed and attack rate." 
+				}, 					
 				{
 					"Name": "Hill Forts",
 					"History": "Britain was full of Celtic Hill forts.",
@@ -47,11 +52,6 @@
 			"History": ".", 
 			"Description": "Shepherds and Hounds free (Workers +50% meat gathering rate). A Dog Scout is added to starting units." 
 		},		
-		{
-			"Name": "Furor Celtica",
-			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
-			"Description": "Melee Infantry +10% speed." 
-		},
 		{
 			"Name": "Wooden Structures",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",

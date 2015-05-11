@@ -1,46 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
-  <Armour>
-    <Hack>5</Hack>
-    <Pierce>5</Pierce>
-    <Crush>7</Crush>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>40</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>7.0</MaxRange>
-      <RepeatTime>2000</RepeatTime>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
-    </Melee>
-  </Attack> 
-  <Cost>
-    <Population>3</Population>  
-    <BuildTime>30</BuildTime>
-    <Resources>
-      <food>70</food>
-      <wood>0</wood>
-	  <metal>65</metal>
-      <stone>0</stone>	  
-    </Resources>
-  </Cost>
-  <Loot>
-    <xp>0</xp>
-    <food>7</food>
-    <wood>0</wood>
-    <stone>0</stone>
-    <metal>7</metal>
-  </Loot>  
-  <UnitMotion>
-    <WalkSpeed>11.5</WalkSpeed>
-  </UnitMotion>
   <Identity>
     <Civ>sele</Civ>
 	<GenericName>Champion Cavalry</GenericName>
-    <SpecificName>Seleucid Cataphract</SpecificName>
-	<Tooltip>Resilient slow moving Champion Cavalry.</Tooltip>	
-    <Icon>units/ptol_champion_cavalry.png</Icon>
+    <SpecificName>Hetairos</SpecificName>
+	<Tooltip>Champion Cavalry.</Tooltip>	
+    <Icon>units/hele_champion_cavalry_mace.png</Icon>	
 	<SelectionGroupName>units/sele_champion_cavalry</SelectionGroupName>
   </Identity>
   <Promotion>
@@ -48,6 +13,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>  
   <VisualActor>
-    <Actor>units/ptolemies/champion_cavalry.xml</Actor>
+    <Actor>units/seleucids/champion_cavalry.xml</Actor>
   </VisualActor>
 </Entity>

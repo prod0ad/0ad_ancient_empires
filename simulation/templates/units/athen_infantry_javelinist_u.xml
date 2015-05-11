@@ -6,6 +6,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/macedonians/thureophoros.xml</Actor>
+    <Actor>units/seleucids/infantry_javelinist_u.xml</Actor>
   </VisualActor>
 </Entity>

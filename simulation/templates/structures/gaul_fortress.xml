@@ -13,6 +13,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/gaul_champion_infantry
+      units/gaul_champion_cavalry  
     </Entities>
     <Technologies datatype="tokens">
 	  fort_gaul_regen_cav

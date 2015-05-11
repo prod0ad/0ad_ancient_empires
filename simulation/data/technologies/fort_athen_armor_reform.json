@@ -1,0 +1,12 @@
+{
+	"genericName": "Linothorax",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "armor_pteruges.png",
+	"researchTime": 40,
+	"tooltip": "Epilektoi +10% speed.",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.1}],
+	"affects": ["Spear Unique"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

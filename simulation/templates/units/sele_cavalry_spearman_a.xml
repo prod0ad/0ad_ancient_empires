@@ -5,8 +5,9 @@
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_spearman_e</Entity>
+    <RequiredXp>9999</RequiredXp>	
   </Promotion>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_spearman_e.xml</Actor>
+    <Actor>units/seleucids/cavalry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

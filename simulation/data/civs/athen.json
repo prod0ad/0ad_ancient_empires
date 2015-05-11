@@ -19,8 +19,13 @@
 				{
 					"Name":"Iphicratean Reforms",
 					"History":"Iphicrates changed the equipment of Athenian Soldiers and introduced the Iphicratid boots, increasing their mobility.",
-					"Description":"Infantry Units +15% speed."
+					"Description":"Levy Melee Infantry +15% speed."
 				},
+				{
+					"Name":"Linothorax",
+					"History":".",
+					"Description":"Epilektoi +10% speed."
+				},					
 				{
 					"Name":"Imperialism",
 					"History":"Soon after the formation of the Delian league, the Athenians started treating costal towns and even their own allies as subjects.",
@@ -39,7 +44,7 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Fast moving Champion Spearman. Deals x3 damage to Cavalry and Elephants."
+					"History":"Champion Spearman. Deals x3 damage to Cavalry and Elephants."
 				}
 			]
 		}
@@ -47,7 +52,7 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Laurion Mines",
+			"Name":"Mines Of Laureion",
 			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
 			"Description":"Workers +10% metal mining rate for each phase researched."
 		},

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense">
   <Armour>
-    <Hack>14</Hack>
-    <Pierce>25</Pierce>
-    <Crush>2</Crush>
+    <Hack>11</Hack>
+    <Pierce>26</Pierce>
+    <Crush>5</Crush>
     <Foundation>
       <Hack>5</Hack>
       <Pierce>10</Pierce>
@@ -34,7 +34,7 @@
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
-    <GarrisonArrowClasses>Infantry Ranged</GarrisonArrowClasses>
+    <GarrisonArrowClasses>Soldier Worker</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
     <Population>2</Population>  

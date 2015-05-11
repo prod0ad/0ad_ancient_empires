@@ -34,7 +34,7 @@
 				{
 					"Name":"Social Reform",
 					"History":"Several notable Spartans attempted to increase the Spartan manpower pool by freeing helots or increasing the social status of Perioikoi.",
-					"Description":"Infantry Units -10% train time."
+					"Description":"Melee Infantry Units -10% train time."
 				},	
 				{
 					"Name":"Defence Reform",
@@ -71,7 +71,7 @@
 		{
 	     	"Name":"Laws of Lycurgus",
 	    	"History":"Under the Constitution written by the mythical law-giver Lycurgus, the institution of The Agoge was established, where Spartans were trained from the age of 6 to be superior warriors in defense of the Spartan state.",
-	  		"Description":"Special techs free, very slow research time. Civic Duty free (Workers +50% hit points)."
+	  		"Description":"Special techs cost no resources, very slow research time. Civic Duty free (Workers +50% hit points)."
 	    },			
 		{
 			"Name":"Wall of Men",
@@ -81,7 +81,7 @@
 		{
 			"Name":"Limited Manpower",
 			"History":".",
-			"Description":"Maximum population -20%."
+			"Description":"Maximum population -10%."
 		}
 	],
 	"TeamBonuses":

@@ -11,8 +11,8 @@
       units/iber_champion_cavalry
     </Entities>
     <Technologies datatype="tokens">
+	  fort_iber_soliferrum	 	
 	  fort_iber_steel
-	  fort_iber_soliferrum	 
 	  fort_iber_guerilla	  
     </Technologies>
   </ProductionQueue>

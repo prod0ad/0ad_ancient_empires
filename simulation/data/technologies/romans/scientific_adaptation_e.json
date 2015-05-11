@@ -2,9 +2,12 @@
 	"genericName": "Scientific Adaptation",
 	"autoResearch": true,
 	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "rome"}]},
-	"tooltip": "+10% Structure, Ship and Siege Unit hit points.",
+	"tooltip": "Structures, Ships and Ranged Siege Weapons +10% range, vision, accuracy and hit points for each phase researched.",
 	"modifications": [
-		{"value": "Health/Max", "multiply": 1.1}
+		{"value": "Health/Max", "multiply": 1.1},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
+	    {"value": "Vision/Range", "add": 1.1},
+		{"value": "Attack/Ranged/Spread", "multiply": 0.9}
 	],
-	"affects": ["Structure","Mechanical"]
+	"affects": ["Structure","Siege Ranged","Warship"]
 }

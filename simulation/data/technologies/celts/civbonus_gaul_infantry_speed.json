@@ -2,7 +2,7 @@
 	"genericName": "Furor Celtica",
 	"autoResearch": true,
 	"description": "Melee Infantry move 10% faster",
-	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"}]},
+	"requirements": {"civ": "gaul"},
 	"modifications": [
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
 	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1}	

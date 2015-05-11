@@ -16,6 +16,7 @@
       units/cart_champion_cavalry 
     </Entities>
     <Technologies datatype="tokens"> 
+	  fort_cart_recruiting_agents	
 	  fort_cart_siege_buildtime	
 	  fort_cart_reform	  	  
     </Technologies>

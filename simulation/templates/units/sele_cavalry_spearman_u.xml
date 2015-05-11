@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sele_cavalry_spearman_e">
+  <Identity>
+    <SpecificName>Seleucid Cataphract</SpecificName>	
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/seleucids/cavalry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

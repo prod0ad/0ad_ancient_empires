@@ -4,14 +4,15 @@
     <Civ>sele</Civ>
     <SelectionGroupName>units/sele_cavalry_spearman_b</SelectionGroupName>
     <GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Hetairos</SpecificName>
+    <SpecificName>Xystophoros</SpecificName>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Icon>units/mace_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_spearman_a</Entity>
+    <RequiredXp>9999</RequiredXp>	
   </Promotion>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_spearman_a.xml</Actor>
+    <Actor>units/seleucids/cavalry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

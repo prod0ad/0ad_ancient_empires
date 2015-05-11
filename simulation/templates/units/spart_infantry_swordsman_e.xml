@@ -4,4 +4,7 @@
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>			
   </Identity>
   <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/spartans/infantry_sword_e.xml</Actor>
+  </VisualActor> 
 </Entity>

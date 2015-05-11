@@ -1,14 +1,14 @@
 {
-	"genericName": "Cavalry Reform",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 500},
+	"genericName": "Seleucid Cataphracts",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "sele"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "helmet_hero_side.png",
+	"icon": "armor_plates_cavalry.png",
 	"researchTime": 40,
-	"tooltip": "Unlock the Seleucid Cataphract. All Cavalry +20% hit points.",
+	"tooltip": "Heavy Cavalry +2 hack, +1 pierce armor.",
 	"modifications": [
-		{"value": "Health/Max", "multiply": 1.2}
-	],
-	"affects": ["Cavalry"],	
+	    {"value": "Armour/Hack", "add": 2.0},	
+		{"value": "Armour/Pierce", "add": 1.0}],
+	"affects": ["Levy Melee Cavalry"],	
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

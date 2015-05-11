@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <BuildRestrictions>
+    <Category>Barracks</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>200</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="40.0" depth="40.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <List datatype="tokens">Support Infantry Cavalry Siege</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>6</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>1800</Max>
+    <Repairable>true</Repairable>
+    <SpawnEntityOnDeath>rubble/rubble_rome_sb</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>rome</Civ>
+    <GenericName>Auxiliary Camp</GenericName>
+    <SpecificName>Auxiliary Camp</SpecificName>
+    <Classes datatype="tokens">
+	  ArmyCamp
+	</Classes>
+    <Icon>structures/roman_camp.png</Icon>
+    <Tooltip>Trains and upgrades Auxiliary Mercenary units.</Tooltip>
+    <RequiredTechnology>fort_rome_reform</RequiredTechnology>	
+  </Identity>
+  <Obstruction>
+    <Static width="36.0" depth="36.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence disable=""/>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/rome_infantry_archer_b		  	  		  
+      units/rome_infantry_slinger_b
+      units/rome_infantry_spearman_b	
+      units/rome_champion_elephant	  
+    </Entities>
+	<Technologies datatype="tokens">
+	  upgrades/archer_merc_a
+	  upgrades/archer_merc_e  
+	  upgrades/slinger_merc_e		   	  
+    </Technologies>	
+  </ProductionQueue>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/romans/camp.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+  </VisualActor>
+</Entity>

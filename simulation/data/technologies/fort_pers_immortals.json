@@ -9,6 +9,6 @@
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.50}
 	],
-	"affects": ["Champion Spear"],
+	"affects": ["Unique Spear"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

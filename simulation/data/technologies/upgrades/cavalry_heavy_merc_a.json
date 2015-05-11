@@ -1,0 +1,13 @@
+{
+	"genericName": "Advanced Heavy Cavalry",
+	"autoResearch": true,
+	"requirements": {"tech": "phase_city"},
+	"icon": "upgrade_advanced.png",
+	"researchTime": 40,
+	"tooltip": "Heavy Cavalry +10% attack, hit points and vision.",
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Melee Cavalry Mercenary Basic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

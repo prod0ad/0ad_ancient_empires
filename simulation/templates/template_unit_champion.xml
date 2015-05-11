@@ -2,7 +2,8 @@
 <Entity parent="template_unit">
   <Identity>
     <GenericName>Champion Unit</GenericName>
-    <VisibleClasses datatype="tokens">Organic Champion Soldier</VisibleClasses>
+    <VisibleClasses datatype="tokens">Unique Soldier</VisibleClasses>
+    <Classes datatype="tokens">Organic Champion</Classes>		
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>

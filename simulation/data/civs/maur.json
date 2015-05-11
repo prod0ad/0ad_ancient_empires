@@ -24,7 +24,12 @@
 					"Name": "Larger Crew",
 					"History": "Adds an extra Archer.'",
 					"Description": "Elephant Archer +50% attack." 
-				}, 					
+				}, 		
+				{
+					"Name": "Ancient Cities",
+					"History": "India was one of the first regions having huge settlements.",
+					"Description": "Civil Centre +20 population." 
+				}, 						
 				{
 					"Name": "Wootz Steel",
 					"History": "The Wootz steel is believed to have originated in India. There are several ancient Greek and Roman literary references to high-quality Indian steel since the time of Alexander's Indian campaign.'",
@@ -33,7 +38,7 @@
 				{
 					"Name": "Fire Protection",
 					"History": "To prevent major fires breaking out in their wooden cities, The Mauryans introduced permanent water deposits in every structure.'",
-					"Description": "Structures regenerate 1 hit point per second." 
+					"Description": "Structures regenerate 2 hit points per second." 
 				} 									
 			],
 			"Heroes":

@@ -39,7 +39,7 @@
     <Max>480</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Elephant Levy Melee -Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Elephant Levy Melee</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
     <Tooltip>Powerful unit especially strong versus Cavalry and Structures.</Tooltip>	

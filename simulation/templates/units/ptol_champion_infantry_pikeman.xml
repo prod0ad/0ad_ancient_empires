@@ -3,6 +3,25 @@
   <Health>
     <Max>135</Max>
   </Health>
+  <Attack>
+    <Melee>
+      <Hack>15</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>8.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Cavalry</Classes>
+		  <Multiplier>3</Multiplier>
+		</AntiCavalry>
+		<AntiElephant>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>3</Multiplier>
+		</AntiElephant>		
+	  </Bonuses>  
+    </Melee>
+  </Attack>  
   <Cost>
     <BuildTime>10</BuildTime>
     <Population>2</Population>	

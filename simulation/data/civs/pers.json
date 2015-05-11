@@ -20,16 +20,16 @@
 					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
 					"Description": "Infantry and Cavarly units +1 all armor types."
 				},
-	            {
-		    	    "Name": "Persian Architecture",
-		     	    "History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
-		    	    "Description": "Structures +25% hit points."
-		        },					
 				{
 					"Name": "Immortals",
 					"History": ".",
 					"Description": "Champion Spearmen -50% train time."
-				} 
+				}, 				
+	            {
+		    	    "Name": "Persian Architecture",
+		     	    "History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
+		    	    "Description": "Structures +25% hit points."
+		        }					
 			],
 			"Heroes":
 			[
@@ -83,7 +83,7 @@
 			"History": ".",
 			"Requirements": "",
 			"Phase": "city",
-			"Description": "Adds a trickle of all resource types and researches academic techs. Replaces the Academy."			
+			"Description": "Adds a trickle of all resource types and researches academic techs."			
 		}		
 	],
 	"StartEntities":

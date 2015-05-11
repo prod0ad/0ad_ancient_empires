@@ -52,6 +52,10 @@
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
   </UnitMotion>  
+  <Promotion>
+    <Entity>units/spart_champion_infantry_spear_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>      
   <Identity>
     <Civ>spart</Civ>
 	<GenericName>Champion Spearman</GenericName>

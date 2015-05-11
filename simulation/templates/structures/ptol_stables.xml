@@ -56,14 +56,12 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/ptol_cavalry_javelinist_b
-      units/ptol_cavalry_spearman_merc_b
       units/ptol_cavalry_archer_b
 	  units/ptol_champion_elephant
     </Entities>
     <Technologies datatype="tokens">	
 	  upgrades/cavalry_light_a
 	  upgrades/cavalry_light_e		
-	  upgrades/cavalry_heavy_e	
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01

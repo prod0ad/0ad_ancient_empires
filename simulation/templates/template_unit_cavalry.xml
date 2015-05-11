@@ -18,7 +18,8 @@
     <Height>7.5</Height>
   </Footprint>
   <Identity>
-    <VisibleClasses datatype="tokens">Cavalry Soldier Levy Organic Basic</VisibleClasses>	
+    <VisibleClasses datatype="tokens">Cavalry Soldier Levy Basic</VisibleClasses>	
+    <Classes datatype="tokens">Organic Champion</Classes>		
     <GenericName>Cavalry</GenericName>
     <Formations datatype="tokens">
       formations/wedge

@@ -12,12 +12,13 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/ptol_champion_infantry_pikeman	 	
+      units/ptol_champion_cavalry 	
       units/ptol_champion_infantry_swordsman
     </Entities>
     <Technologies datatype="tokens">
-      fort_ptol_pikeman_champion
-      fort_ptol_swordsman_champion	  
+      fort_ptol_agema_cavalry	  
+      fort_ptol_swordsman_champion	 
+      fort_ptol_machimoi	  
 	  fort_ptol_merc_army	  
 	  fort_ptol_garrisons
 	  fort_ptol_reform

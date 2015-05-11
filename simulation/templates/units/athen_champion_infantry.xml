@@ -1,50 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
-  <Armour>
-    <Hack>3</Hack>
-    <Pierce>3</Pierce>
-    <Crush>7</Crush>
-  </Armour>
-  <Attack>
-    <Melee>
-      <Hack>12</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>7.0</MaxRange>
-      <RepeatTime>1500</RepeatTime>
-    </Melee>
-  </Attack>
-  <Cost>
-    <BuildTime>20</BuildTime>
-    <Population>2</Population>	
-    <Resources>
-      <food>40</food>
-      <wood>0</wood>
-      <stone>0</stone>
-      <metal>35</metal>
-    </Resources>
-  </Cost>
-  <Loot>
-    <xp>0</xp>
-    <food>4</food>
-    <wood>0</wood>
-    <stone>0</stone>
-    <metal>4</metal>
-  </Loot>    
-  <Health>
-    <Max>150</Max>
-  </Health>
-  <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-  </UnitMotion>  
   <Identity>
     <Civ>athen</Civ>
 	<GenericName>Champion Spearman</GenericName>
     <SpecificName>Epilektos</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_infantry.png</Icon>
-	<Tooltip>Fast moving Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
   </Identity>
+  <Promotion>
+    <Entity>units/athen_champion_infantry_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>    
   <VisualActor>
     <Actor>units/athenians/champion_unit_spear.xml</Actor>
   </VisualActor>

@@ -1,0 +1,15 @@
+{
+	"genericName": "Machimoi",
+	"description": "In order to counter the Seleucid threat, the Ptolemies eventually started training Native Egyptians to fight as pikemen.",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "Pikemen -50% train time.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.50}
+	],
+	"affects": ["Pike"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

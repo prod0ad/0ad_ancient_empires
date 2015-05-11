@@ -95,7 +95,7 @@
     <Category>WarDog</Category>
   </TrainingRestrictions>
   <UnitMotion>
-    <WalkSpeed>14</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
     <Run>
       <Speed>26.0</Speed>
       <Range>600.0</Range>

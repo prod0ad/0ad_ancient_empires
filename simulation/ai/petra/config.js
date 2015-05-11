@@ -39,7 +39,7 @@ m.Config = function(difficulty)
 	// defense
 	this.Defense =
 	{
-		"defenseRatio" : 1,	// ratio of defenders/attackers.
+		"defenseRatio" : 1.5,	// ratio of defenders/attackers.
 		"armyCompactSize" : 2000,	// squared. Half-diameter of an army.
 		"armyBreakawaySize" : 3500,  // squared.
 		"armyMergeSize" : 1400	// squared.
@@ -64,7 +64,7 @@ m.Config = function(difficulty)
 			"maur" : [ "structures/{civ}_elephant_stables", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
 			"pers" : [ "structures/{civ}_siege_workshop", "structures/{civ}_stables", "structures/{civ}_apadana" ],
 			"ptol" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
-			"rome" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
+			"rome" : [ "structures/{civ}_siege_workshop", "structures/{civ}_army_camp", "structures/{civ}_stables" ],
 			"sele" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
 			"spart" : [ "structures/{civ}_siege_workshop", "structures/{civ}_stables" ]
 		},
@@ -83,7 +83,7 @@ m.Config = function(difficulty)
 		"ships" : 70,
 		"house" : 350,
 		"dropsites" : 150,
-		"field" : 200,
+		"field" : 160,
 		"dock" : 90,
 		"economicBuilding" : 90,
 		"militaryBuilding" : 130,

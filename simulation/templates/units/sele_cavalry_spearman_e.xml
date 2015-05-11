@@ -2,10 +2,12 @@
 <Entity parent="units/sele_cavalry_spearman_a">
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>	
-    <Icon>units/hele_champion_cavalry_mace.png</Icon>	
   </Identity>
-  <Promotion disable=""/>
+  <Promotion>
+    <Entity>units/sele_cavalry_spearman_u</Entity>
+    <RequiredXp>9999</RequiredXp>	
+  </Promotion>
   <VisualActor>
-    <Actor>units/macedonians/champion_cavalry.xml</Actor>
+    <Actor>units/seleucids/cavalry_spearman_a.xml</Actor>
   </VisualActor>
 </Entity>

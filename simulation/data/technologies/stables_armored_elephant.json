@@ -1,0 +1,14 @@
+{
+	"genericName": "Armored Elephant",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Requires Imperial Phase.",
+	"icon": "armor_plates_silver.png",
+	"researchTime": 40,
+	"tooltip": "War Elephants +2 hack, +3 pierce armor, -10% speed.",
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Elephant Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

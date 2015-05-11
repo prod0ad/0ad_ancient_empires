@@ -4,9 +4,9 @@
     <BuildTime>300</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
+      <wood>200</wood>
       <stone>200</stone>
-      <metal>200</metal>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -39,6 +39,9 @@
       units/maur_champion_elephant
       units/maur_champion_elephant_archer	  
     </Entities>
+    <Technologies datatype="tokens">
+      stables_armored_elephant	  
+    </Technologies>	
   </ProductionQueue>
   <Sound>
     <SoundGroups>

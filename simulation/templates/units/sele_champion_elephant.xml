@@ -7,6 +7,10 @@
     <Icon>units/maur_champion_elephant.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
+  <Promotion>
+    <Entity>units/sele_champion_elephant_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>    
   <VisualActor>
     <Actor>units/seleucids/champion_elephant.xml</Actor>
   </VisualActor>
