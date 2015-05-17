@@ -1,6 +1,6 @@
 {
 	"genericName": "Fishing Nets",
-	"cost": {"food": 75, "wood": 75, "stone": 0, "metal": 0},
+	"cost": {"food": 0, "wood": 75, "stone": 0, "metal": 75},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",		
 	"icon": "fish.png",

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>3</Pierce>
-    <Crush>7</Crush>
+    <Hack>0</Hack>
+    <Pierce>1</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>40</Hack>
+      <Hack>30</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
@@ -21,7 +21,7 @@
     <Resources>
       <food>70</food>
       <wood>0</wood>
-	  <metal>55</metal>
+	  <metal>60</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -33,7 +33,7 @@
     <metal>6</metal>
   </Loot>  
   <Health>
-    <Max>250</Max>
+    <Max>210</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>13</WalkSpeed>

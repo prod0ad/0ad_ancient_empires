@@ -1,0 +1,11 @@
+{
+	"genericName": "Antigonid Reforms",
+	"autoResearch": true,
+	"requirements": {"tech": "fort_mace_reform"},	
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.75},
+	    {"value": "Health/Max", "multiply": 1.25}	
+	],
+	"affects": ["Pike","Mercenary"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

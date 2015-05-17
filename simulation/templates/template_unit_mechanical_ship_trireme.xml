@@ -39,7 +39,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>720</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>

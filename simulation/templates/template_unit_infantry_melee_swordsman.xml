@@ -4,9 +4,9 @@
     <Max>120</Max>
   </Health>
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>2</Pierce>
-    <Crush>6</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
@@ -40,6 +40,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
     <GenericName>Swordsman</GenericName>
-    <Tooltip>Offensive melee infantry.</Tooltip>			
+    <Tooltip>Offensive Melee Infantry.</Tooltip>			
   </Identity>
 </Entity>

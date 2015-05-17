@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/macedonians/champion_cavalry.xml</Actor>
+    <Actor>units/macedonians/cavalry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

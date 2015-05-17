@@ -1,0 +1,12 @@
+{
+	"genericName": "Hetairoi Aspidophoroi",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_imperial"},	
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "horseshoe_gold.png",
+	"researchTime": 40,
+	"tooltip": "Upgrades Hetairoi to Hetairoi Aspidophoroi, with a ranged attack.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Unique Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

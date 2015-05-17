@@ -1,12 +1,12 @@
 {
 	"genericName": "Elite Swordsmen",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "swordsman_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/swordsman_a",
-	"tooltip": "Swordsmen +10% attack, hit points and vision.",
+	"tooltip": "Swordsmen +10% attack and vision, +15% hit points.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

@@ -1,12 +1,12 @@
 {
 	"genericName": "Elite Pikemen",
-	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 150},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "pikeman_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/pikeman_a",
-	"tooltip": "Pikemen +10% attack, hit points and vision.",
+	"tooltip": "Pikemen +10% attack and vision, +15% hit points.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

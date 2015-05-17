@@ -1,6 +1,6 @@
 {
 	"genericName": "Transport Ship",
-	"cost": {"food": 50, "wood": 100, "stone": 0, "metal": 0},
+	"cost": {"food": 75, "wood": 75, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",	
 	"icon": "shields_generic_wood.png",

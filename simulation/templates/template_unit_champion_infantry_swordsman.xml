@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>2</Pierce>
-    <Crush>7</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>16</Hack>
+      <Hack>15</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
@@ -18,10 +18,10 @@
     <BuildTime>20</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>45</food>
+      <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>35</metal>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Loot>
@@ -43,7 +43,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Melee Sword</VisibleClasses>
     <GenericName>Champion Swordsman</GenericName>
-	<Tooltip>Champion Swordsman.</Tooltip>		
+	<Tooltip>Offensive Champion Infantry.</Tooltip>		
     <Formations datatype="tokens">
       formations/phalanx
       formations/testudo

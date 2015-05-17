@@ -1,14 +1,14 @@
 {
 	"genericName": "Expert Metal Mining",
 	"description": "Increases metal gathering rates.",
-	"cost": {"food": 600, "wood": 300, "stone": 0, "metal": 0},
+	"cost": {"food": 300, "wood": 600, "stone": 0, "metal": 0},
 	"supersedes": "storehouse_metalmining_02",
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "mining_metal.png",
 	"researchTime": 40,
-	"tooltip": "+15% metal gathering rate.",
-	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.15}],
+	"tooltip": "+20% metal gathering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.2}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

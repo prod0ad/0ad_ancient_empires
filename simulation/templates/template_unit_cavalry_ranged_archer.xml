@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged">
   <Armour>
-    <Hack>1</Hack>
+    <Hack>0</Hack>
     <Pierce>0</Pierce>
-    <Crush>6</Crush>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
       <Pierce>8</Pierce>
       <Crush>0</Crush>
-      <MaxRange>32</MaxRange>
+      <MaxRange>36</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
@@ -28,12 +28,12 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>135</Max>
+    <Max>150</Max>
   </Health>
   <Identity>
 	<VisibleClasses datatype="tokens">Bow</VisibleClasses>
     <GenericName>Cavalry Archer</GenericName>
-    <Tooltip>Fast moving long ranged cavalry. Effective against melee units.</Tooltip>	
+    <Tooltip>Fast moving long Ranged Cavalry.</Tooltip>	
   </Identity>
   <Loot>
     <food>6</food>

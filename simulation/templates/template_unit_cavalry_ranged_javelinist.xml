@@ -3,7 +3,7 @@
   <Armour>
     <Hack>0</Hack>
     <Pierce>1</Pierce>
-    <Crush>6</Crush>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Ranged>
@@ -14,14 +14,24 @@
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <Spread>1.3</Spread>	  
+      <Spread>1.3</Spread>	 
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Ranged</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>
+		<AntiElephant>
+		  <Classes>Support</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiElephant>		
+	  </Bonuses>  	  
     </Ranged>
   </Attack>
   <Cost>
     <Population>3</Population>
-    <BuildTime>30</BuildTime>  
+    <BuildTime>20</BuildTime>  
     <Resources>
-      <food>80</food>
+      <food>100</food>
       <wood>0</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
@@ -33,10 +43,10 @@
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
     <GenericName>Light Cavalry</GenericName>
-    <Tooltip>Fast moving short ranged cavalry. Effective against ranged units.</Tooltip>	
+    <Tooltip>Fast moving short Ranged Cavalry. Deals x1.5 damage to Ranged and Support Units.</Tooltip>	
   </Identity>
   <Loot>
-    <food>8</food>
+    <food>10</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>0</metal>

@@ -1,7 +1,7 @@
 {
 	"genericName": "Improved Stone Mining",
 	"description": "Increases stone gathering rates.",
-	"cost": {"food": 125, "wood": 175, "stone": 0, "metal": 0},
+	"cost": {"food": 200, "wood": 100, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "mining_stone.png",

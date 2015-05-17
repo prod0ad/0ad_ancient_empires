@@ -13,7 +13,7 @@
     <Civ>mace</Civ>
 	<SelectionGroupName>units/mace_infantry_swordsman_b</SelectionGroupName>
 	<GenericName>Swordsman</GenericName>
-    <SpecificName>Thracian Falxman</SpecificName>	
+    <SpecificName>Thracian Rhomphaiophoros</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/sele_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
@@ -22,6 +22,6 @@
     <Entity>units/mace_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/seleucids/infantry_swordsman_b.xml</Actor>
+    <Actor>units/macedonians/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

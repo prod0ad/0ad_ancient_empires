@@ -1,14 +1,14 @@
 {
 	"genericName": "Expert Stone Mining",
 	"description": "Increases stone gathering rates.",
-	"cost": {"food": 375, "wood": 525, "stone": 0, "metal": 0},
+	"cost": {"food": 600, "wood": 300, "stone": 0, "metal": 0},
 	"supersedes": "storehouse_stonemining_02",
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in imperial Phase.",
 	"icon": "mining_stone.png",
 	"researchTime": 40,
-	"tooltip": "+15% stone gathering rate.",
-	"modifications": [{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.15}],
+	"tooltip": "+20% stone gathering rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.2}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

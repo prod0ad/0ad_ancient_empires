@@ -16,6 +16,16 @@
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1000</RepeatTime>
       <Spread>1.2</Spread>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Ranged Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>
+		<AntiElephant>
+		  <Classes>Ranged Cavalry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiElephant>		
+	  </Bonuses>  		  
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>	  
     </Ranged>
   </Attack>
@@ -34,7 +44,8 @@
   </Health>  
   <Identity>
     <VisibleClasses datatype="tokens">Champion Ranged Sling</VisibleClasses>
-    <GenericName>Slinger</GenericName>	
+    <GenericName>Slinger</GenericName>
+    <Tooltip>Deals x1.5 damage to ranged units.</Tooltip>		
   </Identity>
   <UnitMotion>
     <WalkSpeed>9.5</WalkSpeed>

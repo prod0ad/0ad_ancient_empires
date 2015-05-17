@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Health>
-    <Max>120</Max>
+    <Max>100</Max>
   </Health>
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>1</Pierce>
-    <Crush>6</Crush>
+    <Hack>1</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
@@ -50,7 +50,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Pike</VisibleClasses>
     <GenericName>Pikeman</GenericName>
-    <Tooltip>Slow moving advanced infantry. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+    <Tooltip>Slow Moving Melee Infantry. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
     <Formations datatype="tokens">
       formations/syntagma
     </Formations>

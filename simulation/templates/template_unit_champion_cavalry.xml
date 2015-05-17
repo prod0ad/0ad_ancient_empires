@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>4</Pierce>
-    <Crush>6</Crush>
+    <Hack>0</Hack>
+    <Pierce>1</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Cost>
-    <Population>2</Population>
+    <Population>3</Population>
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>100</food>
+      <food>70</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>80</metal>
+      <metal>60</metal>
     </Resources>
   </Cost>
   <Loot>
-    <food>0</food>
+    <food>70</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>20</metal>
+    <metal>60</metal>
   </Loot>  
   <Footprint>
     <Circle radius="2.5"/>
     <Height>5.0</Height>
   </Footprint>
   <Health>
-    <Max>250</Max>
+    <Max>210</Max>
   </Health>
   <Identity>
     <GenericName>Champion Cavalry</GenericName>
@@ -66,7 +66,7 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>15</WalkSpeed>
+    <WalkSpeed>13</WalkSpeed>
     <Run>
       <Speed>25.0</Speed>
       <Range>1000.0</Range>
@@ -74,6 +74,6 @@
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>60</Range>
+    <Range>50</Range>
   </Vision>
 </Entity>

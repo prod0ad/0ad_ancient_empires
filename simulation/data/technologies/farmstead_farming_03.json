@@ -1,7 +1,7 @@
 {
 	"genericName": "Expert Farming",
 	"description": "Extra nutrients for farms.",
-	"cost": {"food": 0, "wood": 600, "stone": 0, "metal": 300},
+	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 450},
 	"supersedes": "farmstead_farming_02",
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",

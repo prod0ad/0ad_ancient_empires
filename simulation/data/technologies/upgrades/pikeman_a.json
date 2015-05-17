@@ -1,6 +1,6 @@
 {
 	"genericName": "Advanced Pikemen",
-	"cost": {"food": 125, "wood": 0, "stone": 0, "metal": 75},
+	"cost": {"food": 150, "wood": 0, "stone": 0, "metal": 150},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "pikeman_a.png",

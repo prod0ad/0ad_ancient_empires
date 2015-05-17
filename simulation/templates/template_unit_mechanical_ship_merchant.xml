@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_ship">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>4</Pierce>
-    <Crush>2</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Cost>
     <Resources>
@@ -28,7 +28,7 @@
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Health>
-    <Max>480</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
     <GenericName>Merchantman</GenericName>

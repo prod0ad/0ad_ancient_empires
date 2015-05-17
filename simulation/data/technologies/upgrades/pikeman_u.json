@@ -1,12 +1,12 @@
 {
 	"genericName": "Champion Pikemen",
-	"cost": {"food": 375, "wood": 0, "stone": 0, "metal": 225},
+	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "pikeman_u.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/pikeman_e",
-	"tooltip": "Pikemen +10% attack, hit points and vision.",
+	"tooltip": "Pikemen +10% attack and vision, +20% hit points.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

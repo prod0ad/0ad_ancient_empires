@@ -18,10 +18,20 @@
 			[
 				{
 					"Name":"Antigonid Reforms",
-					"History":"The Antigonid kings ordered various military reforms including an increased focus on pikemen rearming them and enlisting Thracians in their ranks.",
-					"Description":"Pikemen and Mercenaries -20% train time, +1 hack and pierce armor."
+					"History":"The Antigonid kings ordered various military reforms including an increased focus on mercenaries, as well as pikemen, rearming them and enlisting Thracians in their ranks.",
+					"Description":"Pikemen and Mercenaries -25% train time, +25% hit points."
 				},	
-			        {
+				{
+					"Name":"Hetairoi Aspidophoroi",
+					"History":"The decline in the numbers of Macedonian nobles due to constant wars and eastern migration eventually lead to a more defensive approach in guard cavalry use, turning them to heavy skirmish cavalry who generally avoided melee, instead of lancers.",
+					"Description":"Upgrades Hetairoi to Hetairoi Aspidophoroi, with a ranged attack."
+				},	
+				{
+					"Name":"Royal Peltasts.",
+					"History":"Antigonid elite infantry was renamed to Royal Peltasts, who, like the earlier Hypaspists could use a variety of weapons and tactics.",
+					"Description":"Upgrades Hypaspists to Royal Peltasts, with a ranged attack."
+				},					
+			    {
 					"Name":"Kestros Sling",
 					"History":"A deadly dart throwing sling used in late Macedon.",
 					"Description":"Slingers +20% attack."
@@ -30,22 +40,24 @@
 					"Name":"Fetters Of Hellas",
 					"History":"The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
 					"Description":"Fortress +50% hit points."
-				},			
-				{
-					"Name":"Silver Shields",
-					"History":"In India near the end of his long anabasis, Alexander gifted to the Royal Hypaspist corps shields of silver for their long and valiant service in his army.",
-					"Description":"Upgrade Shield Bearers to Silver Shields, with increased attack and hit points."
 				}
 			],
 			"Heroes":
 			[
 				{
-					"Name":"Shield Bearer",
+					"Name":"Hypaspist",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Fast and tough Champion Spearman. Deals x3 damage to Cavalry and Elephants."
-				}
+					"History":"Fast and tough Champion Spearman. Deals x2 damage to Cavalry and Elephants."
+				},
+				{
+					"Name":"Hetairos",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"Champion Cavalry."
+				}				
 			]
 		}
 	],

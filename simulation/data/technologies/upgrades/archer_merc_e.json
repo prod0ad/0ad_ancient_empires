@@ -1,6 +1,6 @@
 {
 	"genericName": "Elite Mercenary Archers",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 300},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "archer_e.png",

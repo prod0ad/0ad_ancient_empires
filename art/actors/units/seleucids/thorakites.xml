@@ -22,7 +22,7 @@
       <props>
         <prop actor="props/units/heads/sele_romanized_visor_crest_brass.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/thracian_oval.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/ptol_thureos_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/hele_ijv_lboot.xml" attachpoint="l_leg"/>
         <prop actor="props/units/hele_ijv_rboot.xml" attachpoint="r_leg"/>
         <prop actor="props/units/weapons/xiphos.xml" attachpoint="r_hand"/>

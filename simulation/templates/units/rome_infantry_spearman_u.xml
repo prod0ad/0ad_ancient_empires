@@ -16,6 +16,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/celts/infantry_spearman_e.xml</Actor>
+    <Actor>units/romans/infantry_spearman_u.xml</Actor>
   </VisualActor>
 </Entity>

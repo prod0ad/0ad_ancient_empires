@@ -24,7 +24,6 @@
 	  units/spart_infantry_spearman_b
       units/spart_infantry_javelinist_b 
       units/spart_infantry_archer_b 	  
-	  units/spart_infantry_swordsman_b	
 	  units/spart_champion_infantry_pike  
     </Entities>
     <Technologies datatype="tokens">
@@ -35,7 +34,6 @@
 	  upgrades/skirmisher_u		 
 	  upgrades/archer_merc_a
 	  upgrades/archer_merc_e	
-	  upgrades/swordsman_e		  
       barracks_speed_train	
       barracks_speed_batch
 	  barracks_ranged_accuracy

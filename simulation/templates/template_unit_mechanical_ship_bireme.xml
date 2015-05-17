@@ -39,7 +39,7 @@
     <Height>10.0</Height>
   </Footprint>
   <Health>
-    <Max>480</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <GenericName>Light Warship</GenericName>

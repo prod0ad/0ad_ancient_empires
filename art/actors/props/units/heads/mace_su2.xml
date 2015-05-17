@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="helmet-phrygian-mask-beard">
+      <mesh>props/helmet/mace_helmet_a.dae</mesh>
+      <textures><texture file="props/helmet/mace_a2.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="helmet-phrygian-mask-nobeard">
+      <mesh>props/helmet/mace_helmet_a.dae</mesh>
+      <textures><texture file="props/helmet/mace_a4.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="helmet-thracian-plume">
+      <mesh>props/helmet/mace_helmet_h.dae</mesh>
+      <textures><texture file="props/helmet/mace_c2.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="helmet-thracian-crested">
+      <mesh>props/helmet/helmet_thracian_4.dae</mesh>
+      <textures><texture file="props/helmet/mace_c2.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>playercolor_spec.xml</material>
+</actor>

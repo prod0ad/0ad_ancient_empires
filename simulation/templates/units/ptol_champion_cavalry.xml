@@ -12,6 +12,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>    
   <VisualActor>
-    <Actor>units/ptolemies/cavalry_spearman_e.xml</Actor>
+    <Actor>units/ptolemies/champion_cavalry.xml</Actor>
   </VisualActor>
 </Entity>

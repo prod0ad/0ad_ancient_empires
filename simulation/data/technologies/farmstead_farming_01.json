@@ -1,13 +1,13 @@
 {
 	"genericName": "Improved Farming",
 	"description": "A horse drawn instrument to turn the sod.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 75},
+	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "plow.png",
 	"researchTime": 40,
-	"tooltip": "Workers +15% farming rate.",
-	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15}],
+	"tooltip": "Workers +20% farming rate.",
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

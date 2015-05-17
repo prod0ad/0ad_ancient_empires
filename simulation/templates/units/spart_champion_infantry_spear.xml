@@ -16,9 +16,9 @@
     </Aura1>
   </Auras>
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>3</Pierce>
-    <Crush>7</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
@@ -30,13 +30,13 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>36</BuildTime>
     <Population>2</Population>	
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>50</metal>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Loot>
@@ -44,10 +44,10 @@
     <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>5</metal>
+    <metal>4</metal>
   </Loot>  
   <Health>
-    <Max>210</Max>
+    <Max>180</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
@@ -60,7 +60,7 @@
     <Civ>spart</Civ>
 	<GenericName>Champion Spearman</GenericName>
     <SpecificName>Spartan Royal Guard</SpecificName>
-	<Tooltip>Powerful Champion Spearman with fear aura. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Powerful Champion Infantry with Fear Aura. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
     <Icon>units/spart_champion_infantry_spear.png</Icon>
   </Identity>
   <VisualActor>

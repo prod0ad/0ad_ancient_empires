@@ -1,15 +1,15 @@
 <Entity parent="template_unit_cavalry">
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>2</Pierce>
-    <Crush>6</Crush>
+    <Hack>0</Hack>
+    <Pierce>1</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>225</Max>
+    <Max>180</Max>
   </Health>   
   <Attack>
     <Melee>
-      <Hack>32</Hack>
+      <Hack>24</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
@@ -39,6 +39,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Heavy Cavalry</GenericName>
-    <Tooltip>Powerful heavy cavalry.</Tooltip>		
+    <Tooltip>Powerful Melee Cavalry.</Tooltip>		
   </Identity>
 </Entity>

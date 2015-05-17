@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>20</Radius>
+      <Affects>Soldier</Affects>
+	  <AffectedPlayers>Enemy</AffectedPlayers>
+      <Modifications>
+        <Attack.Melee.Hack> <Multiply>0.8</Multiply> </Attack.Melee.Hack>
+        <Attack.Ranged.Pierce> <Multiply>0.8</Multiply> </Attack.Ranged.Pierce>		
+        <Attack.Ranged.Crush> <Multiply>0.8</Multiply> </Attack.Ranged.Crush>				
+      </Modifications>
+      <AuraName>Feared (20%)</AuraName>
+      <AuraDescription>Enemy units in range -20% attack (does not stack).</AuraDescription>
+    </Aura1>
+  </Auras>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>80</Hack>
       <Pierce>0</Pierce>
-      <Crush>30.0</Crush>
+      <Crush>0</Crush>
       <MaxRange>7.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
+	  <Bonuses>
+		<AntiStructure>
+		  <Classes>Structure</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiStructure>
+		<AntiMech>
+		  <Classes>Mechanical</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiMech>		
+	  </Bonuses>		  
     </Melee>
   </Attack>
   <Armour>
-    <Hack>6</Hack>
-    <Pierce>5</Pierce>
-    <Crush>4</Crush>
+    <Hack>1</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Cost>
     <Population>5</Population>
@@ -36,13 +61,13 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>480</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Elephant Levy Melee</VisibleClasses>
+    <VisibleClasses datatype="tokens">Elephant Levy Melee -Unique</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
-    <Tooltip>Powerful unit especially strong versus Cavalry and Structures.</Tooltip>	
+    <Tooltip>Powerful Unit with Fear Aura. Deals x1.5 damage to Structures and Mechanical.</Tooltip>	
   </Identity>
   <Obstruction>
     <Unit radius="3.0"/>
@@ -84,3 +109,4 @@
     <Actor>units/mauryans/champion_elephant.xml</Actor>
   </VisualActor>
 </Entity>
+

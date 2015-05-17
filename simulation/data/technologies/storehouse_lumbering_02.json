@@ -1,7 +1,7 @@
 {
 	"genericName": "Advanced Lumber Harvesting",
 	"description": "Increases wood gathering rates for trees.",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
 	"supersedes": "storehouse_lumbering_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",

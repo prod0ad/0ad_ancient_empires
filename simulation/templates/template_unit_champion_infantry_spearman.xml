@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry">
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>3</Pierce>
-    <Crush>6</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Cost>
     <BuildTime>20</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>40</food>
+      <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>45</metal>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>180</Max>
+    <Max>165</Max>
   </Health>  
   <Attack>
     <Melee>
-      <Hack>12</Hack>
+      <Hack>15</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -28,11 +28,11 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry</Classes>
-		  <Multiplier>3</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiCavalry>
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
-		  <Multiplier>3</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiElephant>		
 	  </Bonuses>   
     </Melee>
@@ -50,7 +50,7 @@
       formations/phalanx
       formations/testudo
     </Formations>
-	<Tooltip>Deals double damage vs Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Deals x2 damage to Cavalry and Elephants.</Tooltip>	
   </Identity>
   <Sound>
     <SoundGroups>

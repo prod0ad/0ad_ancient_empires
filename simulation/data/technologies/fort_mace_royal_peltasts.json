@@ -1,0 +1,12 @@
+{
+	"genericName": "Royal Peltasts",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_imperial"},	
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "helmet_corinthian_gold.png",
+	"researchTime": 40,
+	"tooltip": "Upgrades Hypaspists to Royal Peltasts, with a ranged attack.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Unique Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

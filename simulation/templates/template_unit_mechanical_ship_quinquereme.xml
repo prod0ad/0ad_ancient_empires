@@ -4,7 +4,7 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>72.0</Crush>
+      <Crush>60.0</Crush>
       <MaxRange>75.0</MaxRange>
       <MinRange>20.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
@@ -17,7 +17,7 @@
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
-        <Crush>36.0</Crush>
+        <Crush>30.0</Crush>
       </Splash>
     </Ranged>
   </Attack>
@@ -41,7 +41,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>1200</Max>
+    <Max>1000</Max>
   </Health>
   <Identity>
     <GenericName>Heavy Warship</GenericName>

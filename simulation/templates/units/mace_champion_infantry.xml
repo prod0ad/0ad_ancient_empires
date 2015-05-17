@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>3</Pierce>
-    <Crush>7</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>18</Hack>
+      <Hack>20</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Structure</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>
+		<AntiCavalry>
+		  <Classes>Cavalry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>
+		<AntiElephant>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiElephant>			
+	  </Bonuses>  		  
     </Melee>
   </Attack>
   <Cost>
     <BuildTime>20</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>40</food>
+      <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>50</metal>
@@ -26,13 +40,13 @@
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>4</food>
+    <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>5</metal>
   </Loot>  
   <Health>
-    <Max>165</Max>
+    <Max>150</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
@@ -40,10 +54,10 @@
   <Identity>
     <Civ>mace</Civ>
     <GenericName>Champion Spearman</GenericName>
-    <SpecificName>Shield Bearer</SpecificName>
+    <SpecificName>Hypaspist</SpecificName>
     <Icon>units/macedonian_hypaspist.png</Icon>
 	<SelectionGroupName>units/mace_champion_infantry_a</SelectionGroupName>
-	<Tooltip>Fast and tough Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>			
+	<Tooltip>Versatile Champion Infantry. Deals x1.5 damage to Cavalry, Elephants and Structures.</Tooltip>			
 	<RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>
@@ -51,6 +65,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/macedonians/mace_champion_hypaspist.xml</Actor>
+    <Actor>units/macedonians/mace_champion_infantry.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Hack>2</Hack>
+    <Hack>0</Hack>
     <Pierce>20</Pierce>
-    <Crush>2</Crush>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>0.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>60.0</Crush>
+      <Hack>0</Hack>
+      <Pierce>0</Pierce>
+      <Crush>80</Crush>
       <MaxRange>6</MaxRange>
       <RepeatTime>4000</RepeatTime>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
@@ -33,7 +33,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>400</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>

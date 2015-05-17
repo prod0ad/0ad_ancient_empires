@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>3</Pierce>
-    <Crush>7</Crush>
+    <Hack>0</Hack>
+    <Pierce>2</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Ranged>
 	  <Bonuses>
 		<AntiStructure>
 		  <Classes>Structure</Classes>
-		  <Multiplier>5</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiStructure>
 		<AntiMech>
 		  <Classes>Mechanical</Classes>
-		  <Multiplier>5</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiMech>		
 	  </Bonuses>	
     </Ranged>
@@ -24,7 +24,7 @@
     <SpecificName>Iberian Noble</SpecificName>
     <Icon>units/iber_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>
-	<Tooltip>Champion Ranged Cavalry. Deals x5 damage to Structures and Mechanical.</Tooltip>
+	<Tooltip>Champion Ranged Cavalry. Deals x2 damage to Structures and Mechanical.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/champion_unit_2.xml</Actor>

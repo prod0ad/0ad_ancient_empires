@@ -4,7 +4,7 @@
     <Civ>mace</Civ>
     <SelectionGroupName>units/mace_cavalry_spearman_b</SelectionGroupName>
     <GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Hetairos</SpecificName>
+    <SpecificName>Thessalian Hippeus</SpecificName>
     <RequiredTechnology>phase_city</RequiredTechnology>		
     <Icon>units/mace_cavalry_spearman.png</Icon>
   </Identity>

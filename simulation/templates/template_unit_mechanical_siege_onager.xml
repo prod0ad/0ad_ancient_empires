@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Hack>1</Hack>
+    <Hack>0</Hack>
     <Pierce>5</Pierce>
-    <Crush>1</Crush>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>72.0</Crush>
+      <Crush>60.0</Crush>
       <MaxRange>75</MaxRange>
       <MinRange>20.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
@@ -22,15 +22,25 @@
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
-        <Crush>36.0</Crush>
+        <Crush>30.0</Crush>
       </Splash>
+	  <Bonuses>
+		<AntiChampion>
+		  <Classes>Structure</Classes>
+		  <Multiplier>2</Multiplier>
+		</AntiChampion>
+		<AntiChampion>
+		  <Classes>Mechanical</Classes>
+		  <Multiplier>2</Multiplier>
+		</AntiChampion>		
+	  </Bonuses>		  
     </Ranged>
   </Attack>
   <Cost>
     <BuildTime>45</BuildTime>
     <Resources>
-      <wood>160</wood>
-      <stone>80</stone>
+      <wood>100</wood>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -38,20 +48,20 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>105</Max>
+    <Max>100</Max>
   </Health>
   <Identity>
     <GenericName>Siege Catapult</GenericName>
-    <Tooltip>Causes splash damage.</Tooltip>
+	<Tooltip>Very Long Ranged Siege Weapon. Deals x2 damage to Structures and Mechanical Units.</Tooltip>
     <Classes datatype="tokens">Ranged Catapult</Classes>
     <RequiredTechnology>phase_imperial</RequiredTechnology>	
   </Identity>
   <Loot>
     <xp>0</xp>
     <food>0</food>
-    <wood>16</wood>
-    <stone>8</stone>
-    <metal>0</metal>
+    <wood>10</wood>
+    <stone>0</stone>
+    <metal>10</metal>
   </Loot>
   <Selectable>
     <Overlay>

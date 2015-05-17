@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>2</Pierce>
-    <Crush>7</Crush>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>8</Hack>
+      <Hack>10</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -32,7 +32,7 @@
     <metal>3</metal>
   </Loot>  
   <Health>
-    <Max>135</Max>
+    <Max>120</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
@@ -43,7 +43,7 @@
     <SpecificName>Anusyia</SpecificName>
     <Classes datatype="tokens">Immortal</Classes>
     <Icon>units/pers_champion_infantry.png</Icon>
-	<Tooltip>Fast moving and fast trained Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Fast trained Champion Infantry. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
   </Identity> 
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>

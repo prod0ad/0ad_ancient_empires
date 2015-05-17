@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/mace_champion_infantry_a">
+<Entity parent="units/mace_champion_infantry">
   <Attack>
-    <Melee>
-      <Hack>21</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>6.0</MaxRange>
-      <RepeatTime>1500</RepeatTime>
-    </Melee>
-  </Attack>
-  <Health>
-    <Max>180</Max>
-  </Health>
-  <Vision>
-    <Range>44</Range>
-  </Vision>
+    <Melee disable=""/>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>20</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>28</MaxRange>
+      <MinRange>0.0</MinRange>		  
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>1.1</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses> 	  
+    </Ranged>
+  </Attack> 
   <Identity>
-    <SpecificName>Silver Shield</SpecificName>
+    <VisibleClasses datatype="tokens">Ranged -Melee</VisibleClasses>  
+    <SpecificName>Royal Peltast</SpecificName>
+    <GenericName>Champion Skirmisher</GenericName>	
+	<Tooltip>Champion Ranged Infantry.</Tooltip>		
     <Icon>units/macedonian_argyraspidai.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/macedonians/mace_champion_argyraspis.xml</Actor>
+    <Actor>units/macedonians/mace_champion_infantry_e.xml</Actor>
   </VisualActor>
 </Entity>

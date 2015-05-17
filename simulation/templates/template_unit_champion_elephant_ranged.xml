@@ -19,7 +19,7 @@
     <Melee disable=""/>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>20</Pierce>
+      <Pierce>24</Pierce>
       <Crush>0</Crush>
       <MaxRange>44.0</MaxRange>
       <MinRange>0.0</MinRange>	  

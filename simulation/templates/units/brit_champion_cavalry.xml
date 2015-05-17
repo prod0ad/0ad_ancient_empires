@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>2</Pierce>
-    <Crush>2</Crush>
+    <Hack>2</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>24</Pierce>
+      <Pierce>30</Pierce>
       <Crush>0</Crush>
       <MaxRange>28</MaxRange>
       <MinRange>0.0</MinRange>		  
@@ -22,21 +22,21 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>70</food>
-      <wood>0</wood>
-	  <metal>40</metal>
+      <food>0</food>
+      <wood>60</wood>
+	  <metal>50</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>7</food>
-    <wood>0</wood>
+    <food>0</food>
+    <wood>6</wood>
     <stone>0</stone>
-    <metal>4</metal>
+    <metal>5</metal>
   </Loot>  
   <Health>
-    <Max>150</Max>
+    <Max>165</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>14</WalkSpeed>

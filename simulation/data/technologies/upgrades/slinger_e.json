@@ -1,6 +1,6 @@
 {
 	"genericName": "Elite Slingers",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 0, "wood": 0, "stone": 300, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "slinger_e.png",
