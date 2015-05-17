@@ -2,7 +2,6 @@
 	"genericName": "Advanced Heavy Cavalry",
 	"autoResearch": true,
 	"requirements": {"tech": "upgrades/cavalry_heavy_a"},
-	"tooltip": "Swordsmen +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Health/Max", "multiply": 1.1},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.1},

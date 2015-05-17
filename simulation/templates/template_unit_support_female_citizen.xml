@@ -2,12 +2,12 @@
 <Entity parent="template_unit_support">
   <Attack>
     <Melee>
-      <Hack>4</Hack>
+      <Hack>3</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>4.0</MaxRange>
+      <MaxRange>3.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Infantry Huntable Cavalry Champion Structure CitizenSoldier</RestrictedClasses>
+      <RestrictedClasses datatype="tokens">Huntable</RestrictedClasses>
     </Melee>
     <Slaughter>
       <Hack>25.0</Hack>
@@ -17,7 +17,7 @@
     </Slaughter>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>8</Pierce>
+      <Pierce>16</Pierce>
       <Crush>0</Crush>
       <MaxRange>24</MaxRange>
       <MinRange>0.0</MinRange>

@@ -47,7 +47,7 @@
     <Static width="17.0" depth="17.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <BatchTimeModifier>0.75</BatchTimeModifier>
   </ProductionQueue>
   <Sound>
     <SoundGroups>

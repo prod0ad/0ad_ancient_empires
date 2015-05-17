@@ -1,6 +1,6 @@
 {
 	"genericName": "Advanced Weapon Forging",
-	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 350},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"supersedes": "blacksmith_attack_melee_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",

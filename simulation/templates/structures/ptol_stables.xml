@@ -61,7 +61,8 @@
     </Entities>
     <Technologies datatype="tokens">	
 	  upgrades/cavalry_light_a
-	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_light_e	
+	  upgrades/camel_archer_e	  
       stables_speed_train
 	  stables_speed_batch  
       stables_speed_cavalry_01

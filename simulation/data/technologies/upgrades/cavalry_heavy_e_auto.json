@@ -2,9 +2,8 @@
 	"genericName": "Elite Heavy Cavalry",
 	"autoResearch": true,
 	"requirements": {"tech": "upgrades/cavalry_heavy_e"},
-	"tooltip": "Swordsmen +10% attack, hit points and vision.",
 	"modifications": [
-	    {"value": "Health/Max", "multiply": 1.1},	
+	    {"value": "Health/Max", "multiply": 1.15},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.1},
 		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
 		{"value": "Attack/Melee/Crush", "multiply": 1.1},

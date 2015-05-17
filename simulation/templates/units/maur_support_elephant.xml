@@ -10,7 +10,7 @@
     <Entities datatype="tokens"/>
   </Builder>
   <Cost>
-    <Population>3</Population>  
+    <Population>5</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
       <food>150</food>
@@ -67,7 +67,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed>6</WalkSpeed>
+    <WalkSpeed>7</WalkSpeed>
     <Run>
       <Speed>10.0</Speed>
     </Run>

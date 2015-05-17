@@ -1,9 +1,9 @@
 {
 	"genericName": "Dictatorship",
 	"description": ".",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "political_face.png",
 	"researchTime": 40,
 	"tooltip": "Champion Cavalry +10% attack and speed.",

@@ -1,7 +1,7 @@
 {
 	"genericName": "Silk Route",
 	"description": ".",
-	"cost": {"food": 0, "wood": 0, "stone": 275, "metal": 325},
+	"cost": {"food": 0, "wood": 0, "stone": 250, "metal": 350},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "sele"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "wheel.png",

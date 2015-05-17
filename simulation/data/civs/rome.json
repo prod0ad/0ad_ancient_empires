@@ -33,7 +33,7 @@
 				{
 					"Name": "Gladius Hispaniensis",
 					"History": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
-					"Description": "Infantry Swordsmen +20% attack rate."
+					"Description": "Infantry Swordsmen -20% attack rate."
 				}								
 			],
 			"Heroes":

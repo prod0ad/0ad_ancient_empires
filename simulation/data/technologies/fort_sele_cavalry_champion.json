@@ -1,11 +1,11 @@
 {
 	"genericName": "Seleucid Cataphracts",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 500},
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 500},
 	"requirements": {"all": [{"tech": "phase_imperial"}, {"tech": "upgrades/cavalry_heavy_e"}]},
 	"requirementsTooltip": "Requires Elite Heavy Cavalry and Imperial Phase.",
 	"icon": "armor_plates_cavalry.png",
 	"researchTime": 40,
-	"tooltip": "Hetairoi and Heavy Cavalry +3 hack, +2 pierce armor, -15% speed.",
+	"tooltip": "Hetairoi and Heavy Cavalry +2 hack, +1 pierce armor, -10% speed.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

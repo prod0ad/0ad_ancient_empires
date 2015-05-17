@@ -1,0 +1,14 @@
+{
+	"genericName": "Elephant Lore",
+	"description": ".",
+	"description": ".",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "structures/elephant_stables.png",
+	"researchTime": 40,
+	"tooltip": "Elephant Units -1 population cost.",
+	"modifications": [{"value": "Cost/PopulationBonus", "replace": 4}],
+	"affects": ["Elephant"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

@@ -1,14 +1,16 @@
 {
 	"genericName": "Cavalry Conscription",
 	"description": "Significantly increase training speed of soldiers at the barracks by training them in large batches or battalions.",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 150},
+	"cost": {"food": 900, "wood": 0, "stone": 0, "metal": 0},
 	"supersedes": "stables_speed_train",	
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "fist_spear.png",
 	"researchTime": 40,
-	"tooltip": "Stables batch training 20% faster.",
-	"modifications": [{"value": "ProductionQueue/BatchTimeModifier", "add": -0.2}],
-	"affects": ["Stables"],
+	"tooltip": "Levy Cavalry train 20% faster. Unlocks Cavalry Conscription.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.8}
+	],
+	"affects": ["Cavalry Levy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

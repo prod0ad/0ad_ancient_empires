@@ -1,7 +1,7 @@
 {
 	"genericName": "Kestros Slings",
 	"description": "A deadly dart throwing sling used in late Macedon.",
-	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
+	"cost": {"food": 0, "wood": 350, "stone": 0, "metal": 250},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "javelin_thong.png",

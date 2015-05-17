@@ -94,6 +94,11 @@
 	],
 	"Structures":
 	[
+		{
+			"Name":"Gerousia",
+			"History":".",			
+			"Description": "Researches unique technologies."
+		} 	
 	],
 	"StartEntities":
 	[

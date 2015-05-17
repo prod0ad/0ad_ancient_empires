@@ -48,7 +48,7 @@
   </Sound>
   <TerritoryInfluence disable=""/>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <BatchTimeModifier>0.75</BatchTimeModifier>
     <Entities datatype="tokens">
       units/rome_infantry_archer_b		  	  		  
       units/rome_infantry_slinger_b

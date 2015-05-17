@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Footprint replace="">
+    <Circle radius="12.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>spart</Civ>
+    <GenericName>Spartan Senate</GenericName>
+    <SpecificName>Gerousia</SpecificName>
+    <Tooltip>Researches Unique Technologies.</Tooltip>
+    <History>The Gerousia is the meeting place for the 30 elected city elders. Of the 30 members, 2 of them were the hereditary Spartan kings, one each from the Agiad and the Eurypontid clans.</History>
+    <Icon>structures/tholos.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_tholos.xml</select>
+      <constructed>interface/complete/building/complete_tholos.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">	
+      fort_spart_land_reform  
+      fort_spart_social_reform
+      fort_spart_defence_reform	  
+      fort_spart_armor_reform 	  
+      fort_spart_reform
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/hellenes/tholos.xml</Actor>
+  </VisualActor>
+</Entity>

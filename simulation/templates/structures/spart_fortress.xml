@@ -14,13 +14,6 @@
     <Entities datatype="tokens">
 	  units/spart_champion_infantry_spear
     </Entities>
-    <Technologies datatype="tokens">
-      fort_spart_armor_reform 	
-      fort_spart_land_reform  
-      fort_spart_social_reform
-      fort_spart_defence_reform	  
-      fort_spart_reform
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/spartans/fortress_up.xml</Actor>

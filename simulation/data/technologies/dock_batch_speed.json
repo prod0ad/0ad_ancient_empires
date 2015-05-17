@@ -6,8 +6,10 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "calipers.png",
 	"researchTime": 40,
-	"tooltip": "Docks -20% batch training time.",
-	"modifications": [{"value": "ProductionQueue/BatchTimeModifier", "add": -0.2}],
-	"affects": ["Dock"],
+	"tooltip": "Ships -20% build time.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.8}
+	],
+	"affects": ["Ship"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

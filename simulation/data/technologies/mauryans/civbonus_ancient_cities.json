@@ -1,0 +1,10 @@
+{
+	"genericName": "Ancient Cities",
+	"description": "The Indians had a tradition of fine archery and a penchant for using massed archers in battle.",
+	"autoResearch": true,
+	"requirements": {"civ": "maur"},		
+	"tooltip": "Civil Centre +10 population.",
+	"modifications": [{"value": "Cost/PopulationBonus", "add": 10}],
+	"affects": ["CivilCentre"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

@@ -33,7 +33,7 @@
     <Static width="30.0" depth="29.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <BatchTimeModifier>0.75</BatchTimeModifier>
     <Entities datatype="tokens">
       units/maur_support_elephant
       units/maur_champion_elephant

@@ -1,11 +1,5 @@
 {
 	"genericName": "Divine Offerings",
-	"specificName": {
-		"hele": "Olympic Games",
-		"mace": "Olympic Games",
-		"spart": "Olympic Games",
-		"athen": "Eleusian Mysteries"
-	},
 	"description": "Units garrisoned in a temple are healed faster.",
 	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 250},
 	"requirements": {"tech": "phase_city"},

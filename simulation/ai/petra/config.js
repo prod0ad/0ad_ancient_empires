@@ -66,7 +66,7 @@ m.Config = function(difficulty)
 			"ptol" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
 			"rome" : [ "structures/{civ}_siege_workshop", "structures/{civ}_army_camp", "structures/{civ}_stables" ],
 			"sele" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
-			"spart" : [ "structures/{civ}_siege_workshop", "structures/{civ}_stables" ]
+			"spart" : [ "structures/{civ}_siege_workshop", "structures/{civ}_stables", "structures/{civ}_gerousia" ]
 		},
 		"naval" : {
 			"default" : [],

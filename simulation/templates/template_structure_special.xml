@@ -41,7 +41,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <BatchTimeModifier>0.75</BatchTimeModifier>
   </ProductionQueue>  
   <Health>
     <Max>2400</Max>

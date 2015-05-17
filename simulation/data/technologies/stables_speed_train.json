@@ -1,14 +1,14 @@
 {
 	"genericName": "Levy Cavalry",
 	"description": "Calling up cavalry levies in time of war helps bolster the ranks of a king's army.",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 0},
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
+	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse_trainer.png",
 	"researchTime": 40,
-	"tooltip": "Levy Cavalry train 10% faster. Unlocks Cavalry Conscription.",
+	"tooltip": "Levy Cavalry train 20% faster. Unlocks Cavalry Conscription.",
 	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.9}
+		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],
 	"affects": ["Cavalry Levy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
