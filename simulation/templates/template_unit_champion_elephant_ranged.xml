@@ -45,7 +45,7 @@
     <Height>8.0</Height>
   </Footprint>  
   <Identity>
-    <VisibleClasses datatype="tokens">Ranged -Melee -Levy Champion</VisibleClasses>
+    <VisibleClasses datatype="tokens">Ranged -Melee -Levy Unique</VisibleClasses>
     <Tooltip>Powerful ranged unit with fear aura.</Tooltip>	
   </Identity>
   <Selectable>

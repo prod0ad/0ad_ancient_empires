@@ -46,31 +46,16 @@
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="Armor 1">
+    <variant frequency="1" name="Armor 1">
       <textures>
         <texture file="skeletal/hele_pezhetairoi_3.dds" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="3" name="Armour-Reinforced Linothorax">
+    <variant frequency="1" name="Armour-Reinforced Linothorax">
       <textures>
         <texture file="skeletal/hele_pezhetairoi.dds" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="hypaspist-armour-cuirass">
-      <textures>
-        <texture file="skeletal/mace_hypaspist_2.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="hypaspist-armour-cuirass-2">
-      <textures>
-        <texture file="skeletal/mace_su1_hypaspist_1.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="hypaspist-armour-cuirass-3">
-      <textures>
-        <texture file="skeletal/mace_su1_hypaspist_2.dds" name="baseTex"/>
-      </textures>
-    </variant>	
   </group>  
   <material>player_trans.xml</material>
 </actor>

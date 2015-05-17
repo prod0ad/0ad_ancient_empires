@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense">
   <Armour>
-    <Hack>5</Hack>
+    <Hack>0</Hack>
     <Pierce>20</Pierce>
-    <Crush>1</Crush>
+    <Crush>0</Crush>
     <Foundation>
-      <Hack>5</Hack>
+      <Hack>0</Hack>
       <Pierce>10</Pierce>
-      <Crush>1</Crush>
+      <Crush>0</Crush>
     </Foundation>
   </Armour>
   <Attack>
@@ -30,7 +30,7 @@
     <Category>House</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
       <wood>50</wood>
       <stone>0</stone>
@@ -49,7 +49,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>800</Max>
+    <Max>400</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>

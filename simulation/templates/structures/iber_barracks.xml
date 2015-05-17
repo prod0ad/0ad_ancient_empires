@@ -13,6 +13,7 @@
     <Entities datatype="tokens">
       units/iber_infantry_spearman_b
       units/iber_infantry_javelinist_b
+	  units/{civ}_infantry_archer_b	  
       units/iber_infantry_swordsman_b	  
       units/iber_infantry_slinger_b
     </Entities>
@@ -20,7 +21,9 @@
 	  upgrades/spearman_a
 	  upgrades/spearman_e		
 	  upgrades/skirmisher_a
-	  upgrades/skirmisher_e		 
+	  upgrades/skirmisher_e		
+	  upgrades/archer_a
+	  upgrades/archer_e		  
 	  upgrades/swordsman_e	  	
 	  upgrades/swordsman_u	 	
 	  upgrades/slinger_e			  

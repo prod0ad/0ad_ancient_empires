@@ -21,10 +21,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/athen_infantry_spearman_b
-      units/athen_infantry_javelinist_b		  
-	  units/athen_infantry_archer_b
-      units/athen_infantry_slinger_b 	  
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_javelinist_b		  
+	  units/{civ}_infantry_archer_b
+      units/{civ}_infantry_slinger_b 	  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a

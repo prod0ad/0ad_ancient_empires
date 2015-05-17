@@ -18,16 +18,19 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/brit_infantry_spearman_b
-      units/brit_infantry_javelinist_b
-      units/brit_infantry_swordsman_b	  
-      units/brit_infantry_slinger_b
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_javelinist_b
+	  units/{civ}_infantry_archer_b	  	  
+      units/{civ}_infantry_swordsman_b	  
+      units/{civ}_infantry_slinger_b
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a
 	  upgrades/spearman_e		
 	  upgrades/skirmisher_a
-	  upgrades/skirmisher_e	  
+	  upgrades/skirmisher_e	
+	  upgrades/archer_a
+	  upgrades/archer_e			  
 	  upgrades/swordsman_e	  	
 	  upgrades/swordsman_u	  	  
 	  upgrades/slinger_e		

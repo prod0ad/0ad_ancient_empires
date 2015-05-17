@@ -4,7 +4,7 @@
 	"autoResearch": true,
 	"requirements": {"civ": "maur"},		
 	"tooltip": "Civil Centre +10 population.",
-	"modifications": [{"value": "Cost/PopulationBonus", "add": 10}],
+	"modifications": [{"value": "Cost/PopulationBonus", "replace": 25}],
 	"affects": ["CivilCentre"],	
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
 }

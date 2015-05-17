@@ -25,7 +25,7 @@
     <Icon>structures/farmstead.png</Icon>
   </Identity>
   <Loot>
-    <xp>100</xp>
+    <xp>0</xp>
     <food>0</food>
     <wood>10</wood>
     <stone>0</stone>

@@ -8,6 +8,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/carthaginians/infantry_swordsman_e.xml</Actor>
+    <Actor>units/celts/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

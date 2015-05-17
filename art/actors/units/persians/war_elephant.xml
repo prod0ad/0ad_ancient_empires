@@ -18,7 +18,7 @@
       </animations>
       <mesh>skeletal/maur_elephant_archer.dae</mesh>
       <props>
-        <prop actor="units/persians/champion_unit_3_mahout.xml" attachpoint="rider"/>
+        <prop actor="units/persians/champion_unit_3_mahout.xml" attachpoint="rider"/>	
       </props>
       <textures>
         <texture file="skeletal/maur_elephant_archer.png" name="baseTex"/>

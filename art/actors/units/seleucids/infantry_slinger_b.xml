@@ -36,7 +36,7 @@
         <prop actor="props/units/heads/head_hele_a.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/sling.xml" attachpoint="r_hand"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
-        <prop actor="props/units/cape_hd.xml" attachpoint="shoulders"/>		
+        <prop actor="props/units/cape_long_ragged.xml" attachpoint="shoulders"/>	
       </props>
       <textures><texture file="skeletal/mace_thureophoros.dds" name="baseTex"/></textures>
     </variant>

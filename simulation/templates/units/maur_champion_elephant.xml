@@ -3,10 +3,14 @@
   <Identity>
     <Civ>maur</Civ>
     <GenericName>War Elephant</GenericName>
-    <SpecificName>Armored Elephant</SpecificName>
+    <SpecificName>War Elephant</SpecificName>
     <Icon>units/maur_champion_elephant.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
+  <Promotion>
+    <Entity>units/maur_champion_elephant_e</Entity>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>    
   <VisualActor>
     <Actor>units/mauryans/elephant_siege.xml</Actor>
   </VisualActor>

@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/mauryans/chariot_a.xml</Actor>
+    <Actor>units/mauryans/chariot_e.xml</Actor>
   </VisualActor>
 </Entity>

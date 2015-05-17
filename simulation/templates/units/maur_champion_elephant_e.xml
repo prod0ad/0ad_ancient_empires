@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/maur_champion_elephant">
+  <Identity>
+    <Civ>maur</Civ>
+    <GenericName>War Elephant</GenericName>
+    <SpecificName>Armored Elephant</SpecificName>
+    <Icon>units/maur_champion_elephant.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Promotion disable=""/>   
+  <VisualActor>
+    <Actor>units/mauryans/elephant_siege_e.xml</Actor>
+  </VisualActor>
+</Entity>

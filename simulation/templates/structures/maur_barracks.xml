@@ -13,12 +13,15 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/maur_infantry_spearman_b
+      units/maur_infantry_javelinist_b		  	  
       units/maur_infantry_archer_b
       units/maur_infantry_swordsman_b	  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a
-	  upgrades/spearman_e		 
+	  upgrades/spearman_e	
+	  upgrades/skirmisher_a
+	  upgrades/skirmisher_e		  
 	  upgrades/archer_a
 	  upgrades/archer_e		
 	  upgrades/swordsman_e	

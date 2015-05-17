@@ -73,7 +73,7 @@
 		{
 			"Name":"Bamboo Longbows",
 			"History":"India was a land of archery. The bulk of any Indian army was made up of highly skilled archers, armed with bamboo longbows.",
-			"Description":"Infantry Archers +50% attack, +25% attack rate."
+			"Description":"Infantry Archers +50% attack but +33% attack rate."
 		},		
 		{
 			"Name": "Wooden Structures",

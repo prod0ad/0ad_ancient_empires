@@ -13,13 +13,13 @@
     </heal>
   </Auras>
   <Armour>
-    <Hack>10</Hack>
+    <Hack>0</Hack>
     <Pierce>25</Pierce>
-    <Crush>5</Crush>
+    <Crush>0</Crush>
     <Foundation>
-      <Hack>5</Hack>
+      <Hack>0</Hack>
       <Pierce>10</Pierce>
-      <Crush>1</Crush>
+      <Crush>0</Crush>
     </Foundation>
   </Armour>	  
   <BuildRestrictions>
@@ -44,7 +44,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>1800</Max>
+    <Max>2400</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x6</SpawnEntityOnDeath>
   </Health>
   <Identity>

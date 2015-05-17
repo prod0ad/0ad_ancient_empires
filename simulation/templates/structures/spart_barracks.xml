@@ -23,7 +23,8 @@
     <Entities datatype="tokens">
 	  units/spart_infantry_spearman_b
       units/spart_infantry_javelinist_b 
-      units/spart_infantry_archer_b 	  
+      units/spart_infantry_archer_b 
+      units/{civ}_infantry_slinger_b 	  
 	  units/spart_champion_infantry_pike  
     </Entities>
     <Technologies datatype="tokens">
@@ -34,6 +35,7 @@
 	  upgrades/skirmisher_u		 
 	  upgrades/archer_merc_a
 	  upgrades/archer_merc_e	
+	  upgrades/slinger_merc_e		  
       barracks_speed_train	
       barracks_speed_batch
 	  barracks_ranged_accuracy

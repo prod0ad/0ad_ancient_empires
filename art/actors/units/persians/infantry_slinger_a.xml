@@ -35,7 +35,7 @@
       <props>
         <prop actor="props/units/weapons/sling.xml" attachpoint="r_hand"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
-        <prop actor="props/units/cape_hd.xml" attachpoint="shoulders"/>		
+        <prop actor="props/units/cape_long_ragged.xml" attachpoint="shoulders"/>	
       </props>
     </variant>
   </group>
