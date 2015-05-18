@@ -4,6 +4,9 @@
     <Square width="40.0" depth="34.0"/>
     <Height>8.0</Height>
   </Footprint>
+  <Cost>
+    <PopulationBonus>20</PopulationBonus>
+  </Cost>  
   <Identity>
     <Civ>maur</Civ>
   </Identity>

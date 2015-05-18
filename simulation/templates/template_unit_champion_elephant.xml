@@ -17,7 +17,7 @@
   </Auras>
   <Attack>
     <Melee>
-      <Hack>80</Hack>
+      <Hack>60</Hack>
       <Pierce>0</Pierce>
       <Crush>0</Crush>
       <MaxRange>7.0</MaxRange>

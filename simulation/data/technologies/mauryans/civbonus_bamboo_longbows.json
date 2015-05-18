@@ -7,7 +7,7 @@
 	"modifications": [
 		{"value": "Attack/Ranged/Pierce", "multiply": 1.5},
 		{"value": "Attack/Ranged/Crush", "multiply": 1.5},
-        {"value": "Attack/Ranged/RepeatTime", "multiply": 1.3}],
+        {"value": "Attack/Ranged/RepeatTime", "replace": 2000}],
 	"affects": ["Infantry Bow"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
