@@ -40,7 +40,7 @@
     <BuildTime>45</BuildTime>
     <Resources>
       <wood>100</wood>
-      <stone>100</stone>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Footprint replace="">

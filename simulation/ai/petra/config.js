@@ -82,15 +82,15 @@ m.Config = function(difficulty)
 		"trader" : 50,
 		"ships" : 70,
 		"house" : 350,
-		"dropsites" : 150,
-		"field" : 160,
+		"dropsites" : 110,
+		"field" : 120,
 		"dock" : 90,
 		"economicBuilding" : 90,
 		"militaryBuilding" : 130,
 		"defenseBuilding" : 70,
 		"civilCentre" : 950,
 		"majorTech" : 700,
-		"minorTech" : 40,
+		"minorTech" : 25,
 		"emergency" : 1000    // used only in emergency situations, should be the highest one 
 	};
 

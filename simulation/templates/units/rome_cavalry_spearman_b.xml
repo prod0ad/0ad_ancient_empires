@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rome</Civ>
 	<SelectionGroupName>units/rome_cavalry_spearman_b</SelectionGroupName>
-	<GenericName>Roman Cavalry</GenericName>
+	<GenericName>Heavy Cavalry</GenericName>
     <SpecificName>Roman Eques</SpecificName>
     <Icon>units/rome_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>		

@@ -52,7 +52,7 @@ Trade resources between your own markets and those of your allies.</Tooltip>
     <CanGuard>false</CanGuard>
   </UnitAI>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>8</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>25</Range>

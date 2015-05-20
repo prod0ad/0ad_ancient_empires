@@ -33,7 +33,7 @@
 				{
 			         "Name":"Machimoi",
 			         "History":"In order to counter the Seleucid threat, the Ptolemies eventually started training Native Egyptians to fight as pikemen.",
-			         "Description":"Pikemen -50% train time."
+			         "Description":"Pikemen -20% resource cost and train time."
 		        },		
 				{
 			         "Name":"Mercenary Army",

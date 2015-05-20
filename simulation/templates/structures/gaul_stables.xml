@@ -61,7 +61,7 @@
     <Entities datatype="tokens">
       units/gaul_cavalry_javelinist_b	
       units/gaul_cavalry_spearman_b
-	  gaul_champion_cavalry_stables
+	  units/gaul_champion_cavalry_stables
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a

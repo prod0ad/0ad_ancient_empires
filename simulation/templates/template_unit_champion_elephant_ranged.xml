@@ -15,6 +15,11 @@
       <AuraDescription>Enemy units in range -20% attack (does not stack).</AuraDescription>
     </Aura1>
   </Auras>
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
+  </Armour>
   <Attack>
     <Melee disable=""/>
     <Ranged>

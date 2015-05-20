@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse_trainer.png",
 	"researchTime": 40,
-	"tooltip": "Levy Cavalry train 20% faster. Unlocks Cavalry Conscription.",
+	"tooltip": "Levy Cavalry -20% train time. Unlocks Cavalry Conscription.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],

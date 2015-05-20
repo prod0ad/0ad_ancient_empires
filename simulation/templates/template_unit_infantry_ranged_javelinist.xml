@@ -14,7 +14,7 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>10</Pierce>
+      <Pierce>8</Pierce>
       <Crush>0</Crush>
       <MaxRange>24</MaxRange>
       <MinRange>0.0</MinRange>

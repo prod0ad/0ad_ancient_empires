@@ -6,9 +6,9 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "sibylline_books.png",
 	"researchTime": 40,
-	"tooltip": "Melee infantry -30% train time.",
+	"tooltip": "Melee infantry -20% train time.",
 	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.70}
+		{"value": "Cost/BuildTime", "multiply": 0.80}
 	],
 	"affects": ["Melee Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

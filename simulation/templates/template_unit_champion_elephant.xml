@@ -35,8 +35,8 @@
     </Melee>
   </Attack>
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>0</Pierce>
+    <Hack>2</Hack>
+    <Pierce>1</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Cost>

@@ -33,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="359.463" y="124.327" z="392.404"/>
-		<Rotation angle="0.0683908"/>
+		<Position x="411.946" y="234.831" z="-78.9237"/>
+		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -46,7 +46,6 @@
   "LockTeams": false,
   "Name": "AE Test Map",
   "PlayerData": [
-    null,
     {},
     {}
   ],
@@ -55,55 +54,6 @@
 }
 ]]></ScriptSettings>
 	<Entities>
-		<Entity uid="11">
-			<Template>skirmish/structures/default_civil_centre</Template>
-			<Player>1</Player>
-			<Position x="375.03824" z="598.87653"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="14500"/>
-		</Entity>
-		<Entity uid="12">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>1</Player>
-			<Position x="346.01594" z="590.4209"/>
-			<Orientation y="-2.50184"/>
-			<Actor seed="12572"/>
-		</Entity>
-		<Entity uid="13">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>1</Player>
-			<Position x="351.47321" z="584.05707"/>
-			<Orientation y="-2.54018"/>
-			<Actor seed="43844"/>
-		</Entity>
-		<Entity uid="14">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>1</Player>
-			<Position x="357.4084" z="577.21094"/>
-			<Orientation y="-2.05634"/>
-			<Actor seed="43846"/>
-		</Entity>
-		<Entity uid="15">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>1</Player>
-			<Position x="363.80979" z="570.98273"/>
-			<Orientation y="-1.90214"/>
-			<Actor seed="35116"/>
-		</Entity>
-		<Entity uid="16">
-			<Template>skirmish/units/special_starting_unit</Template>
-			<Player>1</Player>
-			<Position x="391.96213" z="619.14948"/>
-			<Orientation y="0.71781"/>
-			<Actor seed="7836"/>
-		</Entity>
-		<Entity uid="17">
-			<Template>skirmish/units/default_cavalry</Template>
-			<Player>1</Player>
-			<Position x="393.05326" z="577.12262"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="21124"/>
-		</Entity>
 		<Entity uid="20">
 			<Template>gaia/flora_bush_grapes</Template>
 			<Player>0</Player>
@@ -622,115 +572,12 @@
 			<Orientation y="2.35622"/>
 			<Actor seed="59442"/>
 		</Entity>
-		<Entity uid="1523">
-			<Template>gaia/geology_stonemine_medit_quarry</Template>
-			<Player>0</Player>
-			<Position x="478.76624" z="115.53115"/>
-			<Orientation y="2.35622"/>
-		</Entity>
-		<Entity uid="1525">
-			<Template>skirmish/units/default_cavalry</Template>
-			<Player>2</Player>
-			<Position x="360.95105" z="176.7764"/>
-			<Orientation y="-0.6336"/>
-			<Actor seed="21124"/>
-		</Entity>
-		<Entity uid="1527">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>2</Player>
-			<Position x="387.73444" z="180.26575"/>
-			<Orientation y="-1.90215"/>
-			<Actor seed="35116"/>
-		</Entity>
-		<Entity uid="1528">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>2</Player>
-			<Position x="394.66254" z="173.87687"/>
-			<Orientation y="-2.05634"/>
-			<Actor seed="43846"/>
-		</Entity>
-		<Entity uid="1529">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>2</Player>
-			<Position x="401.08219" z="168.04291"/>
-			<Orientation y="-2.54018"/>
-			<Actor seed="43844"/>
-		</Entity>
-		<Entity uid="1530">
-			<Template>skirmish/units/default_support_female_citizen</Template>
-			<Player>2</Player>
-			<Position x="407.40809" z="160.87992"/>
-			<Orientation y="-2.50185"/>
-			<Actor seed="12572"/>
-		</Entity>
-		<Entity uid="1531">
-			<Template>skirmish/structures/default_civil_centre</Template>
-			<Player>2</Player>
-			<Position x="381.22452" z="151.9672"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="14500"/>
-		</Entity>
 		<Entity uid="1618">
 			<Template>gaia/flora_tree_oak_large</Template>
 			<Player>0</Player>
 			<Position x="9.60859" z="391.20041"/>
 			<Orientation y="2.35337"/>
 			<Actor seed="43742"/>
-		</Entity>
-		<Entity uid="1706">
-			<Template>gaia/geology_stonemine_medit_quarry</Template>
-			<Player>0</Player>
-			<Position x="45.43563" z="364.39954"/>
-			<Orientation y="2.35337"/>
-			<Actor seed="28748"/>
-		</Entity>
-		<Entity uid="1707">
-			<Template>gaia/geology_stonemine_medit_quarry</Template>
-			<Player>0</Player>
-			<Position x="720.9214" z="391.64155"/>
-			<Orientation y="2.35621"/>
-		</Entity>
-		<Entity uid="1708">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="722.01685" z="373.62244"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="32356"/>
-		</Entity>
-		<Entity uid="1709">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="41.94845" z="383.22407"/>
-			<Orientation y="2.35337"/>
-			<Actor seed="42892"/>
-		</Entity>
-		<Entity uid="1710">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="106.67411" z="541.31348"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="63518"/>
-		</Entity>
-		<Entity uid="1711">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="126.04879" z="163.3556"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="37686"/>
-		</Entity>
-		<Entity uid="1712">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="643.07868" z="532.13123"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="51434"/>
-		</Entity>
-		<Entity uid="1713">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="667.36463" z="217.0605"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="35510"/>
 		</Entity>
 		<Entity uid="1714">
 			<Template>gaia/fauna_fish_tuna</Template>
@@ -903,14 +750,14 @@
 		<Entity uid="1928">
 			<Template>gaia/fauna_sheep</Template>
 			<Player>1</Player>
-			<Position x="382.28919" z="630.58027"/>
+			<Position x="395.61628" z="608.30054"/>
 			<Orientation y="0.71625"/>
 			<Actor seed="18334"/>
 		</Entity>
 		<Entity uid="1929">
 			<Template>gaia/fauna_sheep</Template>
 			<Player>1</Player>
-			<Position x="386.64103" z="624.95844"/>
+			<Position x="399.96811" z="602.67872"/>
 			<Orientation y="0.6865"/>
 			<Actor seed="27266"/>
 		</Entity>
@@ -926,41 +773,6 @@
 			<Player>1</Player>
 			<Position x="400.60029" z="609.54023"/>
 			<Orientation y="0.7948"/>
-			<Actor seed="13214"/>
-		</Entity>
-		<Entity uid="1937">
-			<Template>skirmish/units/special_starting_unit</Template>
-			<Player>2</Player>
-			<Position x="363.689" z="132.2884"/>
-			<Orientation y="-2.5037"/>
-			<Actor seed="7836"/>
-		</Entity>
-		<Entity uid="1938">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="369.30594" z="128.19657"/>
-			<Orientation y="-2.44077"/>
-			<Actor seed="4374"/>
-		</Entity>
-		<Entity uid="1939">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="374.98313" z="123.8635"/>
-			<Orientation y="-2.28576"/>
-			<Actor seed="57222"/>
-		</Entity>
-		<Entity uid="1940">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="357.98963" z="138.73337"/>
-			<Orientation y="-2.49575"/>
-			<Actor seed="34378"/>
-		</Entity>
-		<Entity uid="1941">
-			<Template>gaia/fauna_sheep</Template>
-			<Player>2</Player>
-			<Position x="351.71201" z="145.17344"/>
-			<Orientation y="-2.36634"/>
 			<Actor seed="13214"/>
 		</Entity>
 		<Entity uid="2777">
@@ -2516,13 +2328,6 @@
 			<Position x="241.00766" z="86.95315"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="21236"/>
-		</Entity>
-		<Entity uid="3069">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="241.97876" z="132.95145"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="37686"/>
 		</Entity>
 		<Entity uid="3070">
 			<Template>gaia/flora_tree_oak</Template>
@@ -11365,20 +11170,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="37168"/>
 		</Entity>
-		<Entity uid="4663">
-			<Template>gaia/geology_metal_mediterranean_slabs</Template>
-			<Player>0</Player>
-			<Position x="233.66099" z="624.89643"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="63518"/>
-		</Entity>
-		<Entity uid="4664">
-			<Template>gaia/geology_stonemine_medit_quarry</Template>
-			<Player>0</Player>
-			<Position x="533.69013" z="596.52192"/>
-			<Orientation y="2.35337"/>
-			<Actor seed="28748"/>
-		</Entity>
 		<Entity uid="4665">
 			<Template>gaia/fauna_goat</Template>
 			<Player>0</Player>
@@ -11917,6 +11708,468 @@
 			<Position x="579.09668" z="608.89454"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4794"/>
+		</Entity>
+		<Entity uid="4768">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="640.70832" z="529.27936"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4769">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="649.86738" z="527.45545"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4770">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="643.60462" z="522.35175"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4771">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="653.94135" z="520.7038"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4772">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="243.6207" z="617.50965"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4773">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="233.28412" z="619.1576"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4774">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="239.54676" z="624.2613"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4775">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="230.38782" z="626.08521"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4776">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="117.1867" z="532.6446"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4777">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="106.84997" z="534.29255"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4778">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="113.11272" z="539.39625"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4779">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="103.95366" z="541.22016"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4780">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="51.1739" z="385.06055"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4781">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="40.83716" z="386.7085"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4782">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="47.09992" z="391.8122"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4783">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="37.94086" z="393.63611"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4784">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="132.42344" z="157.2671"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4785">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="122.08671" z="158.91504"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4786">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="128.34946" z="164.01874"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4787">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="119.1904" z="165.84266"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4788">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="249.20286" z="128.57233"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4789">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="238.86612" z="130.22028"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4790">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="245.12888" z="135.32398"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4791">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="235.96982" z="137.1479"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4792">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="673.91816" z="214.28583"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4793">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="663.58143" z="215.93378"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4794">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="669.84418" z="221.03748"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4795">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="660.68512" z="222.8614"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4796">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="726.29834" z="364.44562"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="18070"/>
+		</Entity>
+		<Entity uid="4797">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="715.96161" z="366.09357"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35946"/>
+		</Entity>
+		<Entity uid="4798">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="722.22437" z="371.19727"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="35630"/>
+		</Entity>
+		<Entity uid="4799">
+			<Template>gaia/geology_metal_desert_small</Template>
+			<Player>0</Player>
+			<Position x="713.06531" z="373.02118"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="55604"/>
+		</Entity>
+		<Entity uid="4818">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="714.00251" z="417.40662"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46190"/>
+		</Entity>
+		<Entity uid="4819">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="722.86426" z="414.58762"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44276"/>
+		</Entity>
+		<Entity uid="4820">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="717.18769" z="409.76542"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9690"/>
+		</Entity>
+		<Entity uid="4821">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="707.76246" z="410.62543"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45724"/>
+		</Entity>
+		<Entity uid="4822">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="505.65558" z="609.49933"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="45724"/>
+		</Entity>
+		<Entity uid="4823">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="515.08082" z="608.63929"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="9690"/>
+		</Entity>
+		<Entity uid="4824">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="520.7574" z="613.46155"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="44276"/>
+		</Entity>
+		<Entity uid="4825">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="511.89563" z="616.28052"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46190"/>
+		</Entity>
+		<Entity uid="4826">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="43.60338" z="342.43131"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="45724"/>
+		</Entity>
+		<Entity uid="4827">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="53.02862" z="341.5713"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="9690"/>
+		</Entity>
+		<Entity uid="4828">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="58.7052" z="346.3935"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="44276"/>
+		</Entity>
+		<Entity uid="4829">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="49.84343" z="349.2125"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46190"/>
+		</Entity>
+		<Entity uid="4830">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="470.1349" z="118.35486"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="45724"/>
+		</Entity>
+		<Entity uid="4831">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="479.56012" z="117.49485"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="9690"/>
+		</Entity>
+		<Entity uid="4832">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="485.2367" z="122.31705"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="44276"/>
+		</Entity>
+		<Entity uid="4833">
+			<Template>gaia/geology_stone_desert_small</Template>
+			<Player>0</Player>
+			<Position x="476.37494" z="125.13605"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46190"/>
+		</Entity>
+		<Entity uid="4834">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="372.39939" z="597.81012"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20808"/>
+		</Entity>
+		<Entity uid="4835">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="353.2475" z="578.50031"/>
+			<Orientation y="-2.32497"/>
+			<Actor seed="3430"/>
+		</Entity>
+		<Entity uid="4836">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="380.13181" z="572.65247"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54488"/>
+		</Entity>
+		<Entity uid="4837">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="384.09226" z="576.19196"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25712"/>
+		</Entity>
+		<Entity uid="4838">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="388.70398" z="580.42774"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52980"/>
+		</Entity>
+		<Entity uid="4839">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="392.77515" z="584.5417"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64356"/>
+		</Entity>
+		<Entity uid="4840">
+			<Template>skirmish/units/special_starting_unit</Template>
+			<Player>1</Player>
+			<Position x="386.42576" z="613.63904"/>
+			<Orientation y="0.75838"/>
+			<Actor seed="5806"/>
+		</Entity>
+		<Entity uid="4841">
+			<Template>skirmish/units/special_starting_unit</Template>
+			<Player>2</Player>
+			<Position x="393.70105" z="165.5217"/>
+			<Orientation y="0.75838"/>
+			<Actor seed="5806"/>
+		</Entity>
+		<Entity uid="4842">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="400.05045" z="136.42435"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="64356"/>
+		</Entity>
+		<Entity uid="4843">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="395.97928" z="132.3104"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="52980"/>
+		</Entity>
+		<Entity uid="4844">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="391.36756" z="128.07462"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="25712"/>
+		</Entity>
+		<Entity uid="4845">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="387.40711" z="124.53513"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="54488"/>
+		</Entity>
+		<Entity uid="4846">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>2</Player>
+			<Position x="360.5228" z="130.38297"/>
+			<Orientation y="-2.32497"/>
+			<Actor seed="3430"/>
+		</Entity>
+		<Entity uid="4847">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="379.67469" z="149.69278"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="20808"/>
+		</Entity>
+		<Entity uid="4848">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="404.0123" z="166.49021"/>
+			<Orientation y="0.73618"/>
+			<Actor seed="56874"/>
+		</Entity>
+		<Entity uid="4849">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="407.24341" z="154.56138"/>
+			<Orientation y="0.6865"/>
+			<Actor seed="27266"/>
+		</Entity>
+		<Entity uid="4850">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="407.87558" z="161.42289"/>
+			<Orientation y="0.7948"/>
+			<Actor seed="13214"/>
+		</Entity>
+		<Entity uid="4851">
+			<Template>gaia/fauna_sheep</Template>
+			<Player>2</Player>
+			<Position x="402.89158" z="160.1832"/>
+			<Orientation y="0.71625"/>
+			<Actor seed="18334"/>
 		</Entity>
 	</Entities>
 	<Paths/>

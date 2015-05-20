@@ -34,9 +34,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/sele_mechanical_siege_ram	
-      units/sele_mechanical_siege_lithobolos_packed
-      units/sele_mechanical_siege_tower
+      units/{civ}_mechanical_siege_ram 	
+      units/{civ}_mechanical_siege_polybolos_packed
+      units/{civ}_mechanical_siege_lithobolos_packed
+      units/{civ}_mechanical_siege_tower 
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

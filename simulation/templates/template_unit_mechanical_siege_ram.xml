@@ -9,19 +9,29 @@
     <Melee>
       <Hack>0</Hack>
       <Pierce>0</Pierce>
-      <Crush>40</Crush>
+      <Crush>1</Crush>
       <MaxRange>6</MaxRange>
       <RepeatTime>4000</RepeatTime>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
-      <RestrictedClasses datatype="tokens">Elephant Infantry Cavalry Champion Worker Ship Mechanical Animal</RestrictedClasses>	  
+      <RestrictedClasses datatype="tokens">Ship Animal</RestrictedClasses>	
+	  <Bonuses>
+		<AntiStructure>
+		  <Classes>Structure</Classes>
+		  <Multiplier>50</Multiplier>
+		</AntiStructure>
+		<AntiMech>
+		  <Classes>Mechanical</Classes>
+		  <Multiplier>50</Multiplier>
+		</AntiMech>		
+	  </Bonuses>		  
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>40</BuildTime>
+    <BuildTime>50</BuildTime>
     <Population>5</Population>
     <Resources>
-      <wood>150</wood>
-      <metal>75</metal>
+      <wood>200</wood>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>
@@ -33,11 +43,12 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>375</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>
     <Classes datatype="tokens">Melee Ram</Classes>
+    <Tooltip>Melee Siege Weapon. Deals x50 damage to Structures and Mechanical.</Tooltip>		
   </Identity>
   <Sound>
     <SoundGroups>

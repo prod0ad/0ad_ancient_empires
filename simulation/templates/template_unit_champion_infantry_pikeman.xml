@@ -42,7 +42,7 @@
     <metal>4</metal>
   </Loot>  
   <Health>
-    <Max>120</Max>
+    <Max>126</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>7</WalkSpeed>
