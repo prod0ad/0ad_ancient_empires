@@ -17,9 +17,9 @@
 			"Technologies":
 			[		
 				{
-					"Name":"Cleomenian Reform",
+					"Name":"Cleomenian Reforms",
 					"History":"Cleomenes III formed pike phalanxes in an attempt to restore Spartan military power.",
-					"Description":"Lacedemonian Phalangites unlocked."
+					"Description":"Lacedemonian Phalangites unlocked. Mercenaries -20% metal cost."
 				},
 				{
 					"Name":"Linothorax",
@@ -66,7 +66,7 @@
 		{
 			"Name":"The Agoge",
 			"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
-			"Description":"Melee Infantry +10% health, attack and speed, +20% train time."
+			"Description":"Melee Infantry +10% hit points, attack and speed, +20% train time."
 		},
 		{
 	     	"Name":"Laws of Lycurgus",

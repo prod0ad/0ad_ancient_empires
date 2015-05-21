@@ -1,0 +1,10 @@
+{
+	"genericName": "Qanats",
+	"autoResearch": true,	
+	"description": ".",
+	"requirements": {"civ": "pers"},
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.5}		
+	],
+	"affects": ["Field","Corral","Farmstead"]
+}

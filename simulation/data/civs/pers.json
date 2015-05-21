@@ -23,12 +23,12 @@
 				{
 					"Name": "Immortals",
 					"History": ".",
-					"Description": "Champion Spearmen -50% train time."
+					"Description": "Anusyia -50% train time."
 				}, 				
 	            {
 		    	    "Name": "Persian Architecture",
 		     	    "History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
-		    	    "Description": "Structures +25% hit points."
+		    	    "Description": "Structures +30% hit points."
 		        }					
 			],
 			"Heroes":
@@ -61,6 +61,11 @@
 			"Description":"Infantry Archers +10% range/vision, -25% train time."
 		},		
 		{
+			"Name":"Qanats",
+			"History":"The Persians were the first to develop subterranean canals to provide the needed water supply for agriculture to dry regions.",
+			"Description":"Fields, Corrals and Farmsteads, -50% build time."
+		},			
+		{
 			"Name": "Light Infantry",
 			"History": "The majority of Persian infantrymen were hastely levied unarmored troops.",
 			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
@@ -83,7 +88,7 @@
 			"History": ".",
 			"Requirements": "",
 			"Phase": "city",
-			"Description": "Adds a trickle of all resource types and researches academic techs."			
+			"Description": "Adds a trickle of all resource types."			
 		}		
 	],
 	"StartEntities":

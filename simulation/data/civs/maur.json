@@ -63,12 +63,12 @@
 		{
 			"Name": "Ancient Cities",
 			"History": "India was one of the first regions having huge settlements.",
-			"Description": "Civil Centres +5 population." 
+			"Description": "Civil Centres +10 population." 
 		}, 				
 		{
 			"Name":"Indian Elephants",
 			"History":"Indian Elephants were larger and stronger than the north african ones most Mediterranean states used.",
-			"Description":"Elephant Units +25% hit points."
+			"Description":"Elephant Units +25% hit points. Start with an extra Elephant Worker unit."
 		},			
 		{
 			"Name":"Bamboo Longbows",
@@ -99,7 +99,7 @@
 		{
 			"Name":"Elephant Stables",
 			"History":".",			
-			"Description": "Trains Various Elephant Units."
+			"Description": "Trains all the available Elephant Units."
 		}
 	],
 	"StartEntities":

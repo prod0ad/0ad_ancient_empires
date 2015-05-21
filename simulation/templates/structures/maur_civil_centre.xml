@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Cost>
-    <PopulationBonus>20</PopulationBonus>
+    <PopulationBonus>25</PopulationBonus>
   </Cost>  
   <Identity>
     <Civ>maur</Civ>

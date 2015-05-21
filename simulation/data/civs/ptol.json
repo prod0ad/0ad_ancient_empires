@@ -53,14 +53,14 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Champion Cavalry."
-				},
+					"History":"Unique Cavalry."
+				},				
 				{
 					"Name":"Thorakites",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Champion Swordsman. Requires Romanization Reform."
+					"History":"Unique Swordsman. Deals x1.5 damage to Structures. Requires Romanization Reform."
 				}				
 			]
 		}
@@ -93,7 +93,7 @@
 		{
 			"Name":"Centre Of Knowledge",
 			"History":"Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
-			"Description":" Ships and Siege Units -10% resource cost (currently not shared)."
+			"Description":"Ships and Siege Units -10% resource cost (currently not shared)."
 		}
 	],
 	"Structures":

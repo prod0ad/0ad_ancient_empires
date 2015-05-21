@@ -76,7 +76,7 @@
 		{
 			"Name":"Advanced Siegecraft",
 			"History":"The Macedonians used a wide variety of siege engines and tactics.",
-			"Description":"Siege Units +20% attack rate."
+			"Description":"Siege Units -20% attack rate."
 		}
 	],
 	"TeamBonuses":

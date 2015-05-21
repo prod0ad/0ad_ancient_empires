@@ -30,7 +30,7 @@
 	  Apadana
 	</Classes>
     <Icon>structures/palace.png</Icon>
-    <Tooltip>Adds a trickle of all resource types and researches academic techs. Build Limit: 1.</Tooltip>
+    <Tooltip>Adds a trickle of all resource types. Build Limit: 1.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
@@ -38,12 +38,6 @@
   <TerritoryInfluence disable=""/>
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      academy_siege_accuracy
-      academy_siege_range
-      academy_health_regen_units		  
-	  academy_architecture	  
-    </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
 	<FoodRate>1.0</FoodRate>

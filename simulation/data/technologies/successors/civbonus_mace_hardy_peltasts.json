@@ -4,5 +4,5 @@
 	"description": "+15% Javelin Infantry attack.",
 	"requirements": {"civ": "mace"},
 	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.15}],
-	"affects": ["Javelin"]
+	"affects": ["Javelin Infantry"]
 }

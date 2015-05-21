@@ -49,14 +49,14 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Champion Cavalry."
+					"History":"Unique Cavalry."
 				},				
 				{
 					"Name":"Thorakites",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Champion Swordsman. Requires Infantry Reform."
+					"History":"Unique Swordsman. Deals x1.5 damage to Structures. Requires Infantry Reform."
 				}
 			]
 		}

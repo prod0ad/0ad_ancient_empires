@@ -7,7 +7,7 @@
     <SpecificName>Roman Hastatus</SpecificName>
     <VisibleClasses datatype="tokens">Premarian Legion Basic</VisibleClasses>	
     <Icon>units/rome_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>	
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>
     <Entity>units/rome_infantry_swordsman_a</Entity>
