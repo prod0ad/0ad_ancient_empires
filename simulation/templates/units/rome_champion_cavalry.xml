@@ -5,6 +5,12 @@
   </Health>
   <Attack>
     <Melee>
+      <Hack>30</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>4.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>	
 	  <Bonuses>
 		<AntiChampion>
 		  <Classes>Unique</Classes>

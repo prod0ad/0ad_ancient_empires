@@ -1,0 +1,10 @@
+{
+	"genericName": "Elephant Herd",
+	"autoResearch": true,	
+	"requirements": {"civ": "cart"},
+	"modifications": [
+		{"value": "Cost/Resources/food", "multiply": 0.75}	
+	],
+	"affects": ["Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

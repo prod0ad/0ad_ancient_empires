@@ -35,7 +35,9 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_mechanical_siege_ram 	
-      units/{civ}_mechanical_siege_polybolos_packed
+      units/{civ}_mechanical_siege_ballista_packed
+      units/{civ}_mechanical_siege_scorpio_packed
+      units/{civ}_mechanical_siege_oxybeles_packed
       units/{civ}_mechanical_siege_lithobolos_packed
     </Entities>
     <Technologies datatype="tokens">
@@ -45,7 +47,7 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/ptolemies/settlement.xml</Actor>
+    <Actor>structures/carthaginians/siege_workshop.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

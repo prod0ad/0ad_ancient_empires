@@ -54,7 +54,12 @@
 			"Name": "Stone Mining",
 			"History": "With exception to alluvial plains and river valleys, stone is abundant in the Iberian Peninsula and was greatly used in construction of structures.",
 			"Description": "Workers +25% stone mining rate."
-		},			
+		},		
+		{
+			"Name": "Iberian Horses",
+			"History": "Iberia could supply large numbers of cavalry horses.",
+			"Description": "Horse Herd free ( Cavalry -25% food cost)."
+		},				
 		{
 			"Name": "Light Infantry",
 			"History": "The majority of Iberian infantrymen were hastely levied unarmored troops.",

@@ -3,7 +3,7 @@
 <Scenario version="6">
 	<Environment>
 		<SkySet>default</SkySet>
-		<SunColor r="0.592741" g="0.529516" b="0.414919"/>
+		<SunColor r="0.592157" g="0.529412" b="0.411765"/>
 		<SunElevation angle="1.30023"/>
 		<SunRotation angle="2.88427"/>
 		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
@@ -11,7 +11,7 @@
 		<Fog>
 			<FogFactor>0.000771484</FogFactor>
 			<FogThickness>0.306152</FogThickness>
-			<FogColor r="1" g="0.501961" b="0.25098"/>
+			<FogColor r="1" g="0.501961" b="0.247059"/>
 		</Fog>
 		<Water>
 			<WaterBody>
@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="873.939" y="284.078" z="72.0002"/>
+		<Position x="503.211" y="293.068" z="184.378"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -46,6 +46,7 @@
   "LockTeams": false,
   "Name": "AE Test Map (4)",
   "PlayerData": [
+    null,
     {},
     {},
     {},

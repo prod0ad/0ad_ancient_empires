@@ -15,11 +15,11 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry</Classes>
-		  <Multiplier>3</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiCavalry>
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
-		  <Multiplier>3</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiElephant>		
 	  </Bonuses>  
     </Melee>
@@ -53,7 +53,7 @@
   <Identity>
     <VisibleClasses datatype="tokens">Melee Pike</VisibleClasses>
     <GenericName>Champion Pikeman</GenericName>
-	<Tooltip>Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Champion Pikeman. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
     <Formations datatype="tokens">
       formations/phalanx
       formations/syntagma

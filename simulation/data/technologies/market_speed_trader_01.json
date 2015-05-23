@@ -1,13 +1,13 @@
 {
 	"genericName": "Trade Convoys",
 	"description": "Increases movement rate of traders, which in turn increases trade income.",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "wheel.png",
 	"researchTime": 40,
-	"tooltip": "Traders +25% Speed.",
-	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.25}],
+	"tooltip": "Traders +50% Speed.",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.50}],
 	"affects": ["Trader"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

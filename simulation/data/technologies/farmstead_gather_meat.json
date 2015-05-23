@@ -4,7 +4,7 @@
 	"cost": {"food": 50, "wood": 0, "stone": 0, "metal": 50},
 	"requirements": {"tech": "phase_village"},
 	"icon": "celt_war_dog.png",
-	"researchTime": 40,
+	"researchTime": 20,
 	"tooltip": "Workers +50% meat gathering rate.",
 	"modifications": [{"value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5}],
 	"affects": ["Worker","Citizen"],

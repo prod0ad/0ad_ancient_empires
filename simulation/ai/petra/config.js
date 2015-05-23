@@ -83,7 +83,7 @@ m.Config = function(difficulty)
 		"ships" : 70,
 		"house" : 350,
 		"dropsites" : 110,
-		"field" : 120,
+		"field" : 90,
 		"dock" : 90,
 		"economicBuilding" : 90,
 		"militaryBuilding" : 130,

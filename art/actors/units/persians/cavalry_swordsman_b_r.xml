@@ -16,7 +16,7 @@
       <props>
         <prop actor="props/units/heads/head_pers_b.xml" attachpoint="head"/>
         <prop actor="props/units/heads/pers_kidaris_loose_all.xml" attachpoint="helmet"/>		
-        <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/spear_lance.xml" attachpoint="r_hand"/>
       </props>
       <textures><texture file="skeletal/pers_csw_b_1.png" name="baseTex"/></textures>
     </variant>

@@ -50,7 +50,7 @@
     </SoundGroups>
   </Sound>
   <VisualActor>
-    <Actor>structures/ptolemies/settlement.xml</Actor>
+    <Actor>structures/spartans/siege_workshop.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

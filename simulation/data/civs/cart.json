@@ -65,7 +65,7 @@
 		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints."
+			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints. Elephant Herd free (Elephants -25% food cost)."
 		}		
 	],
 	"TeamBonuses":

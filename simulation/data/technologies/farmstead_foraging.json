@@ -4,7 +4,7 @@
 	"cost": {"food": 0, "wood": 100, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_village"},
 	"icon": "gather_basket.png",
-	"researchTime": 40,
+	"researchTime": 20,
 	"tooltip": "Workers +50% fruit foraging rate.",
 	"modifications": [{"value": "ResourceGatherer/Rates/food.fruit", "multiply": 1.5}],
 	"affects": ["Worker"],
