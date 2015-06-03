@@ -17,7 +17,7 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/hele_cav_a.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/thracian_early.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_long.xml" attachpoint="r_hand"/>
         <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
       </props>

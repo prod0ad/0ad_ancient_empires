@@ -2,11 +2,11 @@
 <Entity parent="template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>athen</Civ>
-	<GenericName>Champion Spearman</GenericName>
+	<GenericName>Elite Infantry Spearman</GenericName>
     <SpecificName>Epilektos</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_infantry.png</Icon>
-	<Tooltip>Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Elite Infantry Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
   </Identity>
   <Promotion>
     <Entity>units/athen_champion_infantry_e</Entity>

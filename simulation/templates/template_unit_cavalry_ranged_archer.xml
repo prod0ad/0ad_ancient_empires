@@ -8,7 +8,7 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>8</Pierce>
+      <Pierce>12</Pierce>
       <Crush>0</Crush>
       <MaxRange>36</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
@@ -21,14 +21,14 @@
     <Population>3</Population>
     <BuildTime>40</BuildTime>  
     <Resources>
-      <food>60</food>
+      <food>80</food>
       <wood>0</wood>
-	  <metal>35</metal>
+	  <metal>30</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Health>
-    <Max>150</Max>
+    <Max>135</Max>
   </Health>
   <Identity>
 	<VisibleClasses datatype="tokens">Bow</VisibleClasses>
@@ -36,9 +36,9 @@
     <Tooltip>Fast moving long Ranged Cavalry.</Tooltip>	
   </Identity>
   <Loot>
-    <food>6</food>
+    <food>8</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>4</metal>
+    <metal>3</metal>
   </Loot>
 </Entity>

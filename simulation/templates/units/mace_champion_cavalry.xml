@@ -2,9 +2,9 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>mace</Civ>
-	<GenericName>Champion Cavalry</GenericName>
+	<GenericName>Elite Heavy Cavalry</GenericName>
     <SpecificName>Hetaîros</SpecificName>
-    <History>The Hetairoi, or Companion cavalry, were a preferred general stand in Macedonian armies. Macedonian noblemen made up this elite cavalry unit, which was key to victory for Macedonian kings starting with Philip II, who increased their number from 600 to several thousand.</History>
+	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
     <Icon>units/hele_champion_cavalry_mace.png</Icon>
 	<SelectionGroupName>units/mace_champion_cavalry</SelectionGroupName>
   </Identity>

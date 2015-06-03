@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry">
   <Armour>
     <Hack>0</Hack>
-    <Pierce>1</Pierce>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -22,7 +22,7 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>60</food>
+      <food>80</food>
       <wood>0</wood>
 	  <metal>50</metal>
       <stone>0</stone>	  
@@ -30,7 +30,7 @@
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>6</food>
+    <food>8</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>5</metal>

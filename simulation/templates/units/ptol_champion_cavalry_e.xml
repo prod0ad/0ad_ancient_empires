@@ -2,7 +2,6 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Champion Cavalry</GenericName>
     <SpecificName>Royal Agema</SpecificName>
     <History>?</History>
     <Icon>units/ptol_champion_cavalry.png</Icon>

@@ -6,8 +6,8 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse_rider.png",
 	"researchTime": 40,
-	"tooltip": "Cavalry units will regenerate health rapidly over time when not fighting.",
-	"modifications": [{"value": "Health/RegenRate", "add": 1.0}],
+	"tooltip": "Cavalry units +0.9 hit point regeneration per second.",
+	"modifications": [{"value": "Health/RegenRate", "add": 0.9}],
 	"affects": ["Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

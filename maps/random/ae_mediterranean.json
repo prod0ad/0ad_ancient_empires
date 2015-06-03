@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Mediterranean",
+		"Script" : "ae_mediterranean.js",
+		"Description" : "A large central sea that might be completely or partially surrounded by land.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : 3,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

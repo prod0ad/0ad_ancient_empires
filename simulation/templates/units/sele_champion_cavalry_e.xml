@@ -2,9 +2,9 @@
 <Entity parent="units/sele_champion_cavalry">
   <Identity>
     <Civ>sele</Civ>
-	<GenericName>Champion Cavalry</GenericName>
+	<GenericName>Elite Heavy Cavalry</GenericName>
     <SpecificName>Agema Cataphract</SpecificName>
-	<Tooltip>Resilient slow moving Champion Cavalry.</Tooltip>	
+	<Tooltip>Resilient slow moving Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>	
     <Icon>units/ptol_champion_cavalry.png</Icon>
   </Identity>
   <Promotion disable=""/>  

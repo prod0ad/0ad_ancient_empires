@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Requires Elite Heavy Cavalry and Imperial Phase.",
 	"icon": "armor_plates_cavalry.png",
 	"researchTime": 40,
-	"tooltip": "Hetairoi and Heavy Cavalry +2 hack, +1 pierce armor, -10% speed.",
+	"tooltip": "Elite and Heavy Cavalry +2 hack, +1 pierce armor, -10% speed.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

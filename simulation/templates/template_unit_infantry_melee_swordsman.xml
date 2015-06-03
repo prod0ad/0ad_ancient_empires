@@ -22,14 +22,14 @@
     <Population>2</Population>  
     <BuildTime>20</BuildTime>	  
     <Resources>
-      <food>40</food>
+      <food>60</food>
       <wood>0</wood>
 	  <metal>30</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-      <food>4</food>
+      <food>6</food>
       <wood>0</wood>
 	  <metal>3</metal>
       <stone>0</stone>

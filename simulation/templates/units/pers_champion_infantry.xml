@@ -18,7 +18,7 @@
     <BuildTime>10</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>40</food>
+      <food>60</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>30</metal>
@@ -26,7 +26,7 @@
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>4</food>
+    <food>6</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>3</metal>
@@ -39,11 +39,11 @@
   </UnitMotion>  
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Champion Spearman</GenericName>
+    <GenericName>Elite Infantry Spearman</GenericName>
     <SpecificName>Anusyia</SpecificName>
     <Classes datatype="tokens">Immortal</Classes>
     <Icon>units/pers_champion_infantry.png</Icon>
-	<Tooltip>Fast trained Champion Infantry. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Fast trained Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
   </Identity> 
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>

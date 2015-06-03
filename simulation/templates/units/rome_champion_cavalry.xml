@@ -10,8 +10,12 @@
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>	
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>	  
 	  <Bonuses>
+	  	<AntiInfantry>
+		  <Classes>Melee Infantry</Classes>
+		  <Multiplier>0</Multiplier>
+		</AntiInfantry>	
 		<AntiChampion>
 		  <Classes>Unique</Classes>
 		  <Multiplier>1.5</Multiplier>
@@ -22,10 +26,10 @@
   <Identity>
     <Civ>rome</Civ>
 	<SpecificName>Consular Bodyguard</SpecificName>
-	<GenericName>Champion Cavalry</GenericName>
+	<GenericName>Elite Heavy Cavalry</GenericName>
     <Icon>units/rome_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/rome_champion_cavalry</SelectionGroupName>
-	<Tooltip>Champion Cavalry. Deals x1.5 damage to Champion Units.</Tooltip>	
+	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Elite Units.</Tooltip>	
   </Identity>
   <VisualActor>
     <Actor>units/romans/champion_unit_2.xml</Actor>

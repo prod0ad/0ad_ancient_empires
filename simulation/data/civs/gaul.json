@@ -30,7 +30,7 @@
 				{
 					"Name": "Trimarchisia",
 					"History": "A special tactic used by Gallic horsemen involving extra horses and servants allowing them to rest while maintaining constant pressure on the enemy.",
-					"Description": "Cavalry units regenerate." 
+					"Description": "Cavalry units +0.9 hit point regeneration per second." 
 				}
 			],
 			"Heroes":
@@ -40,14 +40,14 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Champion Swordsman."
+					"History": "Elite Infantry Swordsman."
 				},
 				{
 					"Name": "Gallic Noble",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Champion Cavalry."
+					"History": "Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
 				}				
 			] 
 		} 

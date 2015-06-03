@@ -12,6 +12,12 @@
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
+	  <Bonuses>	  
+	    <AntiInfantry>
+		  <Classes>Melee Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiInfantry>	
+	  </Bonuses>		
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
   </Attack> 
@@ -19,21 +25,21 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>70</food>
+      <food>80</food>
       <wood>0</wood>
-	  <metal>60</metal>
+	  <metal>70</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>7</food>
+    <food>8</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>6</metal>
+    <metal>7</metal>
   </Loot>  
   <Health>
-    <Max>210</Max>
+    <Max>225</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>13</WalkSpeed>
@@ -44,6 +50,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Melee Spear</VisibleClasses>
     <GenericName>Champion Cavalry</GenericName>
-	<Tooltip>Champion Cavalry.</Tooltip>		
+	<Tooltip>Champion Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
   </Identity>
 </Entity>

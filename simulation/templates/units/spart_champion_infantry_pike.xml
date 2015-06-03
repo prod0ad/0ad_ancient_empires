@@ -2,9 +2,9 @@
 <Entity parent="template_unit_champion_infantry_pikeman">
   <Identity>
     <Civ>spart</Civ>
-	<GenericName>Champion Pikeman</GenericName>
+	<GenericName>Elite Infantry Pikeman</GenericName>
     <SpecificName>Lacedemonian Phalangites</SpecificName>
-	<Tooltip>Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>
+	<Tooltip>Elite Infantry Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>
     <Icon>units/spart_champion_infantry_pike.png</Icon>
 	<RequiredTechnology>fort_spart_reform</RequiredTechnology>
   </Identity>

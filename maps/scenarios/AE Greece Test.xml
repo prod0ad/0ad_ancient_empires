@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>212.035</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="457.389" y="415.936" z="1321.12"/>
+		<Rotation angle="0.0661438"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "Name": "Unnamed map",
+  "PlayerData": [
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="736.36817" z="846.84162"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56332"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="824.40827" z="1028.90772"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13034"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="995.62525" z="1077.83655"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13932"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="849.77936" z="1151.91102"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61744"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="673.84052" z="938.01221"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="610"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/athen_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="519.97486" z="1047.05909"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26666"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

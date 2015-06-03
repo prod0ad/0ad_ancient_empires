@@ -61,7 +61,7 @@ m.Config = function(difficulty)
 			"gaul" : [ "structures/{civ}_rotarymill", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
 			"iber" : [ "structures/{civ}_monument", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
 			"mace" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
-			"maur" : [ "structures/{civ}_elephant_stables", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
+			"maur" : [ "structures/{civ}_elephant_stables", "structures/{civ}_elephant_stables", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
 			"pers" : [ "structures/{civ}_siege_workshop", "structures/{civ}_stables", "structures/{civ}_apadana" ],
 			"ptol" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
 			"rome" : [ "structures/{civ}_siege_workshop", "structures/{civ}_army_camp", "structures/{civ}_stables" ],
@@ -71,7 +71,7 @@ m.Config = function(difficulty)
 		"naval" : {
 			"default" : [],
 //			"brit" : [ "structures/{civ}_crannog" ],
-			"cart" : [ "structures/{civ}_super_dock" ]
+//			"cart" : [ "structures/{civ}_super_dock" ]
 		}
 	};
 

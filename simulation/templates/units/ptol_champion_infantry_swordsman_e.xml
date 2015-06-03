@@ -2,13 +2,12 @@
 <Entity parent="units/ptol_champion_infantry_swordsman">
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Champion Swordsman</GenericName>
     <SpecificName>Agema Thorakites</SpecificName>
     <Icon>units/sele_champion_swordsman.png</Icon>
     <RequiredTechnology>fort_ptol_reform</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/seleucids/champion_infantry_swordsman.xml</Actor>
+    <Actor>units/ptolemies/champion_infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

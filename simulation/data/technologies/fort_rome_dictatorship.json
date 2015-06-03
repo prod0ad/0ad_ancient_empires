@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "political_face.png",
 	"researchTime": 40,
-	"tooltip": "Champion Cavalry +10% attack and speed.",
+	"tooltip": "Consular Bodyguard +10% attack and speed.",
 	"modifications": [
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
 		{"value": "Attack/Melee/Hack", "multiply": 1.1}		

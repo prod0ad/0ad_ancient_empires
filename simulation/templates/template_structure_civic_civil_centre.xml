@@ -33,11 +33,11 @@
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
-      <MinDistance>120</MinDistance>
+      <MinDistance>130</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>15</PopulationBonus>
+    <PopulationBonus>20</PopulationBonus>
     <BuildTime>360</BuildTime>
     <Resources>
       <food>0</food>
@@ -109,12 +109,12 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>120</Radius>
+    <Radius>130</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
   <AlertRaiser>
     <MaximumLevel>2</MaximumLevel>
-    <Range>100</Range>
+    <Range>130</Range>
   </AlertRaiser>
   <Vision>
     <Range>60</Range>

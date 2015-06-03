@@ -12,17 +12,17 @@
   </Attack>	
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Champion Swordsman</GenericName>
+	<GenericName>Elite Infantry Swordsman</GenericName>
     <SpecificName>Thorakites</SpecificName>
     <Icon>units/mace_thorakites.png</Icon>
     <RequiredTechnology>fort_ptol_reform</RequiredTechnology>
-	<Tooltip>Offensive Champion Infantry. Deals x1.5 damage to Structures.</Tooltip>			
+	<Tooltip>Elite Infantry Swordsman. Deals x1.5 damage to Structures.</Tooltip>			
   </Identity>
   <Promotion>
     <Entity>units/ptol_champion_infantry_swordsman_e</Entity>
     <RequiredXp>9999</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/seleucids/thorakites.xml</Actor>
+    <Actor>units/ptolemies/champion_infantry_swordsman.xml</Actor>
   </VisualActor>
 </Entity>

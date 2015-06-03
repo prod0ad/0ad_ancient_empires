@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_javelinist">
-  <Armour>
-    <Hack>0</Hack>
-    <Pierce>2</Pierce>
-    <Crush>0</Crush>
-  </Armour>
   <Attack>
     <Ranged>
 	  <Bonuses>
@@ -21,10 +16,11 @@
   </Attack>
   <Identity>
     <Civ>iber</Civ>
+    <GenericName>Elite Cavalry Skirmisher</GenericName>	
     <SpecificName>Iberian Noble</SpecificName>
     <Icon>units/iber_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>
-	<Tooltip>Champion Ranged Cavalry. Deals x2 damage to Structures and Mechanical.</Tooltip>
+	<Tooltip>Elite Cavalry Skirmisher. Deals x2 damage to Structures and Mechanical.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/champion_unit_2.xml</Actor>

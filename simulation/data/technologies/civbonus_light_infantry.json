@@ -5,7 +5,7 @@
 	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"},{"civ": "iber"},{"civ": "pers"},{"civ": "maur"}]},
 	"modifications": [
 		{"value": "Health/Max", "multiply": 0.75},
-		{"value": "Cost/Resources/wood", "multiply": 0.75},
+		{"value": "Cost/Resources/metal", "multiply": 0.5},
 		{"value": "Armour/Pierce", "replace": 1},	
 		{"value": "Attack/Melee/Hack", "multiply": 0.75},			
 		{"value": "Cost/Population", "multiply": 0.5},		

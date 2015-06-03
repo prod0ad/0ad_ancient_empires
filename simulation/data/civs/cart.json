@@ -38,14 +38,14 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Champion Spearman. Deals x2 damage to Cavalry and Elephants."
+					"History": "Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants."
 				},
 				{
 					"Name": "Sacred Band Cavalry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Champion Cavalry."
+					"History": "Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
 				}
 			]
 		}

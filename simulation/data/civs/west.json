@@ -1,0 +1,107 @@
+{
+	"Code":"west",
+	"Culture":"hele",
+	"Name":"The Seven Kingdoms",
+	"Emblem":"session/portraits/emblems/emblem_celts.png",
+	"History":"Playable only in the AE Westeros Scenario.",
+	"Music":[
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name":"Athenians",
+			"Description":"A Hellenic people of the Ionian tribe.",
+			"Technologies":
+			[
+				{
+					"Name":"",
+					"History":".",
+					"Description":"."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"."
+				}
+			]
+		}
+	],	
+	"CivBonuses":
+	[
+		{
+			"Name":"",
+			"History":".",
+			"Description":"."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"",
+			"History":".",
+			"Description":"(currently not shared)."
+		}
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/west_civil_centre"
+		},
+		{
+			"Template": "units/west_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/west_infantry_spearman"
+		}
+	],
+	"Formations":
+	[
+		"formations/scatter",
+		"formations/box",
+		"formations/column_closed",
+		"formations/line_closed",
+		"formations/column_open",
+		"formations/line_open",
+		"formations/flank",
+		"formations/skirmish",
+		"formations/wedge",
+		"formations/battle_line",
+		"formations/phalanx"
+	],
+	"AINames":
+	[
+		"Themistocles",
+		"Pericles",
+		"Cimon",
+		"Aristides",
+		"Xenophon",
+		"Hippias",
+		"Cleisthenes",
+		"Thucydides",
+		"Alcibiades",
+		"Miltiades",
+		"Cleon",
+		"Cleophon",
+		"Thrasybulus",
+		"Iphicrates",
+		"Demosthenes"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/west_infantry_archer",
+		"skirmish/structures/default_house_10": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": false
+}

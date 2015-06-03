@@ -27,7 +27,13 @@
 		  <Classes>Melee Infantry</Classes>
 		  <Multiplier>1.5</Multiplier>
 		</AntiCavalry>	
-	  </Bonuses> 	  
+	  </Bonuses> 	 
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>	
+	  </Bonuses> 		  
     </Ranged>
   </Attack>  
   <Cost>
@@ -51,6 +57,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
     <GenericName>Skirmisher</GenericName>
-    <Tooltip>Short ranged infantry. Deals x1.5 damage to Melee Infantry Units.</Tooltip>	
+    <Tooltip>Short ranged infantry. Deals x1.5 damage to Melee Infantry and Elephants.</Tooltip>	
   </Identity>
 </Entity>

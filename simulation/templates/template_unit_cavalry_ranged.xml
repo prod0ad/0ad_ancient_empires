@@ -3,7 +3,7 @@
   <Armour>
     <Hack>0</Hack>
     <Pierce>0</Pierce>
-    <Crush>6</Crush>
+    <Crush>0</Crush>
   </Armour>
   <Vision>
     <Range>50</Range>
@@ -30,7 +30,7 @@
     </Formations>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>15</WalkSpeed>
+    <WalkSpeed>14</WalkSpeed>
   </UnitMotion>  
   <Sound>
     <SoundGroups>

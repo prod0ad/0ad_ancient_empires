@@ -12,14 +12,49 @@
       <PrepareTime>2000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Spread>1.1</Spread>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Melee Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>	
+	  </Bonuses> 	 
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>	
+	  </Bonuses> 	  
       <PreferredClasses datatype="tokens">Organic</PreferredClasses> 	  
     </Ranged>
   </Attack> 
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>60</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>40</metal>
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>6</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>  
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>    
   <Identity>
     <VisibleClasses datatype="tokens">Ranged -Melee</VisibleClasses>  
     <SpecificName>Royal Peltast</SpecificName>
-    <GenericName>Champion Skirmisher</GenericName>	
-	<Tooltip>Champion Ranged Infantry.</Tooltip>		
+    <GenericName>Elite Infantry Skirmisher</GenericName>	
+	<Tooltip>Elite Infantry Skirmisher. Deals x1.5 damage to Melee Infantry and Elephants.</Tooltip>		
     <Icon>units/macedonian_argyraspidai.png</Icon>
   </Identity>
   <Promotion disable=""/>

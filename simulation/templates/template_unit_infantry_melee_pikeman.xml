@@ -32,16 +32,16 @@
     <Population>2</Population>  
     <BuildTime>20</BuildTime>	 
     <Resources>
-      <food>40</food>
-      <wood>50</wood>
-	  <metal>0</metal>
+      <food>60</food>
+      <wood>0</wood>
+	  <metal>15</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-      <food>4</food>
-      <wood>5</wood>
-	  <metal>0</metal>
+      <food>6</food>
+      <wood>0</wood>
+	  <metal>2</metal>
       <stone>0</stone>	
   </Loot>
   <UnitMotion>

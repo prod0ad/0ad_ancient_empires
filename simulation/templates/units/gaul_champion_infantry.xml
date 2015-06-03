@@ -2,9 +2,10 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>gaul</Civ>
-    <GenericName>Champion Swordsman</GenericName>
+    <GenericName>Elite Infantry Swordsman</GenericName>
     <SpecificName>Solduros</SpecificName>
 	<SelectionGroupName>units/gaul_champion_infantry</SelectionGroupName>
+	<Tooltip>Elite Infantry Swordsman.</Tooltip>			
     <Icon>units/celt_champion_infantry_gaul.png</Icon>
   </Identity>
   <VisualActor>

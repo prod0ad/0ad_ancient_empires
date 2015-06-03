@@ -9,17 +9,17 @@
     <Population>3</Population>
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>70</food>
+      <food>80</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>60</metal>
+      <metal>70</metal>
     </Resources>
   </Cost>
   <Loot>
-    <food>70</food>
+    <food>80</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>60</metal>
+    <metal>70</metal>
   </Loot>  
   <Footprint>
     <Circle radius="2.5"/>

@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Migration",
+		"Script" : "ae_migration.js",
+		"Description" : "Start on an islet and fight your way to the mainland or bigger islands.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : -5,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

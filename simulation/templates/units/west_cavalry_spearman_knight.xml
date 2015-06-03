@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee">
+  <Identity>
+    <Civ>sele</Civ>
+    <SelectionGroupName>units/sele_cavalry_spearman_b</SelectionGroupName>
+    <GenericName>Heavy Cavalry</GenericName>
+    <SpecificName>Xystophoros</SpecificName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>units/mace_cavalry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/sele_cavalry_spearman_a</Entity>
+    <RequiredXp>9999</RequiredXp>	
+  </Promotion>
+  <VisualActor>
+    <Actor>units/west/knight.xml</Actor>
+  </VisualActor>
+</Entity>

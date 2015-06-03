@@ -2,7 +2,7 @@
 <Entity parent="units/athen_champion_infantry">
   <Identity>
     <Civ>athen</Civ>
-	<GenericName>Champion Spearman</GenericName>
+	<GenericName>Elite Spearman</GenericName>
   </Identity>
   <Promotion disable=""/>  
   <VisualActor>

@@ -67,7 +67,7 @@
     <VisibleClasses datatype="tokens">Elephant Levy Melee -Unique</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
-    <Tooltip>Powerful Unit with Fear Aura. Deals x1.5 damage to Structures and Mechanical.</Tooltip>	
+    <Tooltip>Powerful Unit with Fear Aura. Deals x1.5 damage to Structures and Mechanical units.</Tooltip>	
   </Identity>
   <Obstruction>
     <Unit radius="3.0"/>

@@ -44,7 +44,7 @@
   <UnitMotion>
     <WalkSpeed>15</WalkSpeed>
     <Run>
-      <Speed>20.0</Speed>
+      <Speed>25.0</Speed>
       <Range>600.0</Range>
       <RangeMin>5.0</RangeMin>
     </Run>

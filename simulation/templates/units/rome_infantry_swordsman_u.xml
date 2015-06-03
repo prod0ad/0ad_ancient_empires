@@ -2,7 +2,7 @@
 <Entity parent="units/rome_infantry_swordsman_a">
   <Identity>
     <Civ>rome</Civ>
-    <GenericName>Marian Legionaire</GenericName>
+    <GenericName>Swordsman</GenericName>
     <SpecificName>Marian Legionarius</SpecificName>
     <History>The Marian Legionnaire.</History>
     <Icon>units/rome_champion_legion_marian.png</Icon>

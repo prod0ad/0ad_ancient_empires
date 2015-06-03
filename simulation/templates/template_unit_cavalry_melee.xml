@@ -21,9 +21,9 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>   
     <Resources>
-      <food>70</food>
+      <food>80</food>
       <wood>0</wood>
-	  <metal>50</metal>
+	  <metal>60</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>  
@@ -31,11 +31,19 @@
     <Range>50</Range>
   </Vision>   
   <Loot>
-    <food>7</food>
+    <food>8</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>5</metal>
+    <metal>6</metal>
   </Loot>  
+  <UnitMotion>
+    <WalkSpeed>13</WalkSpeed>
+    <Run>
+      <Speed>25.0</Speed>
+      <Range>1000.0</Range>
+      <RangeMin>10.0</RangeMin>
+    </Run>
+  </UnitMotion>  
   <Identity>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>
     <GenericName>Heavy Cavalry</GenericName>

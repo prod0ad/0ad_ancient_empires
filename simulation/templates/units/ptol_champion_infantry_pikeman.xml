@@ -41,7 +41,7 @@
   </Loot>  
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Champion Pikeman</GenericName>
+	<GenericName>Elite Infantry Pikeman</GenericName>
     <SpecificName>Machimos Phalangites</SpecificName>
     <Icon>units/ptol_infantry_spearman.png</Icon>
 	<Tooltip>Cheap, fast training Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	

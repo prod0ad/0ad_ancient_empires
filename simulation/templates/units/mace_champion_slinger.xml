@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_slinger">
   <Identity>
     <Civ>mace</Civ>
-	<GenericName>Champion Slinger</GenericName>
+	<GenericName>Elite Slinger</GenericName>
     <SpecificName>Kestrosphendonestes</SpecificName>
     <History>A late macedonian light unit using the deadly Kestros Dart Slings.</History>
     <Icon>units/hele_infantry_slinger.png</Icon>

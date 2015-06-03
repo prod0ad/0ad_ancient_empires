@@ -23,7 +23,7 @@
 				{
 					"Name": "Dictatorship",
 					"History": ".",
-					"Description": "Champion Cavalry +10% attack and speed."
+					"Description": "Consular Bodyguard +10% attack and speed."
 				},					
 				{
 					"Name": "Logistics",
@@ -43,7 +43,7 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Champion Cavalry. Deals x1.5 damage to Champion Units."
+					"History": "Elite Heavy Cavalry. Deals x1.5 damage to Elite Units."
 				}
 			]
 		} 

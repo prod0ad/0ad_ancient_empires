@@ -25,7 +25,7 @@
       <Syssition>1</Syssition>
       <Embassy>1</Embassy>
       <MercenaryCamp>1</MercenaryCamp>
-      <Monument>5</Monument>
+      <Monument>1</Monument>
       <Pillar>0</Pillar>
       <Anactoron>1</Anactoron>	  
       <WarDog>0</WarDog>
@@ -45,6 +45,9 @@
       <Juggernaut>
         <PtolemyIV>4</PtolemyIV>
       </Juggernaut>
+      <CivilCentre>
+        <Monument>1</Monument>
+      </CivilCentre>	  
     </LimitChangers>
     <LimitRemovers>
       <CivilCentre>

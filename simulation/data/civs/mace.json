@@ -49,14 +49,14 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Fast and tough Champion Spearman. Deals x2 damage to Cavalry and Elephants."
+					"History":"Versatile Elite Infantry Spearman. Deals x1.5 damage to Structures, Cavalry and Elephants."
 				},
 				{
 					"Name":"Hetairos",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Champion Cavalry."
+					"History":"Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
 				}				
 			]
 		}

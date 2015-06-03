@@ -17,6 +17,7 @@
     <Entities datatype="tokens">
       units/cart_ship_bireme
       units/cart_ship_trireme
+	  units/cart_ship_quinquereme  
     </Entities>
     <Technologies datatype="tokens">
 	  dock_ship_speed

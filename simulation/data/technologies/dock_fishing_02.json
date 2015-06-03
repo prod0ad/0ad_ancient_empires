@@ -1,8 +1,8 @@
 {
 	"genericName": "Salt Amphora",
 	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150},
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",	
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",	
 	"supersedes": "dock_fishing_01",	
 	"icon": "metal_pot.png",
 	"researchTime": 40,

@@ -17,7 +17,9 @@
   </Attack> 
   <Identity>
     <VisibleClasses datatype="tokens">Ranged -Melee</VisibleClasses>
+	<GenericName>Elite Cavalry Skirmisher</GenericName>	
     <SpecificName>Hetairos Aspidophoros</SpecificName>	
+	<Tooltip>Elite Cavalry Skirmisher. Deals x1.5 damage to Melee Infantry.</Tooltip>		
     <Icon>units/hele_champion_cavalry_mace.png</Icon>
   </Identity>
   <Promotion disable=""/>

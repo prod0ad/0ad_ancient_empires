@@ -20,9 +20,9 @@
       </animations>
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/sele_romanized_visor_crest_brass.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/sele_romanized_crest_iron.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/sele_thureos_romanized_face.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/thracian_oval.xml" attachpoint="shield"/>
         <prop actor="props/units/hele_ijv_lboot.xml" attachpoint="l_leg"/>
         <prop actor="props/units/hele_ijv_rboot.xml" attachpoint="r_leg"/>
         <prop actor="props/units/weapons/xiphos.xml" attachpoint="r_hand"/>
@@ -31,18 +31,8 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Thorax-Chainmail">
-      <textures>
-        <texture file="skeletal/mace_thoakrites.dds" name="baseTex"/>
-      </textures>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="100" name="Idle"/>
-    <variant name="death">
-      <props>
-        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
-      </props>
+    <variant frequency="1" name="Thorax-Tube&amp;Yoke Corselet">
+      <textures><texture file="skeletal/mace_thorakites_2.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

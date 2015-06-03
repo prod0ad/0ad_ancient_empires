@@ -24,7 +24,7 @@
 				{
 			         "Name":"Seleucid Cataphracts",
 			         "History":"Antiochus III reformed his heavy cavalry adding extensive armor, impressed by eastern cataphracts during his campaigns to reclaim the northeast satrapies.",
-			         "Description":"Champion and Heavy Cavalry +2 hack, +1 pierce armor, -10% speed."
+			         "Description":"Elite and Heavy Cavalry +2 hack, +1 pierce armor, -10% speed."
 		        },	
 				{
 			         "Name":"Agema Thorakites",
@@ -49,14 +49,14 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Unique Cavalry."
+					"History":"Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
 				},				
 				{
 					"Name":"Thorakites",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Unique Swordsman. Deals x1.5 damage to Structures. Requires Infantry Reform."
+					"History":"Elite Infantry Swordsman. Deals x1.5 damage to Structures. Requires Infantry Reform."
 				}
 			]
 		}

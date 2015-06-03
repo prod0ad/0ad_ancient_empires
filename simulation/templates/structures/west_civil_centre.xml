@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <ResourceTrickle>
+	<FoodRate>10.0</FoodRate>
+	<WoodRate>10.0</WoodRate>
+	<StoneRate>10.0</StoneRate>
+	<MetalRate>10.0</MetalRate>
+	<Interval>1000</Interval>
+  </ResourceTrickle>
+  <Health>
+    <SpawnEntityOnDeath>rubble/rubble_hele_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>west</Civ>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+	  -units/{civ}_support_female_citizen
+	  units/west_support_female_citizen
+      units/west_infantry_spearman
+      units/west_infantry_archer
+    </Entities>
+    <Technologies datatype="tokens">
+	  -phase_town_generic
+      -phase_city_generic
+      -phase_imperial_generic	
+    </Technologies>	
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/seleucids/civic_center.xml</Actor>
+  </VisualActor>
+</Entity>

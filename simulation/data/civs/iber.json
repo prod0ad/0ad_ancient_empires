@@ -38,7 +38,7 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Champion Ranged Cavalry. Deals x4 damage to Structures and Mechanical."
+					"History": "Elite Cavalry Skirmisher. Deals x4 damage to Structures and Mechanical."
 				}
 			]
 		} 
@@ -83,7 +83,7 @@
 			"History": "Increases the attack damage of nearby friendly units.",
 			"Requirements": "",
 			"Phase": "",
-		    "Description": "Units in range +10% attack. Build Limit: 5", 			
+		    "Description": "Units in range +10% attack. Build Limit: 1 Per Civil Centre.", 			
 			"Special": "."
 		} 
 	],

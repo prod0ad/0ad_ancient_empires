@@ -2,9 +2,9 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>cart</Civ>
-	<GenericName>Champion Cavalry</GenericName>
+	<GenericName>Elite Heavy Cavalry</GenericName>
     <SpecificName>Sacred Band Cavalry</SpecificName>
-	<Tooltip>Champion Cavalry.</Tooltip>	
+	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
     <Icon>units/cart_sacred_band_cavalry.png</Icon>		
   </Identity>
   <VisualActor>

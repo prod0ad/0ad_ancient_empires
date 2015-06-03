@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged">
   <ResourceGatherer disable=""/>
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>20</Radius>
+      <Affects>Soldier</Affects>
+	  <AffectedPlayers>Enemy</AffectedPlayers>
+      <Modifications>
+        <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
+        <Attack.Ranged.Pierce> <Multiply>0.9</Multiply> </Attack.Ranged.Pierce>		
+        <Attack.Ranged.Crush> <Multiply>0.9</Multiply> </Attack.Ranged.Crush>				
+      </Modifications>
+      <AuraName>Feared (10%)</AuraName>
+      <AuraDescription>Enemy units in range -10% attack (does not stack).</AuraDescription>
+    </Aura1>
+  </Auras>  
   <Armour>
     <Hack>2</Hack>
     <Pierce>0</Pierce>
@@ -9,7 +24,7 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>12</Pierce>
+      <Pierce>15</Pierce>
       <Crush>0</Crush>
       <MaxRange>36</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
@@ -50,6 +65,6 @@
     <Unit radius="2.0"/>
   </Obstruction>
   <UnitMotion>
-    <WalkSpeed>14.0</WalkSpeed>
+    <WalkSpeed>13.0</WalkSpeed>
   </UnitMotion>
 </Entity>

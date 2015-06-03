@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_mechanical_ship_trireme">
+<Entity parent="template_unit_mechanical_ship_bireme">
   <Footprint>
     <Square width="12.0" depth="36.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>gaul</Civ>
-    <SpecificName>Gallic Ponti</SpecificName>
+    <Civ>brit</Civ>
+    <SpecificName>Briton Ponti</SpecificName>
+    <GenericName>Light Warship</GenericName>	
     <Tooltip>Tough Warship able to transport units.</Tooltip>
     <Icon>units/celt_ship_trireme.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>		
   </Identity>
   <Cost>
-    <Population>3</Population>
-    <BuildTime>30</BuildTime>
+    <Population>2</Population>
+    <BuildTime>40</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <metal>100</metal>
+      <wood>180</wood>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>800</Max>
+    <Max>600</Max>
   </Health>  
   <GarrisonHolder>
     <Max>20</Max>
@@ -34,6 +35,9 @@
   <Obstruction>
     <Unit radius="6.0"/>
   </Obstruction>
+  <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
+  </UnitMotion>  
   <VisualActor>
     <Actor>structures/celts/warship.xml</Actor>
   </VisualActor>

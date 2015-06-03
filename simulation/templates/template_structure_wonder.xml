@@ -33,7 +33,7 @@
   </Health>
   <Identity>
     <GenericName>Wonder</GenericName>
-    <Tooltip>Bring glory to your civilization and add large tracts of land to your empire.</Tooltip>
+    <Tooltip>Maximum Population +15%. Required for victory in Wonder Mode.</Tooltip>
     <Classes datatype="tokens">
 	  Imperial
 	  Wonder
@@ -53,9 +53,6 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      pop_wonder
-    </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>
   <Sound>

@@ -5,22 +5,22 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>brit</Civ>
-    <SpecificName>Ponti</SpecificName>
+    <Civ>gaul</Civ>
+    <SpecificName>Gallic Ponti</SpecificName>
     <Tooltip>Tough Warship able to transport units.</Tooltip>
     <Icon>units/celt_ship_trireme.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>		
   </Identity>
   <Cost>
-    <Population>3</Population>
-    <BuildTime>30</BuildTime>
+    <Population>2</Population>
+    <BuildTime>40</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <metal>100</metal>
+      <wood>180</wood>
+      <metal>40</metal>
     </Resources>
-  </Cost>
+  </Cost>  
   <Health>
-    <Max>800</Max>
+    <Max>600</Max>
   </Health>  
   <GarrisonHolder>
     <Max>20</Max>
@@ -34,6 +34,9 @@
   <Obstruction>
     <Unit radius="6.0"/>
   </Obstruction>
+  <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
+  </UnitMotion>   
   <VisualActor>
     <Actor>structures/celts/warship.xml</Actor>
   </VisualActor>

@@ -39,10 +39,10 @@
   </UnitMotion>  
   <Identity>
     <Civ>cart</Civ>
-	<GenericName>Champion Spearman</GenericName>
+	<GenericName>Elite Infantry Spearman</GenericName>
     <SpecificName>Sacred Band Infantry</SpecificName>
     <Icon>units/cart_champion_infantry.png</Icon>	
-	<Tooltip>Champion Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>		
+	<Tooltip>Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants.</Tooltip>		
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/champion_spearman.xml</Actor>

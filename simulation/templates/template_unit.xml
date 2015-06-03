@@ -30,7 +30,7 @@
   <Health>
     <DeathType>corpse</DeathType>
     <Max>100</Max>
-    <RegenRate>0</RegenRate>
+    <RegenRate>0.1</RegenRate>
     <Unhealable>false</Unhealable>
     <Repairable>false</Repairable>
   </Health>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>174.47</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="1338.34" y="307.704" z="972.964"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "GameType": "conquest",
+  "Keywords": [],
+  "LockTeams": true,
+  "Name": "AE Westeros Test",
+  "PlayerData": [
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 200,
+        "g": 46,
+        "r": 46
+      },
+      "Name": "House Arryn",
+      "Team": -1
+    },
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 20,
+        "g": 20,
+        "r": 150
+      },
+      "Name": "House Lannister",
+      "Team": -1
+    },
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 5,
+        "g": 165,
+        "r": 50
+      },
+      "Name": "House Tyrrel",
+      "Team": -1
+    },
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 75,
+        "g": 230,
+        "r": 230
+      },
+      "Name": "House Barratheon",
+      "Team": -1
+    },
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 170,
+        "g": 170,
+        "r": 50
+      },
+      "Name": "House Tully",
+      "Team": 0
+    },
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 200,
+        "g": 80,
+        "r": 160
+      },
+      "Name": "House Stark",
+      "Team": 0
+    },
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 20,
+        "g": 120,
+        "r": 235
+      },
+      "Name": "House Martell",
+      "Team": -1
+    },
+    {
+      "Civ": "west",
+      "Color": {
+        "b": 64,
+        "g": 64,
+        "r": 64
+      },
+      "Name": "House Greyjoy",
+      "Team": -1
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/west_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="1120.7688" z="871.33393"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3878"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/west_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="593.35279" z="948.27594"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22874"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/west_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="1338.33912" z="1162.84937"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1654"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/west_civil_centre</Template>
+			<Player>3</Player>
+			<Position x="560.9416" z="395.35215"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31440"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/west_civil_centre</Template>
+			<Player>4</Player>
+			<Position x="1417.74097" z="971.89716"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30902"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/west_civil_centre</Template>
+			<Player>5</Player>
+			<Position x="950.78547" z="1042.93433"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52320"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>structures/west_civil_centre</Template>
+			<Player>6</Player>
+			<Position x="1121.0984" z="1656.07471"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28204"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>structures/west_civil_centre</Template>
+			<Player>7</Player>
+			<Position x="1350.89954" z="212.04822"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41924"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>structures/west_civil_centre</Template>
+			<Player>8</Player>
+			<Position x="565.2032" z="1212.43995"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24044"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

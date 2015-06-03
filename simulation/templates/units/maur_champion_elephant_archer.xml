@@ -3,10 +3,10 @@
   <Identity>
     <Civ>maur</Civ>
     <SelectionGroupName>units/maur_champion_elephant_archer</SelectionGroupName>
-    <GenericName>Champion Elephant</GenericName>
+    <GenericName>Elite Elephant Archer</GenericName>
     <SpecificName>Elephant Archer</SpecificName>
     <Icon>units/maur_cavalry_archer.png</Icon>
-    <Tooltip>Champion Ranged Elephant with fear aura.</Tooltip>
+    <Tooltip>Elite Elephant Archer with fear aura.</Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/maur_champion_elephant_archer_e</Entity>
