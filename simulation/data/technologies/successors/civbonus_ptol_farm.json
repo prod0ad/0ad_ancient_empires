@@ -3,6 +3,6 @@
 	"autoResearch": true,
 	"description": "All workers gather food from farms and animals 33% faster.",
 	"requirements": {"civ": "ptol"},
-	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.33}],
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.30}],
 	"affects": ["Worker"]
 }

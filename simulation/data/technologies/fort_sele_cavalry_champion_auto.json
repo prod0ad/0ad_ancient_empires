@@ -3,9 +3,9 @@
 	"autoResearch": true,
 	"requirements": {"tech": "fort_sele_cavalry_champion"},
 	"modifications": [
-	    {"value": "Armour/Hack", "add": 2.0},	
+	    {"value": "Armour/Hack", "add": 3.0},	
 		{"value": "Armour/Pierce", "add": 1.0},
-		{"value": "UnitMotion/WalkSpeed", "multiply": 0.9}],
+		{"value": "UnitMotion/WalkSpeed", "multiply": 0.8}],
 	"affects": ["Melee Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -1,8 +1,8 @@
 {
 	"genericName": "City Phase",
-	"requirements": { "all": [{"tech":"phase_city_generic"}, {"civ": "maur"}]},
+	"requirements": { "all": [{"tech":"phase_city"}, {"civ": "maur"}]},
 	"autoResearch": true,
-	"tooltip": "Mauryans get -5 Worker and infantry citizen food costs by advancing phases.",
+	"tooltip": "Workers and Infantry -5 food cost.",
 	"modifications": [{"value": "Cost/Resources/food", "add": -5}],
 	"affects": ["Worker","Infantry"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"

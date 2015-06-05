@@ -5,7 +5,7 @@
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
-	"researchTime": 120,
+	"researchTime": 180,
 	"tooltip": "Lacedemonian Phalangites unlocked. Mercenaries -20% metal cost.",
     "modifications": [
 	    {"value": "Cost/Resources/metal", "multiply": 0.80}

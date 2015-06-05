@@ -6,7 +6,7 @@
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1},
 		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
-	    {"value": "Vision/Range", "add": 1.1},
+	    {"value": "Vision/Range", "multiply": 1.1},
 		{"value": "Attack/Ranged/Spread", "multiply": 0.9}
 	],
 	"affects": ["Structure","Siege Ranged","Warship"]

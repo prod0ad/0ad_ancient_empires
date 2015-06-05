@@ -5,9 +5,10 @@
 	"requirements": { "class": "Town", "number": 3 },
 	"requirementsTooltip": "Requires 3 new Town Phase structures (except Walls and Civic Centers).",
 	"supersedes": "phase_town_athen",
+	"replaces": ["phase_city"], 		
 	"icon": "city_phase.png",
 	"researchTime": 150,
-	"tooltip": "Advance to City Phase, which unlocks more structures and units. Territory radius for Civic Centers and Vision for all Structures increased by 25%. Silver Owls civ bonus grants an extra +10% metal gather rate to all workers.",
+	"tooltip": "Advance to City Phase, which unlocks more structures and units. Workers +10% metal gather rate.",
 	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.1}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"

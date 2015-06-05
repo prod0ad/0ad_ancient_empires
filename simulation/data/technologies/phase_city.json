@@ -1,6 +1,12 @@
 {
 	"genericName": "City Phase",
-	"requirements": { "any": [{"tech":"phase_city_generic"}, {"tech":"phase_city_athen"}]},
-	"autoResearch": true,
-	"icon": "city_phase.png"		
+	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
+	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": { "class": "Town", "number": 3 },
+	"requirementsTooltip": "Requires 3 new Town Phase structures (except Walls and Civic Centers).",
+	"supersedes": "phase_town",
+	"icon": "city_phase.png",
+	"researchTime": 150,
+	"tooltip": "Advance to City Phase, which unlocks more structures and units.",
+	"soundComplete": "interface/alarm/alarm_phase.xml"	
 }

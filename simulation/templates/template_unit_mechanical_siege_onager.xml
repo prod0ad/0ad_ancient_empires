@@ -9,7 +9,7 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>60.0</Crush>
+      <Crush>90.0</Crush>
       <MaxRange>75</MaxRange>
       <MinRange>20.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
@@ -18,11 +18,11 @@
       <Spread>6.0</Spread>
       <Splash>
         <Shape>Circular</Shape>
-        <Range>15</Range>
+        <Range>10</Range>
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
-        <Crush>30.0</Crush>
+        <Crush>45.0</Crush>
       </Splash>
 	  <Bonuses>
 		<AntiChampion>
@@ -37,10 +37,10 @@
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime>50</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <metal>100</metal>
+      <wood>150</wood>
+      <metal>150</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -48,7 +48,7 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>100</Max>
+    <Max>120</Max>
   </Health>
   <Identity>
     <GenericName>Siege Catapult</GenericName>
@@ -59,9 +59,9 @@
   <Loot>
     <xp>0</xp>
     <food>0</food>
-    <wood>10</wood>
+    <wood>15</wood>
     <stone>0</stone>
-    <metal>10</metal>
+    <metal>15</metal>
   </Loot>
   <Selectable>
     <Overlay>

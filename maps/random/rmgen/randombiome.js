@@ -653,7 +653,7 @@ function randomizeBiome()
 		rbe5 = "gaia/flora_tree_baobab";
 		rbe6 = "gaia/flora_bush_grapes";
         rbe7 = "gaia/fauna_sheep";	
-		var rts = randInt(1,5);
+		var rts = randInt(1,4);
 		if (rts==1){
 			rbe8 = "gaia/fauna_wildebeest";
 		}
@@ -666,10 +666,6 @@ function randomizeBiome()
 			rbe8 = "gaia/fauna_giraffe";
 		}
 		else if (rts==4)
-		{
-			rbe8 = "gaia/fauna_elephant_african_bush";
-		}
-		else if (rts==5)
 		{
 			rbe8 = "gaia/fauna_gazelle";
 		}		
@@ -776,10 +772,6 @@ function randomizeBiome()
 			rbe8 = "gaia/fauna_boar";
 		}
 		else if (rts==4)
-		{
-			rbe8 = "gaia/fauna_elephant_asian";
-		}
-		else if (rts==5)
 		{
 			rbe8 = "gaia/fauna_peacock";
 		}		

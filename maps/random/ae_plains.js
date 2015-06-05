@@ -246,15 +246,15 @@ createFood
   scaleByMapSize(4,16),
   scaleByMapSize(3,12)
  ],
- avoidClasses(clForest, 0, clPlayer, 35, clWater, 2, clMetal, 0, clRock, 0, clFood, 15, clHill, 1) 
+ avoidClasses(clForest, 1, clPlayer, 35, clWater, 2, clMetal, 1, clRock, 1, clFood, 15, clHill, 1, clBaseResource, 10) 
 );
 
 // create forests
 createForests(
  [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
- avoidClasses(clPlayer, 22, clWater, 0, clForest, 25, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2), 
+ avoidClasses(clPlayer, 22, clWater, 0, clForest, 25, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2, clFood, 1), 
  clForest,
- 1.2,
+ 1.1,
  random_terrain
 );
 

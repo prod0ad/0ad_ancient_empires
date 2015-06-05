@@ -34,7 +34,7 @@
 				{
 					"Name":"Social Reform",
 					"History":"Several notable Spartans attempted to increase the Spartan manpower pool by freeing helots or increasing the social status of Perioikoi.",
-					"Description":"Melee Infantry Units -10% train time."
+					"Description":"Melee Infantry Units -20% train time."
 				},	
 				{
 					"Name":"Defence Reform",
@@ -66,7 +66,7 @@
 		{
 			"Name":"The Agoge",
 			"History":"Spartans were housed and trained from a young age to be superlative warriors and to endure any hardship a military life can give them.",
-			"Description":"Melee Infantry +10% hit points, attack and speed, +20% train time."
+			"Description":"Melee Infantry +10% hit points, attack and speed, +30% train time. Barracks +10 population."
 		},
 		{
 	     	"Name":"Laws of Lycurgus",

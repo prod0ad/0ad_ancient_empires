@@ -21,9 +21,9 @@
       units/west_infantry_archer
     </Entities>
     <Technologies datatype="tokens">
-	  -phase_town_generic
-      -phase_city_generic
-      -phase_imperial_generic	
+	  -phase_town
+      -phase_city
+      -phase_imperial
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

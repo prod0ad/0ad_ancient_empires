@@ -37,7 +37,7 @@
     </Distance>	
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>20</PopulationBonus>
+    <PopulationBonus>15</PopulationBonus>
     <BuildTime>360</BuildTime>
     <Resources>
       <food>0</food>
@@ -88,9 +88,9 @@
       units/{civ}_support_female_citizen
     </Entities>
     <Technologies datatype="tokens">
-      phase_town_generic
-      phase_city_generic
-      phase_imperial_generic	  
+      phase_town
+      phase_city
+      phase_imperial  
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>

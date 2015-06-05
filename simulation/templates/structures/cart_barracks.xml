@@ -37,7 +37,6 @@
 	  upgrades/swordsman_merc_e		  
 	  upgrades/slinger_merc_e		  
       barracks_speed_train	
-      barracks_speed_batch
       barracks_ranged_accuracy	 	  
     </Technologies>
   </ProductionQueue>

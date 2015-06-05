@@ -28,7 +28,7 @@
     </Resources>
   </Cost>  
    <Vision>
-    <Range>50</Range>
+    <Range>45</Range>
   </Vision>   
   <Loot>
     <food>8</food>

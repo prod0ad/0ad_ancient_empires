@@ -9,7 +9,7 @@
     <Max>45</Max>
   </Health>
   <Vision>
-    <Range>45</Range>
+    <Range>40</Range>
   </Vision>    
   <Attack>
     <Ranged>

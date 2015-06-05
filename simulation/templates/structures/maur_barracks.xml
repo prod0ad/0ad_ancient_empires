@@ -27,7 +27,6 @@
 	  upgrades/swordsman_e	
 	  upgrades/swordsman_u	  
       barracks_speed_train	
-      barracks_speed_batch
       barracks_ranged_accuracy	 
     </Technologies>
   </ProductionQueue>

@@ -52,7 +52,7 @@
     <LimitRemovers>
       <CivilCentre>
         <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
-      </CivilCentre>
+      </CivilCentre>	  
     </LimitRemovers>	
   </EntityLimits>
   <Player/>

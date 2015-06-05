@@ -14,21 +14,21 @@ m.Config = function(difficulty)
 	this.popScaling = 1;  // scale factor depending on the max population
 
 	this.Military = {
-		"towerLapseTime" : 90, // Time to wait between building 2 towers
+		"towerLapseTime" : 100, // Time to wait between building 2 towers
 		"fortressLapseTime" : 300, // Time to wait between building 2 fortresses
-		"popForBarracks1" : 25,
-		"popForBarracks2" : 95,
-		"popForBlacksmith" : 75
+		"popForBarracks1" : 20,
+		"popForBarracks2" : 80,
+		"popForBlacksmith" : 80
 	};
 	this.Economy = {
-		"popForTown" : 50,	// How many units we want before aging to town.
-		"workForCity" : 80,   // How many workers we want before aging to city.
+		"popForTown" : 45,	// How many units we want before aging to town.
+		"workForCity" : 60,   // How many workers we want before aging to city.
 		"cityPhase" : 600,	// time to start trying to reach city phase
-		"popForMarket" : 50,
+		"popForMarket" : 60,
 		"popForDock" : 25,
-		"targetNumWorkers" : 70, // dummy, will be changed later
-		"targetNumTraders" : 5, // Target number of traders
-		"targetNumFishers" : 1, // Target number of fishers per sea
+		"targetNumWorkers" : 60, // dummy, will be changed later
+		"targetNumTraders" : 8, // Target number of traders
+		"targetNumFishers" : 2, // Target number of fishers per sea
 		"femaleRatio" : 1, // fraction of females among the workforce
 		"provisionFields" : 2
 	};
@@ -82,15 +82,15 @@ m.Config = function(difficulty)
 		"trader" : 50,
 		"ships" : 70,
 		"house" : 350,
-		"dropsites" : 110,
-		"field" : 90,
+		"dropsites" : 90,
+		"field" : 50,
 		"dock" : 90,
 		"economicBuilding" : 90,
-		"militaryBuilding" : 130,
-		"defenseBuilding" : 70,
+		"militaryBuilding" : 200,
+		"defenseBuilding" : 60,
 		"civilCentre" : 950,
 		"majorTech" : 700,
-		"minorTech" : 25,
+		"minorTech" : 20,
 		"emergency" : 1000    // used only in emergency situations, should be the highest one 
 	};
 
@@ -137,7 +137,7 @@ m.Config.prototype.setConfig = function(gameState)
 		if (this.personality.aggressive > 0.7)
 		{
 			this.Military.popForBarracks1 = 12;
-			this.Economy.popForTown = 50;
+			this.Economy.popForTown = 55;
 			this.Economy.popForMarket = 60;
 			this.Economy.femaleRatio = 1;
 			this.priorities.defenseBuilding = 60;
