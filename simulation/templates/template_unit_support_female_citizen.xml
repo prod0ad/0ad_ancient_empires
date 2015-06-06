@@ -110,11 +110,6 @@
   </UnitAI>
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>16.0</Speed>
-      <Range>200.0</Range>
-      <RangeMin>0.0</RangeMin>
-    </Run>
   </UnitMotion>
   <Vision>
     <Range>25</Range>

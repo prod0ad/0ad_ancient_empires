@@ -43,7 +43,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>20</Range>
   </Vision>

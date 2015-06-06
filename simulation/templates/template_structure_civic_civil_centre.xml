@@ -29,11 +29,11 @@
     <GarrisonArrowClasses>Soldier Worker</GarrisonArrowClasses>	
   </BuildingAI>
   <BuildRestrictions>
-    <Territory>own enemy ally neutral</Territory>
+    <Territory>own ally neutral</Territory>
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
-      <MinDistance>130</MinDistance>
+      <MinDistance>120</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Cost>
@@ -109,12 +109,12 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>130</Radius>
-    <Weight>10000</Weight>
+    <Radius>100</Radius>
+    <Weight>40000</Weight>
   </TerritoryInfluence>
   <AlertRaiser>
     <MaximumLevel>2</MaximumLevel>
-    <Range>130</Range>
+    <Range>100</Range>
   </AlertRaiser>
   <Vision>
     <Range>60</Range>

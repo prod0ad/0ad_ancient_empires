@@ -55,7 +55,6 @@
       <gate_unlocked>interface/select/building/sel_gate.xml</gate_unlocked>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <FoundationActor>structures/fndn_wall.xml</FoundationActor>
   </VisualActor>

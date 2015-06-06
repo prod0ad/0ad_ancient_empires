@@ -88,34 +88,19 @@ for (var i = 0; i < numPlayers; i++)
 {
 	playerIDs.push(i+1);
 }
-playerIDs = primeSortPlayers(sortPlayers(playerIDs));
+playerIDs = sortPlayers(playerIDs);
 
 // place players
-
 var playerX = new Array(numPlayers);
 var playerZ = new Array(numPlayers);
 var playerAngle = new Array(numPlayers);
-var playerPos = new Array(numPlayers);
-var iop = 0;
+
+var startAngle = randFloat(0, TWO_PI);
 for (var i = 0; i < numPlayers; i++)
 {
-	iop = i - 1;
-	if (!(numPlayers%2)){
-		playerPos[i] = ((iop + abs(iop%2))/2 + 1) / ((numPlayers / 2) + 1);
-	}
-	else
-	{
-		if (iop%2)
-		{
-			playerPos[i] = ((iop + abs(iop%2))/2 + 1) / (((numPlayers + 1) / 2) + 1);
-		}
-		else
-		{
-			playerPos[i] = ((iop)/2 + 1) / ((((numPlayers - 1)) / 2) + 1);
-		}
-	}
-	playerZ[i] = playerPos[i];
-	playerX[i] = 0.2 + 0.6*(i%2);
+	playerAngle[i] = startAngle + i*TWO_PI/numPlayers;
+	playerX[i] = 0.5 + 0.3*cos(playerAngle[i]);
+	playerZ[i] = 0.5 + 0.3*sin(playerAngle[i]);
 }
 
 for (var i = 0; i < numPlayers; i++)
@@ -267,7 +252,7 @@ var elevationPainter = new SmoothElevationPainter(
 	-8,				// elevation
 	4				// blend radius
 );
-createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 10, clBaseResource, 8));
+createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 12, clBaseResource, 8));
 
 
 // create more shore jaggedness
@@ -303,7 +288,7 @@ RMS.SetProgress(20);
 
 // create islands
 log("Creating islands...");
-placer = new ChainPlacer(1, floor(scaleByMapSize(4, 6)), floor(scaleByMapSize(150, 400)), 0.8);
+placer = new ChainPlacer(1, floor(scaleByMapSize(6, 9)), floor(scaleByMapSize(150, 400)), 0.8);
 var terrainPainter = new LayeredPainter(
 	[tWater, tShore, tMainTerrain],		// terrains
 	[3 ,1]								// widths
@@ -312,34 +297,28 @@ var elevationPainter = new SmoothElevationPainter(ELEVATION_SET, 6, 4);
 createAreas(
 	placer,
 	[terrainPainter, elevationPainter, paintClass(clIsland)], 
-	[avoidClasses(clPlayer, 0, clForest, 0, clIsland, 15), stayClasses (clWater, 10)],
-	scaleByMapSize(3, 5) * numPlayers
+	[avoidClasses(clPlayer, 0, clForest, 0, clIsland, 15), stayClasses (clWater, 15)],
+	scaleByMapSize(2, 4) * numPlayers
 );
 
 log("Creating island metal mines...");
 // create island metal quarries
-createFood
+createMines
 (
  [
   [new SimpleObject(oMetalSmall, 4,4, 1,2)]
  ],
- [
-  scaleByMapSize(6,24)
- ], 
- stayClasses(clIsland, 5)
+ [avoidClasses(clFood, 2, clRock, 5, clMetal, 15), stayClasses(clIsland, 6)]
 );
 
 log("Creating island stone mines...");
 // create island stone quarries
-createFood
+createMines
 (
  [
   [new SimpleObject(oStoneSmall, 4,4, 1,2)]
  ],
- [
-  scaleByMapSize(4,16)
- ],
- stayClasses(clIsland, 5)
+ [avoidClasses(clFood, 2, clRock, 15, clMetal, 5), stayClasses(clIsland, 6)]
 );
 
 // create animals
@@ -349,7 +328,7 @@ createFood
   [new SimpleObject(oSheep, 2,3, 0,4)]
  ], 
  [
-  scaleByMapSize(4,16)
+  scaleByMapSize(5,20)
  ],
  stayClasses(clIsland, 5) 
 );
@@ -369,18 +348,9 @@ createFood
 // create forests
 createForests(
  [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
- stayClasses(clIsland, 15),
+ [avoidClasses(clFood, 2, clRock, 4, clMetal, 4, clForest, 16), stayClasses(clIsland, 12)],
  clForest,
  0.5,
- random_terrain
-);
-
-// create forests
-createForests(
- [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
- avoidClasses(clPlayer, 15, clForest, 10, clBaseResource, 2, clWater, 5),
- clForest,
- 1.2,
  random_terrain
 );
 
@@ -414,7 +384,7 @@ RMS.SetProgress(85);
 
 // create straggler trees
 var types = [oTree1, oTree2, oTree4, oTree5];	// some variation
-createStragglerTrees(types, stayClasses(clIsland, 8), avoidClasses(clMetal, 3, clRock, 3, clForest, 15));
+createStragglerTrees(types, stayClasses(clIsland, 8), avoidClasses(clMetal, 2, clRock, 2, clForest, 16, clFood, 2));
 
 // Export map data
 ExportMap();

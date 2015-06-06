@@ -36,7 +36,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/macedonians/library.xml</Actor>
     <FoundationActor>structures/fndn_4x6.xml</FoundationActor>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>50</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
   <Auras>
     <heal>
       <Type>range</Type>
@@ -75,7 +80,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
     <Entities datatype="tokens">

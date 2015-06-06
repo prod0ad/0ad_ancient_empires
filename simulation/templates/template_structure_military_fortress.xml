@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>80</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
   <Armour>
     <Hack>8</Hack>
     <Pierce>28</Pierce>
@@ -94,7 +99,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>80</Range>
   </Vision>

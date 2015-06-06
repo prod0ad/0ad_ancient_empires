@@ -7,6 +7,9 @@
 	"supersedes": "phase_town",
 	"icon": "city_phase.png",
 	"researchTime": 150,
-	"tooltip": "Advance to City Phase, which unlocks more structures and units.",
+	"tooltip": "Advance to City Phase, which unlocks more structures and units. Structures +10% territory influence.",
+	"modifications": [
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.1, "affects": "Structure"}
+	],		
 	"soundComplete": "interface/alarm/alarm_phase.xml"	
 }

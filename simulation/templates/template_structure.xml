@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_entity_full">
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>30</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
   <Armour>
     <Hack>1</Hack>
     <Pierce>1</Pierce>
@@ -18,7 +23,7 @@
   <Guard/>
   <BuildRestrictions>
     <PlacementType>land</PlacementType>
-    <Territory>own enemy ally neutral</Territory>
+    <Territory>own ally neutral</Territory>
   </BuildRestrictions>
   <Cost>
     <Population>0</Population>

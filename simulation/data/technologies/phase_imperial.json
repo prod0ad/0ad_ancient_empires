@@ -7,6 +7,9 @@
 	"supersedes": "phase_city",
 	"icon": "political_face.png",
 	"researchTime": 180,
-	"tooltip": "Advance to Imperial Phase, which unlocks more structures and units. Territory radius for Civic Centers and Vision for all Structures increased by 25%.",
+	"tooltip": "Advance to Imperial Phase, which unlocks more structures and units. Structures +10% territory influence.",
+	"modifications": [
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.1, "affects": "Structure"}
+	],		
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

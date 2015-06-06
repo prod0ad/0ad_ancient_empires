@@ -49,7 +49,6 @@
   <StatusBars>
     <HeightOffset>8.0</HeightOffset>
   </StatusBars>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/celts/special.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>

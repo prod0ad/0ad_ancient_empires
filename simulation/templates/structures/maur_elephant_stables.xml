@@ -50,7 +50,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/mauryans/stables.xml</Actor>
   </VisualActor>

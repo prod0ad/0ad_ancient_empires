@@ -35,7 +35,6 @@
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
-  <TerritoryInfluence disable=""/>
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
   </ProductionQueue>

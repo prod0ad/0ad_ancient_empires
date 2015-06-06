@@ -104,9 +104,9 @@
   <Guard/>
   <UnitMotion>
     <FormationController>false</FormationController>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>8</WalkSpeed>
     <Run>
-      <Speed>15.0</Speed>
+      <Speed>10.0</Speed>
       <Range>50.0</Range>
       <RangeMin>0.0</RangeMin>
       <RegenTime>0.1</RegenTime>

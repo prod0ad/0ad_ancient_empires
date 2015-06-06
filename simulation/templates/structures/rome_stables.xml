@@ -48,7 +48,6 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/persians/stables.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
@@ -63,7 +62,6 @@
 	  upgrades/cavalry_light_e		  
 	  upgrades/cavalry_heavy_e		
       stables_speed_train
-	  stables_speed_batch  
       stables_speed_cavalry_01
     </Technologies>
   </ProductionQueue>

@@ -97,8 +97,8 @@ var startAngle = randFloat(0, TWO_PI);
 for (var i = 0; i < numPlayers; i++)
 {
 	playerAngle[i] = startAngle + i*TWO_PI/numPlayers;
-	playerX[i] = 0.5 + 0.32*cos(playerAngle[i]);
-	playerZ[i] = 0.5 + 0.32*sin(playerAngle[i]);
+	playerX[i] = 0.5 + 0.30*cos(playerAngle[i]);
+	playerZ[i] = 0.5 + 0.30*sin(playerAngle[i]);
 }
 
 for (var i = 0; i < numPlayers; i++)
@@ -107,9 +107,9 @@ for (var i = 0; i < numPlayers; i++)
 	log("Creating base for player " + id + "...");
 	
 	// some constants
-	var radius = scaleByMapSize(15,25);
+	var radius = scaleByMapSize(23,23);
 	var cliffRadius = 2;
-	var elevation = 20;
+	var elevation = 15;
 	
 	// get the x and z in tiles
 	var fx = fractionToTiles(playerX[i]);
@@ -137,14 +137,14 @@ for (var i = 0; i < numPlayers; i++)
 	// create the ramp
 	var rampAngle = playerAngle[i] + PI + randFloat(-PI/8, PI/8);
 	var rampDist = radius;
-	var rampLength = 10;
-	var rampWidth = 10;
+	var rampLength = 6;
+	var rampWidth = 24;
 	var rampX1 = round(fx + (rampDist + rampLength) * cos(rampAngle));
 	var rampZ1 = round(fz + (rampDist + rampLength) * sin(rampAngle));
 	var rampX2 = round(fx + (rampDist - 3) * cos(rampAngle));
 	var rampZ2 = round(fz + (rampDist - 3) * sin(rampAngle));
 	
-	createRamp (rampX1, rampZ1, rampX2, rampZ2, 3, 20, rampWidth, 1, tMainTerrain, tCliff, clPlayer);
+	createRamp (rampX1, rampZ1, rampX2, rampZ2, 3, 15, rampWidth, 1, tMainTerrain, tCliff, clPlayer);
 	
 	// create the city patch
 	var cityRadius = radius/3;
@@ -168,7 +168,7 @@ for (var i = 0; i < numPlayers; i++)
 		var aX = round(fx + aDist * cos(aAngle));
 		var aZ = round(fz + aDist * sin(aAngle));
 		var group = new SimpleGroup(
-			[new SimpleObject(oSheep, 5,5, 0,2)],
+			[new SimpleObject(oSheep, 8,8, 0,2)],
 			true, clBaseResource, aX, aZ
 		);
 		createObjectGroup(group, 0);
@@ -179,7 +179,7 @@ for (var i = 0; i < numPlayers; i++)
 	var bbX = round(fx + bbDist * cos(bbAngle));
 	var bbZ = round(fz + bbDist * sin(bbAngle));
 	group = new SimpleGroup(
-		[new SimpleObject(oFruitBush, 10,10, 0,3)],
+		[new SimpleObject(oFruitBush, 0,0, 0,0)],
 		true, clBaseResource, bbX, bbZ
 	);
 	createObjectGroup(group, 0);
@@ -190,14 +190,14 @@ for (var i = 0; i < numPlayers; i++)
 	{
 		mAngle = randFloat(0, TWO_PI);
 	}
-	var mDist = 25;
+	var mDist = 17;
 	var mX = round(fx + mDist * cos(mAngle));
 	var mZ = round(fz + mDist * sin(mAngle));
 	group = new SimpleGroup(
-		[new SimpleObject(oMetalSmall, 4,4, 2,3)],
+		[new SimpleObject(oMetalSmall, 4,4, 2,2)],
 		true, clBaseResource, mX, mZ
 	);
-	createObjectGroup(group, 0, avoidClasses(clBaseResource,5));
+	createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
 	
 	// create stone mines
 	var mAngle = bbAngle;
@@ -205,17 +205,17 @@ for (var i = 0; i < numPlayers; i++)
 	{
 		mAngle = randFloat(0, TWO_PI);
 	}
-	var mDist = 10;
+	var mDist = 15;
 	var mX = round(fx + mDist * cos(mAngle));
 	var mZ = round(fz + mDist * sin(mAngle));
 	group = new SimpleGroup(
-		[new SimpleObject(oStoneSmall, 4,4, 2,3)],
+		[new SimpleObject(oStoneSmall, 4,4, 2,2)],
 		true, clBaseResource, mX, mZ
 	);
-	createObjectGroup(group, 0, avoidClasses(clBaseResource,5));
+	createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
 	var hillSize = PI * radius * radius;
 	// create starting trees
-	var num = 8;
+	var num = 12;
 	var tAngle = randFloat(0, TWO_PI);
 	var tDist = randFloat(12, 13);
 	var tX = round(fx + tDist * cos(tAngle));
@@ -224,7 +224,7 @@ for (var i = 0; i < numPlayers; i++)
 		[new SimpleObject(oTree1, num, num, 2,3)],
 		false, clBaseResource, tX, tZ
 	);
-	createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
+	createObjectGroup(group, 0, avoidClasses(clBaseResource,1));
 	
 	// create grass tufts
 	var num = hillSize / 250;
@@ -275,7 +275,7 @@ var elevationPainter = new SmoothElevationPainter(
 	-3,				// elevation
 	4				// blend radius
 );
-createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 20, clBaseResource, 10));
+createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 15, clBaseResource, 5));
 
 
 // create more shore jaggedness
@@ -318,7 +318,7 @@ createMines(
  [
   [new SimpleObject(oMetalSmall, 4,4, 2,3)]
  ],
- avoidClasses(clForest, 1, clPlayer, 40, clWater, 2, clMetal, 30, clRock, 10, clHill, 1, clBaseResource, 30),
+ avoidClasses(clForest, 1, clPlayer, 25, clWater, 2, clMetal, 30, clRock, 10, clHill, 1, clBaseResource, 30),
  clMetal
 )
 
@@ -335,7 +335,7 @@ createFood
   scaleByMapSize(5,20),
   scaleByMapSize(4,16)
  ],
- avoidClasses(clForest, 0, clPlayer, 35, clWater, 2, clMetal, 0, clRock, 0, clFood, 15, clHill, 1) 
+ avoidClasses(clForest, 0, clPlayer, 25, clWater, 2, clMetal, 0, clRock, 0, clFood, 15, clHill, 1) 
 );
 
 // create fish
@@ -345,9 +345,9 @@ createFood
   [new SimpleObject(oFish, 1,2, 0,0)]
  ], 
  [
-  35 * numPlayers
+  40 * numPlayers
  ],
- [avoidClasses(clFood, 5), stayClasses(clWater, 4)]
+ [avoidClasses(clFood, 5), stayClasses(clWater, 6)]
 );
 
 RMS.SetProgress(65);
@@ -355,7 +355,7 @@ RMS.SetProgress(65);
 // create forests
 createForests(
  [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
- avoidClasses(clPlayer, 15, clWater, 15, clForest, 15, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2), 
+ avoidClasses(clPlayer, 10, clWater, 10, clForest, 15, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2), 
  clForest,
  1.5,
  random_terrain
@@ -391,7 +391,7 @@ RMS.SetProgress(85);
 
 // create straggler trees
 var types = [oTree1, oTree2, oTree4, oTree5];	// some variation
-createStragglerTrees(types, avoidClasses(clForest, 20, clWater, 3, clPlayer, 22, clMetal, 5, clRock, 5, clFood, 3, clHill, 1));
+createStragglerTrees(types, avoidClasses(clForest, 15, clWater, 3, clPlayer, 15, clMetal, 4, clRock, 4, clFood, 3, clHill, 1));
 
 // Export map data
 ExportMap();

@@ -85,10 +85,9 @@ for (var i = 0; i < numPlayers; i++)
 {
 	playerIDs.push(i+1);
 }
-playerIDs = primeSortPlayers(sortPlayers(playerIDs));
+playerIDs = sortPlayers(playerIDs);
 
 // place players
-
 var playerX = new Array(numPlayers);
 var playerZ = new Array(numPlayers);
 var playerAngle = new Array(numPlayers);
@@ -97,8 +96,8 @@ var startAngle = randFloat(0, TWO_PI);
 for (var i = 0; i < numPlayers; i++)
 {
 	playerAngle[i] = startAngle + i*TWO_PI/numPlayers;
-	playerX[i] = 0.5 + 0.30*cos(playerAngle[i]);
-	playerZ[i] = 0.5 + 0.30*sin(playerAngle[i]);
+	playerX[i] = 0.5 + 0.3*cos(playerAngle[i]);
+	playerZ[i] = 0.5 + 0.3*sin(playerAngle[i]);
 }
 
 for (var i = 0; i < numPlayers; i++)
@@ -240,7 +239,7 @@ iz = round(fz);
 
 const lSize = sqrt(sqrt(sqrt(scaleByMapSize(1, 6))));
 
-var placer = new ChainPlacer(2, floor(scaleByMapSize(5, 32)), floor(scaleByMapSize(25, 250)), 1, ix, iz, 0, [floor(mapSize * 0.17 * lSize)]);
+var placer = new ChainPlacer(2, floor(scaleByMapSize(5, 32)), floor(scaleByMapSize(25, 250)), 1, ix, iz, 0, [floor(mapSize * 0.19 * lSize)]);
 var terrainPainter = new LayeredPainter(
 	[tShore, tWater, tWater, tWater],		// terrains
 	[1, 4, 2]		// widths
@@ -250,7 +249,7 @@ var elevationPainter = new SmoothElevationPainter(
 	-8,				// elevation
 	4				// blend radius
 );
-createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 25, clBaseResource, 10));
+createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 12, clBaseResource, 10));
 
 
 // create more shore jaggedness
@@ -293,7 +292,7 @@ createMines(
  [
   [new SimpleObject(oMetalSmall, 4,4, 2,3)]
  ],
- avoidClasses(clForest, 1, clPlayer, 40, clWater, 2, clMetal, 40, clRock, 10, clHill, 1, clBaseResource, 20),
+ avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 40, clRock, 10, clHill, 1, clBaseResource, 20),
  clMetal
 )
 
@@ -303,7 +302,7 @@ createMines(
  [
   [new SimpleObject(oStoneSmall, 4,4, 2,3)]
  ],
- avoidClasses(clForest, 1, clPlayer, 40, clWater, 2, clMetal, 10, clRock, 40, clHill, 1, clBaseResource, 20),
+ avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 10, clRock, 40, clHill, 1, clBaseResource, 20),
  clRock
 )
 
@@ -330,7 +329,7 @@ createFood
   [new SimpleObject(oFish, 1,2, 0,0)]
  ], 
  [
-  50 * numPlayers
+  60 * numPlayers
  ],
  [avoidClasses(clFood, 5), stayClasses(clWater, 4)]
 );
@@ -338,9 +337,9 @@ createFood
 // create forests
 createForests(
  [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
- avoidClasses(clPlayer, 22, clWater, 10, clForest, 15, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2), 
+ avoidClasses(clPlayer, 20, clWater, 10, clForest, 20, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2), 
  clForest,
- 1.5,
+ 1.1,
  random_terrain
 );
 

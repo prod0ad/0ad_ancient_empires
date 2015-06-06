@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>80</Radius>
+    <Weight>40000</Weight>
+  </TerritoryInfluence>
   <Armour>
     <Hack>7</Hack>
     <Pierce>25</Pierce>
@@ -67,7 +72,6 @@
     <BarHeight>0.6</BarHeight>
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
-  <TerritoryInfluence disable=""/>
   <Vision>
     <Range>60</Range>
   </Vision>
