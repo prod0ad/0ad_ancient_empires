@@ -4,7 +4,7 @@
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>			
   </Identity>
   <Promotion>
-    <Entity>units/rome_infantry_spearman_u</Entity>
+    <Entity>units/rome_infantry_swordsman_u</Entity>
     <RequiredXp>9999</RequiredXp>
   </Promotion>
   <VisualActor>

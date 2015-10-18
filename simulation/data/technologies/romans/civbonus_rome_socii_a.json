@@ -1,0 +1,8 @@
+{
+	"genericName": "Socii",
+	"autoResearch": true,
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "rome"}]},	
+	"description": "Roman expansion brought an increasing large allied manpower pool to recruit from.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75}],
+	"affects": ["Barracks"]
+}

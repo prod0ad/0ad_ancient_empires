@@ -17,21 +17,11 @@
   </Auras>
   <Attack>
     <Melee>
-      <Hack>60</Hack>
+      <Hack>0</Hack>
       <Pierce>0</Pierce>
-      <Crush>0</Crush>
+      <Crush>60</Crush>
       <MaxRange>7.0</MaxRange>
-      <RepeatTime>2000</RepeatTime>
-	  <Bonuses>
-		<AntiStructure>
-		  <Classes>Structure</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiStructure>
-		<AntiMech>
-		  <Classes>Mechanical</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiMech>		
-	  </Bonuses>		  
+      <RepeatTime>2000</RepeatTime>		  
     </Melee>
   </Attack>
   <Armour>
@@ -61,13 +51,13 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>600</Max>
+    <Max>750</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Elephant Levy Melee -Unique</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
-    <Tooltip>Powerful Unit with Fear Aura. Deals x1.5 damage to Structures and Mechanical units.</Tooltip>	
+    <Tooltip>Powerful Unit with Fear Aura.</Tooltip>	
   </Identity>
   <Obstruction>
     <Unit radius="3.0"/>
@@ -101,7 +91,8 @@
     <HeightOffset>6.5</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
+  <PassabilityClass>siege-large</PassabilityClass> 
+    <WalkSpeed>9.5</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>75</Range>

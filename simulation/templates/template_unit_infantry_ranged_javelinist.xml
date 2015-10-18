@@ -16,43 +16,41 @@
       <Hack>0</Hack>
       <Pierce>8</Pierce>
       <Crush>0</Crush>
-      <MaxRange>24</MaxRange>
+      <MaxRange>28</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Spread>1.2</Spread>
 	  <Bonuses>
-		<AntiCavalry>
+		<AntiInfantry>
 		  <Classes>Melee Infantry</Classes>
 		  <Multiplier>1.5</Multiplier>
-		</AntiCavalry>	
-	  </Bonuses> 	 
-	  <Bonuses>
-		<AntiCavalry>
+		</AntiInfantry>	
+		<AntiElephant>
 		  <Classes>Elephant</Classes>
 		  <Multiplier>1.5</Multiplier>
-		</AntiCavalry>	
+		</AntiElephant>	
 	  </Bonuses> 		  
     </Ranged>
   </Attack>  
   <Cost>
     <BuildTime>10</BuildTime>	
     <Resources>
-      <food>40</food>
-      <wood>25</wood>
+      <food>25</food>
+      <wood>35</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-      <food>4</food>
+      <food>3</food>
       <wood>3</wood>
 	  <metal>0</metal>
       <stone>0</stone>	
   </Loot>
   <UnitMotion>
-    <WalkSpeed>9.5</WalkSpeed>
+    <WalkSpeed>9</WalkSpeed>
   </UnitMotion>  
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>

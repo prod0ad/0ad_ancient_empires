@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
+  <Armour>
+    <Hack>3</Hack>
+    <Pierce>3</Pierce>
+    <Crush>2</Crush>
+  </Armour>
+  <Cost>
+    <Population>3</Population>  
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>80</food>
+      <wood>0</wood>
+	  <metal>90</metal>
+      <stone>0</stone>	  
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>8</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>9</metal>
+  </Loot>  
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>12</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>50</Range>
+  </Vision> 
   <Identity>
     <Civ>sele</Civ>
-	<GenericName>Elite heavy Cavalry</GenericName>
-    <SpecificName>Hetairos</SpecificName>
-	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>	
+	<GenericName>Unique Unit</GenericName>
+    <SpecificName>Cataphract</SpecificName>
+	<Tooltip>Unique Unit. Heavily Armored, Slow Moving Melee Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>	
     <Icon>units/hele_champion_cavalry_mace.png</Icon>	
 	<SelectionGroupName>units/sele_champion_cavalry</SelectionGroupName>
   </Identity>
@@ -13,6 +44,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>  
   <VisualActor>
-    <Actor>units/seleucids/champion_cavalry.xml</Actor>
+    <Actor>units/seleucids/champion_cavalry_e.xml</Actor>
   </VisualActor>
 </Entity>

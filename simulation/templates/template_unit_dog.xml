@@ -53,7 +53,7 @@
     <Tooltip>Cannot attack structures.</Tooltip>
   </Identity>
   <Loot>
-    <xp>130</xp>
+    <xp>0</xp>
     <food>10</food>
     <wood>0</wood>
     <stone>0</stone>
@@ -95,14 +95,14 @@
     <Category>WarDog</Category>
   </TrainingRestrictions>
   <UnitMotion>
-    <WalkSpeed>12</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>26.0</Speed>
+      <Speed>11.0</Speed>
       <Range>600.0</Range>
       <RangeMin>5.0</RangeMin>
     </Run>
   </UnitMotion>
   <Vision>
-    <Range>60</Range>
+    <Range>45</Range>
   </Vision>
 </Entity>

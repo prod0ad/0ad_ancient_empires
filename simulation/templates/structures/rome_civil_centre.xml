@@ -10,12 +10,12 @@
       <Radius>60</Radius>
       <Affects>Soldier</Affects>
       <Modifications>
-        <Attack.Melee.Pierce> <Multiply>1.20</Multiply> </Attack.Melee.Pierce>
-        <Attack.Melee.Hack> <Multiply>1.20</Multiply> </Attack.Melee.Hack>
-        <Attack.Melee.Crush> <Multiply>1.210</Multiply> </Attack.Melee.Crush>
+        <Attack.Melee.Pierce> <Multiply>1.1</Multiply> </Attack.Melee.Pierce>
+        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
+        <Attack.Melee.Crush> <Multiply>1.1</Multiply> </Attack.Melee.Crush>
       </Modifications>
       <AuraName>Citizenship Aura</AuraName>
-      <AuraDescription>Boosts soldier attack by +20% within the Civil Center's vision.</AuraDescription>
+      <AuraDescription>Boosts soldier attack by +10% within the Civil Center's vision.</AuraDescription>
     </Aura1>
   </Auras>
   <Identity>

@@ -20,12 +20,17 @@
 				{
 					"Name": "Late Armies (Reform)",
 					"History": "Late Gallic armies included an increased number of men armored in chainmail.",
-					"Description": "Solduros can be trained at the barracks and Gallic Nobles at the Stables."
+					"Description": "Solduros can be trained at the barracks and Brihent at the Stables."
 				},
 				{
 					"Name": "Great Migration",
 					"History": "The Gauls often relocated en mass. One prime example is the Galatian invasion of the Balkans which concluded with a large portion of them settling in the middle of Asia Minor and another one in Eastern Thrace.",
-					"Description": "Structures -30% build time."
+					"Description": "Structures -30% build time, no territory restrictions."
+				},
+				{
+					"Name": "Gallic Wall",
+					"History": "The Gauls constructed highly resistant walls made of stone supported by wooden beams and earthen fills.",
+					"Description": "Walls and Fortresses +3 all armor levels."
 				},				
 				{
 					"Name": "Trimarchisia",
@@ -40,45 +45,45 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Elite Infantry Swordsman."
+					"History": "Unique Unit. Infantry Swordsman. Deals x1.5 damage to Structures."
 				},
 				{
-					"Name": "Gallic Noble",
+					"Name": "Brihent",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
+					"History": "Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
 				}				
 			] 
 		} 
 	],
 	"CivBonuses":
-	[
-		{
-			"Name": "Carnutes",
-			"History": "Celtic religion and druidry inspired their warlike mindset.",
-			"Description": "Druids give player units in range +10% attack (doesn't stack)." 
-		},
-		{
-			"Name": "Herding",
-			"History": ".", 
-			"Description": "A Sheep added to starting units." 
-		},			
+	[		
 		{
 			"Name": "Furor Celtica",
 			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
 			"Description": "Melee Infantry +10% speed." 
 		},	
 		{
+			"Name": "Herding",
+			"History": ".", 
+			"Description": "A Sheep added to starting units." 
+		},			
+		{
+			"Name": "Carnutes",
+			"History": "Celtic religion and druidry inspired their warlike mindset.",
+			"Description": "Druids give player units in range +10% attack (doesn't stack)." 
+		},		
+		{
+			"Name": "Home Stores",
+			"History": "Celtic workshops and stores often shared a roof with their owner's houses.",
+			"Description": "Most Structures +5 population."
+		},		
+		{
 			"Name": "Wooden Structures",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone. Most Structures +5 population." 
-		},
-		{
-			"Name": "Light Infantry",
-			"History": "The majority of Gallic infantrymen were hastely levied unarmored troops.",
-			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
-		}			
+			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone." 
+		}				
 	],
 	"TeamBonuses":
 	[
@@ -115,7 +120,7 @@
 			"Count": 1
 		},		
 		{
-			"Template": "units/gaul_cavalry_javelinist_b" 
+			"Template": "units/gaul_cavalry_swordsman_b" 
 		}
 	],
 	"Formations":

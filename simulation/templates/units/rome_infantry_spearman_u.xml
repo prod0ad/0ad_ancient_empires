@@ -10,9 +10,11 @@
     </Resources>
   </Cost> 
   <Identity>
-	<VisibleClasses datatype="tokens">Mercenary</VisibleClasses>	
+    <SelectionGroupName>units/rome_infantry_spearman_u</SelectionGroupName>  
+	<VisibleClasses datatype="tokens">Mercenary -Levy -Premarian -Legion</VisibleClasses>	
     <Icon>units/celt_infantry_spearman.png</Icon>	
-    <SpecificName>Auxiliary Spearman</SpecificName>		
+    <SpecificName>Auxiliary Spearman</SpecificName>	
+    <RequiredTechnology>fort_rome_reform</RequiredTechnology>		
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

@@ -1,11 +1,11 @@
 {
-	"genericName": "Advanced Light Cavalry",
+	"genericName": "Advanced Cavalry Skirmisher",
 	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "cavalry_light_a.png",
 	"researchTime": 40,
-	"tooltip": "Light Cavalry +10% attack, hit points, range and vision.",
+	"tooltip": "Cavalry Skirmisher +10% attack, hit points, range and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

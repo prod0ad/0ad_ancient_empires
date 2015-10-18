@@ -5,8 +5,10 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Pikemen and Mercenaries -25% train time, +25% hit points.",
-	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
-	"affects": ["Pike"],
+	"tooltip": "Pikemen and Mercenaries -50% train time.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.50}
+	],
+	"affects": ["Pike","Mercenary"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

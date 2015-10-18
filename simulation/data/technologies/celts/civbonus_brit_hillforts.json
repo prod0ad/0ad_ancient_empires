@@ -1,0 +1,12 @@
+{
+	"genericName": "Hill Forts",
+	"autoResearch": true,	
+	"description": ".",
+	"requirements": {"civ": "brit"},
+	"tooltip": "Fortress -20% stone cost.",
+	"modifications": [
+		{"value": "Cost/Resources/stone", "multiply": 0.8}	
+	],
+	"affects": ["Fortress"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,8 +1,11 @@
 {
 	"genericName": "Elite Swordsmen",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+    "specificName": {
+		"mace": "Royal Peltasts"
+	},		
+	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "swordsman_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/swordsman_a",

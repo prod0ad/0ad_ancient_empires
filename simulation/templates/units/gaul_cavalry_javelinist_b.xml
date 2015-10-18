@@ -4,7 +4,7 @@
     <Civ>gaul</Civ>
 	<SelectionGroupName>units/gaul_cavalry_javelinist_b</SelectionGroupName>
     <SpecificName>Gallic Scout</SpecificName>
-    <GenericName>Light Cavalry</GenericName>	
+    <GenericName>Cavalry Skirmisher</GenericName>	
     <Icon>units/celt_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>

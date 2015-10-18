@@ -10,16 +10,16 @@
       <Hack>0</Hack>
       <Pierce>16</Pierce>
       <Crush>0</Crush>
-      <MaxRange>20</MaxRange>
+      <MaxRange>28</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
       <Spread>1.3</Spread>	 
 	  <Bonuses>
-		<AntiElephant>
+		<AntiSupport>
 		  <Classes>Support</Classes>
 		  <Multiplier>1.5</Multiplier>
-		</AntiElephant>		
+		</AntiSupport>		
 	  </Bonuses>  	  
     </Ranged>
   </Attack>
@@ -27,8 +27,8 @@
     <Population>3</Population>
     <BuildTime>20</BuildTime>  
     <Resources>
-      <food>100</food>
-      <wood>0</wood>
+      <food>70</food>
+      <wood>35</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>
@@ -38,12 +38,12 @@
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
-    <GenericName>Light Cavalry</GenericName>
+    <GenericName>Cavalry Skirmisher</GenericName>
     <Tooltip>Fast moving short Ranged Cavalry. Deals x1.5 damage to Support Units.</Tooltip>	
   </Identity>
   <Loot>
-    <food>10</food>
-    <wood>0</wood>
+    <food>7</food>
+    <wood>4</wood>
     <stone>0</stone>
     <metal>0</metal>
   </Loot>

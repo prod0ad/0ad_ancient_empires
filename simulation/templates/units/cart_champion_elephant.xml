@@ -2,10 +2,40 @@
 <Entity parent="template_unit_champion_elephant">
   <Identity>
     <Civ>cart</Civ>
-	<GenericName>War Elephant</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Forest Elephant</SpecificName>
     <Icon>units/cart_champion_cavalry.png</Icon>
+    <VisibleClasses datatype="tokens">-Levy Unique</VisibleClasses>	
   </Identity>
+  <Attack>
+    <Melee>
+      <Hack>0</Hack>
+      <Pierce>0</Pierce>
+      <Crush>50</Crush>
+      <MaxRange>7.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>		  
+    </Melee>
+  </Attack>  
+  <Cost>
+    <Population>4</Population>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <food>160</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>60</metal>
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>16</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>6</metal>
+  </Loot>  
+  <Health>
+    <Max>600</Max>
+  </Health>  
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_2.xml</Actor>
   </VisualActor>

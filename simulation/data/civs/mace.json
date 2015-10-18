@@ -19,17 +19,12 @@
 				{
 					"Name":"Antigonid Reforms",
 					"History":"The Antigonid kings ordered various military reforms including an increased focus on mercenaries, as well as pikemen, rearming them and enlisting Thracians in their ranks.",
-					"Description":"Pikemen and Mercenaries -25% train time, +25% hit points."
+					"Description":"Pikemen and Mercenaries -50% train time."
 				},	
 				{
 					"Name":"Hetairoi Aspidophoroi",
-					"History":"The decline in the numbers of Macedonian nobles due to constant wars and eastern migration eventually lead to a more defensive approach in guard cavalry use, turning them to heavy skirmish cavalry who generally avoided melee, instead of lancers.",
-					"Description":"Upgrades Hetairoi to Hetairoi Aspidophoroi, with a ranged attack."
-				},	
-				{
-					"Name":"Royal Peltasts.",
-					"History":"Antigonid elite infantry was renamed to Royal Peltasts, who, like the earlier Hypaspists could use a variety of weapons and tactics.",
-					"Description":"Upgrades Hypaspists to Royal Peltasts, with a ranged attack."
+					"History":"The decline in the numbers of Macedonian nobles due to constant wars and eastern migration eventually lead to a more defensive approach in guard cavalry use.",
+					"Description":"Upgrades Hetairoi to Hetairoi Aspidophoroi, with +1 hack, +2 pierce armor."
 				},					
 			    {
 					"Name":"Kestros Sling",
@@ -45,18 +40,11 @@
 			"Heroes":
 			[
 				{
-					"Name":"Hypaspist",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Versatile Elite Infantry Spearman. Deals x1.5 damage to Structures, Cavalry and Elephants."
-				},
-				{
 					"Name":"Hetairos",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
+					"History":"Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
 				}				
 			]
 		}
@@ -65,19 +53,29 @@
 	[
 		{
 			"Name":"Horsemanship",
-			"History":"Unlike the Greek City-States, the Macedonians and their Thessalian and Thracian neighbours, who often provided them with military units, were great horsemen and fielded relatively large numbers of cavalry who were famed for their swiftness and thunderous charges.",
+			"History":"Unlike the Greek City-States, the Macedonians and their Thessalian and Thracian neighbours who often provided them with military units, were great horsemen and fielded relatively large numbers of cavalry who were famed for their swiftness and thunderous charges.",
 			"Description":"Cavalry +10% attack and speed."
 		},
+		{
+			"Name":"Hypaspists",
+			"History":"The Macedonian elite foot guard was employed as an agile multi-purpose unit that could fight with sword, spear, pike and javelin.",
+			"Description":"Swordsmen +10% attack, hit points and speed, +25% train time."
+		},		
 		{
 			"Name":"Hardy Peltasts",
 			"History":"The northern balkan tribes provided skilled peltasts to the Macedonian army.",
 			"Description":"Javelin Infantry +15% attack."
 		},
 		{
+			"Name":"Hoplites",
+			"History":"While early Macedonian forces were mostly composed of cavalry and skirmishers, they included a relatively small number of Hoplites. At later times, after the introduction of pikemen, allied and mercenary hoplites continued to form a part of the army.",
+			"Description":"Levy Spearmen have increased stats, cost and train time."
+		},		
+		{
 			"Name":"Advanced Siegecraft",
 			"History":"The Macedonians used a wide variety of siege engines and tactics.",
 			"Description":"Siege Units -20% attack rate."
-		}
+		}		
 	],
 	"TeamBonuses":
 	[
@@ -100,7 +98,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/mace_cavalry_javelinist_b"
+			"Template": "units/mace_cavalry_swordsman_b"
 		}
 	],
 	"Formations":

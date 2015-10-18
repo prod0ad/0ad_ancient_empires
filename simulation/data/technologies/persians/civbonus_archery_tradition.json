@@ -3,12 +3,12 @@
 	"description": "The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
 	"autoResearch": true,
 	"requirements": {"civ": "pers"},	
-	"tooltip": "Infantry Archers get +10% range/vision and -25% train time.",
+	"tooltip": "Archers get +10% range/vision and -25% train time.",
 	"modifications": [
 		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
 		{"value": "Vision/Range", "multiply": 1.1},
 		{"value": "Cost/BuildTime", "multiply": 0.75}],
-	"affects": ["Infantry Bow"],
+	"affects": ["Levy Infantry Bow"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
 

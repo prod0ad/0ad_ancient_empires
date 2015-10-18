@@ -1,0 +1,17 @@
+{
+	"genericName": "Cantabrian Circle",
+	"specificName": "Cantabrian Circle",
+	"description": ".",
+	"cost": {"food": 550, "wood": 0, "stone": 0, "metal": 350},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "metalworker.png",
+	"researchTime": 40,
+	"tooltip": "Iberian Nobles and Cavalry Skirmishers +1 all armor types.",
+	"modifications": [
+	    {"value": "Armour/Hack", "add": 1.0},
+	    {"value": "Armour/Crush", "add": 1.0},		
+		{"value": "Armour/Pierce", "add": 1.0}],
+	"affects": ["Cavalry Javelin"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

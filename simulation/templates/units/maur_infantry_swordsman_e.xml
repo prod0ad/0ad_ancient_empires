@@ -8,6 +8,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/mauryans/infantry_swordsman_e.xml</Actor>
+    <Actor>units/mauryans/champion_maceman.xml</Actor>
   </VisualActor>
 </Entity>

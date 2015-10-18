@@ -2,10 +2,10 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>gaul</Civ>
-    <GenericName>Elite Infantry Swordsman</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Solduros</SpecificName>
 	<SelectionGroupName>units/gaul_champion_infantry</SelectionGroupName>
-	<Tooltip>Elite Infantry Swordsman.</Tooltip>			
+	<Tooltip>Elite Infantry Swordsman. Deals x1.5 damage to Ranged Units.</Tooltip>			
     <Icon>units/celt_champion_infantry_gaul.png</Icon>
   </Identity>
   <VisualActor>

@@ -8,6 +8,6 @@
     <RequiredXp>9999</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_swordsman_e.xml</Actor>
+    <Actor>units/iberians/champion_unit_1.xml</Actor>
   </VisualActor>
 </Entity>

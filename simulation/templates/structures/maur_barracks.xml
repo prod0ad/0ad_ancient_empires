@@ -19,13 +19,11 @@
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/spearman_a
-	  upgrades/spearman_e	
-	  upgrades/skirmisher_a
-	  upgrades/skirmisher_e		  
+	  upgrades/skirmisher_a	  
 	  upgrades/archer_a
 	  upgrades/archer_e		
-	  upgrades/swordsman_e	
-	  upgrades/swordsman_u	  
+	  upgrades/swordsman_a	
+	  upgrades/swordsman_e	  
       barracks_speed_train	
       barracks_ranged_accuracy	 
     </Technologies>

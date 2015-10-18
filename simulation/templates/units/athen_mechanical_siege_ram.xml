@@ -14,6 +14,6 @@
     <Unit radius="4.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/spartans/siege_ram.xml</Actor>
+    <Actor>structures/athenians/siege_ram.xml</Actor>
   </VisualActor>
 </Entity>

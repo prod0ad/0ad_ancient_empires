@@ -6,7 +6,7 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>45</Max>
+    <Max>40</Max>
   </Health>  
   <Vision>
     <Range>40</Range>
@@ -27,20 +27,20 @@
   <Cost>
     <BuildTime>20</BuildTime>	  
     <Resources>
-      <food>35</food>
-      <wood>20</wood>
-	  <metal>0</metal>
+      <food>0</food>
+      <wood>30</wood>
+	  <metal>15</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-      <food>4</food>
-      <wood>2</wood>
-	  <metal>0</metal>
+      <food>0</food>
+      <wood>3</wood>
+	  <metal>2</metal>
       <stone>0</stone>	 
   </Loot> 
    <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
+    <WalkSpeed>8.5</WalkSpeed>
   </UnitMotion> 
   <Identity>
     <VisibleClasses datatype="tokens">Bow</VisibleClasses>

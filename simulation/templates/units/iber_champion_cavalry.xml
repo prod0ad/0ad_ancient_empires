@@ -16,7 +16,7 @@
   </Attack>
   <Identity>
     <Civ>iber</Civ>
-    <GenericName>Elite Cavalry Skirmisher</GenericName>	
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Iberian Noble</SpecificName>
     <Icon>units/iber_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>

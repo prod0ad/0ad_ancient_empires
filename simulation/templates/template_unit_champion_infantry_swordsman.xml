@@ -12,13 +12,19 @@
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
+	  <Bonuses>
+		<AntiStructure>
+		  <Classes>Structure</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiStructure>
+	  </Bonuses>  		  
     </Melee>
   </Attack>
   <Cost>
     <BuildTime>20</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>60</food>
+      <food>45</food>
       <wood>0</wood>
       <stone>0</stone>
       <metal>40</metal>

@@ -58,7 +58,7 @@
   </Promotion>      
   <Identity>
     <Civ>spart</Civ>
-	<GenericName>Elite Infantry Spearman</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Spartan Royal Guard</SpecificName>
 	<Tooltip>Elite Infantry Spearman with Fear Aura. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
     <Icon>units/spart_champion_infantry_spear.png</Icon>

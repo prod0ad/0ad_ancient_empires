@@ -31,7 +31,7 @@
     <Max>400</Max>
   </Health>
   <Identity>
-    <GenericName>Merchantman</GenericName>
+    <GenericName>Cargo Ship</GenericName>
     <Tooltip>Transport units and trade between docks.</Tooltip>
     <Classes datatype="tokens">Trader</Classes>
     <Formations disable=""/>

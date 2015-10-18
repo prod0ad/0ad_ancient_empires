@@ -17,46 +17,34 @@
 			"Technologies":
 			[
 				{
-					"Name":"Infantry Reform",
-					"History":"Seleucid and indeed Successor warfare evolved over the course of the 3rd and 2nd centuries. War with the Romans from the West and invasions from the Galatians forced the Seleucids to reform some of their infantry regiments to be more flexible.",
-					"Description":"Unlock the Thorakites Champion Swordman."
-				},
-				{
-			         "Name":"Seleucid Cataphracts",
+			         "Name":"Cavalry Reform",
 			         "History":"Antiochus III reformed his heavy cavalry adding extensive armor, impressed by eastern cataphracts during his campaigns to reclaim the northeast satrapies.",
-			         "Description":"Elite and Heavy Cavalry +3 hack, +1 pierce armor, -20% speed."
+			         "Description":"Heavy Cavalry +2 all armor types."
 		        },	
 				{
-			         "Name":"Agema Thorakites",
-			         "History":"Agema was the name of various royal guard units in hellenistic armies.",
-			         "Description":"Thorakites +10% attack, hit points and vision."
+			         "Name":"Infantry Reform",
+			         "History":"Defeats by the Romans and Galatian influences lead the Seleucids to introduce a force of heavy swordsmen to the standing army.",
+			         "Description":"Swordsmen +10% attack, hit points and speed, -10% train time."
 		        },					
-		        {
-			        "Name":"Silk Route",
-			        "History":".",
-			        "Description":"Traders and Merchantmen -40% resource cost and train time."
-		        },				
 		        {
 			        "Name":"Cleruchy",
 			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
 			        "Description":"All soldiers -10% resource cost and train time."
-		        }
+		        },				
+		        {
+			        "Name":"Silk Road",
+			        "History":".",
+			        "Description":"Traders and Cargo Ships -40% resource cost and train time."
+		        }				
 			],
 			"Heroes":
 			[
 				{
-					"Name":"Hetairos",
+					"Name":"Cataphract",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
-				},				
-				{
-					"Name":"Thorakites",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Elite Infantry Swordsman. Deals x1.5 damage to Structures. Requires Infantry Reform."
+					"History":"Unique Unit. Heavily Armored, Slow Moving Melee Cavalry. Deals x1.5 damage to Melee Infantry"
 				}
 			]
 		}
@@ -69,22 +57,22 @@
 			"Description":"Farms -20% wood cost and build time."
 		},	
 		{
-			"Name":"Heavy Mounts",
-			"History":"The Seleucids had access to heavy Nisean Horses and huge Indian Elephants.",
-			"Description":"Bloodlines free (Cavalry and Elephants +25% hit points)."
+			"Name":"Nisean Horses",
+			"History":"The Seleucids had access to heavy Nisean Horses.",
+			"Description":"Bloodlines free (Cavalry +25% hit points)."
 		},			
-	    {
-			"Name":"Foreign Dynasty",
-			"History":".",
-			"Description":"Infantry Spearmen are mercenaries."
-		}	
+		{
+			"Name":"City Founders",
+			"History":"Even more so than other Successors, the Seleucids founded a huge number of cities, more often than not named Antiochia or Seleucia.",
+			"Description":"Civic Centers -15% resource cost and build time."
+		}
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"Great City Founders",
-			"History":"Even more so than other Successors, the Seleucids founded a huge number of cities, more often than not named Antiochia or Seleucia.",
-			"Description":"Civic Centers -15% resource cost and build time (currently not shared)."
+			"Name":"Lords Of The East",
+			"History":"Ruling over a large part of the eastern world, the Seleucids had access to a great number of warhorses.",
+			"Description":"Cavalry -20% train time (currently not shared)."
 		}
 	],
 	"Structures":
@@ -100,7 +88,7 @@
 			"Count": 4
 		},	
 		{
-			"Template": "units/sele_cavalry_javelinist_b"
+			"Template": "units/sele_cavalry_swordsman_b"
 		}
 	],
 	"Formations":

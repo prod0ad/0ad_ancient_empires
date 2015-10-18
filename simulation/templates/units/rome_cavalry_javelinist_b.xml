@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rome</Civ>
 	<SelectionGroupName>units/rome_cavalry_javelinist_b</SelectionGroupName>
-    <GenericName>Light Cavalry</GenericName>
+    <GenericName>Cavalry Skirmisher</GenericName>
 	<SpecificName>Italic Scout</SpecificName>
     <Icon>units/hele_cavalry_javelinist.png</Icon>
     <Classes datatype="tokens">Premarian</Classes>			

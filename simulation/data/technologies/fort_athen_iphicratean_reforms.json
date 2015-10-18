@@ -1,16 +1,16 @@
 {
 	"genericName": "Iphicratean Reforms",
 	"description": "Iphicrates changed the equipment of Athenian Soldiers and introduced the Iphicratid boots, increasing their mobility.",
-	"cost": { "food": 575, "wood": 0, "stone": 0, "metal": 325 },
+	"cost": { "food": 600, "wood": 0, "stone": 0, "metal": 300 },
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Levy Melee Infantry +15% speed.",
+	"tooltip": "Infantry Units +10% speed.",
 		"modifications": [
-	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
-	    {"value": "UnitMotion/Run/Speed", "multiply": 1.15}
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.10},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.10}
 	],
-		"affects": ["Levy Melee Infantry"],
+		"affects": ["Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

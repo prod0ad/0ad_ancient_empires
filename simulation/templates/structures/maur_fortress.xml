@@ -5,10 +5,10 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/maur_champion_elephant_archer
+      units/{civ}_champion_elephant_archer
+      units/{civ}_infantry_spearman_merc	  
     </Entities>
     <Technologies datatype="tokens">
-	  fort_maur_elephant_archer	
       fort_maur_elephant_lore 
 	  fort_maur_steel
 	  fort_maur_regen_structures

@@ -26,17 +26,13 @@
       <mesh>skeletal/horse.pmd</mesh>
       <props>
         <prop actor="units/ptolemies/champion_cavalry_e_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/horse/pers_peytral.xml" attachpoint="chest"/>
-        <prop actor="props/units/horse/crest_1.xml" attachpoint="head"/>
+        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>	
         <prop actor="props/units/horse_back_blanket.xml" attachpoint="rider"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="horse-texture-1">
-      <textures><texture file="skeletal/horse_pers_csw_e_1.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="2" name="horse-texture-2">
+    <variant frequency="1" name="horse-texture-2">
       <textures><texture file="skeletal/horse_pers_csw_e_2.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="horse-texture-3">
@@ -44,38 +40,8 @@
     </variant>
   </group>  
   <group>
-    <variant frequency="1" name="horse-color-bay">
-      <color>228 107 27</color>
-    </variant>
-    <variant frequency="1" name="horse-color-red-chestnut">
-      <color>207 132 109</color>
-    </variant>
-    <variant frequency="1" name="horse-color-black-chestnut">
-      <color>164 87 68</color>
-    </variant>
     <variant frequency="2" name="horse-color-gray">
       <color>255 255 255</color>
-    </variant>
-    <variant frequency="2" name="horse-color-beige">
-      <color>251 254 146</color>
-    </variant>
-    <variant frequency="1" name="horse-color-black">
-      <color>81 81 85</color>
-    </variant>
-    <variant frequency="1" name="horse-color-chocolate">
-      <color>98 68 58</color>
-    </variant>
-    <variant frequency="1" name="horse-color-chestnut">
-      <color>248 132 86</color>
-    </variant>
-    <variant frequency="1" name="horse-color-roan">
-      <color>242 219 164</color>
-    </variant>
-    <variant frequency="1" name="horse-color-liver">
-      <color>172 95 68</color>
-    </variant>
-    <variant frequency="3" name="horse-color-brown">
-      <color>255 148 89</color>
     </variant>
   </group>
   <group>

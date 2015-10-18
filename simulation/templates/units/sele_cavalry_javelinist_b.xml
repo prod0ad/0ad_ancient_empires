@@ -3,8 +3,8 @@
   <Identity>
     <Civ>sele</Civ>		
 	<SelectionGroupName>units/sele_cavalry_javelinist_b</SelectionGroupName>
-	<GenericName>Light Cavalry</GenericName>
-    <SpecificName>Iranian Scout</SpecificName>
+	<GenericName>Cavalry Skirmisher</GenericName>
+    <SpecificName>Eastern Horseman</SpecificName>
     <History>.</History>
     <Icon>units/pers_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

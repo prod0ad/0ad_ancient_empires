@@ -12,6 +12,6 @@
     <RequiredXp>9999</RequiredXp>		
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/cavalry_archer_a.xml</Actor>
+    <Actor>units/persians/chariot_archer_a.xml</Actor>
   </VisualActor>
 </Entity>

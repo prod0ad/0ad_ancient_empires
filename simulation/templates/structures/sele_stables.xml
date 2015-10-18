@@ -54,17 +54,23 @@
   </VisualActor>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/sele_cavalry_javelinist_b
-	  units/sele_cavalry_spearman_b
-      units/sele_cavalry_archer_b
-      units/sele_chariot_archer_b	  
-      units/sele_champion_elephant
+	  units/{civ}_cavalry_javelinist_b	 
+	  units/{civ}_cavalry_swordsman_b	 
+	  units/{civ}_cavalry_spearman_b
+      units/{civ}_cavalry_archer_b
+      units/{civ}_chariot_archer_b	  
+      units/{civ}_champion_elephant
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
 	  upgrades/cavalry_light_e		
-	  upgrades/cavalry_heavy_e		
+	  upgrades/cavalry_melee_a
+	  upgrades/cavalry_melee_e		
+	  upgrades/cavalry_heavy_a		  
+	  upgrades/cavalry_heavy_e	
+	  upgrades/cavalry_archer_a			  
 	  upgrades/cavalry_archer_e		
+	  upgrades/chariot_archer_a		  
 	  upgrades/chariot_archer_e	
       stables_armored_elephant	  
       stables_speed_train

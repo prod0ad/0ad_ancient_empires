@@ -3,7 +3,7 @@
   <Identity>
     <Civ>maur</Civ>
 	<SelectionGroupName>units/maur_cavalry_javelinist_b</SelectionGroupName>
-    <GenericName>Light Cavalry</GenericName>
+    <GenericName>Cavalry Skirmisher</GenericName>
     <SpecificName>Indian Scout</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>	
     <Icon>units/maur_cavalry_javelinist.png</Icon>

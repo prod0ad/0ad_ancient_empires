@@ -7,7 +7,7 @@
 		{"value": "Cost/BuildTime", "multiply": 1.3},
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
 	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1},	
-		{"value": "Attack/Melee/Hack", "multiply": 1.1}		
+		{"value": "Attack/Melee/Hack", "multiply": 1.2}		
 	],
 	"affects": ["Melee Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -4,9 +4,9 @@
     <Category>Barracks</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>120</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>400</wood>
       <stone>0</stone>
     </Resources>
   </Cost>
@@ -20,6 +20,9 @@
     <BuffHeal>1</BuffHeal>
     <LoadingRange>6</LoadingRange>
   </GarrisonHolder>
+  <BuildRestrictions>
+    <Territory>own ally neutral enemy</Territory>
+  </BuildRestrictions>  
   <Health>
     <Max>1800</Max>
     <Repairable>true</Repairable>
@@ -27,14 +30,14 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <GenericName>Auxiliary Camp</GenericName>
-    <SpecificName>Auxiliary Camp</SpecificName>
+    <GenericName>Army Camp</GenericName>
+    <SpecificName>Army Camp</SpecificName>
     <Classes datatype="tokens">
 	  ArmyCamp
 	</Classes>
     <Icon>structures/roman_camp.png</Icon>
-    <Tooltip>Trains and upgrades Auxiliary Mercenary units.</Tooltip>
-    <RequiredTechnology>fort_rome_reform</RequiredTechnology>	
+    <Tooltip>Trains military units and siege weapons. Has no territory restrictions.</Tooltip>
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Obstruction>
     <Static width="36.0" depth="36.0"/>
@@ -49,16 +52,14 @@
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/rome_infantry_archer_b		  	  		  
-      units/rome_infantry_slinger_b
-      units/rome_infantry_spearman_b	
-      units/rome_champion_elephant	  
+      units/rome_infantry_spearman_b
+      units/rome_infantry_javelinist_b  
+      units/rome_infantry_swordsman_b		
+      units/rome_infantry_spearman_u	
+      units/rome_mechanical_siege_ram  
+      units/rome_mechanical_siege_scorpio_packed	
+      units/rome_mechanical_siege_ballista_packed	   
     </Entities>
-	<Technologies datatype="tokens">
-	  upgrades/archer_merc_a
-	  upgrades/archer_merc_e  
-	  upgrades/slinger_merc_e		   	  
-    </Technologies>	
   </ProductionQueue>
   <Vision>
     <Range>40</Range>

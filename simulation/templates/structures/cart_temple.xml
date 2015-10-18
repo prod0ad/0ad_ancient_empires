@@ -10,6 +10,12 @@
   <Obstruction>
     <Static width="17.0" depth="30.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/cart_champion_infantry
+      units/cart_champion_cavalry 
+    </Entities>
+  </ProductionQueue>  
   <VisualActor>
     <Actor>structures/carthaginians/temple_big.xml</Actor>
   </VisualActor>

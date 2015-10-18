@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/brit_infantry_swordsman_e">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>80</metal>
+    </Resources>
+  </Cost> 
+  <Identity>
+    <Civ>athen</Civ>
+	<SelectionGroupName>units/athen_infantry_sworsman_merc</SelectionGroupName>
+	<SpecificName>Thracian Rhomphaophoros</SpecificName>	
+    <Icon>units/sele_infantry_swordsman.png</Icon>
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/athenians/infantry_swordsman_e.xml</Actor>
+  </VisualActor>
+</Entity>

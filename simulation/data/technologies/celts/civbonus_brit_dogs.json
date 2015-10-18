@@ -1,8 +1,8 @@
 {
-	"genericName": "Ardiosmanae",
+	"genericName": "Dog Breeding",
 	"autoResearch": true,	
 	"description": "Workers +50% hunting and herding rate.",
-	"requirements": {"civ": "brit"},
+	"requirements": {"all": [{"civ": "brit"},{ "class": "Farmstead", "number": 1 }]},
 	"modifications": [
 		{"value": "ResourceGatherer/Rates/food.meat", "multiply": 1.5}
 	],

@@ -11,7 +11,7 @@
     </Melee>
   </Attack> 
   <Vision>
-    <Range>30</Range>
+    <Range>25</Range>
   </Vision>  
   <Identity>
     <GenericName>Melee Infantry</GenericName>

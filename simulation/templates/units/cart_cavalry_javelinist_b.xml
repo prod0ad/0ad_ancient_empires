@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>105</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_cavalry_javelinist_b</SelectionGroupName>
-    <GenericName>Light Cavalry</GenericName>
+    <GenericName>Cavalry Skirmisher</GenericName>
     <SpecificName>Numidian Rider</SpecificName>	
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
     <Icon>units/cart_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>			
   </Identity>

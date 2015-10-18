@@ -28,16 +28,16 @@
     <BuildTime>20</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>60</food>
-      <wood>0</wood>
+      <food>0</food>
+      <wood>50</wood>
       <stone>0</stone>
-      <metal>35</metal>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>6</food>
-    <wood>0</wood>
+    <food>0</food>
+    <wood>5</wood>
     <stone>0</stone>
     <metal>4</metal>
   </Loot>  

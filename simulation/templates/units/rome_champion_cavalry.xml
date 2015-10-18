@@ -26,10 +26,10 @@
   <Identity>
     <Civ>rome</Civ>
 	<SpecificName>Consular Bodyguard</SpecificName>
-	<GenericName>Elite Heavy Cavalry</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <Icon>units/rome_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/rome_champion_cavalry</SelectionGroupName>
-	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Elite Units.</Tooltip>	
+	<Tooltip>Heavy Cavalry. Deals x1.5 damage to Unique Units.</Tooltip>	
   </Identity>
   <VisualActor>
     <Actor>units/romans/champion_unit_2.xml</Actor>

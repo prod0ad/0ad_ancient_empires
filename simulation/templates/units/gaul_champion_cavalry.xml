@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>gaul</Civ>
-    <GenericName>Elite Heavy Cavalry</GenericName>
-    <SpecificName>Gallic Noble</SpecificName>
+	<GenericName>Unique Unit</GenericName>
+    <SpecificName>Brihent</SpecificName>
 	<SelectionGroupName>units/gaul_champion_cavalry</SelectionGroupName>
 	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
     <Icon>units/celt_champion_cavalry_gaul.png</Icon>

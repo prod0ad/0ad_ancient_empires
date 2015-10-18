@@ -8,6 +8,6 @@
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],
-	"affects": ["Melee Cavalry Mercenary Basic"],
+	"affects": ["Melee Heavy Cavalry Mercenary Basic"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

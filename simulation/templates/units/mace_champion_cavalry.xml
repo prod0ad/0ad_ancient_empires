@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>mace</Civ>
-	<GenericName>Elite Heavy Cavalry</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Hetaîros</SpecificName>
 	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
     <Icon>units/hele_champion_cavalry_mace.png</Icon>

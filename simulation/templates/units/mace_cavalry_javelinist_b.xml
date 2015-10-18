@@ -3,8 +3,8 @@
   <Identity>
     <Civ>mace</Civ>
 	<SelectionGroupName>units/mace_cavalry_javelinist_b</SelectionGroupName>
-	<GenericName>Light Cavalry</GenericName>
-    <SpecificName>Thracian Prodromos</SpecificName>
+	<GenericName>Cavalry Skirmisher</GenericName>
+    <SpecificName>Thracian Hippakontistes</SpecificName>
     <Icon>units/mace_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

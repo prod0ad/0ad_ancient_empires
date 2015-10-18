@@ -3,7 +3,7 @@
   <Identity>
     <Civ>spart</Civ>
 	<SelectionGroupName>units/spart_cavalry_javelinist_b</SelectionGroupName>
-	<GenericName>Light Cavalry</GenericName>
+	<GenericName>Cavalry Skirmisher</GenericName>
     <SpecificName>Perioikos Prodromos</SpecificName>
     <Icon>units/spart_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	

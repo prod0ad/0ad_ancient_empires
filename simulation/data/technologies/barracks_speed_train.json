@@ -6,10 +6,10 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "clenched_fist.png",
 	"researchTime": 40,
-	"tooltip": "Levy Infantry -20% train time.",
+	"tooltip": "Infantry -20% train time.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],
-	"affects": ["Infantry Levy"],
+	"affects": ["Levy Infantry","Unique Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -21,7 +21,7 @@
     <Population>3</Population>
     <BuildTime>40</BuildTime>  
     <Resources>
-      <food>80</food>
+      <food>70</food>
       <wood>0</wood>
 	  <metal>30</metal>
       <stone>0</stone>	  
@@ -36,7 +36,7 @@
     <Tooltip>Fast moving long Ranged Cavalry.</Tooltip>	
   </Identity>
   <Loot>
-    <food>8</food>
+    <food>7</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>3</metal>

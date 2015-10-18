@@ -1,8 +1,8 @@
 {
 	"genericName": "Socii",
 	"autoResearch": true,
-	"description": "Roman allies, especially the Italian ones, often provided the majority of soldiers in Roman armies.",
-	"requirements": {"civ": "rome"},
-	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.8}],
-	"affects": ["Sword Infantry"]
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "rome"}]},	
+	"description": "Roman expansion brought an increasing large allied manpower pool to recruit from.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75}],
+	"affects": ["Barracks"]
 }

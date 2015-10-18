@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+    <Crush>1</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Population>2</Population>	
+    <Resources>
+      <food>60</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>15</metal>
+    </Resources>
+  </Cost>
+  <Loot>
+    <food>6</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>2</metal>
+  </Loot>  
+  <Health>
+    <Max>110</Max>
+  </Health>  
+  <Attack>
+    <Melee>
+      <Hack>15</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>7.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Cavalry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>
+		<AntiElephant>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiElephant>		
+	  </Bonuses>   
+    </Melee>
+  </Attack>
+  <Vision>
+    <Range>35</Range>
+  </Vision>
+  <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>  
   <Identity>
     <Civ>athen</Civ>
-	<GenericName>Elite Infantry Spearman</GenericName>
-    <SpecificName>Epilektos</SpecificName>
+	<GenericName>Unique Unit</GenericName>
+    <SpecificName>Reformed Hoplite</SpecificName>
     <History>.</History>
     <Icon>units/athen_champion_infantry.png</Icon>
-	<Tooltip>Elite Infantry Spearman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Versatile Spearman. Deals x1.5 damage to Cavalry and Elephants.</Tooltip>	
   </Identity>
   <Promotion>
     <Entity>units/athen_champion_infantry_e</Entity>

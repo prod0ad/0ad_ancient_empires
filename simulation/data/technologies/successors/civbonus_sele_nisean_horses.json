@@ -1,0 +1,10 @@
+{
+	"genericName": "Nisean Horses",
+	"autoResearch": true,	
+	"description": ".",
+	"requirements": {"civ": "sele"},
+	"modifications": [	
+		{"value": "Health/Max", "multiply": 1.25}		
+	],
+	"affects": ["Cavalry"]
+}

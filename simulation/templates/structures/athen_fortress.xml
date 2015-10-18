@@ -13,9 +13,10 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/athen_champion_infantry
+      units/athen_cavalry_archer_e
     </Entities>
     <Technologies datatype="tokens">
-      fort_athen_armor_reform	
+      fort_athen_citizen_levy	
       fort_athen_chorigoi
       fort_athen_imperialism
       fort_athen_iphicratean_reforms	  

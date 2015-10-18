@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Elite Heavy Cavalry</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Royal Companion</SpecificName>
 	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
     <History>?</History>

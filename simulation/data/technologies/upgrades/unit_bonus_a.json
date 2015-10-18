@@ -1,0 +1,18 @@
+{
+	"genericName": "Stats for advanced units",
+	"autoResearch": true,
+	"description": "These stat modifications will be applied to advanced and elite units",
+	"modifications": [
+		{"value": "Health/Max",             "multiply":    1.1,   "affects": "Ranged"},
+		{"value": "Health/Max",             "multiply":    1.1,   "affects": "Melee"},	
+		{"value": "Attack/Ranged/MaxRange", "multiply":    1.1, "affects": "Ranged"  },
+		{"value": "Vision/Range",           "multiply":    1.1                       },
+		{"value": "Attack/Melee/Hack",      "multiply":    1.1                       },
+		{"value": "Attack/Melee/Pierce",    "multiply":    1.1                       },
+		{"value": "Attack/Ranged/Hack",      "multiply":    1.1                       },
+		{"value": "Attack/Ranged/Pierce",    "multiply":    1.1                       },
+		{"value": "Attack/Ranged/Crush",      "multiply":    1.1                      },			
+		{"value": "Attack/Melee/Crush",      "multiply":    1.1                      }		
+	],
+	"affects": ["Advanced Unit", "Elite Unit"]
+}

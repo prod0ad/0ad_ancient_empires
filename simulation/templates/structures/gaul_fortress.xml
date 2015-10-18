@@ -12,11 +12,13 @@
   </Sound>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/gaul_champion_infantry
-      units/gaul_champion_cavalry  
+      units/{civ}_champion_infantry
+      units/{civ}_champion_cavalry 
+      units/{civ}_infantry_spearman_merc	  
     </Entities>
     <Technologies datatype="tokens">
 	  fort_gaul_regen_cav
+	  fort_gaul_wall
 	  fort_gaul_migration
 	  fort_gaul_reform
     </Technologies>

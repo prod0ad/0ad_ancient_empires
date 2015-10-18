@@ -1,11 +1,11 @@
 {
 	"genericName": "Advanced Chariot Archer",
-	"autoResearch": true,
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "upgrade_advanced.png",
+	"cost": {"food": 0, "wood": 350, "stone": 0, "metal": 250},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "chariot_archer_a.png",
 	"researchTime": 40,
-	"tooltip": "Horse Archers +10% attack, hit points, range and vision.",
+	"tooltip": "Chariot Archers +10% attack, hit points, range and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}	
 	],

@@ -1,7 +1,13 @@
 {
 	"genericName": "Advanced Swordsmen",
-	"autoResearch": true,
+    "specificName": {
+		"mace": "Silver Shields"
+	},		
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "swordsman_a.png",
+	"researchTime": 40,	
 	"tooltip": "Swordsmen +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}

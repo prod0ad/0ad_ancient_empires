@@ -2,15 +2,15 @@
 	"genericName": "Soliferrum",
 	"description": ".",
 	"requirements": {"civ": "iber"},
-	"cost": {"food": 0, "wood": 450, "stone": 0, "metal": 450},
-	"requirements": {"tech": "phase_imperial"},
-	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "javelin_thong.png",
 	"researchTime": 40,
-	"tooltip": "Iberian Nobles +20% attack.",	
+	"tooltip": "Javelin armed units +15% attack.",	
 	"modifications": [
-		{"value": "Attack/Ranged/Pierce", "multiply": 1.20},
-		{"value": "Attack/Ranged/Crush", "multiply": 1.20}	
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.15},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.15}	
 	],
-	"affects": ["Cavalry Unique"]
+	"affects": ["Javelin"]
 }

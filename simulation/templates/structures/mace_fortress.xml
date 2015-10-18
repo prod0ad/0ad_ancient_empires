@@ -12,11 +12,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mace_champion_infantry
-      units/mace_champion_cavalry  
+      units/{civ}_champion_cavalry  
+      units/{civ}_infantry_archer_e			  
+      units/{civ}_infantry_spearman_merc	  
+      units/{civ}_champion_elephant	  	  
     </Entities>
     <Technologies datatype="tokens">
-	  fort_mace_royal_peltasts
 	  fort_mace_aspidophoroi  
 	  fort_mace_fetters_of_hellas
       fort_mace_kestros_slings	  

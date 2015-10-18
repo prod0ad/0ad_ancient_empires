@@ -34,18 +34,25 @@
 			"Heroes":
 			[
 				{
+					"Name": "Forest Elephant",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Unique Unit. Powerful Elephant with Fear Aura. Deals x1.5 damage to Structures and Mechanical units."
+				},			
+				{
 					"Name": "Sacred Band Infantry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants."
+					"History": "Unique Unit. Infantry Spearman. Deals x2 damage to Cavalry and Elephants. Trained at the Temple."
 				},
 				{
 					"Name": "Sacred Band Cavalry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
+					"History": "Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry. Trained at the Temple."
 				}
 			]
 		}
@@ -60,12 +67,12 @@
 		{
 			"Name": "Colonization",
 			"History": "The Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
-			"Description": "Civic Centres, Temples, Docks and Houses -20% build time."
+			"Description": "Civic Centres, Temples, Docks, Markets and Houses -20% build time."
 		},		
 		{
 			"Name": "Fortified Barracks",
 			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints. Elephant Herd free (Elephants -25% food cost)."
+			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints."
 		}		
 	],
 	"TeamBonuses":
@@ -73,11 +80,21 @@
 		{
 			"Name": "Naval Trademasters",
 			"History": "The Phoenicians and Carthaginians were broadly known as the greatest trading civilization of the ancient and classical world.",
-			"Description": "Trade Ships +30% speed (currently not shared)."
+			"Description": "Cargo Ships +30% speed (currently not shared)."
 		}
 	],
 	"Structures":
 	[
+		{
+			"Name":"Embassy",
+			"Class":"",
+			"Emblem":"",
+			"History":".",
+			"Description": "Trains Mercenary Units. Replaces the Stables.",			
+			"Requirements":".",
+			"Phase":"",
+			"Special":"."
+		}		
 	],
 	"StartEntities":
 	[
@@ -89,7 +106,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/cart_cavalry_javelinist_b"
+			"Template": "units/cart_cavalry_swordsman_b"
 		}
 	],
 	"Formations":

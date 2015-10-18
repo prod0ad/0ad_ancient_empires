@@ -3,6 +3,15 @@
   <Identity>
     <Civ>iber</Civ>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -blacksmith_attack_melee_01
+      -blacksmith_attack_melee_02
+      -blacksmith_attack_ranged_01
+      -blacksmith_attack_ranged_02	
+    </Technologies>
+  </ProductionQueue>  
   <VisualActor>
     <Actor>structures/iberians/blacksmith.xml</Actor>
   </VisualActor>

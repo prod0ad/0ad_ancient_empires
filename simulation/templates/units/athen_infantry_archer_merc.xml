@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/athen_infantry_archer_e">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>45</metal>
+    </Resources>
+  </Cost> 
+  <Identity>
+    <Civ>athen</Civ>
+	<SelectionGroupName>units/athen_infantry_archer_merc</SelectionGroupName>
+	<SpecificName>Scythian Archer</SpecificName>	
+    <Icon>units/athen_champion_ranged.png</Icon>
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/athenians/champion_unit_ranged.xml</Actor>
+  </VisualActor>
+</Entity>

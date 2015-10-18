@@ -1,0 +1,17 @@
+{
+	"genericName": "Citizen Levy",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_pteruges.png",
+	"researchTime": 40,
+	"tooltip": "Levy Infantry -20% resource cost.",
+    "modifications": [
+	    {"value": "Cost/Resources/food", "multiply": 0.80},		
+	    {"value": "Cost/Resources/wood", "multiply": 0.80},
+	    {"value": "Cost/Resources/metal", "multiply": 0.80},
+		{"value": "Cost/Resources/stone", "multiply": 0.80}	
+	],
+	"affects": ["Levy Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -15,7 +15,7 @@
     <SpecificName>Numidian Elephant</SpecificName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
     <Icon>units/cart_champion_cavalry.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>	
+    <RequiredTechnology>phase_imperial</RequiredTechnology>	
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_2.xml</Actor>

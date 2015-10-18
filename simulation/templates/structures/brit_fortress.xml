@@ -22,11 +22,12 @@
   </Sound>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/brit_champion_cavalry
+      units/{civ}_champion_cavalry
+      units/{civ}_infantry_spearman_merc	 	  
     </Entities>
     <Technologies datatype="tokens">
       fort_brit_swift_chariots 	
-      fort_brit_hillforts  
+      fort_brit_woad 
 	  fort_brit_reform
     </Technologies>
   </ProductionQueue>

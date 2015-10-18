@@ -4,6 +4,6 @@
 	"autoResearch": true,
 	"tooltip": "Workers and Infantry -5 food cost.",
 	"modifications": [{"value": "Cost/Resources/food", "add": -5}],
-	"affects": ["Worker","Infantry"],
+	"affects": ["Worker","Infantry Javelin","Infantry Melee"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

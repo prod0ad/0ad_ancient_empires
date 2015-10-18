@@ -51,7 +51,7 @@
   <Identity>
     <Civ>brit</Civ>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-	<GenericName>Elite Chariot Skirmisher</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Celtic Chariot</SpecificName>
 	<SelectionGroupName>units/brit_champion_cavalry</SelectionGroupName>
 	<Tooltip>Elite Chariot Skirmisher.</Tooltip>	

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_swordsman">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost> 
+  <Identity>
+    <Civ>iber</Civ>
+	<SelectionGroupName>units/cart_cavalry_swordsman_b</SelectionGroupName>
+    <SpecificName>Gallic Horseman</SpecificName>
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
+    <Icon>units/iber_cavalry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/cart_cavalry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/carthaginians/cavalry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

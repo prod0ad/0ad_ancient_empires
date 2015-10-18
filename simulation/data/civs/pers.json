@@ -16,14 +16,14 @@
 			"Technologies":
 			[
 				{
-					"Name": "Modernization (Reform)",
+					"Name": "Military Reforms",
 					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
-					"Description": "Infantry and Cavarly units +1 all armor types."
+					"Description": "All Infantry and Cavarly units +1 all armor types."
 				},
 				{
 					"Name": "Immortals",
 					"History": ".",
-					"Description": "Anusyia -50% train time."
+					"Description": "Anusyia -75% train time."
 				}, 				
 	            {
 		    	    "Name": "Persian Architecture",
@@ -38,38 +38,40 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Fast moving and fast trained Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants." 
-				}
+					"History": "Unique Unit. Fast trained, missile resistant Archer. Trained at the Apadana." 
+				},
+				{
+					"Name": "Khuveshavagan",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry." 
+				}				
 			]
 		} 
 	],
 	"CivBonuses":
-	[
+	[	
+		{
+			"Name":"Archery Tradition",
+			"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
+			"Description":"Archers +10% range and vision, -25% train time."
+		},	
 		{
 			"Name": "Great King's Levy",
 			"History": "The Persians could and did levy a large number of infantry during wartime due to the sheer size of the Achaemenid Empire and the way in which it was set-up. In general the Persian infantry was well trained and fought with great tenacity. However while this was true the infantry were poor hand-to-hand, close combat fighters. Also, with the exception of the elite regiments, the Persian infantry was not a standing professional force.",
 			"Description": "Maximum population +10%."
-		}, 		
-		{
-			"Name": "Naval Invasion",
-			"History": "The Persians, employing their skilled phoenician and other maritime subjects were among the first to large large scale naval invasions including the trasportation of cavalry.",
-			"Description": "Heavy Transports free (Merchantmen +10 transport capacity)."
-		},
-		{
-			"Name":"Archery Tradition",
-			"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
-			"Description":"Infantry Archers +10% range/vision, -25% train time."
-		},		
+		}, 				
 		{
 			"Name":"Qanats",
 			"History":"The Persians were the first to develop subterranean canals to provide the needed water supply for agriculture to dry regions.",
 			"Description":"Fields, Corrals and Farmsteads, -50% build time."
 		},			
 		{
-			"Name": "Light Infantry",
-			"History": "The majority of Persian infantrymen were hastely levied unarmored troops.",
-			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
-		}		
+			"Name": "Naval Invasion",
+			"History": "The Persians, employing their skilled phoenician and other maritime subjects were among the first to launch large scale naval invasions including the transportation of cavalry.",
+			"Description": "Heavy Cargo Ship free (Cargo Ship +10 transport capacity, requires a Dock)."
+		}			
 	],
 	"TeamBonuses":
 	[
@@ -88,7 +90,7 @@
 			"History": ".",
 			"Requirements": "",
 			"Phase": "city",
-			"Description": "Adds a trickle of all resource types."			
+			"Description": "Adds a trickle of all resource types. Trains and upgrades Anusyia."			
 		}		
 	],
 	"StartEntities":
@@ -101,7 +103,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/pers_cavalry_javelinist_b" 
+			"Template": "units/pers_cavalry_swordsman_b" 
 		}
 	],
 	"Formations":

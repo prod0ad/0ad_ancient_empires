@@ -45,6 +45,7 @@
     <CanGuard>false</CanGuard>
   </UnitAI>
   <UnitMotion>
+  <PassabilityClass>ship-small</PassabilityClass> 
     <WalkSpeed>8</WalkSpeed>
   </UnitMotion>
   <Vision>

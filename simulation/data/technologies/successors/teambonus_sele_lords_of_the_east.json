@@ -1,0 +1,11 @@
+{
+	"genericName": "Lords Of The East",
+	"autoResearch": true,
+	"description": "Ruling over a large part of the eastern world, the Seleucids had access to a great number of warhorses.",
+	"requirements": {"civ": "sele"},
+	"tooltip": "Cavalry -20% train time",
+	"modifications": [
+	    {"value": "Cost/BuildTime", "multiply": 0.80}
+	],
+	"affects": ["Cavalry"]
+}

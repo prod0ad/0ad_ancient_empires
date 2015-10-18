@@ -31,29 +31,20 @@
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="horse-texture-1">
-      <textures><texture file="skeletal/horse_pers_csw_e_1.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="2" name="horse-texture-2">
-      <textures><texture file="skeletal/horse_pers_csw_e_2.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="horse-texture-3">
-      <textures><texture file="skeletal/horse_pers_csw_e_3.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="horse-texture-1">
+      <textures><texture file="skeletal/horse_pers_csw_b.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="horse-color-black">
-      <color>41 41 41</color>
+    <variant frequency="1" name="horse-color-1">
+      <color>255 155 33</color>
     </variant>
-    <variant frequency="1" name="horse-color-biege">
-      <color>247 213 111</color>
+    <variant frequency="1" name="horse-color-2">
+      <color>255 144 22</color>
     </variant>
-    <variant frequency="1" name="horse-color-gray">
-      <color>253 253 253</color>
-    </variant>
-    <variant frequency="1" name="horse-color-brown">
-      <color>211 123 44</color>
-    </variant>
+    <variant frequency="1" name="horse-color-3">
+      <color>255 133 11</color>
+    </variant>	
   </group>
   <group>
     <variant frequency="100" name="Idle"/>

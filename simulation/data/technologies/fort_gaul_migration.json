@@ -6,8 +6,11 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "handcart_empty.png",
 	"researchTime": 40,
-	"tooltip": "All structures are constructed 30% faster.",
-	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.70}],
+	"tooltip": "Structures -30% build time, no territory restrictions.",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 0.70},
+		{"value": "BuildRestrictions/Territory", "replace": ["own", "neutral", "ally", "enemy"]}	
+	],
 	"affects": ["Structure"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

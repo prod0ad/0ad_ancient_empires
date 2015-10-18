@@ -3,6 +3,12 @@
   <Identity>
     <Civ>athen</Civ>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -storehouse_metalmining_02
+    </Technologies>
+  </ProductionQueue>  
   <VisualActor>
     <Actor>structures/athenians/storehouse.xml</Actor>
   </VisualActor>

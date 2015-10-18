@@ -1,0 +1,16 @@
+{
+	"genericName": "Gallic Wall",
+	"description": ".",
+	"cost": {"food": 0, "wood": 400, "stone": 200, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "stone_blocks.png",
+	"researchTime": 40,
+	"tooltip": "Walls and Fortresses +3 all armor levels.",
+	"modifications": [
+	    {"value": "Armour/Hack", "add": 3.0},
+	    {"value": "Armour/Crush", "add": 3.0},		
+		{"value": "Armour/Pierce", "add": 3.0}],
+	"affects": ["Fortress","StoneWall"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

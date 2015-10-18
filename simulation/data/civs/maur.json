@@ -19,12 +19,7 @@
 					"Name":"Pacifism (Reform)",
 					"History":"Regrets of the bloodshed or an effort to maintain his empire led Ashoka to support Buddhism and pacifism after slaughtering thousands of people during his early conquests.",
 					"Description":"Workers +15% all gather rates, Levy Infantry -10% hit points and attack."
-				},
-				{
-					"Name": "Larger Crew",
-					"History": "Adds an extra Archer.'",
-					"Description": "Elephant Archer +50% attack." 
-				}, 		
+				},	
 				{
 					"Name": "Elephant Lore",
 					"History": ".",
@@ -48,7 +43,7 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Elite Elephant Archer with fear aura."
+					"History":"Unique Unit. Elephant Archer with fear aura."
 				}
 			]
 		}
@@ -66,9 +61,9 @@
 			"Description": "Civil Centres +5 population." 
 		}, 				
 		{
-			"Name":"Indian Elephants",
-			"History":"Indian Elephants were larger and stronger than the north african ones most Mediterranean states used.",
-			"Description":"Elephant Units +25% hit points. Start with an extra Elephant Worker unit."
+			"Name":"Worker Elephant",
+			"History":".",
+			"Description":"Start with an extra Elephant Worker unit."
 		},			
 		{
 			"Name":"Bamboo Longbows",
@@ -79,11 +74,6 @@
 			"Name": "Wooden Structures",
 			"History": "Mauryan structures were mostly made of wood. Consequently, their structures have less health than other cultures do, but they also construct faster.",
 			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone." 
-		},
-		{
-			"Name": "Light Infantry",
-			"History": "The majority of Indian infantrymen were hastely levied unarmored troops.",
-			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
 		}		
 	],
 	"TeamBonuses":
@@ -112,7 +102,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/maur_cavalry_javelinist_b",
+			"Template": "units/maur_cavalry_swordsman_b",
 			"Count": 1
 		},
 		{

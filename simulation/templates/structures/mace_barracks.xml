@@ -21,24 +21,22 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mace_infantry_spearman_b
-      units/mace_infantry_pikeman_b	  	  
-      units/mace_infantry_javelinist_b
-      units/mace_infantry_archer_b
-	  units/mace_infantry_swordsman_b	  
-      units/mace_infantry_slinger_b	
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_pikeman_b	  	  
+      units/{civ}_infantry_javelinist_b
+	  units/{civ}_infantry_swordsman_b	  
+      units/{civ}_infantry_slinger_b	  
     </Entities>
 	<Technologies datatype="tokens">
-	  upgrades/spearman_a
-	  upgrades/spearman_e	  
+	  upgrades/spearman_a  
 	  upgrades/pikeman_a
-	  upgrades/pikeman_e		
+	  upgrades/pikeman_e	
+	  upgrades/pikeman_u	  
 	  upgrades/skirmisher_a
 	  upgrades/skirmisher_e	
-	  upgrades/skirmisher_u		
-	  upgrades/archer_merc_a
-	  upgrades/archer_merc_e
-	  upgrades/swordsman_merc_e		  
+	  upgrades/swordsman_a			  
+	  upgrades/swordsman_e	
+	  upgrades/slinger_a	  
 	  upgrades/slinger_e	 
       barracks_speed_train	
       barracks_ranged_accuracy	 

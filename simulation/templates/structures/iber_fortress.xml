@@ -8,11 +8,12 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/iber_champion_cavalry
+      units/{civ}_champion_cavalry
+      units/{civ}_infantry_spearman_merc  
     </Entities>
     <Technologies datatype="tokens">
+	  fort_iber_cantabrian_circle	
 	  fort_iber_soliferrum	 	
-	  fort_iber_steel
 	  fort_iber_guerilla	  
     </Technologies>
   </ProductionQueue>

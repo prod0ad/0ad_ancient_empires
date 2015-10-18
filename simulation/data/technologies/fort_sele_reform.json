@@ -5,6 +5,14 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Unlock the Thorakites Champion Swordman.",
+	"tooltip": "Swordsmen +10% attack, hit points and speed, -10% train time.",
+	"modifications": [	
+		{"value": "Health/Max", "multiply": 1.1},
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1},	
+		{"value": "Attack/Melee/Hack", "multiply": 1.1},	
+		{"value": "Cost/BuildTime", "multiply": 0.9}			
+	],
+	"affects": ["Levy Infantry Sword"],	
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -6,10 +6,10 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse_trainer.png",
 	"researchTime": 40,
-	"tooltip": "Levy Cavalry -20% train time. Unlocks Cavalry Conscription.",
+	"tooltip": "Cavalry -20% train time. Unlocks Cavalry Conscription.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],
-	"affects": ["Cavalry Levy"],
+	"affects": ["Levy Cavalry","Unique Cavalry","Levy Elephant","Unique Elephant"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

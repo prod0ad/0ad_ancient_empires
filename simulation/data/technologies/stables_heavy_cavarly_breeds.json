@@ -6,10 +6,10 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "nisean_war_horses.png",
 	"researchTime": 40,
-	"tooltip": "Cavalry and Elephants +25% health.",
+	"tooltip": "Cavalry +25% health.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.25}
 	],
-	"affects": ["Cavalry","Elephant"],
+	"affects": ["Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

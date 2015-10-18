@@ -25,12 +25,12 @@
 				{
 					"Name": "Swift Chariots",
 					"History": ".",
-					"Description": "Celtic Chariots +10% speed and attack rate." 
+					"Description": "Celtic Chariots +10% speed, -10% attack rate." 
 				}, 					
 				{
-					"Name": "Hill Forts",
-					"History": "Britain was full of Celtic Hill forts.",
-					"Description": "Fortresses +25% hit points and an extra default arrow." 
+					"Name": "Woad Warriors",
+					"History": "The Britons used to paint themselves in woad (a blue dye) before charging in combat, to appear more fearsome and request divine protection.",
+					"Description": "Infantry Units -15% attack rate." 
 				} 
 			],
 			"Heroes":
@@ -40,7 +40,7 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Elite Chariot Skirmisher."
+					"History": "Unique Unit. Fast Moving Chariot Skirmisher."
 				} 	
 			] 
 		} 
@@ -50,25 +50,30 @@
 		{
 			"Name": "Dog Breeding",
 			"History": ".", 
-			"Description": "Shepherds and Hounds free (Workers +50% meat gathering rate). A Dog Scout is added to starting units." 
+			"Description": "A Dog Scout is added to starting units. 'Shepherds and Hounds' free (Workers +50% meat gathering rate, requires a Farmstead). " 
+		},		
+		{
+			"Name": "Hill Forts",
+			"History": "Britain was full of Celtic Hill forts.",
+			"Description": "Fortresses -20% stone cost." 
+		}, 	
+		{
+			"Name": "Home Stores",
+			"History": "Celtic workshops and stores often shared a roof with their owner's houses.",
+			"Description": "Most Structures +5 population."
 		},		
 		{
 			"Name": "Wooden Structures",
 			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone. Most Structures +5 population." 
-		},
-		{
-			"Name": "Light Infantry",
-			"History": "The majority of Briton infantrymen were hastely levied unarmored troops.",
-			"Description": "Levy Spearmen are significantly weaker, cheaper and faster trained."
-		}				
+			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone." 
+		}			
 	],
 	"TeamBonuses":
 	[
 		{
 			"Name": "Atlantic Trade",
 			"History": "Carthaginians and Greeks traded with Briton tribes sailing out of the Mediterranean, around Iberia, to western Britain. This journey required sturdy vessels.",
-			"Description": "Trade Ships +50% hit points (currently not shared)." 
+			"Description": "Cargo Ships +50% hit points (currently not shared)." 
 		} 
 	],
 	"Structures":
@@ -94,7 +99,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/brit_cavalry_javelinist_b",
+			"Template": "units/brit_cavalry_swordsman_b",
 			"Count": 1
 		},
 		{

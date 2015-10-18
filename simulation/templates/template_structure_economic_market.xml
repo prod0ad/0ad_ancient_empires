@@ -53,6 +53,7 @@
       market_gather_capacity_01
       market_gather_capacity_02
       market_gather_capacity_03
+      unlock_shared_los 
     </Technologies>	
   </ProductionQueue>
   <Vision>

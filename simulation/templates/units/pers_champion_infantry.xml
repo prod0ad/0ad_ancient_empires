@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_spearman">
+<Entity parent="template_unit_champion_infantry_archer">
   <Armour>
-    <Hack>0</Hack>
-    <Pierce>0</Pierce>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
-    <Melee>
-      <Hack>10</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>6.0</MaxRange>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>9</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>55</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-    </Melee>
+      <Spread>1.3</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+    </Ranged>
   </Attack>
   <Cost>
     <BuildTime>10</BuildTime>
@@ -32,18 +37,18 @@
     <metal>3</metal>
   </Loot>  
   <Health>
-    <Max>120</Max>
+    <Max>75</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
   </UnitMotion>  
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Elite Infantry Spearman</GenericName>
     <SpecificName>Anusyia</SpecificName>
+	<GenericName>Unique Unit</GenericName>	
     <Classes datatype="tokens">Immortal</Classes>
     <Icon>units/pers_champion_infantry.png</Icon>
-	<Tooltip>Fast trained Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Unique Unit. Fast trained, missile resistant Archer.</Tooltip>	
   </Identity> 
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>

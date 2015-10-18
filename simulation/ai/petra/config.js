@@ -49,9 +49,9 @@ m.Config = function(difficulty)
 	this.buildings = 
 	{
 		"base" : {
-			"default" : [ "structures/{civ}_civil_centre" ],
-			"ptol" : [ "structures/{civ}_civil_centre" ],
-			"sele" : [ "structures/{civ}_civil_centre" ]
+			"default" : [ "structures/{civ}_civil_centre", "structures/{civ}_stables" ],
+			"ptol" : [ "structures/{civ}_civil_centre", "structures/{civ}_stables" ],
+			"sele" : [ "structures/{civ}_civil_centre", "structures/{civ}_stables" ]
 		},
 		"advanced" : {
 			"default" : [],

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <animations>
+        <animation file="quadraped/horse_idle_a.psa" name="Idle" speed="50"/>
+        <animation file="quadraped/horse_walk.psa" name="Walk" speed="120"/>
+        <animation file="quadraped/horse_gallop.psa" name="Run" speed="50"/>
+        <animation file="quadraped/horse_walk.psa" name="carry_meat" speed="120"/>
+        <animation event=".5" file="quadraped/horse_idle_a.psa" name="attack_ranged" speed="20"/>
+        <animation file="quadraped/horse_attack_a.psa" name="attack_slaughter" speed="20"/>
+        <animation file="quadraped/horse_death.psa" name="death" speed="240"/>
+      </animations>
+      <mesh>skeletal/horse.pmd</mesh>
+      <props>
+        <prop actor="units/iberians/cavalry_javelinist_e_r.xml" attachpoint="rider"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Horse 1">
+      <textures><texture file="skeletal/horse_iber_csp_a_1.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Horse 2">
+      <textures><texture file="skeletal/horse_iber_csp_a_2.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="horse-color-chocolate">
+      <color>99 77 55</color>
+    </variant>
+    <variant frequency="1" name="horse-color-chocolate">
+      <color>88 66 44</color>
+    </variant>
+    <variant frequency="1" name="horse-color-chocolate">
+      <color>88 55 33</color>
+    </variant>	
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="Run">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

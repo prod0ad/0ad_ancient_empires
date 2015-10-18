@@ -38,7 +38,7 @@
   </Health>
   <Identity>
     <GenericName>Wonder</GenericName>
-    <Tooltip>Maximum Population +15%. Required for victory in Wonder Mode.</Tooltip>
+    <Tooltip>Maximum Population and Territory Influence +15%. Required for victory in Wonder Mode.</Tooltip>
     <Classes datatype="tokens">
 	  Imperial
 	  Wonder
@@ -76,10 +76,12 @@
     <Range>60</Range>
   </Vision>
     <ResourceTrickle>
-	<FoodRate>0</FoodRate>
-	<WoodRate>0</WoodRate>
-	<StoneRate>0</StoneRate>
-	<MetalRate>2.0</MetalRate>
+    <Rates>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>2.0</metal>
+    </Rates>
 	<Interval>1000</Interval>
   </ResourceTrickle>
   <VisualActor>

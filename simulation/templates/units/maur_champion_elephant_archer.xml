@@ -3,7 +3,7 @@
   <Identity>
     <Civ>maur</Civ>
     <SelectionGroupName>units/maur_champion_elephant_archer</SelectionGroupName>
-    <GenericName>Elite Elephant Archer</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Elephant Archer</SpecificName>
     <Icon>units/maur_cavalry_archer.png</Icon>
     <Tooltip>Elite Elephant Archer with fear aura.</Tooltip>

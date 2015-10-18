@@ -1,0 +1,11 @@
+{
+	"genericName": "Missile Crafting",
+	"autoResearch": true,
+	"requirements": {"all": [{"civ": "iber"},{ "class": "Blacksmith", "number": 1 },{"tech": "phase_town"}]},
+	"tooltip": "Ranged units, Ships and Structures +10% attack.",
+	"modifications": [{"value": "Attack/Ranged/Hack", "multiply": 1.1},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.1},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.1}],
+	"affects": ["Ranged","Ship","Defensive"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

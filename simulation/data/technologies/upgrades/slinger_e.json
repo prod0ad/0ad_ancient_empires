@@ -1,8 +1,15 @@
 {
 	"genericName": "Elite Slingers",
-	"cost": {"food": 0, "wood": 0, "stone": 300, "metal": 300},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+    "specificName": {
+		"athen": "Rhodian Instructors",
+		"mace": "Rhodian Instructors",
+		"ptol": "Rhodian Instructors",			
+		"sele": "Rhodian Instructors",
+		"spart": "Rhodian Instructors"
+	},	
+	"cost": {"food": 0, "wood": 0, "stone": 450, "metal": 450},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "slinger_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/slinger_a",

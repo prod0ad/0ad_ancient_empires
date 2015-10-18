@@ -1,0 +1,14 @@
+{
+	"genericName": "Hypaspists",
+	"autoResearch": true,
+	"requirements": {"civ": "mace"},	
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},
+		{"value": "Cost/BuildTime", "multiply": 1.25},
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.1},	
+		{"value": "Attack/Melee/Hack", "multiply": 1.1}		
+	],
+	"affects": ["Sword Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -30,11 +30,11 @@
 	  upgrades/spearman_a
 	  upgrades/spearman_e		
 	  upgrades/skirmisher_a
-	  upgrades/skirmisher_e	
-	  upgrades/skirmisher_u			 
+	  upgrades/skirmisher_e		 
 	  upgrades/archer_a
 	  upgrades/archer_e		  
-	  upgrades/slinger_e			  
+	  upgrades/slinger_a	
+	  upgrades/slinger_e		  
       barracks_speed_train	
       barracks_ranged_accuracy	 
     </Technologies>

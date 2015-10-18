@@ -5,7 +5,8 @@
 	"requirements": {"civ": "athen"},
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.1},
-	 {"value": "Vision/Range", "multiply": 1.1}		
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.1},		
+		{"value": "Vision/Range", "multiply": 1.1}		
 	],
 	"affects": ["Structure"]
 }

@@ -6,7 +6,7 @@
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>50</metal>
+      <metal>45</metal>
     </Resources>
   </Cost> 
   <Identity>
@@ -16,7 +16,7 @@
     <SpecificName>Cretan Archer</SpecificName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
     <Icon>units/hele_infantry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>	
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_archer_a</Entity>

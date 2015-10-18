@@ -2,10 +2,10 @@
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Identity>
     <Civ>pers</Civ>
-    <GenericName>Bactrian Heavy Lancer</GenericName>
-    <SpecificName>Bakhtrish Asabara</SpecificName>
+    <SpecificName>Khuveshavagan</SpecificName>
+	<GenericName>Unique Unit</GenericName>	
     <Icon>units/pers_champion_cavalry.png</Icon>
-    <History>Cataphracts were the crushing blow of the Persian cavalry. The development of the Persian cataphract is not well understood, as is the relationship between these men and future generations of cataphract cavalry. At best it seems the Persians adopted the catapharct from encounters with Iranian nomads like the Massagetes.</History>
+	<Tooltip>Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
   </Identity>
   <VisualActor>
     <Actor>units/persians/champion_unit_2.xml</Actor>

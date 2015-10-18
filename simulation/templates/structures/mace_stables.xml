@@ -54,13 +54,16 @@
   </VisualActor>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/mace_cavalry_javelinist_b		
-      units/mace_cavalry_spearman_b
-      units/mace_champion_elephant		  
+	  units/{civ}_cavalry_javelinist_b	 
+	  units/{civ}_cavalry_swordsman_b	 
+	  units/{civ}_cavalry_spearman_b 
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_light_a
 	  upgrades/cavalry_light_e		
+	  upgrades/cavalry_melee_a
+	  upgrades/cavalry_melee_e	
+	  upgrades/cavalry_heavy_a		  
 	  upgrades/cavalry_heavy_e		
       stables_speed_train
       stables_speed_cavalry_01

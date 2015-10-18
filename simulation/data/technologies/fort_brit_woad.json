@@ -1,0 +1,16 @@
+{
+	"genericName": "Woad Warriors",
+	"description": ".",
+	"cost": { "food": 500, "wood": 0, "stone": 0, "metal": 400 },
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "Infantry Units -15% attack rate.",
+		"modifications": [
+	    {"value": "Attack/Melee/RepeatTime", "multiply": 0.85},
+	    {"value": "Attack/Ranged/RepeatTime", "multiply": 0.85}
+	],
+		"affects": ["Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

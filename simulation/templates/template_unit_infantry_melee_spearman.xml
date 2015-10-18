@@ -5,12 +5,12 @@
   </Health>
   <Armour>
     <Hack>0</Hack>
-    <Pierce>0</Pierce>
+    <Pierce>1</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>8</Hack>
+      <Hack>10</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -19,11 +19,11 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiCavalry>
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiElephant>		
 	  </Bonuses>  
     </Melee>
@@ -50,6 +50,6 @@
   <Identity>
     <VisibleClasses datatype="tokens">Spear</VisibleClasses>
     <GenericName>Spearman</GenericName>
-    <Tooltip>Basic Melee Infantry. Deals x2 damage to Cavalry and Elephants.</Tooltip>		
+    <Tooltip>Basic Melee Infantry. Deals x1.5 damage to Cavalry and Elephants.</Tooltip>		
   </Identity>  
 </Entity>

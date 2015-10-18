@@ -4,14 +4,13 @@
     <Civ>pers</Civ>
 	<SelectionGroupName>units/pers_cavalry_spearman_b</SelectionGroupName>
 	<GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Persian Cavalry</SpecificName>
-    <Icon>units/pers_cavalry_swordsman.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Cappadocian Cavalry</SpecificName>
+    <Icon>units/pers_cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pers_cavalry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/cavalry_swordsman_b.xml</Actor>
+    <Actor>units/persians/cavalry_spearman_b.xml</Actor>
   </VisualActor>
 </Entity>

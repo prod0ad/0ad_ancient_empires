@@ -3,7 +3,7 @@
   <Identity>
     <Civ>pers</Civ>
 	<SelectionGroupName>units/pers_cavalry_javelinist_b</SelectionGroupName>
-	<GenericName>Light Cavalry</GenericName>
+	<GenericName>Cavalry Skirmisher</GenericName>
     <SpecificName>Iranian Scout</SpecificName>
     <Icon>units/pers_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	

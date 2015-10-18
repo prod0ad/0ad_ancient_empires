@@ -3,8 +3,8 @@
   <Identity>
     <Civ>athen</Civ>
 	<SelectionGroupName>units/athen_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Athenian Prodromos</SpecificName>
-    <GenericName>Light Cavalry</GenericName>
+    <SpecificName>Athenian Hippakontistes</SpecificName>
+    <GenericName>Cavalry Skirmisher</GenericName>
     <Icon>units/hele_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>

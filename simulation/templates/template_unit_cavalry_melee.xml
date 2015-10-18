@@ -28,7 +28,7 @@
     </Resources>
   </Cost>  
    <Vision>
-    <Range>45</Range>
+    <Range>25</Range>
   </Vision>   
   <Loot>
     <food>8</food>
@@ -37,16 +37,15 @@
     <metal>6</metal>
   </Loot>  
   <UnitMotion>
-    <WalkSpeed>13</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>25.0</Speed>
-      <Range>1000.0</Range>
-      <RangeMin>10.0</RangeMin>
+      <Speed>11.0</Speed>
     </Run>
   </UnitMotion>  
   <Identity>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Heavy</VisibleClasses>
     <GenericName>Heavy Cavalry</GenericName>
+	<RequiredTechnology>phase_town</RequiredTechnology>	
     <Tooltip>Powerful Melee Cavalry.</Tooltip>		
   </Identity>
 </Entity>

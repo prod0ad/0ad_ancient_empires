@@ -1,7 +1,7 @@
 {
 	"genericName": "Heavy Trasports",
 	"autoResearch": true,	
-	"requirements": {"civ": "pers"},
+	"requirements": {"all": [{"civ": "pers"},{ "class": "Dock", "number": 1 }]},	
 	"tooltip": "Merchantmen +10 transport capacity.",
 	"modifications": [{"value": "GarrisonHolder/Max", "add": 10}],
 	"affects": ["Trader Ship"],

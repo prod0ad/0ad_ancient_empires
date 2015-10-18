@@ -37,12 +37,20 @@
   </Obstruction>
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_champion_infantry 	 	  
+    </Entities>
+    <Technologies datatype="tokens">
+      fort_pers_immortals
+    </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
-	<FoodRate>1.0</FoodRate>
-	<WoodRate>1.0</WoodRate>
-	<StoneRate>0.75</StoneRate>
-	<MetalRate>0.75</MetalRate>
+    <Rates>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>0.75</stone>
+      <metal>0.75</metal>
+    </Rates>
 	<Interval>1000</Interval>
   </ResourceTrickle>
   <VisualActor>

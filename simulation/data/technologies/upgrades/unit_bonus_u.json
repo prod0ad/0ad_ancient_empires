@@ -1,0 +1,18 @@
+{
+	"genericName": "Stats for elite units",
+	"autoResearch": true,
+	"description": "These stat modifications will be applied to Ultimate units",
+	"modifications": [
+		{"value": "Health/Max",             "multiply":    1.1,   "affects": "Ranged"},
+		{"value": "Health/Max",             "multiply":    1.2,   "affects": "Melee"},	
+		{"value": "Attack/Ranged/MaxRange", "multiply":    1.1, "affects": "Ranged"  },
+		{"value": "Vision/Range",           "multiply":    1.1                       },
+		{"value": "Attack/Melee/Hack",      "multiply":    1.1                       },
+		{"value": "Attack/Melee/Pierce",    "multiply":    1.1                       },
+		{"value": "Attack/Ranged/Hack",      "multiply":    1.1                       },
+		{"value": "Attack/Ranged/Pierce",    "multiply":    1.1                       },
+		{"value": "Attack/Ranged/Crush",      "multiply":    1.1                      },			
+		{"value": "Attack/Melee/Crush",      "multiply":    1.1                      }	
+	],
+	"affects": ["Ultimate Unit"]
+}

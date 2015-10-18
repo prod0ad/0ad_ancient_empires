@@ -51,7 +51,7 @@
     <Height>5.0</Height>
   </Footprint>  
   <Identity>
-	<VisibleClasses datatype="tokens">Chariot Bow</VisibleClasses>
+	<VisibleClasses datatype="tokens">Chariot Bow -Cavalry</VisibleClasses>
     <GenericName>Chariot Archer</GenericName>
     <Tooltip>Fast moving long ranged chariot. Effective against melee units.</Tooltip>	
   </Identity>
@@ -65,6 +65,9 @@
     <Unit radius="2.0"/>
   </Obstruction>
   <UnitMotion>
-    <WalkSpeed>13.0</WalkSpeed>
+    <WalkSpeed>11.5</WalkSpeed>
+    <Run>
+      <Speed>11.5</Speed>
+    </Run>	
   </UnitMotion>
 </Entity>

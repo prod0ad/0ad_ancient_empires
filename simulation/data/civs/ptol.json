@@ -16,22 +16,12 @@
 			"Technologies":
 			[
 				{
-			         "Name":"Romanization Reform",
-			         "History":"Late Ptolemaic Egypt employed to Roman influenced swordsmen often trained by Roman mercenary instructors.",
-			         "Description":"Unlock the Thorakites Champion Swordsman."
-		        },	
-				{
 			         "Name":"Royal Agema",
 			         "History":".",
 			         "Description":"Royal Companion +10% attack, hit points and vision."
-		        },					
+		        },									
 				{
-			         "Name":"Agema Thorakites",
-			         "History":"Agema was the name of various royal guard units in hellenistic armies.",
-			         "Description":"Thorakites +10% attack, hit points and vision."
-		        },					
-				{
-			         "Name":"Machimoi",
+			         "Name":"Machimoi (Reform)",
 			         "History":"In order to counter the Seleucid threat, the Ptolemies eventually started training Native Egyptians to fight as pikemen.",
 			         "Description":"Pikemen -20% resource cost and train time."
 		        },		
@@ -54,13 +44,6 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
-				},				
-				{
-					"Name":"Thorakites",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"Elite Infantry Swordsman. Deals x1.5 damage to Structures. Requires Infantry Reform."
 				}			
 			]
 		}
@@ -68,24 +51,19 @@
 	"CivBonuses":
 	[
 		{
+			"Name":"Nile Delta",
+			"History":"The Nile Delta had rich soil for farming, due to centuries of seasonal floods from the Nile depositing rich silt across the landscape.",
+			"Description":"Workers +30% farming rate."
+		},	
+		{
 			"Name":"Cult Of Isis.",
 			"History":"The Macedonian-Greek rulers of the Ptolemaic dynasty observed many ancient Egyptian traditions in order to satiate the local populace and ingratiate themselves to the powerful priestly class in the country.",
 			"Description":"Temple technologies -50% cost and research time."
 		},
 		{
-			"Name":"Nile Delta",
-			"History":"The Nile Delta had rich soil for farming, due to centuries of seasonal floods from the Nile depositing rich silt across the landscape.",
-			"Description":"Workers +30% farming rate."
-		},
-		{
 			"Name":"Clay Structures",
 			"History":"Clay construction provided cheap structures for the Egyptians.",
 			"Description":"Houses, Farmsteads, Corrals and Storehouses no resource cost, increased build time."
-		},
-		{
-			"Name":"Foreign Dynasty",
-			"History":".",
-			"Description":"Infantry Spearmen are mercenaries."
 		}
 	],
 	"TeamBonuses":
@@ -109,7 +87,7 @@
 			"Count": 4
 		},
 		{
-			"Template": "units/ptol_cavalry_javelinist_b"
+			"Template": "units/ptol_cavalry_swordsman_b"
 		}
 	],
 	"Formations":

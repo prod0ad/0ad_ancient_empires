@@ -6,7 +6,7 @@
     <Crush>0</Crush>
   </Armour>
   <Vision>
-    <Range>45</Range>
+    <Range>40</Range>
   </Vision> 
   <Attack>
     <Ranged>
@@ -30,7 +30,7 @@
     </Formations>
   </Identity>
   <UnitMotion>
-    <WalkSpeed>14</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
   </UnitMotion>  
   <Sound>
     <SoundGroups>

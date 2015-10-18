@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_elephant">
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>240</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>mace</Civ>
-	<GenericName>War Elephant</GenericName>
-    <SpecificName>Forest Elephant</SpecificName>	
-    <Icon>units/ptol_champion_elephant.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>		
+    <GenericName>War Elephant</GenericName>
+    <SpecificName>Indian Elephant</SpecificName>
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
+    <Icon>units/maur_champion_elephant.png</Icon>	
+    <RequiredTechnology>phase_imperial</RequiredTechnology>		
   </Identity>
   <VisualActor>
     <Actor>units/seleucids/champion_elephant.xml</Actor>

@@ -5,7 +5,7 @@
   </Health>
   <Armour>
     <Hack>0</Hack>
-    <Pierce>0</Pierce>
+    <Pierce>1</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -22,16 +22,16 @@
     <Population>2</Population>  
     <BuildTime>20</BuildTime>	  
     <Resources>
-      <food>60</food>
+      <food>45</food>
       <wood>0</wood>
-	  <metal>30</metal>
+	  <metal>35</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-      <food>6</food>
+      <food>4</food>
       <wood>0</wood>
-	  <metal>3</metal>
+	  <metal>4</metal>
       <stone>0</stone>
   </Loot>
   <UnitMotion>

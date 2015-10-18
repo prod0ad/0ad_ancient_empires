@@ -1,0 +1,11 @@
+{
+	"genericName": "Roman Legions",
+	"autoResearch": true,
+	"requirements": {"civ": "rome"},		
+	"tooltip": "Barracks units upgrade through shared techs. Spearmen have increased stats, cost and train time. Skirmishers +1 pierce armor. Swordsmen -20% train time.",
+	"modifications": [
+	{"value": "Armour/Pierce", "add": 1.0, "affects": "Javelin Infantry"},
+	{"value": "Cost/BuildTime", "multiply": 0.8, "affects": "Sword Infantry"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

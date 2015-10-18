@@ -1,8 +1,0 @@
-{
-	"genericName": "Glorious Expansion",
-	"autoResearch": true,
-	"requirements": { "class": "Wonder", "number": 1 },
-	"tooltip": "Maximum Population +15%.",
-	"modifications": [{"value": "Player/MaxPopulation", "multiply": 1.15}],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
-}

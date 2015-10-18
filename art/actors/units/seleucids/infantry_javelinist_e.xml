@@ -47,7 +47,6 @@
       </animations>
       <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/heads/ptol_thureophoros_b.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/hele_pelta_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/jav.xml" attachpoint="r_hand"/>
@@ -57,6 +56,23 @@
       <textures><texture file="skeletal/mace_ijv_e.png" name="baseTex"/></textures>
     </variant>
   </group>
+  <group>
+    <variant frequency="1" name="2">
+	  <props>
+        <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
+	  </props>
+    </variant>
+    <variant frequency="1" name="2">
+	  <props>
+        <prop actor="props/units/heads/head_hele_a.xml" attachpoint="head"/>
+	  </props>
+    </variant>
+    <variant frequency="1" name="3">
+	  <props>
+        <prop actor="props/units/heads/head_hele_e.xml" attachpoint="head"/>
+	  </props>
+    </variant>	
+  </group>    
   <group>
     <variant frequency="100" name="Idle"/>
     <variant name="attack_ranged">

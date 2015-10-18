@@ -1,8 +1,9 @@
 {
-	"genericName": "Advanced Slingers",
-	"autoResearch": true,
+	"genericName": "Advanced Slingers",	
+	"cost": {"food": 0, "wood": 0, "stone": 300, "metal": 300},
 	"requirements": {"tech": "phase_city"},
-	"icon": "upgrade_advanced.png",
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "slinger_a.png",
 	"researchTime": 40,
 	"tooltip": "Slingers +10% attack, hit points, range and vision.",
 	"modifications": [

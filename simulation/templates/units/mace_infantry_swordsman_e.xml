@@ -2,6 +2,7 @@
 <Entity parent="units/mace_infantry_swordsman_a">
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
+    <SpecificName>Royal Peltast</SpecificName>		
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

@@ -15,7 +15,7 @@
     <SpecificName>Indian Elephant</SpecificName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>			
     <Icon>units/pers_war_elephant.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>	
+    <RequiredTechnology>phase_imperial</RequiredTechnology>	
   </Identity>
   <VisualActor>
     <Actor>units/persians/war_elephant.xml</Actor>

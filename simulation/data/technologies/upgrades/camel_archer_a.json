@@ -1,9 +1,9 @@
 {
 	"genericName": "Advanced Camel Archer",
-	"autoResearch": true,
-	"requirements": {"tech": "phase_town"},
-	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "upgrade_advanced.png",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "cavalry_archer_a.png",
 	"researchTime": 40,
 	"tooltip": "Camel Archers +10% attack, hit points, range and vision.",
 	"modifications": [

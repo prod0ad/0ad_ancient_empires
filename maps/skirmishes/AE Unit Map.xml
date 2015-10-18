@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="367.274" y="202.277" z="205.806"/>
-		<Rotation angle="0.238762"/>
-		<Declination angle="0.610865"/>
+		<Position x="81.3493" y="210.203" z="117.619"/>
+		<Rotation angle="0.0628841"/>
+		<Declination angle="0.610864"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -45,7 +45,7 @@
   "PlayerData": [
     null,
     {
-      "Civ": "athen"
+      "Civ": "mace"
     },
     {
       "Civ": "cart"
@@ -75,1561 +75,1169 @@
 		<Entity uid="11">
 			<Template>units/athen_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="71.10842" z="153.29493"/>
+			<Position x="70.33208" z="144.22263"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36870"/>
 		</Entity>
 		<Entity uid="12">
 			<Template>units/athen_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="72.66811" z="155.07007"/>
+			<Position x="72.0331" z="145.69886"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40920"/>
 		</Entity>
 		<Entity uid="13">
 			<Template>units/athen_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="74.42257" z="156.8896"/>
+			<Position x="73.92345" z="147.51081"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11064"/>
 		</Entity>
 		<Entity uid="14">
 			<Template>units/athen_cavalry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="74.33242" z="149.42365"/>
+			<Position x="66.90188" z="147.48725"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37874"/>
 		</Entity>
 		<Entity uid="15">
 			<Template>units/athen_cavalry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="76.72231" z="150.12137"/>
+			<Position x="68.72628" z="149.19098"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23726"/>
 		</Entity>
 		<Entity uid="16">
 			<Template>units/athen_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="78.1675" z="152.06754"/>
+			<Position x="70.48182" z="150.71485"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1070"/>
 		</Entity>
 		<Entity uid="17">
 			<Template>units/athen_champion_infantry</Template>
 			<Player>1</Player>
-			<Position x="85.69501" z="150.14329"/>
+			<Position x="84.23508" z="158.25846"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35414"/>
-		</Entity>
-		<Entity uid="18">
-			<Template>units/athen_champion_infantry_e</Template>
-			<Player>1</Player>
-			<Position x="87.09975" z="151.6543"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="43694"/>
 		</Entity>
 		<Entity uid="19">
 			<Template>units/athen_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="82.32924" z="152.19391"/>
+			<Position x="74.28478" z="153.66648"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19444"/>
 		</Entity>
 		<Entity uid="20">
 			<Template>units/athen_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="84.17533" z="153.82172"/>
+			<Position x="76.29543" z="155.57569"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61704"/>
 		</Entity>
 		<Entity uid="21">
 			<Template>units/athen_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="85.96645" z="155.22162"/>
+			<Position x="78.55118" z="157.61872"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21736"/>
 		</Entity>
 		<Entity uid="22">
 			<Template>units/athen_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="80.4116" z="154.18302"/>
+			<Position x="71.28713" z="156.09946"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3000"/>
 		</Entity>
 		<Entity uid="23">
 			<Template>units/athen_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="81.79644" z="155.57975"/>
+			<Position x="73.20002" z="157.87781"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41468"/>
 		</Entity>
 		<Entity uid="24">
 			<Template>units/athen_infantry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="83.27805" z="157.37818"/>
+			<Position x="75.34614" z="159.96738"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22382"/>
-		</Entity>
-		<Entity uid="25">
-			<Template>units/athen_infantry_javelinist_u</Template>
-			<Player>1</Player>
-			<Position x="84.43401" z="159.21946"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="29500"/>
 		</Entity>
 		<Entity uid="26">
 			<Template>units/athen_infantry_slinger_b</Template>
 			<Player>1</Player>
-			<Position x="78.20064" z="156.47107"/>
+			<Position x="68.68851" z="158.33942"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3032"/>
 		</Entity>
 		<Entity uid="27">
 			<Template>units/athen_infantry_slinger_a</Template>
 			<Player>1</Player>
-			<Position x="79.51075" z="158.30265"/>
+			<Position x="70.65514" z="160.41742"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28450"/>
 		</Entity>
 		<Entity uid="28">
 			<Template>units/athen_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="81.36768" z="160.08652"/>
+			<Position x="72.58133" z="162.67945"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15974"/>
 		</Entity>
 		<Entity uid="29">
 			<Template>units/athen_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="79.93625" z="144.01331"/>
+			<Position x="76.85006" z="150.78647"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27604"/>
 		</Entity>
 		<Entity uid="30">
 			<Template>units/athen_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="81.20243" z="145.57432"/>
+			<Position x="78.82683" z="152.99222"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13774"/>
 		</Entity>
 		<Entity uid="31">
 			<Template>units/athen_infantry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="82.70296" z="147.12766"/>
+			<Position x="81.0412" z="154.79584"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40694"/>
 		</Entity>
 		<Entity uid="35">
 			<Template>units/brit_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="110.95904" z="193.23704"/>
+			<Position x="111.32808" z="193.65888"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2228"/>
 		</Entity>
 		<Entity uid="36">
 			<Template>units/brit_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="112.49778" z="194.60404"/>
+			<Position x="112.86092" z="195.00794"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57226"/>
 		</Entity>
 		<Entity uid="37">
 			<Template>units/brit_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="114.08904" z="195.98874"/>
+			<Position x="114.74735" z="196.72626"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61700"/>
-		</Entity>
-		<Entity uid="38">
-			<Template>units/brit_cavalry_spearman_b</Template>
-			<Player>1</Player>
-			<Position x="117.22905" z="198.8057"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="40592"/>
-		</Entity>
-		<Entity uid="39">
-			<Template>units/brit_cavalry_spearman_a</Template>
-			<Player>1</Player>
-			<Position x="118.94538" z="200.71048"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="8254"/>
-		</Entity>
-		<Entity uid="40">
-			<Template>units/brit_cavalry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="120.84624" z="202.45151"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="53688"/>
 		</Entity>
 		<Entity uid="41">
 			<Template>units/brit_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="112.89798" z="211.06437"/>
+			<Position x="117.41378" z="201.74686"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52846"/>
 		</Entity>
 		<Entity uid="42">
 			<Template>units/brit_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="114.42965" z="190.69184"/>
+			<Position x="114.5498" z="190.26694"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34510"/>
 		</Entity>
 		<Entity uid="43">
 			<Template>units/brit_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="115.99605" z="192.66852"/>
+			<Position x="116.31974" z="191.97156"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6816"/>
-		</Entity>
-		<Entity uid="44">
-			<Template>units/brit_infantry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="117.94532" z="194.32145"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="9228"/>
 		</Entity>
 		<Entity uid="45">
 			<Template>units/brit_infantry_slinger_b</Template>
 			<Player>1</Player>
-			<Position x="116.20257" z="188.55704"/>
+			<Position x="116.77428" z="188.1172"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="250"/>
 		</Entity>
 		<Entity uid="46">
 			<Template>units/brit_infantry_slinger_a</Template>
 			<Player>1</Player>
-			<Position x="118.01757" z="190.6194"/>
+			<Position x="118.47765" z="189.857"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="20354"/>
-		</Entity>
-		<Entity uid="47">
-			<Template>units/brit_infantry_slinger_e</Template>
-			<Player>1</Player>
-			<Position x="120.02031" z="192.43091"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="46750"/>
 		</Entity>
 		<Entity uid="48">
 			<Template>units/brit_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="124.29288" z="192.76829"/>
+			<Position x="125.5704" z="191.99024"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11906"/>
 		</Entity>
 		<Entity uid="49">
 			<Template>units/brit_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="125.99827" z="194.85901"/>
+			<Position x="127.31922" z="193.69617"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38304"/>
-		</Entity>
-		<Entity uid="50">
-			<Template>units/brit_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="127.87116" z="196.55536"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="18426"/>
 		</Entity>
 		<Entity uid="51">
 			<Template>units/brit_infantry_swordsman_b</Template>
 			<Player>1</Player>
-			<Position x="121.54148" z="195.00474"/>
+			<Position x="123.27031" z="194.26981"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39606"/>
 		</Entity>
 		<Entity uid="52">
 			<Template>units/brit_infantry_swordsman_a</Template>
 			<Player>1</Player>
-			<Position x="123.5371" z="196.6652"/>
+			<Position x="124.84803" z="196.24567"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44708"/>
 		</Entity>
 		<Entity uid="53">
 			<Template>units/brit_infantry_swordsman_e</Template>
 			<Player>1</Player>
-			<Position x="125.30628" z="198.60984"/>
+			<Position x="126.36294" z="198.15671"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8358"/>
-		</Entity>
-		<Entity uid="54">
-			<Template>units/brit_infantry_swordsman_u</Template>
-			<Player>1</Player>
-			<Position x="127.46381" z="200.62565"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="55210"/>
-		</Entity>
-		<Entity uid="55">
-			<Template>units/cart_cavalry_javelinist_b</Template>
-			<Player>1</Player>
-			<Position x="152.59708" z="238.74451"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="1488"/>
-		</Entity>
-		<Entity uid="56">
-			<Template>units/cart_cavalry_javelinist_a</Template>
-			<Player>1</Player>
-			<Position x="154.34333" z="240.07776"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="61524"/>
 		</Entity>
 		<Entity uid="57">
 			<Template>units/cart_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="156.19217" z="242.10413"/>
+			<Position x="156.19773" z="228.68577"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45334"/>
-		</Entity>
-		<Entity uid="58">
-			<Template>units/cart_cavalry_spearman_b</Template>
-			<Player>1</Player>
-			<Position x="148.99802" z="242.23902"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="45956"/>
-		</Entity>
-		<Entity uid="59">
-			<Template>units/cart_cavalry_spearman_a</Template>
-			<Player>1</Player>
-			<Position x="150.4004" z="244.30298"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="53994"/>
 		</Entity>
 		<Entity uid="60">
 			<Template>units/cart_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="152.28803" z="246.18982"/>
+			<Position x="151.36792" z="223.56605"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48314"/>
 		</Entity>
 		<Entity uid="61">
 			<Template>units/cart_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="150.7692" z="236.99292"/>
+			<Position x="145.62693" z="242.06107"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15698"/>
 		</Entity>
 		<Entity uid="62">
 			<Template>units/cart_champion_elephant</Template>
 			<Player>1</Player>
-			<Position x="145.41111" z="239.43238"/>
+			<Position x="139.23182" z="240.06965"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35730"/>
 		</Entity>
 		<Entity uid="63">
 			<Template>units/cart_champion_infantry</Template>
 			<Player>1</Player>
-			<Position x="148.30637" z="233.92362"/>
+			<Position x="143.41605" z="240.23823"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33632"/>
 		</Entity>
 		<Entity uid="64">
 			<Template>units/cart_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="149.70243" z="230.76438"/>
+			<Position x="155.02875" z="238.67356"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42954"/>
 		</Entity>
 		<Entity uid="65">
 			<Template>units/cart_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="151.56806" z="232.17591"/>
+			<Position x="157.13416" z="240.98996"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19620"/>
 		</Entity>
 		<Entity uid="66">
 			<Template>units/cart_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="153.1016" z="233.61411"/>
+			<Position x="158.56763" z="243.48774"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11970"/>
 		</Entity>
 		<Entity uid="67">
 			<Template>units/cart_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="151.84626" z="228.39261"/>
+			<Position x="157.39399" z="236.91272"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55948"/>
 		</Entity>
 		<Entity uid="68">
 			<Template>units/cart_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="153.3213" z="229.70926"/>
+			<Position x="159.38047" z="238.85773"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33866"/>
 		</Entity>
 		<Entity uid="69">
 			<Template>units/cart_infantry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="155.25406" z="231.7769"/>
+			<Position x="161.21894" z="241.39988"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16810"/>
-		</Entity>
-		<Entity uid="70">
-			<Template>units/cart_infantry_slinger_b</Template>
-			<Player>1</Player>
-			<Position x="153.61945" z="226.62678"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="15626"/>
-		</Entity>
-		<Entity uid="71">
-			<Template>units/cart_infantry_slinger_a</Template>
-			<Player>1</Player>
-			<Position x="155.43656" z="227.95044"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="54282"/>
 		</Entity>
 		<Entity uid="72">
 			<Template>units/cart_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="157.36472" z="229.15879"/>
+			<Position x="161.93622" z="232.26642"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42888"/>
 		</Entity>
 		<Entity uid="73">
 			<Template>units/cart_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="157.59586" z="234.96454"/>
+			<Position x="152.04245" z="240.98996"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9904"/>
 		</Entity>
 		<Entity uid="74">
 			<Template>units/cart_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="159.48771" z="236.64765"/>
+			<Position x="154.46741" z="243.26316"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16464"/>
 		</Entity>
 		<Entity uid="75">
 			<Template>units/cart_infantry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="161.34672" z="238.30152"/>
+			<Position x="156.61191" z="245.85294"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45944"/>
-		</Entity>
-		<Entity uid="76">
-			<Template>units/cart_infantry_swordsman_b</Template>
-			<Player>1</Player>
-			<Position x="159.39316" z="232.72287"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="42302"/>
-		</Entity>
-		<Entity uid="77">
-			<Template>units/cart_infantry_swordsman_a</Template>
-			<Player>1</Player>
-			<Position x="161.50886" z="234.52012"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="16886"/>
 		</Entity>
 		<Entity uid="78">
 			<Template>units/cart_infantry_swordsman_e</Template>
 			<Player>1</Player>
-			<Position x="163.22407" z="236.23234"/>
+			<Position x="159.52094" z="230.19391"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51332"/>
 		</Entity>
 		<Entity uid="79">
 			<Template>units/gaul_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="191.47428" z="280.85911"/>
+			<Position x="189.27619" z="282.30332"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28050"/>
 		</Entity>
 		<Entity uid="80">
 			<Template>units/gaul_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="193.23676" z="282.28208"/>
+			<Position x="190.6077" z="284.12452"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3894"/>
 		</Entity>
 		<Entity uid="81">
 			<Template>units/gaul_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="195.15857" z="284.24375"/>
+			<Position x="192.63022" z="285.79551"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46874"/>
 		</Entity>
 		<Entity uid="82">
 			<Template>units/gaul_cavalry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="195.45517" z="276.17255"/>
+			<Position x="192.7768" z="278.8635"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32012"/>
 		</Entity>
 		<Entity uid="83">
 			<Template>units/gaul_cavalry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="197.43876" z="277.63685"/>
+			<Position x="194.54636" z="280.37851"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19914"/>
 		</Entity>
 		<Entity uid="84">
 			<Template>units/gaul_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="199.50672" z="279.7653"/>
+			<Position x="196.46735" z="282.17746"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34524"/>
 		</Entity>
 		<Entity uid="85">
 			<Template>units/gaul_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="201.72254" z="281.77903"/>
+			<Position x="202.49454" z="281.97022"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4882"/>
 		</Entity>
 		<Entity uid="86">
 			<Template>units/gaul_champion_infantry</Template>
 			<Player>1</Player>
-			<Position x="204.3172" z="279.18757"/>
+			<Position x="206.07007" z="279.71766"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7420"/>
 		</Entity>
 		<Entity uid="87">
 			<Template>units/gaul_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="206.90696" z="281.95127"/>
+			<Position x="207.25702" z="282.76182"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38700"/>
 		</Entity>
 		<Entity uid="88">
 			<Template>units/gaul_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="208.5847" z="282.93058"/>
+			<Position x="209.22376" z="284.90918"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22678"/>
-		</Entity>
-		<Entity uid="89">
-			<Template>units/gaul_infantry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="210.59876" z="284.35654"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="64984"/>
 		</Entity>
 		<Entity uid="90">
 			<Template>units/gaul_infantry_slinger_b</Template>
 			<Player>1</Player>
-			<Position x="209.63874" z="278.68747"/>
+			<Position x="210.22184" z="279.90803"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50870"/>
 		</Entity>
 		<Entity uid="91">
 			<Template>units/gaul_infantry_slinger_a</Template>
 			<Player>1</Player>
-			<Position x="211.02738" z="279.90159"/>
+			<Position x="211.79108" z="282.56418"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57768"/>
-		</Entity>
-		<Entity uid="92">
-			<Template>units/gaul_infantry_slinger_e</Template>
-			<Player>1</Player>
-			<Position x="212.80777" z="281.21653"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="42440"/>
 		</Entity>
 		<Entity uid="93">
 			<Template>units/gaul_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="198.43818" z="272.61027"/>
+			<Position x="198.2696" z="273.8224"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48590"/>
 		</Entity>
 		<Entity uid="94">
 			<Template>units/gaul_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="200.13624" z="274.31351"/>
+			<Position x="200.18845" z="275.5529"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56746"/>
-		</Entity>
-		<Entity uid="95">
-			<Template>units/gaul_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="201.98896" z="275.99906"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="58966"/>
 		</Entity>
 		<Entity uid="96">
 			<Template>units/gaul_infantry_swordsman_b</Template>
 			<Player>1</Player>
-			<Position x="201.23307" z="270.80817"/>
+			<Position x="201.15641" z="271.05079"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64052"/>
 		</Entity>
 		<Entity uid="97">
 			<Template>units/gaul_infantry_swordsman_a</Template>
 			<Player>1</Player>
-			<Position x="202.67933" z="272.3335"/>
+			<Position x="202.62452" z="273.13044"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38652"/>
 		</Entity>
 		<Entity uid="98">
 			<Template>units/gaul_infantry_swordsman_e</Template>
 			<Player>1</Player>
-			<Position x="204.66865" z="274.42124"/>
+			<Position x="204.28644" z="275.3718"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61496"/>
-		</Entity>
-		<Entity uid="99">
-			<Template>units/gaul_infantry_swordsman_u</Template>
-			<Player>1</Player>
-			<Position x="207.07679" z="276.43097"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="8304"/>
 		</Entity>
 		<Entity uid="100">
 			<Template>units/iber_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="221.56934" z="312.50348"/>
+			<Position x="218.73771" z="314.77863"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24208"/>
 		</Entity>
 		<Entity uid="101">
 			<Template>units/iber_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="223.11915" z="314.56202"/>
+			<Position x="220.293" z="316.79337"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24014"/>
 		</Entity>
 		<Entity uid="102">
 			<Template>units/iber_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="224.90876" z="316.06733"/>
+			<Position x="222.17893" z="318.80616"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3678"/>
 		</Entity>
 		<Entity uid="103">
 			<Template>units/iber_cavalry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="227.86664" z="318.98334"/>
+			<Position x="222.0034" z="311.94443"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37362"/>
 		</Entity>
 		<Entity uid="104">
 			<Template>units/iber_cavalry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="229.88447" z="320.68873"/>
+			<Position x="223.7552" z="314.2345"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57208"/>
 		</Entity>
 		<Entity uid="105">
 			<Template>units/iber_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="231.7038" z="322.59198"/>
+			<Position x="225.78257" z="316.27839"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36376"/>
 		</Entity>
 		<Entity uid="106">
 			<Template>units/iber_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="233.95618" z="324.09827"/>
+			<Position x="228.53132" z="320.89271"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4784"/>
 		</Entity>
 		<Entity uid="107">
 			<Template>units/iber_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="226.04322" z="307.50654"/>
+			<Position x="235.7537" z="311.83149"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32060"/>
 		</Entity>
 		<Entity uid="108">
 			<Template>units/iber_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="227.7397" z="309.02735"/>
+			<Position x="237.4015" z="313.28718"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11412"/>
-		</Entity>
-		<Entity uid="109">
-			<Template>units/iber_infantry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="229.39847" z="310.54682"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="59936"/>
 		</Entity>
 		<Entity uid="110">
 			<Template>units/iber_infantry_slinger_b</Template>
 			<Player>1</Player>
-			<Position x="233.7299" z="313.15021"/>
+			<Position x="233.46088" z="313.85123"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39918"/>
 		</Entity>
 		<Entity uid="111">
 			<Template>units/iber_infantry_slinger_a</Template>
 			<Player>1</Player>
-			<Position x="235.49253" z="314.46918"/>
+			<Position x="235.2021" z="315.40104"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50314"/>
 		</Entity>
 		<Entity uid="112">
 			<Template>units/iber_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="237.3813" z="316.08362"/>
+			<Position x="237.07715" z="316.98423"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1496"/>
 		</Entity>
 		<Entity uid="113">
 			<Template>units/iber_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="228.96644" z="304.98224"/>
+			<Position x="230.84327" z="302.87833"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61382"/>
 		</Entity>
 		<Entity uid="114">
 			<Template>units/iber_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="230.2345" z="306.01545"/>
+			<Position x="232.5264" z="304.36118"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5794"/>
 		</Entity>
 		<Entity uid="115">
 			<Template>units/iber_infantry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="231.4856" z="307.03022"/>
+			<Position x="234.33" z="306.32035"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19198"/>
-		</Entity>
-		<Entity uid="116">
-			<Template>units/iber_infantry_swordsman_b</Template>
-			<Player>1</Player>
-			<Position x="234.56153" z="308.28687"/>
-			<Orientation y="0.9562"/>
-			<Actor seed="12092"/>
-		</Entity>
-		<Entity uid="117">
-			<Template>units/iber_infantry_swordsman_a</Template>
-			<Player>1</Player>
-			<Position x="236.45835" z="310.15406"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="39462"/>
-		</Entity>
-		<Entity uid="118">
-			<Template>units/iber_infantry_swordsman_e</Template>
-			<Player>1</Player>
-			<Position x="237.93424" z="311.53553"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="61056"/>
-		</Entity>
-		<Entity uid="119">
-			<Template>units/iber_infantry_swordsman_u</Template>
-			<Player>1</Player>
-			<Position x="239.39869" z="313.03058"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="61832"/>
 		</Entity>
 		<Entity uid="120">
 			<Template>units/mace_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="266.3863" z="352.28144"/>
+			<Position x="264.19602" z="355.10697"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63734"/>
 		</Entity>
 		<Entity uid="121">
 			<Template>units/mace_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="268.99375" z="353.70728"/>
+			<Position x="266.64039" z="356.676"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24262"/>
 		</Entity>
 		<Entity uid="122">
 			<Template>units/mace_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="271.39484" z="355.28766"/>
+			<Position x="268.72187" z="358.33115"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64868"/>
 		</Entity>
 		<Entity uid="123">
 			<Template>units/mace_cavalry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="262.80744" z="355.99775"/>
+			<Position x="260.18006" z="358.81959"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21100"/>
 		</Entity>
 		<Entity uid="124">
 			<Template>units/mace_cavalry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="265.18766" z="358.9292"/>
+			<Position x="262.23386" z="360.68973"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43578"/>
 		</Entity>
 		<Entity uid="125">
 			<Template>units/mace_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="267.69031" z="360.42621"/>
+			<Position x="264.91614" z="362.43128"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58358"/>
-		</Entity>
-		<Entity uid="127">
-			<Template>units/mace_champion_infantry_e</Template>
-			<Player>1</Player>
-			<Position x="273.41904" z="364.20734"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="6520"/>
-		</Entity>
-		<Entity uid="128">
-			<Template>units/mace_infantry_archer_b</Template>
-			<Player>1</Player>
-			<Position x="277.80683" z="354.65833"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="5968"/>
-		</Entity>
-		<Entity uid="129">
-			<Template>units/mace_infantry_archer_a</Template>
-			<Player>1</Player>
-			<Position x="279.19465" z="355.88666"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="20796"/>
 		</Entity>
 		<Entity uid="130">
 			<Template>units/mace_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="281.03791" z="357.02417"/>
+			<Position x="280.64808" z="366.04743"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46554"/>
 		</Entity>
 		<Entity uid="131">
 			<Template>units/mace_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="280.39155" z="351.43998"/>
+			<Position x="280.43015" z="350.99372"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3554"/>
 		</Entity>
 		<Entity uid="132">
 			<Template>units/mace_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="281.80311" z="352.82215"/>
+			<Position x="282.25922" z="352.41633"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51668"/>
 		</Entity>
 		<Entity uid="133">
 			<Template>units/mace_infantry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="283.0951" z="353.831"/>
+			<Position x="283.89353" z="354.22306"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36686"/>
-		</Entity>
-		<Entity uid="134">
-			<Template>units/mace_infantry_javelinist_u</Template>
-			<Player>1</Player>
-			<Position x="284.78614" z="355.21064"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="43856"/>
 		</Entity>
 		<Entity uid="135">
 			<Template>units/mace_infantry_pikeman_a</Template>
 			<Player>1</Player>
-			<Position x="272.59314" z="347.91065"/>
+			<Position x="272.43326" z="349.63215"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24674"/>
 		</Entity>
 		<Entity uid="136">
 			<Template>units/mace_infantry_pikeman_b</Template>
 			<Player>1</Player>
-			<Position x="271.40384" z="347.1833"/>
+			<Position x="270.81296" z="348.31684"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16464"/>
 		</Entity>
 		<Entity uid="137">
 			<Template>units/mace_infantry_pikeman_e</Template>
 			<Player>1</Player>
-			<Position x="273.91941" z="348.79163"/>
+			<Position x="274.051" z="351.12684"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48492"/>
 		</Entity>
 		<Entity uid="138">
 			<Template>units/mace_infantry_slinger_b</Template>
 			<Player>1</Player>
-			<Position x="282.50516" z="348.99024"/>
+			<Position x="282.97461" z="348.31543"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53598"/>
 		</Entity>
 		<Entity uid="139">
 			<Template>units/mace_infantry_slinger_a</Template>
 			<Player>1</Player>
-			<Position x="284.36484" z="349.57575"/>
+			<Position x="284.8751" z="349.43705"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50220"/>
 		</Entity>
 		<Entity uid="140">
 			<Template>units/mace_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="285.71656" z="351.27244"/>
+			<Position x="286.86997" z="351.19196"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14746"/>
 		</Entity>
 		<Entity uid="141">
 			<Template>units/mace_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="276.5333" z="341.84745"/>
+			<Position x="276.0752" z="342.73337"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44280"/>
 		</Entity>
 		<Entity uid="142">
 			<Template>units/mace_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="278.1508" z="344.0146"/>
+			<Position x="277.96" z="344.20142"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52978"/>
-		</Entity>
-		<Entity uid="143">
-			<Template>units/mace_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="280.84272" z="346.6497"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="18056"/>
 		</Entity>
 		<Entity uid="144">
 			<Template>units/mace_infantry_swordsman_b</Template>
 			<Player>1</Player>
-			<Position x="273.70493" z="344.70655"/>
+			<Position x="273.49531" z="345.20728"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11276"/>
 		</Entity>
 		<Entity uid="145">
 			<Template>units/mace_infantry_swordsman_a</Template>
 			<Player>1</Player>
-			<Position x="275.79032" z="346.49485"/>
+			<Position x="275.3231" z="347.01261"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40418"/>
 		</Entity>
 		<Entity uid="146">
 			<Template>units/mace_infantry_swordsman_e</Template>
 			<Player>1</Player>
-			<Position x="277.9422" z="348.17862"/>
+			<Position x="277.60099" z="348.57908"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19808"/>
 		</Entity>
 		<Entity uid="147">
 			<Template>units/maur_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="316.76468" z="400.26316"/>
+			<Position x="308.59864" z="405.30451"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8522"/>
 		</Entity>
 		<Entity uid="148">
 			<Template>units/maur_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="318.57447" z="401.31507"/>
+			<Position x="310.44925" z="407.17991"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="20306"/>
 		</Entity>
 		<Entity uid="149">
 			<Template>units/maur_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="320.25895" z="403.09772"/>
+			<Position x="312.43827" z="409.27021"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52950"/>
-		</Entity>
-		<Entity uid="150">
-			<Template>units/maur_cavalry_spearman_b</Template>
-			<Player>1</Player>
-			<Position x="312.63645" z="403.84803"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="61060"/>
-		</Entity>
-		<Entity uid="151">
-			<Template>units/maur_cavalry_spearman_a</Template>
-			<Player>1</Player>
-			<Position x="314.25373" z="406.15287"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="20868"/>
-		</Entity>
-		<Entity uid="152">
-			<Template>units/maur_cavalry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="316.32294" z="408.3042"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="51798"/>
 		</Entity>
 		<Entity uid="153">
 			<Template>units/maur_champion_elephant</Template>
 			<Player>1</Player>
-			<Position x="321.7765" z="407.60688"/>
+			<Position x="321.65986" z="406.13828"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34038"/>
 		</Entity>
 		<Entity uid="154">
 			<Template>units/maur_champion_elephant_archer</Template>
 			<Player>1</Player>
-			<Position x="329.52137" z="416.16529"/>
+			<Position x="329.71836" z="413.03437"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14562"/>
 		</Entity>
 		<Entity uid="155">
 			<Template>units/maur_champion_elephant_archer_e</Template>
 			<Player>1</Player>
-			<Position x="333.456" z="419.46607"/>
+			<Position x="334.09379" z="417.36289"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12430"/>
 		</Entity>
 		<Entity uid="156">
 			<Template>units/maur_chariot_archer_b</Template>
 			<Player>1</Player>
-			<Position x="330.90235" z="399.67966"/>
+			<Position x="331.23911" z="398.47529"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62212"/>
 		</Entity>
 		<Entity uid="157">
 			<Template>units/maur_chariot_archer_a</Template>
 			<Player>1</Player>
-			<Position x="336.84449" z="405.03663"/>
+			<Position x="336.17347" z="403.42798"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33502"/>
 		</Entity>
 		<Entity uid="158">
 			<Template>units/maur_chariot_archer_e</Template>
 			<Player>1</Player>
-			<Position x="342.6432" z="410.60822"/>
+			<Position x="341.00904" z="408.25312"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46482"/>
 		</Entity>
 		<Entity uid="160">
 			<Template>units/maur_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="321.90214" z="395.70408"/>
+			<Position x="320.6073" z="395.35602"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16328"/>
 		</Entity>
 		<Entity uid="161">
 			<Template>units/maur_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="323.14167" z="396.63721"/>
+			<Position x="322.42334" z="397.03583"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2684"/>
 		</Entity>
 		<Entity uid="162">
 			<Template>units/maur_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="324.26996" z="397.79319"/>
+			<Position x="324.30112" z="398.61371"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56384"/>
 		</Entity>
 		<Entity uid="164">
 			<Template>units/maur_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="323.69672" z="393.90418"/>
+			<Position x="323.00165" z="392.6858"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19754"/>
 		</Entity>
 		<Entity uid="165">
 			<Template>units/maur_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="324.8921" z="395.19462"/>
+			<Position x="324.7107" z="394.46753"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55982"/>
-		</Entity>
-		<Entity uid="166">
-			<Template>units/maur_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="326.49762" z="396.3996"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="49264"/>
-		</Entity>
-		<Entity uid="167">
-			<Template>units/maur_infantry_swordsman_b</Template>
-			<Player>1</Player>
-			<Position x="325.6797" z="392.1753"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="39674"/>
-		</Entity>
-		<Entity uid="168">
-			<Template>units/maur_infantry_swordsman_a</Template>
-			<Player>1</Player>
-			<Position x="326.69654" z="393.27494"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="36618"/>
-		</Entity>
-		<Entity uid="169">
-			<Template>units/maur_infantry_swordsman_e</Template>
-			<Player>1</Player>
-			<Position x="328.11945" z="394.54001"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="50306"/>
-		</Entity>
-		<Entity uid="170">
-			<Template>units/maur_infantry_swordsman_u</Template>
-			<Player>1</Player>
-			<Position x="329.65992" z="395.8535"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="57000"/>
 		</Entity>
 		<Entity uid="171">
 			<Template>units/pers_cavalry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="170.70237" z="48.89771"/>
+			<Position x="167.86994" z="50.85729"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50126"/>
 		</Entity>
 		<Entity uid="172">
 			<Template>units/pers_cavalry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="172.37684" z="50.60376"/>
+			<Position x="169.69767" z="52.71723"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63420"/>
 		</Entity>
 		<Entity uid="173">
 			<Template>units/pers_cavalry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="173.98624" z="52.07471"/>
+			<Position x="171.79563" z="54.72356"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55548"/>
 		</Entity>
 		<Entity uid="174">
 			<Template>units/pers_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="174.17353" z="44.99756"/>
+			<Position x="171.72678" z="47.0007"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60884"/>
 		</Entity>
 		<Entity uid="175">
 			<Template>units/pers_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="175.88422" z="46.79615"/>
+			<Position x="173.55445" z="48.38805"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56382"/>
 		</Entity>
 		<Entity uid="176">
 			<Template>units/pers_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="177.61277" z="48.73023"/>
+			<Position x="175.2765" z="50.09835"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13374"/>
 		</Entity>
 		<Entity uid="177">
 			<Template>units/pers_cavalry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="178.1496" z="56.33982"/>
+			<Position x="179.18274" z="40.58045"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50812"/>
 		</Entity>
 		<Entity uid="178">
 			<Template>units/pers_cavalry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="179.93833" z="57.96818"/>
+			<Position x="180.92011" z="42.03393"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61968"/>
 		</Entity>
 		<Entity uid="179">
 			<Template>units/pers_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="181.94712" z="59.4404"/>
+			<Position x="182.52396" z="43.50884"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39474"/>
 		</Entity>
 		<Entity uid="180">
 			<Template>units/pers_champion_infantry</Template>
 			<Player>1</Player>
-			<Position x="181.27161" z="50.21335"/>
+			<Position x="179.45289" z="54.9849"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31602"/>
 		</Entity>
 		<Entity uid="181">
 			<Template>units/pers_chariot_archer_b</Template>
 			<Player>1</Player>
-			<Position x="189.87421" z="49.53934"/>
+			<Position x="192.9965" z="50.14786"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61514"/>
 		</Entity>
 		<Entity uid="182">
 			<Template>units/pers_chariot_archer_a</Template>
 			<Player>1</Player>
-			<Position x="193.93793" z="52.13071"/>
+			<Position x="198.82575" z="54.20432"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3746"/>
 		</Entity>
 		<Entity uid="183">
 			<Template>units/pers_chariot_archer_e</Template>
 			<Player>1</Player>
-			<Position x="197.99384" z="56.32236"/>
+			<Position x="204.2457" z="60.46789"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39332"/>
 		</Entity>
 		<Entity uid="184">
 			<Template>units/pers_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="176.66382" z="38.29064"/>
+			<Position x="176.96854" z="31.61887"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12008"/>
 		</Entity>
 		<Entity uid="185">
 			<Template>units/pers_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="177.72742" z="39.40178"/>
+			<Position x="178.84208" z="33.5564"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25396"/>
 		</Entity>
 		<Entity uid="186">
 			<Template>units/pers_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="179.07813" z="40.58715"/>
+			<Position x="180.56193" z="35.68545"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3886"/>
 		</Entity>
 		<Entity uid="187">
 			<Template>units/pers_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="178.98603" z="35.94065"/>
+			<Position x="179.3454" z="29.76757"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39822"/>
 		</Entity>
 		<Entity uid="188">
 			<Template>units/pers_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="180.26127" z="37.37941"/>
+			<Position x="181.38016" z="31.78687"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6362"/>
-		</Entity>
-		<Entity uid="189">
-			<Template>units/pers_infantry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="181.46946" z="38.3876"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="53082"/>
 		</Entity>
 		<Entity uid="190">
 			<Template>units/pers_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="181.06275" z="33.96277"/>
+			<Position x="184.9759" z="38.01522"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55334"/>
 		</Entity>
 		<Entity uid="191">
 			<Template>units/pers_infantry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="182.1344" z="35.08536"/>
+			<Position x="186.9615" z="39.98293"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22788"/>
-		</Entity>
-		<Entity uid="192">
-			<Template>units/pers_infantry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="183.26337" z="36.48725"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="18710"/>
-		</Entity>
-		<Entity uid="193">
-			<Template>units/ptol_cavalry_archer_b</Template>
-			<Player>1</Player>
-			<Position x="227.6587" z="102.293"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="44246"/>
-		</Entity>
-		<Entity uid="194">
-			<Template>units/ptol_cavalry_archer_a</Template>
-			<Player>1</Player>
-			<Position x="229.87104" z="104.29456"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="25042"/>
 		</Entity>
 		<Entity uid="195">
 			<Template>units/ptol_cavalry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="232.37998" z="106.15304"/>
+			<Position x="230.09263" z="109.58895"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36780"/>
 		</Entity>
 		<Entity uid="196">
 			<Template>units/ptol_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="231.80576" z="97.54023"/>
+			<Position x="226.83606" z="93.62719"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5750"/>
 		</Entity>
 		<Entity uid="197">
 			<Template>units/ptol_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="233.97178" z="99.49929"/>
+			<Position x="228.81855" z="95.77501"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10072"/>
 		</Entity>
 		<Entity uid="198">
 			<Template>units/ptol_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="236.00058" z="101.58286"/>
+			<Position x="231.13358" z="97.96677"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37576"/>
 		</Entity>
 		<Entity uid="203">
 			<Template>units/ptol_champion_elephant</Template>
 			<Player>1</Player>
-			<Position x="237.58146" z="107.8698"/>
+			<Position x="235.31083" z="100.7482"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3992"/>
 		</Entity>
 		<Entity uid="204">
 			<Template>units/ptol_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="241.78647" z="103.63584"/>
+			<Position x="242.04795" z="104.02472"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17734"/>
 		</Entity>
 		<Entity uid="205">
 			<Template>units/ptol_champion_cavalry_e</Template>
 			<Player>1</Player>
-			<Position x="243.72617" z="105.16266"/>
+			<Position x="243.67664" z="105.49404"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40290"/>
-		</Entity>
-		<Entity uid="206">
-			<Template>units/ptol_champion_infantry_swordsman</Template>
-			<Player>1</Player>
-			<Position x="240.95835" z="94.73383"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="35644"/>
-		</Entity>
-		<Entity uid="207">
-			<Template>units/ptol_champion_infantry_swordsman_e</Template>
-			<Player>1</Player>
-			<Position x="238.21238" z="92.91556"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="11518"/>
-		</Entity>
-		<Entity uid="208">
-			<Template>units/ptol_infantry_archer_b</Template>
-			<Player>1</Player>
-			<Position x="238.89579" z="87.68795"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="2206"/>
-		</Entity>
-		<Entity uid="209">
-			<Template>units/ptol_infantry_archer_a</Template>
-			<Player>1</Player>
-			<Position x="240.71982" z="89.27147"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="56412"/>
 		</Entity>
 		<Entity uid="210">
 			<Template>units/ptol_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="242.65476" z="91.28869"/>
+			<Position x="224.31043" z="103.20582"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6164"/>
 		</Entity>
 		<Entity uid="211">
 			<Template>units/ptol_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="240.82651" z="84.45449"/>
+			<Position x="241.92988" z="90.39423"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34042"/>
 		</Entity>
 		<Entity uid="212">
 			<Template>units/ptol_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="243.19169" z="85.74285"/>
+			<Position x="243.72556" z="92.45643"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18614"/>
 		</Entity>
 		<Entity uid="213">
 			<Template>units/ptol_infantry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="245.14603" z="86.99056"/>
+			<Position x="245.73316" z="94.2264"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41074"/>
 		</Entity>
 		<Entity uid="214">
 			<Template>units/ptol_infantry_pikeman_b</Template>
 			<Player>1</Player>
-			<Position x="244.89933" z="96.31844"/>
+			<Position x="239.5438" z="92.56926"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11766"/>
 		</Entity>
 		<Entity uid="215">
 			<Template>units/ptol_infantry_pikeman_a</Template>
 			<Player>1</Player>
-			<Position x="246.61869" z="97.4738"/>
+			<Position x="241.35822" z="94.37768"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14346"/>
 		</Entity>
 		<Entity uid="216">
 			<Template>units/ptol_infantry_pikeman_e</Template>
 			<Player>1</Player>
-			<Position x="248.6355" z="98.95493"/>
+			<Position x="243.40989" z="95.96485"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51078"/>
-		</Entity>
-		<Entity uid="217">
-			<Template>units/ptol_infantry_slinger_b</Template>
-			<Player>1</Player>
-			<Position x="247.44523" z="92.15597"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="22346"/>
-		</Entity>
-		<Entity uid="218">
-			<Template>units/ptol_infantry_slinger_a</Template>
-			<Player>1</Player>
-			<Position x="249.1662" z="93.60096"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="64898"/>
 		</Entity>
 		<Entity uid="219">
 			<Template>units/ptol_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="250.84345" z="94.82306"/>
+			<Position x="226.27585" z="105.19034"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64834"/>
 		</Entity>
 		<Entity uid="220">
 			<Template>units/ptol_infantry_spearman_merc_b</Template>
 			<Player>1</Player>
-			<Position x="249.62513" z="89.88115"/>
+			<Position x="244.18567" z="88.63262"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51000"/>
 		</Entity>
 		<Entity uid="221">
 			<Template>units/ptol_infantry_spearman_merc_a</Template>
 			<Player>1</Player>
-			<Position x="250.96845" z="91.21383"/>
+			<Position x="246.00696" z="90.375"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="20902"/>
 		</Entity>
 		<Entity uid="222">
 			<Template>units/ptol_infantry_spearman_merc_e</Template>
 			<Player>1</Player>
-			<Position x="252.63099" z="92.5973"/>
+			<Position x="248.01066" z="92.16395"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23930"/>
-		</Entity>
-		<Entity uid="223">
-			<Template>units/ptol_infantry_swordsman_merc_b</Template>
-			<Player>1</Player>
-			<Position x="251.67768" z="87.44237"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="54234"/>
-		</Entity>
-		<Entity uid="224">
-			<Template>units/ptol_infantry_swordsman_merc_a</Template>
-			<Player>1</Player>
-			<Position x="253.27906" z="88.82753"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="15576"/>
-		</Entity>
-		<Entity uid="225">
-			<Template>units/ptol_infantry_swordsman_merc_e</Template>
-			<Player>1</Player>
-			<Position x="254.74097" z="90.44027"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="40016"/>
 		</Entity>
 		<Entity uid="226">
 			<Template>units/rome_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="304.20594" z="155.05585"/>
+			<Position x="299.63337" z="158.09733"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51442"/>
 		</Entity>
 		<Entity uid="227">
 			<Template>units/rome_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="305.90101" z="156.49973"/>
+			<Position x="301.27091" z="160.08457"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23738"/>
 		</Entity>
 		<Entity uid="228">
 			<Template>units/rome_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="307.69794" z="158.51291"/>
+			<Position x="303.54487" z="161.96872"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31682"/>
 		</Entity>
 		<Entity uid="229">
 			<Template>units/rome_cavalry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="308.6349" z="151.13337"/>
+			<Position x="303.55903" z="154.08768"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56604"/>
 		</Entity>
 		<Entity uid="230">
 			<Template>units/rome_cavalry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="310.00901" z="152.7621"/>
+			<Position x="305.11036" z="155.88529"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32920"/>
 		</Entity>
 		<Entity uid="231">
 			<Template>units/rome_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="311.58433" z="154.78718"/>
+			<Position x="306.96134" z="158.15873"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38370"/>
 		</Entity>
 		<Entity uid="232">
 			<Template>units/rome_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="311.69394" z="162.78708"/>
+			<Position x="309.54294" z="161.46546"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11204"/>
 		</Entity>
 		<Entity uid="233">
 			<Template>units/rome_champion_elephant</Template>
 			<Player>1</Player>
-			<Position x="314.35087" z="165.65433"/>
+			<Position x="317.02201" z="167.03388"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39908"/>
-		</Entity>
-		<Entity uid="234">
-			<Template>units/rome_infantry_archer_b</Template>
-			<Player>1</Player>
-			<Position x="312.4556" z="147.79737"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="19284"/>
-		</Entity>
-		<Entity uid="235">
-			<Template>units/rome_infantry_archer_a</Template>
-			<Player>1</Player>
-			<Position x="314.06437" z="148.94193"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="24836"/>
 		</Entity>
 		<Entity uid="236">
 			<Template>units/rome_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="315.93711" z="150.33036"/>
+			<Position x="315.86576" z="163.3136"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41540"/>
 		</Entity>
 		<Entity uid="237">
 			<Template>units/rome_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="316.22895" z="144.02625"/>
+			<Position x="311.09684" z="148.13758"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8350"/>
 		</Entity>
 		<Entity uid="238">
 			<Template>units/rome_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="317.54651" z="145.60151"/>
+			<Position x="312.73057" z="149.93805"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19140"/>
 		</Entity>
 		<Entity uid="239">
 			<Template>units/rome_infantry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="319.14298" z="147.52387"/>
+			<Position x="314.3151" z="151.64756"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39932"/>
-		</Entity>
-		<Entity uid="240">
-			<Template>units/rome_infantry_slinger_b</Template>
-			<Player>1</Player>
-			<Position x="314.49595" z="145.86915"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="63756"/>
-		</Entity>
-		<Entity uid="241">
-			<Template>units/rome_infantry_slinger_a</Template>
-			<Player>1</Player>
-			<Position x="315.94382" z="147.46177"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="46698"/>
 		</Entity>
 		<Entity uid="242">
 			<Template>units/rome_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="317.81754" z="148.86973"/>
+			<Position x="314.11854" z="161.39444"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41484"/>
 		</Entity>
 		<Entity uid="243">
 			<Template>units/rome_infantry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="317.67408" z="154.62232"/>
+			<Position x="317.54523" z="154.44977"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32948"/>
 		</Entity>
@@ -1650,114 +1258,93 @@
 		<Entity uid="246">
 			<Template>units/rome_infantry_spearman_u</Template>
 			<Player>1</Player>
-			<Position x="322.98829" z="160.7917"/>
+			<Position x="322.92997" z="161.4498"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18234"/>
 		</Entity>
 		<Entity uid="247">
 			<Template>units/rome_infantry_swordsman_b</Template>
 			<Player>1</Player>
-			<Position x="320.65137" z="152.12748"/>
+			<Position x="320.01301" z="152.33237"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3928"/>
 		</Entity>
 		<Entity uid="248">
 			<Template>units/rome_infantry_swordsman_a</Template>
 			<Player>1</Player>
-			<Position x="322.18635" z="153.80832"/>
+			<Position x="322.01612" z="154.37577"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10662"/>
 		</Entity>
 		<Entity uid="249">
 			<Template>units/rome_infantry_swordsman_e</Template>
 			<Player>1</Player>
-			<Position x="323.94132" z="155.918"/>
+			<Position x="323.80552" z="156.42713"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17084"/>
 		</Entity>
 		<Entity uid="250">
 			<Template>units/rome_infantry_swordsman_u</Template>
 			<Player>1</Player>
-			<Position x="325.60947" z="158.12272"/>
+			<Position x="325.59522" z="158.81644"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46816"/>
-		</Entity>
-		<Entity uid="251">
-			<Template>units/sele_cavalry_archer_b</Template>
-			<Player>1</Player>
-			<Position x="358.8573" z="217.92624"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="11672"/>
-		</Entity>
-		<Entity uid="252">
-			<Template>units/sele_cavalry_archer_a</Template>
-			<Player>1</Player>
-			<Position x="360.67023" z="219.64533"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="45440"/>
 		</Entity>
 		<Entity uid="253">
 			<Template>units/sele_cavalry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="362.71225" z="221.73063"/>
+			<Position x="370.48334" z="229.59714"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11338"/>
 		</Entity>
 		<Entity uid="254">
 			<Template>units/sele_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="362.82297" z="214.25184"/>
+			<Position x="367.63917" z="211.7469"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40708"/>
 		</Entity>
 		<Entity uid="255">
 			<Template>units/sele_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="364.48124" z="216.43674"/>
+			<Position x="369.33954" z="213.09064"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52022"/>
 		</Entity>
 		<Entity uid="256">
 			<Template>units/sele_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="366.14487" z="218.23484"/>
+			<Position x="370.6508" z="214.49408"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14068"/>
 		</Entity>
 		<Entity uid="257">
 			<Template>units/sele_cavalry_spearman_b</Template>
 			<Player>1</Player>
-			<Position x="363.85306" z="224.57551"/>
+			<Position x="360.55344" z="218.25113"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21368"/>
 		</Entity>
 		<Entity uid="258">
 			<Template>units/sele_cavalry_spearman_a</Template>
 			<Player>1</Player>
-			<Position x="365.5457" z="226.41794"/>
+			<Position x="362.0448" z="219.96848"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60058"/>
 		</Entity>
 		<Entity uid="259">
 			<Template>units/sele_cavalry_spearman_e</Template>
 			<Player>1</Player>
-			<Position x="367.32667" z="228.26331"/>
+			<Position x="364.01664" z="221.39994"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39404"/>
 		</Entity>
 		<Entity uid="260">
 			<Template>units/sele_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="371.41178" z="232.13428"/>
+			<Position x="373.77845" z="232.97446"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4740"/>
-		</Entity>
-		<Entity uid="261">
-			<Template>units/sele_champion_cavalry_e</Template>
-			<Player>1</Player>
-			<Position x="373.26505" z="234.09894"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="21396"/>
 		</Entity>
 		<Entity uid="262">
 			<Template>units/sele_champion_elephant</Template>
@@ -1773,222 +1360,124 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="49204"/>
 		</Entity>
-		<Entity uid="264">
-			<Template>units/sele_champion_infantry_swordsman</Template>
-			<Player>1</Player>
-			<Position x="375.47638" z="227.42884"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="37552"/>
-		</Entity>
-		<Entity uid="265">
-			<Template>units/sele_champion_infantry_swordsman_e</Template>
-			<Player>1</Player>
-			<Position x="377.3736" z="229.32279"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="25182"/>
-		</Entity>
 		<Entity uid="266">
 			<Template>units/sele_chariot_archer_b</Template>
 			<Player>1</Player>
-			<Position x="385.40632" z="222.70951"/>
+			<Position x="393.60526" z="211.9828"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12008"/>
 		</Entity>
 		<Entity uid="267">
 			<Template>units/sele_chariot_archer_a</Template>
 			<Player>1</Player>
-			<Position x="389.50635" z="226.81351"/>
+			<Position x="398.71076" z="215.38373"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="59318"/>
 		</Entity>
 		<Entity uid="268">
 			<Template>units/sele_chariot_archer_e</Template>
 			<Player>1</Player>
-			<Position x="392.84058" z="230.53336"/>
+			<Position x="403.8407" z="221.29108"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41836"/>
 		</Entity>
 		<Entity uid="269">
 			<Template>units/sele_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="370.22028" z="220.89576"/>
+			<Position x="372.04734" z="220.91532"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62618"/>
 		</Entity>
 		<Entity uid="270">
 			<Template>units/sele_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="371.81843" z="222.15784"/>
+			<Position x="373.89722" z="222.8584"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24682"/>
 		</Entity>
 		<Entity uid="271">
 			<Template>units/sele_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="373.3396" z="223.91996"/>
+			<Position x="375.33347" z="224.73157"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55582"/>
 		</Entity>
 		<Entity uid="272">
 			<Template>units/sele_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="373.20801" z="218.04804"/>
+			<Position x="374.57416" z="218.7038"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15190"/>
 		</Entity>
 		<Entity uid="273">
 			<Template>units/sele_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="374.70112" z="219.20267"/>
+			<Position x="376.08472" z="220.47004"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2112"/>
 		</Entity>
 		<Entity uid="274">
 			<Template>units/sele_infantry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="376.37275" z="220.77228"/>
+			<Position x="377.80445" z="222.78248"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32196"/>
-		</Entity>
-		<Entity uid="275">
-			<Template>units/sele_infantry_javelinist_u</Template>
-			<Player>1</Player>
-			<Position x="377.8769" z="222.4824"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="11684"/>
 		</Entity>
 		<Entity uid="276">
 			<Template>units/sele_infantry_pikeman_b</Template>
 			<Player>1</Player>
-			<Position x="376.3761" z="215.52683"/>
+			<Position x="377.5156" z="216.61744"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="65066"/>
 		</Entity>
 		<Entity uid="277">
 			<Template>units/sele_infantry_pikeman_a</Template>
 			<Player>1</Player>
-			<Position x="377.90717" z="216.76267"/>
+			<Position x="379.18168" z="218.10895"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33760"/>
 		</Entity>
 		<Entity uid="278">
 			<Template>units/sele_infantry_pikeman_e</Template>
 			<Player>1</Player>
-			<Position x="379.4817" z="218.14185"/>
+			<Position x="380.76078" z="219.96006"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22838"/>
 		</Entity>
 		<Entity uid="279">
 			<Template>units/sele_infantry_pikeman_u</Template>
 			<Player>1</Player>
-			<Position x="381.20417" z="219.54297"/>
+			<Position x="382.47043" z="221.87412"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="35798"/>
-		</Entity>
-		<Entity uid="280">
-			<Template>units/sele_infantry_slinger_b</Template>
-			<Player>1</Player>
-			<Position x="378.77976" z="212.94794"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="55120"/>
-		</Entity>
-		<Entity uid="281">
-			<Template>units/sele_infantry_slinger_a</Template>
-			<Player>1</Player>
-			<Position x="380.6608" z="214.81934"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="14104"/>
 		</Entity>
 		<Entity uid="282">
 			<Template>units/sele_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="382.51215" z="216.63917"/>
+			<Position x="372.65271" z="230.93198"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17520"/>
-		</Entity>
-		<Entity uid="283">
-			<Template>units/sele_infantry_spearman_merc_b</Template>
-			<Player>1</Player>
-			<Position x="368.85395" z="209.99936"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="8554"/>
-		</Entity>
-		<Entity uid="284">
-			<Template>units/sele_infantry_spearman_merc_a</Template>
-			<Player>1</Player>
-			<Position x="370.42084" z="211.8979"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="63176"/>
-		</Entity>
-		<Entity uid="285">
-			<Template>units/sele_infantry_spearman_merc_e</Template>
-			<Player>1</Player>
-			<Position x="372.13578" z="213.86347"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="53194"/>
-		</Entity>
-		<Entity uid="286">
-			<Template>units/sele_infantry_swordsman_merc_b</Template>
-			<Player>1</Player>
-			<Position x="371.69443" z="207.44742"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="27676"/>
-		</Entity>
-		<Entity uid="287">
-			<Template>units/sele_infantry_swordsman_merc_a</Template>
-			<Player>1</Player>
-			<Position x="373.28492" z="209.01606"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="34140"/>
-		</Entity>
-		<Entity uid="288">
-			<Template>units/sele_infantry_swordsman_merc_e</Template>
-			<Player>1</Player>
-			<Position x="374.8195" z="210.99122"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="49888"/>
 		</Entity>
 		<Entity uid="289">
 			<Template>units/spart_cavalry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="435.74103" z="278.78351"/>
+			<Position x="435.13083" z="280.27216"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28060"/>
 		</Entity>
 		<Entity uid="290">
 			<Template>units/spart_cavalry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="437.4416" z="280.55878"/>
+			<Position x="436.86124" z="281.83112"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62876"/>
 		</Entity>
 		<Entity uid="291">
 			<Template>units/spart_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="439.09134" z="282.5193"/>
+			<Position x="438.49567" z="283.88971"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25766"/>
-		</Entity>
-		<Entity uid="292">
-			<Template>units/spart_cavalry_spearman_b</Template>
-			<Player>1</Player>
-			<Position x="439.3722" z="275.86774"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="14482"/>
-		</Entity>
-		<Entity uid="293">
-			<Template>units/spart_cavalry_spearman_a</Template>
-			<Player>1</Player>
-			<Position x="440.87562" z="277.49415"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="29184"/>
-		</Entity>
-		<Entity uid="294">
-			<Template>units/spart_cavalry_spearman_e</Template>
-			<Player>1</Player>
-			<Position x="442.61402" z="279.12049"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="35524"/>
 		</Entity>
 		<Entity uid="295">
 			<Template>units/spart_champion_infantry_pike</Template>
@@ -2049,7 +1538,7 @@
 		<Entity uid="303">
 			<Template>units/spart_infantry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="447.17951" z="285.57123"/>
+			<Position x="447.18989" z="286.0282"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7554"/>
 		</Entity>
@@ -2081,173 +1570,117 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="53244"/>
 		</Entity>
-		<Entity uid="311">
-			<Template>units/sele_cavalry_spearman_u</Template>
-			<Player>1</Player>
-			<Position x="369.13764" z="229.823"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="63164"/>
-		</Entity>
-		<Entity uid="312">
-			<Template>units/ptol_infantry_javelinist_u</Template>
-			<Player>1</Player>
-			<Position x="246.90293" z="88.96364"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="37996"/>
-		</Entity>
 		<Entity uid="313">
 			<Template>units/pers_champion_elephant</Template>
 			<Player>1</Player>
-			<Position x="185.99985" z="61.6445"/>
+			<Position x="187.66697" z="65.61362"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5960"/>
 		</Entity>
 		<Entity uid="315">
 			<Template>units/pers_infantry_slinger_b</Template>
 			<Player>1</Player>
-			<Position x="182.05854" z="42.40012"/>
+			<Position x="174.25406" z="34.00628"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23754"/>
 		</Entity>
 		<Entity uid="316">
 			<Template>units/pers_infantry_slinger_a</Template>
 			<Player>1</Player>
-			<Position x="183.42875" z="44.09491"/>
+			<Position x="176.21702" z="36.30962"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43516"/>
-		</Entity>
-		<Entity uid="317">
-			<Template>units/pers_infantry_slinger_e</Template>
-			<Player>1</Player>
-			<Position x="185.21323" z="45.5416"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="24878"/>
 		</Entity>
 		<Entity uid="318">
 			<Template>units/mace_champion_cavalry</Template>
 			<Player>1</Player>
-			<Position x="274.72385" z="358.92945"/>
+			<Position x="274.62851" z="359.41382"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43504"/>
 		</Entity>
 		<Entity uid="319">
 			<Template>units/mace_champion_cavalry_e</Template>
 			<Player>1</Player>
-			<Position x="276.97904" z="360.76014"/>
+			<Position x="276.26212" z="360.88843"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41804"/>
 		</Entity>
 		<Entity uid="346">
 			<Template>units/mace_champion_elephant</Template>
 			<Player>1</Player>
-			<Position x="275.96381" z="368.05478"/>
+			<Position x="284.26948" z="368.46369"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="372"/>
 		</Entity>
 		<Entity uid="347">
 			<Template>units/mace_infantry_pikeman_u</Template>
 			<Player>1</Player>
-			<Position x="275.54157" z="350.32874"/>
+			<Position x="276.0199" z="352.64466"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48324"/>
-		</Entity>
-		<Entity uid="348">
-			<Template>units/mace_champion_infantry</Template>
-			<Player>1</Player>
-			<Position x="271.48618" z="362.39277"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="39638"/>
 		</Entity>
 		<Entity uid="349">
 			<Template>units/maur_infantry_javelinist_b</Template>
 			<Player>1</Player>
-			<Position x="328.86518" z="389.70646"/>
+			<Position x="327.80155" z="387.92301"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12294"/>
 		</Entity>
 		<Entity uid="350">
 			<Template>units/maur_infantry_javelinist_a</Template>
 			<Player>1</Player>
-			<Position x="330.0326" z="391.02793"/>
+			<Position x="329.46335" z="389.31562"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55270"/>
-		</Entity>
-		<Entity uid="351">
-			<Template>units/maur_infantry_javelinist_e</Template>
-			<Player>1</Player>
-			<Position x="331.29712" z="392.43396"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="30946"/>
 		</Entity>
 		<Entity uid="352">
 			<Template>units/maur_champion_elephant_e</Template>
 			<Player>1</Player>
-			<Position x="325.58606" z="412.0196"/>
+			<Position x="324.93769" z="409.32242"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22028"/>
 		</Entity>
 		<Entity uid="353">
 			<Template>units/brit_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="118.03267" z="186.57123"/>
-			<Orientation y="2.35621"/>
+			<Position x="118.80466" z="186.21229"/>
+			<Orientation y="0.84719"/>
 			<Actor seed="20780"/>
 		</Entity>
 		<Entity uid="354">
 			<Template>units/brit_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="119.98897" z="187.85114"/>
+			<Position x="120.73835" z="187.72742"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7372"/>
-		</Entity>
-		<Entity uid="355">
-			<Template>units/brit_infantry_archer_e</Template>
-			<Player>1</Player>
-			<Position x="121.83729" z="189.62836"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="47084"/>
 		</Entity>
 		<Entity uid="356">
 			<Template>units/gaul_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="203.293" z="285.73142"/>
+			<Position x="204.70694" z="286.02225"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54268"/>
 		</Entity>
 		<Entity uid="357">
 			<Template>units/gaul_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="205.08063" z="287.34208"/>
+			<Position x="206.72764" z="288.24463"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24858"/>
-		</Entity>
-		<Entity uid="358">
-			<Template>units/gaul_infantry_archer_e</Template>
-			<Player>1</Player>
-			<Position x="206.8007" z="288.59501"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="23700"/>
 		</Entity>
 		<Entity uid="359">
 			<Template>units/iber_infantry_archer_b</Template>
 			<Player>1</Player>
-			<Position x="231.21161" z="315.53284"/>
+			<Position x="231.56644" z="315.84491"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2032"/>
 		</Entity>
 		<Entity uid="360">
 			<Template>units/iber_infantry_archer_a</Template>
 			<Player>1</Player>
-			<Position x="232.94034" z="316.89216"/>
+			<Position x="232.86265" z="317.19413"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30882"/>
-		</Entity>
-		<Entity uid="361">
-			<Template>units/iber_infantry_archer_e</Template>
-			<Player>1</Player>
-			<Position x="234.94855" z="318.47718"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="43586"/>
 		</Entity>
 		<Entity uid="370">
 			<Template>units/spart_infantry_slinger_b</Template>
@@ -2266,28 +1699,28 @@
 		<Entity uid="372">
 			<Template>units/spart_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="451.01911" z="291.90333"/>
+			<Position x="450.96473" z="291.68177"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22320"/>
 		</Entity>
 		<Entity uid="373">
 			<Template>units/athen_mechanical_siege_lithobolos_unpacked</Template>
 			<Player>1</Player>
-			<Position x="62.61217" z="160.30478"/>
+			<Position x="58.19742" z="168.10364"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="53096"/>
 		</Entity>
 		<Entity uid="374">
 			<Template>units/athen_mechanical_siege_oxybeles_unpacked</Template>
 			<Player>1</Player>
-			<Position x="69.11632" z="163.16031"/>
+			<Position x="54.05617" z="161.61841"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51400"/>
 		</Entity>
 		<Entity uid="375">
 			<Template>units/athen_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="73.3526" z="168.37183"/>
+			<Position x="66.6029" z="173.80607"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8622"/>
 		</Entity>
@@ -2322,84 +1755,77 @@
 		<Entity uid="380">
 			<Template>units/athen_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="51.33463" z="156.63456"/>
+			<Position x="46.0707" z="156.74665"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32280"/>
 		</Entity>
 		<Entity uid="381">
 			<Template>units/athen_support_healer_b</Template>
 			<Player>1</Player>
-			<Position x="55.04171" z="153.3154"/>
+			<Position x="50.29757" z="153.17621"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8544"/>
 		</Entity>
 		<Entity uid="382">
 			<Template>units/athen_support_trader</Template>
 			<Player>1</Player>
-			<Position x="62.06914" z="147.03657"/>
+			<Position x="56.54435" z="146.54413"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37266"/>
 		</Entity>
 		<Entity uid="383">
 			<Template>units/brit_ship_fishing</Template>
 			<Player>1</Player>
-			<Position x="80.92164" z="216.66626"/>
+			<Position x="81.5197" z="217.14728"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22514"/>
 		</Entity>
 		<Entity uid="384">
 			<Template>units/brit_ship_merchant</Template>
 			<Player>1</Player>
-			<Position x="84.19544" z="227.90607"/>
+			<Position x="84.53811" z="226.65244"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49154"/>
-		</Entity>
-		<Entity uid="385">
-			<Template>units/brit_ship_trireme</Template>
-			<Player>1</Player>
-			<Position x="91.47532" z="242.9492"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="59790"/>
 		</Entity>
 		<Entity uid="386">
 			<Template>units/brit_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="97.79934" z="199.69367"/>
+			<Position x="94.99058" z="200.19889"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27976"/>
 		</Entity>
 		<Entity uid="387">
 			<Template>units/brit_support_healer_b</Template>
 			<Player>1</Player>
-			<Position x="101.34656" z="196.42038"/>
+			<Position x="98.55578" z="197.03202"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14396"/>
 		</Entity>
 		<Entity uid="388">
 			<Template>units/brit_support_trader</Template>
 			<Player>1</Player>
-			<Position x="107.14008" z="190.36329"/>
+			<Position x="104.03113" z="191.9673"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58614"/>
 		</Entity>
 		<Entity uid="389">
 			<Template>units/brit_war_dog_b</Template>
 			<Player>1</Player>
-			<Position x="110.56945" z="187.63126"/>
+			<Position x="106.91294" z="189.32898"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36756"/>
 		</Entity>
 		<Entity uid="390">
 			<Template>units/cart_ship_fishing</Template>
 			<Player>1</Player>
-			<Position x="121.51761" z="250.31775"/>
+			<Position x="120.58915" z="250.35682"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36012"/>
 		</Entity>
 		<Entity uid="391">
 			<Template>units/cart_ship_merchant</Template>
 			<Player>1</Player>
-			<Position x="119.11905" z="262.01294"/>
+			<Position x="120.96621" z="260.12598"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50252"/>
 		</Entity>
@@ -2413,14 +1839,14 @@
 		<Entity uid="393">
 			<Template>units/cart_ship_trireme</Template>
 			<Player>1</Player>
-			<Position x="132.50693" z="283.4517"/>
+			<Position x="132.9676" z="280.90473"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36080"/>
 		</Entity>
 		<Entity uid="394">
 			<Template>units/cart_ship_quinquereme</Template>
 			<Player>1</Player>
-			<Position x="134.78122" z="300.04972"/>
+			<Position x="139.96839" z="292.54719"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="424"/>
 		</Entity>
@@ -2441,7 +1867,7 @@
 		<Entity uid="397">
 			<Template>units/cart_support_trader</Template>
 			<Player>1</Player>
-			<Position x="143.80005" z="230.85483"/>
+			<Position x="143.10984" z="230.75147"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30878"/>
 		</Entity>
@@ -2458,13 +1884,6 @@
 			<Position x="174.8393" z="302.9856"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61304"/>
-		</Entity>
-		<Entity uid="400">
-			<Template>units/gaul_ship_trireme</Template>
-			<Player>1</Player>
-			<Position x="178.87732" z="317.22129"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="34900"/>
 		</Entity>
 		<Entity uid="401">
 			<Template>units/gaul_support_healer_b</Template>
@@ -2490,42 +1909,42 @@
 		<Entity uid="404">
 			<Template>units/brit_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="106.05721" z="203.19751"/>
+			<Position x="100.64574" z="207.86765"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42756"/>
 		</Entity>
 		<Entity uid="405">
 			<Template>units/cart_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="155.06254" z="251.83729"/>
+			<Position x="142.67621" z="253.2848"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32570"/>
 		</Entity>
 		<Entity uid="406">
 			<Template>units/cart_mechanical_siege_ballista_unpacked</Template>
 			<Player>1</Player>
-			<Position x="161.01517" z="256.51441"/>
+			<Position x="154.33985" z="264.04532"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="588"/>
 		</Entity>
 		<Entity uid="407">
 			<Template>units/cart_mechanical_siege_oxybeles_unpacked</Template>
 			<Player>1</Player>
-			<Position x="167.22751" z="261.20698"/>
+			<Position x="148.71116" z="258.46134"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6320"/>
 		</Entity>
 		<Entity uid="408">
 			<Template>units/gaul_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="198.84186" z="289.66279"/>
+			<Position x="198.68421" z="290.88367"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46178"/>
 		</Entity>
 		<Entity uid="409">
 			<Template>units/iber_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="241.35956" z="321.43378"/>
+			<Position x="233.93162" z="327.28147"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="26270"/>
 		</Entity>
@@ -2574,28 +1993,28 @@
 		<Entity uid="416">
 			<Template>units/mace_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="288.84272" z="360.69712"/>
+			<Position x="259.98716" z="374.39264"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23448"/>
 		</Entity>
 		<Entity uid="417">
 			<Template>units/mace_mechanical_siege_oxybeles_unpacked</Template>
 			<Player>1</Player>
-			<Position x="297.94788" z="367.9644"/>
+			<Position x="248.34708" z="366.10846"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42516"/>
 		</Entity>
 		<Entity uid="418">
 			<Template>units/mace_mechanical_siege_lithobolos_unpacked</Template>
 			<Player>1</Player>
-			<Position x="288.74894" z="378.70469"/>
+			<Position x="252.98337" z="370.40049"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49382"/>
 		</Entity>
 		<Entity uid="419">
 			<Template>units/mace_mechanical_siege_tower</Template>
 			<Player>1</Player>
-			<Position x="279.93342" z="374.92341"/>
+			<Position x="267.52063" z="380.42798"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="9026"/>
 		</Entity>
@@ -2630,21 +2049,21 @@
 		<Entity uid="424">
 			<Template>units/mace_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="256.57782" z="354.14271"/>
+			<Position x="251.93625" z="355.9802"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42494"/>
 		</Entity>
 		<Entity uid="425">
 			<Template>units/mace_support_healer_b</Template>
 			<Player>1</Player>
-			<Position x="261.20786" z="350.0265"/>
+			<Position x="255.90323" z="352.4741"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52168"/>
 		</Entity>
 		<Entity uid="426">
 			<Template>units/mace_support_trader</Template>
 			<Player>1</Player>
-			<Position x="266.24305" z="344.15305"/>
+			<Position x="262.619" z="345.59098"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17748"/>
 		</Entity>
@@ -2658,21 +2077,21 @@
 		<Entity uid="428">
 			<Template>units/maur_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="338.00632" z="430.43906"/>
+			<Position x="345.57056" z="418.33704"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1424"/>
 		</Entity>
 		<Entity uid="429">
 			<Template>units/maur_mechanical_siege_lithobolos_unpacked</Template>
 			<Player>1</Player>
-			<Position x="344.02067" z="420.56748"/>
+			<Position x="349.36954" z="425.09537"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41520"/>
 		</Entity>
 		<Entity uid="430">
 			<Template>units/maur_mechanical_siege_oxybeles_unpacked</Template>
 			<Player>1</Player>
-			<Position x="350.90308" z="422.72822"/>
+			<Position x="356.43396" z="430.14414"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="5908"/>
 		</Entity>
@@ -2700,28 +2119,28 @@
 		<Entity uid="434">
 			<Template>units/maur_support_elephant</Template>
 			<Player>1</Player>
-			<Position x="305.5102" z="403.32078"/>
+			<Position x="303.43421" z="399.10233"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="4770"/>
 		</Entity>
 		<Entity uid="435">
 			<Template>units/maur_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="310.67402" z="397.67252"/>
+			<Position x="308.4785" z="394.62455"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52566"/>
 		</Entity>
 		<Entity uid="436">
 			<Template>units/maur_support_healer_b</Template>
 			<Player>1</Player>
-			<Position x="313.53245" z="394.995"/>
+			<Position x="311.42566" z="391.8441"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56694"/>
 		</Entity>
 		<Entity uid="437">
 			<Template>units/maur_support_trader</Template>
 			<Player>1</Player>
-			<Position x="319.82285" z="388.68924"/>
+			<Position x="317.6385" z="385.17588"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7556"/>
 		</Entity>
@@ -2735,14 +2154,14 @@
 		<Entity uid="439">
 			<Template>units/pers_mechanical_siege_oxybeles_unpacked</Template>
 			<Player>1</Player>
-			<Position x="204.69462" z="62.45231"/>
+			<Position x="202.75239" z="76.7609"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43028"/>
 		</Entity>
 		<Entity uid="440">
 			<Template>units/pers_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="193.45054" z="71.15946"/>
+			<Position x="194.97626" z="73.7498"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7942"/>
 		</Entity>
@@ -2777,49 +2196,49 @@
 		<Entity uid="445">
 			<Template>units/pers_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="159.74344" z="42.39072"/>
+			<Position x="164.47974" z="44.08153"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="33644"/>
 		</Entity>
 		<Entity uid="446">
 			<Template>units/pers_support_healer_b</Template>
 			<Player>1</Player>
-			<Position x="163.8071" z="38.53522"/>
+			<Position x="166.90998" z="41.93952"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="10314"/>
 		</Entity>
 		<Entity uid="447">
 			<Template>units/pers_support_trader</Template>
 			<Player>1</Player>
-			<Position x="169.37674" z="34.58999"/>
+			<Position x="170.87534" z="37.68886"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49508"/>
 		</Entity>
 		<Entity uid="448">
 			<Template>units/ptol_mechanical_siege_lithobolos_unpacked</Template>
 			<Player>1</Player>
-			<Position x="254.03672" z="101.68473"/>
+			<Position x="249.25828" z="115.17556"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25536"/>
 		</Entity>
 		<Entity uid="449">
 			<Template>units/ptol_mechanical_siege_polybolos_unpacked</Template>
 			<Player>1</Player>
-			<Position x="261.38929" z="103.14585"/>
+			<Position x="246.40818" z="109.62664"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62902"/>
 		</Entity>
 		<Entity uid="450">
 			<Template>units/ptol_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="258.25916" z="119.0292"/>
+			<Position x="255.9469" z="118.43163"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="63814"/>
 		</Entity>
 		<Entity uid="451">
 			<Template>units/ptol_mechanical_siege_tower</Template>
 			<Player>1</Player>
-			<Position x="249.04508" z="110.77225"/>
+			<Position x="262.53104" z="125.3168"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37444"/>
 		</Entity>
@@ -2833,7 +2252,7 @@
 		<Entity uid="453">
 			<Template>units/ptol_ship_merchant</Template>
 			<Player>1</Player>
-			<Position x="205.47168" z="116.76772"/>
+			<Position x="203.29096" z="121.32476"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41310"/>
 		</Entity>
@@ -2861,56 +2280,56 @@
 		<Entity uid="457">
 			<Template>units/ptol_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="219.43131" z="101.72944"/>
+			<Position x="218.60648" z="96.15563"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="474"/>
 		</Entity>
 		<Entity uid="458">
 			<Template>units/ptol_support_healer_b</Template>
 			<Player>1</Player>
-			<Position x="222.76136" z="98.42066"/>
+			<Position x="220.94971" z="93.75811"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28966"/>
 		</Entity>
 		<Entity uid="459">
 			<Template>units/ptol_support_trader</Template>
 			<Player>1</Player>
-			<Position x="227.31626" z="94.03544"/>
+			<Position x="225.12116" z="88.73066"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7632"/>
 		</Entity>
 		<Entity uid="460">
 			<Template>units/rome_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="321.12586" z="172.51017"/>
+			<Position x="325.42035" z="177.76807"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40964"/>
 		</Entity>
 		<Entity uid="461">
 			<Template>units/rome_mechanical_siege_ballista_unpacked</Template>
 			<Player>1</Player>
-			<Position x="330.09379" z="177.18796"/>
+			<Position x="334.2743" z="181.38068"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25200"/>
 		</Entity>
 		<Entity uid="462">
 			<Template>units/rome_mechanical_siege_scorpio_unpacked</Template>
 			<Player>1</Player>
-			<Position x="332.10953" z="168.05137"/>
+			<Position x="322.3553" z="171.51078"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="208"/>
 		</Entity>
 		<Entity uid="463">
 			<Template>units/rome_ship_fishing</Template>
 			<Player>1</Player>
-			<Position x="274.0514" z="168.59821"/>
+			<Position x="272.68488" z="167.28385"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23426"/>
 		</Entity>
 		<Entity uid="464">
 			<Template>units/rome_ship_merchant</Template>
 			<Player>1</Player>
-			<Position x="280.45051" z="175.18268"/>
+			<Position x="282.17554" z="173.75855"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22966"/>
 		</Entity>
@@ -2938,28 +2357,28 @@
 		<Entity uid="468">
 			<Template>units/rome_support_female_citizen</Template>
 			<Player>1</Player>
-			<Position x="296.08616" z="154.30036"/>
+			<Position x="297.27607" z="149.8433"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54572"/>
 		</Entity>
 		<Entity uid="469">
 			<Template>units/rome_support_healer_b</Template>
 			<Player>1</Player>
-			<Position x="299.84067" z="150.83628"/>
+			<Position x="300.00373" z="147.3104"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="892"/>
 		</Entity>
 		<Entity uid="470">
 			<Template>units/rome_support_trader</Template>
 			<Player>1</Player>
-			<Position x="306.00882" z="144.37577"/>
+			<Position x="305.63425" z="141.66004"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54984"/>
 		</Entity>
 		<Entity uid="471">
 			<Template>units/sele_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="390.38901" z="245.65726"/>
+			<Position x="391.12623" z="244.95524"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="65533"/>
 		</Entity>
@@ -3036,21 +2455,21 @@
 		<Entity uid="482">
 			<Template>units/sele_support_trader</Template>
 			<Player>1</Player>
-			<Position x="365.68622" z="207.03043"/>
+			<Position x="364.80692" z="207.6886"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="18474"/>
 		</Entity>
 		<Entity uid="483">
 			<Template>units/spart_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="455.3177" z="296.04075"/>
+			<Position x="464.18284" z="304.18091"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58706"/>
 		</Entity>
 		<Entity uid="484">
 			<Template>units/spart_mechanical_siege_oxybeles_unpacked</Template>
 			<Player>1</Player>
-			<Position x="461.40363" z="299.5207"/>
+			<Position x="458.47797" z="297.99512"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="384"/>
 		</Entity>
@@ -3102,6 +2521,363 @@
 			<Position x="434.62565" z="272.51615"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="3794"/>
+		</Entity>
+		<Entity uid="495">
+			<Template>units/athen_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="74.17408" z="140.99692"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20270"/>
+		</Entity>
+		<Entity uid="496">
+			<Template>units/athen_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="75.73264" z="142.44037"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22544"/>
+		</Entity>
+		<Entity uid="497">
+			<Template>units/athen_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="77.69646" z="144.12894"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41330"/>
+		</Entity>
+		<Entity uid="643">
+			<Template>units/brit_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="108.03281" z="196.55"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11846"/>
+		</Entity>
+		<Entity uid="644">
+			<Template>units/brit_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="109.40333" z="198.41016"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4046"/>
+		</Entity>
+		<Entity uid="645">
+			<Template>units/brit_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="111.16121" z="200.20701"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61206"/>
+		</Entity>
+		<Entity uid="646">
+			<Template>units/brit_ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="90.47628" z="240.76938"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12390"/>
+		</Entity>
+		<Entity uid="765">
+			<Template>units/cart_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="153.60273" z="225.9152"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65042"/>
+		</Entity>
+		<Entity uid="770">
+			<Template>units/gaul_ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="180.13517" z="314.94529"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50022"/>
+		</Entity>
+		<Entity uid="771">
+			<Template>units/iber_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="225.62073" z="308.70728"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26450"/>
+		</Entity>
+		<Entity uid="772">
+			<Template>units/iber_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="227.63822" z="310.69248"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32510"/>
+		</Entity>
+		<Entity uid="773">
+			<Template>units/iber_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="229.48392" z="312.86643"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22480"/>
+		</Entity>
+		<Entity uid="774">
+			<Template>units/iber_infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="228.60343" z="304.85209"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10664"/>
+		</Entity>
+		<Entity uid="775">
+			<Template>units/iber_infantry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="230.36558" z="306.5435"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45498"/>
+		</Entity>
+		<Entity uid="776">
+			<Template>units/iber_infantry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="232.08158" z="308.22138"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49754"/>
+		</Entity>
+		<Entity uid="778">
+			<Template>units/mace_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="267.57837" z="351.73981"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48760"/>
+		</Entity>
+		<Entity uid="779">
+			<Template>units/mace_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="269.80945" z="353.55063"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26692"/>
+		</Entity>
+		<Entity uid="780">
+			<Template>units/mace_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="272.23224" z="355.0835"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1546"/>
+		</Entity>
+		<Entity uid="781">
+			<Template>units/maur_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="312.39103" z="401.04593"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6684"/>
+		</Entity>
+		<Entity uid="782">
+			<Template>units/maur_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="314.106" z="403.13962"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43800"/>
+		</Entity>
+		<Entity uid="783">
+			<Template>units/maur_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="315.9105" z="405.40506"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13814"/>
+		</Entity>
+		<Entity uid="784">
+			<Template>units/maur_infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="325.34003" z="390.45414"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49356"/>
+		</Entity>
+		<Entity uid="785">
+			<Template>units/maur_infantry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="326.83051" z="392.01493"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36946"/>
+		</Entity>
+		<Entity uid="786">
+			<Template>units/maur_infantry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="328.34723" z="393.83622"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25052"/>
+		</Entity>
+		<Entity uid="787">
+			<Template>units/pers_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="175.81675" z="43.32917"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58536"/>
+		</Entity>
+		<Entity uid="788">
+			<Template>units/pers_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="177.38843" z="45.27121"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32478"/>
+		</Entity>
+		<Entity uid="789">
+			<Template>units/pers_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="179.45618" z="46.76543"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23048"/>
+		</Entity>
+		<Entity uid="790">
+			<Template>units/pers_champion_cavalry</Template>
+			<Player>1</Player>
+			<Position x="181.969" z="58.0447"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64852"/>
+		</Entity>
+		<Entity uid="817">
+			<Template>units/pers_infantry_spearman_merc</Template>
+			<Player>1</Player>
+			<Position x="185.49994" z="60.11661"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18658"/>
+		</Entity>
+		<Entity uid="838">
+			<Template>units/brit_infantry_spearman_merc</Template>
+			<Player>1</Player>
+			<Position x="119.74723" z="208.13407"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6788"/>
+		</Entity>
+		<Entity uid="839">
+			<Template>units/gaul_infantry_spearman_merc</Template>
+			<Player>1</Player>
+			<Position x="207.91428" z="277.75275"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65108"/>
+		</Entity>
+		<Entity uid="840">
+			<Template>units/iber_infantry_spearman_merc</Template>
+			<Player>1</Player>
+			<Position x="230.42493" z="323.22431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21368"/>
+		</Entity>
+		<Entity uid="844">
+			<Template>units/mace_infantry_spearman_merc</Template>
+			<Player>1</Player>
+			<Position x="278.37131" z="364.72464"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35152"/>
+		</Entity>
+		<Entity uid="852">
+			<Template>units/maur_infantry_spearman_merc</Template>
+			<Player>1</Player>
+			<Position x="337.5719" z="421.73115"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3514"/>
+		</Entity>
+		<Entity uid="853">
+			<Template>units/ptol_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="230.05323" z="90.7265"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19908"/>
+		</Entity>
+		<Entity uid="854">
+			<Template>units/ptol_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="231.83298" z="92.746"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24656"/>
+		</Entity>
+		<Entity uid="855">
+			<Template>units/ptol_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="234.14011" z="94.3315"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12720"/>
+		</Entity>
+		<Entity uid="856">
+			<Template>units/ptol_infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="237.4491" z="94.68856"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39970"/>
+		</Entity>
+		<Entity uid="857">
+			<Template>units/ptol_infantry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="239.12256" z="96.5661"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19574"/>
+		</Entity>
+		<Entity uid="858">
+			<Template>units/ptol_infantry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="240.9232" z="98.63648"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60138"/>
+		</Entity>
+		<Entity uid="884">
+			<Template>units/ptol_infantry_swordsman_merc</Template>
+			<Player>1</Player>
+			<Position x="228.258" z="107.40105"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8328"/>
+		</Entity>
+		<Entity uid="885">
+			<Template>units/sele_infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="379.74909" z="214.75495"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2648"/>
+		</Entity>
+		<Entity uid="886">
+			<Template>units/sele_infantry_spearman_a</Template>
+			<Player>1</Player>
+			<Position x="380.9686" z="216.32697"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27032"/>
+		</Entity>
+		<Entity uid="887">
+			<Template>units/sele_infantry_spearman_e</Template>
+			<Player>1</Player>
+			<Position x="382.46583" z="218.0698"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51804"/>
+		</Entity>
+		<Entity uid="888">
+			<Template>units/sele_infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="381.7836" z="213.31815"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10630"/>
+		</Entity>
+		<Entity uid="889">
+			<Template>units/sele_infantry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="383.05475" z="214.84556"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39250"/>
+		</Entity>
+		<Entity uid="890">
+			<Template>units/sele_infantry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="384.56952" z="216.32697"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40540"/>
+		</Entity>
+		<Entity uid="891">
+			<Template>units/sele_cavalry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="364.0141" z="214.96625"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49140"/>
+		</Entity>
+		<Entity uid="892">
+			<Template>units/sele_cavalry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="365.80573" z="216.20832"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60190"/>
+		</Entity>
+		<Entity uid="893">
+			<Template>units/sele_cavalry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="367.4632" z="218.25113"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30516"/>
+		</Entity>
+		<Entity uid="897">
+			<Template>units/athen_cavalry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="85.72461" z="161.05073"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19140"/>
 		</Entity>
 	</Entities>
 	<Paths/>

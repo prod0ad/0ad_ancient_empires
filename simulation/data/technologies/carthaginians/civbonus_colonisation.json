@@ -4,6 +4,6 @@
 	"description": "Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
 	"requirements": {"civ": "cart"},
 	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.80}],
-	"affects": ["Civic","Structure Naval"],
+	"affects": ["Civic","Structure Naval","Market"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

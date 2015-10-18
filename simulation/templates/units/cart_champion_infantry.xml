@@ -39,7 +39,7 @@
   </UnitMotion>  
   <Identity>
     <Civ>cart</Civ>
-	<GenericName>Elite Infantry Spearman</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Sacred Band Infantry</SpecificName>
     <Icon>units/cart_champion_infantry.png</Icon>	
 	<Tooltip>Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants.</Tooltip>		

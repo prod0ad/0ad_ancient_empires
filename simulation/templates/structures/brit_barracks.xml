@@ -25,15 +25,12 @@
       units/{civ}_infantry_slinger_b
     </Entities>
     <Technologies datatype="tokens">
-	  upgrades/spearman_a
-	  upgrades/spearman_e		
+	  upgrades/spearman_a	
 	  upgrades/skirmisher_a
-	  upgrades/skirmisher_e	
-	  upgrades/archer_a
-	  upgrades/archer_e			  
-	  upgrades/swordsman_e	  	
-	  upgrades/swordsman_u	  	  
-	  upgrades/slinger_e		
+	  upgrades/archer_a	  
+	  upgrades/swordsman_a	  	
+	  upgrades/swordsman_e	  	  
+	  upgrades/slinger_a		
       barracks_speed_train	
       barracks_ranged_accuracy	 
     </Technologies>	

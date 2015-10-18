@@ -68,7 +68,7 @@
   <Identity>
     <GenericName>Fortress</GenericName>
     <SpecificName>Fortress</SpecificName>	
-    <Tooltip>Train Champions and research unique techs</Tooltip>
+    <Tooltip>Train Champions and Mercenaries, research unique techs</Tooltip>
     <Classes datatype="tokens">GarrisonFortress Fortress</Classes>
     <VisibleClasses datatype="tokens">
       Defensive

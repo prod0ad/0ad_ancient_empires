@@ -1,14 +1,14 @@
 {
 	"genericName": "Immortals",
-	"cost": {"food": 425, "wood": 0, "stone": 0, "metal": 175},
+	"cost": {"food": 125, "wood": 0, "stone": 0, "metal": 175},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "fist_spear.png",
 	"researchTime": 40,
-	"tooltip": "Champion Spearmen -50% train time.",
+	"tooltip": "Anusyia -75% train time.",
 	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.50}
+		{"value": "Cost/BuildTime", "multiply": 0.25}
 	],
-	"affects": ["Unique Spear"],
+	"affects": ["Unique Bow"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
