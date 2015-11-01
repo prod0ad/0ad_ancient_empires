@@ -4,9 +4,10 @@
     <Civ>spart</Civ>
     <SelectionGroupName>units/spart_infantry_javelinist_b</SelectionGroupName>
     <GenericName>Skirmisher</GenericName>
-    <SpecificName>Helot Peltast</SpecificName>
+    <SpecificName>Helot Javelinist</SpecificName>
+    <VisibleClasses datatype="tokens">Helot</VisibleClasses>		
     <RequiredTechnology>phase_town</RequiredTechnology>	
-    <Icon>units/spart_infantry_javelinist.png</Icon>
+    <Icon>units/ae_spart_helot_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/spart_infantry_javelinist_a</Entity>

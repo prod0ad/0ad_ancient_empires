@@ -5,28 +5,28 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>150</Max>
+    <Max>130</Max>
   </Health>   
   <Attack>
     <Melee>
       <Hack>8</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>4.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
 	  <Bonuses>
 		<AntiRangedInfantry>
 		  <Classes>Ranged Infantry</Classes>
-		  <Multiplier>1.5</Multiplier>
+		  <Multiplier>1.75</Multiplier>
 		</AntiRangedInfantry>
 		<AntiRangedCavalry>
 		  <Classes>Ranged Cavalry</Classes>
-		  <Multiplier>1.5</Multiplier>
+		  <Multiplier>1.75</Multiplier>
 		</AntiRangedCavalry>		
 		<AntiSiege>
 		  <Classes>Siege</Classes>
-		  <Multiplier>1.5</Multiplier>
+		  <Multiplier>1.75</Multiplier>
 		</AntiSiege>			
 	  </Bonuses>	  
     </Melee>
@@ -52,11 +52,14 @@
   </Loot>  
   <UnitMotion>
     <WalkSpeed>12</WalkSpeed>
+    <Run>
+      <Speed>12.0</Speed>
+    </Run>	
   </UnitMotion>  
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Light</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Light Sword</VisibleClasses>
     <GenericName>Light Cavalry</GenericName>
 	<RequiredTechnology>phase_town</RequiredTechnology>		
-    <Tooltip>Fast moving Melee Cavalry. Deals x1.5 damage to Ranged and Siege units.</Tooltip>		
+    <Tooltip>Fast melee cavalry. Deals x1.75 damage to ranged and siege units.</Tooltip>		
   </Identity>
 </Entity>

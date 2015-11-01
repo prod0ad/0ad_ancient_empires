@@ -39,7 +39,7 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/ptol_thureophoros_b.xml" attachpoint="helmet"/>
-        <prop actor="props/units/shields/mace_pez_basic.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/mace_pez_b.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/sarissa.xml" attachpoint="r_hand"/>
       </props>
     </variant>
@@ -57,13 +57,10 @@
     </variant>	
   </group>    
   <group>
-    <variant frequency="1" name="Tunic-half">
+    <variant frequency="3" name="tunic">
       <textures><texture file="skeletal/hele_tunic.dds" name="baseTex"/></textures>
-    </variant>  
-    <variant frequency="1" name="Tunic-Sleeveless">
-      <textures><texture file="skeletal/hele_isp_b_2.dds" name="baseTex"/></textures>
     </variant>
-  </group>  
+  </group>   
   <group>
     <variant frequency="1" name="Idle"/>
     <variant name="gather_tree">

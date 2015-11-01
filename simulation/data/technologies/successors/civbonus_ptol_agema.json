@@ -1,0 +1,13 @@
+{
+	"genericName": "Ptolemaic Agema",
+	"autoResearch": true,
+	"description": ".",
+	"requirements": {"civ": "ptol"},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.2},
+		{"value": "Cost/Resources/metal", "multiply": 1.2},
+		{"value": "Attack/Melee/Hack", "multiply": 1.2},		
+		{"value": "Cost/BuildTime", "multiply": 1.2}			
+	],
+	"affects": ["Cavalry Spear"]
+}

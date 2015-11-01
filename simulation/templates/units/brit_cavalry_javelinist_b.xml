@@ -3,7 +3,7 @@
   <Identity>
     <Civ>brit</Civ>
 	<SelectionGroupName>units/brit_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Cavalry Skirmisher</SpecificName>
+    <SpecificName>Raider</SpecificName>
     <GenericName>Cavalry Skirmisher</GenericName>
     <Icon>units/celt_cavalry_javelinist.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	

@@ -14,15 +14,13 @@
     <Entities datatype="tokens">
       units/{civ}_champion_cavalry 	
       units/{civ}_infantry_archer_e		  
-      units/{civ}_infantry_swordsman_merc	    
-      units/{civ}_infantry_slinger_e 	  
-      units/{civ}_cavalry_archer_e	  
+      units/{civ}_infantry_slinger_e 	
+	  units/{civ}_cavalry_javelinist_b	 	  
     </Entities>
     <Technologies datatype="tokens">
-      fort_ptol_agema_cavalry	    
+      fort_ptol_machimoi_epilektoi	    
 	  fort_ptol_merc_army	  
-	  fort_ptol_garrisons
-      fort_ptol_machimoi		  
+	  fort_ptol_garrisons	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

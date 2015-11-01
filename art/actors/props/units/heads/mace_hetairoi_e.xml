@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Helmet-Boeotian-Tinned-Wreath">
+      <mesh>props/helmet/hele_helmet_u.dae</mesh>
+      <textures><texture file="props/helmet/hele_a2.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Helmet-Boeotian-Plume-Tinned">
+      <mesh>props/helmet/hele_helmet_u.dae</mesh>
+      <textures><texture file="props/helmet/hele_a4.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>playercolor_spec.xml</material>
+</actor>

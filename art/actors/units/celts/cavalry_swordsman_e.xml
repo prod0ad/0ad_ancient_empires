@@ -43,15 +43,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="horse-color-1">
-      <color>177 111 33</color>
+    <variant frequency="2" name="roan">
+      <color>222 122 66</color>
     </variant>
-    <variant frequency="1" name="horse-color-2">
-      <color>166 99 22</color>
-    </variant>
-    <variant frequency="1" name="horse-color-3">
-      <color>155 88 11</color>
-    </variant>	
   </group>
   <group>
     <variant frequency="100" name="Idle"/>

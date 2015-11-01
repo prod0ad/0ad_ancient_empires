@@ -2,25 +2,68 @@
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Attack>
     <Ranged>
+      <Hack>0</Hack>
+      <Pierce>12</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>28</MaxRange>
+      <MinRange>0.0</MinRange>		  
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>1.2</Spread>	
 	  <Bonuses>
 		<AntiStructure>
 		  <Classes>Structure</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>4</Multiplier>
 		</AntiStructure>
 		<AntiMech>
 		  <Classes>Mechanical</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>4</Multiplier>
 		</AntiMech>		
 	  </Bonuses>	
     </Ranged>
   </Attack>
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>2</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Cost>
+    <Population>3</Population>  
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>60</food>
+      <wood>0</wood>
+	  <metal>55</metal>
+      <stone>0</stone>	  
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>6</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>6</metal>
+  </Loot>  
+  <Health>
+    <Max>105</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+    <Run>
+      <Speed>11</Speed>
+    </Run>		
+  </UnitMotion>
+  <Vision>
+    <Range>36</Range>
+  </Vision>      
   <Identity>
     <Civ>iber</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Iberian Noble</SpecificName>
     <Icon>units/iber_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>
-	<Tooltip>Elite Cavalry Skirmisher. Deals x2 damage to Structures and Mechanical.</Tooltip>
+	<Tooltip>Elite cavalry skirmisher. Deals x4 damage to structures and mechanical units.</Tooltip>
   </Identity>
   <VisualActor>
     <Actor>units/iberians/champion_unit_2.xml</Actor>

@@ -3,11 +3,8 @@
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>			
   </Identity>
-  <Promotion>
-    <Entity>units/ptol_infantry_javelinist_u</Entity>
-	<RequiredXp>9999</RequiredXp>		
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_javelinist_u.xml</Actor>
+    <Actor>units/ptolemies/infantry_javelinist_e.xml</Actor>
   </VisualActor>
 </Entity>

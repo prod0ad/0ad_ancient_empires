@@ -4,23 +4,18 @@
   <group>
     <variant frequency="1" name="Base">
       <animations>
-        <animation file="biped/inf_hoplite_idle_a.psa" name="Idle" speed="200"/>
-        <animation file="biped/inf_hoplite_walk.psa" name="Walk" speed="130"/>
-        <animation file="biped/inf_hoplite_shield_run_a.psa" name="Run" speed="30"/>
-        <animation file="biped/walk_spearshield.psa" name="carry_food" speed="120"/>
-        <animation file="biped/walk_spearshield.psa" name="carry_meat" speed="120"/>
-        <animation file="biped/walk_spearshield.psa" name="carry_wood" speed="120"/>
-        <animation file="biped/walk_spearshield.psa" name="carry_stone" speed="120"/>
-        <animation file="biped/walk_spearshield.psa" name="carry_metal" speed="120"/>
-        <animation event="0.5" file="biped/inf_hoplite_atk_a.psa" name="attack_melee" speed="200"/>
-        <animation event="0.5" file="biped/inf_hoplite_atk_a.psa" name="attack_slaughter" speed="200"/>
-        <animation event="0.23" file="infantry/general/chop.psa" name="gather_tree" speed="250"/>
-        <animation file="biped/hoe.psa" name="gather_grain" speed="300"/>
-        <animation file="infantry/general/forage.psa" name="gather_fruit" speed="125"/>
-        <animation file="infantry/general/forage.psa" name="gather_meat" speed="125"/>
-        <animation event="0.43" file="infantry/general/mine.psa" name="gather_rock" speed="250"/>
-        <animation event="0.43" file="infantry/general/mine.psa" name="gather_ore" speed="250"/>
-        <animation event="0.43" file="infantry/general/mine.psa" name="gather_ruins" speed="250"/>
+        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="100"/>
+        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="90"/>
+        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="85"/>
+        <animation file="biped/inf_sword_ready_a.dae" name="Idle" speed="50"/>
+        <animation file="biped/inf_sword_ready_b.dae" name="Idle" speed="110"/>
+        <animation file="biped/walk_spearshield.psa" name="Walk" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="Walk" speed="111"/>
+        <animation file="biped/walk_spearshield.psa" name="Walk" speed="122"/>
+        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="40"/>
+        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="38"/>
+        <animation event="0.5" file="biped/inf_spear_shield_atk_b.psa" name="attack_melee" speed="100"/>
+        <animation event="0.5" file="infantry/sword/attack/isw_s_def_06.psa" name="attack_melee" speed="100"/>
         <animation event="0.6" file="infantry/general/dude/dudebuild.psa" name="Build" speed="300"/>
         <animation file="infantry/general/death/inf_01.psa" name="Death" speed="400"/>
         <animation file="infantry/general/death/inf_02.psa" name="Death" speed="700"/>
@@ -33,7 +28,7 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/shields/hele_round_a.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/weapons/spear_lance.xml" attachpoint="r_hand"/>	
       </props>
     </variant>
   </group>
@@ -44,22 +39,10 @@
         <prop actor="props/units/heads/hele_hoplite_a.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Helmet-Later">
-      <props>
-        <prop actor="props/units/heads/head_hele_a.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/hele_hoplite_a2.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="Linothorax 1">
       <textures><texture file="skeletal/hele_isp_a_1.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="Linothorax 2">
-      <textures><texture file="skeletal/hele_isp_a_2.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="Linothorax 3">
-      <textures><texture file="skeletal/hele_isp_a_3.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

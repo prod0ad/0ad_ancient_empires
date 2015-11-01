@@ -4,13 +4,13 @@
     <Civ>sele</Civ>
     <SelectionGroupName>units/sele_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Prodromos</SpecificName>
-    <Icon>units/mace_cavalry_spearman.png</Icon>
+    <Icon>units/ae_hele_prodromos.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_swordsman_a</Entity>
     <RequiredXp>9999</RequiredXp>	
   </Promotion>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_swordsman_b.xml</Actor>
+    <Actor>units/seleucids/cavalry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

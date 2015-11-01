@@ -4,7 +4,7 @@
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
-    <SpecificName>Liby-Phoenician Infantry</SpecificName>
+    <SpecificName>Libyan Infantry</SpecificName>
     <Icon>units/cart_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>

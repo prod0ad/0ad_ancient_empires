@@ -12,8 +12,8 @@
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Swordsman</GenericName>
-    <SpecificName>Italian Swordsman</SpecificName>	
+    <GenericName>Barcid Infantry</GenericName>
+    <SpecificName>Mercenary Swordsman</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/cart_infantry_swordsman_2.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>			

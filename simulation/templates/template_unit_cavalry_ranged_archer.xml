@@ -8,37 +8,48 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>12</Pierce>
+      <Pierce>6</Pierce>
       <Crush>0</Crush>
-      <MaxRange>36</MaxRange>
+      <MaxRange>35</MaxRange>
+      <MinRange>0.0</MinRange>	 	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>	  
       <Spread>1.5</Spread>	  
     </Ranged>
   </Attack>
   <Cost>
     <Population>3</Population>
-    <BuildTime>40</BuildTime>  
+    <BuildTime>30</BuildTime>  
     <Resources>
-      <food>70</food>
-      <wood>0</wood>
-	  <metal>30</metal>
+      <food>0</food>
+      <wood>60</wood>
+	  <metal>50</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
+  <Loot>
+    <food>0</food>
+    <wood>6</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot>  
   <Health>
-    <Max>135</Max>
+    <Max>95</Max>
   </Health>
+  <Vision>
+    <Range>40</Range>
+  </Vision>  
+  <UnitMotion>
+    <WalkSpeed>12</WalkSpeed>
+    <Run>
+      <Speed>13</Speed>
+    </Run>		
+  </UnitMotion>   
   <Identity>
 	<VisibleClasses datatype="tokens">Bow</VisibleClasses>
     <GenericName>Cavalry Archer</GenericName>
-    <Tooltip>Fast moving long Ranged Cavalry.</Tooltip>	
+    <Tooltip>Fast moving archer.</Tooltip>	
   </Identity>
-  <Loot>
-    <food>7</food>
-    <wood>0</wood>
-    <stone>0</stone>
-    <metal>3</metal>
-  </Loot>
 </Entity>

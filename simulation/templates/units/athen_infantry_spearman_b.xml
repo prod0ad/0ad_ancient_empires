@@ -4,8 +4,8 @@
     <Civ>athen</Civ>
 	<SelectionGroupName>units/athen_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
-	<SpecificName>Athenian Hoplite</SpecificName>	
-    <Icon>units/athen_infantry_spearman.png</Icon>
+	<SpecificName>Hoplite</SpecificName>	
+    <Icon>units/ae_athen_hoplite.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/athen_infantry_spearman_a</Entity>

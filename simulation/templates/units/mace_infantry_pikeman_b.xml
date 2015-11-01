@@ -6,7 +6,7 @@
 	<GenericName>Pikeman</GenericName>
     <SpecificName>Pezetairos</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>		
-    <Icon>units/hele_champion_infantry_mace.png</Icon>
+    <Icon>units/ae_mace_pikeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_pikeman_a</Entity>

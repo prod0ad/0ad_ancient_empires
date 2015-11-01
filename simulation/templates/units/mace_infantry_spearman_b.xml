@@ -4,8 +4,8 @@
     <Civ>mace</Civ>
 	<SelectionGroupName>units/mace_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
-	<SpecificName>Hoplite</SpecificName>	
-    <Icon>units/athen_infantry_spearman.png</Icon>
+	<SpecificName>Hypaspist</SpecificName>	
+    <Icon>units/ae_mace_hypaspist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_spearman_a</Entity>

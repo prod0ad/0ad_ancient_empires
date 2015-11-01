@@ -1,96 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
+  <Attack>
+    <Melee>
+      <Hack>3</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>3.0</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Huntable</RestrictedClasses>
+    </Melee>
+    <Slaughter>
+      <Hack>25.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>4.0</MaxRange>
+    </Slaughter>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>16</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>24</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>1.3</Spread>
+      <RestrictedClasses datatype="tokens">Infantry Worker Mechanical Cavalry Champion Structure Soldier</RestrictedClasses>	  
+    </Ranged>	
+  </Attack>
   <Builder>
-    <Rate>0.5</Rate>
+    <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}_house
       structures/{civ}_storehouse
       structures/{civ}_farmstead
       structures/{civ}_field
-      structures/{civ}_corral
+      structures/{civ}_corral		  
+      structures/{civ}_dock	  	  
       structures/{civ}_outpost
       other/wallset_palisade
-      structures/{civ}_dock
       structures/{civ}_barracks
+      structures/{civ}_stables 	  
+      structures/{civ}_siege_workshop	  
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market
       structures/{civ}_defense_tower
       structures/{civ}_wallset_stone
-      structures/{civ}_civil_centre
-      structures/{civ}_fortress
+      structures/{civ}_civil_centre			  
+      structures/{civ}_fortress		    	  
     </Entities>
   </Builder>
-  <Cost>
-    <Population>0</Population>
-    <BuildTime>20</BuildTime>
+   <Cost>
+    <BuildTime>15</BuildTime>	
     <Resources>
-      <food>0</food>
-      <wood>0</wood>
-      <stone>0</stone>
-      <metal>50</metal>
+      <food>50</food>
     </Resources>
   </Cost>
   <Health>
-    <RegenRate>-0.25</RegenRate>
-    <Unhealable>true</Unhealable>
+    <Max>50</Max>
   </Health>
-  <Identity>
-    <Classes datatype="tokens">Slave Worker</Classes>
-    <GenericName>Slave</GenericName>
-    <Icon>units/global_slave.png</Icon>
-	<Tooltip>Classes: Support Worker Slave.
-Gatherer with a finite life span. Bonused at mining and lumbering.</Tooltip>
-  </Identity>
-  <Loot>
-    <xp>1</xp>
-    <food>0</food>
-    <wood>1</wood>
-    <stone>1</stone>
-    <metal>1</metal>
-  </Loot>
-  <Looter/>
   <ResourceGatherer>
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
-      <food.fish>0.5</food.fish>
-      <food.fruit>0.5</food.fruit>
-      <food.grain>0.35</food.grain>
-      <food.meat>1</food.meat>
-	  <wood.tree>1.0</wood.tree>
-	  <wood.ruins>5</wood.ruins>
-      <stone.rock>1.0</stone.rock>
-	  <stone.ruins>5</stone.ruins>
-      <metal.ore>1.0</metal.ore>
-	  <treasure disable=""/>
+      <food.fruit>1.0</food.fruit>
+      <food.grain>0.8</food.grain>
+      <food.meat>1.2</food.meat>
+      <wood.tree>0.6</wood.tree>
+      <wood.ruins>5</wood.ruins>
+      <stone.rock>0.4</stone.rock>
+      <stone.ruins>2</stone.ruins>
+      <metal.ore>0.4</metal.ore>
     </Rates>
   </ResourceGatherer>
+  <UnitAI>
+    <AlertReactiveLevel>1</AlertReactiveLevel>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed>7.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>25</Range>
+  </Vision>  
+  <Identity>
+    <Gender>female</Gender>    
+    <VisibleClasses datatype="tokens">Worker Female Slave Citizen</VisibleClasses>
+    <Formations disable=""/>
+    <GenericName>Slave</GenericName>
+    <Icon>units/global_slave.png</Icon>
+    <Tooltip>Slave worker. Gathers resources and builds structures.</Tooltip>
+  </Identity>  
   <Sound>
     <SoundGroups>
+      <trained>interface/alarm/alarm_create_female.xml</trained>
       <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
       <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{gender}_build.xml</order_build>
       <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
       <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
-      <walk>actor/human/movement/walk.xml</walk>
-      <run>actor/human/movement/run.xml</run>
+      <attack>attack/weapon/sword.xml</attack>
       <death>actor/human/death/{gender}_death.xml</death>
       <build>resource/construction/con_wood.xml</build>
       <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
       <gather_grain>resource/farming/farm.xml</gather_grain>
-      <gather_wood>resource/lumbering/lumbering.xml</gather_wood>
-      <gather_stone>resource/mining/pickaxe.xml</gather_stone>
-      <gather_metal>resource/mining/mining.xml</gather_metal>
-      <trained>actor/singlesteps/steps_gravel.xml</trained>
+      <gather_tree>resource/lumbering/lumbering.xml</gather_tree>
+      <gather_rock>resource/mining/pickaxe.xml</gather_rock>
+      <gather_ore>resource/mining/mining.xml</gather_ore>
+      <gather_ruins>resource/mining/mining.xml</gather_ruins>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>15.0</Speed>
-      <Range>1000.0</Range>
-      <RangeMin>8.0</RangeMin>
-    </Run>
-  </UnitMotion>
 </Entity>

@@ -1,16 +1,16 @@
 {
 	"genericName": "City Phase",
 	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
-	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 400},
+	"cost": {"food": 540, "wood": 0, "stone": 0, "metal": 360},
 	"requirements": { "class": "Town", "number": 3 },
 	"requirementsTooltip": "Requires 3 new Town Phase structures (except Walls and Civic Centers).",
 	"supersedes": "phase_town_athen",
 	"replaces": ["phase_city"], 		
 	"icon": "city_phase.png",
 	"researchTime": 150,
-	"tooltip": "Advance to Town Phase, which unlocks more structures and units. Structures +10% territory influence. Workers +10% metal gather rate.",
+	"tooltip": "Advance to Town Phase, which unlocks more structures and units. Structures +10% territory influence.",
 	"modifications": 	
-	[{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.1, "affects": "Worker"},
+	[
 	 {"value": "TerritoryInfluence/Radius", "multiply": 1.1, "affects": "Structure"}
 	],
 	"soundComplete": "interface/alarm/alarm_phase.xml"

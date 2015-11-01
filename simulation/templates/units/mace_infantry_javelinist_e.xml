@@ -3,10 +3,7 @@
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
   </Identity>
-  <Promotion>
-    <Entity>units/mace_infantry_javelinist_u</Entity>
-	<RequiredXp>9999</RequiredXp>		
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/macedonians/infantry_javelinist_e.xml</Actor>
   </VisualActor>

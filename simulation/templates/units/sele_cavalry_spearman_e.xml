@@ -3,11 +3,8 @@
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>	
   </Identity>
-  <Promotion>
-    <Entity>units/sele_cavalry_spearman_u</Entity>
-    <RequiredXp>9999</RequiredXp>	
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/macedonians/cavalry_spearman_e.xml</Actor>
+    <Actor>units/seleucids/cavalry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

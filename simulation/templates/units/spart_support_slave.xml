@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_slave">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/{civ}_gerousia		
+      structures/{civ}_wonder		 
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>spart</Civ>
+    <SpecificName>Spartan Woman</SpecificName>	
+    <GenericName>Citizen</GenericName>
+    <Icon>units/spart_support_female_citizen.png</Icon>
+    <Tooltip>Gather resources, build structures, and inspire nearby males to work faster. Bonused at foraging and farming.</Tooltip>
+    <SelectionGroupName>units/spart_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <UnitAI> 
+    <DefaultStance>standground</DefaultStance> 
+  </UnitAI> 
+  <VisualActor>
+    <Actor>units/spartans/female_citizen.xml</Actor>
+  </VisualActor>  
+</Entity>

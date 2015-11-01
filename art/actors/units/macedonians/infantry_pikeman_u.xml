@@ -50,9 +50,6 @@
     <variant frequency="1" name="armour-texture-Color Shoulders">
       <textures><texture file="skeletal/rome_isp_e_1.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="armour-texture-White Shoulders">
-      <textures><texture file="skeletal/rome_isp_e_2.dds" name="baseTex"/></textures>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

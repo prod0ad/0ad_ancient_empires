@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Rate>1.0</Rate>  
+    <Entities datatype="tokens">
+      structures/{civ}_outpost
+      other/wallset_palisade	
+      structures/{civ}_barracks	
+      structures/{civ}_dock	 	  
+      structures/{civ}_siege_workshop	  
+      structures/{civ}_blacksmith	 
+	  structures/{civ}_fortress		
+      structures/{civ}_army_camp	  
+      structures/{civ}_defense_tower
+      structures/{civ}_wallset_stone
+      structures/{civ}_civil_centre		  			  	  		  
+    </Entities>
+  </Builder>
   <Identity>
     <Civ>rome</Civ>
     <SelectionGroupName>units/rome_infantry_spearman_b</SelectionGroupName>

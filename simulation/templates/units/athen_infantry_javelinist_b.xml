@@ -6,7 +6,7 @@
     <GenericName>Skirmisher</GenericName>
     <SpecificName>Peltast</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>		
-    <Icon>units/mace_infantry_javelinist.png</Icon>
+    <Icon>units/ae_hele_peltast.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/athen_infantry_javelinist_a</Entity>

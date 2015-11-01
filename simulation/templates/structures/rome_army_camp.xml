@@ -30,13 +30,13 @@
   </Health>
   <Identity>
     <Civ>rome</Civ>
-    <GenericName>Army Camp</GenericName>
-    <SpecificName>Army Camp</SpecificName>
+    <GenericName>Auxiliary Camp</GenericName>
+    <SpecificName>Auxiliary Camp</SpecificName>
     <Classes datatype="tokens">
 	  ArmyCamp
 	</Classes>
     <Icon>structures/roman_camp.png</Icon>
-    <Tooltip>Trains military units and siege weapons. Has no territory restrictions.</Tooltip>
+    <Tooltip>Trains Auxiliary units. Has no territory restrictions. Replaces the Stables.</Tooltip>
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Obstruction>
@@ -52,13 +52,11 @@
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/rome_infantry_spearman_b
-      units/rome_infantry_javelinist_b  
-      units/rome_infantry_swordsman_b		
-      units/rome_infantry_spearman_u	
-      units/rome_mechanical_siege_ram  
-      units/rome_mechanical_siege_scorpio_packed	
-      units/rome_mechanical_siege_ballista_packed	   
+      units/{civ}_infantry_spearman_u	
+      units/{civ}_infantry_archer_e
+      units/{civ}_infantry_slinger_e  	  
+	  units/{civ}_cavalry_javelinist_b	 
+	  units/{civ}_cavalry_swordsman_b		
     </Entities>
   </ProductionQueue>
   <Vision>

@@ -26,32 +26,21 @@
       <mesh>skeletal/horse.pmd</mesh>
       <props>
         <prop actor="units/seleucids/cavalry_spearman_e_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/horse/pers_peytral.xml" attachpoint="chest"/>
-        <prop actor="props/units/heads/pers_cav_knot.xml" attachpoint="head"/>	
-        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>		
+        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="horse-texture-1">
-      <textures><texture file="skeletal/horse_pers_csw_e_1.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="hyppikon-horse-texture-plain">
+      <textures><texture file="skeletal/horse_hele_a_1.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="2" name="horse-texture-2">
-      <textures><texture file="skeletal/horse_pers_csw_e_2.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="hyppikon-horse-texture-stripe">
+      <textures><texture file="skeletal/horse_hele_a_2.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="horse-texture-3">
-      <textures><texture file="skeletal/horse_pers_csw_e_3.dds" name="baseTex"/></textures>
-    </variant>
-  </group>  
+  </group>
   <group>
-    <variant frequency="1" name="horse-color-red-chestnut">
-      <color>207 132 109</color>
-    </variant>
-    <variant frequency="1" name="horse-color-roan">
-      <color>242 219 164</color>
-    </variant>
-    <variant frequency="1" name="horse-color-liver">
-      <color>172 95 68</color>
+    <variant frequency="1" name="horse-color-beige">
+      <color>255 255 255</color>
     </variant>
   </group>
   <group>

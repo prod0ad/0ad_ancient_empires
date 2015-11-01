@@ -54,14 +54,14 @@
   </VisualActor>
   <ProductionQueue>
     <Entities datatype="tokens">
+	  units/{civ}_cavalry_swordsman_b		
 	  units/{civ}_cavalry_javelinist_b	 
-	  units/{civ}_cavalry_swordsman_b	 
     </Entities>
     <Technologies datatype="tokens">	
-	  upgrades/cavalry_light_a
-	  upgrades/cavalry_light_e		
-	  upgrades/cavalry_melee_a
-	  upgrades/cavalry_melee_e		  
+	  upgrades/cavalry_scout_a
+	  upgrades/cavalry_scout_e		
+	  upgrades/cavalry_skirmisher_a
+	  upgrades/cavalry_skirmisher_e		  
       stables_speed_train
       stables_speed_cavalry_01
     </Technologies>

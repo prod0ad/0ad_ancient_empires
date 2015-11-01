@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/athen_infantry_javelinist_a">
   <Identity>
-	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
+	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>	
+    <SpecificName>Elite Peltast</SpecificName>	
   </Identity>
-  <Promotion>
-    <Entity>units/athen_infantry_javelinist_u</Entity>
-	<RequiredXp>9999</RequiredXp>		
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/athenians/infantry_javelinist_e.xml</Actor>
   </VisualActor>

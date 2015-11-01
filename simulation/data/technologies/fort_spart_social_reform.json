@@ -8,8 +8,8 @@
 	"researchTime": 180,
 	"tooltip": "Melee Infantry Units -20% train time.",
 	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.9}
+		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],
-	"affects": ["Melee Infantry"],	
+	"affects": ["Melee Infantry","Mercenary"],	
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

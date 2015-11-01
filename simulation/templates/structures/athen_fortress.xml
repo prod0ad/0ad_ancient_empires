@@ -12,8 +12,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/athen_champion_infantry
-      units/athen_cavalry_archer_e
+      units/{civ}_champion_infantry
+      units/{civ}_infantry_swordsman_e		  
+      units/{civ}_cavalry_archer_e
     </Entities>
     <Technologies datatype="tokens">
       fort_athen_citizen_levy	

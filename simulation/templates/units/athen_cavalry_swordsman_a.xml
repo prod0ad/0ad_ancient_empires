@@ -2,11 +2,12 @@
 <Entity parent="units/athen_cavalry_swordsman_b">
   <Identity>                          
 	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
+    <SpecificName>Heavy Prodromos</SpecificName>	
   </Identity>
   <Promotion>
     <Entity>units/athen_cavalry_swordsman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/cavalry_light_a.xml</Actor>
+    <Actor>units/athenians/cavalry_swordsman_a.xml</Actor>
   </VisualActor>
 </Entity>

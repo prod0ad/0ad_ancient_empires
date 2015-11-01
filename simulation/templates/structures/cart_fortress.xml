@@ -17,6 +17,7 @@
 	  units/{civ}_cavalry_swordsman_e	 
 	  units/{civ}_cavalry_spearman_e 
       units/{civ}_infantry_swordsman_e	  
+      units/{civ}_infantry_archer_e		  
       units/{civ}_infantry_slinger_e	  
     </Entities>
     <Technologies datatype="tokens"> 

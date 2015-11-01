@@ -1,10 +1,15 @@
 {
 	"genericName": "Peloponnesian League",
 	"autoResearch": true,
-	"description": "Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies. Many of those allies often fielded superb Hoplites.",
+	"description": "Much of the Peloponnese was subject to Sparta in one way or another. This loose confederation, with Sparta as its leader, was later dubbed the Peloponnesian League by historians, but in ancient times was called 'The Lacedaemonians and their allies. Fighting on the Spartan side often led their allies to brave deeds, such as the Thespians volunteering for the Thermopylae last stand and the Tegean counter attack during the battle of Platea.",
 	"requirements": {"civ": "spart"},
 	"modifications": [
-		{"value": "Health/Max", "multiply": 1.1}
+		{"value": "Attack/Melee/Hack", "multiply": 1.05},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.05},
+		{"value": "Attack/Melee/Crush", "multiply": 1.05},
+		{"value": "Attack/Ranged/Hack", "multiply": 1.05},
+		{"value": "Attack/Ranged/Pierce", "multiply": 1.05},
+		{"value": "Attack/Ranged/Crush", "multiply": 1.05}
 	],
-	"affects": ["Spear Infantry"]
+	"affects": ["Soldier"]
 }

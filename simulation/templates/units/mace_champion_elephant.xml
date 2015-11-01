@@ -14,7 +14,7 @@
     <GenericName>War Elephant</GenericName>
     <SpecificName>Indian Elephant</SpecificName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <Icon>units/maur_champion_elephant.png</Icon>	
+    <Icon>units/ae_hele_elephant.png</Icon>	
     <RequiredTechnology>phase_imperial</RequiredTechnology>		
   </Identity>
   <VisualActor>

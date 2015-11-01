@@ -1,18 +1,18 @@
 <Entity parent="template_unit_cavalry">
   <Armour>
-    <Hack>0</Hack>
-    <Pierce>1</Pierce>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>180</Max>
+    <Max>150</Max>
   </Health>   
   <Attack>
     <Melee>
       <Hack>24</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>6.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
@@ -21,17 +21,17 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>   
     <Resources>
-      <food>80</food>
+      <food>60</food>
       <wood>0</wood>
 	  <metal>60</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>  
    <Vision>
-    <Range>25</Range>
+    <Range>27</Range>
   </Vision>   
   <Loot>
-    <food>8</food>
+    <food>6</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>6</metal>
@@ -39,13 +39,13 @@
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>11.0</Speed>
+      <Speed>12</Speed>
     </Run>
   </UnitMotion>  
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Heavy</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Heavy Spear</VisibleClasses>
     <GenericName>Heavy Cavalry</GenericName>
 	<RequiredTechnology>phase_town</RequiredTechnology>	
-    <Tooltip>Powerful Melee Cavalry.</Tooltip>		
+    <Tooltip>Powerful melee cavalry.</Tooltip>		
   </Identity>
 </Entity>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/cart_infantry_spearman_a">
   <Identity>
-	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
+	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>	
+    <GenericName>Spearman</GenericName>
+    <SpecificName>Elite Infantry</SpecificName>	
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

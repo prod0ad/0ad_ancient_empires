@@ -4,7 +4,7 @@
     <Civ>rome</Civ>
 	<SelectionGroupName>units/rome_cavalry_spearman_b</SelectionGroupName>
 	<GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Eques Extraordinarius</SpecificName>
+    <SpecificName>Roman Eques</SpecificName>
     <Icon>units/rome_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>		
   </Identity>

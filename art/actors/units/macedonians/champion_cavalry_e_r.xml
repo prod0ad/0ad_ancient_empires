@@ -13,22 +13,17 @@
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/mace_hetairoi.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/mace_hetairoi_e.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_long.xml" attachpoint="r_hand"/>
         <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
-        <prop actor="props/units/shields/ptol_cav_spear_e.xml" attachpoint="shield"/>		
+        <prop actor="props/units/shields/mace_hypaspist.xml" attachpoint="shield"/>	
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Armor 1">
-      <textures>
-        <texture file="skeletal/hele_pezhetairoi.dds" name="baseTex"/>
-      </textures>
+    <variant frequency="1" name="armor-scale mail">
+      <textures><texture file="skeletal/hele_hetairoi_b.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="armor-bronze cuirass">
-      <textures><texture file="skeletal/hele_hetairoi_c.dds" name="baseTex"/></textures>
-    </variant>	
   </group>
   <material>player_trans.xml</material>
 </actor>

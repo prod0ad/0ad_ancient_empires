@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>3</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>24</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>6.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>		
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+    </Melee>
+  </Attack> 
+  <Cost>
+    <Population>3</Population>  
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>60</food>
+      <wood>0</wood>
+	  <metal>80</metal>
+      <stone>0</stone>	  
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>6</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>8</metal>
+  </Loot>  
+  <Health>
+    <Max>170</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+    <Run>
+      <Speed>11</Speed>
+    </Run>		
+  </UnitMotion>
+  <Vision>
+    <Range>30</Range>
+  </Vision>   
   <Identity>
     <Civ>cart</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Sacred Band Cavalry</SpecificName>
-	<Tooltip>Elite Heavy Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>		
+	<Tooltip>Fast trained, expensive heavy cavalry.</Tooltip>		
     <Icon>units/cart_sacred_band_cavalry.png</Icon>		
   </Identity>
   <VisualActor>

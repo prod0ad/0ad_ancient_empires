@@ -3,8 +3,8 @@
   <Identity>
     <Civ>ptol</Civ>
 	<GenericName>War Elephant</GenericName>
-    <SpecificName>Forest Elephant</SpecificName>
-    <Icon>units/ptol_champion_elephant.png</Icon>
+    <SpecificName>War Elephant</SpecificName>
+    <Icon>units/ae_ptol_elephant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/ptolemies/champion_elephant.xml</Actor>

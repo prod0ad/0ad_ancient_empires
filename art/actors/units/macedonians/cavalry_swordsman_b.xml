@@ -40,13 +40,13 @@
   </group>
   <group>
     <variant frequency="1" name="horse-color-1">
-      <color>177 111 33</color>
+      <color>255 155 33</color>
     </variant>
     <variant frequency="1" name="horse-color-2">
-      <color>166 99 22</color>
+      <color>255 144 22</color>
     </variant>
     <variant frequency="1" name="horse-color-3">
-      <color>155 88 11</color>
+      <color>255 133 11</color>
     </variant>	
   </group> 
   <group>

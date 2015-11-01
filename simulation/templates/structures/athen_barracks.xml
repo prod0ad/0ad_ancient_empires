@@ -36,7 +36,6 @@
 	  upgrades/slinger_a	
 	  upgrades/slinger_e		  
       barracks_speed_train	
-      barracks_ranged_accuracy	 
     </Technologies>
   </ProductionQueue>
   <VisualActor>

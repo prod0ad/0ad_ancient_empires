@@ -2,6 +2,7 @@
 <Entity parent="units/brit_infantry_archer_a">
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
+	<SpecificName>Elite Bowman</SpecificName>	
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

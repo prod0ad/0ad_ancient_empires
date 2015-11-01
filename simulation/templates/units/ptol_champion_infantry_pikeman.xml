@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_pikeman">
-  <Health>
-    <Max>135</Max>
-  </Health>
+  <Armour>
+    <Hack>2</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
+  </Armour>
   <Attack>
     <Melee>
-      <Hack>15</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
@@ -13,15 +15,19 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry</Classes>
-		  <Multiplier>3</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiCavalry>
+		<AntiCamel>
+		  <Classes>Camel</Classes>
+		  <Multiplier>2</Multiplier>
+		</AntiCamel>	
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
-		  <Multiplier>3</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiElephant>		
-	  </Bonuses>  
+	  </Bonuses>   
     </Melee>
-  </Attack>  
+  </Attack>
   <Cost>
     <BuildTime>10</BuildTime>
     <Population>2</Population>	
@@ -34,23 +40,35 @@
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>5</food>
-    <wood>5</wood>
+    <food>50</food>
+    <wood>50</wood>
     <stone>0</stone>
     <metal>0</metal>
   </Loot>  
+  <Health>
+    <Max>90</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>8</WalkSpeed>
+    <Run>
+      <Speed>8</Speed>
+    </Run>		
+  </UnitMotion>
+  <Vision>
+    <Range>24</Range>
+  </Vision>  
   <Identity>
     <Civ>ptol</Civ>
-	<GenericName>Elite Infantry Pikeman</GenericName>
+	<GenericName>Unique Unit</GenericName>
     <SpecificName>Machimos Phalangites</SpecificName>
-    <Icon>units/ptol_infantry_spearman.png</Icon>
-	<Tooltip>Cheap, fast training Champion Pikeman. Deals x3 damage to Cavalry and Elephants.</Tooltip>	
+    <Icon>units/ae_ptol_machimos.png</Icon>
+	<Tooltip>Fast trained pikeman. Deals x2 damage to cavalry, camel and elephant units.</Tooltip>	
   </Identity>
   <Promotion>
     <Entity>units/ptol_champion_infantry_pikeman_e</Entity>
     <RequiredXp>9999</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_spearman_a.xml</Actor>
+    <Actor>units/ptolemies/champion_pikeman.xml</Actor>
   </VisualActor>
 </Entity>

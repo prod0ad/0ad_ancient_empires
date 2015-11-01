@@ -8,17 +8,19 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>16</Pierce>
+      <Pierce>8</Pierce>
       <Crush>0</Crush>
-      <MaxRange>28</MaxRange>
+      <MaxRange>30</MaxRange>
+      <MinRange>0.0</MinRange>	 	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
       <RepeatTime>2000</RepeatTime>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>	  
       <Spread>1.3</Spread>	 
 	  <Bonuses>
 		<AntiSupport>
 		  <Classes>Support</Classes>
-		  <Multiplier>1.5</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiSupport>		
 	  </Bonuses>  	  
     </Ranged>
@@ -27,24 +29,33 @@
     <Population>3</Population>
     <BuildTime>20</BuildTime>  
     <Resources>
-      <food>70</food>
-      <wood>35</wood>
+      <food>60</food>
+      <wood>40</wood>
 	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Health>
-    <Max>135</Max>
+    <Max>105</Max>
   </Health>
-  <Identity>
-    <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
-    <GenericName>Cavalry Skirmisher</GenericName>
-    <Tooltip>Fast moving short Ranged Cavalry. Deals x1.5 damage to Support Units.</Tooltip>	
-  </Identity>
+  <Vision>
+    <Range>30</Range>
+  </Vision> 
   <Loot>
-    <food>7</food>
+    <food>6</food>
     <wood>4</wood>
     <stone>0</stone>
     <metal>0</metal>
-  </Loot>
+  </Loot>  
+  <UnitMotion>
+    <WalkSpeed>12</WalkSpeed>
+    <Run>
+      <Speed>13</Speed>
+    </Run>		
+  </UnitMotion>     
+  <Identity>
+    <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
+    <GenericName>Cavalry Skirmisher</GenericName>
+    <Tooltip>Fast ranged cavalry. Deals x2 damage to support units.</Tooltip>	
+  </Identity>
 </Entity>

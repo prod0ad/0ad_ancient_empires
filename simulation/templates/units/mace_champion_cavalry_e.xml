@@ -7,7 +7,7 @@
   </Armour>
   <Identity>
     <SpecificName>Hetairos Aspidophoros</SpecificName>	
-    <Icon>units/hele_champion_cavalry_mace.png</Icon>
+    <Icon>units/ae_mace_hetairos_aspidophoros.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

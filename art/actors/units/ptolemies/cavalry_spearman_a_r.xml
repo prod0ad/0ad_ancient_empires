@@ -8,20 +8,18 @@
         <animation file="biped/cavalryidle.psa" name="Walk" speed="18"/>
         <animation file="biped/rider_gallop.psa" name="Run" speed="40"/>
         <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_melee" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="gather_meat" speed="400"/>
         <animation file="biped/rider_sword_death_a.psa" name="death" speed="230"/>
       </animations>
-      <mesh>skeletal/m_tunic_short.dae</mesh>
+      <mesh>skeletal/m_tunic_a.pmd</mesh>
       <props>
-        <prop actor="props/units/heads/ptol_romanized_brass.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/heads/boeotian_brass_a.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/spear_lance.xml" attachpoint="r_hand"/>
         <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="1">
+    <variant frequency="1" name="2">
 	  <props>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
 	  </props>
@@ -38,27 +36,15 @@
     </variant>	
   </group>  
   <group>
-    <variant frequency="1" name="Ekdromos-Chiton-02">
-      <textures><texture file="skeletal/mace_bronzeshield_2.png" name="baseTex"/></textures>
+    <variant frequency="1" name="armor-scale mail">
+      <textures><texture file="skeletal/hele_hetairoi_b.dds" name="baseTex"/></textures>
     </variant>
-  </group>   
+  </group>  
   <group>
     <variant frequency="100" name="Idle"/>
     <variant name="attack_melee">
       <props>
         <prop attachpoint="r_hand"/>
-      </props>
-    </variant>
-    <variant name="gather_meat">
-      <props>
-        <prop actor="props/units/weapons/spartan_sword.xml" attachpoint="r_hand"/>
-      </props>
-    </variant>
-    <variant name="carry_meat">
-      <props>
-        <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
-        <prop attachpoint="l_hand"/>
-        <prop attachpoint="shield"/>
       </props>
     </variant>
   </group>

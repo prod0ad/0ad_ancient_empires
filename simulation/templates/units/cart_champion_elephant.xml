@@ -34,7 +34,7 @@
     <metal>6</metal>
   </Loot>  
   <Health>
-    <Max>600</Max>
+    <Max>500</Max>
   </Health>  
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_2.xml</Actor>

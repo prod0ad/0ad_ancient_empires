@@ -5,7 +5,6 @@
 	"modifications": [
 		{"value": "Health/Max",             "multiply":    1.1,   "affects": "Ranged"},
 		{"value": "Health/Max",             "multiply":    1.2,   "affects": "Melee"},	
-		{"value": "Attack/Ranged/MaxRange", "multiply":    1.1, "affects": "Ranged"  },
 		{"value": "Vision/Range",           "multiply":    1.1                       },
 		{"value": "Attack/Melee/Hack",      "multiply":    1.1                       },
 		{"value": "Attack/Melee/Pierce",    "multiply":    1.1                       },

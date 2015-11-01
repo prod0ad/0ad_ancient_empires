@@ -2,7 +2,6 @@
 <Entity parent="units/sele_infantry_pikeman_e">
   <Identity>			
     <SpecificName>Argyraspides</SpecificName>
-    <Icon>units/sele_champion_infantry_pikeman.png</Icon>	
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

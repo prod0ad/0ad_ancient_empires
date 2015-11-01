@@ -5,11 +5,11 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_plates_cavalry.png",
 	"researchTime": 40,
-	"tooltip": "Heavy Cavalry +2 all armor types.",
+	"tooltip": "Catafracts and Heavy Cavalry +1 all armor types.",
 	"modifications": [
-	    {"value": "Armour/Hack", "add": 2.0},
-        {"value": "Armour/Pierce", "add": 2.0},		
-		{"value": "Armour/Crush", "add": 2.0}],
-	"affects": ["Levy Heavy Melee Cavalry"],	
+	    {"value": "Armour/Hack", "add": 1.0},
+        {"value": "Armour/Pierce", "add": 1.0},		
+		{"value": "Armour/Crush", "add": 1.0}],
+	"affects": ["Spear Cavalry"],	
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

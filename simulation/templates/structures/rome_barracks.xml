@@ -21,14 +21,14 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/rome_infantry_spearman_b
-      units/rome_infantry_javelinist_b  
-      units/rome_infantry_swordsman_b		  		  
+      units/{civ}_infantry_spearman_b
+      units/{civ}_infantry_javelinist_b  
+      units/{civ}_infantry_swordsman_b		
+	  units/{civ}_cavalry_spearman_b	  
     </Entities>
 	<Technologies datatype="tokens">
       upgrades/legions_a
-      upgrades/legions_e	     
-      barracks_ranged_accuracy	 	  
+      upgrades/legions_e	     	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

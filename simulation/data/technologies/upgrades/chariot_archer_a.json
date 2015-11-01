@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "chariot_archer_a.png",
 	"researchTime": 40,
-	"tooltip": "Chariot Archers +10% attack, hit points, range and vision.",
+	"tooltip": "Chariot Archers +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}	
 	],

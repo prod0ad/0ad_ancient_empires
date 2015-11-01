@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_swordsman">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>rome</Civ>
 	<SelectionGroupName>units/rome_cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Roman Eques</SpecificName>
-    <Icon>units/rome_cavalry_spearman.png</Icon>
+    <SpecificName>Gallic Horseman</SpecificName>
+    <Icon>units/celt_cavalry_swordsman.png</Icon>
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>			
   </Identity>
   <Promotion>
     <Entity>units/rome_cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/romans/cavalry_spearman_b.xml</Actor>
+    <Actor>units/celts/cavalry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,26 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_swordsman">
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>2</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>12</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>4.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+	  <Bonuses>	  
+	    <AntiRangedInfantry>
+		  <Classes>Ranged Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiRangedInfantry>	
+	  </Bonuses>		
+    </Melee>
+  </Attack>   
   <Cost>
-    <BuildTime>12</BuildTime>
+    <Population>2</Population>  
+    <BuildTime>20</BuildTime>
     <Resources>
-      <metal>70</metal>
+      <food>40</food>
+      <wood>0</wood>
+	  <metal>35</metal>
+      <stone>0</stone>	  
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>4</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>  
   <Health>
-    <Max>140</Max>
+    <Max>115</Max>
   </Health>
+  <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+    <Run>
+      <Speed>9</Speed>
+    </Run>		
+  </UnitMotion>
+  <Vision>
+    <Range>36</Range>
+  </Vision> 
   <Identity>
     <Civ>spart</Civ>
-	<GenericName>Skiritai Commando</GenericName>
-    <SpecificName>Ékdromos Skiritis</SpecificName>
+	<GenericName>Unique Unit</GenericName>
+    <SpecificName>Skirites</SpecificName>
     <History>Skiritae were some of the most reliable allied soldiers serving in the Spartan military.  They always had the honor of remaining on the left flank of a Spartan phalanx and (Thucydides 5.67) were deployed to face the any problem which could come to bear the army.  (Xenophon 4.2.1-4)</History>
-    <Icon>units/spart_champion_infantry_sword.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+	<Tooltip>Agile infantry swordsman. Deals x1.5 damage to ranged units.</Tooltip>		
+    <Icon>units/ae_spart_skirites.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>
-  <UnitMotion>
-    <WalkSpeed>13.5</WalkSpeed>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/spartans/champion_infantry_sword.xml</Actor>
   </VisualActor>

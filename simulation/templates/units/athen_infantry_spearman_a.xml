@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/athen_infantry_spearman_b">
   <Identity>                      
-	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
+	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>	
+	<SpecificName>Heavy Hoplite</SpecificName>		
   </Identity>
   <Promotion>
     <Entity>units/athen_infantry_spearman_e</Entity>

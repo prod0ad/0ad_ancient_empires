@@ -19,7 +19,7 @@
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="projectile"/>
         <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
-        <prop actor="props/units/shields/hele_pelta_e.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/thracian_oval.xml" attachpoint="shield"/>
       </props>
       <textures><texture file="skeletal/thrace_blackcloak_a.dds" name="baseTex"/></textures>
     </variant>

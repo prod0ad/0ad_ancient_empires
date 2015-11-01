@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_spearman">
+  <Attack>
+    <Melee>
+	  <Bonuses>	  
+	    <AntiInfantry>
+		  <Classes>Melee Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiInfantry>	
+	  </Bonuses>	
+    </Melee>  
+  </Attack> 
   <Identity>
     <Civ>spart</Civ>
 	<SelectionGroupName>units/spart_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
 	<SpecificName>Spartan Hoplite</SpecificName>
-    <History>The core unit of the Spartan army for centuries, made up of Spartan Homoioi.</History>
-    <Icon>units/spart_infantry_spearman.png</Icon>
+	<Tooltip>Deals x1.5 damage to melee infantry, cavalry, camel and elephant units.</Tooltip>	
+    <Icon>units/ae_spart_hoplite.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/spart_infantry_spearman_a</Entity>

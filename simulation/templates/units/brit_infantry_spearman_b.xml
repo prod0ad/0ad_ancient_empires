@@ -3,7 +3,7 @@
   <Identity>
     <Civ>brit</Civ>
 	<SelectionGroupName>units/brit_infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Spearman</SpecificName>
+    <SpecificName>Celtic Spearman</SpecificName>
     <GenericName>Spearman</GenericName>
     <Icon>units/celt_infantry_spearman.png</Icon>
   </Identity>

@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Armour>
-    <Hack>3</Hack>
-    <Pierce>3</Pierce>
-    <Crush>2</Crush>
+    <Hack>4</Hack>
+    <Pierce>4</Pierce>
+    <Crush>0</Crush>
   </Armour>
+  <Attack>
+    <Melee>
+      <Hack>24</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>7.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
+	  <Bonuses>	  
+	    <AntiInfantry>
+		  <Classes>Melee Infantry</Classes>
+		  <Multiplier>1.75</Multiplier>
+		</AntiInfantry>	
+	  </Bonuses>		
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+    </Melee>
+  </Attack>   
   <Cost>
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>75</food>
       <wood>0</wood>
 	  <metal>90</metal>
       <stone>0</stone>	  
@@ -23,20 +39,23 @@
     <metal>9</metal>
   </Loot>  
   <Health>
-    <Max>250</Max>
+    <Max>210</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>12</WalkSpeed>
+    <WalkSpeed>10</WalkSpeed>
+    <Run>
+      <Speed>10</Speed>
+    </Run>		
   </UnitMotion>
   <Vision>
-    <Range>50</Range>
+    <Range>24</Range>
   </Vision> 
   <Identity>
     <Civ>sele</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Cataphract</SpecificName>
-	<Tooltip>Unique Unit. Heavily Armored, Slow Moving Melee Cavalry. Deals x1.5 damage to Melee Infantry.</Tooltip>	
-    <Icon>units/hele_champion_cavalry_mace.png</Icon>	
+	<Tooltip>Powerful slow melee cavalry. Deals x1.5 damage to melee infantry units.</Tooltip>	
+    <Icon>units/ae_sele_cataphract.png</Icon>	
 	<SelectionGroupName>units/sele_champion_cavalry</SelectionGroupName>
   </Identity>
   <Promotion>

@@ -8,23 +8,26 @@
         <animation file="biped/cavalryidle.psa" name="Walk" speed="50"/>
         <animation file="biped/rider_gallop.psa" name="Run" speed="40"/>
         <animation event="0.59" file="biped/rider_javelin_atk_a.psa" load="0" name="attack_ranged" speed="50"/>
-        <animation event="0.5" file="cavalry/sword/attack/rider_sword_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
-        <animation event="0.5" file="biped/rider_spear_shield_atk_a.psa" name="gather_meat" speed="300"/>
         <animation file="biped/rider_sword_death_a.psa" name="death" speed="230"/>
       </animations>
-      <mesh>skeletal/m_tunic_long.dae</mesh>	  
+      <mesh>skeletal/m_tunic_a.pmd</mesh>
       <props>
-        <prop actor="props/units/heads/hele_su3.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/late_pylos_b.xml" attachpoint="helmet"/> 
+        <prop actor="props/units/shields/sele_cavalry_a.xml" attachpoint="shield"/>		
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="l_hand"/>
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="projectile"/>
-        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
-        <prop actor="props/units/shields/thracian_oval.xml" attachpoint="shield"/>
+        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>			
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="1">
+    <variant frequency="1" name="Tunic-Sleeves">
+      <textures><texture file="skeletal/hele_tunic.dds" name="baseTex"/></textures>
+    </variant>
+  </group>   
+  <group>
+    <variant frequency="1" name="2">
 	  <props>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
 	  </props>
@@ -39,29 +42,12 @@
         <prop actor="props/units/heads/head_hele_e.xml" attachpoint="head"/>
 	  </props>
     </variant>	
-  </group>    
-  <group>
-    <variant frequency="1" name="Ekdromos-Chiton-02">
-      <textures><texture file="skeletal/hele_su1_02.dds" name="baseTex"/></textures>
-    </variant>
-  </group> 
+  </group>  
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant name="attack_slaughter">
+    <variant name="attack_ranged">
       <props>
-        <prop actor="props/units/weapons/spartan_sword.xml" attachpoint="r_hand"/>
-      </props>
-    </variant>
-    <variant name="gather_meat">
-      <props>
-        <prop actor="props/units/weapons/spartan_sword.xml" attachpoint="r_hand"/>
-      </props>
-    </variant>
-    <variant name="carry_meat">
-      <props>
-        <prop actor="props/units/shuttle_meat.xml" attachpoint="r_hand"/>
-        <prop attachpoint="l_hand"/>
-        <prop attachpoint="shield"/>
+        <prop attachpoint="r_hand"/>
       </props>
     </variant>
   </group>

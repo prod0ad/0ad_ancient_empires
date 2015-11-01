@@ -18,7 +18,7 @@
 				{
 					"Name": "Marian Reforms",
 					"History": "Gaius Marius turned the roman legions into a professional force.",
-					"Description": "Upgrades Swordsmen and Spearmen to Marian Legionaries, increasing their attack, hit points and vision by 10%."
+					"Description": "Upgrades Swordsmen and Spearmen to Marian Legionaries, with +10% hit points, attack and vision over Elite Swordsmen."
 				},
 				{
 					"Name": "Dictatorship",
@@ -28,7 +28,7 @@
 				{
 					"Name": "Logistics",
 					"History": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",
-					"Description": "Barracks Units -60% train time."
+					"Description": "Barracks infantry -60% train time."
 				},	
 				{
 					"Name": "Gladius Hispaniensis",
@@ -43,7 +43,8 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Heavy Cavalry. Deals x1.5 damage to Unique Units."
+					"History": ".",
+					"Description":"Heavy Cavalry. Deals x1.5 damage to Unique Units."
 				}
 			]
 		} 
@@ -51,20 +52,25 @@
 	"CivBonuses":
 	[
 		{
+			"Name": "Triarius",
+			"History": "Early roman armies were largely formed by hoplite-like spearmen, a tradition partly continued by the Triarii, veteran reserve units of the roman legions.",
+			"Description": "Stronger replacement for the generic spearman."
+		},				
+		{
+			"Name": "Roman Legions",
+			"History": "Roman legions were trained as to fight a cohesive and flexible force.",
+			"Description": "Legion Barracks units upgrade through shared techs. Swordsmen -20% train time, Skirmishers and Heavy Cavalry +1 pierce armor."
+		},	
+		{
+			"Name": "Military Construction",
+			"History": "Roman armies were responsible for the construction of their fortifications and often a variety of other structures.",
+			"Description": "Villagers build economic and civic structures, while infantry build defensive and military ones."
+		},			
+		{
 			"Name": "Scientific Adaptation",
 			"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
 			"Description": "Structures, Ships and Ranged Siege Weapons +10% range, vision, accuracy and hit points for each phase researched."
-		},		
-		{
-			"Name": "Roman Legions",
-			"History": "Roman infantry were trained as to fight a cohesive and flexible force.",
-			"Description": "Barracks units upgrade through shared techs. Spearmen have increased stats, cost and train time. Skirmishers +1 pierce armor. Swordsmen -20% train time."
-		},			
-		{
-			"Name": "Roman Citizenship",
-			"History": "Roman Citizenship was highly prized in the ancient world. Basic rights and privileges were afforded Roman citizens that were denied other conquered peoples. It is said that harming a Roman citizen was akin to harming Rome herself, and would cause the entire might of Rome to fall upon the perpetrator.",
-			"Description": "Civil Centres give units in range +10% attack."
-		}		
+		}	
 	],
 	"TeamBonuses":
 	[
@@ -77,11 +83,11 @@
 	"Structures":
 	[
 		{
-			"Name":"Army Camp",
+			"Name":"Auxiliary Camp",
 			"Class":"",
 			"Emblem":"",
 			"History":".",
-			"Description": "Trains military units and siege weapons. Has no territory restrictions.",			
+			"Description": "Trains Auxiliary units. Has no territory restrictions. Replaces the Stables.",			
 			"Requirements":".",
 			"Phase":"",
 			"Special":"."
@@ -94,10 +100,11 @@
 		},
 		{
 			"Template": "units/rome_support_female_citizen",
-			"Count": 4
+			"Count": 3
 		},
 		{
-			"Template": "units/rome_cavalry_swordsman_b"
+			"Template": "units/rome_infantry_spearman_b",
+			"Count": 2			
 		}
 	],
 	"Formations":
@@ -133,8 +140,8 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry" : "units/rome_cavalry_javelinist_b",
-		"skirmish/units/default_infantry_melee_b": "units/rome_infantry_swordsman_b",
+		"skirmish/units/default_cavalry" : "units/{civ}_infantry_spearman_b",
+		"skirmish/units/default_infantry_melee_b": "units/{civ}_infantry_spearman_b",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

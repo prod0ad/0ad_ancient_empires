@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelinist">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost> 
   <Identity>
     <Civ>ptol</Civ>
 	<SelectionGroupName>units/ptol_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Cleruch Tarantine</SpecificName>
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
+    <SpecificName>Aetolian Cavalry</SpecificName>
     <GenericName>Cavalry Skirmisher</GenericName>
-    <Icon>units/mace_cavalry_javelinist.png</Icon>
+    <Icon>units/ae_merc_aetolian.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Promotion>

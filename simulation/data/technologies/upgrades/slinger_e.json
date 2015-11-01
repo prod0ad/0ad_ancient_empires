@@ -1,19 +1,12 @@
 {
 	"genericName": "Elite Slingers",
-    "specificName": {
-		"athen": "Rhodian Instructors",
-		"mace": "Rhodian Instructors",
-		"ptol": "Rhodian Instructors",			
-		"sele": "Rhodian Instructors",
-		"spart": "Rhodian Instructors"
-	},	
 	"cost": {"food": 0, "wood": 0, "stone": 450, "metal": 450},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "slinger_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/slinger_a",
-	"tooltip": "Slingers +10% attack, hit points, range and vision.",
+	"tooltip": "Slingers +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}	
 	],

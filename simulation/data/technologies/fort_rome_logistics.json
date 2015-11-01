@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "sibylline_books.png",
 	"researchTime": 40,
-	"tooltip": "Barracks Units -60% train time.",
+	"tooltip": "Barracks infantry -60% train time.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.4}
 	],

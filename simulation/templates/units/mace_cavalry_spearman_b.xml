@@ -6,7 +6,7 @@
     <GenericName>Heavy Cavalry</GenericName>
     <SpecificName>Thessalian Hippeus</SpecificName>
     <RequiredTechnology>phase_city</RequiredTechnology>		
-    <Icon>units/mace_cavalry_spearman.png</Icon>
+    <Icon>units/ae_hele_hippeus.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/mace_cavalry_spearman_a</Entity>

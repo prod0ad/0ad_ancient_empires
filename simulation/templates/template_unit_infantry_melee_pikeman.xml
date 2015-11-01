@@ -4,7 +4,7 @@
     <Max>100</Max>
   </Health>
   <Armour>
-    <Hack>1</Hack>
+    <Hack>2</Hack>
     <Pierce>0</Pierce>
     <Crush>0</Crush>
   </Armour>
@@ -21,6 +21,10 @@
 		  <Classes>Cavalry</Classes>
 		  <Multiplier>2</Multiplier>
 		</AntiCavalry>
+		<AntiCamel>
+		  <Classes>Camel</Classes>
+		  <Multiplier>2</Multiplier>
+		</AntiCamel>	
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
 		  <Multiplier>2</Multiplier>
@@ -47,10 +51,13 @@
   <UnitMotion>
     <WalkSpeed>7</WalkSpeed>
   </UnitMotion>  
+  <Vision>
+    <Range>24</Range>
+  </Vision>  
   <Identity>
     <VisibleClasses datatype="tokens">Pike</VisibleClasses>
     <GenericName>Pikeman</GenericName>
-    <Tooltip>Slow Moving Melee Infantry. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
+    <Tooltip>Slow melee infantry. Deals x2 damage to cavalry, camel and elephant units.</Tooltip>	
     <Formations datatype="tokens">
       formations/syntagma
     </Formations>

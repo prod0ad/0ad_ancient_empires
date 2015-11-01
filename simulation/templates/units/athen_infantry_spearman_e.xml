@@ -2,6 +2,7 @@
 <Entity parent="units/athen_infantry_spearman_a">
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
+	<SpecificName>Elite Hoplite</SpecificName>	
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

@@ -1,8 +1,5 @@
 {
 	"genericName": "Elite Swordsmen",
-    "specificName": {
-		"mace": "Royal Peltasts"
-	},		
 	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",

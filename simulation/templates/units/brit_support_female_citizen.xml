@@ -11,8 +11,8 @@
   </Health>
   <Identity>
     <Civ>brit</Civ>
-    <SpecificName>Worker</SpecificName>
-    <GenericName>Worker</GenericName>
+    <SpecificName>Villager</SpecificName>
+    <GenericName>Villager</GenericName>
     <Icon>units/celt_support_female_citizen.png</Icon>
 	<SelectionGroupName>units/brit_support_female_citizen</SelectionGroupName>
   </Identity>

@@ -34,13 +34,17 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiCavalry>
+		<AntiCamel>
+		  <Classes>Camel</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCamel>	
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiElephant>		
-	  </Bonuses>   
+	  </Bonuses>    
     </Melee>
   </Attack>
   <Vision>
@@ -56,7 +60,7 @@
       formations/phalanx
       formations/testudo
     </Formations>
-	<Tooltip>Deals x2 damage to Cavalry and Elephants.</Tooltip>	
+	<Tooltip>Deals x1.5 cavalry, camel and elephant units.</Tooltip>	
   </Identity>
   <Sound>
     <SoundGroups>

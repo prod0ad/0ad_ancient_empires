@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>20</Radius>
-      <Affects>Soldier</Affects>
-	  <AffectedPlayers>Enemy</AffectedPlayers>
-      <Modifications>
-        <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
-        <Attack.Ranged.Pierce> <Multiply>0.9</Multiply> </Attack.Ranged.Pierce>		
-        <Attack.Ranged.Crush> <Multiply>0.9</Multiply> </Attack.Ranged.Crush>				
-      </Modifications>
-      <AuraName>Feared (10%)</AuraName>
-      <AuraDescription>Enemy units in range -10% attack (does not stack).</AuraDescription>
-    </Aura1>
-  </Auras>
   <Armour>
-    <Hack>0</Hack>
-    <Pierce>0</Pierce>
+    <Hack>2</Hack>
+    <Pierce>1</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>18</Hack>
+      <Hack>15</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Cavalry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>
+		<AntiCamel>
+		  <Classes>Camel</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCamel>	
+		<AntiElephant>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiElephant>	
+	    <AntiInfantry>
+		  <Classes>Melee Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiInfantry>			
+	  </Bonuses>     	  
     </Melee>
   </Attack>
   <Cost>
@@ -47,10 +50,13 @@
     <metal>4</metal>
   </Loot>  
   <Health>
-    <Max>180</Max>
+    <Max>150</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>8</WalkSpeed>
+    <Run>
+      <Speed>8</Speed>
+    </Run>		
   </UnitMotion>  
   <Promotion>
     <Entity>units/spart_champion_infantry_spear_e</Entity>
@@ -59,9 +65,9 @@
   <Identity>
     <Civ>spart</Civ>
 	<GenericName>Unique Unit</GenericName>
-    <SpecificName>Spartan Royal Guard</SpecificName>
-	<Tooltip>Elite Infantry Spearman with Fear Aura. Deals x2 damage to Cavalry and Elephants.</Tooltip>	
-    <Icon>units/spart_champion_infantry_spear.png</Icon>
+    <SpecificName>Royal Guard</SpecificName>
+	<Tooltip>Deals x1.5 damage to melee infantry, cavalry, camel and elephant units.</Tooltip>	
+    <Icon>units/ae_spart_royal_guard.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/champion_infantry.xml</Actor>

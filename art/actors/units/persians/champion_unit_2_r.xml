@@ -14,7 +14,7 @@
       <mesh>skeletal/m_pants_armor.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_pers_b.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/pers_conical_champcav.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/kart_isp_e.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_lance_persian.xml" attachpoint="r_hand"/>
         <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
       </props>

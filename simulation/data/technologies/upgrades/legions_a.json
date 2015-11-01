@@ -1,11 +1,11 @@
 {
 	"genericName": "Camillan Legions",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "upgrade_advanced.png",
-	"researchTime": 40,
-	"tooltip": "Increases Spearman, Skirmisher and Swordsman Attack, Hit Points and Vision by 10%.",
+	"researchTime": 60,
+	"tooltip": "Increases Legion Barracks unit attack, hit points and vision by 10%.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.10},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.10},
@@ -14,6 +14,6 @@
 		{"value": "Vision/Range", "multiply": 1.10},
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],
-	"affects": ["Infantry Levy Basic"],
+	"affects": ["Infantry Levy Basic","Cavalry Spear Basic"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -4,13 +4,13 @@
     <Civ>athen</Civ>
 	<SelectionGroupName>units/athen_cavalry_swordsman_b</SelectionGroupName>
 	<GenericName>Light Cavalry</GenericName>
-    <SpecificName>Athenian Prodromos</SpecificName>
-    <Icon>units/hele_cavalry_swordsman.png</Icon>
+    <SpecificName>Prodromos</SpecificName>
+    <Icon>units/ae_hele_prodromos.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/athen_cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/cavalry_light_b.xml</Actor>
+    <Actor>units/athenians/cavalry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

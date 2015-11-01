@@ -9,6 +9,6 @@
     <RequiredXp>9999</RequiredXp>	
   </Promotion>
   <VisualActor>
-    <Actor>units/seleucids/infantry_spearman_e.xml</Actor>
+    <Actor>units/seleucids/infantry_pikeman_e.xml</Actor>
   </VisualActor>
 </Entity>

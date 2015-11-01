@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/brit_cavalry_swordsman_a">
   <Identity>
-	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
+	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>
+	<SpecificName>Elite Epos</SpecificName>	
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

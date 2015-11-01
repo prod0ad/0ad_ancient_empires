@@ -8,18 +8,17 @@
   </Builder>
   <Identity>
     <Civ>spart</Civ>
-    <GenericName>Worker</GenericName>
-    <SpecificName>Worker</SpecificName>
-    <History>Spartan women were some of the freest in the ancient world. They could own land and slaves and even exercise naked like Spartan men. It is said that only Spartan women gave birth to real men. Such tough as nails women more than once helped save their city from disaster, for example when after a lost battle against Pyrrhus of Epirus they overnight built an earthen rampart to protect the city while their men slept in preparation for the next day's siege.</History>
-    <Icon>units/hele_support_female_citizen.png</Icon>
-    <Tooltip>Classes: Citizen Support Worker Female.
-Gather resources, build structures, and inspire nearby males to work faster. Bonused at foraging and farming.</Tooltip>
-    <SelectionGroupName>units/spart_support_female_citizen</SelectionGroupName>
+    <SpecificName>Helot Laborer</SpecificName>	
+    <GenericName>Villager</GenericName>
+    <VisibleClasses datatype="tokens">Helot</VisibleClasses>	
+    <Icon>units/ae_hele_villager.png</Icon>	
+    <Tooltip>Slave worker. Gathers resources and builds structures.</Tooltip>
+    <SelectionGroupName>units/spart_support_slave</SelectionGroupName>
   </Identity>
   <UnitAI> 
     <DefaultStance>standground</DefaultStance> 
   </UnitAI> 
   <VisualActor>
-    <Actor>units/spartans/female_citizen.xml</Actor>
+    <Actor>units/spartans/slave.xml</Actor>
   </VisualActor>
 </Entity>

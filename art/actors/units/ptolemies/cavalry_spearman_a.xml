@@ -31,27 +31,17 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="hyppikon-horse-texture-plain">
-      <textures>
-        <texture file="skeletal/horse_hele_a_1.dds" name="baseTex"/>
-      </textures>
+    <variant frequency="2" name="hyppikon-horse-texture-plain">
+      <textures><texture file="skeletal/horse_hele_a_1.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="hyppikon-horse-texture-stripe">
-      <textures>
-        <texture file="skeletal/horse_hele_a_2.dds" name="baseTex"/>
-      </textures>
+      <textures><texture file="skeletal/horse_hele_a_2.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="horse-color-1">
-      <color>255 155 33</color>
+    <variant frequency="1" name="horse-color-beige">
+      <color>255 255 255</color>
     </variant>
-    <variant frequency="1" name="horse-color-2">
-      <color>255 144 22</color>
-    </variant>
-    <variant frequency="1" name="horse-color-3">
-      <color>255 133 11</color>
-    </variant>	
   </group>
   <group>
     <variant frequency="100" name="Idle"/>

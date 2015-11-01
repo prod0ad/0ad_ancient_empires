@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_camel">
+  <Identity>
+    <Civ>ptol</Civ>
+	<SelectionGroupName>units/ptol_camel_rider_b</SelectionGroupName>
+	<GenericName>Camel</GenericName>
+    <SpecificName>Camel Rider</SpecificName>
+	<Icon>units/ae_east_camel.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/ptol_cavalry_camel_a</Entity>
+  </Promotion> 
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/camel.xml</select>
+      <order_walk>actor/fauna/movement/camel.xml</order_walk>
+      <death>actor/fauna/death/death_camel.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/ptolemies/cavalry_camel_b.xml</Actor>
+  </VisualActor>
+</Entity>

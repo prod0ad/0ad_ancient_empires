@@ -4,9 +4,9 @@
     <Civ>athen</Civ>
     <SelectionGroupName>units/athen_infantry_slinger_b</SelectionGroupName>
     <GenericName>Slinger</GenericName>
-    <SpecificName>Athenian Sphendonites</SpecificName>
+    <SpecificName>Slinger</SpecificName>
     <History></History>
-    <Icon>units/hele_infantry_slinger.png</Icon>
+    <Icon>units/ae_hele_slinger.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
-  <Health>
-    <Max>180</Max>
-  </Health>
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>1</Pierce>
+    <Crush>0</Crush>
+  </Armour>
   <Attack>
     <Melee>
-      <Hack>30</Hack>
+      <Hack>24</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>	  
 	  <Bonuses>
-	  	<AntiInfantry>
-		  <Classes>Melee Infantry</Classes>
-		  <Multiplier>0</Multiplier>
-		</AntiInfantry>	
 		<AntiChampion>
 		  <Classes>Unique</Classes>
 		  <Multiplier>1.5</Multiplier>
@@ -23,13 +21,42 @@
 	  </Bonuses>	  
     </Melee>
   </Attack> 
+ <Cost>
+    <Population>3</Population>  
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <food>60</food>
+      <wood>0</wood>
+	  <metal>70</metal>
+      <stone>0</stone>	  
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>6</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>7</metal>
+  </Loot>  
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+    <Run>
+      <Speed>11</Speed>
+    </Run>		
+  </UnitMotion>
+  <Vision>
+    <Range>30</Range>
+  </Vision>     
   <Identity>
     <Civ>rome</Civ>
 	<SpecificName>Consular Bodyguard</SpecificName>
 	<GenericName>Unique Unit</GenericName>
     <Icon>units/rome_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/rome_champion_cavalry</SelectionGroupName>
-	<Tooltip>Heavy Cavalry. Deals x1.5 damage to Unique Units.</Tooltip>	
+	<Tooltip>Heavy Cavalry. Deals x1.5 damage to unique units.</Tooltip>	
   </Identity>
   <VisualActor>
     <Actor>units/romans/champion_unit_2.xml</Actor>

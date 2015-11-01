@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defense">
   <BuildRestrictions>
-    <Category>Wall</Category>
+    <Category>Wall</Category>	
   </BuildRestrictions>
   <Cost>
     <BuildTime>0</BuildTime>

@@ -5,14 +5,14 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",	
 	"icon": "clenched_fist.png",
 	"researchTime": 40,
-	"tooltip": "Workers +10% all resource gather rates, Soldiers and Workers +10% attack.",
+	"tooltip": "Villagers +5% all resource gather rates, Soldiers and Villagers +5% attack.",
 	"modifications": [
-	{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.10},
-	{"value": "Attack/Melee/Hack", "multiply": 1.10},
-	{"value": "Attack/Melee/Pierce", "multiply": 1.10},
-	{"value": "Attack/Melee/Crush", "multiply": 1.10},
-	{"value": "Attack/Ranged/Pierce", "multiply": 1.10},
-	{"value": "Attack/Ranged/Crush", "multiply": 1.10}
+	{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.05},
+	{"value": "Attack/Melee/Hack", "multiply": 1.05},
+	{"value": "Attack/Melee/Pierce", "multiply": 1.05},
+	{"value": "Attack/Melee/Crush", "multiply": 1.05},
+	{"value": "Attack/Ranged/Pierce", "multiply": 1.05},
+	{"value": "Attack/Ranged/Crush", "multiply": 1.05}
 	],
 	"affects": ["Worker","Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

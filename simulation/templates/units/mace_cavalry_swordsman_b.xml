@@ -4,9 +4,9 @@
     <Civ>mace</Civ>
     <SelectionGroupName>units/mace_cavalry_swordsman_b</SelectionGroupName>
     <GenericName>Light Cavalry</GenericName>
-    <SpecificName>Macedonian Prodromos</SpecificName>
+    <SpecificName>Prodromos</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>	
-    <Icon>units/mace_cavalry_spearman.png</Icon>	
+    <Icon>units/ae_hele_prodromos.png</Icon>	
   </Identity>
   <Promotion>
     <Entity>units/mace_cavalry_swordsman_a</Entity>

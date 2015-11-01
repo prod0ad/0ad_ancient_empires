@@ -1,19 +1,11 @@
 {
-	"genericName": "Advanced Skirmishers",
-    "specificName": {
-		"athen": "Peltasts",
-		"cart": "Peltasts",
-		"mace": "Peltasts",
-		"ptol": "Peltasts",		
-		"sele": "Peltasts",
-		"spart": "Peltasts"
-	},		
+	"genericName": "Advanced Skirmishers",	
 	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "skirmisher_a.png",
 	"researchTime": 40,
-	"tooltip": "Skirmishers +10% attack, hit points, range and vision.",
+	"tooltip": "Skirmishers +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}	
 	],

@@ -2,6 +2,7 @@
 <Entity parent="units/athen_cavalry_javelinist_b">
   <Identity>                   
 	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
+    <SpecificName>Elite Tarantine</SpecificName>	
   </Identity>
   <Promotion>
     <Entity>units/athen_cavalry_javelinist_e</Entity>

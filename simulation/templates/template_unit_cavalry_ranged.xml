@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry">
-  <Armour>
-    <Hack>0</Hack>
-    <Pierce>0</Pierce>
-    <Crush>0</Crush>
-  </Armour>
-  <Vision>
-    <Range>40</Range>
-  </Vision> 
   <Attack>
     <Ranged>
       <Hack>0</Hack>
@@ -28,10 +20,7 @@
     <Formations datatype="tokens">
       formations/skirmish
     </Formations>
-  </Identity>
-  <UnitMotion>
-    <WalkSpeed>12</WalkSpeed>
-  </UnitMotion>  
+  </Identity> 
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/arrowfly.xml</attack>

@@ -6,7 +6,7 @@
   <Identity>
     <Civ>spart</Civ>
   </Identity>
-  <ProductionQueue>
+  <ProductionQueue> 
     <Technologies datatype="tokens">
       civic_vision_structure	
     </Technologies>

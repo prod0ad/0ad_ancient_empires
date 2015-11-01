@@ -19,7 +19,7 @@
 				{
 			         "Name":"Cavalry Reform",
 			         "History":"Antiochus III reformed his heavy cavalry adding extensive armor, impressed by eastern cataphracts during his campaigns to reclaim the northeast satrapies.",
-			         "Description":"Heavy Cavalry +2 all armor types."
+			         "Description":"Catafracts and Heavy Cavalry +1 all armor types."
 		        },	
 				{
 			         "Name":"Infantry Reform",
@@ -27,7 +27,7 @@
 			         "Description":"Swordsmen +10% attack, hit points and speed, -10% train time."
 		        },					
 		        {
-			        "Name":"Cleruchy",
+			        "Name":"Katoikoi",
 			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
 			        "Description":"All soldiers -10% resource cost and train time."
 		        },				
@@ -50,7 +50,7 @@
 		}
 	],
 	"CivBonuses":
-	[
+	[	
 		{
 			"Name":"Mesopotamia",
 			"History":"For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",

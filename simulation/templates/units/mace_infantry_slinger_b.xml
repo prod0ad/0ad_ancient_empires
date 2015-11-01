@@ -6,13 +6,13 @@
     <GenericName>Slinger</GenericName>
     <SpecificName>Sphendonites</SpecificName>
     <History></History>
-    <Icon>units/hele_infantry_slinger.png</Icon>
+    <Icon>units/ae_hele_slinger.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_slinger_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_slinger_b.xml</Actor>
+    <Actor>units/macedonians/infantry_slinger_b.xml</Actor>
   </VisualActor>
 </Entity>

@@ -7,6 +7,6 @@
     <Entity>units/spart_infantry_slinger_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_slinger_a.xml</Actor>
+    <Actor>units/spartans/infantry_slinger_a.xml</Actor>
   </VisualActor>
 </Entity>

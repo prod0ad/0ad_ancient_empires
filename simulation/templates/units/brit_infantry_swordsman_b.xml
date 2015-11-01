@@ -4,7 +4,7 @@
     <Civ>brit</Civ>
     <SelectionGroupName>units/brit_infantry_swordsman_b</SelectionGroupName>
     <GenericName>Swordsman</GenericName>
-    <SpecificName>Swordsman</SpecificName>
+    <SpecificName>Celtic Swordsman</SpecificName>
     <History>.</History>
     <Icon>units/cart_infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>		

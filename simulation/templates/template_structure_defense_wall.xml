@@ -3,6 +3,7 @@
   <BuildRestrictions>
 	<PlacementType>land-shore</PlacementType>
     <Category>Wall</Category>
+    <Territory>own</Territory>		
   </BuildRestrictions>
   <Cost>
     <BuildTime>10</BuildTime>

@@ -16,15 +16,6 @@
     <variant frequency="1" name="shield-i-lion">
       <textures><texture file="props/shield/hele_round_i.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="shield-s-rays">
-      <textures><texture file="props/shield/hele_round_s.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="shield-r-raven">
-      <textures><texture file="props/shield/hele_round_r.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="shield-q">
-      <textures><texture file="props/shield/hele_round_q.dds" name="baseTex"/></textures>
-    </variant>
   </group>
   <material>playercolor_spec.xml</material>
 </actor>

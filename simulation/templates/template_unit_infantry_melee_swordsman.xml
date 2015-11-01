@@ -22,9 +22,9 @@
     <Population>2</Population>  
     <BuildTime>20</BuildTime>	  
     <Resources>
-      <food>45</food>
+      <food>40</food>
       <wood>0</wood>
-	  <metal>35</metal>
+	  <metal>40</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -35,8 +35,11 @@
       <stone>0</stone>
   </Loot>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
+    <WalkSpeed>7.5</WalkSpeed>
   </UnitMotion>
+  <Vision>
+    <Range>24</Range>
+  </Vision>  
   <Identity>
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
     <GenericName>Swordsman</GenericName>

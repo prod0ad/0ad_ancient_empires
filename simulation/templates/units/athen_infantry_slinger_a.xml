@@ -2,6 +2,7 @@
 <Entity parent="units/athen_infantry_slinger_b">
   <Identity>                     
 	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
+    <GenericName>Heavy Slinger</GenericName>	
   </Identity>
   <Promotion>
     <Entity>units/athen_infantry_slinger_e</Entity>

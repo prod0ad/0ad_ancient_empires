@@ -13,6 +13,9 @@
   <ProductionQueue>
     <Entities datatype="tokens">
 	  units/spart_champion_infantry_spear
+	  units/spart_champion_infantry_sword	 	  
+      units/{civ}_infantry_archer_e
+      units/{civ}_infantry_slinger_b 		  
     </Entities>
   </ProductionQueue>
   <VisualActor>

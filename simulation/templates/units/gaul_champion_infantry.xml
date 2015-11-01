@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
+  <Armour>
+    <Hack>2</Hack>
+    <Pierce>3</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+      <Hack>15</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>5.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>
+	  <Bonuses>	  
+	    <AntiStructure>
+		  <Classes>Structure</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiStructure>	
+	  </Bonuses>		
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+    </Melee>
+  </Attack>   
+  <Cost>
+    <Population>2</Population>  
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+	  <metal>40</metal>
+      <stone>0</stone>	  
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>5</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>  
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <UnitMotion>
+    <WalkSpeed>8</WalkSpeed>
+    <Run>
+      <Speed>8</Speed>
+    </Run>		
+  </UnitMotion>
+  <Vision>
+    <Range>30</Range>
+  </Vision> 
   <Identity>
     <Civ>gaul</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Solduros</SpecificName>
 	<SelectionGroupName>units/gaul_champion_infantry</SelectionGroupName>
-	<Tooltip>Elite Infantry Swordsman. Deals x1.5 damage to Ranged Units.</Tooltip>			
+	<Tooltip>Heavy infantry swordsman. Deals x1.5 damage to structures.</Tooltip>			
     <Icon>units/celt_champion_infantry_gaul.png</Icon>
   </Identity>
   <VisualActor>

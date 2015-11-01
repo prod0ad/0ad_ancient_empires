@@ -6,17 +6,17 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>40</Max>
+    <Max>55</Max>
   </Health>  
   <Vision>
-    <Range>40</Range>
+    <Range>35</Range>
   </Vision>    
   <Attack>
     <Ranged>
       <Hack>0</Hack>
       <Pierce>6</Pierce>
       <Crush>0</Crush>
-      <MaxRange>36.0</MaxRange>
+      <MaxRange>35</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
@@ -29,7 +29,7 @@
     <Resources>
       <food>0</food>
       <wood>30</wood>
-	  <metal>15</metal>
+	  <metal>20</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -39,13 +39,16 @@
 	  <metal>2</metal>
       <stone>0</stone>	 
   </Loot> 
-   <UnitMotion>
+  <UnitMotion>
     <WalkSpeed>8.5</WalkSpeed>
+    <Run>
+      <Speed>9.5</Speed>
+    </Run>		
   </UnitMotion> 
   <Identity>
     <VisibleClasses datatype="tokens">Bow</VisibleClasses>
     <GenericName>Archer</GenericName>
-    <Tooltip>Long Ranged Infantry.</Tooltip>	
+    <Tooltip>Long ranged infantry.</Tooltip>	
   </Identity>
   <Sound>
     <SoundGroups>

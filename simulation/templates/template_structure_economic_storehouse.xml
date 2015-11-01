@@ -48,8 +48,10 @@
       storehouse_lumbering_03
       storehouse_stonemining_01
       storehouse_stonemining_02
+      storehouse_stonemining_03	  
       storehouse_metalmining_01
       storehouse_metalmining_02
+      storehouse_metalmining_03	  
     </Technologies>
   </ProductionQueue>
   <RallyPoint disable=""/>

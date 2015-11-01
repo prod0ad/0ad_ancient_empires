@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="2" name="Helmet-Boeotian-Plume">
+      <mesh>props/helmet/hele_helmet_u.dae</mesh>
+      <textures><texture file="props/helmet/hele_a1.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>playercolor_spec.xml</material>
+</actor>

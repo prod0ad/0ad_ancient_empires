@@ -3,13 +3,13 @@
   <Identity>
     <Civ>spart</Civ>
     <SelectionGroupName>units/spart_cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Allied Hippeus</SpecificName>
-    <Icon>units/spart_cavalry_spearman.png</Icon>
+    <SpecificName>Prodromos</SpecificName>
+    <Icon>units/ae_hele_prodromos.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/spart_cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/spartans/cavalry_spearman_b.xml</Actor>
+    <Actor>units/spartans/cavalry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

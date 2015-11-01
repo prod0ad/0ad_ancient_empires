@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Helmet-Thracian-Early-Plume">
+      <mesh>props/helmet/mace_helmet_h.dae</mesh>
+      <textures><texture file="props/helmet/mace_c.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>playercolor_spec.xml</material>
+</actor>

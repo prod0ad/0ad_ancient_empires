@@ -4,16 +4,16 @@
   <Auras>
     <Aura1>
       <Type>range</Type>
-      <Radius>20</Radius>
-      <Affects>Soldier</Affects>
+      <Radius>15</Radius>
+      <Affects>Infantry</Affects>
 	  <AffectedPlayers>Enemy</AffectedPlayers>
-      <Modifications>
-        <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
+      <Modifications>	
+	    <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
         <Attack.Ranged.Pierce> <Multiply>0.9</Multiply> </Attack.Ranged.Pierce>		
-        <Attack.Ranged.Crush> <Multiply>0.9</Multiply> </Attack.Ranged.Crush>				
+        <Attack.Ranged.Crush> <Multiply>0.9</Multiply> </Attack.Ranged.Crush>		
       </Modifications>
-      <AuraName>Feared (10%)</AuraName>
-      <AuraDescription>Enemy units in range -10% attack (does not stack).</AuraDescription>
+      <AuraName>Chariot Aura (10%)</AuraName>
+      <AuraDescription>Enemy infantry units in range -10% attack (does not stack).</AuraDescription>
     </Aura1>
   </Auras>  
   <Armour>
@@ -24,9 +24,9 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>15</Pierce>
+      <Pierce>6</Pierce>
       <Crush>0</Crush>
-      <MaxRange>36</MaxRange>
+      <MaxRange>35</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
@@ -37,9 +37,9 @@
     <Population>4</Population>
     <BuildTime>40</BuildTime>  
     <Resources>
-      <food>0</food>
-      <wood>100</wood>
-	  <metal>50</metal>
+      <food>120</food>
+      <wood>80</wood>
+	  <metal>0</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -49,25 +49,28 @@
   <Footprint replace="">
     <Square width="7.5" depth="15.0"/>
     <Height>5.0</Height>
-  </Footprint>  
-  <Identity>
-	<VisibleClasses datatype="tokens">Chariot Bow -Cavalry</VisibleClasses>
-    <GenericName>Chariot Archer</GenericName>
-    <Tooltip>Fast moving long ranged chariot. Effective against melee units.</Tooltip>	
-  </Identity>
+  </Footprint> 
+  <Vision>
+    <Range>50</Range>
+  </Vision>   
   <Loot>
-    <food>10</food>
-    <wood>0</wood>
+    <food>12</food>
+    <wood>8</wood>
     <stone>0</stone>
-    <metal>5</metal>
+    <metal>0</metal>
   </Loot>
   <Obstruction>
     <Unit radius="2.0"/>
   </Obstruction>
   <UnitMotion>
-    <WalkSpeed>11.5</WalkSpeed>
+    <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>11.5</Speed>
+      <Speed>12</Speed>
     </Run>	
-  </UnitMotion>
+  </UnitMotion>  
+  <Identity>
+	<VisibleClasses datatype="tokens">Chariot Bow -Cavalry</VisibleClasses>
+    <GenericName>Chariot Archer</GenericName>
+    <Tooltip>Fast moving archer. Effective against melee units.</Tooltip>	
+  </Identity>
 </Entity>

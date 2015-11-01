@@ -4,15 +4,15 @@
     <Civ>sele</Civ>		
 	<SelectionGroupName>units/sele_cavalry_javelinist_b</SelectionGroupName>
 	<GenericName>Cavalry Skirmisher</GenericName>
-    <SpecificName>Eastern Horseman</SpecificName>
+    <SpecificName>Tarantine</SpecificName>
     <History>.</History>
-    <Icon>units/pers_cavalry_javelinist.png</Icon>
+    <Icon>units/ae_hele_tarantine.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/persians/cavalry_javelinist_b.xml</Actor>
+    <Actor>units/seleucids/cavalry_javelinist_b.xml</Actor>
   </VisualActor>
 </Entity>

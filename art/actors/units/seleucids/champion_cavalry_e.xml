@@ -25,7 +25,8 @@
       <props>
         <prop actor="units/seleucids/champion_cavalry_r_e.xml" attachpoint="rider"/>
         <prop actor="props/units/horse/pers_peytral_iron.xml" attachpoint="chest"/>
-        <prop actor="props/units/horse_back_blanket.xml" attachpoint="rider"/>		
+        <prop actor="props/units/horse_back_blanket.xml" attachpoint="rider"/>	
+        <prop actor="props/units/horse/crest_1.xml" attachpoint="head"/>		
       </props>
     </variant>
   </group>
@@ -42,10 +43,7 @@
   </group>  
   <group>
     <variant frequency="1" name="horse-black">
-      <color>81 81 81</color>
-    </variant>
-    <variant frequency="1" name="horse-chocolate">
-      <color>98 68 58</color>
+      <color>22 22 22</color>
     </variant>
   </group>
   <group>

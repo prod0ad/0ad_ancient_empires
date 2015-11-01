@@ -3,20 +3,20 @@
   <Armour>
     <Hack>1</Hack>
     <Pierce>1</Pierce>
-    <Crush>1</Crush>
+    <Crush>0</Crush>
   </Armour>
   <Cost>
     <BuildTime>20</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>60</food>
+      <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>15</metal>
+      <metal>20</metal>
     </Resources>
   </Cost>
   <Loot>
-    <food>6</food>
+    <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>2</metal>
@@ -26,7 +26,7 @@
   </Health>  
   <Attack>
     <Melee>
-      <Hack>15</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>7.0</MaxRange>
@@ -36,6 +36,10 @@
 		  <Classes>Cavalry</Classes>
 		  <Multiplier>1.5</Multiplier>
 		</AntiCavalry>
+		<AntiCamel>
+		  <Classes>Camel</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCamel>	
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
 		  <Multiplier>1.5</Multiplier>
@@ -44,7 +48,7 @@
     </Melee>
   </Attack>
   <Vision>
-    <Range>35</Range>
+    <Range>32</Range>
   </Vision>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
@@ -54,8 +58,8 @@
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Reformed Hoplite</SpecificName>
     <History>.</History>
-    <Icon>units/athen_champion_infantry.png</Icon>
-	<Tooltip>Versatile Spearman. Deals x1.5 damage to Cavalry and Elephants.</Tooltip>	
+    <Icon>units/ae_athen_reformed_hoplite.png</Icon>
+	<Tooltip>Versatile Spearman. Deals x1.5 damage to cavalry, camel and elephant units.</Tooltip>	
   </Identity>
   <Promotion>
     <Entity>units/athen_champion_infantry_e</Entity>

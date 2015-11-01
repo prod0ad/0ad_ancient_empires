@@ -44,7 +44,8 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
+					"History":".",
+					"Description":"Versatile Heavy Cavalry."
 				}				
 			]
 		}
@@ -58,19 +59,14 @@
 		},
 		{
 			"Name":"Hypaspists",
-			"History":"The Macedonian elite foot guard was employed as an agile multi-purpose unit that could fight with sword, spear, pike and javelin.",
-			"Description":"Swordsmen +10% attack, hit points and speed, +25% train time."
+			"History":"The Macedonian foot guard was employed as an agile multi-purpose unit that could fight with spear, pike, sword and javelin.",
+			"Description":"Spearmen have increased stats, cost and train time."
 		},		
 		{
 			"Name":"Hardy Peltasts",
 			"History":"The northern balkan tribes provided skilled peltasts to the Macedonian army.",
 			"Description":"Javelin Infantry +15% attack."
-		},
-		{
-			"Name":"Hoplites",
-			"History":"While early Macedonian forces were mostly composed of cavalry and skirmishers, they included a relatively small number of Hoplites. At later times, after the introduction of pikemen, allied and mercenary hoplites continued to form a part of the army.",
-			"Description":"Levy Spearmen have increased stats, cost and train time."
-		},		
+		},	
 		{
 			"Name":"Advanced Siegecraft",
 			"History":"The Macedonians used a wide variety of siege engines and tactics.",

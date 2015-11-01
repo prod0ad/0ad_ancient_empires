@@ -2,6 +2,7 @@
 <Entity parent="units/mace_infantry_spearman_b">
   <Identity>                           
 	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
+	<SpecificName>Argyraspis</SpecificName>		
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_spearman_e</Entity>

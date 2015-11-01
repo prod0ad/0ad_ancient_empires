@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_pteruges.png",
 	"researchTime": 40,
-	"tooltip": "Levy Infantry -20% resource cost.",
+	"tooltip": "Barracks units -20% resource cost.",
     "modifications": [
 	    {"value": "Cost/Resources/food", "multiply": 0.80},		
 	    {"value": "Cost/Resources/wood", "multiply": 0.80},

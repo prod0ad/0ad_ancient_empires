@@ -4,9 +4,9 @@
     <Civ>ptol</Civ>
     <SelectionGroupName>units/ptol_infantry_swordsman_b</SelectionGroupName>
     <GenericName>Swordsman</GenericName>
-    <SpecificName>Thorakites</SpecificName>
+    <SpecificName>Galatian Cleruch</SpecificName>
     <History></History>
-    <Icon>units/sele_champion_swordsman.png</Icon>
+    <Icon>units/ae_ptol_swordsman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

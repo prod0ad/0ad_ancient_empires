@@ -3,7 +3,7 @@
   <Identity>
     <Civ>brit</Civ>
 	<SelectionGroupName>units/brit_cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Light Cavalry</SpecificName>
+    <SpecificName>Epos</SpecificName>
     <GenericName>Light Cavalry</GenericName>
     <Icon>units/celt_cavalry_swordsman.png</Icon>
   </Identity>

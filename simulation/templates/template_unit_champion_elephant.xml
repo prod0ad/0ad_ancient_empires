@@ -6,12 +6,12 @@
       <Radius>20</Radius>
       <Affects>Soldier</Affects>
 	  <AffectedPlayers>Enemy</AffectedPlayers>
-      <Modifications>
-        <Attack.Melee.Hack> <Multiply>0.8</Multiply> </Attack.Melee.Hack>
+      <Modifications>	
+	    <Attack.Melee.Hack> <Multiply>0.8</Multiply> </Attack.Melee.Hack>
         <Attack.Ranged.Pierce> <Multiply>0.8</Multiply> </Attack.Ranged.Pierce>		
-        <Attack.Ranged.Crush> <Multiply>0.8</Multiply> </Attack.Ranged.Crush>				
+        <Attack.Ranged.Crush> <Multiply>0.8</Multiply> </Attack.Ranged.Crush>		
       </Modifications>
-      <AuraName>Feared (20%)</AuraName>
+      <AuraName>Elephant Aura (20%)</AuraName>
       <AuraDescription>Enemy units in range -20% attack (does not stack).</AuraDescription>
     </Aura1>
   </Auras>
@@ -21,12 +21,23 @@
       <Pierce>0</Pierce>
       <Crush>60</Crush>
       <MaxRange>7.0</MaxRange>
-      <RepeatTime>2000</RepeatTime>		  
+      <RepeatTime>2000</RepeatTime>	
+      <PreferredClasses datatype="tokens">Siege Structure</PreferredClasses>	  	  
+	  <Bonuses>
+		<AntiStructure>
+		  <Classes>Ranged Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiStructure>		
+		<AntiSiege>
+		  <Classes>Siege</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiSiege>			
+	  </Bonuses>		  
     </Melee>
   </Attack>
   <Armour>
-    <Hack>2</Hack>
-    <Pierce>1</Pierce>
+    <Hack>3</Hack>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Cost>
@@ -51,13 +62,13 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>750</Max>
+    <Max>600</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Elephant Levy Melee -Unique</VisibleClasses>
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
-    <Tooltip>Powerful Unit with Fear Aura.</Tooltip>	
+    <Tooltip>Powerful mounted unit. Deals x1.5 damage to siege units and structures. Nearby enemy cavalry +20% attack rate.</Tooltip>	
   </Identity>
   <Obstruction>
     <Unit radius="3.0"/>
@@ -93,6 +104,9 @@
   <UnitMotion>
   <PassabilityClass>siege-large</PassabilityClass> 
     <WalkSpeed>9.5</WalkSpeed>
+    <Run>
+      <Speed>10.5</Speed>
+    </Run>		
   </UnitMotion>
   <Vision>
     <Range>75</Range>

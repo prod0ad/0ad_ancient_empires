@@ -23,7 +23,7 @@
         <prop actor="props/units/heads/thracian_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/rhomphaia.xml" attachpoint="r_hand"/>
-        <prop actor="props/units/cape_hd_black.xml" attachpoint="shoulders"/>
+        <prop actor="props/units/cape_hd.xml" attachpoint="shoulders"/>
       </props>
       <textures>
         <texture file="skeletal/thrace_blackcloak_a.dds" name="baseTex"/>

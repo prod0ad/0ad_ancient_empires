@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>4</Hack>
-    <Pierce>3</Pierce>
-    <Crush>7</Crush>
+    <Hack>3</Hack>
+    <Pierce>2</Pierce>
+    <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
@@ -12,16 +12,30 @@
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>1500</RepeatTime>
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Cavalry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCavalry>
+		<AntiCamel>
+		  <Classes>Camel</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiCamel>	
+		<AntiElephant>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiElephant>		
+	  </Bonuses>   	  
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>5</BuildTime>
     <Population>2</Population>	
     <Resources>
       <food>40</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>35</metal>
+      <metal>60</metal>
     </Resources>
   </Cost>
   <Loot>
@@ -29,20 +43,26 @@
     <food>4</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>4</metal>
+    <metal>6</metal>
   </Loot>  
   <Health>
-    <Max>180</Max>
+    <Max>140</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-  </UnitMotion>  
+    <WalkSpeed>7.5</WalkSpeed>
+    <Run>
+      <Speed>7.5</Speed>
+    </Run>		
+  </UnitMotion> 
+  <Vision>
+    <Range>24</Range>
+  </Vision>    
   <Identity>
     <Civ>cart</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Sacred Band Infantry</SpecificName>
     <Icon>units/cart_champion_infantry.png</Icon>	
-	<Tooltip>Elite Infantry Spearman. Deals x2 damage to Cavalry and Elephants.</Tooltip>		
+	<Tooltip>Fast trained, expensive elite spearman. Deals x1.5 damage to cavalry, camel and elephant units.</Tooltip>		
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/champion_spearman.xml</Actor>

@@ -1,0 +1,57 @@
+<Entity parent="template_unit_cavalry">
+  <Armour>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
+    <Crush>0</Crush>
+  </Armour>
+  <Health>
+    <Max>140</Max>
+  </Health>   
+  <Attack>
+    <Melee>
+      <Hack>18</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>5.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>	
+	  <Bonuses>
+		<AntiCavalry>
+		  <Classes>Cavalry</Classes>
+		  <Multiplier>2</Multiplier>
+		</AntiCavalry>	
+	  </Bonuses>   
+    </Melee>
+  </Attack>
+  <Cost>
+    <Population>2</Population>  
+    <BuildTime>20</BuildTime>   
+    <Resources>
+      <food>60</food>
+      <wood>0</wood>
+	  <metal>40</metal>
+      <stone>0</stone>	  
+    </Resources>
+  </Cost>  
+   <Vision>
+    <Range>36</Range>
+  </Vision>   
+  <Loot>
+    <food>6</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>4</metal>
+  </Loot>  
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+    <Run>
+      <Speed>11.0</Speed>
+    </Run>
+  </UnitMotion>  
+  <Identity>
+    <VisibleClasses datatype="tokens">Camel Melee Spear -Cavalry</VisibleClasses>
+    <GenericName>Camel</GenericName>
+	<RequiredTechnology>phase_town</RequiredTechnology>		
+    <Tooltip>Camel mounted warrior. Deals x2 damage to cavalry units.</Tooltip>		
+  </Identity>
+</Entity>

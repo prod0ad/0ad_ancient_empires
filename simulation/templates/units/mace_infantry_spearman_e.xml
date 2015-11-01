@@ -2,7 +2,7 @@
 <Entity parent="units/mace_infantry_spearman_a">
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>
-    <SpecificName>Thureophoros</SpecificName>	
+    <SpecificName>Royal Peltast</SpecificName>	
     <Icon>units/sele_infantry_spearman_2.png</Icon>	
   </Identity>
   <Promotion disable=""/>

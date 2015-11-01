@@ -6,13 +6,13 @@
     <GenericName>Swordsman</GenericName>
     <SpecificName>Thorakites</SpecificName>
     <History></History>
-    <Icon>units/sele_champion_swordsman.png</Icon>
+    <Icon>units/ae_sele_swordsman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/sele_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/ptolemies/infantry_swordsman_b.xml</Actor>
+    <Actor>units/seleucids/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

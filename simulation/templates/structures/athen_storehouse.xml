@@ -6,7 +6,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      -storehouse_metalmining_02
+      -storehouse_metalmining_03	  
     </Technologies>
   </ProductionQueue>  
   <VisualActor>

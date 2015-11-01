@@ -10,7 +10,7 @@
   </Cost>
   <Identity>
     <GenericName>Support</GenericName>
-    <Classes datatype="tokens">Support Organic</Classes>
+    <VisibleClasses datatype="tokens">Support Organic</VisibleClasses>
   </Identity>
   <Loot>
     <xp>0</xp>

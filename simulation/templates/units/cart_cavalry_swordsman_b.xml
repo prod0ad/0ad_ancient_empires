@@ -10,8 +10,9 @@
     </Resources>
   </Cost> 
   <Identity>
-    <Civ>iber</Civ>
+    <Civ>cart</Civ>
 	<SelectionGroupName>units/cart_cavalry_swordsman_b</SelectionGroupName>
+    <GenericName>Mercenary Light Cavalry</GenericName>	
     <SpecificName>Gallic Horseman</SpecificName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
     <Icon>units/iber_cavalry_spearman.png</Icon>

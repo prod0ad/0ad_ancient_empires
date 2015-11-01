@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase. Requires Polybian Legions.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Upgrades Swordsmen and Spearmen to Marian Legionaries, increasing their attack, hit points and vision by 10%.",
+	"tooltip": "Upgrades Swordsmen and Spearmen to Marian Legionaries, with +10% hit points, attack and vision over Elite Swordsmen.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.10},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.10},

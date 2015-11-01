@@ -38,7 +38,7 @@
       </animations>
       <mesh>skeletal/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/shields/mace_pez_adv.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/mace_pez_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/sarissa.xml" attachpoint="r_hand"/>
         <prop actor="props/units/heads/thracian_early.xml" attachpoint="helmet"/>		
       </props>

@@ -1,21 +1,12 @@
 {
-	"genericName": "Elite Skirmishers",
-    "specificName": {
-		"athen": "Thureophoroi",
-		"cart": "Thureophoroi",
-		"mace": "Thureophoroi",		
-		"mace": "Thureophoroi",
-		"ptol": "Thureophoroi",			
-		"sele": "Thureophoroi",
-		"spart": "Thureophoroi"
-	},		
+	"genericName": "Elite Skirmishers",	
 	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "skirmisher_e.png",
 	"researchTime": 40,
 	"supersedes": "upgrades/skirmisher_a",
-	"tooltip": "Skirmishers +10% attack, hit points, range and vision.",
+	"tooltip": "Skirmishers +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}	
 	],

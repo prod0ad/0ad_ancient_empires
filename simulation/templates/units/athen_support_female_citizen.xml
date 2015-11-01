@@ -8,12 +8,12 @@
   </Builder>
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Worker</SpecificName>
-    <GenericName>Worker</GenericName>
-    <Icon>units/hele_support_female_citizen.png</Icon>
+    <SpecificName>Villager</SpecificName>
+    <GenericName>Villager</GenericName>
+    <Icon>units/ae_hele_villager.png</Icon>	
 	<SelectionGroupName>units/athen_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/female_citizen.xml</Actor>
+    <Actor>units/spartans/slave.xml</Actor>
   </VisualActor>
 </Entity>

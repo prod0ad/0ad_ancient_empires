@@ -1,0 +1,20 @@
+{
+	"genericName": "Helots",
+	"autoResearch": true,
+	"requirements": {"civ": "spart"},	
+	"modifications": [
+		{"value": "Health/Max", "multiply": 0.8},
+        {"value": "Attack/Ranged/Hack", "multiply": 0.8},
+		{"value": "Attack/Ranged/Pierce", "multiply": 0.8},
+		{"value": "Attack/Ranged/Crush", "multiply": 0.8},	
+        {"value": "Attack/Melee/Hack", "multiply": 0.8},
+		{"value": "Attack/Melee/Pierce", "multiply": 0.8},
+		{"value": "Attack/Melee/Crush", "multiply": 0.8},		
+		{"value": "Cost/Resources/metal", "multiply": 0.8},
+		{"value": "Cost/Resources/stone", "multiply": 0.8},
+		{"value": "Cost/Resources/food", "multiply": 0.8},
+		{"value": "Cost/Resources/wood", "multiply": 0.8}		
+	],
+	"affects": ["Helot"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

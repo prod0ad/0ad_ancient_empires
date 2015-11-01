@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry">
-  <Attack>
-    <Melee>
-      <Hack>1</Hack>
-      <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>4.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-    </Melee>
-  </Attack> 
-  <Vision>
-    <Range>25</Range>
-  </Vision>  
   <Identity>
     <GenericName>Melee Infantry</GenericName>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>

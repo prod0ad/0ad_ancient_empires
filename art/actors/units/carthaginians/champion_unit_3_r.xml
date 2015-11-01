@@ -21,8 +21,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="armor-scale reinforced corselet">
-      <textures><texture file="skeletal/kart_sacredband_cav.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="Armour-Bronze Cuirass">
+      <textures>
+        <texture file="skeletal/hele_pezhetairoi_2.dds" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <material>player_trans.xml</material>

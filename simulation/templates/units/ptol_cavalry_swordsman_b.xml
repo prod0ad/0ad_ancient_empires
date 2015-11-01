@@ -3,14 +3,14 @@
   <Identity>
     <Civ>ptol</Civ>
     <SelectionGroupName>units/ptol_cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Clerukhos Hippeus</SpecificName>
+    <SpecificName>Egyptian Horseman</SpecificName>
     <History>?</History>
-    <Icon>units/ptol_champion_cavalry.png</Icon>
+    <Icon>units/ae_ptol_scout.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/ptol_cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/ptolemies/cavalry_spearman_b.xml</Actor>
+    <Actor>units/ptolemies/cavalry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

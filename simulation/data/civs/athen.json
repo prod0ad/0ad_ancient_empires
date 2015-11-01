@@ -18,22 +18,22 @@
 			[
 				{
 					"Name":"Iphicratean Reforms",
-					"History":"Iphicrates changed the equipment of Athenian Soldiers and introduced the Iphicratid boots, increasing their mobility.",
+					"History":"",
 					"Description":"Infantry Units +10% speed."
 				},
 				{
 					"Name":"Citizen Levy",
-					"History":"Athenian Citizens went to war using their own equipment.",
-					"Description":"Levy Infantry -20% resource cost."
+					"History":"",
+					"Description":"Barracks units -20% cost."
 				},					
 				{
 					"Name":"Imperialism",
-					"History":"Soon after the formation of the Delian league, the Athenians started treating costal towns and even their own allies as subjects.",
+					"History":"",
 					"Description":"Civil Centres provide a small tickle of metal."
 				},
 				{
 					"Name":"Chorigoi",
-					"History":"Rich Athenian Citizens often took the task of maintaining a Trireme and paying it's crew.",
+					"History":"",
 					"Description":"Triremes -50% metal cost."
 				}
 			],
@@ -44,49 +44,68 @@
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Versatile Spearman. Deals x1.5 damage to Cavalry and Elephants."
-				}
+					"History":"",
+					"Description":"Unique Unit, fast moving 'anti-cavalry' infantry."
+				},
+				{
+					"Name":"Hoplite",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"",
+					"Description":"Stronger replacement for the generic Spearman."
+				}					
 			]
 		}
 	],	
 	"CivBonuses":
 	[
 		{
-			"Name":"Hoplites",
-			"History":"Like in most Greek city-states, the core of the Athenian army was formed by Hoplites, a heavier and more formidable force compared to most militia forces.",
-			"Description":"Spearmen have increased stats, cost and train time."
+			"Name":"- Town, City, Imperial Phase -10% cost.",
+			"History":"",
+			"Description":""
+		},		
+		{
+			"Name":"- Villagers +15% metal mining rate.",
+			"History":"",
+			"Description":""
 		},	
 		{
-			"Name":"Mines Of Laureion",
-			"History":"The mines at Laureion in Attica provided Athens with a wealth of silver from which to mint her famous and highly prized coin, The Athenian Owl.",
-			"Description":"Workers +10% metal mining rate for each phase researched."
+			"Name":"- Ranged Infantry +10% attack.",
+			"History":"",
+			"Description":""
+		},		
+		{
+			"Name":"- Warships -20% build time.",
+			"History":"",
+			"Description":""
 		},
 		{
-			"Name":"Great Polis",
-			"History":"Athens was the largest city in ancient Greece with great walls, temples and other architectural achievements.",
-			"Description":"Structures +10% hit points, vision and territory influence."
+			"Name":"- Structures +10% hit points, vision and territory influence.",
+			"History":"",
+			"Description":""
 		},
 		{
-			"Name":"Thracian Ties",
-			"History":"Athenian colonies on the Thracian coast kept them in contact with the Thracians, heavily influencing the Athenian Military.",
-			"Description":"Ranged Infantry +10% attack."
-		},
-		{
-			"Name":"Long Walls",
-			"History":"The Long Walls of Athens were constructed under the auspices of the wily Themistocles and extended 6 km from the city to the port of Piraeus. This secured the city's sea supply routes and prevented an enemy from starving out the city during a siege.",
-			"Description":"Stone Walls -50% build time."
+			"Name":"- Stone Walls -50% build time, buildable in neutral territory.",
+			"History":"",
+			"Description":""
 		}				
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"Delian League",
-			"History":"Shortly after the great naval victories at Salamis and Mykale, the Greek city-states instituted the so-called Delian League in 478 B.C., whose purpose was to push the Persians out of the Aegean region. The allied states contributed ships and money, while the Athenians offered their entire navy.",
-			"Description":"Ships -25% build time (currently not shared)."
+			"Name":"Special Structures -50% cost and build time (currently not shared).",
+			"History":"",
+			"Description":""
 		}
 	],
 	"Structures":
 	[
+		{
+			"Name":"Academy",
+			"History":"",			
+			"Description": "Researches academic technologies with defence, military and siege benefits."
+		} 	
 	],
 	"StartEntities":
 	[

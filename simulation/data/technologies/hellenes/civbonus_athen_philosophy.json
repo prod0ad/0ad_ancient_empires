@@ -1,0 +1,15 @@
+{
+	"genericName": "Great City Founders",
+	"autoResearch": true,
+	"description": ".",
+	"requirements": {"civ": "athen"},
+	"tooltip": "Special Structures -50% cost and build time.",
+	"modifications": [
+	    {"value": "Cost/BuildTime", "multiply": 0.50},
+	    {"value": "Cost/Resources/food", "multiply": 0.50},		
+	    {"value": "Cost/Resources/wood", "multiply": 0.50},
+	    {"value": "Cost/Resources/metal", "multiply": 0.50},
+		{"value": "Cost/Resources/stone", "multiply": 0.50}	
+	],
+	"affects": ["SpecialBuilding"]
+}

@@ -4,8 +4,8 @@
     <Civ>athen</Civ>
 	<SelectionGroupName>units/athen_cavalry_spearman_b</SelectionGroupName>
 	<GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Athenian Hippeus</SpecificName>
-    <Icon>units/spart_cavalry_spearman.png</Icon>
+    <SpecificName>Hippeus</SpecificName>
+    <Icon>units/ae_hele_hippeus.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

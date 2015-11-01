@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "archer_a.png",
 	"researchTime": 40,
-	"tooltip": "Archers +10% attack, hit points, range and vision.",
+	"tooltip": "Archers +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

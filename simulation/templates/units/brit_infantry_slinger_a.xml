@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/brit_infantry_slinger_b">
   <Identity>                      
-	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
+	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>	
+    <SpecificName>Heavy Slinger</SpecificName>	
   </Identity>
   <Promotion>
     <Entity>units/brit_infantry_slinger_e</Entity>

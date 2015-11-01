@@ -13,8 +13,9 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_champion_cavalry  
-      units/{civ}_infantry_archer_e			  
-      units/{civ}_infantry_spearman_merc	  
+      units/{civ}_infantry_archer_e	
+      units/{civ}_infantry_swordsman_e	  
+	  units/{civ}_cavalry_javelinist_e	   
       units/{civ}_champion_elephant	  	  
     </Entities>
     <Technologies datatype="tokens">

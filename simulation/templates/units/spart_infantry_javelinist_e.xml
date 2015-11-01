@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/spart_infantry_javelinist_a">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>70</metal>
+    </Resources>
+  </Cost>   
   <Identity>
-	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>			
+    <SelectionGroupName>units/spart_infantry_javelinist_e</SelectionGroupName>	
+    <GenericName>Mercenary Skirmisher</GenericName>
+    <SpecificName>Peltast</SpecificName>  
+	<VisibleClasses datatype="tokens">Elite -Advanced Mercenary -Levy -Helot</VisibleClasses>			
   </Identity>
-  <Promotion>
-    <Entity>units/spart_infantry_javelinist_u</Entity>
-	<RequiredXp>9999</RequiredXp>		
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/spartans/infantry_javelinist_e.xml</Actor>
   </VisualActor>

@@ -8,9 +8,9 @@
   </Builder>
   <Identity>
     <Civ>mace</Civ>
-    <SpecificName>Worker</SpecificName>
-    <GenericName>Worker</GenericName>
-    <Icon>units/hele_support_female_citizen.png</Icon>
+    <SpecificName>Villager</SpecificName>
+    <GenericName>Villager</GenericName>
+    <Icon>units/ae_hele_villager.png</Icon>
 	<SelectionGroupName>units/mace_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

@@ -23,12 +23,6 @@
     <variant frequency="1" name="armor-linen linothorax">
       <textures><texture file="skeletal/hele_hetairoi_a.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="armor-scale mail">
-      <textures><texture file="skeletal/hele_hetairoi_b.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="armor-bronze cuirass">
-      <textures><texture file="skeletal/hele_hetairoi_c.dds" name="baseTex"/></textures>
-    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

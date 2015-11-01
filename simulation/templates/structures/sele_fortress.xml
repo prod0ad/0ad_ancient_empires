@@ -13,7 +13,8 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/sele_champion_cavalry
-      units/sele_infantry_slinger_b  	  
+      units/sele_infantry_slinger_e 
+      units/sele_cavalry_archer_e 	  
     </Entities>
     <Technologies datatype="tokens">
 	  fort_sele_cleruchy  	

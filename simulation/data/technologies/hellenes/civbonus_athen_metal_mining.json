@@ -1,0 +1,8 @@
+{
+	"genericName": "Stone Mining Bonus",
+	"autoResearch": true,
+	"requirements": {"civ": "athen"},
+	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.15}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

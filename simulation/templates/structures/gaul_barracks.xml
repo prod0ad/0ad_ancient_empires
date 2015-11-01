@@ -34,7 +34,6 @@
 	  upgrades/swordsman_e	  	  
 	  upgrades/slinger_a		
       barracks_speed_train	
-      barracks_ranged_accuracy	 
     </Technologies>
   </ProductionQueue>
   <VisualActor>

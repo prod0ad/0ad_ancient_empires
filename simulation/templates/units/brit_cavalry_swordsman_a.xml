@@ -2,6 +2,7 @@
 <Entity parent="units/brit_cavalry_swordsman_b">
   <Identity>                    
 	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
+	<SpecificName>Heavy Epos</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/brit_cavalry_swordsman_e</Entity>

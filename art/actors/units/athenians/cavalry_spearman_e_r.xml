@@ -12,11 +12,11 @@
       </animations>
       <mesh>skeletal/m_tunic_a.pmd</mesh>
       <props>
-        <prop actor="props/units/heads/hele_cav_a.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/rome_cav_e.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_lance.xml" attachpoint="r_hand"/>
         <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>
       </props>
-      <textures><texture file="skeletal/hele_isp_e_1.dds" name="baseTex"/></textures> 
+      <textures><texture file="skeletal/hele_pezhetairoi_2.dds" name="baseTex"/></textures> 
     </variant>
   </group>
   <group>
