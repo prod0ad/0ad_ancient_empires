@@ -3,6 +3,13 @@
   <BuildRestrictions>
     <Category>Embassy</Category>
   </BuildRestrictions>
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>200</stone>
+    </Resources>
+  </Cost>  
   <Footprint>
     <Square width="28.0" depth="28.0"/>
     <Height>15.0</Height>
@@ -15,11 +22,11 @@
     <GenericName>Embassy</GenericName>
     <SpecificName>Embassy</SpecificName>
     <History>The Carthaginian army was a cosmopolitan affair, made up of mercenaries from dozens of lands.</History>
-    <Tooltip>Hire mercenaries.</Tooltip>
+    <Tooltip>Hires mercenary units in addition to the Fortress.</Tooltip>
     <Icon>structures/italian_embassy.png</Icon>
     <VisibleClasses datatype="tokens">
 	  -Village
-	  Town
+	  City
 	  Embassy
 	</VisibleClasses>	
   </Identity>
@@ -28,15 +35,13 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  units/{civ}_cavalry_swordsman_b		
-	  units/{civ}_cavalry_javelinist_b	 
-	  units/{civ}_cavalry_spearman_e 
       units/{civ}_infantry_swordsman_e	  
-      units/{civ}_infantry_slinger_e
+      units/{civ}_infantry_archer_e		  
+      units/{civ}_infantry_slinger_e	
+	  units/{civ}_cavalry_swordsman_e	 	  
+	  units/{civ}_cavalry_javelinist_e	 
+	  units/{civ}_cavalry_spearman_e 	
     </Entities>
-    <Technologies datatype="tokens">	
-      stables_speed_cavalry_01  
-    </Technologies>	
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/carthaginians/embassy.xml</Actor>

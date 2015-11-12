@@ -1,11 +1,11 @@
 {
 	"genericName": "Ballistics",
 	"description": "Improvement to projectile accuracy",
-	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 200},
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "accuracy_bolt.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"tooltip": "Ranged Siege Weapons and Heavy Warships +30% accuracy.",
 	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.70}],
 	"affects": ["Siege Ranged","Warship Heavy"],

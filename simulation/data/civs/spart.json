@@ -17,22 +17,22 @@
 			"Technologies":
 			[		
 				{
-					"Name":"Linothorax",
+					"Name":"- Linothorax",
 					"History":"",
 					"Description":"Royal Guard +10% speed."
 				},					
 				{
-					"Name":"Land Reform",
+					"Name":"- Land Reform",
 					"History":"",
 					"Description":"Villagers +25% farming rate."
 				},	
 				{
-					"Name":"Social Reform",
+					"Name":"- Social Reform",
 					"History":"",
 					"Description":"Melee infantry and mercenary units -20% train time. Cleomenian Pikemen Unlocked."
 				},	
 				{
-					"Name":"Defence Reform",
+					"Name":"- Defence Reform",
 					"History":"",
 					"Description":"Stone Walls unlocked (negates the Spartan starting penalty)."
 				}					
@@ -40,23 +40,23 @@
 			"Heroes":
 			[
 				{
-					"Name":"Royal Guard",
+					"Name":"- Royal Guard",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Unique Unit, powerful 'anti-melee unit' infantry."
+					"Description":"Unique Unit, spear infantry."
 				},
 				{
-					"Name":"Skirites",
+					"Name":"- Skirites",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Unique Unit, fast moving 'anti-ranged infantry' infantry."
+					"Description":"Unique Unit, sword infantry."
 				},		
 				{
-					"Name":"Hoplite",
+					"Name":"- Hoplite",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
@@ -64,7 +64,7 @@
 					"Description":"Stronger replacement for the generic Spearman."
 				},			
 				{
-					"Name":"Cleomenian Pikeman",
+					"Name":"- Cleomenian Pikeman",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
@@ -77,43 +77,43 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"- Barracks +10 population.",
+			"Name":"- Barracks",
 			"History":"",
-			"Description":""
+			"Description":"+10 population."
 		},	
 		{
-			"Name":"- Spear infantry x1.5 damage to melee infantry, +30% train time.",
+			"Name":"- Spear infantry",
 			"History":"",
-			"Description":""
+			"Description":"x1.5 damage to melee infantry, +30% train time."
 		},			
 		{
-			"Name":"- Villagers and Skirmishers -20% cost, attack and hit points.",
+			"Name":"- Villagers, Skirmishers",
 			"History":"",
-			"Description":""
+			"Description":"-20% cost, attack and hit points."
 		},	
 		{
-			"Name":"- Can't build Stone Walls.",
+			"Name":"- Stone Walls.",
 			"History":"",
-			"Description":""
+			"Description":"Require additional research."
 		},	
 		{
-			"Name":"- Maximum population -10%.",
+			"Name":"- Maximum Population",
 			"History":"",
-			"Description":""
+			"Description":"-10%."
 		}
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"- All human soldiers +5% attack (currently not shared).",
+			"Name":"- Soldiers",
 			"History":"",
-			"Description":""
+			"Description":"+5% attack (currently not shared)."
 		}
 	],
 	"Structures":
 	[
 		{
-			"Name":"Gerousia",
+			"Name":"- Gerousia",
 			"History":"",			
 			"Description": "Holds the Spartan unique technologies, which cost no resources but have increased research times."
 		} 	

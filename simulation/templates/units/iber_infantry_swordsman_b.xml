@@ -4,13 +4,13 @@
     <Civ>iber</Civ>
 	<SelectionGroupName>units/iber_infantry_swordsman_b</SelectionGroupName>
     <SpecificName>Iberian Swordsman</SpecificName>
-    <Icon>units/iber_infantry_swordsman.png</Icon>
+    <Icon>units/ae_iber_swordsman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>
     <Entity>units/iber_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_swordsman_a.xml</Actor>
+    <Actor>units/iberians/infantry_swordsman_b.xml</Actor>
   </VisualActor>
 </Entity>

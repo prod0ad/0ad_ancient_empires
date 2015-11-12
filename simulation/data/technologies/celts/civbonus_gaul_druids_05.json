@@ -1,0 +1,10 @@
+{
+	"genericName": "Druids",
+	"autoResearch": true,
+	"description": ".",
+	"requirements": {"all": [{"civ": "gaul"},{"tech": "temple_sacred_ground"}]},
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1}			
+	],
+	"affects": ["Healer"]
+}

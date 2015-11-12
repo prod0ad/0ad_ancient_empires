@@ -1,9 +1,0 @@
-{
-	"genericName": "Marian Reforms",
-	"requirements": {"tech": "fort_rome_reform"},
-	"modifications": [
-	{"value": "Promotion/RequiredXp", "replace": 0}
-	],
-	"affects": ["Premarian Infantry Spear"],
-	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
-}

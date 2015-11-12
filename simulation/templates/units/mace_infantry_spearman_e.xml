@@ -3,7 +3,6 @@
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>
     <SpecificName>Royal Peltast</SpecificName>	
-    <Icon>units/sele_infantry_spearman_2.png</Icon>	
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

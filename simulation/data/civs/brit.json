@@ -18,29 +18,30 @@
 			"Technologies":
 			[
 				{
-					"Name": "Boudicca's Levy (Reform)",
-					"History": "Roman expansionism resulted in large numbers of Britons going to war under Boudicca.",
-					"Description": "Levy Units -30% train time." 
+					"Name": "- Boudicca's Levy",
+					"History": "",
+					"Description": "Infantry -40% train time." 
 				}, 	
 				{
-					"Name": "Swift Chariots",
-					"History": ".",
+					"Name": "- Swift Chariots",
+					"History": "",
 					"Description": "Celtic Chariots +10% speed, -10% attack rate." 
 				}, 					
 				{
-					"Name": "Woad Warriors",
-					"History": "The Britons used to paint themselves in woad (a blue dye) before charging in combat, to appear more fearsome and request divine protection.",
-					"Description": "Infantry Units -15% attack rate." 
+					"Name": "- Woad Raiders",
+					"History": "",
+					"Description": "Melee infantry +1 crush attack." 
 				} 
 			],
 			"Heroes":
 			[
 				{
-					"Name": "Celtic Chariot",
+					"Name": "- Celtic Chariot",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Fast Moving Chariot Skirmisher."
+					"History": "",
+					"Description": "Unique Unit, chariot skirmisher." 
 				} 	
 			] 
 		} 
@@ -48,45 +49,45 @@
 	"CivBonuses":
 	[	
 		{
-			"Name": "Dog Breeding",
-			"History": ".", 
-			"Description": "A Dog Scout is added to starting units. 'Shepherds and Hounds' free (Workers +50% meat gathering rate, requires a Farmstead). " 
-		},		
+			"Name": "- Dog Scout",
+			"History": "", 
+			"Description": "Added to starting units." 
+		},	
 		{
-			"Name": "Hill Forts",
-			"History": "Britain was full of Celtic Hill forts.",
-			"Description": "Fortresses -20% stone cost." 
-		}, 	
+			"Name": "- Villagers",
+			"History": "", 
+			"Description": "+50% meat gathering rate, requires a Farmstead. " 
+		},			
 		{
-			"Name": "Home Stores",
-			"History": "Celtic workshops and stores often shared a roof with their owner's houses.",
-			"Description": "Most Structures +5 population."
-		},		
+			"Name": "- Fortresses",
+			"History": "",
+			"Description": "-20% cost." 
+		}, 		
 		{
-			"Name": "Wooden Structures",
-			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone." 
+			"Name": "- Structures",
+			"History": "",
+			"Description": "-20% build time and hit points. Several Structures cost wood instead of stone." 
 		}			
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Atlantic Trade",
-			"History": "Carthaginians and Greeks traded with Briton tribes sailing out of the Mediterranean, around Iberia, to western Britain. This journey required sturdy vessels.",
-			"Description": "Cargo Ships +50% hit points (currently not shared)." 
+			"Name": "- Cargo Ships",
+			"History": "",
+			"Description": "+50% hit points (currently not shared)." 
 		} 
 	],
 	"Structures":
 	[
 		{
-			"Name":"Rotary Mill",
+			"Name":"- Rotary Mill",
 			"Class":"",
 			"Emblem":"",
-			"History":".",
-			"Description": "Workers in range +25% farming rate.",			
-			"Requirements":".",
+			"History":"",
+			"Description": "Farming Aura: Villagers +20% farming rate.",			
+			"Requirements":"",
 			"Phase":"",
-			"Special":"."
+			"Special":""
 		}	
 	],
 	"StartEntities":

@@ -1,11 +1,11 @@
 {
 	"genericName": "Swift Chariots",
 	"description": ".",
-	"cost": { "food": 0, "wood": 575, "stone": 0, "metal": 325 },
+	"cost": { "food": 0, "wood": 500, "stone": 0, "metal": 400 },
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "wheel.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"tooltip": "Celtic Chariots +10% speed, -10% attack rate.",
 		"modifications": [
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.10},

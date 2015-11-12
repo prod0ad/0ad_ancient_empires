@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Rate>1.0</Rate>  
-    <Entities datatype="tokens">
-      structures/{civ}_outpost
-      other/wallset_palisade	
-      structures/{civ}_barracks	
-      structures/{civ}_dock	 	  
-      structures/{civ}_siege_workshop	  
-      structures/{civ}_blacksmith	 
-	  structures/{civ}_fortress		
-      structures/{civ}_army_camp	  
-      structures/{civ}_defense_tower
-      structures/{civ}_wallset_stone
-      structures/{civ}_civil_centre			  	  	  		  
-    </Entities>
-  </Builder>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -30,8 +14,8 @@
 	<SelectionGroupName>units/rome_infantry_archer_b</SelectionGroupName>
     <GenericName>Archer</GenericName>
     <SpecificName>Cretan Archer</SpecificName>
-	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
-    <Icon>units/hele_infantry_archer.png</Icon>
+	<VisibleClasses datatype="tokens">Basic Mercenary -Levy</VisibleClasses>		
+    <Icon>units/ae_merc_cretan.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>		
   </Identity>
   <Promotion>

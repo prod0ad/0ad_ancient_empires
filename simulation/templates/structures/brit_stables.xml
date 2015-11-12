@@ -4,7 +4,6 @@
     <Category>Stables</Category>
   </BuildRestrictions>
   <Cost>
-    <PopulationBonus>5</PopulationBonus>  
     <BuildTime>120</BuildTime>
     <Resources>
       <wood>200</wood>

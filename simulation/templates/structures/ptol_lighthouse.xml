@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
+  <Auras>
+    <Aura1>
+      <Type>Global</Type>
+      <Affects>Ship</Affects>
+      <AffectedPlayers>Player Ally</AffectedPlayers>	  
+      <Modifications>
+        <Vision.Range><Multiply>1.50</Multiply></Vision.Range>
+      </Modifications>
+      <AuraName>Lighthouse Vision</AuraName>
+      <AuraDescription>Friendly Ships +50% vision.</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>
+    </Aura1>
+  </Auras>
   <BuildRestrictions>
     <PlacementType>shore</PlacementType>
     <Category>Dock</Category>
@@ -16,7 +29,7 @@
     <GenericName>Lighthouse</GenericName>
     <SpecificName>Pharos</SpecificName>
     <VisibleClasses datatype="tokens">Lighthouse Town -City</VisibleClasses>
-    <Tooltip>Build along the shore to reveal the shorelines over the entire map (Not implemented). Very large vision range: 180 meters.</Tooltip>
+    <Tooltip>Has large vision and increases the vision of friendly ships by 50%.</Tooltip>
     <History>The Ptolemaic dynasty in Egypt built the magnificent Lighthouse of Alexandria near the harbor mouth of that Nile Delta city. This structure could be seen for many kilometers out to sea and was one of the Seven Wonders of the World.</History>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

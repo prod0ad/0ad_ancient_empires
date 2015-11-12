@@ -14,7 +14,7 @@
 	<SelectionGroupName>units/cart_cavalry_spearman_b</SelectionGroupName>
 	<GenericName>Mercenary Heavy Cavalry</GenericName>
     <SpecificName>Iberian Lancer</SpecificName>
-    <Icon>units/iber_cavalry_spearman.png</Icon>
+    <Icon>units/ae_merc_iberian_cavalry.png</Icon>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

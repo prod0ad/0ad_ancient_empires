@@ -1,0 +1,12 @@
+{
+	"genericName": "Mysticism",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "cauldron.png",
+	"researchTime": 50,
+	"tooltip": "Priests +50% hit points.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.50}],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

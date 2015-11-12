@@ -29,13 +29,13 @@
         <prop actor="props/units/shields/kart_round_isp_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_lance.xml" attachpoint="r_hand"/>	
         <prop actor="props/units/heads/head_pers_a.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/kart_isp_b.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/pers_conical.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Liby-Phoenician-Tunic-brown">
-      <textures><texture file="skeletal/kart_isp_b_2.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="Liby-Phoenician-Armour-1">
+      <textures><texture file="skeletal/kart_isp_a_1.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

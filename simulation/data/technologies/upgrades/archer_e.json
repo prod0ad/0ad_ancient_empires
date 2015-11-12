@@ -4,7 +4,7 @@
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "archer_e.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"supersedes": "upgrades/archer_a",
 	"tooltip": "Archers +10% attack, hit points and vision.",
 	"modifications": [

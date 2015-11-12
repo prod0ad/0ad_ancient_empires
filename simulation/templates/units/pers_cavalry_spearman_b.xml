@@ -4,8 +4,8 @@
     <Civ>pers</Civ>
 	<SelectionGroupName>units/pers_cavalry_spearman_b</SelectionGroupName>
 	<GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Cappadocian Cavalry</SpecificName>
-    <Icon>units/pers_cavalry_spearman.png</Icon>
+    <SpecificName>Eastern Lancer</SpecificName>
+    <Icon>units/ae_pers_lancer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pers_cavalry_spearman_a</Entity>

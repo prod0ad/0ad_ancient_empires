@@ -5,7 +5,7 @@
     <SelectionGroupName>units/gaul_infantry_slinger_b</SelectionGroupName>
     <GenericName>Slinger</GenericName>
     <SpecificName>Gallic Slinger</SpecificName>
-    <Icon>units/celt_infantry_slinger.png</Icon>
+    <Icon>units/ae_celt_slinger.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

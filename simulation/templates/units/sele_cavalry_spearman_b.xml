@@ -4,9 +4,9 @@
     <Civ>sele</Civ>
     <SelectionGroupName>units/sele_cavalry_spearman_b</SelectionGroupName>
     <GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Xystophoros</SpecificName>
+    <SpecificName>Agema Companion</SpecificName>
     <RequiredTechnology>phase_city</RequiredTechnology>
-    <Icon>units/ae_hele_hippeus.png</Icon>
+    <Icon>units/ae_ptol_agema.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/sele_cavalry_spearman_a</Entity>

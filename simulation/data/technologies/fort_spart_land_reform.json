@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "plow.png",
 	"researchTime": 180,
-	"tooltip": "Workers +25% farming rate.",
+	"tooltip": "Villagers +25% farming rate.",
 	"modifications": [
 		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.25}
 	],

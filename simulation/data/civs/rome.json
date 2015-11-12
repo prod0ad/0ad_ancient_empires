@@ -16,81 +16,94 @@
 			"Technologies":
 			[
 				{
-					"Name": "Marian Reforms",
-					"History": "Gaius Marius turned the roman legions into a professional force.",
-					"Description": "Upgrades Swordsmen and Spearmen to Marian Legionaries, with +10% hit points, attack and vision over Elite Swordsmen."
-				},
-				{
-					"Name": "Dictatorship",
-					"History": ".",
+					"Name": "- Dictatorship",
+					"History": "",
 					"Description": "Consular Bodyguard +10% attack and speed."
 				},					
 				{
-					"Name": "Logistics",
-					"History": "Roman skill in military logistics and their large manpower pool allowed them to quickly mobilize forces and replace loses.",
+					"Name": "- Logistics",
+					"History": "",
 					"Description": "Barracks infantry -60% train time."
 				},	
 				{
-					"Name": "Gladius Hispaniensis",
-					"History": "Introduction of the Iberian Gladius shortsword increased Roman infantry effectiveness.",
+					"Name": "- Gladius Hispaniensis",
+					"History": "",
 					"Description": "Swordsmen -20% attack rate."
 				}								
 			],
 			"Heroes":
 			[
 				{
-					"Name": "Consular Bodyguard",
+					"Name": "- Consular Bodyguard",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": ".",
-					"Description":"Heavy Cavalry. Deals x1.5 damage to Unique Units."
-				}
+					"History": "",
+					"Description":"Unique Unit, heavy cavalry."
+				},
+				{
+					"Name": "- Triarius",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "",
+					"Description":"Stronger replacement for the generic spearman."
+				}									
 			]
 		} 
 	],
 	"CivBonuses":
-	[
+	[	
 		{
-			"Name": "Triarius",
-			"History": "Early roman armies were largely formed by hoplite-like spearmen, a tradition partly continued by the Triarii, veteran reserve units of the roman legions.",
-			"Description": "Stronger replacement for the generic spearman."
-		},				
+			"Name": "- Barracks Units",
+			"History": "",
+			"Description": "Upgrade through shared technologies."
+		},		
 		{
-			"Name": "Roman Legions",
-			"History": "Roman legions were trained as to fight a cohesive and flexible force.",
-			"Description": "Legion Barracks units upgrade through shared techs. Swordsmen -20% train time, Skirmishers and Heavy Cavalry +1 pierce armor."
-		},	
+			"Name": "- Swordsmen",
+			"History": "",
+			"Description": "-20% train time."
+		},		
 		{
-			"Name": "Military Construction",
-			"History": "Roman armies were responsible for the construction of their fortifications and often a variety of other structures.",
-			"Description": "Villagers build economic and civic structures, while infantry build defensive and military ones."
+			"Name": "- Start with a Skirmisher",
+			"History": "",
+			"Description": "Instead of a Light Cavalry scout."
 		},			
 		{
-			"Name": "Scientific Adaptation",
-			"History": "The Romans were eager to adapt good ideas from their neighbours and enemies.",
-			"Description": "Structures, Ships and Ranged Siege Weapons +10% range, vision, accuracy and hit points for each phase researched."
-		}	
+			"Name": "- Skirmishers, Heavy Cavalry",
+			"History": "",
+			"Description": "+1 pierce armor."
+		},			
+		{
+			"Name": "- Structures, Ships, Siege Weapons",
+			"History": "",
+			"Description": "-10% cost in City Phase, -20% in Imperial Phase."
+		}					
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Socii",
-			"History": "Roman allies, especially the Italian ones, often provided the majority of soldiers in Roman armies.",
-			"Description": "Barracks -25% build time for each phase researched (currently not shared)."
+			"Name": "- Barracks",
+			"History": "",
+			"Description": "-25% build time for each phase researched. (Currently not shared)"
 		} 		
 	],
 	"Structures":
 	[
 		{
-			"Name":"Auxiliary Camp",
+			"Name":"- Academy",
+			"History":"",			
+			"Description": "Researches academic technologies with defence, military and siege benefits."
+		}, 			
+		{
+			"Name":"- Army Camp",
 			"Class":"",
 			"Emblem":"",
-			"History":".",
+			"History":"",
 			"Description": "Trains Auxiliary units. Has no territory restrictions. Replaces the Stables.",			
-			"Requirements":".",
+			"Requirements":"",
 			"Phase":"",
-			"Special":"."
+			"Special":""
 		}		
 	],
 	"StartEntities":
@@ -100,11 +113,10 @@
 		},
 		{
 			"Template": "units/rome_support_female_citizen",
-			"Count": 3
+			"Count": 4
 		},
 		{
-			"Template": "units/rome_infantry_spearman_b",
-			"Count": 2			
+			"Template": "units/rome_infantry_javelinist_b"		
 		}
 	],
 	"Formations":
@@ -140,7 +152,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_cavalry" : "units/{civ}_infantry_spearman_b",
+		"skirmish/units/default_cavalry" : "units/{civ}_infantry_javelinist_b",
 		"skirmish/units/default_infantry_melee_b": "units/{civ}_infantry_spearman_b",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house"
 	},

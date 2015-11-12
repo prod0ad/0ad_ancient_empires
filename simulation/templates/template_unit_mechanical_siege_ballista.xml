@@ -8,9 +8,9 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>36.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>70</MaxRange>
+      <Pierce>16.0</Pierce>
+      <Crush>16.0</Crush>
+      <MaxRange>50</MaxRange>
       <MinRange>10.0</MinRange>
       <Spread>2.0</Spread>
       <ProjectileSpeed>300.0</ProjectileSpeed>
@@ -18,21 +18,21 @@
       <RepeatTime>4000</RepeatTime>
       <Splash>
         <Shape>Linear</Shape>
-        <Range>15</Range>
+        <Range>10</Range>
         <FriendlyFire>false</FriendlyFire>
         <Hack>0</Hack>
-        <Pierce>18.0</Pierce>
-        <Crush>0</Crush>
+        <Pierce>8</Pierce>
+        <Crush>8</Crush>
       </Splash>
 	  <Bonuses>
-		<AntiChampion>
+		<AntiStructure>
 		  <Classes>Structure</Classes>
-		  <Multiplier>2</Multiplier>
-		</AntiChampion>
-		<AntiChampion>
+		  <Multiplier>1.0</Multiplier>
+		</AntiStructure>
+		<AntiMechanical>
 		  <Classes>Mechanical</Classes>
-		  <Multiplier>2</Multiplier>
-		</AntiChampion>		
+		  <Multiplier>1.0</Multiplier>
+		</AntiMechanical>		
 	  </Bonuses>	  
     </Ranged>		
   </Attack>
@@ -54,7 +54,7 @@
   <Identity>
     <GenericName>Bolt Shooter</GenericName>
 	<Classes datatype="tokens">BoltShooter Ranged</Classes>
-	<Tooltip>Long Ranged Siege Weapon. Deals x2 damage to Structures and Mechanical Units.</Tooltip>		
+	<Tooltip>Ranged Siege Weapon. Effective against masses of units and structures.</Tooltip>		
   </Identity>
   <Loot>
     <xp>0</xp>
@@ -75,6 +75,6 @@
     <WalkSpeed>7</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>70</Range>
+    <Range>50</Range>
   </Vision>
 </Entity>

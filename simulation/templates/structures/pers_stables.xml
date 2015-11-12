@@ -58,7 +58,6 @@
 	  units/{civ}_cavalry_javelinist_b	 
 	  units/{civ}_cavalry_spearman_b
 	  units/{civ}_cavalry_camel_b	 
-      units/{civ}_cavalry_archer_b
       units/{civ}_chariot_archer_b	  
     </Entities>
     <Technologies datatype="tokens">
@@ -70,8 +69,6 @@
 	  upgrades/cavalry_heavy_e	
 	  upgrades/cavalry_camel_a		  
 	  upgrades/cavalry_camel_e	
-	  upgrades/cavalry_archer_a		  
-	  upgrades/cavalry_archer_e	
 	  upgrades/chariot_archer_a		  
 	  upgrades/chariot_archer_e		  
       stables_speed_train

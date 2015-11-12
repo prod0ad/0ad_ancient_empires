@@ -43,7 +43,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>375</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>
@@ -68,6 +68,6 @@
     <WalkSpeed>5</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>30</Range>
+    <Range>24</Range>
   </Vision>
 </Entity>

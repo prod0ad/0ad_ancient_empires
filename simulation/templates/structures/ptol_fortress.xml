@@ -12,7 +12,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_cavalry 	
+      units/{civ}_champion_infantry_pikeman
       units/{civ}_infantry_archer_e		  
       units/{civ}_infantry_slinger_e 	
 	  units/{civ}_cavalry_javelinist_b	 	  

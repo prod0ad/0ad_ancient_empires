@@ -15,7 +15,7 @@
     <GenericName>Barcid Infantry</GenericName>
     <SpecificName>Mercenary Swordsman</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <Icon>units/cart_infantry_swordsman_2.png</Icon>
+    <Icon>units/ae_merc_italian.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>			
   </Identity>
   <Promotion>

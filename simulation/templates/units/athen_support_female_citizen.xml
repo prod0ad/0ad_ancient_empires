@@ -2,7 +2,8 @@
 <Entity parent="template_unit_support_female_citizen">
   <Builder>
     <Entities datatype="tokens">	  
-      structures/{civ}_library	  	  
+      structures/{civ}_library	  
+      structures/{civ}_theatron		  
       structures/{civ}_wonder		  
     </Entities>
   </Builder>
@@ -14,6 +15,6 @@
 	<SelectionGroupName>units/athen_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/spartans/slave.xml</Actor>
+    <Actor>units/athenians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

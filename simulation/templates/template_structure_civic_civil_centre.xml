@@ -13,9 +13,9 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>24.0</Pierce>
+      <Pierce>18.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>60.0</MaxRange>
+      <MaxRange>56.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
@@ -75,8 +75,8 @@
   </Identity>
   <Loot>
     <food>0</food>
-    <wood>50</wood>
-    <stone>25</stone>
+    <wood>40</wood>
+    <stone>20</stone>
     <metal>0</metal>
   </Loot>
   <Obstruction>

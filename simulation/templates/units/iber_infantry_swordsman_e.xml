@@ -3,11 +3,8 @@
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
   </Identity>
-  <Promotion>
-    <Entity>units/iber_infantry_swordsman_u</Entity>
-    <RequiredXp>9999</RequiredXp>
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/iberians/champion_unit_1.xml</Actor>
+    <Actor>units/iberians/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

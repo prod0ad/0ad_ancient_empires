@@ -1,15 +1,13 @@
 {
 	"genericName": "Keep",
-	"description": "Arrow shooters increase the maximum range of the fire arrows.",
-	"cost": {"food": 250, "wood": 350, "stone": 0, "metal": 0},
+	"cost": {"food": 0, "wood": 400, "stone": 200, "metal": 0},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"supersedes": "tower_guard",	
 	"icon": "defense_tower.png",
-	"researchTime": 40,
-	"tooltip": "Defense Towers +15% hit points and range.",
-	"modifications": [{"value": "Health/Max", "multiply": 1.15},
-		{"value": "Attack/Ranged/MaxRange", "multiply": 1.15}],
+	"researchTime": 50,
+	"tooltip": "Defense Towers +20% hit points.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.2}],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

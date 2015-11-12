@@ -1,0 +1,13 @@
+{
+	"genericName": "Fire Arrows",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 250},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "arrow.png",
+	"researchTime": 60,
+	"tooltip": "Archers, Structures, Light and Medium Warships +2 crush attack.",
+	"modifications": [
+		{"value": "Attack/Ranged/Crush", "add": 2}],
+	"affects": ["Infantry Bow","Warship Light","Warship Medium","Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "population.png",
 	"researchTime": 180,
-	"tooltip": "Melee Infantry Units -20% train time.",
+	"tooltip": "Melee Infantry -20% train time.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],

@@ -15,14 +15,16 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      -temple_healer_skills
-      -temple_healer_skills_2
-      -temple_heal_temple
-	  -temple_fanaticism	  
-	  temple_healer_skills_ptol
-      temple_healer_skills_ptol_2
-      temple_heal_temple_ptol
-	  temple_fanaticism_ptol	  
+      -temple_astrology
+      -temple_mysticism
+      -temple_sacred_ground
+	  -temple_afterlife
+	  -temple_fanaticism	    
+      temple_astrology_ptol
+      temple_mysticism_ptol
+      temple_sacred_ground_ptol
+	  temple_afterlife_ptol
+	  temple_fanaticism_ptol    
     </Technologies>
   </ProductionQueue>
   <VisualActor>

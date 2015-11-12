@@ -2,8 +2,13 @@
 	"genericName": "Town Phase",
 	"requirements": { "all": [{"tech":"phase_town"}, {"civ": "maur"}]},
 	"autoResearch": true,
-	"tooltip": "Workers and Infantry -5 food cost.",
-	"modifications": [{"value": "Cost/Resources/food", "add": -5}],
-	"affects": ["Worker","Infantry Javelin","Infantry Melee"],
+	"tooltip": "Villagers, Infantry -10% cost.",
+	"modifications": [
+	    {"value": "Cost/Resources/food", "multiply": 0.90},		
+	    {"value": "Cost/Resources/wood", "multiply": 0.90},
+	    {"value": "Cost/Resources/metal", "multiply": 0.90},
+		{"value": "Cost/Resources/stone", "multiply": 0.90}	
+	],
+	"affects": ["Worker","Infantry Archer"],
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

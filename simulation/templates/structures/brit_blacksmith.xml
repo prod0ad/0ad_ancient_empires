@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_blacksmith">
-  <Cost>
-    <PopulationBonus>5</PopulationBonus>
-  </Cost>
   <Identity>
     <Civ>brit</Civ>
   </Identity>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Technologies datatype="tokens">
-      -blacksmith_armor_infantry_ranged_02
+      -blacksmith_attack_ranged_03		
+      -blacksmith_armor_infantry_ranged_03
+      -blacksmith_armor_cav_03	  
     </Technologies>
   </ProductionQueue>   
   <VisualActor>

@@ -36,7 +36,7 @@
   <group>
     <variant frequency="1" name="Scale-Mail">
       <mesh>skeletal/m_tunic_short.dae</mesh>
-      <textures><texture file="skeletal/iber_isp_e_1.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/iber_csp_e_2.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

@@ -1,10 +1,10 @@
 {
-	"genericName": "Elite Camel Archer",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"genericName": "Elite Camels",
+	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "cavalry_archer_e.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"supersedes": "upgrades/cavalry_camel_a",
 	"tooltip": "Camel Riders +10% attack and vision, +15% hit points.",
 	"modifications": [

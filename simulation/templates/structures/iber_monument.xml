@@ -3,21 +3,21 @@
   <Auras>
     <Aura1>
       <Type>range</Type>
-      <Radius>50</Radius>
-      <Affects>Unit</Affects>
+      <Radius>60</Radius>
+      <Affects>Soldier</Affects>
       <Modifications>
         <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
         <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>		
       </Modifications>
       <AuraName>Monument Aura</AuraName>
-      <AuraDescription>Increases soldier attack by 10% in a radius of 50.</AuraDescription>	  
+      <AuraDescription>Nearby Soldiers +10% attack.</AuraDescription>	  
     </Aura1>
   </Auras>
   <BuildRestrictions>
     <Category>Monument</Category>
     <Distance>
       <FromClass>Monument</FromClass>
-      <MinDistance>80</MinDistance>
+      <MinDistance>120</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Cost>
@@ -25,7 +25,7 @@
     <Resources>
       <food>0</food>
       <wood>0</wood>
-      <stone>200</stone>
+      <stone>100</stone>
       <metal>0</metal>
     </Resources>
   </Cost>

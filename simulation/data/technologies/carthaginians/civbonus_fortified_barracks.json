@@ -3,6 +3,6 @@
 	"autoResearch": true,	
 	"requirements": {"civ": "cart"},
 	"modifications": [{"value": "Health/Max", "multiply": 1.25}],
-	"affects": ["Barracks", "Fortress", "StoneWall","Stables"],
+	"affects": ["Barracks", "Fortress", "StoneWall"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

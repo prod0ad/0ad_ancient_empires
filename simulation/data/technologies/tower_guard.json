@@ -1,14 +1,12 @@
 {
 	"genericName": "Guard Tower",
-	"description": "Reinforce the foundations in preparation of an attack.",
-	"cost": {"food": 125, "wood": 175, "stone": 0, "metal": 0},
+	"cost": {"food": 150, "wood": 150, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "defense_tower.png",
 	"researchTime": 40,
-	"tooltip": "Defense Towers +15% hit points and range.",
-	"modifications": [{"value": "Health/Max", "multiply": 1.15},
-		{"value": "Attack/Ranged/MaxRange", "multiply": 1.15}],
+	"tooltip": "Defense Towers +20% hit points.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.2}],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

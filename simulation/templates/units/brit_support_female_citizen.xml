@@ -13,7 +13,7 @@
     <Civ>brit</Civ>
     <SpecificName>Villager</SpecificName>
     <GenericName>Villager</GenericName>
-    <Icon>units/celt_support_female_citizen.png</Icon>
+    <Icon>units/ae_celt_villager.png</Icon>
 	<SelectionGroupName>units/brit_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

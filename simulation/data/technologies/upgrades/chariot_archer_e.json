@@ -1,11 +1,11 @@
 {
 	"genericName": "Elite Chariot Archer",
-	"cost": {"food": 0, "wood": 525, "stone": 0, "metal": 375},
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "chariot_archer_e.png",
-	"researchTime": 40,
-	"supersedes": "upgrades/cavalry_archer_a",
+	"researchTime": 60,
+	"supersedes": "upgrades/chariot_archer_a",
 	"tooltip": "Chariot Archers +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}		

@@ -96,8 +96,8 @@ var startAngle = randFloat(0, TWO_PI);
 for (var i = 0; i < numPlayers; i++)
 {
 	playerAngle[i] = startAngle + i*TWO_PI/numPlayers;
-	playerX[i] = 0.5 + 0.3*cos(playerAngle[i]);
-	playerZ[i] = 0.5 + 0.3*sin(playerAngle[i]);
+	playerX[i] = 0.5 + 0.27*cos(playerAngle[i]);
+	playerZ[i] = 0.5 + 0.27*sin(playerAngle[i]);
 }
 
 for (var i = 0; i < numPlayers; i++)
@@ -129,7 +129,7 @@ for (var i = 0; i < numPlayers; i++)
 	// create animals
 
 		var aAngle = randFloat(0, TWO_PI);
-		var aDist = 7;
+		var aDist = 8;
 		var aX = round(fx + aDist * cos(aAngle));
 		var aZ = round(fz + aDist * sin(aAngle));
 		var group = new SimpleGroup(
@@ -218,7 +218,7 @@ createMines(
  [
   [new SimpleObject(oMetalSmall, 4,4, 2,3)]
  ],
- avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 35, clRock, 10, clHill, 1, clBaseResource, 30),
+ avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 30, clRock, 10, clHill, 1, clBaseResource, 30),
  clMetal
 )
 
@@ -228,7 +228,7 @@ createMines(
  [
   [new SimpleObject(oStoneSmall, 4,4, 2,3)]
  ],
- avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 10, clRock, 35, clHill, 1, clBaseResource, 30),
+ avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 10, clRock, 30, clHill, 1, clBaseResource, 30),
  clRock
 )
 
@@ -245,13 +245,13 @@ createFood
   scaleByMapSize(4,16),
   scaleByMapSize(3,12)
  ],
- avoidClasses(clForest, 1, clPlayer, 22, clWater, 2, clMetal, 1, clRock, 1, clFood, 15, clHill, 1, clBaseResource, 10) 
+ avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 5, clRock, 5, clFood, 15, clHill, 1, clBaseResource, 10) 
 );
 
 // create forests
 createForests(
  [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
- avoidClasses(clPlayer, 20, clWater, 0, clForest, 30, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2, clFood, 1), 
+ avoidClasses(clPlayer, 17, clWater, 0, clForest, 30, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2, clFood, 1), 
  clForest,
  0.5,
  random_terrain
@@ -304,7 +304,7 @@ RMS.SetProgress(85);
 
 // create straggler trees
 var types = [oTree1, oTree2, oTree4, oTree5];	// some variation
-createStragglerTrees(types, avoidClasses(clForest, 1, clWater, 2, clPlayer, 20, clMetal, 15, clRock, 15, clFood, 10, clHill, 1, clBaseResource, 15));
+createStragglerTrees(types, avoidClasses(clForest, 1, clWater, 2, clPlayer, 17, clMetal, 15, clRock, 15, clFood, 10, clHill, 1, clBaseResource, 15));
 
 // Export map data
 ExportMap();

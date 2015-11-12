@@ -3,13 +3,13 @@
 	"autoResearch": true,
 	"description": "Even more so than other Successors, the Seleucids founded a huge number of cities, more often than not named Antiochia or Seleucia.",
 	"requirements": {"civ": "sele"},
-	"tooltip": "Civil Centres -15% resource cost and build time",
+	"tooltip": "Civil Centres -20% resource cost and build time",
 	"modifications": [
-	    {"value": "Cost/BuildTime", "multiply": 0.85},
-	    {"value": "Cost/Resources/food", "multiply": 0.85},		
-	    {"value": "Cost/Resources/wood", "multiply": 0.85},
-	    {"value": "Cost/Resources/metal", "multiply": 0.85},
-		{"value": "Cost/Resources/stone", "multiply": 0.85}	
+	    {"value": "Cost/BuildTime", "multiply": 0.80},
+	    {"value": "Cost/Resources/food", "multiply": 0.80},		
+	    {"value": "Cost/Resources/wood", "multiply": 0.80},
+	    {"value": "Cost/Resources/metal", "multiply": 0.80},
+		{"value": "Cost/Resources/stone", "multiply": 0.80}	
 	],
 	"affects": ["CivilCentre"]
 }

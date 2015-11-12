@@ -6,7 +6,7 @@
     <GenericName>Slinger</GenericName>
     <SpecificName>Eastern Slinger</SpecificName>
     <History></History>
-    <Icon>units/hele_infantry_slinger.png</Icon>
+    <Icon>units/ae_pers_slinger.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Promotion>

@@ -19,7 +19,7 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>70</food>
+      <food>80</food>
       <wood>0</wood>
 	  <metal>40</metal>
       <stone>0</stone>	  
@@ -27,7 +27,7 @@
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>7</food>
+    <food>8</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>4</metal>
@@ -38,7 +38,7 @@
   <UnitMotion>
     <WalkSpeed>11.5</WalkSpeed>
     <Run>
-      <Speed>11.5</Speed>
+      <Speed>12.5</Speed>
     </Run>		
   </UnitMotion>
   <Vision>
@@ -50,7 +50,7 @@
     <SpecificName>Brihent</SpecificName>
 	<SelectionGroupName>units/gaul_champion_cavalry</SelectionGroupName>
 	<Tooltip>Versatile Heavy Cavalry.</Tooltip>		
-    <Icon>units/celt_champion_cavalry_gaul.png</Icon>
+    <Icon>units/ae_gaul_brihent.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/celts/champion_unit_2.xml</Actor>

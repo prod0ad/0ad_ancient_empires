@@ -8,26 +8,26 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>24.0</Pierce>
-      <Crush>0</Crush>
+      <Pierce>6.0</Pierce>
+      <Crush>6.0</Crush>
       <MaxRange>50.0</MaxRange>
       <MinRange>8.0</MinRange>
-      <ElevationBonus>10</ElevationBonus>
+      <ElevationBonus>0</ElevationBonus>
       <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>4000</PrepareTime>
-      <RepeatTime>4000</RepeatTime>
-      <Spread>2.0</Spread>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <Spread>1.4</Spread>
       <PreferredClasses datatype="tokens">Structure</PreferredClasses>
 	  <Bonuses>
-		<AntiChampion>
+		<AntiStructure>
 		  <Classes>Structure</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiChampion>
-		<AntiChampion>
+		  <Multiplier>1.0</Multiplier>
+		</AntiStructure>
+		<AntiMechanical>
 		  <Classes>Mechanical</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiChampion>		
-	  </Bonuses>		  
+		  <Multiplier>1.0</Multiplier>
+		</AntiMechanical>		
+	  </Bonuses>	  
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -62,7 +62,7 @@
     <GenericName>Siege Tower</GenericName>
 	<Classes datatype="tokens">Ranged SiegeTower</Classes>
     <RequiredTechnology>phase_imperial</RequiredTechnology>	
-    <Tooltip>Massive Siege Tower. Deals x1.5 damage to Structures and Mechanical Units. Garrison up to 10 infantry units to increase arrow count. </Tooltip>
+    <Tooltip>Massive Siege Tower. Garrison up to 10 infantry units to increase arrow count.</Tooltip>
   </Identity>
   <Obstruction>
     <Unit radius="4.0"/>
@@ -92,6 +92,6 @@
     <WalkSpeed>5</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>90</Range>
+    <Range>75</Range>
   </Vision>
 </Entity>

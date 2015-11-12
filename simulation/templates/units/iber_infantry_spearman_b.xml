@@ -4,7 +4,7 @@
     <Civ>iber</Civ>
 	<SelectionGroupName>units/iber_infantry_spearman_b</SelectionGroupName>
     <SpecificName>Iberian Spearman</SpecificName>
-    <Icon>units/iber_infantry_spearman.png</Icon>
+    <Icon>units/ae_iber_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/iber_infantry_spearman_a</Entity>

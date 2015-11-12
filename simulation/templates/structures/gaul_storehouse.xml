@@ -3,6 +3,12 @@
   <Identity>
     <Civ>gaul</Civ>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -storehouse_stonemining_03	  
+    </Technologies>
+  </ProductionQueue>     
   <VisualActor>
     <Actor>structures/celts/storehouse.xml</Actor>
   </VisualActor>

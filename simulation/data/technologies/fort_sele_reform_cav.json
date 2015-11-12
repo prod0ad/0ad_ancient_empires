@@ -1,11 +1,11 @@
 {
 	"genericName": "Cavalry Reform",
 	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 400},
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "sele"}]},
+	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "armor_plates_cavalry.png",
-	"researchTime": 40,
-	"tooltip": "Catafracts and Heavy Cavalry +1 all armor types.",
+	"researchTime": 50,
+	"tooltip": "Catafracts and Heavy Cavalry +1 all armor levels.",
 	"modifications": [
 	    {"value": "Armour/Hack", "add": 1.0},
         {"value": "Armour/Pierce", "add": 1.0},		

@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/rome_infantry_spearman_e">
-  <Cost>
-    <BuildTime>7.5</BuildTime>
-    <Resources>
-      <food>0</food>
-      <wood>0</wood>
-      <stone>0</stone>
-      <metal>65</metal>
-    </Resources>
-  </Cost> 
   <Identity>
     <SelectionGroupName>units/rome_infantry_spearman_u</SelectionGroupName>  
-	<VisibleClasses datatype="tokens">Mercenary -Levy -Premarian -Legion</VisibleClasses>	
-    <Icon>units/celt_infantry_spearman.png</Icon>	
-    <SpecificName>Auxiliary Spearman</SpecificName>	
-    <RequiredTechnology>fort_rome_reform</RequiredTechnology>		
+    <Icon>units/ae_rome_auxilia.png</Icon>	
+    <SpecificName>Auxiliary Spearman</SpecificName>		
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

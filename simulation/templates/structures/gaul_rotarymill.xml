@@ -2,20 +2,18 @@
 <Entity parent="template_structure_special">
   <Auras>
     <Aura1>
-      <Type>range</Type>
-      <Radius>90</Radius>
+      <Type>global</Type>
       <Affects>Worker</Affects>
-      <AffectedPlayers>Player Ally</AffectedPlayers>
+      <AffectedPlayers>Player</AffectedPlayers>
       <Modifications>
-        <ResourceGatherer.Rates.food..grain> <Multiply>1.25</Multiply> </ResourceGatherer.Rates.food..grain>
+        <ResourceGatherer.Rates.food..grain> <Multiply>1.20</Multiply> </ResourceGatherer.Rates.food..grain>
       </Modifications>
       <AuraName>Farming bonus</AuraName>
-      <AuraDescription>Nearby farmers work 25% faster. Range: 90.</AuraDescription>
+      <AuraDescription>Villagers +20% farming rate.</AuraDescription>
     </Aura1>
   </Auras>
   <Cost>
     <BuildTime>120</BuildTime>
-    <PopulationBonus>5</PopulationBonus>
     <Resources>
       <food>0</food>
       <wood>200</wood>
@@ -29,10 +27,10 @@
   </Footprint>
   <GarrisonHolder disable=""/>
   <Identity>
-    <Civ>gaul</Civ>
+    <Civ>Gaul</Civ>
     <GenericName>Rotary Mill</GenericName>
     <SpecificName>Rotary Mill</SpecificName>
-    <Tooltip>Increases nearby farming output +25%.</Tooltip>
+    <Tooltip>Increases Villager farming rates.</Tooltip>
     <Icon>structures/rotarymill.png</Icon>
   </Identity>
   <Obstruction>

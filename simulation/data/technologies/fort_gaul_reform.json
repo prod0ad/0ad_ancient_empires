@@ -1,11 +1,10 @@
 {
 	"genericName": "Late Armies (Reform)",
-	"description": "Late Gallic armies included an increased number of men armored in chainmail.",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Solduros can be trained at the barracks and Gallic Nobles at the Stables.",
+	"tooltip": "Solduros can be trained at the barracks and Brihent at the Stables.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

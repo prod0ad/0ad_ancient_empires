@@ -3,10 +3,7 @@
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
   </Identity>
-  <Promotion>
-    <Entity>units/maur_infantry_swordsman_u</Entity>
-    <RequiredXp>9999</RequiredXp>
-  </Promotion>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/mauryans/champion_maceman.xml</Actor>
   </VisualActor>

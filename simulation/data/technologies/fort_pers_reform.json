@@ -1,15 +1,15 @@
 {
 	"genericName": "Military Reforms",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 900},
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 700},
 	"requirements": {"tech":"phase_imperial"},	
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "All Infantry and Cavarly units +1 all armor types.",
+	"tooltip": "Soldiers +1 all armor types.",
 	"modifications": [
 	    {"value": "Armour/Hack", "add": 1.0},
 	    {"value": "Armour/Crush", "add": 1.0},		
 		{"value": "Armour/Pierce", "add": 1.0}],
-	"affects": ["Soldier Infantry","Soldier Cavalry"],
+	"affects": ["Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -2,25 +2,53 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Blacksmith">
-      <mesh>structural/iber_blacksmith_struct.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
-<prop actor="props/structures/iberians/blacksmith_barrel.xml" attachpoint="iberbarrel"/>
-<prop actor="props/structures/iberians/blacksmith_barrels.xml" attachpoint="iberbarrels"/>
-<prop actor="props/structures/iberians/blacksmith_bucket.xml" attachpoint="ibercube"/>
-<prop actor="props/structures/iberians/blacksmith_shields1.xml" attachpoint="ibershields1"/>
-<prop actor="props/structures/iberians/blacksmith_shields2.xml" attachpoint="ibershields2"/>
-<prop actor="structures/iberians/siege_ram.xml" attachpoint="iberwheel"/>
-
+    <variant frequency="100" name="Roman Army Camp">
+      <animations>
+        <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/ptol_settlement_palisade.dae</mesh>
+      <props>   
+        <prop actor="props/structures/ptolemies/settlement_entrance.xml" attachpoint="root"/>	  
+        <prop actor="props/special/eyecandy/handcart_1.xml" attachpoint="outpost" minheight="-20" maxheight="20"/>
+        <prop actor="props/units/rome_scorpio_packed_h.xml" attachpoint="greektent" minheight="-20" maxheight="20"/>	
+        <prop actor="props/special/eyecandy/awning_wood_large.xml" attachpoint="greektent" minheight="-20" maxheight="20"/>		
+        <prop actor="props/structures/romans/rome_tent.xml" attachpoint="campfire"/>
+        <prop actor="props/units/hele_rock_packed.xml" attachpoint="bigtent" minheight="-20" maxheight="20"/>		
+        <prop actor="props/special/eyecandy/wood_pile.xml" attachpoint="arabtent" minheight="-20" maxheight="20"/>		
+        <prop actor="props/units/hele_spear_packed.xml" attachpoint="horse" minheight="-20" maxheight="20"/>        
+        <prop actor="props/special/eyecandy/awning_wood_small.xml" attachpoint="horse" minheight="-20" maxheight="20"/>       		
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
       </props>
       <textures>
-        <texture file="structural/iber_struct.dds" name="baseTex"/>
-        <texture file="structural/iber_struct_norm.png" name="normTex"/>
-        <texture file="structural/iber_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/iber_blacksmith.png" name="aoTex"/>
+        <texture file="props/palisade_main.png" name="baseTex"/>
+        <texture file="props/palisade_main_norm.png" name="normTex"/>
+        <texture file="props/palisade_main_spec.png" name="specTex"/>
+        <texture file="structural/ao/ptol_settlement.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans_ao_spec.xml</material>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/ptolemies/settlement_entrance.xml" attachpoint="root"/>	  
+        <prop actor="units/ptolemies/siege_spear.xml" attachpoint="outpost" minheight="-20" maxheight="20"/>
+        <prop actor="props/structures/ptolemies/settlement_greektent.xml" attachpoint="greektent" minheight="-20" maxheight="20"/>
+        <prop actor="props/special/eyecandy/table_rectangle.xml" attachpoint="bigtent" minheight="-20" maxheight="20"/>     		
+        <prop actor="props/special/eyecandy/dummy_a.xml" attachpoint="horse" minheight="-20" maxheight="20"/>        
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

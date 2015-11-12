@@ -4,7 +4,7 @@
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "cavalry_heavy_e.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"supersedes": "upgrades/cavalry_scout_a",
 	"tooltip": "Light Cavalry +10% attack and vision, +15% hit points.",
 	"modifications": [

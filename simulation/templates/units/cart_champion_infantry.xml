@@ -61,7 +61,7 @@
     <Civ>cart</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Sacred Band Infantry</SpecificName>
-    <Icon>units/cart_champion_infantry.png</Icon>	
+    <Icon>units/ae_cart_champion_spearman.png</Icon>	
 	<Tooltip>Fast trained, expensive elite spearman. Deals x1.5 damage to cavalry, camel and elephant units.</Tooltip>		
   </Identity>
   <VisualActor>

@@ -26,12 +26,14 @@
       <mesh>skeletal/horse.pmd</mesh>
       <props>
         <prop actor="units/seleucids/cavalry_spearman_e_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
+        <prop actor="props/units/horse/pers_peytral.xml" attachpoint="chest"/>
+        <prop actor="props/units/horse/crest_1.xml" attachpoint="head"/>
+        <prop actor="props/units/horse_back_blanket.xml" attachpoint="rider"/>		
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="hyppikon-horse-texture-plain">
+    <variant frequency="2" name="hyppikon-horse-texture-plain">
       <textures><texture file="skeletal/horse_hele_a_1.dds" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="hyppikon-horse-texture-stripe">

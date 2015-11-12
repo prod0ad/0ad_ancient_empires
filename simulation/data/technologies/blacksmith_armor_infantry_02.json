@@ -1,11 +1,11 @@
 {
 	"genericName": "Advanced Armor Forging",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
 	"supersedes": "blacksmith_armor_infantry_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_plates_gold.png",
-	"researchTime": 40,
+	"icon": "armor_plates_swords.png",
+	"researchTime": 50,
 	"tooltip": "Melee Infantry +1 all armor levels.",
 	"modifications": [
 	    {"value": "Armour/Hack", "add": 1.0},

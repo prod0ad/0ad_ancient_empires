@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "armor_pteruges.png",
 	"researchTime": 180,
-	"tooltip": "Spartan Royal Guard +10% speed.",
+	"tooltip": "Royal Guard +10% speed.",
 	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.1}],
 	"affects": ["Spear Unique"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -1,12 +1,12 @@
 {
 	"genericName": "Polibyan Legions",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "upgrade_elite.png",
-	"researchTime": 60,
+	"researchTime": 50,
 	"supersedes": "upgrades/legions_a",
-	"tooltip": "Increases Legion Barracks unit attack, hit points and vision by 10%.",
+	"tooltip": "Barracks units +10% attack, hit points and vision.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.10},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.10},

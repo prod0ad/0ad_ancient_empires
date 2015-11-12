@@ -1,11 +1,10 @@
 {
 	"genericName": "Trimarchisia",
-	"description": "A special tactic used by gallic horsemen involving extra horses and servants allowing them to rest while maintaining constant pressure on the enemy.",
-	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 250},
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "horse_rider.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"tooltip": "Cavalry units +0.9 hit point regeneration per second.",
 	"modifications": [{"value": "Health/RegenRate", "add": 0.9}],
 	"affects": ["Cavalry"],

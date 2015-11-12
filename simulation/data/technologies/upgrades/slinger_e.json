@@ -1,10 +1,10 @@
 {
 	"genericName": "Elite Slingers",
-	"cost": {"food": 0, "wood": 0, "stone": 450, "metal": 450},
+	"cost": {"food": 0, "wood": 0, "stone": 300, "metal": 300},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "slinger_e.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"supersedes": "upgrades/slinger_a",
 	"tooltip": "Slingers +10% attack, hit points and vision.",
 	"modifications": [

@@ -15,13 +15,6 @@
     <BarHeight>0.6</BarHeight>
     <HeightOffset>19.0</HeightOffset>
   </StatusBars>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-	  -tower_guard
-	  -tower_keep	
-      -tower_crenellations	  
-    </Technologies>
-  </ProductionQueue>  
   <VisualActor>
     <Actor>structures/romans/scout_tower.xml</Actor>
   </VisualActor>

@@ -16,66 +16,77 @@
 			"Technologies":
 			[
 				{
-			         "Name":"Machimoi Epilektoi",
-			         "History":"Machimoi Epilektoi were the picked soldiers among the machimoi.",
+			         "Name":"- Machimoi Epilektoi",
+			         "History":"",
 			         "Description":"Machimos Phalangites +10% attack, hit points and vision."
 		        },										
 				{
-			         "Name":"Mercenary Army",
-			         "History":"The Ptolemaic Dynasty relied on large numbers of mercenaries for the bulk of its military force, mainly because the loyalty of native Egyptian units was often suspect. Indeed, during one native uprising, Upper Egypt was lost to the Ptolemies for decades. Mercenaries were often battle-hardened and their loyalty can be bought, sometimes cheaply, sometimes not cheaply. This was of no matter, since Egypt under the Ptolemies was so prosperous as to be the richest of Alexander's successor states.",
-			         "Description":"Mercenaries -50% train time."
+			         "Name":"- Mercenary Army",
+			         "History":"",
+			         "Description":"Mercenaries -75% train time."
 		        },
 				{
-			         "Name":"Ptolemaic Garrisons",
-			         "History":"The Ptolemies relied extensively on fortified garrisons to protect their overseas and distant possessions.",
+			         "Name":"- Ptolemaic Garrisons",
+			         "History":"",
 			         "Description":"Fortresses +30% arrows per garrisoned soldier."
 		        }
 			],
 			"Heroes":
 			[
 				{
-					"Name":"Machimos Phalangites",
+					"Name":"- Machimos Phalangites",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Fast trained pikeman. Deals x2 damage to cavalry, camel and elephant units."
+					"History":"",
+			         "Description":"Unique Unit, pike infantry."
 				}			
 			]
 		}
 	],
 	"CivBonuses":
-	[
+	[	
 		{
-			"Name":"Ptolemaic Agema",
-			"History":"The royal guard cavalry of ptolemaic kings.",
-			"Description":"Stronger replacement for Heavy Cavalry."
-		},		
-		{
-			"Name":"Nile Delta",
-			"History":"The Nile Delta had rich soil for farming, due to centuries of seasonal floods from the Nile depositing rich silt across the landscape.",
-			"Description":"Workers +30% farming rate."
+			"Name":"- Villagers",
+			"History":"",
+			"Description":"+30% farming rate."
 		},	
 		{
-			"Name":"Cult Of Isis.",
-			"History":"The Macedonian-Greek rulers of the Ptolemaic dynasty observed many ancient Egyptian traditions in order to satiate the local populace and ingratiate themselves to the powerful priestly class in the country.",
-			"Description":"Temple technologies -50% cost and research time."
+			"Name":"- Temple Technologies",
+			"History":"",
+			"Description":"-50% cost and research time."
 		},
 		{
-			"Name":"Clay Structures",
-			"History":"Clay construction provided cheap structures for the Egyptians.",
-			"Description":"Houses, Farmsteads, Corrals and Storehouses no resource cost, increased build time."
+			"Name":"- Heavy Cavalry",
+			"History":"",
+			"Description":"+20% hit points."
+		},			
+		{
+			"Name":"- Houses, Farmsteads, Corrals, Storehouses",
+			"History":"",
+			"Description":"No resource cost, increased build time."
 		}
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"Centre Of Knowledge",
-			"History":"Egypt was a net exporter of grain, so much so that large cities such as Athens, Antioch, and Rome came to rely upon Egyptian grain in order to feed their masses.",
-			"Description":"Ships and Siege Units -10% resource cost (currently not shared)."
+			"Name":"- Ships, Siege Units",
+			"History":"",
+			"Description":"-10% cost (currently not shared)."
 		}
 	],
 	"Structures":
 	[
+		{
+			"Name":"- Academy",
+			"History":"",			
+			"Description": "Researches academic technologies with defence, military and siege benefits."
+		}, 	
+		{
+			"Name":"- Lighthouse",
+			"History":"",			
+			"Description": "Has large vision and increases the vision of friendly ships by 50%."
+		} 			
 	],
 	"StartEntities":
 	[

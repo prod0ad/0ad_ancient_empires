@@ -11,7 +11,7 @@
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
-      <RepeatTime>1500</RepeatTime>
+      <RepeatTime>1000</RepeatTime>
 	  <Bonuses>	  
 	    <AntiStructure>
 		  <Classes>Structure</Classes>
@@ -56,7 +56,7 @@
     <SpecificName>Solduros</SpecificName>
 	<SelectionGroupName>units/gaul_champion_infantry</SelectionGroupName>
 	<Tooltip>Heavy infantry swordsman. Deals x1.5 damage to structures.</Tooltip>			
-    <Icon>units/celt_champion_infantry_gaul.png</Icon>
+    <Icon>units/ae_gaul_solduros.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/celts/champion_unit_1.xml</Actor>

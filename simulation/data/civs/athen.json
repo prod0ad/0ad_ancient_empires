@@ -17,22 +17,17 @@
 			"Technologies":
 			[
 				{
-					"Name":"Iphicratean Reforms",
+					"Name":"- Iphicratean Reforms",
 					"History":"",
 					"Description":"Infantry Units +10% speed."
+				},				
+				{
+					"Name":"- Imperialism",
+					"History":"",
+					"Description":"Civil Centres generate 1 metal every 2 seconds."
 				},
 				{
-					"Name":"Citizen Levy",
-					"History":"",
-					"Description":"Barracks units -20% cost."
-				},					
-				{
-					"Name":"Imperialism",
-					"History":"",
-					"Description":"Civil Centres provide a small tickle of metal."
-				},
-				{
-					"Name":"Chorigoi",
+					"Name":"- Chorigoi",
 					"History":"",
 					"Description":"Triremes -50% metal cost."
 				}
@@ -40,15 +35,15 @@
 			"Heroes":
 			[
 				{
-					"Name":"Reformed Hoplite",
+					"Name":"- Reformed Hoplite",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Unique Unit, fast moving 'anti-cavalry' infantry."
+					"Description":"Unique Unit, spear infantry."
 				},
 				{
-					"Name":"Hoplite",
+					"Name":"- Hoplite",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
@@ -61,63 +56,58 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"- Town, City, Imperial Phase -10% cost.",
+			"Name":"- Town, City, Imperial Phase",
 			"History":"",
-			"Description":""
+			"Description":"-20% cost."
 		},		
 		{
-			"Name":"- Villagers +15% metal mining rate.",
+			"Name":"- Villagers",
 			"History":"",
-			"Description":""
-		},	
+			"Description":"+15% metal mining rate."
+		},
 		{
-			"Name":"- Ranged Infantry +10% attack.",
+			"Name":"- Special Structures",
 			"History":"",
-			"Description":""
+			"Description":"-50% cost and build time."
 		},		
 		{
-			"Name":"- Warships -20% build time.",
+			"Name":"- Stone Walls",
 			"History":"",
-			"Description":""
-		},
-		{
-			"Name":"- Structures +10% hit points, vision and territory influence.",
-			"History":"",
-			"Description":""
-		},
-		{
-			"Name":"- Stone Walls -50% build time, buildable in neutral territory.",
-			"History":"",
-			"Description":""
+			"Description":"-50% build time, buildable in neutral territory."
 		}				
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"Special Structures -50% cost and build time (currently not shared).",
+			"Name":"- Warships",
 			"History":"",
-			"Description":""
+			"Description":"-20% build time (currently not shared)."
 		}
 	],
 	"Structures":
 	[
 		{
-			"Name":"Academy",
+			"Name":"- Academy",
 			"History":"",			
 			"Description": "Researches academic technologies with defence, military and siege benefits."
-		} 	
+		}, 	
+		{
+			"Name":"- Theatron",
+			"History":"",			
+			"Description": "Culture Aura: Structures +25% vision and territory influence."
+		} 		
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/athen_civil_centre"
+			"Template": "structures/{civ}_civil_centre"
 		},
 		{
-			"Template": "units/athen_support_female_citizen",
+			"Template": "units/{civ}_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/athen_cavalry_swordsman_b"
+			"Template": "units/{civ}_cavalry_swordsman_b"
 		}
 	],
 	"Formations":
@@ -154,7 +144,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/athen_infantry_slinger_b",
+		"skirmish/units/default_infantry_ranged_b": "units/{civ}_infantry_javelinist_b",
 		"skirmish/structures/default_house_10": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

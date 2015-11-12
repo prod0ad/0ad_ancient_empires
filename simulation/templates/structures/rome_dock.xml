@@ -19,6 +19,9 @@
       units/rome_ship_trireme
       units/rome_ship_quinquereme
     </Entities>
+    <Technologies datatype="tokens">
+	  -dock_ship_cost	  
+    </Technologies>	
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/romans/dock.xml</Actor>

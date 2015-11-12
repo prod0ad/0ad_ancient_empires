@@ -24,12 +24,6 @@
     <variant frequency="1" name="clothing-01">
       <textures><texture file="skeletal/celt_isw_a_01.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="clothing-02">
-      <textures><texture file="skeletal/celt_isw_a_04.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="clothing-03">
-      <textures><texture file="skeletal/celt_isw_a_07.dds" name="baseTex"/></textures>
-    </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>

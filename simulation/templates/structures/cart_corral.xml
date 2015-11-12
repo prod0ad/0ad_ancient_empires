@@ -13,10 +13,7 @@
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      corral_stockbreeding
-      corral_cost_horse
-      corral_cost_camel
-      corral_cost_elephant 	  
+      corral_stockbreeding 
     </Technologies>
   </ProductionQueue>
   <Obstruction>

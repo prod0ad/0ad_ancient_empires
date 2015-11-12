@@ -1,16 +1,16 @@
 {
-	"genericName": "Woad Warriors",
+	"genericName": "Woad Raiders",
 	"description": ".",
-	"cost": { "food": 500, "wood": 0, "stone": 0, "metal": 400 },
-	"requirements": {"tech": "phase_imperial"},
-	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"cost": { "food": 400, "wood": 0, "stone": 0, "metal": 200 },
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "clenched_fist.png",
-	"researchTime": 40,
-	"tooltip": "Infantry Units -15% attack rate.",
-		"modifications": [
-	    {"value": "Attack/Melee/RepeatTime", "multiply": 0.85},
-	    {"value": "Attack/Ranged/RepeatTime", "multiply": 0.85}
+	"researchTime": 50,
+	"tooltip": "Melee infantry +1 crush attack.",
+	"modifications": 
+	[
+		{"value": "Attack/Melee/Crush", "add": 1}
 	],
-		"affects": ["Infantry"],
+	"affects": ["Melee Infantry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

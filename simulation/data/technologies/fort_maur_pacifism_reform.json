@@ -1,12 +1,11 @@
 {
-	"genericName": "Pacifism Reform",
-	"description": ".",
-	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 300},
-	"requirements": {"all": [{"tech": "phase_imperial"}, {"civ": "maur"}]},
+	"genericName": "Pacifism",
+	"cost": {"food": 700, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 60,
-	"tooltip": "Workers +15% all gather rates, Levy Infantry -10% hit points and attack.",	
+	"tooltip": "Workers +20% all gather rates, Infantry -10% hit points and attack.",	
 	"modifications": [
 		{"value": "Health/Max", "multiply": 0.9},
 		{"value": "Attack/Melee/Hack", "multiply": 0.9},
@@ -15,7 +14,7 @@
 		{"value": "Attack/Ranged/Hack", "multiply": 0.9},
 		{"value": "Attack/Ranged/Pierce", "multiply": 0.9},
 		{"value": "Attack/Ranged/Crush", "multiply": 0.9},
-		{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.15}		
+		{"value": "ResourceGatherer/BaseSpeed", "multiply": 1.20}		
 	],
 	"affects": ["Levy Soldier Infantry","Worker"]
 }

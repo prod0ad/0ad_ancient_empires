@@ -2,7 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>ptol</Civ>
-    <SelectionGroupName>units/ptol_infantry_spearman__b</SelectionGroupName>
+    <SelectionGroupName>units/ptol_infantry_spearman_b</SelectionGroupName>
 	<GenericName>Spearman</GenericName>
     <SpecificName>Thureophoros</SpecificName>
     <Icon>units/ae_hele_thureophoros.png</Icon>

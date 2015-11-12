@@ -38,7 +38,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_champion_infantry 	 	  
+      units/{civ}_champion_infantry_archer 	 	  
     </Entities>
     <Technologies datatype="tokens">
       fort_pers_immortals

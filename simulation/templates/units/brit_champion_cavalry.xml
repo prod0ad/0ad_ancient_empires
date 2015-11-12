@@ -58,7 +58,7 @@
     <SpecificName>Celtic Chariot</SpecificName>
 	<SelectionGroupName>units/brit_champion_cavalry</SelectionGroupName>
 	<Tooltip>Versatile chariot skirmisher.</Tooltip>	
-    <Icon>units/celt_champion_cavalry_brit.png</Icon>
+    <Icon>units/ae_celt_chariot.png</Icon>
   </Identity>
   <Obstruction>
     <Unit radius="1.3"/>

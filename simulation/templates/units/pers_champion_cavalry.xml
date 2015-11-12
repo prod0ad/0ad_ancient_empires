@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>24</Hack>
+      <Hack>18</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -25,18 +25,18 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>50</food>
+      <food>70</food>
       <wood>0</wood>
-	  <metal>80</metal>
+	  <metal>90</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>5</food>
+    <food>7</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>8</metal>
+    <metal>9</metal>
   </Loot>  
   <Health>
     <Max>180</Max>
@@ -44,7 +44,7 @@
   <UnitMotion>
     <WalkSpeed>10.5</WalkSpeed>
     <Run>
-      <Speed>10.5</Speed>
+      <Speed>11.5</Speed>
     </Run>		
   </UnitMotion>
   <Vision>
@@ -52,9 +52,9 @@
   </Vision>   
   <Identity>
     <Civ>pers</Civ>
-    <SpecificName>Khuveshavagan</SpecificName>
+    <SpecificName>Kinsman</SpecificName>
 	<GenericName>Unique Unit</GenericName>	
-    <Icon>units/pers_champion_cavalry.png</Icon>
+    <Icon>units/ae_pers_kinsman.png</Icon>
 	<Tooltip>Powerful melee cavalry. Deals x1.5 damage to sword infantry units.</Tooltip>		
   </Identity>
   <VisualActor>

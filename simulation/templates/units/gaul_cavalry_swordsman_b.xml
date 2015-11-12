@@ -4,7 +4,7 @@
     <Civ>gaul</Civ>
 	<SelectionGroupName>units/gaul_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Gallic Horseman</SpecificName>	
-    <Icon>units/celt_cavalry_swordsman.png</Icon>
+    <Icon>units/ae_celt_epos.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gaul_cavalry_swordsman_a</Entity>

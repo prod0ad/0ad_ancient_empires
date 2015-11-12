@@ -5,7 +5,7 @@
 	<SelectionGroupName>units/maur_infantry_swordsman_b</SelectionGroupName>
     <GenericName>Swordsman</GenericName>
     <SpecificName>Indian Swordsman</SpecificName>
-    <Icon>units/maur_infantry_swordsman.png</Icon>
+    <Icon>units/ae_maur_swordsman.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

@@ -5,7 +5,7 @@
 	<SelectionGroupName>units/gaul_infantry_javelinist_b</SelectionGroupName>
     <SpecificName>Gallic Skirmisher</SpecificName>
     <GenericName>Skirmisher</GenericName>		
-    <Icon>units/celt_infantry_javelinist.png</Icon>
+    <Icon>units/ae_celt_skirmisher.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>			
   </Identity>
   <Promotion>

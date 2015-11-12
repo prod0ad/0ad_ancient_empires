@@ -4,7 +4,7 @@
     <Civ>sele</Civ>
     <SelectionGroupName>units/sele_infantry_pikeman_b</SelectionGroupName>
 	<GenericName>Pikeman</GenericName>
-    <SpecificName>Chalkaspides</SpecificName>
+    <SpecificName>Chalkaspis</SpecificName>
     <Icon>units/ae_sele_pikeman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>

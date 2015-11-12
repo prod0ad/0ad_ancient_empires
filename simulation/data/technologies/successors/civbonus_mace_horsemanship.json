@@ -1,7 +1,7 @@
 {
 	"genericName": "Horsemanship",
 	"autoResearch": true,
-	"description": "Cavalry +10% attack and speed.",
+	"description": "Land units +10% attack and speed.",
 	"requirements": {"civ": "mace"},
 	"modifications": [
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},
@@ -13,5 +13,5 @@
 		{"value": "Attack/Melee/Pierce", "multiply": 1.1},
 		{"value": "Attack/Melee/Crush", "multiply": 1.1}
 	],
-	"affects": ["Cavalry"]
+	"affects": ["Soldier","Siege","Worker"]
 }

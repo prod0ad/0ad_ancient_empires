@@ -1,11 +1,10 @@
 {
 	"genericName": "Dictatorship",
-	"description": ".",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 500},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "political_face.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"tooltip": "Consular Bodyguard +10% attack and speed.",
 	"modifications": [
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.1},

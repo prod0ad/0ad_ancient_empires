@@ -1,0 +1,11 @@
+{
+	"genericName": "Expert Weapon Forging",
+	"autoResearch": true,
+	"requirements": {"all": [{"civ": "iber"},{ "class": "Blacksmith", "number": 1 },{"tech": "phase_imperial"}]},
+	"tooltip": "Melee Infantry and Cavalry +20% attack.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.2},
+		{"value": "Attack/Melee/Pierce", "multiply": 1.2},
+		{"value": "Attack/Melee/Crush", "multiply": 1.2}],
+	"affects": ["Melee Infantry","Melee Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

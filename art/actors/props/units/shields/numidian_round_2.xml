@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/shield/round_b_f.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/round_back.xml" attachpoint="back"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Shield-Numidian-Adv-s">
+      <textures><texture file="props/shield/kart_round_s.dds" name="baseTex"/></textures>
+    </variant>
+    <variant name="Shield-Numidian-Adv-a">
+      <textures><texture file="props/shield/kart_round_a.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

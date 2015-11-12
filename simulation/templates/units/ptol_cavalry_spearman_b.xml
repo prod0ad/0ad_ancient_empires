@@ -4,7 +4,7 @@
     <Civ>ptol</Civ>
 	<SelectionGroupName>units/ptol_cavalry_spearman_b</SelectionGroupName>
 	<GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Ptolemaic Agema</SpecificName>
+    <SpecificName>Agema Companion</SpecificName>
     <Icon>units/ae_ptol_agema.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

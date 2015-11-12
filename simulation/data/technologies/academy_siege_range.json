@@ -1,15 +1,15 @@
 {
-	"genericName": "Engineering",
+	"genericName": "Siege Engineers",
 	"description": "Immobile siege weapons are assembled and disassembled faster",
-	"cost": {"food": 275, "wood": 0, "stone": 0, "metal": 325},
-	"requirements": {"tech": "phase_city"},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "calipers.png",
-	"researchTime": 40,
-	"tooltip": "Ranged Siege Weapons and Heavy Warships +30% range and vision.",
+	"researchTime": 60,
+	"tooltip": "Stone Throwers, Bolt Shooters and Heavy Warships +25% range and vision.",
 	"modifications": [		
-	{"value": "Attack/Ranged/MaxRange", "multiply": 1.3},
-	{"value": "Vision/Range", "multiply": 1.3}	],
+	{"value": "Attack/Ranged/MaxRange", "multiply": 1.25},
+	{"value": "Vision/Range", "multiply": 1.25}	],
 	"affects": ["Siege Ranged","Warship Heavy"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

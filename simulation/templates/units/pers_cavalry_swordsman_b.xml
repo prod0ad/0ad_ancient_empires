@@ -4,7 +4,7 @@
     <Civ>pers</Civ>
 	<SelectionGroupName>units/pers_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Hyrcanian Cavalry</SpecificName>
-    <Icon>units/pers_cavalry_swordsman.png</Icon>
+    <Icon>units/ae_pers_scout.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pers_cavalry_swordsman_a</Entity>

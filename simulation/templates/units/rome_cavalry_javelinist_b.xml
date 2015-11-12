@@ -14,7 +14,7 @@
 	<SelectionGroupName>units/rome_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Cavalry Skirmisher</GenericName>
 	<SpecificName>Numidian Cavalry</SpecificName>
-    <Icon>units/cart_cavalry_javelinist.png</Icon>
+    <Icon>units/ae_merc_numidian.png</Icon>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>				
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

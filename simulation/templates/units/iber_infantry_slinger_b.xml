@@ -4,7 +4,7 @@
     <Civ>iber</Civ>
 	<SelectionGroupName>units/iber_infantry_slinger_b</SelectionGroupName>
     <SpecificName>Iberian Slinger</SpecificName>
-    <Icon>units/iber_infantry_slinger.png</Icon>
+    <Icon>units/ae_iber_slinger.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

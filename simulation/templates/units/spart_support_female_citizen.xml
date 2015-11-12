@@ -13,12 +13,12 @@
     <VisibleClasses datatype="tokens">Helot</VisibleClasses>	
     <Icon>units/ae_hele_villager.png</Icon>	
     <Tooltip>Slave worker. Gathers resources and builds structures.</Tooltip>
-    <SelectionGroupName>units/spart_support_slave</SelectionGroupName>
+    <SelectionGroupName>units/spart_support_female_citizen</SelectionGroupName>
   </Identity>
   <UnitAI> 
     <DefaultStance>standground</DefaultStance> 
   </UnitAI> 
   <VisualActor>
-    <Actor>units/spartans/slave.xml</Actor>
+    <Actor>units/spartans/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

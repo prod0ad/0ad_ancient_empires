@@ -4,7 +4,7 @@
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "spearman_e.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"supersedes": "upgrades/spearman_a",
 	"tooltip": "Spearmen +10% attack and vision, +15% hit points.",
 	"modifications": [

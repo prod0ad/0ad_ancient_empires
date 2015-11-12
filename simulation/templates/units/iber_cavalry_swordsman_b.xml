@@ -4,7 +4,7 @@
     <Civ>iber</Civ>
 	<SelectionGroupName>units/iber_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Iberian Horseman</SpecificName>
-    <Icon>units/iber_cavalry_spearman.png</Icon>
+    <Icon>units/ae_iber_light_cavalry.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/iber_cavalry_swordsman_a</Entity>

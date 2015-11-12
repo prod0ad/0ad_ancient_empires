@@ -18,41 +18,43 @@
 			"Technologies":
 			[
 				{
-					"Name": "Late Armies (Reform)",
-					"History": "Late Gallic armies included an increased number of men armored in chainmail.",
+					"Name": "- Late Armies",
+					"History": "",
 					"Description": "Solduros can be trained at the barracks and Brihent at the Stables."
 				},
 				{
-					"Name": "Great Migration",
-					"History": "The Gauls often relocated en mass. One prime example is the Galatian invasion of the Balkans which concluded with a large portion of them settling in the middle of Asia Minor and another one in Eastern Thrace.",
+					"Name": "- Great Migration",
+					"History": "",
 					"Description": "Structures -30% build time, no territory restrictions."
 				},
 				{
-					"Name": "Gallic Wall",
-					"History": "The Gauls constructed highly resistant walls made of stone supported by wooden beams and earthen fills.",
+					"Name": "- Gallic Wall",
+					"History": "",
 					"Description": "Walls and Fortresses +3 all armor levels."
 				},				
 				{
-					"Name": "Trimarchisia",
-					"History": "A special tactic used by Gallic horsemen involving extra horses and servants allowing them to rest while maintaining constant pressure on the enemy.",
+					"Name": "- Trimarchisia",
+					"History": "",
 					"Description": "Cavalry units +0.9 hit point regeneration per second." 
 				}
 			],
 			"Heroes":
 			[
 				{
-					"Name": "Solduros",
+					"Name": "- Solduros",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Infantry Swordsman. Deals x1.5 damage to Structures."
+					"History": "",
+					"Description": "Unique Unit, sword infantry." 
 				},
 				{
-					"Name": "Brihent",
+					"Name": "- Brihent",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry."
+					"History": "",
+					"Description": "Unique Unit, heavy cavalry." 
 				}				
 			] 
 		} 
@@ -60,50 +62,45 @@
 	"CivBonuses":
 	[		
 		{
-			"Name": "Furor Celtica",
-			"History": "The individual's courage and deeds in close combat were considered as the ultimate form of bravery in Celtic societies. Many warriors charged fiercely in battle, often being ill-equipped with poor weapons and no armor.", 
-			"Description": "Melee Infantry +10% speed." 
+			"Name": "- Melee Infantry",
+			"History": "", 
+			"Description": "+10% speed." 
 		},	
 		{
-			"Name": "Herding",
-			"History": ".", 
-			"Description": "A Sheep added to starting units." 
+			"Name": "- A Sheep",
+			"History": "", 
+			"Description": "Added to starting units." 
 		},			
 		{
-			"Name": "Carnutes",
-			"History": "Celtic religion and druidry inspired their warlike mindset.",
-			"Description": "Druids give player units in range +10% attack (doesn't stack)." 
+			"Name": "- Priests",
+			"History": "",
+			"Description": "+10% hit points for each temple technology researched." 
 		},		
 		{
-			"Name": "Home Stores",
-			"History": "Celtic workshops and stores often shared a roof with their owner's houses.",
-			"Description": "Most Structures +5 population."
-		},		
-		{
-			"Name": "Wooden Structures",
-			"History": "Celtic structures were mostly made of wood with rubble foundations. Consequently, their structures have less health than other cultures do, but they also construct faster.",
-			"Description": "Structures -20% build time, -20% hit points. Many Structures cost lumber instead of stone." 
-		}				
+			"Name": "- Structures",
+			"History": "",
+			"Description": "-20% build time and hit points. Several Structures cost wood instead of stone." 
+		}					
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Foreign Service",
-			"History": "Many Gauls served in foreign armies as mercenaries, settler troops or parts of elite/royal guard units.",
-			"Description": "Champions and Mercenaries -10% train time (currently not shared)." 
+			"Name": "- Unique Units, Mercenaries",
+			"History": "",
+			"Description": "-10% train time (currently not shared)." 
 		} 
 	],
 	"Structures":
 	[
 		{
-			"Name":"Rotary Mill",
+			"Name":"- Rotary Mill",
 			"Class":"",
 			"Emblem":"",
-			"History":".",
-			"Description": "Workers in range +25% farming rate.",			
-			"Requirements":".",
+			"History":"",
+			"Description": "Farming Aura: Villagers +20% farming rate.",			
+			"Requirements":"",
 			"Phase":"",
-			"Special":"."
+			"Special":""
 		}	
 	],
 	"StartEntities":

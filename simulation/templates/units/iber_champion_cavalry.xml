@@ -5,7 +5,7 @@
       <Hack>0</Hack>
       <Pierce>12</Pierce>
       <Crush>0</Crush>
-      <MaxRange>28</MaxRange>
+      <MaxRange>30</MaxRange>
       <MinRange>0.0</MinRange>		  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
@@ -46,12 +46,12 @@
     <metal>6</metal>
   </Loot>  
   <Health>
-    <Max>105</Max>
+    <Max>130</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>11</Speed>
+      <Speed>12</Speed>
     </Run>		
   </UnitMotion>
   <Vision>
@@ -61,7 +61,7 @@
     <Civ>iber</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Iberian Noble</SpecificName>
-    <Icon>units/iber_champion_cavalry.png</Icon>
+    <Icon>units/ae_iber_champion_cavalry.png</Icon>
 	<SelectionGroupName>units/iber_champion_cavalry</SelectionGroupName>
 	<Tooltip>Elite cavalry skirmisher. Deals x4 damage to structures and mechanical units.</Tooltip>
   </Identity>

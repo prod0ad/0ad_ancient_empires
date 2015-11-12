@@ -5,7 +5,7 @@
 	<SelectionGroupName>units/pers_cavalry_archer_b</SelectionGroupName>
 	<GenericName>Camel</GenericName>
     <SpecificName>Camel Rider</SpecificName>
-	<Icon>units/ptol_cavalry_archer.png</Icon>
+	<Icon>units/ae_east_camel.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>

@@ -6,7 +6,7 @@
     <GenericName>Cavalry Skirmisher</GenericName>
     <SpecificName>Indian Scout</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>	
-    <Icon>units/maur_cavalry_javelinist.png</Icon>
+    <Icon>units/ae_maur_cavalry_skirmisher.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/maur_cavalry_javelinist_a</Entity>

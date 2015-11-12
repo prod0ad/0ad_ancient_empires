@@ -36,10 +36,8 @@
     </variant>	
   </group>  
   <group>
-    <variant frequency="1" name="Armor 1">
-      <textures>
-        <texture file="skeletal/hele_pezhetairoi.dds" name="baseTex"/>
-      </textures>
+    <variant frequency="1" name="armor-scale mail">
+      <textures><texture file="skeletal/hele_hetairoi_b.dds" name="baseTex"/></textures>
     </variant>
   </group>  
   <group>

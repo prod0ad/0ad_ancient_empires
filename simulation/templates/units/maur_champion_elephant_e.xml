@@ -4,7 +4,7 @@
     <Civ>maur</Civ>
     <GenericName>War Elephant</GenericName>
     <SpecificName>Armored Elephant</SpecificName>
-    <Icon>units/maur_champion_elephant.png</Icon>
+    <Icon>units/ae_maur_armored_elephant.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>   

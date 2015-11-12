@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Armour>
-    <Hack>0</Hack>
-    <Pierce>1</Pierce>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -25,7 +25,7 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>60</food>
+      <food>70</food>
       <wood>0</wood>
 	  <metal>70</metal>
       <stone>0</stone>	  
@@ -33,18 +33,18 @@
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>6</food>
+    <food>7</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>7</metal>
   </Loot>  
   <Health>
-    <Max>150</Max>
+    <Max>140</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>
     <Run>
-      <Speed>11</Speed>
+      <Speed>12</Speed>
     </Run>		
   </UnitMotion>
   <Vision>
@@ -54,7 +54,7 @@
     <Civ>rome</Civ>
 	<SpecificName>Consular Bodyguard</SpecificName>
 	<GenericName>Unique Unit</GenericName>
-    <Icon>units/rome_champion_cavalry.png</Icon>
+    <Icon>units/ae_rome_bodyguard.png</Icon>
 	<SelectionGroupName>units/rome_champion_cavalry</SelectionGroupName>
 	<Tooltip>Heavy Cavalry. Deals x1.5 damage to unique units.</Tooltip>	
   </Identity>

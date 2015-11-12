@@ -15,7 +15,7 @@
     <GenericName>Mercenary Slinger</GenericName>
     <SpecificName>Balearic Slinger</SpecificName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
-    <Icon>units/cart_infantry_slinger.png</Icon>
+    <Icon>units/ae_merc_ballearic.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>			
   </Identity>
   <Promotion>

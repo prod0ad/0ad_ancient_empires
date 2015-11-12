@@ -9,6 +9,7 @@
         <animation event="0.4" file="infantry/javelin/attack/ijv_off_01.psa" load="0" name="attack_ranged" speed="100"/>
         <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="38"/>
         <animation file="infantry/sword/move/run/isw_s_def_02.psa" name="Run" speed="35"/>
+        <animation event="0.6" file="infantry/general/dude/dudebuild.psa" name="Build" speed="300"/>
         <animation file="infantry/general/death/inf_01.psa" name="Death" speed="400"/>
         <animation file="infantry/general/death/inf_02.psa" name="Death" speed="700"/>
         <animation file="infantry/general/death/inf_03.psa" name="Death" speed="500"/>

@@ -1,11 +1,11 @@
 {
 	"genericName": "Advanced Weapon Forging",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
 	"supersedes": "blacksmith_attack_melee_01",
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "metalworker.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"tooltip": "Melee Infantry and Cavalry +15% attack.",
 	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.15},
 		{"value": "Attack/Melee/Pierce", "multiply": 1.15},

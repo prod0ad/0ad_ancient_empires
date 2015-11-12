@@ -1,0 +1,12 @@
+{
+	"genericName": "Scientific Adaptation",
+	"autoResearch": true,
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "rome"}]},
+	"tooltip": "Structures, Ships and Ranged Siege Weapons +10% range, vision and hit points for each phase researched.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.1},
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.1},
+	    {"value": "Vision/Range", "multiply": 1.1}
+	],
+	"affects": ["Structure","Siege Ranged","Warship"]
+}

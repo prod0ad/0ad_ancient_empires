@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/mace_infantry_pikeman_a">
   <Identity>
-	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>		
+	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>	
+    <SpecificName>Elite Pezetairos</SpecificName>	
   </Identity>
   <Promotion>
     <Entity>units/mace_infantry_pikeman_u</Entity>

@@ -1,12 +1,11 @@
 {
 	"genericName": "Artillery Instructors",
-	"description": "Immobile siege weapons are assembled and disassembled faster",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
-	"icon": "military_engineers.png",
-	"researchTime": 40,
-	"tooltip": "Stone and Bolt Throwers -50% pack/unpack time.",
+	"icon": "wheel.png",
+	"researchTime": 60,
+	"tooltip": "Stone Throwers, Bolt Shooters -50% pack/unpack time.",
 	"modifications": [{"value": "Pack/Time", "multiply": 0.50}],
 	"affects": ["Siege"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

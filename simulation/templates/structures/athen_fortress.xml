@@ -17,10 +17,9 @@
       units/{civ}_cavalry_archer_e
     </Entities>
     <Technologies datatype="tokens">
-      fort_athen_citizen_levy	
+	  fort_athen_iphicratean_reforms	
       fort_athen_chorigoi
       fort_athen_imperialism
-      fort_athen_iphicratean_reforms	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

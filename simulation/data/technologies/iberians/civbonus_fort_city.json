@@ -6,7 +6,7 @@
 		{"value": "Attack/Ranged/Pierce", "multiply": 1.25},
 		{"value": "Attack/Ranged/Crush", "multiply": 1.25},
 		{"value": "Health/Max", "multiply": 1.25},
-		{"value": "Cost/Resources/stone", "multiply": 1.25}
+		{"value": "Cost/Resources/stone", "multiply": 1.50}
 	],
 	"affects": ["CivilCentre","Defensive Tower","Fortress"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

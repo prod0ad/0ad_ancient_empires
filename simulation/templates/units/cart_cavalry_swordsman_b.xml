@@ -15,7 +15,7 @@
     <GenericName>Mercenary Light Cavalry</GenericName>	
     <SpecificName>Gallic Horseman</SpecificName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
-    <Icon>units/iber_cavalry_spearman.png</Icon>
+    <Icon>units/ae_merc_epos.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/cart_cavalry_swordsman_a</Entity>

@@ -28,7 +28,8 @@
     </Entities>
 	<Technologies datatype="tokens">
       upgrades/legions_a
-      upgrades/legions_e	     	  
+      upgrades/legions_e
+      upgrades/legions_u	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

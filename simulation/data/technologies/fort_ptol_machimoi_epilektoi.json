@@ -4,7 +4,7 @@
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "upgrade_elite.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"tooltip": "Machimos Phalangites +10% attack, hit points and vision.",
 	"modifications": [
 		{"value": "Health/Max",             "multiply":    1.1},	

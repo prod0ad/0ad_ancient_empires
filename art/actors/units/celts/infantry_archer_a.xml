@@ -33,9 +33,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Clothes-10">
-      <textures><texture file="skeletal/celt_isw_a_01.dds" name="baseTex"/></textures>
-    </variant>
     <variant frequency="1" name="Clothes-11">
       <textures><texture file="skeletal/celt_isw_a_04.dds" name="baseTex"/></textures>
     </variant>

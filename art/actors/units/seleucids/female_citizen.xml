@@ -2,39 +2,81 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
+    <variant frequency="100" name="Base">
       <animations>
-        <animation file="female/f_idle_01.dae" name="Idle" speed="100"/>
-        <animation file="female/f_walk_01.dae" name="Walk" speed="25"/>
-        <animation file="female/f_run_01.dae" name="Run" speed="6"/>
+        <animation file="infantry/general/dude/dudeidle.psa" name="Idle" speed="100"/>
         <animation event="0.5" file="infantry/sword/attack/isw_s_off_05.psa" name="attack_melee" speed="250"/>
         <animation event="0.5" file="infantry/javelin/attack/ijv_off_01.psa" load="0" name="attack_ranged" speed="75"/>		
         <animation event="0.5" file="infantry/sword/attack/isw_s_off_05.psa" name="attack_slaughter" speed="250"/>
-        <animation file="female/f_walk_01.dae" name="carry_food" speed="25"/>
-        <animation file="female/f_walk_01.dae" name="carry_meat" speed="25"/>
-        <animation file="female/f_walk_01.dae" name="carry_wood" speed="25"/>
-        <animation file="female/f_walk_01.dae" name="carry_stone" speed="25"/>
-        <animation file="female/f_walk_01.dae" name="carry_metal" speed="25"/>
-        <animation event="0.4" file="female/f_lumber_01.dae" name="gather_tree" speed="60"/>
-        <animation file="female/f_farm_01.dae" name="gather_grain" speed="75"/>
-        <animation file="female/f_gather_01.dae" name="gather_fruit" speed="25"/>
-        <animation file="female/f_gather_01.dae" name="gather_meat" speed="25"/>
-        <animation event="0.4" file="female/f_mine_01.dae" name="gather_rock" speed="150"/>
-        <animation event="0.4" file="female/f_mine_01.dae" name="gather_ore" speed="150"/>
-        <animation event="0.4" file="female/f_mine_01.dae" name="gather_ruins" speed="150"/>
-        <animation event="0.6" file="female/f_build_01.dae" name="Build" speed="70"/>
-        <animation file="female/f_death_01.dae" name="Death" speed="130"/>
+        <animation file="infantry/general/dude/dudewalk.psa" name="Walk" speed="100"/>
+        <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="30"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_food" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_meat" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_wood" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_stone" speed="120"/>
+        <animation file="biped/walk_spearshield.psa" name="carry_metal" speed="120"/>
+        <animation event="0.23" file="infantry/general/chop.psa" name="gather_tree" speed="200"/>
+        <animation file="biped/hoe.psa" name="gather_grain" speed="300"/>
+        <animation file="infantry/general/forage.psa" name="gather_fruit" speed="125"/>
+        <animation file="infantry/general/forage.psa" name="gather_meat" speed="125"/>
+        <animation event="0.43" file="infantry/general/mine.psa" name="gather_rock" speed="200"/>
+        <animation event="0.43" file="infantry/general/mine.psa" name="gather_ore" speed="200"/>
+        <animation file="infantry/general/dude/dudebuild.psa" name="Build" speed="250"/>
+        <animation file="infantry/general/death/inf_01.psa" name="Death" speed="400"/>
+        <animation file="infantry/general/death/inf_02.psa" name="Death" speed="700"/>
+        <animation file="infantry/general/death/inf_03.psa" name="Death" speed="500"/>
+        <animation file="infantry/general/death/inf_04.psa" name="Death" speed="400"/>
+        <animation file="infantry/general/death/inf_05.psa" name="Death" speed="600"/>
+        <animation file="infantry/general/death/inf_06.psa" name="Death" speed="500"/>
+        <animation file="infantry/general/death/inf_07.psa" name="Death" speed="400"/>
       </animations>
-      <mesh>skeletal/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_maur_fem.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/ptol_fem_1.png" name="baseTex"/>
-        <texture file="skeletal/hele_fem_f_spec.png" name="specTex"/>
-      </textures>
+      <mesh>skeletal/m_tunic_a.pmd</mesh>
+      <textures><texture file="skeletal/hele_isp_b.dds" name="baseTex"/></textures>	  
     </variant>
   </group>
+  <group>
+    <variant frequency="2" name="1">
+	  <props>
+        <prop actor="props/units/heads/head_pers_b.xml" attachpoint="head"/>
+	  </props>  
+    </variant>	
+    <variant frequency="2" name="2">
+	  <props>
+        <prop actor="props/units/heads/head_pers_a.xml" attachpoint="head"/>
+	  </props>
+    </variant>
+    <variant frequency="1" name="8">
+	  <props>
+        <prop actor="props/units/heads/head_pers_tiara_y.xml" attachpoint="head"/>
+	  </props>
+    </variant>		
+    <variant frequency="2" name="3">
+	  <props>
+        <prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
+	  </props>
+    </variant>
+    <variant frequency="2" name="4">
+	  <props>
+        <prop actor="props/units/heads/head_hele_a.xml" attachpoint="head"/>
+	  </props>
+    </variant>	
+    <variant frequency="2" name="5">
+	  <props>
+        <prop actor="props/units/heads/head_hele_e.xml" attachpoint="head"/>
+	  </props>
+    </variant>	
+    <variant frequency="1" name="6">
+	  <props>
+        <prop actor="props/units/heads/head_celt.xml" attachpoint="head"/>
+	  </props>
+    </variant>	
+    <variant frequency="1" name="7">
+	  <props>
+        <prop actor="props/units/heads/thrac_a.xml" attachpoint="head"/>
+	  </props>
+      <textures><texture file="skeletal/hele_isp_b.dds" name="baseTex"/></textures> 
+    </variant>			
+  </group>    
   <group>
     <variant frequency="1" name="Idle">
       <props>
@@ -149,5 +191,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

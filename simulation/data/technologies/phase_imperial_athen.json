@@ -1,7 +1,7 @@
 {
 	"genericName": "Imperial Phase",
 	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
-	"cost": {"food": 810, "wood": 0, "stone": 0, "metal": 540},
+	"cost": {"food": 720, "wood": 0, "stone": 0, "metal": 480},
 	"requirements": { "class": "City", "number": 1 },
 	"requirementsTooltip": "Requires 1 new City structure.",
 	"supersedes": "phase_city_athen",

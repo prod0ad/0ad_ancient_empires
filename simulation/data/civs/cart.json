@@ -16,18 +16,18 @@
 			"Technologies":
 			[
 				{
-					"Name": "Xanthippian Reforms",
-					"History": "The Spartan Mercenary general Xanthippus retrained the Carthaginian Army allowing it to fight in accordance to it's strenghts and weaknesses.",
-					"Description": "All Soldiers +10% attack."
+					"Name": "- Xanthippian Reforms",
+					"History": "",
+					"Description": "Soldiers +10% attack."
 				},	
 				{
-					"Name": "Recruiting Agents",
-					"History": "The Carthaginians focused on hiring mercenaries for the majority of their military force.",
+					"Name": "- Recruiting Agents",
+					"History": "",
 					"Description": "Mercenaries -25% metal cost."
 				},					
 				{
-					"Name": "Mass Production",
-					"History": "The Carthaginians excelled at massing siege weapons, especially for defensive purposes.",
+					"Name": "- Mass Production",
+					"History": "",
 					"Description": "Siege Weapons -25% build time."
 				}			
 			],
@@ -38,21 +38,24 @@
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Powerful Elephant with Fear Aura. Deals x1.5 damage to Structures and Mechanical units."
+					"History": "",
+					"Description": "Unique Unit, elephant."
 				},			
 				{
 					"Name": "Sacred Band Infantry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Infantry Spearman. Deals x2 damage to Cavalry and Elephants. Trained at the Temple."
+					"History": "",
+					"Description": "Unique Unit, spear infantry. Trained at the Temple."
 				},
 				{
 					"Name": "Sacred Band Cavalry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry. Trained at the Temple."
+					"History": "",
+					"Description": "Unique Unit, heavy cavalry. Trained at the Temple."
 				}
 			]
 		}
@@ -60,41 +63,46 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Exploration",
-			"History": "Nobody knew better than the Carthaginians where in the ancient world they were going and going to go; their merchant traders had missions to everywhere.",
-			"Description": "Traders, Cavalry and Ships +20% vision."
+			"Name": "- Cavalry, Ships",
+			"History": "",
+			"Description": "+20% vision, +10% speed."
 		},
 		{
-			"Name": "Colonization",
-			"History": "The Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
-			"Description": "Civic Centres, Temples, Docks, Markets and Houses -20% build time."
-		},		
+			"Name": "- Villagers",
+			"History": "",
+			"Description": "+15% wood gathering rate."
+		},			
 		{
-			"Name": "Fortified Barracks",
-			"History": "The Carthaginians built massive fortifications housing barracks, stables and even war elephants.",
-			"Description": "Fortresses, Walls, Stables and Barracks +25% hitpoints."
-		}		
+			"Name": "- Fortresses, Walls, Barracks",
+			"History": "",
+			"Description": "+25% hitpoints."
+		},	
+		{
+			"Name": "- Civic Structures, Docks, Markets",
+			"History": "",
+			"Description": "-20% build time."
+		}			
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Naval Trademasters",
-			"History": "The Phoenicians and Carthaginians were broadly known as the greatest trading civilization of the ancient and classical world.",
-			"Description": "Cargo Ships +30% speed (currently not shared)."
+			"Name": "- Cargo Ships",
+			"History": "",
+			"Description": "+20% speed (currently not shared)."
 		}
 	],
 	"Structures":
-	[
+	[	
 		{
-			"Name":"Embassy",
-			"Class":"",
-			"Emblem":"",
-			"History":".",
-			"Description": "Trains Mercenary Units. Replaces the Stables.",			
-			"Requirements":".",
-			"Phase":"",
-			"Special":"."
-		}		
+			"Name":"- Academy",
+			"History":"",			
+			"Description": "Researches academic technologies with defence, military and siege benefits."
+		}, 	
+		{
+			"Name":"- Embassy",
+			"History":"",			
+			"Description": "Hires mercenary units in addition to the Fortress. Replaces the Stables. Limited to 1."
+		} 			
 	],
 	"StartEntities":
 	[

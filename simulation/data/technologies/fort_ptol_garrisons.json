@@ -1,11 +1,10 @@
 {
 	"genericName": "Ptolemaic Garrisons",
-	"description": "The Ptolemies relied extensively on fortified garrisons to protect their overseas and distant possessions.",
-	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 250},
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "crenelations.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"tooltip": "Fortresses get 30% more arrows fired per garrisoned soldier.",
 	"modifications": [{"value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.30}],
 	"affects": ["Fortress"],

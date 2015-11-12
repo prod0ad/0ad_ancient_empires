@@ -16,36 +16,38 @@
 			"Technologies":
 			[
 				{
-					"Name": "Military Reforms",
-					"History": "After defeats against the Greek City-States the Persians started to form heavier units and introduce mercenaries in their armies.",
-					"Description": "All Infantry and Cavarly units +1 all armor types."
+					"Name": "- Military Reforms",
+					"History": "",
+					"Description": "Soldiers +1 all armor types."
 				},
 				{
-					"Name": "Immortals",
-					"History": ".",
-					"Description": "Anusyia -75% train time."
+					"Name": "- Immortals",
+					"History": "",
+					"Description": "Anusyia -70% train time."
 				}, 				
 	            {
-		    	    "Name": "Persian Architecture",
-		     	    "History": "The Persians built the wonderful 1677 mile-long Royal Highway from Sardis to Susa; Darius the Great and Xerxes also built the magnificent Persepolis; Cyrus the Great greatly improved Ecbatana and virtually 'rebuilt' the old Elamite capital of Susa.",
-		    	    "Description": "Structures +30% hit points."
+		    	    "Name": "- Persian Architecture",
+		     	    "History": "",
+		    	    "Description": "Structures +30% hit points, +2 all armor levels."
 		        }					
 			],
 			"Heroes":
 			[
 				{
-					"Name": "Anusyia",
+					"Name": "- Anusyia",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Fast trained, missile resistant Archer. Trained at the Apadana." 
+					"History": "",
+		    	    "Description": "Unique Unit, infantry archer." 
 				},
 				{
-					"Name": "Khuveshavagan",
+					"Name": "- Takabara",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
-					"History": "Unique Unit. Heavy Cavalry. Deals x1.5 damage to Melee Infantry." 
+					"History": "",
+		    	    "Description": "Unique Unit, melee infantry."  
 				}				
 			]
 		} 
@@ -53,41 +55,41 @@
 	"CivBonuses":
 	[	
 		{
-			"Name":"Archery Tradition",
-			"History":"The Persians had a tradition of fine archery and a penchant for using massed archers in battle.",
-			"Description":"Archers +10% range and vision, -25% train time."
+			"Name":"- Archers",
+			"History":"",
+			"Description":"+10% range and vision, -25% train time."
+		},				
+		{
+			"Name":"- Fields, Corrals, Farmsteads, Stables",
+			"History":"",
+			"Description":"-50% build time."
 		},	
 		{
-			"Name": "Great King's Levy",
-			"History": "The Persians could and did levy a large number of infantry during wartime due to the sheer size of the Achaemenid Empire and the way in which it was set-up. In general the Persian infantry was well trained and fought with great tenacity. However while this was true the infantry were poor hand-to-hand, close combat fighters. Also, with the exception of the elite regiments, the Persian infantry was not a standing professional force.",
-			"Description": "Maximum population +10%."
-		}, 				
+			"Name": "- Maximum population",
+			"History": "",
+			"Description": "+10%."
+		}, 			
 		{
-			"Name":"Qanats",
-			"History":"The Persians were the first to develop subterranean canals to provide the needed water supply for agriculture to dry regions.",
-			"Description":"Fields, Corrals and Farmsteads, -50% build time."
-		},			
-		{
-			"Name": "Naval Invasion",
-			"History": "The Persians, employing their skilled phoenician and other maritime subjects were among the first to launch large scale naval invasions including the transportation of cavalry.",
-			"Description": "Heavy Cargo Ship free (Cargo Ship +10 transport capacity, requires a Dock)."
+			"Name": "- Heavy Cargo Ship free",
+			"History": "",
+			"Description": "Cargo Ship +10 transport capacity, requires a Dock."
 		}			
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Royal Road",
-			"History": "Coinage was invented by the Lydians in 7th Century B.C., but it was not very common until the Persian period. Darius the Great standardized coined money and his golden coins (known as 'darics') became commonplace not only throughout his empire, but as far to the west as Central Europe.",
-			"Description": "Traders +20% speed (currently not shared)."
+			"Name": "Traders",
+			"History": "",
+			"Description": "+20% speed (currently not shared)."
 		} 
 	],
 	"Structures":
 	[
 		{
-			"Name": "Apadana",
+			"Name": "- Apadana",
 			"Class": "",
 			"Emblem": "",
-			"History": ".",
+			"History": "",
 			"Requirements": "",
 			"Phase": "city",
 			"Description": "Adds a trickle of all resource types. Trains and upgrades Anusyia."			

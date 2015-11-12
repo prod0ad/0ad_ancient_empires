@@ -35,10 +35,8 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Armour-Bronze Cuirass">
-      <textures>
-        <texture file="skeletal/hele_pezhetairoi_2.dds" name="baseTex"/>
-      </textures>
+    <variant frequency="2" name="pectoral-muscle">
+      <textures><texture file="skeletal/kart_csp_a_2.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

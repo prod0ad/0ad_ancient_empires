@@ -2,7 +2,7 @@
 <Entity parent="units/sele_infantry_pikeman_a">
   <Identity>
 	<VisibleClasses datatype="tokens">Elite -Advanced</VisibleClasses>			
-    <SpecificName>Chrysaspides</SpecificName>
+    <SpecificName>Chrysaspis</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/sele_infantry_pikeman_u</Entity>

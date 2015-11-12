@@ -1,12 +1,11 @@
 {
 	"genericName": "Baskets",
-	"description": "Increases shuttling capacity for all resources.",
-	"cost": {"food": 125, "wood": 175, "stone": 0, "metal": 0},
+	"cost": {"food": 200, "wood": 100, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "gather_basket_empty.png",
 	"researchTime": 40,
-	"tooltip": "Workers +5 shuttle capacity for all resources.",
+	"tooltip": "Villagers +5 shuttle capacity for all resources.",
 	"modifications": [
 		{"value": "ResourceGatherer/Capacities/food", "add": 5},
 		{"value": "ResourceGatherer/Capacities/wood", "add": 5},

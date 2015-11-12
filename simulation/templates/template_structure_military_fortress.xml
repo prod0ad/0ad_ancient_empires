@@ -27,7 +27,7 @@
       <Hack>0.0</Hack>
       <Pierce>24.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>62.0</MaxRange>
+      <MaxRange>60.0</MaxRange>
       <MinRange>0.0</MinRange>	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
@@ -41,6 +41,14 @@
     <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Soldier Worker</GarrisonArrowClasses>
   </BuildingAI>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <EjectHealth>0.075</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry Siege</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>6</LoadingRange>
+  </GarrisonHolder>  
   <Cost>
     <Population>5</Population>
     <BuildTime>240</BuildTime>
@@ -53,14 +61,6 @@
     <Square width="30.0" depth="30.0"/>
     <Height>8.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>20</Max>
-    <EjectHealth>0.075</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Siege</List>
-    <BuffHeal>0</BuffHeal>
-    <LoadingRange>6</LoadingRange>
-  </GarrisonHolder>
   <Health>
     <Max>4800</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>

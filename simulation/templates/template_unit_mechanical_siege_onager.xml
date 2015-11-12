@@ -10,7 +10,7 @@
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>90.0</Crush>
-      <MaxRange>75</MaxRange>
+      <MaxRange>65</MaxRange>
       <MinRange>20.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
       <PrepareTime>6000</PrepareTime>
@@ -25,15 +25,15 @@
         <Crush>45.0</Crush>
       </Splash>
 	  <Bonuses>
-		<AntiChampion>
+		<AntiStructure>
 		  <Classes>Structure</Classes>
-		  <Multiplier>2</Multiplier>
-		</AntiChampion>
-		<AntiChampion>
+		  <Multiplier>1.0</Multiplier>
+		</AntiStructure>
+		<AntiMechanical>
 		  <Classes>Mechanical</Classes>
-		  <Multiplier>2</Multiplier>
-		</AntiChampion>		
-	  </Bonuses>		  
+		  <Multiplier>1.0</Multiplier>
+		</AntiMechanical>		
+	  </Bonuses>	  
     </Ranged>
   </Attack>
   <Cost>
@@ -52,7 +52,7 @@
   </Health>
   <Identity>
     <GenericName>Siege Catapult</GenericName>
-	<Tooltip>Very Long Ranged Siege Weapon. Deals x2 damage to Structures and Mechanical Units.</Tooltip>
+	<Tooltip>Long Ranged Siege Weapon. Very effective against structures.</Tooltip>
     <Classes datatype="tokens">Ranged Catapult</Classes>
     <RequiredTechnology>phase_imperial</RequiredTechnology>	
   </Identity>
@@ -84,6 +84,6 @@
     <WalkSpeed>6</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>75</Range>
+    <Range>65</Range>
   </Vision>
 </Entity>

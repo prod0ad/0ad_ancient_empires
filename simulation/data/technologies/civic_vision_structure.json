@@ -3,7 +3,7 @@
 	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "fist_spear.png",
+	"icon": "crenelations.png",
 	"researchTime": 40,
 	"tooltip": "Structures +25% vision range.",
 	"modifications": [{"value": "Vision/Range", "multiply": 1.25}],

@@ -8,10 +8,10 @@
   </Builder>
   <Identity>
     <Civ>sele</Civ>
-    <SpecificName>Worker</SpecificName>
-    <GenericName>Worker</GenericName>
+    <SpecificName>Villager</SpecificName>
+    <GenericName>Villager</GenericName>
     <History>?</History>
-    <Icon>units/sele_support_female.png</Icon>
+    <Icon>units/ae_hele_villager.png</Icon>
 	<SelectionGroupName>units/sele_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

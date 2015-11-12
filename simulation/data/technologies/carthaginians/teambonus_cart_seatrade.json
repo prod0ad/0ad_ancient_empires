@@ -3,6 +3,9 @@
 	"autoResearch": true,
 	"description": "The Phoenicians and Carthaginians were broadly known as the greatest trading civilization of the ancient and classical world.",
 	"requirements": {"civ": "cart"},
-    "modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.30}],
+    "modifications": [
+	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.2},
+	    {"value": "UnitMotion/Run/Speed", "multiply": 1.2}
+	],
 	"affects": ["Trader Ship"]
 }

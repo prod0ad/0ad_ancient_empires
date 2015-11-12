@@ -1,0 +1,15 @@
+{
+	"genericName": "Sacred Ground",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "healing_range.png",
+	"researchTime": 25,
+	"tooltip": "Temples +100% territory influence and vision.",
+	"modifications": [
+	 {"value": "TerritoryInfluence/Radius", "multiply": 2},
+     {"value": "Vision/Range", "multiply": 2}
+	],
+	"affects": ["Temple"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

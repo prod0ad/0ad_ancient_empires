@@ -17,9 +17,8 @@
       units/sele_cavalry_archer_e 	  
     </Entities>
     <Technologies datatype="tokens">
-	  fort_sele_cleruchy  	
-	  fort_sele_silk_route  
-	  fort_sele_reform_cav		  
+	  fort_sele_reform_cav		
+	  fort_sele_cleruchy  		  
       fort_sele_reform	  	  
     </Technologies>
   </ProductionQueue>

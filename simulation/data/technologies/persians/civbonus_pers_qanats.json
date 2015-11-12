@@ -6,5 +6,5 @@
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.5}		
 	],
-	"affects": ["Field","Corral","Farmstead"]
+	"affects": ["Field","Corral","Farmstead","Stables"]
 }

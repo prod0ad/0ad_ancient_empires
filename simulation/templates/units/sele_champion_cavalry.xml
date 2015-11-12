@@ -25,9 +25,9 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>75</food>
+      <food>80</food>
       <wood>0</wood>
-	  <metal>90</metal>
+	  <metal>95</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -36,7 +36,7 @@
     <food>8</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>9</metal>
+    <metal>10</metal>
   </Loot>  
   <Health>
     <Max>210</Max>
@@ -44,7 +44,7 @@
   <UnitMotion>
     <WalkSpeed>10</WalkSpeed>
     <Run>
-      <Speed>10</Speed>
+      <Speed>11</Speed>
     </Run>		
   </UnitMotion>
   <Vision>

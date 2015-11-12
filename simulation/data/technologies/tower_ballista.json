@@ -1,0 +1,17 @@
+{
+	"genericName": "Ballista Tower",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 400},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"supersedes": "tower_keep",	
+	"icon": "defense_tower.png",
+	"researchTime": 60,
+	"tooltip": "Defense Towers +25% range, +6 crush attack.",
+	"modifications": [
+        {"value": "Attack/Ranged/Crush", "add": 6},
+		{"value": "Vision/Range", "multiply": 1.25},		
+		{"value": "Attack/Ranged/MaxRange", "multiply": 1.25}
+	],
+	"affects": ["Defensive Tower"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"	
+}

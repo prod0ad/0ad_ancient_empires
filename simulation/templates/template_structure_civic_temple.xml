@@ -87,10 +87,11 @@
       units/{civ}_support_healer_b
     </Entities>
     <Technologies datatype="tokens">
-      temple_healer_skills
-      temple_healer_skills_2
-      temple_heal_temple
-	  temple_fanaticism
+      temple_astrology
+      temple_mysticism
+      temple_sacred_ground
+	  temple_afterlife
+	  temple_fanaticism	  
     </Technologies>
   </ProductionQueue>
   <Vision>

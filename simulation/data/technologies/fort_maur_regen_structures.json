@@ -1,11 +1,10 @@
 {
 	"genericName": "Fire Fighters",
-	"description": "To prevent major fires breaking out in their wooden cities, The Mauryans introduced permanent water deposites for every structure.",
-	"cost": {"food": 450, "wood": 150, "stone": 0, "metal": 0},
+	"cost": {"food": 500, "wood": 100, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "metal_pot.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"tooltip": "Structures regenerate 2 hit points per second.",
 	"modifications": [{"value": "Health/RegenRate", "add": 2}],
 	"affects": ["Structure"],

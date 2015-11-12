@@ -1,0 +1,16 @@
+{
+	"genericName": "Astrology",
+	"description": "Increases the Healing Rate of all healers.",
+	"cost": {"food": 150, "wood": 0, "stone": 0, "metal": 150},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "healing_range.png",
+	"researchTime": 50,
+	"tooltip": "Priests +20% healing rate and range.",
+	"modifications": [
+	{"value": "Heal/Rate", "multiply": 0.8},
+	{"value": "Heal/Range", "multiply": 1.2}
+	],
+	"affects": ["Healer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

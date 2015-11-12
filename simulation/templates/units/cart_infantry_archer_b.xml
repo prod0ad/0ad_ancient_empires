@@ -15,7 +15,7 @@
     <GenericName>Mercenary Archer</GenericName>
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
     <SpecificName>Mauritanian Archer</SpecificName>	
-    <Icon>units/cart_infantry_archer.png</Icon>
+    <Icon>units/ae_merc_mauritanian.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>			
   </Identity>
   <Promotion>

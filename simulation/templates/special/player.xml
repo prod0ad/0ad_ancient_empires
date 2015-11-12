@@ -25,8 +25,6 @@
       <Syssition>1</Syssition>
       <Embassy>1</Embassy>
       <MercenaryCamp>1</MercenaryCamp>
-      <Monument>1</Monument>
-      <Pillar>0</Pillar>
       <Anactoron>1</Anactoron>	  
       <WarDog>0</WarDog>
       <Theater>1</Theater>
@@ -39,15 +37,9 @@
       <WarDog>
         <Kennel>10</Kennel>
       </WarDog>
-      <Pillar>
-        <Ashoka>5</Ashoka>
-      </Pillar>
       <Juggernaut>
         <PtolemyIV>4</PtolemyIV>
-      </Juggernaut>
-      <CivilCentre>
-        <Monument>1</Monument>
-      </CivilCentre>	  
+      </Juggernaut>  
     </LimitChangers>
     <LimitRemovers>
       <CivilCentre>

@@ -17,72 +17,75 @@
 			"Technologies":
 			[
 				{
-					"Name":"Antigonid Reforms",
-					"History":"The Antigonid kings ordered various military reforms including an increased focus on mercenaries, as well as pikemen, rearming them and enlisting Thracians in their ranks.",
+					"Name":"- Antigonid Reforms",
+					"History":"",
 					"Description":"Pikemen and Mercenaries -50% train time."
 				},	
 				{
-					"Name":"Hetairoi Aspidophoroi",
-					"History":"The decline in the numbers of Macedonian nobles due to constant wars and eastern migration eventually lead to a more defensive approach in guard cavalry use.",
+					"Name":"- Hetairoi Aspidophoroi",
+					"History":"",
 					"Description":"Upgrades Hetairoi to Hetairoi Aspidophoroi, with +1 hack, +2 pierce armor."
 				},					
 			    {
-					"Name":"Kestros Sling",
-					"History":"A deadly dart throwing sling used in late Macedon.",
+					"Name":"- Kestros Sling",
+					"History":"",
 					"Description":"Slingers +20% attack."
 				},				
 		        {
-					"Name":"Fetters Of Hellas",
-					"History":"The Antigonid Macedonians controlled some of the strongest and most valuable fortified locations in Greece for a long while.",
+					"Name":"- Fetters Of Hellas",
+					"History":"",
 					"Description":"Fortress +50% hit points."
 				}
 			],
 			"Heroes":
 			[
 				{
-					"Name":"Hetairos",
+					"Name":"- Hetairos",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":".",
-					"Description":"Versatile Heavy Cavalry."
-				}				
+					"History":"",
+					"Description":"Unique Unit, heavy cavalry."
+				},		
+				{
+					"Name":"- Hypaspist",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"",
+					"Description":"Stronger replacement for the generic Spearman."
+				}						
 			]
 		}
 	],
 	"CivBonuses":
 	[
 		{
-			"Name":"Horsemanship",
-			"History":"Unlike the Greek City-States, the Macedonians and their Thessalian and Thracian neighbours who often provided them with military units, were great horsemen and fielded relatively large numbers of cavalry who were famed for their swiftness and thunderous charges.",
-			"Description":"Cavalry +10% attack and speed."
-		},
-		{
-			"Name":"Hypaspists",
-			"History":"The Macedonian foot guard was employed as an agile multi-purpose unit that could fight with spear, pike, sword and javelin.",
-			"Description":"Spearmen have increased stats, cost and train time."
-		},		
-		{
-			"Name":"Hardy Peltasts",
-			"History":"The northern balkan tribes provided skilled peltasts to the Macedonian army.",
-			"Description":"Javelin Infantry +15% attack."
+			"Name":"- Land units",
+			"History":"",
+			"Description":"+10% attack and speed."
 		},	
 		{
-			"Name":"Advanced Siegecraft",
-			"History":"The Macedonians used a wide variety of siege engines and tactics.",
-			"Description":"Siege Units -20% attack rate."
+			"Name":"- Skirmishers",
+			"History":"",
+			"Description":"+10% hit points."
 		}		
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"Standardized 'Sanderd' Currency",
-			"History":"The Macedonians and the Diadochi minted coins of very high quality. On their currency the Diadochi in particular frequently depicted themselves as the rightful successor to Alexander the Great, attempting to legitimize their rule.",
-			"Description":"All units -10% metal cost (currently not shared)."
+			"Name":"- All units",
+			"History":"",
+			"Description":"-10% metal cost (currently not shared)."
 		}
 	],
 	"Structures":
 	[
+		{
+			"Name":"- Academy",
+			"History":"",			
+			"Description": "Researches academic technologies with defence, military and siege benefits."
+		} 	
 	],
 	"StartEntities":
 	[

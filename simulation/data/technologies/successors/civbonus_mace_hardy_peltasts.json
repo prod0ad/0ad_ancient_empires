@@ -1,8 +1,10 @@
 {
 	"genericName": "Hardy Peltasts",
 	"autoResearch": true,
-	"description": "+15% Javelin Infantry attack.",
+	"description": "Skirmishers +10% hit points.",
 	"requirements": {"civ": "mace"},
-	"modifications": [{"value": "Attack/Ranged/Pierce", "multiply": 1.15}],
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.2}		
+	],
 	"affects": ["Javelin Infantry"]
 }

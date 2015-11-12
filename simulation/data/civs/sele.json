@@ -17,34 +17,30 @@
 			"Technologies":
 			[
 				{
-			         "Name":"Cavalry Reform",
-			         "History":"Antiochus III reformed his heavy cavalry adding extensive armor, impressed by eastern cataphracts during his campaigns to reclaim the northeast satrapies.",
-			         "Description":"Catafracts and Heavy Cavalry +1 all armor types."
+			         "Name":"- Cavalry Reform",
+			         "History":"",
+			         "Description":"Catafracts and Heavy Cavalry +1 all armor levels."
 		        },	
 				{
-			         "Name":"Infantry Reform",
-			         "History":"Defeats by the Romans and Galatian influences lead the Seleucids to introduce a force of heavy swordsmen to the standing army.",
-			         "Description":"Swordsmen +10% attack, hit points and speed, -10% train time."
+			         "Name":"- Infantry Reform",
+			         "History":"",
+			         "Description":"Swordsmen +1 all armor levels, -20% train time."
 		        },					
 		        {
-			        "Name":"Katoikoi",
-			        "History":"The Seleucids attracted a large number of Greek, Macedonian, Thracian and other settlers, who were granted land around newly founded cities in return for military service.",
-			        "Description":"All soldiers -10% resource cost and train time."
-		        },				
-		        {
-			        "Name":"Silk Road",
-			        "History":".",
-			        "Description":"Traders and Cargo Ships -40% resource cost and train time."
-		        }				
+			        "Name":"- Katoikoi",
+			        "History":"",
+			        "Description":"Soldiers -10% cost and train time."
+		        }			
 			],
 			"Heroes":
 			[
 				{
-					"Name":"Cataphract",
+					"Name":"- Cataphract",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Unique Unit. Heavily Armored, Slow Moving Melee Cavalry. Deals x1.5 damage to Melee Infantry"
+					"History":"",
+			        "Description":"Unique Unit, heavy cavalry."					
 				}
 			]
 		}
@@ -52,31 +48,36 @@
 	"CivBonuses":
 	[	
 		{
-			"Name":"Mesopotamia",
-			"History":"For almost two hundred years the Seleucids controlled the fertile region between the rivers Tigres and Ephrates.",
-			"Description":"Farms -20% wood cost and build time."
+			"Name":"- Civic Centers, Farms",
+			"History":"",
+			"Description":"-20% cost and build time."
 		},	
 		{
-			"Name":"Nisean Horses",
-			"History":"The Seleucids had access to heavy Nisean Horses.",
-			"Description":"Bloodlines free (Cavalry +25% hit points)."
-		},			
+			"Name":"- Traders, Cargo Ships",
+			"History":"",
+			"Description":"-40% cost."
+		},	
 		{
-			"Name":"City Founders",
-			"History":"Even more so than other Successors, the Seleucids founded a huge number of cities, more often than not named Antiochia or Seleucia.",
-			"Description":"Civic Centers -15% resource cost and build time."
-		}
+			"Name":"- Bloodlines free",
+			"History":"",
+			"Description":"Cavalry +20% hit points."
+		}			
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"Lords Of The East",
-			"History":"Ruling over a large part of the eastern world, the Seleucids had access to a great number of warhorses.",
-			"Description":"Cavalry -20% train time (currently not shared)."
+			"Name":"- Cavalry",
+			"History":"",
+			"Description":"-20% train time (currently not shared)."
 		}
 	],
 	"Structures":
 	[
+		{
+			"Name":"- Academy",
+			"History":"",			
+			"Description": "Researches academic technologies with defence, military and siege benefits."
+		} 	
 	],
 	"StartEntities":
 	[

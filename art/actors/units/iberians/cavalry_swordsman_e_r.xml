@@ -7,22 +7,23 @@
         <animation file="biped/cavalryidle.psa" name="Idle" speed="50"/>
         <animation file="biped/cavalryidle.psa" name="Walk" speed="18"/>
         <animation file="biped/rider_gallop.psa" name="Run" speed="40"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_melee" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
-        <animation event="0.5" file="cavalry/spear/attack/rider_spear_shield_atk_a.psa" name="gather_meat" speed="400"/>
-        <animation file="biped/rider_sword_death_a.psa" name="death" speed="230"/>
+        <animation event="0.5" file="cavalry/sword/attack/rider_sword_shield_atk_a.psa" name="attack_melee" speed="400"/>
+        <animation event="0.5" file="cavalry/sword/attack/rider_sword_shield_atk_a.psa" name="attack_slaughter" speed="400"/>
+        <animation file="biped/rider_sword_death_a.psa" name="death" speed="240"/>
+        <animation event="0.5" file="cavalry/sword/attack/rider_sword_shield_atk_a.psa" name="gather_meat" speed="400"/>
       </animations>
+      <mesh>skeletal/m_tunic_short.dae</mesh>	  
       <props>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="r_hand"/>
-        <prop actor="props/units/heads/head_iber_su1.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/iber_helmet_11.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/falcata.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/heads/head_iber_basic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/iber_helmet_isw_e.xml" attachpoint="helmet"/>
+        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>			
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Scale-Mail">
-      <mesh>skeletal/m_tunic_short.dae</mesh>
-      <textures><texture file="skeletal/iber_isp_e_1.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="rider-quilted armour">
+      <textures><texture file="skeletal/iber_su2_1.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

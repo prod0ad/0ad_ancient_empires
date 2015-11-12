@@ -11,7 +11,6 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       corral_stockbreeding
-      corral_cost_horse
     </Technologies>
   </ProductionQueue>
   <Obstruction>

@@ -13,6 +13,11 @@
   <Obstruction>
     <Static width="14.0" depth="14.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+	  -tower_ballista
+    </Technologies>
+  </ProductionQueue>      
   <StatusBars>
     <BarWidth>6.0</BarWidth>
     <BarHeight>0.6</BarHeight>

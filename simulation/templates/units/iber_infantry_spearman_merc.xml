@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/iber_infantry_spearman_e">
   <Cost>
-    <BuildTime>5</BuildTime>
+    <BuildTime>7.5</BuildTime>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>60</metal>
+      <metal>80</metal>
     </Resources>
   </Cost> 
   <Identity>
@@ -14,7 +14,7 @@
 	<SelectionGroupName>units/iber_infantry_spearman_merc</SelectionGroupName>
 	<SpecificName>Gaesata</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
-    <Icon>units/celt_fanatic.png</Icon>
+    <Icon>units/ae_merc_gaesatae.png</Icon>
   </Identity>
   <Promotion disable=""/>  
   <VisualActor>

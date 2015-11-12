@@ -5,8 +5,9 @@
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens"> 
-      units/{civ}_champion_cavalry
-      units/{civ}_infantry_spearman_merc	
+      units/{civ}_champion_infantry
+      units/{civ}_infantry_spearman_e	
+      units/{civ}_cavalry_archer_b	  
       units/{civ}_champion_elephant  	  
     </Entities>
     <Technologies datatype="tokens">

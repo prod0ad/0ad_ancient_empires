@@ -1,6 +1,5 @@
 {
 	"genericName": "Cavalry Conscription",
-	"description": "Significantly increase training speed of soldiers at the barracks by training them in large batches or battalions.",
 	"cost": {"food": 900, "wood": 0, "stone": 0, "metal": 0},
 	"supersedes": "stables_speed_train",	
 	"requirements": {"tech": "phase_imperial"},

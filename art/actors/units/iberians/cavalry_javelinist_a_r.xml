@@ -28,12 +28,6 @@
     <variant frequency="2" name="Iberian-Tunic-beige">
       <textures><texture file="skeletal/iber_isw_a_1.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="Iberian-Tunic-brown">
-      <textures><texture file="skeletal/iber_isw_a_2.dds" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="2" name="Iberian-Tunic-pect">
-      <textures><texture file="skeletal/kart_ijv_a_1.dds" name="baseTex"/></textures>
-    </variant>
   </group>
   <group>
     <variant frequency="100" name="Idle"/>

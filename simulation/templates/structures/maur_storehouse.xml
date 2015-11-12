@@ -3,6 +3,16 @@
   <Identity>
     <Civ>maur</Civ>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -storehouse_lumbering_03
+      -storehouse_stonemining_02
+      -storehouse_stonemining_03	  
+      -storehouse_metalmining_02
+      -storehouse_metalmining_03	  	  
+    </Technologies>
+  </ProductionQueue>     
   <VisualActor>
     <Actor>structures/mauryans/storehouse.xml</Actor>
   </VisualActor>

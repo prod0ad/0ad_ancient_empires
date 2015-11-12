@@ -10,7 +10,7 @@
     <Civ>gaul</Civ>
     <SpecificName>Gallic Worker</SpecificName>
     <GenericName>Worker</GenericName>
-    <Icon>units/celt_support_female_citizen.png</Icon>
+    <Icon>units/ae_celt_villager.png</Icon>
 	<SelectionGroupName>units/gaul_support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>

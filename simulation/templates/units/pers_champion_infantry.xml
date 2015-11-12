@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_archer">
+<Entity parent="template_unit_champion_infantry_swordsman">
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>2</Pierce>
+    <Hack>0</Hack>
+    <Pierce>0</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
-    <Ranged>
-      <Hack>0</Hack>
-      <Pierce>8</Pierce>
-      <Crush>0</Crush>
-      <MaxRange>40</MaxRange>
-      <MinRange>0.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
-      <PrepareTime>1500</PrepareTime>
-      <RepeatTime>1500</RepeatTime>
-      <Spread>1.3</Spread>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-    </Ranged>
-  </Attack>
+    <Melee>
+      <Hack>15</Hack>
+      <Pierce>0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>5.0</MaxRange>
+      <RepeatTime>1500</RepeatTime>		
+      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+    </Melee>
+  </Attack>  
   <Cost>
     <BuildTime>10</BuildTime>
-    <Population>2</Population>	
+    <Population>1</Population>	
     <Resources>
-      <food>45</food>
+      <food>40</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>35</metal>
+      <metal>20</metal>
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>5</food>
+    <food>4</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>4</metal>
+    <metal>2</metal>
   </Loot>  
   <Health>
-    <Max>75</Max>
+    <Max>80</Max>
   </Health>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
@@ -46,17 +42,16 @@
     </Run>		
   </UnitMotion>
   <Vision>
-    <Range>40</Range>
+    <Range>30</Range>
   </Vision>   
   <Identity>
     <Civ>pers</Civ>
-    <SpecificName>Anusyia</SpecificName>
+    <SpecificName>Takabara</SpecificName>
 	<GenericName>Unique Unit</GenericName>	
-    <Classes datatype="tokens">Immortal</Classes>
-    <Icon>units/pers_champion_infantry.png</Icon>
-	<Tooltip>Unique Unit. Fast trained, missile resistant Archer.</Tooltip>	
+    <Icon>units/ae_pers_takabara.png</Icon>
+	<Tooltip>Unique Unit. Cheap infantry with high attack.</Tooltip>	
   </Identity> 
   <VisualActor>
-    <Actor>units/persians/champion_unit_1.xml</Actor>
+    <Actor>units/persians/champion_unit_4.xml</Actor>
   </VisualActor>
 </Entity>

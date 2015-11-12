@@ -5,7 +5,7 @@
 	<SelectionGroupName>units/brit_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Epos</SpecificName>
     <GenericName>Light Cavalry</GenericName>
-    <Icon>units/celt_cavalry_swordsman.png</Icon>
+    <Icon>units/ae_celt_epos.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/brit_cavalry_swordsman_a</Entity>

@@ -1,10 +1,10 @@
 {
 	"genericName": "Advanced Heavy Cavalry",
-	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "cavalry_heavy_a.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"tooltip": "Heavy Cavalry +10% attack, hit points and vision.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}

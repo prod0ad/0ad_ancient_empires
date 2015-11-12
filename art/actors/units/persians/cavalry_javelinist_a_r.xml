@@ -26,12 +26,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="quilted corselet pink">
-      <textures><texture file="skeletal/pers_cjv_a_1.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="quilted corselet white">
-      <textures><texture file="skeletal/pers_cjv_a_2.png" name="baseTex"/></textures>
-    </variant>
     <variant frequency="1" name="quilted corselet yellow">
       <textures><texture file="skeletal/pers_cjv_a_3.png" name="baseTex"/></textures>
     </variant>

@@ -66,7 +66,6 @@
 	  upgrades/cavalry_heavy_a			  
 	  upgrades/cavalry_heavy_e						
       stables_speed_train
-      stables_speed_cavalry_01
     </Technologies>
   </ProductionQueue>
 </Entity>

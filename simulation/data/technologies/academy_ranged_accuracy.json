@@ -5,7 +5,7 @@
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "javelin_thong.png",
-	"researchTime": 40,
+	"researchTime": 50,
 	"tooltip": "Ranged Infantry +50% accuracy.",
 	"modifications": [{"value": "Attack/Ranged/Spread", "multiply": 0.50}],
 	"affects": ["Infantry Ranged"],

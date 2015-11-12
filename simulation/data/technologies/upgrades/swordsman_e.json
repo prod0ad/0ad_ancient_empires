@@ -1,10 +1,10 @@
 {
 	"genericName": "Elite Swordsmen",
-	"cost": {"food": 450, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "swordsman_e.png",
-	"researchTime": 40,
+	"researchTime": 60,
 	"supersedes": "upgrades/swordsman_a",
 	"tooltip": "Swordsmen +10% attack and vision, +15% hit points.",
 	"modifications": [

@@ -1,0 +1,16 @@
+{
+	"genericName": "Expert Cavalry Armor Forging",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 300},
+	"supersedes": "blacksmith_armor_cav_02",
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "armor_plates_cavalry.png",
+	"researchTime": 60,
+	"tooltip": "Mounted units +1 all armor levels.",
+	"modifications": [
+	    {"value": "Armour/Hack", "add": 1.0},
+	    {"value": "Armour/Crush", "add": 1.0},		
+		{"value": "Armour/Pierce", "add": 1.0}],
+	"affects": ["Cavalry","Soldier Camel","Elephant"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -39,15 +39,15 @@
       structures/{civ}_dock	  	  
       structures/{civ}_outpost
       other/wallset_palisade
-      structures/{civ}_barracks
-      structures/{civ}_stables 	  
-      structures/{civ}_siege_workshop	  
+      structures/{civ}_civil_centre		  
+      structures/{civ}_barracks	  	  
+      structures/{civ}_stables 	
       structures/{civ}_blacksmith
       structures/{civ}_temple
       structures/{civ}_market
       structures/{civ}_defense_tower
       structures/{civ}_wallset_stone
-      structures/{civ}_civil_centre			  
+      structures/{civ}_siege_workshop	  	    
       structures/{civ}_fortress		    	  
     </Entities>
   </Builder>

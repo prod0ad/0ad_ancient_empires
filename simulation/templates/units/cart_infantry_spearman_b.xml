@@ -5,7 +5,7 @@
     <SelectionGroupName>units/cart_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
     <SpecificName>Libyan Infantry</SpecificName>
-    <Icon>units/cart_infantry_spearman.png</Icon>
+    <Icon>units/ae_cart_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/cart_infantry_spearman_a</Entity>

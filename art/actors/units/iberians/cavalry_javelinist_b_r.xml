@@ -19,12 +19,13 @@
         <prop actor="props/units/weapons/jav.xml" attachpoint="r_hand"/>
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="loaded-r_hand"/>
         <prop actor="props/units/weapons/jav_projectile.xml" attachpoint="projectile"/>
+        <prop actor="props/units/shields/iberian_buckler_basic.xml" attachpoint="shield"/>		
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="3" name="tunic-white">
-      <textures><texture file="skeletal/iber_csp_b_1.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/iber_isw_b_3.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>

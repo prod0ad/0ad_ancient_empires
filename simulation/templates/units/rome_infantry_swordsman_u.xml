@@ -5,7 +5,7 @@
     <GenericName>Swordsman</GenericName>
     <SpecificName>Marian Legionarie</SpecificName>
     <History>The Marian Legionnaire.</History>
-    <Icon>units/rome_champion_legion_marian.png</Icon>
+    <Icon>units/ae_rome_swordsman_marian.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

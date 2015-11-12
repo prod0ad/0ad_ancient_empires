@@ -4,8 +4,8 @@
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "upgrade_advanced.png",
-	"researchTime": 60,
-	"tooltip": "Increases Legion Barracks unit attack, hit points and vision by 10%.",
+	"researchTime": 40,
+	"tooltip": "Barracks units +10% attack, hit points and vision.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.10},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.10},

@@ -10,6 +10,11 @@
   <Obstruction>
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+	  -tower_ballista
+    </Technologies>
+  </ProductionQueue>    
   <VisualActor>
     <Actor>structures/britons/scout_tower.xml</Actor>
   </VisualActor>

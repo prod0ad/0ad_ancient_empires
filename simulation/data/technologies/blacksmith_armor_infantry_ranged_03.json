@@ -1,0 +1,16 @@
+{
+	"genericName": "Expert Light Armor Crafting",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 250},
+	"supersedes": "blacksmith_armor_infantry_ranged_02",
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "armor_plates_ranged.png",
+	"researchTime": 60,
+	"tooltip": "Ranged Infantry +1 all armor levels.",
+	"modifications": [
+	    {"value": "Armour/Hack", "add": 1.0},
+	    {"value": "Armour/Crush", "add": 1.0},		
+		{"value": "Armour/Pierce", "add": 1.0}],
+	"affects": ["Ranged Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
