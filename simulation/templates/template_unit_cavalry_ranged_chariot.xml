@@ -59,10 +59,8 @@
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
-  <Obstruction>
-    <Unit radius="2.0"/>
-  </Obstruction>
   <UnitMotion>
+	  <PassabilityClass>large</PassabilityClass>  
     <WalkSpeed>11</WalkSpeed>
     <Run>
       <Speed>12</Speed>

@@ -25,7 +25,6 @@
   </BuildRestrictions>  
   <Health>
     <Max>1800</Max>
-    <Repairable>true</Repairable>
     <SpawnEntityOnDeath>rubble/rubble_rome_sb</SpawnEntityOnDeath>
   </Health>
   <Identity>

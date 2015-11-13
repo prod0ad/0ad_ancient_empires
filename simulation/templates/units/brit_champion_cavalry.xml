@@ -60,9 +60,6 @@
 	<Tooltip>Versatile chariot skirmisher.</Tooltip>	
     <Icon>units/ae_celt_chariot.png</Icon>
   </Identity>
-  <Obstruction>
-    <Unit radius="1.3"/>
-  </Obstruction>
   <VisualActor>
     <Actor>units/celts/champion_unit_4.xml</Actor>
   </VisualActor>

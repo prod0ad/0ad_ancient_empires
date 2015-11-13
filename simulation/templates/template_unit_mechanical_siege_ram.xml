@@ -64,8 +64,10 @@
     <BarHeight>0.5</BarHeight>
   </StatusBars>
   <UnitMotion>
-  <PassabilityClass>siege-large</PassabilityClass> 
     <WalkSpeed>5</WalkSpeed>
+    <Run>
+      <Speed>6</Speed>
+    </Run>	
   </UnitMotion>
   <Vision>
     <Range>24</Range>

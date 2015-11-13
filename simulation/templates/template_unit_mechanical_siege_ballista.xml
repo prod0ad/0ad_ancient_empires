@@ -73,6 +73,9 @@
   </Selectable>
   <UnitMotion>
     <WalkSpeed>7</WalkSpeed>
+    <Run>
+      <Speed>8</Speed>
+    </Run>	
   </UnitMotion>
   <Vision>
     <Range>50</Range>

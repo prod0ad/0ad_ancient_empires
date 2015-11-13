@@ -2,6 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>ptol</Civ>
+	<VisibleClasses datatype="tokens">Basic</VisibleClasses>			
     <SelectionGroupName>units/ptol_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Egyptian Horseman</SpecificName>
     <History>?</History>

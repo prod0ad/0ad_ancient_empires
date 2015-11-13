@@ -64,9 +64,6 @@
     <RequiredTechnology>phase_imperial</RequiredTechnology>	
     <Tooltip>Massive Siege Tower. Garrison up to 10 infantry units to increase arrow count.</Tooltip>
   </Identity>
-  <Obstruction>
-    <Unit radius="4.0"/>
-  </Obstruction>
   <Selectable>
     <Overlay>
       <Texture>
@@ -90,6 +87,9 @@
   </StatusBars>
   <UnitMotion>
     <WalkSpeed>5</WalkSpeed>
+    <Run>
+      <Speed>6</Speed>
+    </Run>	
   </UnitMotion>
   <Vision>
     <Range>75</Range>

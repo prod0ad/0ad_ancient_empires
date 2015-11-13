@@ -32,7 +32,6 @@
     <Max>100</Max>
     <RegenRate>0.1</RegenRate>
     <Unhealable>false</Unhealable>
-    <Repairable>false</Repairable>
   </Health>
   <Identity>
     <GenericName>Unit</GenericName>
@@ -53,7 +52,7 @@
     <Type>unit</Type>
   </Minimap>
   <Obstruction>
-    <Unit radius="0.8"/>
+    <Unit/>
     <Active>true</Active>
     <BlockMovement>true</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
@@ -117,6 +116,7 @@
   <Visibility> 
     <RetainInFog>false</RetainInFog>
     <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>	
     <Preview>false</Preview>
   </Visibility>
   <Vision>

@@ -25,9 +25,6 @@
   <Loot>
     <xp>0</xp>
   </Loot>
-  <Obstruction>
-    <Unit radius="2.6"/>
-  </Obstruction>
   <ResourceSupply>
     <Amount>400</Amount>
     <Type>food.meat</Type>

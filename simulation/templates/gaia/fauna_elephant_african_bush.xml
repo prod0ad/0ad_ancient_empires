@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_hunt_defensive">
   <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>  
     <WalkSpeed>3.0</WalkSpeed>
     <Run>
       <Speed>10.0</Speed>
@@ -31,9 +32,6 @@
   <Loot>
     <xp>0</xp>
   </Loot>
-  <Obstruction>
-    <Unit radius="3.5"/>
-  </Obstruction>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>

@@ -9,9 +9,6 @@
     <SpecificName>Siege Ram</SpecificName>	
     <Icon>units/celt_mechanical_siege_ram.png</Icon>
   </Identity>
-  <Obstruction>
-    <Unit radius="3.0"/>
-  </Obstruction>
   <VisualActor>
     <Actor>structures/celts/siege_ram.xml</Actor>
   </VisualActor>

@@ -39,9 +39,6 @@
     <stone>10</stone>
     <metal>10</metal>
   </Loot>
-  <Obstruction>
-    <Unit radius="3.0"/>
-  </Obstruction>
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
@@ -67,6 +64,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>  
     <WalkSpeed>7</WalkSpeed>
     <Run>
       <Speed>10.0</Speed>

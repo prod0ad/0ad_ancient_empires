@@ -59,9 +59,6 @@
     <stone>0</stone>
     <metal>0</metal>
   </Loot>
-  <Obstruction>
-    <Unit radius="1.0"/>
-  </Obstruction>
   <Promotion>
     <RequiredXp>9999</RequiredXp>
   </Promotion>

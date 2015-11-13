@@ -34,8 +34,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/pers_mechanical_siege_ram
-      units/pers_mechanical_siege_oxybeles_packed	  
+      units/{civ}_mechanical_siege_ram
+      units/{civ}_mechanical_siege_oxybeles_packed	 
+      units/{civ}_chariot_archer_e	  	  
     </Entities>
     <Technologies datatype="tokens">
       siege_attack

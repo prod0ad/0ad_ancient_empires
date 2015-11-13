@@ -3,9 +3,6 @@
   <Identity>                          
 	<VisibleClasses datatype="tokens">Advanced -Basic</VisibleClasses>		
   </Identity>
-  <Obstruction>
-    <Unit radius="1.6"/>
-  </Obstruction>
   <Promotion>
     <Entity>units/sele_cavalry_camel_e</Entity>
   </Promotion>

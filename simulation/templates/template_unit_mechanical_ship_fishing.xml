@@ -24,9 +24,6 @@
     <Tooltip>Fish the waters for Food.</Tooltip>
     <Classes datatype="tokens">FishingBoat</Classes>
   </Identity>
-  <Obstruction>
-    <Unit radius="2.0"/>
-  </Obstruction>
   <ResourceGatherer>
     <MaxDistance>6.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>

@@ -2,7 +2,7 @@
 <Entity parent="template_structure_special">
   <Auras>
     <Aura1>
-      <Type>Global</Type>
+      <Type>global</Type>
       <Affects>Ship</Affects>
       <AffectedPlayers>Player Ally</AffectedPlayers>	  
       <Modifications>
@@ -14,6 +14,7 @@
     </Aura1>
   </Auras>
   <BuildRestrictions>
+    <Territory>own ally neutral</Territory>
     <PlacementType>shore</PlacementType>
     <Category>Dock</Category>
   </BuildRestrictions>
@@ -28,9 +29,8 @@
     <Civ>ptol</Civ>
     <GenericName>Lighthouse</GenericName>
     <SpecificName>Pharos</SpecificName>
-    <VisibleClasses datatype="tokens">Lighthouse Town -City</VisibleClasses>
+    <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
     <Tooltip>Has large vision and increases the vision of friendly ships by 50%.</Tooltip>
-    <History>The Ptolemaic dynasty in Egypt built the magnificent Lighthouse of Alexandria near the harbor mouth of that Nile Delta city. This structure could be seen for many kilometers out to sea and was one of the Seven Wonders of the World.</History>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
@@ -50,6 +50,7 @@
   <TerritoryDecay disable=""/>
   <Vision>
     <Range>180</Range>
+	<RevealShore>true</RevealShore>
   </Vision>
   <VisualActor>
     <Actor>structures/ptolemies/lighthouse.xml</Actor>

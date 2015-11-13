@@ -32,9 +32,6 @@
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>  
-  <Obstruction>
-    <Unit radius="6.0"/>
-  </Obstruction>
   <UnitMotion>
     <WalkSpeed>10</WalkSpeed>
   </UnitMotion>  
