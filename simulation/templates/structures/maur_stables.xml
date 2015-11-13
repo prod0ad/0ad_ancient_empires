@@ -58,8 +58,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
 	  units/{civ}_cavalry_swordsman_b		
-	  units/{civ}_cavalry_javelinist_b	
-      units/{civ}_chariot_archer_b	  
+	  units/{civ}_cavalry_javelinist_b	  
     </Entities>
     <Technologies datatype="tokens">
 	  upgrades/cavalry_scout_a

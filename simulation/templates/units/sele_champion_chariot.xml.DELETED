@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Footprint replace="">
+    <Square width="7.5" depth="15.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>sele</Civ>
+    <Lang>greek</Lang>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <GenericName>Scythed Chariot</GenericName>
+    <SpecificName>Drepanèphoros</SpecificName>
+    <History>Expensive "suicide" unit. Mostly used to rush into infantry and cavalry formations to slaughter a bunch of enemies with scythes ("Trample Damage" aura) before getting destroyed themselves.</History>
+    <Icon>units/pers_cavalry_archer.png</Icon>
+    <RequiredTechnology>successors/unlock_traditional_army</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <xp>200</xp>
+    <food>0</food>
+    <wood>20</wood>
+    <stone>0</stone>
+    <metal>20</metal>
+  </Loot>
+  <ResourceGatherer>
+    <MaxDistance>5.0</MaxDistance>
+    <Capacities>
+      <food>50</food>
+    </Capacities>
+  </ResourceGatherer>
+  <VisualActor>
+    <Actor>units/persians/cavalry_archer_e.xml</Actor>
+  </VisualActor>
+</Entity>

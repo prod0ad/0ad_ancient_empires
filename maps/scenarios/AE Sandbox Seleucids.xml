@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="552.25" y="89.7096" z="74.2077"/>
+		<Position x="417.079" y="80.5226" z="53.9311"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -10250,13 +10250,6 @@
 			<Orientation y="-1.92634"/>
 			<Actor seed="51302"/>
 		</Entity>
-		<Entity uid="2521">
-			<Template>units/ptol_cavalry_archer_b</Template>
-			<Player>2</Player>
-			<Position x="447.3979" z="891.89582"/>
-			<Orientation y="-0.74244"/>
-			<Actor seed="6344"/>
-		</Entity>
 		<Entity uid="2522">
 			<Template>units/ptol_infantry_archer_b</Template>
 			<Player>2</Player>
@@ -11484,24 +11477,10 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="37726"/>
 		</Entity>
-		<Entity uid="2812">
-			<Template>units/sele_chariot_archer_b</Template>
-			<Player>1</Player>
-			<Position x="421.90058" z="123.05904"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="46460"/>
-		</Entity>
-		<Entity uid="2813">
-			<Template>units/sele_chariot_archer_a</Template>
-			<Player>1</Player>
-			<Position x="427.34037" z="127.83422"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="43326"/>
-		</Entity>
 		<Entity uid="2814">
 			<Template>units/sele_chariot_archer_e</Template>
 			<Player>1</Player>
-			<Position x="433.19114" z="133.25675"/>
+			<Position x="437.05954" z="93.10352"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7562"/>
 		</Entity>
@@ -11655,28 +11634,28 @@
 		<Entity uid="2837">
 			<Template>units/sele_mechanical_siege_lithobolos_unpacked</Template>
 			<Player>1</Player>
-			<Position x="427.13654" z="192.18384"/>
+			<Position x="407.4958" z="81.19063"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44124"/>
 		</Entity>
 		<Entity uid="2838">
 			<Template>units/sele_mechanical_siege_oxybeles_unpacked</Template>
 			<Player>1</Player>
-			<Position x="423.39371" z="185.09336"/>
+			<Position x="398.94346" z="74.6063"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48224"/>
 		</Entity>
 		<Entity uid="2839">
 			<Template>units/sele_mechanical_siege_ram</Template>
 			<Player>1</Player>
-			<Position x="417.2664" z="203.1355"/>
+			<Position x="400.16126" z="92.27694"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44884"/>
 		</Entity>
 		<Entity uid="2840">
 			<Template>units/sele_mechanical_siege_tower</Template>
 			<Player>1</Player>
-			<Position x="412.16922" z="194.73847"/>
+			<Position x="388.3689" z="84.7122"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="7152"/>
 		</Entity>

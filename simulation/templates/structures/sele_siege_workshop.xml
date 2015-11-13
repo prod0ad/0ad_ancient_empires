@@ -36,6 +36,7 @@
     <Entities datatype="tokens">
       units/{civ}_mechanical_siege_ram 	
       units/{civ}_mechanical_siege_polybolos_packed
+      units/{civ}_mechanical_siege_oxybeles_packed	 	  
       units/{civ}_mechanical_siege_lithobolos_packed
       units/{civ}_mechanical_siege_tower
       units/{civ}_chariot_archer_e	 	  

@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="554.01" y="89.7096" z="57.8568"/>
+		<Position x="465.383" y="62.3442" z="148.088"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -647,12 +647,6 @@
 			<Player>1</Player>
 			<Position x="554.00965" z="156.15503"/>
 			<Orientation y="2.35621"/>
-		</Entity>
-		<Entity uid="254">
-			<Template>units/rome_cavalry_spearman_b</Template>
-			<Player>1</Player>
-			<Position x="570.73346" z="173.01212"/>
-			<Orientation y="0.78541"/>
 		</Entity>
 		<Entity uid="255">
 			<Template>gaia/fauna_chicken</Template>
@@ -10795,23 +10789,16 @@
 		<Entity uid="2490">
 			<Template>units/rome_infantry_archer_e</Template>
 			<Player>1</Player>
-			<Position x="462.26612" z="235.53074"/>
+			<Position x="465.4922" z="234.11136"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16712"/>
 		</Entity>
 		<Entity uid="2491">
 			<Template>units/rome_infantry_slinger_e</Template>
 			<Player>1</Player>
-			<Position x="460.23542" z="233.77372"/>
+			<Position x="463.4615" z="232.35434"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43696"/>
-		</Entity>
-		<Entity uid="2492">
-			<Template>units/rome_infantry_spearman_u</Template>
-			<Player>1</Player>
-			<Position x="464.63843" z="237.40992"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="18576"/>
 		</Entity>
 		<Entity uid="2495">
 			<Template>units/rome_infantry_javelinist_b</Template>
@@ -11019,9 +11006,23 @@
 		<Entity uid="2526">
 			<Template>units/rome_cavalry_javelinist_e</Template>
 			<Player>1</Player>
-			<Position x="457.1377" z="232.72886"/>
+			<Position x="460.52146" z="231.69788"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1578"/>
+		</Entity>
+		<Entity uid="2527">
+			<Template>units/rome_infantry_spearman_u</Template>
+			<Player>1</Player>
+			<Position x="485.21616" z="146.10358"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29380"/>
+		</Entity>
+		<Entity uid="2528">
+			<Template>units/rome_cavalry_swordsman_e </Template>
+			<Player>1</Player>
+			<Position x="458.40201" z="229.9574"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64502"/>
 		</Entity>
 	</Entities>
 	<Paths/>
