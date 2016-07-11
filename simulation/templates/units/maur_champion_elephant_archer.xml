@@ -6,7 +6,7 @@
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Elephant Archer</SpecificName>
     <Icon>units/ae_maur_elephant_archer.png</Icon>
-    <Tooltip>Elite Elephant Archer with fear aura.</Tooltip>
+    <Tooltip>Tough mounted archer.</Tooltip>
   </Identity>
   <Promotion>
     <Entity>units/maur_champion_elephant_archer_e</Entity>

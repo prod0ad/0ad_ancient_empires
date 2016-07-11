@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>400</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>40</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>  
+  <Footprint>
+    <Square width="25.5" depth="25.5"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1800</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Workshop</GenericName>
+	<SpecificName>Workshop</SpecificName>
+    <Tooltip>Trains and upgrades mechanical units.</Tooltip>
+    <Icon>structures/siege_workshop.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens">
+	  -Barracks
+	  -Village
+	  City
+	  Workshop
+	</VisibleClasses>	
+  </Identity>
+  <Obstruction>
+    <Static width="23.5" depth="23.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/athenians/siege_workshop.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -40,10 +40,7 @@
     <Max>75</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>10</Speed>
-    </Run>		
+    <WalkSpeed>9</WalkSpeed>	
   </UnitMotion>
   <Vision>
     <Range>40</Range>
@@ -54,7 +51,7 @@
 	<GenericName>Unique Unit</GenericName>	
     <Classes datatype="tokens">Immortal</Classes>
     <Icon>units/ae_pers_immortal.png</Icon>
-	<Tooltip>Unique Unit. Fast trained, missile resistant Archer.</Tooltip>	
+	<Tooltip>Ranged infantry. Trained very fast.</Tooltip>	
   </Identity> 
   <VisualActor>
     <Actor>units/persians/champion_unit_1.xml</Actor>

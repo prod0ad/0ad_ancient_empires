@@ -2,7 +2,7 @@
 	"settings" : {
 		"Name" : "AE Plains",
 		"Script" : "ae_plains.js",
-		"Description" : "Fight for a lightly forested lowland.",
+		"Description" : "Lightly forested flatlands with an abundance of wildlife.",
 		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
 		"BaseHeight" : 3,
 		"CircularMap" : true,

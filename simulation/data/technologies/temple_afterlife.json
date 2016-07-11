@@ -3,7 +3,7 @@
 	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 500},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",	
-	"icon": "fist_spear.png",
+	"icon": "monument.png",
 	"researchTime": 60,
 	"tooltip": "Villagers +10% all resource gather rates.",
 	"modifications": [

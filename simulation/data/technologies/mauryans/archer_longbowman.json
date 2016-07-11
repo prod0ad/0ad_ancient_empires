@@ -1,0 +1,17 @@
+{
+	"genericName": "Longbowman",
+	"autoResearch": true,
+	"requirements": {"civ": "maur"},		
+	"tooltip": ".",
+	"modifications": [
+		{"value": "Attack/Ranged/Pierce", "replace": 12},
+        {"value": "Attack/Ranged/RepeatTime", "replace": 2000},
+		{"value": "Cost/Resources/wood", "replace": 45},
+		{"value": "Cost/Resources/metal", "replace": 25},		
+        {"value": "Attack/Ranged/MaxRange", "replace": 40},
+        {"value": "UnitMotion/WalkSpeed", "replace": 8}				
+		],
+	"affects": ["Infantry Bow"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
+

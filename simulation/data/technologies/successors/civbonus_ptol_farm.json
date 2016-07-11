@@ -1,8 +1,8 @@
 {
 	"genericName": "Nile Delta",
 	"autoResearch": true,
-	"description": "All workers gather food from farms and animals 30% faster.",
+	"description": "All workers gather food from farms 15% faster.",
 	"requirements": {"civ": "ptol"},
-	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.30}],
+	"modifications": [{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.15}],
 	"affects": ["Worker"]
 }

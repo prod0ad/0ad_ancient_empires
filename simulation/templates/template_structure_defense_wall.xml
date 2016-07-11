@@ -24,7 +24,7 @@
     <GenericName>Stone Wall</GenericName>
     <Tooltip>Wall off your town for a stout defense.</Tooltip>
     <Icon>structures/wall.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+	<RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Loot>
     <xp>100</xp>
@@ -45,7 +45,7 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>20</Range>
+    <Range>30</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_wall.xml</FoundationActor>

@@ -1,0 +1,17 @@
+{
+	"pair": "pair_hoplite",
+	"genericName": "Linothorax",
+	"description": ".",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": { "class": "Blacksmith", "number": 1 },
+	"requirementsTooltip": "Requires Blacksmith.",
+	"icon": "armor_pteruges.png",
+	"researchTime": 40,
+	"tooltip": "Hoplites +1 pierce armor, +10% speed.",
+	"modifications": [
+		{"value": "Armour/Pierce", "add": 1.0},	
+		{"value": "Cost/BuildTime", "multiply": 0.8}
+	],
+	"affects": ["Infantry Spear Levy"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

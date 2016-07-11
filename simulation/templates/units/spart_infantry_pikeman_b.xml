@@ -4,7 +4,7 @@
     <Civ>spart</Civ>
     <SelectionGroupName>units/spart_infantry_pikeman_b</SelectionGroupName>
 	<GenericName>Pikeman</GenericName>
-    <SpecificName>Cleomenian Phalangites</SpecificName>
+    <SpecificName>Phalangites</SpecificName>
     <Icon>units/ae_spart_pikeman.png</Icon>
     <RequiredTechnology>fort_spart_social_reform</RequiredTechnology>	
   </Identity>

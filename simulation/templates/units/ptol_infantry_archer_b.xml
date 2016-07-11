@@ -6,7 +6,7 @@
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>50</metal>
+      <metal>55</metal>
     </Resources>
   </Cost> 
   <Identity>
@@ -16,7 +16,7 @@
     <GenericName>Archer</GenericName>
     <SpecificName>Cretan Archer</SpecificName>
     <Icon>units/ae_merc_cretan.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/ptol_infantry_archer_a</Entity>

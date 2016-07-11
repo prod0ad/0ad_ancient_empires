@@ -3,12 +3,12 @@
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 100},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "horse_trainer.png",
+	"icon": "horse_rider.png",
 	"researchTime": 50,
-	"tooltip": "Cavalry -20% train time. Unlocks Cavalry Conscription.",
+	"tooltip": "Cavalry -20% train time.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],
-	"affects": ["Levy Cavalry","Unique Cavalry","Levy Elephant","Unique Elephant"],
+	"affects": ["Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

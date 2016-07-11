@@ -3,7 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
 	<SelectionGroupName>units/mace_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
+    <GenericName>Heavy Spearman</GenericName>
 	<SpecificName>Hypaspist</SpecificName>	
     <Icon>units/ae_mace_hypaspist.png</Icon>
   </Identity>

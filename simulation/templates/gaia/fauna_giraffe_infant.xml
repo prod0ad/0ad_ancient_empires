@@ -13,19 +13,14 @@
     <Anchor>pitch</Anchor>
   </Position>
   <ResourceSupply>
-    <Amount>150</Amount>
+    <Amount>100</Amount>
     <Type>food.meat</Type>
   </ResourceSupply>
   <StatusBars>
     <HeightOffset>7.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>4.0</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
+    <WalkSpeed>7.0</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/giraffe_baby.xml</Actor>

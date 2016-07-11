@@ -10,6 +10,6 @@
 	    {"value": "Armour/Hack", "add": 1.0},
 	    {"value": "Armour/Crush", "add": 1.0},		
 		{"value": "Armour/Pierce", "add": 1.0}],
-	"affects": ["Cavalry","Soldier Camel","Elephant"],
+	"affects": ["Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

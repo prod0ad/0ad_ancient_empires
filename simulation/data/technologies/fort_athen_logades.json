@@ -1,0 +1,16 @@
+{
+	"genericName": "Logades",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "helmet_hero_side.png",
+	"researchTime": 60,
+	"tooltip": "Reformed Hoplites +10% attack, hit points and vision.",
+	"modifications": [
+		{"value": "Health/Max",             "multiply":    1.1},	
+		{"value": "Vision/Range",           "multiply":    1.1},
+		{"value": "Attack/Melee/Hack", "multiply": 1.1}		
+	],
+	"affects": ["Unique Spear"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

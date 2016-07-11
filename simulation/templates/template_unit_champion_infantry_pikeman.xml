@@ -26,7 +26,7 @@
   </Attack>
   <Cost>
     <BuildTime>20</BuildTime>
-    <Population>2</Population>	
+    <Population>3</Population>	
     <Resources>
       <food>0</food>
       <wood>50</wood>
@@ -68,7 +68,6 @@
       <order_gather>voice/hellenes/civ/civ_male_ack.xml</order_gather>
       <order_repair>voice/hellenes/civ/civ_male_ack.xml</order_repair>
       <walk>actor/human/movement/walk.xml</walk>
-      <run>actor/human/movement/walk.xml</run>
       <attack>attack/weapon/sword.xml</attack>
       <death>actor/human/death/death.xml</death>
     </SoundGroups>

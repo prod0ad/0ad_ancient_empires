@@ -15,15 +15,15 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiCavalry>
 		<AntiCamel>
 		  <Classes>Camel</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiCamel>	
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiElephant>		
 	  </Bonuses>   
     </Melee>
@@ -32,37 +32,35 @@
     <BuildTime>10</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>50</food>
-      <wood>50</wood>
+      <food>30</food>
+      <wood>55</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>50</food>
-    <wood>50</wood>
+    <food>3</food>
+    <wood>6</wood>
     <stone>0</stone>
     <metal>0</metal>
   </Loot>  
   <Health>
-    <Max>90</Max>
+    <Max>80</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>8</Speed>
-    </Run>		
+    <WalkSpeed>7.5</WalkSpeed>	
   </UnitMotion>
   <Vision>
-    <Range>24</Range>
+    <Range>25</Range>
   </Vision>  
   <Identity>
     <Civ>ptol</Civ>
+    <VisibleClasses datatype="tokens">AntiCav1.5</VisibleClasses>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Machimos Phalangites</SpecificName>
     <Icon>units/ae_ptol_machimos.png</Icon>
-	<Tooltip>Fast trained pikeman. Deals x2 damage to cavalry, camel and elephant units.</Tooltip>	
+	<Tooltip>Melee infantry. Good against melee units, especially cavalry.</Tooltip>	
   </Identity>
   <Promotion>
     <Entity>units/ptol_champion_infantry_pikeman_e</Entity>

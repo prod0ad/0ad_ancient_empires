@@ -5,7 +5,6 @@
     <Height>8.0</Height>
   </Footprint>
   <Cost>
-    <BuildTime>60</BuildTime>
     <Resources>
       <wood>0</wood>
     </Resources>

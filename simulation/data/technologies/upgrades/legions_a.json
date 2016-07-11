@@ -3,9 +3,9 @@
 	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "upgrade_advanced.png",
+	"icon": "roman_camp.png",
 	"researchTime": 40,
-	"tooltip": "Barracks units +10% attack, hit points and vision.",
+	"tooltip": "Spearmen, Skirmishers, Swordsmen, Heavy Cavalry +10% attack, hit points and vision.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.10},	
 	    {"value": "Attack/Melee/Hack", "multiply": 1.10},

@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_wild_aggressive">
+  <Health>
+    <Max>150</Max>
+  </Health>
   <Attack>
     <Melee>
-      <Hack>30.0</Hack>
+      <Hack>20.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>8.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
     </Melee>
   </Attack>
+  <ResourceSupply>
+    <Amount>200</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>  
+  <UnitMotion>
+    <WalkSpeed>5.0</WalkSpeed>
+  </UnitMotion>  
   <Footprint replace="">
     <Square width="5" depth="8"/>
     <Height>7.5</Height>
@@ -37,15 +47,6 @@
       <death>actor/fauna/animal/lion_select.xml</death>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <WalkSpeed>2.0</WalkSpeed>
-    <Run>
-      <Speed>8.0</Speed>
-    </Run>
-  </UnitMotion>
-  <Vision>
-	  <Range>20</Range>
-  </Vision>
   <VisualActor>
     <Actor>fauna/crocodile.xml</Actor>
   </VisualActor>

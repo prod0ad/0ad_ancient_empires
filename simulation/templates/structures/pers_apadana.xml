@@ -2,6 +2,7 @@
 <Entity parent="template_structure_special">
   <BuildRestrictions>
     <Category>Apadana</Category>
+    <Territory>own</Territory>		
   </BuildRestrictions>
   <Cost>
     <BuildTime>150</BuildTime>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Cost>
-    <BuildTime>12.5</BuildTime>
+    <BuildTime>12</BuildTime>
     <Resources>
       <food>0</food>
       <wood>0</wood>
@@ -15,8 +15,8 @@
     <GenericName>Slinger</GenericName>
     <SpecificName>Judean Slinger</SpecificName>
     <Icon>units/ae_merc_rhodian.png</Icon>
-	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
-    <RequiredTechnology>phase_city</RequiredTechnology>	
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
+	<RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/sele_infantry_slinger_a</Entity>

@@ -6,11 +6,12 @@
   <ProductionQueue>
     <Entities datatype="tokens"> 
       units/{civ}_champion_infantry
-      units/{civ}_infantry_spearman_e	
+      units/{civ}_infantry_spearman_merc
       units/{civ}_cavalry_archer_b	  
       units/{civ}_champion_elephant  	  
     </Entities>
     <Technologies datatype="tokens">
+      fort_pers_levy	
 	  fort_pers_architecture
 	  fort_pers_reform
     </Technologies>

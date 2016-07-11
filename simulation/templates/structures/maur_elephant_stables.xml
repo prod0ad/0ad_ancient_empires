@@ -4,7 +4,7 @@
     <BuildTime>120</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>100</wood>
+      <wood>200</wood>
       <stone>100</stone>
       <metal>0</metal>
     </Resources>
@@ -23,11 +23,7 @@
     <History>Elephant Stables.</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/elephant_stables.png</Icon>
-    <Tooltip>Train elephant units.</Tooltip>
-    <VisibleClasses datatype="tokens">
-	  -City
-	  Town
-	</VisibleClasses>
+    <Tooltip>Trains elephant units.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="29.0"/>
@@ -35,9 +31,9 @@
   <ProductionQueue>
     <BatchTimeModifier>0.75</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/maur_support_elephant
       units/maur_champion_elephant
-      units/maur_champion_elephant_archer	  
+      units/maur_champion_elephant_archer	
+      units/maur_support_elephant	  
     </Entities>
     <Technologies datatype="tokens">
       stables_armored_elephant	  

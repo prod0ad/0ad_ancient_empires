@@ -5,35 +5,27 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>130</Max>
+    <Max>120</Max>
   </Health>   
   <Attack>
     <Melee>
-      <Hack>8</Hack>
+      <Hack>7</Hack>
       <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
+      <Crush>1</Crush>
       <MaxRange>4.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
-	  <Bonuses>
-		<AntiRangedInfantry>
-		  <Classes>Ranged Infantry</Classes>
-		  <Multiplier>1.75</Multiplier>
-		</AntiRangedInfantry>
-		<AntiRangedCavalry>
-		  <Classes>Ranged Cavalry</Classes>
-		  <Multiplier>1.75</Multiplier>
-		</AntiRangedCavalry>		
+	  <Bonuses>	
 		<AntiSiege>
 		  <Classes>Siege</Classes>
-		  <Multiplier>1.75</Multiplier>
+		  <Multiplier>2</Multiplier>
 		</AntiSiege>			
 	  </Bonuses>	  
     </Melee>
   </Attack>
   <Cost>
-    <Population>3</Population>  
-    <BuildTime>20</BuildTime>   
+    <Population>4</Population>  
+    <BuildTime>27</BuildTime>   
     <Resources>
       <food>100</food>
       <wood>0</wood>
@@ -52,14 +44,11 @@
   </Loot>  
   <UnitMotion>
     <WalkSpeed>12</WalkSpeed>
-    <Run>
-      <Speed>12.0</Speed>
-    </Run>	
   </UnitMotion>  
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Light Sword</VisibleClasses>
+    <VisibleClasses datatype="tokens">Melee Sword AntiSiege2</VisibleClasses>
     <GenericName>Light Cavalry</GenericName>
-	<RequiredTechnology>phase_town</RequiredTechnology>		
-    <Tooltip>Fast melee cavalry. Deals x1.75 damage to ranged and siege units.</Tooltip>		
+	<RequiredTechnology>phase_town</RequiredTechnology>	
+    <Tooltip>Melee cavalry. Good against siege and ranged units.</Tooltip>		
   </Identity>
 </Entity>

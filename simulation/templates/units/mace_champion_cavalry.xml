@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>2</Pierce>
+    <Hack>2</Hack>
+    <Pierce>1</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -19,30 +19,27 @@
     <Population>3</Population>  
     <BuildTime>30</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>85</food>
       <wood>0</wood>
-	  <metal>90</metal>
+	  <metal>80</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>8</food>
+    <food>9</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>9</metal>
+    <metal>8</metal>
   </Loot>  
   <Health>
-    <Max>160</Max>
+    <Max>135</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>11.5</WalkSpeed>
-    <Run>
-      <Speed>12.5</Speed>
-    </Run>		
+    <WalkSpeed>11.5</WalkSpeed>	
   </UnitMotion>
   <Vision>
-    <Range>40</Range>
+    <Range>45</Range>
   </Vision>  
   <Identity>
     <Civ>mace</Civ>

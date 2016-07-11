@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Health>
-    <Max>100</Max>
+    <Max>90</Max>
   </Health>
   <Armour>
     <Hack>2</Hack>
@@ -19,45 +19,45 @@
 	  <Bonuses>
 		<AntiCavalry>
 		  <Classes>Cavalry</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiCavalry>
 		<AntiCamel>
 		  <Classes>Camel</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiCamel>	
 		<AntiElephant>
 		  <Classes>Elephant</Classes>
-		  <Multiplier>2</Multiplier>
+		  <Multiplier>1.5</Multiplier>
 		</AntiElephant>		
 	  </Bonuses>  	  
     </Melee>
   </Attack>
   <Cost>
-    <Population>2</Population>  
+    <Population>3</Population>  
     <BuildTime>20</BuildTime>	 
     <Resources>
       <food>0</food>
-      <wood>50</wood>
-	  <metal>20</metal>
+      <wood>55</wood>
+	  <metal>30</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
       <food>0</food>
-      <wood>5</wood>
-	  <metal>2</metal>
+      <wood>6</wood>
+	  <metal>3</metal>
       <stone>0</stone>	
   </Loot>
   <UnitMotion>
     <WalkSpeed>7</WalkSpeed>
   </UnitMotion>  
   <Vision>
-    <Range>24</Range>
+    <Range>25</Range>
   </Vision>  
   <Identity>
-    <VisibleClasses datatype="tokens">Pike</VisibleClasses>
+    <VisibleClasses datatype="tokens">Pike AntiCav1.5</VisibleClasses>
     <GenericName>Pikeman</GenericName>
-    <Tooltip>Slow melee infantry. Deals x2 damage to cavalry, camel and elephant units.</Tooltip>	
+    <Tooltip>Melee infantry. Good against melee units, especially cavalry.</Tooltip>	
     <Formations datatype="tokens">
       formations/syntagma
     </Formations>

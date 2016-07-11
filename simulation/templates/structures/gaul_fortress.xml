@@ -17,10 +17,10 @@
       units/{civ}_infantry_spearman_merc	  
     </Entities>
     <Technologies datatype="tokens">
+	  fort_gaul_reform	
 	  fort_gaul_regen_cav
+	  fort_gaul_migration	  
 	  fort_gaul_wall
-	  fort_gaul_migration
-	  fort_gaul_reform
     </Technologies>
   </ProductionQueue>
   <VisualActor>

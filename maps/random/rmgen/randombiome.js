@@ -31,8 +31,8 @@ var rbe8 = "gaia/fauna_deer";
 var rbe9 = "gaia/fauna_fish";
 var rbe10 = "gaia/fauna_boar";
 var rbe11 = "gaia/fauna_wolf";
-var rbe12 = "gaia/geology_stone_mediterranean";
-var rbe13 = "gaia/geology_metal_mediterranean";
+var rbe12 = "gaia/geology_stonemine_medit_quarry";
+var rbe13 = "gaia/geology_metal_mediterranean_slabs";
 
 // decorative props
 var rba1 = "actor|props/flora/grass_soft_large_tall.xml";
@@ -87,38 +87,41 @@ function randomizeBiome()
 		
 		if (randInt(2))
 		{
-			rbt1 = "alpine_grass";
-			rbt2 = "temp_forestfloor_pine";
-			rbt3 = "temp_grass_clovers_2";
-			rbt5 = "alpine_grass_a";
-			rbt6 = "alpine_grass_b";
-			rbt7 = "alpine_grass_c";
-			rbt12 = "temp_grass_mossy";
+			rbt1 = "new_alpine_grass_d"; //main
+			rbt2 = "temp_forestfloor_pine"; //forest
+			rbt3 = "alpine_grass_b"; //forest
+		    rbt4 = ["alpine_cliff_a", "alpine_cliff_c"];	//cliff		
+			rbt5 = "new_alpine_grass_d"; //grass
+			rbt6 = "new_alpine_grass_b"; //grass
+			rbt7 = ["temp_mud_plants", "new_alpine_grass_c"]; //grass	
+		    rbt10 = "new_alpine_citytile";
+		    rbt11 = "new_alpine_citytile";				
+			rbt12 = ["new_alpine_grass_c", "new_alpine_grass_e"]; //dirt
+		    rbt14 = "medit_sand_wet"; //shore
+		    rbt15 = "medit_sand_wet"; //water			
 		}
 		else
 		{
-			rbt1 = "temp_grass_long_b";
+			rbt1 = ["temp_grass_plants", "temp_grass_plants", "temp_mud_plants", "temp_plants_bog", "temp_dirt_gravel_plants"];
 			rbt2 = "temp_forestfloor_pine";
 			rbt3 = "temp_plants_bog";
-			rbt5 = "temp_grass_d";
-			rbt6 = "temp_grass_c";
-			rbt7 = "temp_grass_clovers_2";
-			rbt12 = "temp_grass_plants";
+		    rbt4 = ["temp_cliff_c", "temp_cliff_b"];	
+			rbt5 = "temp_plants_bog";
+			rbt6 = "temp_dirt_gravel_plants";			
+			rbt7 = "temp_grass_plants";
+		    rbt10 = "temp_road";
+		    rbt11 = "temp_road_overgrown";			
+			rbt12 = ["temp_plants_bog", "temp_grass_clovers_2", "temp_grass_plants"];	
+		    rbt14 = ["temp_plants_bog", "temp_dirt_gravel_plants"];	
+		    rbt15 = "temp_mud_a";			
 		}
-		
-		rbt4 = ["temp_cliff_a", "temp_cliff_b"];
 		
 		rbt8 = ["temp_dirt_gravel", "temp_dirt_gravel_b"];
 		rbt9 = ["temp_dirt_gravel", "temp_dirt_gravel_b"];
-		rbt10 = "temp_road";
-		rbt11 = "temp_road_overgrown";
-		
-		rbt13 = "temp_mud_plants";
-		rbt14 = "sand_grass_25";
-		rbt15 = "medit_sand_wet";
+		rbt13 = ["temp_dirt_gravel", "temp_dirt_gravel_b"];
 
 		// gaia entities
-		var random_trees = randInt(3);
+		var random_trees = randInt(2);
 		
 		if (random_trees == 0)
 		{
@@ -127,7 +130,7 @@ function randomizeBiome()
 		}
 		else if (random_trees == 1)
 		{
-			rbe1 = "gaia/flora_tree_poplar";
+			rbe1 = "gaia/flora_tree_poplar_lombardy";
 			rbe2 = "gaia/flora_tree_poplar";
 		}
 		else
@@ -136,7 +139,7 @@ function randomizeBiome()
 			rbe2 = "gaia/flora_tree_euro_beech";
 		}
 		rbe3 = "gaia/flora_tree_apple";
-		random_trees = randInt(3);
+		random_trees = randInt(2);
 		if (random_trees == 0)
 		{
 			rbe4 = "gaia/flora_tree_pine";
@@ -160,21 +163,10 @@ function randomizeBiome()
 		}
 		else if (rts==2)
 		{
-			rbe8 = "gaia/fauna_sheep";
+			rbe8 = "gaia/fauna_horse";
 		}	
         rbe9 = "gaia/fauna_fish";
-		var rts = randInt(1,3);
-		if (rts==1){
-			rbe10 = "gaia/fauna_boar";
-		}
-		else if (rts==2)
-		{
-			rbe10 = "gaia/fauna_sheep";
-		}	
-		else if (rts==3)
-		{
-			rbe10 = "gaia/fauna_horse";
-		}		
+		rbe10 = "gaia/fauna_boar";	
 		var rts = randInt(1,2);
 		if (rts==1){
 			rbe11 = "gaia/fauna_bear";
@@ -183,18 +175,18 @@ function randomizeBiome()
 		{
 			rbe11 = "gaia/fauna_wolf";
 		}
-		rbe12 = "gaia/geology_stone_temperate";
-		rbe13 = "gaia/geology_metal_temperate";
+		rbe12 = "gaia/geology_stonemine_temperate_quarry";
+		rbe13 = "gaia/geology_metal_temperate_slabs";
 
 		// decorative props
 		rba1 = "actor|props/flora/grass_soft_large_tall.xml";
-		rba2 = "actor|props/flora/grass_soft_large.xml";
+		rba2 = "actor|props/flora/grass_soft_large_tall.xml";
 		rba3 = "actor|props/flora/reeds_pond_lush_a.xml";
 		rba4 = "actor|props/flora/water_lillies.xml";
 		rba5 = "actor|geology/stone_granite_large.xml";
 		rba6 = "actor|geology/stone_granite_med.xml";
-		rba7 = "actor|props/flora/bush_medit_me.xml";
-		rba8 = "actor|props/flora/bush_medit_sm.xml";
+		rba7 = "actor|props/flora/grass_soft_small_tall.xml";
+		rba8 = "actor|props/flora/grass_soft_small_tall.xml";
 		rba9 = "actor|flora/trees/oak.xml";
 	}
 	//snowy
@@ -211,7 +203,7 @@ function randomizeBiome()
 		rbt1 = ["polar_snow_b", "snow grass 75", "snow rocks", "snow forest"];
 		rbt2 = "polar_tundra_snow";
 		rbt3 = "polar_tundra_snow";
-		rbt4 = ["alpine_cliff_a", "alpine_cliff_b"];
+		rbt4 = ["polar_cliff_a", "polar_cliff_b"];
 		rbt5 = "polar_snow_a";
 		rbt6 = "polar_ice_snow";
 		rbt7 = "polar_ice";
@@ -232,7 +224,7 @@ function randomizeBiome()
 		rbe5 = "gaia/flora_tree_pine";
 		rbe6 = "gaia/flora_bush_berry";
         rbe7 = "gaia/fauna_sheep";
-		var rts = randInt(1,3);
+		var rts = randInt(1,2);
 		if (rts==1){
 			rbe8 = "gaia/fauna_muskox";
 		}
@@ -240,33 +232,29 @@ function randomizeBiome()
 		{
 			rbe8 = "gaia/fauna_deer";
 		}
-		else if (rts==3)
-		{
-			rbe8 = "gaia/fauna_sheep";
-		}
         rbe9 = "gaia/fauna_fish";
-		var rts = randInt(1,3);
+		var rts = randInt(1,2);
 		if (rts==1){
 			rbe10 = "gaia/fauna_walrus";
 		}
 		else if (rts==2)
 		{
-			rbe10 = "gaia/fauna_muskox";
-		}
-		else if (rts==3)
-		{
 			rbe10 = "gaia/fauna_boar";
 		}
-		var rts = randInt(1,2);
+		var rts = randInt(1,3);
 		if (rts==1){
 			rbe11 = "gaia/fauna_wolf_snow";
 		}
 		else if (rts==2)
 		{
 			rbe11 = "gaia/fauna_bear";
-		}		
-		rbe12 = "gaia/geology_stone_alpine_a";
-		rbe13 = "gaia/geology_metal_alpine";
+		}	
+		else if (rts==3)
+		{
+			rbe11 = "gaia/fauna_wolf";
+		}			
+		rbe12 = "gaia/geology_stonemine_alpine_quarry";
+		rbe13 = "gaia/geology_metal_alpine_slabs";
 
 		// decorative props
 		rba1 = "actor|props/flora/grass_soft_small_tall.xml";
@@ -343,8 +331,8 @@ function randomizeBiome()
 			rbe5 = "gaia/flora_tree_senegal_date_palm";
 		}
 		rbe6 = "gaia/flora_bush_grapes";
-        rbe7 = "gaia/fauna_sheep";
-		var rts = randInt(1,3);
+        rbe7 = "gaia/fauna_goat";
+		var rts = randInt(1,2);
 		if (rts==1){
 			rbe8 = "gaia/fauna_gazelle";
 		}
@@ -352,31 +340,15 @@ function randomizeBiome()
 		{
 			rbe8 = "gaia/fauna_camel";
 		}
-		else if (rts==3)
-		{
-			rbe8 = "gaia/fauna_goat";
-		}
         rbe9 = "gaia/fauna_fish";
-		var rts = randInt(1,5);
+		var rts = randInt(1,2);
 		if (rts==1){
-			rbe10 = "gaia/fauna_camel";
+			rbe10 = "gaia/fauna_elephant_north_african";
 		}
 		else if (rts==2)
 		{
-			rbe10 = "gaia/fauna_gazelle";
-		}
-		else if (rts==3)
-		{
-			rbe10 = "gaia/fauna_goat";
-		}
-		else if (rts==4)
-		{
 			rbe10 = "gaia/fauna_elephant_african_bush";
 		}	
-		else if (rts==5)
-		{
-			rbe10 = "gaia/fauna_horse";
-		}		
 		var rts = randInt(1,2);
 		if (rts==1){
 			rbe11 = "gaia/fauna_lioness";
@@ -385,12 +357,12 @@ function randomizeBiome()
 		{
 			rbe11 = "gaia/fauna_lion";
 		}		
-		rbe12 = "gaia/geology_stone_desert_small";
-		rbe13 = "gaia/geology_metal_desert_small";
+		rbe12 = "gaia/geology_stonemine_desert_quarry";
+		rbe13 = "gaia/geology_metal_desert_slabs";
 
 		// decorative props
-		rba1 = "actor|props/flora/grass_soft_dry_small_tall.xml";
-		rba2 = "actor|props/flora/grass_soft_dry_large.xml";
+		rba1 = "actor|props/flora/bush_desert_dry_a.xml";
+		rba2 = "actor|geology/stone_desert_med.xml";
 		rba3 = "actor|props/flora/reeds_pond_lush_a.xml";
 		rba4 = "actor|props/flora/reeds_pond_lush_b.xml";
 		rba5 = "actor|geology/stone_desert_med.xml";
@@ -419,7 +391,7 @@ function randomizeBiome()
 		
 		rbt1 = ["alpine_dirt_grass_50"];
 		rbt2 = "alpine_forrestfloor";
-		rbt3 = "alpine_forrestfloor";
+		rbt3 = "alpine_forrestfloor_snow";
 		rbt4 = ["alpine_cliff_a", "alpine_cliff_b", "alpine_cliff_c"];
 		rbt5 = "alpine_dirt";
 		rbt6 = ["alpine_grass_snow_50", "alpine_dirt_snow", "alpine_dirt_snow"];
@@ -440,28 +412,16 @@ function randomizeBiome()
 		rbe4 = "gaia/flora_tree_pine";
 		rbe5 = "gaia/flora_tree_pine";
 		rbe6 = "gaia/flora_bush_berry";
-        rbe7 = "gaia/fauna_sheep";
-		var rts = randInt(1,2);
 		if (rts==1){
-			rbe8 = "gaia/fauna_goat";
+			rbe7 = "gaia/fauna_goat";
 		}
 		else if (rts==2)
 		{
-			rbe8 = "gaia/fauna_deer";
-		}
+			rbe7 = "gaia/fauna_sheep";
+		}		
+		rbe8 = "gaia/fauna_deer";
         rbe9 = "gaia/fauna_fish";
-		var rts = randInt(1,3);
-		if (rts==1){
-			rbe10 = "gaia/fauna_goat";
-		}
-		else if (rts==2)
-		{
-			rbe10 = "gaia/fauna_deer";
-		}
-		else if (rts==3)
-		{
-			rbe10 = "gaia/fauna_boar";
-		}
+		rbe10 = "gaia/fauna_boar";
 		var rts = randInt(1,3);
 		if (rts==1){
 			rbe11 = "gaia/fauna_wolf";
@@ -474,8 +434,8 @@ function randomizeBiome()
 		{
 			rbe11 = "gaia/fauna_bear";
 		}	
-		rbe12 = "gaia/geology_stone_alpine_a";
-		rbe13 = "gaia/geology_metal_alpine";
+		rbe12 = "gaia/geology_stonemine_alpine_quarry";
+		rbe13 = "gaia/geology_metal_alpine_slabs";
 
 		// decorative props
 		rba1 = "actor|props/flora/grass_soft_small_tall.xml";
@@ -505,18 +465,18 @@ function randomizeBiome()
 		setPPSaturation(0.51);
 		setPPBloom(0.12);
 		
-		rbt1 = ["medit_grass_field_a", "medit_grass_field_b"];
-		rbt2 = "medit_grass_field";
-		rbt3 = "medit_grass_shrubs";
-		rbt4 = ["medit_cliff_grass", "medit_cliff_greek", "medit_cliff_greek_2", "medit_cliff_aegean", "medit_cliff_italia", "medit_cliff_italia_grass"];
+		rbt1 = ["medit_grass_field","medit_grass_field_a"];
+		rbt2 = "medit_forestfloor_a";
+		rbt3 = "medit_grass_field_brown";
+		rbt4 = ["medit_cliff_grass", "medit_cliff_italia"];
 		rbt5 = "medit_grass_field_b";
 		rbt6 = "medit_grass_field_brown";
 		rbt7 = "medit_grass_field_dry";
-		rbt8 = ["medit_rocks_grass_shrubs", "medit_rocks_shrubs"];
+		rbt8 = ["medit_grass_wild", "medit_rocks_shrubs"];
 		rbt9 = ["medit_dirt", "medit_dirt_b"];
 		rbt10 = "medit_city_tile";
 		rbt11 = "medit_city_tile";
-		rbt12 = "medit_grass_wild";
+		rbt12 = "medit_grass_shrubs";
 		rbt13 = "medit_sand";
 		rbt14 = "sand_grass_25";
 		rbt15 = "medit_sand_wet";
@@ -564,46 +524,32 @@ function randomizeBiome()
 			rbe6 = "gaia/flora_bush_berry";
 		else
 			rbe6 = "gaia/flora_bush_grapes";
-        rbe7 = "gaia/fauna_sheep";
-		var rts = randInt(1,3);
-		if (rts==1){
-			rbe8 = "gaia/fauna_deer";
-		}
-		else if (rts==2)
-		{
-			rbe8 = "gaia/fauna_sheep";
-		}
-		else if (rts==3)
-		{
-			rbe8 = "gaia/fauna_goat";
-		}	
-        rbe9 = "gaia/fauna_fish";
 		var rts = randInt(1,2);
 		if (rts==1){
-			rbe10 = "gaia/fauna_deer";
+			rbe7 = "gaia/fauna_goat";
 		}
 		else if (rts==2)
 		{
-			rbe10 = "gaia/fauna_boar";
+			rbe7 = "gaia/fauna_sheep";
 		}
-		var rts = randInt(1,3);
-		if (rts==1){
+		rbe8 = "gaia/fauna_deer";	
+        rbe9 = "gaia/fauna_fish";
+		rbe10 = "gaia/fauna_boar";
+		var rts = randInt(1,2);
+		if (rts==1)
+		{
 			rbe11 = "gaia/fauna_bear";
 		}
 		else if (rts==2)
 		{
 			rbe11 = "gaia/fauna_wolf";
-		}
-		else if (rts==3)
-		{
-			rbe11 = "gaia/fauna_boar";
-		}		
-		rbe12 = "gaia/geology_stone_mediterranean";
-		rbe13 = "gaia/geology_metal_mediterranean";
+		}	
+		rbe12 = "gaia/geology_stonemine_medit_quarry";
+		rbe13 = "gaia/geology_metal_mediterranean_slabs";
 
 		// decorative props
-		rba1 = "actor|props/flora/grass_soft_large_tall.xml";
-		rba2 = "actor|props/flora/grass_soft_large.xml";
+		rba1 = "actor|props/flora/bush_medit_sm.xml";
+		rba2 = "actor|props/flora/bush_medit_me.xml";
 		rba3 = "actor|props/flora/reeds_pond_lush_b.xml";
 		rba4 = "actor|props/flora/water_lillies.xml";
 		rba5 = "actor|geology/stone_granite_large.xml";
@@ -652,8 +598,8 @@ function randomizeBiome()
 		rbe4 = "gaia/flora_tree_baobab";
 		rbe5 = "gaia/flora_tree_baobab";
 		rbe6 = "gaia/flora_bush_grapes";
-        rbe7 = "gaia/fauna_sheep";	
-		var rts = randInt(1,4);
+        rbe7 = "gaia/fauna_goat";	
+		var rts = randInt(1,3);
 		if (rts==1){
 			rbe8 = "gaia/fauna_wildebeest";
 		}
@@ -663,37 +609,18 @@ function randomizeBiome()
 		}
 		else if (rts==3)
 		{
-			rbe8 = "gaia/fauna_giraffe";
-		}
-		else if (rts==4)
-		{
 			rbe8 = "gaia/fauna_gazelle";
 		}		
         rbe9 = "gaia/fauna_fish";
-		var rts = randInt(1,6);
-		if (rts==1){
-			rbe10 = "gaia/fauna_wildebeest";
-		}
-		else if (rts==2)
-		{
-			rbe10 = "gaia/fauna_zebra";
-		}
-		else if (rts==3)
+		var rts = randInt(1,2);
+        if (rts==1)
 		{
 			rbe10 = "gaia/fauna_giraffe";
 		}
-		else if (rts==4)
+		else if (rts==2)
 		{
 			rbe10 = "gaia/fauna_elephant_african_bush";
-		}
-		else if (rts==5)
-		{
-			rbe10 = "gaia/fauna_gazelle";
-		}
-		else if (rts==6)
-		{
-			rbe10 = "gaia/fauna_goat";
-		}		
+		}	
 		var rts = randInt(1,2);
 		if (rts==1){
 			rbe11 = "gaia/fauna_lion";
@@ -702,8 +629,8 @@ function randomizeBiome()
 		{
 			rbe11 = "gaia/fauna_lioness";
 		}
-		rbe12 = "gaia/geology_stone_savanna_small";
-		rbe13 = "gaia/geology_metal_desert_small";
+		rbe12 = "gaia/geology_stonemine_desert_quarry";
+		rbe13 = "gaia/geology_metal_savanna_slabs";
 
 		// decorative props
 		rba1 = "actor|props/flora/grass_savanna.xml";
@@ -758,8 +685,15 @@ function randomizeBiome()
 		rbe4 = "gaia/flora_tree_palm_tropic";
 		rbe5 = "gaia/flora_tree_palm_tropic";
 		rbe6 = "gaia/flora_bush_berry";
-        rbe7 = "gaia/fauna_sheep";
-		var rts = randInt(1,5);
+		var rts = randInt(1,2);
+		if (rts==1){
+			rbe7 = "gaia/fauna_sheep";
+		}
+		else if (rts==2)
+		{
+			rbe7 = "gaia/fauna_goat";
+		}		
+		var rts = randInt(1,3);
 		if (rts==1){
 			rbe8 = "gaia/fauna_deer";
 		}
@@ -769,36 +703,21 @@ function randomizeBiome()
 		}
 		else if (rts==3)
 		{
-			rbe8 = "gaia/fauna_boar";
-		}
-		else if (rts==4)
-		{
 			rbe8 = "gaia/fauna_peacock";
 		}		
         rbe9 = "gaia/fauna_fish";
-		var rts = randInt(1,5);
-		if (rts==1){
-			rbe10 = "gaia/fauna_deer";
-		}
-		else if (rts==2)
-		{
-			rbe10 = "gaia/fauna_gazelle";
-		}
-		else if (rts==3)
+		var rts = randInt(1,2);
+        if (rts==1)
 		{
 			rbe10 = "gaia/fauna_boar";
 		}
-		else if (rts==4)
+		else if (rts==2)
 		{
 			rbe10 = "gaia/fauna_elephant_asian";
-		}
-		else if (rts==5)
-		{
-			rbe10 = "gaia/fauna_peacock";
-		}		
+		}	
         rbe11 = "gaia/fauna_tiger";				
-		rbe12 = "gaia/geology_stone_tropic_a";
-		rbe13 = "gaia/geology_metal_tropic";
+		rbe12 = "gaia/geology_stonemine_tropic_quarry";
+		rbe13 = "gaia/geology_metal_tropic_slabs";
 
 		// decorative props
 		rba1 = "actor|props/flora/plant_tropic_a.xml";
@@ -860,25 +779,10 @@ function randomizeBiome()
 		}
 		else if (rts==2)
 		{
-			rbe8 = "gaia/fauna_sheep";
+			rbe8 = "gaia/fauna_horse";
 		}
 		rbe9 = "gaia/fauna_fish";
-		var rts = randInt(1,3);
-		if (rts==1){
-			rbe10 = "gaia/fauna_boar";
-		}
-		else if (rts==2)
-		{
-			rbe10 = "gaia/fauna_sheep";
-		}
-		else if (rts==3)
-		{
-			rbe10 = "gaia/fauna_horse";
-		}
-		else if (rts==4)
-		{
-			rbe10 = "gaia/fauna_deer";
-		}		
+		rbe10 = "gaia/fauna_boar";		
 		var rts = randInt(1,2);
 		if (rts==1){
 			rbe11 = "gaia/fauna_bear";
@@ -887,8 +791,8 @@ function randomizeBiome()
 		{
 			rbe11 = "gaia/fauna_wolf";
 		}
-		rbe12 = "gaia/geology_stone_temperate";
-		rbe13 = "gaia/geology_metal_temperate";
+		rbe12 = "gaia/geology_stonemine_temperate_quarry";
+		rbe13 = "gaia/geology_metal_temperate_slabs";
 
 		// decorative props
 		rba1 = "actor|props/flora/grass_soft_dry_small_tall.xml";

@@ -21,7 +21,7 @@
     <Height>6.0</Height>
   </Footprint>
   <Health>
-    <Max>600</Max>
+    <Max>450</Max>
   </Health>
   <Identity>
     <Civ>maur</Civ>
@@ -66,9 +66,6 @@
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>  
     <WalkSpeed>7</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-    </Run>
   </UnitMotion>
   <Vision>
     <Range>60</Range>

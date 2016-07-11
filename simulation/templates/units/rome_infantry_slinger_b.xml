@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Cost>
-    <BuildTime>12.5</BuildTime>
+    <BuildTime>12</BuildTime>
     <Resources>
       <food>0</food>
       <wood>0</wood>

@@ -56,9 +56,9 @@
   <Identity>
     <GenericName>Temple</GenericName>
     <SpecificName>Temple</SpecificName>
-    <Tooltip>Train healers. Garrison up to 20 units to heal them. Research healing and religious upgrades.</Tooltip>
+    <Tooltip>Trains healers. Researches healing and religious upgrades.</Tooltip>
     <VisibleClasses datatype="tokens">
-      Town
+      Town 	
       Temple
     </VisibleClasses>
     <Icon>structures/temple.png</Icon>

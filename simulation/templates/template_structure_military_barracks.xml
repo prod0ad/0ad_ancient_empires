@@ -11,7 +11,8 @@
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>100</wood>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -33,9 +34,9 @@
   <Identity>
     <GenericName>Barracks</GenericName>
     <SpecificName>Infantry Barracks</SpecificName>	
-    <Tooltip>Trains and upgrades Infantry Units.</Tooltip>	
+    <Tooltip>Trains and upgrades infantry units.</Tooltip>	
     <VisibleClasses datatype="tokens">
-	  Village
+	  Village	
 	  Barracks
 	</VisibleClasses>
     <Icon>structures/pers_barracks.png</Icon>

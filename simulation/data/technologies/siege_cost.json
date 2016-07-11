@@ -1,17 +1,17 @@
 {
-	"genericName": "Military Engineers",	
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"genericName": "Mass Production",	
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "military_engineers.png",
-	"researchTime": 50,
-	"tooltip": "Siege Weapons -25% cost.",
+	"icon": "metalworker.png",
+	"researchTime": 60,
+	"tooltip": "Workshop units cost 20% less.",
 	"modifications": [
-	    {"value": "Cost/Resources/wood", "multiply": 0.75},
-	    {"value": "Cost/Resources/metal", "multiply": 0.75},
-	    {"value": "Cost/Resources/food", "multiply": 0.75},		
-		{"value": "Cost/Resources/stone", "multiply": 0.75}
+	    {"value": "Cost/Resources/wood", "multiply": 0.8},
+	    {"value": "Cost/Resources/metal", "multiply": 0.8},
+	    {"value": "Cost/Resources/food", "multiply": 0.8},		
+		{"value": "Cost/Resources/stone", "multiply": 0.8}
 	],
-	"affects": ["Siege"],
+	"affects": ["Catapult", "BoltShooter", "Ram", "Chariot"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -10,6 +10,6 @@
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],
-	"affects": ["Melee Light Cavalry Levy Advanced"],
+	"affects": ["Sword Cavalry Levy Advanced"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

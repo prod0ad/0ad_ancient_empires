@@ -11,7 +11,6 @@
         <animation event="0.2" file="infantry/sword/attack/isw_s_em_04.psa" name="attack_capture" speed="100"/>
         <animation event="0.5" file="biped/inf_sling_atk_a.psa" name="attack_ranged" speed="30"/>
         <animation file="infantry/sword/move/run/isw_s_off_01.psa" name="Run" speed="38"/>
-        <animation file="infantry/sword/move/run/isw_s_def_02.psa" name="Run" speed="35"/>
         <animation file="infantry/general/death/inf_01.psa" name="Death" speed="400"/>
         <animation file="infantry/general/death/inf_02.psa" name="Death" speed="700"/>
         <animation file="infantry/general/death/inf_03.psa" name="Death" speed="500"/>
@@ -23,14 +22,16 @@
       <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/weapons/sling.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/heads/hele_straw.xml" attachpoint="helmet"/>	
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
+        <prop actor="props/units/shields/iberian_buckler_adv.xml" attachpoint="shield"/>
         <prop actor="props/units/cape_long_ragged.xml" attachpoint="shoulders"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Thureophoros Tunic Elite">
-      <textures><texture file="skeletal/rome_ijv_a.png" name="baseTex"/></textures>  
+      <textures><texture file="skeletal/rome_ijv_e.png" name="baseTex"/></textures>  
     </variant>
   </group>  
   <group>
@@ -49,6 +50,6 @@
         <prop actor="props/units/heads/head_hele_e.xml" attachpoint="head"/>
 	  </props>
     </variant>	
-  </group>     
-  <material>default.xml</material>
+  </group>    
+  <material>player_trans.xml</material>
 </actor>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Armour>
-    <Hack>3</Hack>
+    <Hack>4</Hack>
     <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
@@ -29,40 +29,38 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>5</BuildTime>
+    <BuildTime>6</BuildTime>
     <Population>2</Population>	
     <Resources>
-      <food>40</food>
+      <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>60</metal>
+      <metal>70</metal>
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>4</food>
+    <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>6</metal>
+    <metal>7</metal>
   </Loot>  
   <Health>
-    <Max>140</Max>
+    <Max>120</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>7.5</WalkSpeed>
-    <Run>
-      <Speed>7.5</Speed>
-    </Run>		
+    <WalkSpeed>7</WalkSpeed>	
   </UnitMotion> 
   <Vision>
-    <Range>24</Range>
+    <Range>25</Range>
   </Vision>    
   <Identity>
     <Civ>cart</Civ>
+	<VisibleClasses datatype="tokens">AntiCav1.5</VisibleClasses>		
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Sacred Band Infantry</SpecificName>
     <Icon>units/ae_cart_champion_spearman.png</Icon>	
-	<Tooltip>Fast trained, expensive elite spearman. Deals x1.5 damage to cavalry, camel and elephant units.</Tooltip>		
+	<Tooltip>Melee infantry. Good against melee units.</Tooltip>		
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/champion_spearman.xml</Actor>

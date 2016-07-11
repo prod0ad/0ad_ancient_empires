@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_hunt_aggressive">
+  <UnitMotion>
+    <WalkSpeed>6.0</WalkSpeed>
+  </UnitMotion>
   <Health>
     <Max>150</Max>
   </Health>
+  <ResourceSupply>
+    <Amount>150</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>  
   <Attack>
     <Melee>
-      <Hack>32.0</Hack>
+      <Hack>20.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -31,10 +38,6 @@
       <death>actor/fauna/animal/lion_select.xml</death>
     </SoundGroups>
   </Sound>
-  <ResourceSupply>
-    <Amount>300</Amount>
-    <Type>food.meat</Type>
-  </ResourceSupply>
   <VisualActor>
     <Actor>fauna/bear.xml</Actor>
   </VisualActor>

@@ -1,10 +1,10 @@
 {
 	"genericName": "Gallic Wall",
-	"cost": {"food": 0, "wood": 400, "stone": 200, "metal": 0},
-	"requirements": {"tech": "phase_city"},
-	"requirementsTooltip": "Unlocked in City Phase.",
+	"cost": {"food": 0, "wood": 500, "stone": 400, "metal": 0},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
 	"icon": "stone_blocks.png",
-	"researchTime": 50,
+	"researchTime": 60,
 	"tooltip": "Walls and Fortresses +3 all armor levels.",
 	"modifications": [
 	    {"value": "Armour/Hack", "add": 3.0},

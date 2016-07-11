@@ -22,11 +22,12 @@
     <GenericName>Embassy</GenericName>
     <SpecificName>Embassy</SpecificName>
     <History>The Carthaginian army was a cosmopolitan affair, made up of mercenaries from dozens of lands.</History>
-    <Tooltip>Hires mercenary units in addition to the Fortress.</Tooltip>
+    <Tooltip>Hires mercenaries from the town phase.</Tooltip>
     <Icon>structures/italian_embassy.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
     <VisibleClasses datatype="tokens">
 	  -Village
-	  City
+	  Town
 	  Embassy
 	</VisibleClasses>	
   </Identity>
@@ -35,8 +36,8 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_infantry_swordsman_e	  
-      units/{civ}_infantry_archer_e		  
+      units/{civ}_infantry_archer_e	
+      units/{civ}_infantry_swordsman_e	  	  
       units/{civ}_infantry_slinger_e	
 	  units/{civ}_cavalry_swordsman_e	 	  
 	  units/{civ}_cavalry_javelinist_e	 

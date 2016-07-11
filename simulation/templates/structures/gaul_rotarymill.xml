@@ -10,6 +10,7 @@
       </Modifications>
       <AuraName>Farming bonus</AuraName>
       <AuraDescription>Villagers +20% farming rate.</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/farming.png</OverlayIcon>	  	  
     </Aura1>
   </Auras>
   <Cost>
@@ -17,7 +18,7 @@
     <Resources>
       <food>0</food>
       <wood>200</wood>
-      <stone>0</stone>
+      <stone>100</stone>
       <metal>0</metal>
     </Resources>
   </Cost>

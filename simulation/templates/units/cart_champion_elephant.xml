@@ -5,13 +5,14 @@
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Forest Elephant</SpecificName>
     <Icon>units/ae_cart_forest_elephant.png</Icon>
+	<Tooltip>Melee elephant cavalry. Good against structures and siege units.</Tooltip>		
     <VisibleClasses datatype="tokens">-Levy Unique</VisibleClasses>	
   </Identity>
   <Attack>
     <Melee>
       <Hack>0</Hack>
       <Pierce>0</Pierce>
-      <Crush>50</Crush>
+      <Crush>48</Crush>
       <MaxRange>7.0</MaxRange>
       <RepeatTime>2000</RepeatTime>		  
     </Melee>
@@ -34,8 +35,11 @@
     <metal>6</metal>
   </Loot>  
   <Health>
-    <Max>500</Max>
+    <Max>400</Max>
   </Health>  
+  <Vision>
+    <Range>45</Range>
+  </Vision>    
   <VisualActor>
     <Actor>units/carthaginians/champion_unit_2.xml</Actor>
   </VisualActor>

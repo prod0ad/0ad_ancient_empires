@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "population.png",
 	"researchTime": 180,
-	"tooltip": "Melee Infantry -20% train time.",
+	"tooltip": "Melee infantry and mercenary units -20% train time. Unlocks Pikemen at the elite rank.",
 	"modifications": [
 		{"value": "Cost/BuildTime", "multiply": 0.8}
 	],

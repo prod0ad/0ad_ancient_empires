@@ -24,17 +24,23 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>6</Pierce>
+      <Pierce>12</Pierce>
       <Crush>0</Crush>
       <MaxRange>35</MaxRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.4</Spread>	  
-    </Ranged>
+      <Spread>1.2</Spread>	 
+	  <Bonuses>
+		<AntiMeleeInfantry>
+		  <Classes>Melee Infantry</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiMeleeInfantry>	
+	  </Bonuses>  	  
+    </Ranged> 	
   </Attack>
   <Cost>
-    <Population>4</Population>
+    <Population>5</Population>
     <BuildTime>40</BuildTime>  
     <Resources>
       <food>120</food>
@@ -44,14 +50,14 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>165</Max>
+    <Max>200</Max>
   </Health>
   <Footprint replace="">
     <Square width="7.5" depth="15.0"/>
     <Height>5.0</Height>
   </Footprint> 
   <Vision>
-    <Range>50</Range>
+    <Range>45</Range>
   </Vision>   
   <Loot>
     <food>12</food>
@@ -62,13 +68,12 @@
   <UnitMotion>
 	  <PassabilityClass>large</PassabilityClass>  
     <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>12</Speed>
-    </Run>	
   </UnitMotion>  
   <Identity>
-	<VisibleClasses datatype="tokens">Chariot Bow -Cavalry</VisibleClasses>
+	<VisibleClasses datatype="tokens">Chariot Bow -Cavalry AntiMeleeInf1.5</VisibleClasses>
+	<Classes datatype="tokens">Siege</Classes>	
     <GenericName>Chariot Archer</GenericName>
-    <Tooltip>Fast moving archer. Effective against melee units.</Tooltip>	
+    <Tooltip>Ranged chariot cavalry. Good against melee units.</Tooltip>	
+	<RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
 </Entity>

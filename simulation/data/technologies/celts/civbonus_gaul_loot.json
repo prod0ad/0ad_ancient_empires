@@ -1,0 +1,13 @@
+{
+	"genericName": "Pillage",
+	"autoResearch": true,
+	"description": "Soldiers gain 30% additional loot.",
+	"requirements": {"civ": "gaul"},
+	"modifications": [
+	    {"value": "Looter/Resource/food", "multiply": 1.3},
+	    {"value": "Looter/Resource/wood", "multiply": 1.3},
+	    {"value": "Looter/Resource/metal", "multiply": 1.3},
+	    {"value": "Looter/Resource/stone", "multiply": 1.3}		
+	],
+	"affects": ["Soldier"]
+}

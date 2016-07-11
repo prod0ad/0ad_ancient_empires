@@ -96,8 +96,8 @@ var startAngle = randFloat(0, TWO_PI);
 for (var i = 0; i < numPlayers; i++)
 {
 	playerAngle[i] = startAngle + i*TWO_PI/numPlayers;
-	playerX[i] = 0.5 + 0.3*cos(playerAngle[i]);
-	playerZ[i] = 0.5 + 0.3*sin(playerAngle[i]);
+	playerX[i] = 0.5 + 0.34*cos(playerAngle[i]);
+	playerZ[i] = 0.5 + 0.34*sin(playerAngle[i]);
 }
 
 for (var i = 0; i < numPlayers; i++)
@@ -135,10 +135,9 @@ for (var i = 0; i < numPlayers; i++)
 	var painter = new LayeredPainter([tRoadWild, tRoad], [1]);
 	createArea(placer, painter, null);
 	
-	// create animals
-
+	// create herds
 		var aAngle = randFloat(0, TWO_PI);
-		var aDist = 7;
+		var aDist = 8;
 		var aX = round(fx + aDist * cos(aAngle));
 		var aZ = round(fz + aDist * sin(aAngle));
 		var group = new SimpleGroup(
@@ -149,11 +148,11 @@ for (var i = 0; i < numPlayers; i++)
 	
 	// create berry bushes
 	var bbAngle = randFloat(0, TWO_PI);
-	var bbDist = 20;
+	var bbDist = 12;
 	var bbX = round(fx + bbDist * cos(bbAngle));
 	var bbZ = round(fz + bbDist * sin(bbAngle));
 	group = new SimpleGroup(
-		[new SimpleObject(oFruitBush, 6,6, 0,3)],
+		[new SimpleObject(oFruitBush, 8,8, 0,2)],
 		true, clBaseResource, bbX, bbZ
 	);
 	createObjectGroup(group, 0);
@@ -164,42 +163,71 @@ for (var i = 0; i < numPlayers; i++)
 	{
 		mAngle = randFloat(0, TWO_PI);
 	}
-	var mDist = 30;
+	var mDist = 22;
 	var mX = round(fx + mDist * cos(mAngle));
 	var mZ = round(fz + mDist * sin(mAngle));
 	group = new SimpleGroup(
-		[new SimpleObject(oMetalSmall, 4,4, 2,3)],
+		[new SimpleObject(oMetalSmall, 1,1, 0,0)],
 		true, clBaseResource, mX, mZ
 	);
-	createObjectGroup(group, 0, avoidClasses(clBaseResource,5));
-	
+	createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
+		
 	// create stone mines
 	var mAngle = bbAngle;
 	while(abs(mAngle - bbAngle) < PI/3)
 	{
 		mAngle = randFloat(0, TWO_PI);
 	}
-	var mDist = 30;
+	var mDist = 22;
 	var mX = round(fx + mDist * cos(mAngle));
 	var mZ = round(fz + mDist * sin(mAngle));
 	group = new SimpleGroup(
-		[new SimpleObject(oStoneSmall, 4,4, 2,3)],
+		[new SimpleObject(oStoneSmall, 1,1, 0,0)],
 		true, clBaseResource, mX, mZ
 	);
-	createObjectGroup(group, 0, avoidClasses(clBaseResource,5));
+	createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
 	var hillSize = PI * radius * radius;
+	
 	// create starting trees
-	var num = 4;
-	var tAngle = randFloat(0, TWO_PI);
-	var tDist = randFloat(12, 13);
-	var tX = round(fx + tDist * cos(tAngle));
-	var tZ = round(fz + tDist * sin(tAngle));
-	group = new SimpleGroup(
-		[new SimpleObject(oTree1, num, num, 2,3)],
-		false, clBaseResource, tX, tZ
+    {if (biomeID == 6)
+	{		
+        var num = 2;
+	    var tAngle = randFloat(0, TWO_PI);
+	    var tDist = randFloat(13, 14);
+	    var tX = round(fx + tDist * cos(tAngle));
+	    var tZ = round(fz + tDist * sin(tAngle));
+	    group = new SimpleGroup(
+		[new SimpleObject(oTree1, num, num, 1,3)],
+		false, clBaseResource, tX, tZ	
 	);
 	createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
-	
+    }	
+	else 
+	{   
+        var num = 4;
+	    var tAngle = randFloat(0, TWO_PI);
+	    var tDist = randFloat(13, 14);
+	    var tX = round(fx + tDist * cos(tAngle));
+	    var tZ = round(fz + tDist * sin(tAngle));
+	    group = new SimpleGroup(
+		[new SimpleObject(oTree1, num, num, 1,3)],
+		false, clBaseResource, tX, tZ	
+	);
+	createObjectGroup(group, 0, avoidClasses(clBaseResource,2));	
+	}}	
+
+	// create hunt
+
+		var aAngle = randFloat(0, TWO_PI);
+		var aDist = 30;
+		var aX = round(fx + aDist * cos(aAngle));
+		var aZ = round(fz + aDist * sin(aAngle));
+		var group = new SimpleGroup(
+			  [new SimpleObject(oMainHuntableAnimal, 5,5, 0,2)],
+			true, clFood, aX, aZ
+		);
+		createObjectGroup(group, 0, avoidClasses(clBaseResource,2));
+}	
 	// create grass tufts
 	var num = hillSize / 250;
 	for (var j = 0; j < num; j++)
@@ -214,7 +242,8 @@ for (var i = 0; i < numPlayers; i++)
 		);
 		createObjectGroup(group, 0);
 	}
-}
+
+RMS.SetProgress(20);
 
 // create dirt patches
 log("Creating dirt patches...");
@@ -231,116 +260,98 @@ createPatches(
  tTier4Terrain
 );
 
-//create the lake
+//create the sea
 var fx = fractionToTiles(0.5);
 var fz = fractionToTiles(0.5);
 ix = round(fx);
 iz = round(fz);
 
-const lSize = sqrt(sqrt(sqrt(scaleByMapSize(1, 6))));
+const lSize = sqrt(sqrt(sqrt(scaleByMapSize(1, 8))));
 
-var placer = new ChainPlacer(2, floor(scaleByMapSize(5, 32)), floor(scaleByMapSize(25, 250)), 1, ix, iz, 0, [floor(mapSize * 0.19 * lSize)]);
+var placer = new ChainPlacer(2, floor(scaleByMapSize(4, 22)), floor(scaleByMapSize(16, 44)), 1, ix, iz, 0, [floor(mapSize * 0.18 * lSize)]);
 var terrainPainter = new LayeredPainter(
 	[tShore, tWater, tWater, tWater],		// terrains
 	[1, 4, 2]		// widths
 );
 var elevationPainter = new SmoothElevationPainter(
 	ELEVATION_SET,			// type
-	-8,				// elevation
-	4				// blend radius
+	-5,				// elevation
+	10				// blend radius
 );
-createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 12, clBaseResource, 10));
-
-
-// create more shore jaggedness
-log("Creating more shore jaggedness...");
-
-placer = new ChainPlacer(2, floor(scaleByMapSize(4, 6)), 3, 1);
-terrainPainter = new LayeredPainter(
-	[tCliff, tHill],		// terrains
-	[2]								// widths
-);
-elevationPainter = new SmoothElevationPainter(ELEVATION_SET, 3, 4);
-createAreas(
-	placer,
-	[terrainPainter, elevationPainter, unPaintClass(clWater)], 
-	borderClasses(clWater, 4, 7),
-	scaleByMapSize(12, 130) * 2, 150
-);
-
-paintTerrainBasedOnHeight(2.4, 3.4, 3, tMainTerrain);
-paintTerrainBasedOnHeight(1, 2.4, 0, tShore);
-paintTerrainBasedOnHeight(-8, 1, 2, tWater);
-paintTileClassBasedOnHeight(-6, 0, 1, clWater)
-
-for (var i = 0; i < numPlayers; ++i)
-{
-	var fx = fractionToTiles(playerX[i]);
-	var fz = fractionToTiles(playerZ[i]);
-	var ix = round(fx);
-	var iz = round(fz);
-}
+createArea(placer, [terrainPainter, elevationPainter, paintClass(clWater)], avoidClasses(clPlayer, 30, clBaseResource, 6));
 
 RMS.SetProgress(20);
 
 // create bumps
 createBumps(avoidClasses(clWater, 2, clPlayer, 20));
 
+// create hills
+
+createMountains(tCliff, [avoidClasses(clPlayer, 30, clHill, 15, clBaseResource, 20, clWater, 20)], clHill, scaleByMapSize(2, 8) * numPlayers);
+
 log("Creating metal mines...");
 // create large metal quarries
-createMines(
+createFood(
  [
-  [new SimpleObject(oMetalSmall, 4,4, 2,3)]
+  [new SimpleObject(oMetalSmall, 1,1, 0,0)]
  ],
- avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 40, clRock, 10, clHill, 1, clBaseResource, 20),
+ [
+  20 * numPlayers
+ ], 
+ avoidClasses(clForest, 3, clPlayer, 50, clWater, 5, clMetal, 50, clRock, 20, clHill, 1, clBaseResource, 20, clFood, 5),
  clMetal
 )
 
 log("Creating stone mines...");
 // create stone quarries
-createMines(
+createFood(
  [
-  [new SimpleObject(oStoneSmall, 4,4, 2,3)]
+  [new SimpleObject(oStoneSmall, 1,1, 0,0)]
  ],
- avoidClasses(clForest, 1, clPlayer, 20, clWater, 2, clMetal, 10, clRock, 40, clHill, 1, clBaseResource, 20),
+ [
+  12 * numPlayers
+ ],
+ avoidClasses(clForest, 3, clPlayer, 50, clWater, 5, clMetal, 20, clRock, 50, clHill, 1, clBaseResource, 20, clFood, 5),
  clRock
 )
+
+// create forests
+createForests(
+ [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
+ avoidClasses(clPlayer, 15, clWater, 10, clForest, 25, clHill, 0, clBaseResource, 5, clMetal, 5, clRock, 5, clFood, 5), 
+ clForest,
+ 1.0,
+ random_terrain
+);
 
 // create animals
 createFood
 (
  [
-  [new SimpleObject(oMainHuntableAnimal, 4,5, 0,4)],
+  [new SimpleObject(oSheep, 3,4, 0,2)], 
+  [new SimpleObject(oMainHuntableAnimal, 3,4, 0,2)],
   [new SimpleObject(oSecondaryHuntableAnimal, 3,4, 0,2)],
   [new SimpleObject(oThirdHuntableAnimal, 1,1, 0,2)]  
  ], 
  [
-  scaleByMapSize(5,20),
-  scaleByMapSize(4,16),
-  scaleByMapSize(3,12)
+  10 * numPlayers, 
+  10 * numPlayers,
+  10 * numPlayers,
+  5 * numPlayers
  ],
- avoidClasses(clForest, 0, clPlayer, 35, clWater, 2, clMetal, 0, clRock, 0, clFood, 10, clHill, 1) 
+ avoidClasses(clForest, 2, clPlayer, 40, clWater, 2, clMetal, 5, clRock, 5, clFood, 30, clHill, 5, clBaseResource, 20) 
 );
 
 // create fish
 createFood
 (
  [
-  [new SimpleObject(oFish, 1,2, 0,0)]
+  [new SimpleObject(oFish, 1,1, 0,3)]
  ], 
  [
-  60 * numPlayers
+  200 * numPlayers
  ],
- [avoidClasses(clFood, 5), stayClasses(clWater, 4)]
-);
-
-// create forests
-createForests(
- [tMainTerrain, tForestFloor1, tForestFloor2, pForest1, pForest2],
- avoidClasses(clPlayer, 20, clWater, 10, clForest, 20, clHill, 0, clBaseResource, 2, clMetal, 2, clRock, 2), 
- clForest,
- 1.1,
- random_terrain
+ [avoidClasses(clFood, 10), stayClasses(clWater, 8)]
 );
 
 RMS.SetProgress(65);
@@ -366,14 +377,17 @@ createDecoration
   planetm * scaleByMapSize(13, 200),
   planetm * scaleByMapSize(13, 200)
  ],
- avoidClasses(clWater, 0, clForest, 0, clPlayer, 0, clHill, 0)
+ avoidClasses(clWater, 5, clForest, 0, clPlayer, 0, clHill, 0)
 );
 
 RMS.SetProgress(85);
 
 // create straggler trees
-var types = [oTree1, oTree2, oTree4, oTree5];	// some variation
-createStragglerTrees(types, avoidClasses(clForest, 15, clWater, 5, clPlayer, 20, clMetal, 2, clRock, 2, clFood, 2, clHill, 1));
+if (biomeID == 6)
+{	
+    var types = [oTree1, oTree2, oTree4, oTree5];	// some variation
+    createStragglerTrees(types, avoidClasses(clForest, 10, clWater, 5, clPlayer, 15, clMetal, 5, clRock, 5, clFood, 5, clHill, 1, clBaseResource, 5));
+}
 
 // Export map data
 ExportMap();

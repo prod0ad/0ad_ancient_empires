@@ -3,9 +3,9 @@
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
-	"icon": "horse_rider.png",
+	"icon": "helmet_hero_side.png",
 	"researchTime": 60,
-	"tooltip": "Iberian Nobles and Cavalry Skirmishers +1 all armor types.",
+	"tooltip": "Javelin Cavalry +1 all armor types.",
 	"modifications": [
 	    {"value": "Armour/Hack", "add": 1.0},
 	    {"value": "Armour/Crush", "add": 1.0},		

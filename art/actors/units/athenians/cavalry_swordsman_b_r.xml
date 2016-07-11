@@ -14,13 +14,14 @@
       <props>
         <prop actor="props/units/weapons/xiphos.xml" attachpoint="r_hand"/>
         <prop actor="props/temp/l_sheath.xml" attachpoint="l_hip"/>
-        <prop actor="props/units/heads/hele_straw.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/hele_straw.xml" attachpoint="helmet"/>	
+        <prop actor="props/units/cape_hd_cav.xml" attachpoint="shoulders"/>				
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic 2">
-      <textures><texture file="skeletal/hele_isp_b_2.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="Tunic-Sleeves">
+      <textures><texture file="skeletal/hele_tunic.dds" name="baseTex"/></textures>
     </variant>
   </group>  
   <group>
@@ -48,5 +49,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>default.xml</material>
 </actor>

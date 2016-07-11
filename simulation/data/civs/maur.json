@@ -18,10 +18,10 @@
 				{
 					"Name":"- Pacifism",
 					"History":"",
-					"Description":"Workers +20% all gather rates, Infantry -10% hit points and attack."
+					"Description":"Villagers +20% all gather rates, Infantry -10% hit points and attack."
 				},	
 				{
-					"Name": "- Elephant Lore",
+					"Name": "- Elephant Herds",
 					"History": "",
 					"Description": "Elephant Units -2 population cost." 
 				}, 						
@@ -44,7 +44,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description": "Unique Unit, elephant archer." 
+					"Description": "Ranged elephant cavalry." 
 				},
 				{
 					"Name":"- Longbowman",
@@ -77,8 +77,13 @@
 		{
 			"Name": "- Structures",
 			"History": "",
-			"Description": "-20% build time and hit points. Several Structures cost wood instead of stone." 
-		}		
+			"Description": "-20% build time and hit points." 
+		},	
+		{
+			"Name": "- Walls",
+			"History": "",
+			"Description": "cost wood instead of stone." 
+		}				
 	],
 	"TeamBonuses":
 	[

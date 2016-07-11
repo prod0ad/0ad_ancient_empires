@@ -16,19 +16,24 @@
 			"Technologies":
 			[
 				{
-					"Name": "- Xanthippian Reforms",
+					"Name": "- Elephant Stables",
 					"History": "",
-					"Description": "Soldiers +10% attack."
+					"Description": "Forest Elephants train 40% faster."
+				},				
+				{
+					"Name": "- Combined Arms",
+					"History": "",
+					"Description": "Soldiers have 10% more attack."
 				},	
 				{
-					"Name": "- Recruiting Agents",
+					"Name": "- Loyal Mercenaries",
 					"History": "",
-					"Description": "Mercenaries -25% metal cost."
+					"Description": "Mercenaries 25% cheaper."
 				},					
 				{
-					"Name": "- Mass Production",
+					"Name": "- Time of Need",
 					"History": "",
-					"Description": "Siege Weapons -25% build time."
+					"Description": "Towers, Siege Weapons, Sacred Band units build/train 25% faster."
 				}			
 			],
 			"Heroes":
@@ -39,7 +44,7 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description": "Unique Unit, elephant."
+					"Description": "Melee elephant cavalry. Good against structures and siege units."
 				},			
 				{
 					"Name": "Sacred Band Infantry",
@@ -47,7 +52,7 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description": "Unique Unit, spear infantry. Trained at the Temple."
+					"Description": "Melee infantry. Good against melee units. Trained at the Temple."
 				},
 				{
 					"Name": "Sacred Band Cavalry",
@@ -55,7 +60,7 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description": "Unique Unit, heavy cavalry. Trained at the Temple."
+					"Description": "Melee cavalry. Good against ranged units. Trained at the Temple."
 				}
 			]
 		}
@@ -65,22 +70,27 @@
 		{
 			"Name": "- Cavalry, Ships",
 			"History": "",
-			"Description": "+20% vision, +10% speed."
+			"Description": "20% more vision, move 10% faster."
 		},
 		{
-			"Name": "- Villagers",
+			"Name": "- Wood Gathering",
 			"History": "",
-			"Description": "+15% wood gathering rate."
+			"Description": "15% faster."
 		},			
 		{
 			"Name": "- Fortresses, Walls, Barracks",
 			"History": "",
-			"Description": "+25% hitpoints."
+			"Description": "25% more hit points."
 		},	
 		{
-			"Name": "- Civic Structures, Docks, Markets",
+			"Name": "- Docks, Markets",
 			"History": "",
-			"Description": "-20% build time."
+			"Description": "build 20% faster."
+		},		
+		{
+			"Name": "- Structures",
+			"History": "",
+			"Description": "build 10% faster for each phase advancement."
 		}			
 	],
 	"TeamBonuses":
@@ -88,7 +98,7 @@
 		{
 			"Name": "- Cargo Ships",
 			"History": "",
-			"Description": "+20% speed (currently not shared)."
+			"Description": "move 20% faster (currently not shared)."
 		}
 	],
 	"Structures":
@@ -96,12 +106,12 @@
 		{
 			"Name":"- Academy",
 			"History":"",			
-			"Description": "Researches academic technologies with defence, military and siege benefits."
+			"Description": "Researches advanced technologies with defence, military and siege benefits."
 		}, 	
 		{
 			"Name":"- Embassy",
 			"History":"",			
-			"Description": "Hires mercenary units in addition to the Fortress. Replaces the Stables. Limited to 1."
+			"Description": "Hires mercenary units in addition to the Fortress. Replaces the Stables."
 		} 			
 	],
 	"StartEntities":

@@ -1,15 +1,14 @@
 {
 	"genericName": "City Phase",
-	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
 	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": { "class": "Town", "number": 3 },
-	"requirementsTooltip": "Requires 3 new Town Phase structures (except Walls and Civic Centers).",
+	"requirementsTooltip": "Requires 3 Town structures.",	
 	"supersedes": "phase_town",
+	"researchTime": 120,	
 	"icon": "city_phase.png",
-	"researchTime": 150,
 	"tooltip": "Advance to City Phase, which unlocks more structures and units. Structures +10% territory influence.",
 	"modifications": [
 		{"value": "TerritoryInfluence/Radius", "multiply": 1.1, "affects": "Structure"}
 	],		
-	"soundComplete": "interface/alarm/alarm_phase.xml"	
+	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

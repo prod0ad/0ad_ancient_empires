@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_camel">
   <Identity>
     <Civ>ptol</Civ>
-	<SelectionGroupName>units/ptol_camel_rider_b</SelectionGroupName>
+	<SelectionGroupName>units/ptol_cavalry_camel_b</SelectionGroupName>
 	<GenericName>Camel</GenericName>
     <SpecificName>Camel Rider</SpecificName>
 	<Icon>units/ae_east_camel.png</Icon>

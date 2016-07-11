@@ -3,9 +3,9 @@
 	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},	
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
-	"icon": "shields_generic_silver.png",
+	"icon": "helmet_hero_side.png",
 	"researchTime": 60,
-	"tooltip": "Upgrades Hetairoi to Hetairoi Aspidophoroi, with +1 hack, +2 pierce armor.",
+	"tooltip": "Hetairoi +1 hack, +2 pierce armor.",
 	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
 	"affects": ["Unique Cavalry"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

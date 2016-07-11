@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>300</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
   <Footprint>
     <Square width="42.0" depth="35"/>
     <Height>8.0</Height>
@@ -8,9 +15,11 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_support_healer_b
+    </Entities>  
     <Technologies datatype="tokens">
       civic_health_workers  
-      civic_vision_structure	
     </Technologies>
   </ProductionQueue>    
   <Obstruction>

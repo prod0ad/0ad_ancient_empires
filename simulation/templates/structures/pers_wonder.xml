@@ -4,13 +4,21 @@
     <Square width="62.0" depth="62.0"/>
     <Height>10.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>30</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>3</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>  
   <Identity>
     <Civ>pers</Civ>
     <SpecificName>Hanging Gardens of Babylon</SpecificName>
     <History>A magnificent structure built in the 6th century BC by the Neo-Babylonian king Nebuchadnezzar II in order to please his wife Amytis of Media, who was homesick for the gardens and mountains of her homeland.</History>
   </Identity>
   <Loot>
-    <xp>200</xp>
+    <xp>0</xp>
   </Loot>
   <Obstruction>
     <Static width="59.0" depth="59.0"/>
@@ -21,9 +29,6 @@
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <TerritoryInfluence disable=""/>
-  <Vision>
-    <Range>72</Range>
-  </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
     <Actor>structures/persians/gardens_struct.xml</Actor>

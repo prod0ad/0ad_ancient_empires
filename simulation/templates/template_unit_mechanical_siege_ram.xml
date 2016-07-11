@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_mechanical_siege">
   <Armour>
-    <Hack>0</Hack>
+    <Hack>2</Hack>
     <Pierce>20</Pierce>
-    <Crush>0</Crush>
+    <Crush>1</Crush>
   </Armour>
   <Attack>
     <Melee>
       <Hack>0</Hack>
       <Pierce>0</Pierce>
-      <Crush>1</Crush>
-      <MaxRange>6</MaxRange>
-      <RepeatTime>4000</RepeatTime>
+      <Crush>40</Crush>
+      <MaxRange>7</MaxRange>
+      <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Gates Structure</PreferredClasses>
-      <RestrictedClasses datatype="tokens">Ship Animal</RestrictedClasses>	
-	  <Bonuses>
-		<AntiStructure>
-		  <Classes>Structure</Classes>
-		  <Multiplier>50</Multiplier>
-		</AntiStructure>
-		<AntiMech>
-		  <Classes>Mechanical</Classes>
-		  <Multiplier>50</Multiplier>
-		</AntiMech>		
-	  </Bonuses>		  
+      <RestrictedClasses datatype="tokens">Ship Animal Soldier</RestrictedClasses>			  
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>50</BuildTime>
+    <BuildTime>40</BuildTime>
     <Population>5</Population>
     <Resources>
       <wood>200</wood>
       <metal>50</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>20</wood>
+    <stone>0</stone>
+    <metal>5</metal>
+  </Loot> 
   <GarrisonHolder>
     <Max>5</Max>
     <EjectHealth>0.1</EjectHealth>
@@ -43,12 +40,12 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>300</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
     <GenericName>Battering Ram</GenericName>
-    <Classes datatype="tokens">Melee Ram</Classes>
-    <Tooltip>Melee Siege Weapon. Deals x50 damage to Structures and Mechanical.</Tooltip>		
+    <VisibleClasses datatype="tokens">Melee Ram</VisibleClasses>
+    <Tooltip>Ranged siege unit. Good against structures.</Tooltip>	
   </Identity>
   <Sound>
     <SoundGroups>
@@ -58,18 +55,27 @@
 	  <trained>attack/siege/ram_move.xml</trained>
 	  <attack>attack/siege/ram_attack.xml</attack>
     </SoundGroups>
-  </Sound>
+  </Sound>  
   <StatusBars>
     <BarWidth>4.0</BarWidth>
     <BarHeight>0.5</BarHeight>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>5</WalkSpeed>
-    <Run>
-      <Speed>6</Speed>
-    </Run>	
+    <WalkSpeed>5</WalkSpeed>	
   </UnitMotion>
   <Vision>
-    <Range>24</Range>
+    <Range>25</Range>
   </Vision>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>  
+  <Footprint replace="">
+    <Square width="8.0" depth="12.0"/>
+    <Height>3.0</Height>
+  </Footprint> 
 </Entity>

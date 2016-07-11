@@ -1,0 +1,9 @@
+{
+	"genericName": "Light Infantry",
+	"autoResearch": true,
+	"description": "Levy Spearmen are significantly weaker, cheaper and faster trained.",
+	"modifications": [
+		{"value": "Armour/Crush", "replace": 5}		
+	],
+	"affects": ["Organic"]
+}

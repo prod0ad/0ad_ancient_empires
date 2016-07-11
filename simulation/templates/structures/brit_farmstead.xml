@@ -8,6 +8,7 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
 	  -farmstead_gather_meat
+      -farmstead_farming_03	  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

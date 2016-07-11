@@ -16,7 +16,7 @@
     </Foundation>
   </Armour>
   <BuildRestrictions>
-    <Category>fortress</Category>
+    <Category>Fortress</Category>
     <Distance>
       <FromClass>Fortress</FromClass>
       <MinDistance>60</MinDistance>
@@ -25,14 +25,14 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>24.0</Pierce>
+      <Pierce>18.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>60.0</MaxRange>
       <MinRange>0.0</MinRange>	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.4</Spread>
+      <Spread>1.2</Spread>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Ranged>
   </Attack>
@@ -68,11 +68,11 @@
   <Identity>
     <GenericName>Fortress</GenericName>
     <SpecificName>Fortress</SpecificName>	
-    <Tooltip>Train Champions and Mercenaries, research unique techs</Tooltip>
+    <Tooltip>Heavy defensive structure. Trains unique and mercenary units. Researches unique technologies</Tooltip>
     <Classes datatype="tokens">GarrisonFortress Fortress</Classes>
     <VisibleClasses datatype="tokens">
+	  City
       Defensive
-      City
       Fortress
     </VisibleClasses>
     <Icon>structures/fortress.png</Icon>

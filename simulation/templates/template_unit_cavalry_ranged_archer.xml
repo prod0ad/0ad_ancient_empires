@@ -8,48 +8,52 @@
   <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>6</Pierce>
+      <Pierce>8</Pierce>
       <Crush>0</Crush>
-      <MaxRange>35</MaxRange>
+      <MaxRange>33</MaxRange>
       <MinRange>0.0</MinRange>	 	  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>	  
-      <Spread>1.5</Spread>	  
+      <Spread>1.2</Spread>	
+	  <Bonuses>
+		<AntiSupport>
+		  <Classes>Support</Classes>
+		  <Multiplier>2</Multiplier>
+		</AntiSupport>		
+	  </Bonuses>  		  
     </Ranged>
   </Attack>
   <Cost>
-    <Population>3</Population>
-    <BuildTime>30</BuildTime>  
+    <Population>4</Population>
+    <BuildTime>36</BuildTime>  
     <Resources>
       <food>0</food>
-      <wood>60</wood>
-	  <metal>50</metal>
+      <wood>35</wood>
+	  <metal>55</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
     <food>0</food>
-    <wood>6</wood>
+    <wood>4</wood>
     <stone>0</stone>
     <metal>5</metal>
   </Loot>  
   <Health>
-    <Max>95</Max>
+    <Max>90</Max>
   </Health>
   <Vision>
-    <Range>40</Range>
+    <Range>45</Range>
   </Vision>  
   <UnitMotion>
-    <WalkSpeed>12</WalkSpeed>
-    <Run>
-      <Speed>13</Speed>
-    </Run>		
+    <WalkSpeed>12</WalkSpeed>	
   </UnitMotion>   
   <Identity>
-	<VisibleClasses datatype="tokens">Bow</VisibleClasses>
+	<VisibleClasses datatype="tokens">Bow AntiSupport2</VisibleClasses>
     <GenericName>Cavalry Archer</GenericName>
-    <Tooltip>Fast moving archer.</Tooltip>	
+    <Tooltip>Ranged cavalry. Good against support units.</Tooltip>	
+	<RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
 </Entity>

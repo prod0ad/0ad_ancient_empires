@@ -31,24 +31,23 @@
   <Builder>
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
-      structures/{civ}_house
-      structures/{civ}_storehouse
-      structures/{civ}_farmstead
-      structures/{civ}_field
-      structures/{civ}_corral		  
+      structures/{civ}_house			
+      structures/{civ}_farmstead	
+      structures/{civ}_storehouse  	
       structures/{civ}_dock	  	  
+	  structures/{civ}_barracks	 	  
+      structures/{civ}_blacksmith	  
       structures/{civ}_outpost
-      other/wallset_palisade
-      structures/{civ}_civil_centre		  
-      structures/{civ}_barracks	  	  
-      structures/{civ}_stables 	
-      structures/{civ}_blacksmith
-      structures/{civ}_temple
-      structures/{civ}_market
+      other/wallset_palisade	
+      structures/{civ}_temple		  
+      structures/{civ}_field	
+      structures/{civ}_corral		  
+      structures/{civ}_market		  
+      structures/{civ}_siege_workshop	 
+      structures/{civ}_fortress			  
       structures/{civ}_defense_tower
-      structures/{civ}_wallset_stone
-      structures/{civ}_siege_workshop	  	    
-      structures/{civ}_fortress		    	  
+      structures/{civ}_wallset_stone  			  
+      structures/{civ}_civil_centre			  
     </Entities>
   </Builder>
   <Cost>
@@ -88,6 +87,7 @@
     <History>Women in the ancient world took on a variety of roles - from leadership (Celts) to servant (Greeks). Women are hard workers, the economic backbone of any civilization. In history, it was typical when all the males (capable of fighting) were killed for the females, children, and elderly to be sold as slaves.</History>
     <VisibleClasses datatype="tokens">Worker Citizen</VisibleClasses>
     <Classes datatype="tokens">Female</Classes>	
+    <Tooltip>Support unit. Builds structures and gathers resources.</Tooltip>	
     <Formations disable=""/>
   </Identity>  
   <Sound>
@@ -98,7 +98,6 @@
       <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <walk>actor/human/movement/walk.xml</walk>
-      <run>actor/human/movement/run.xml</run>
       <death>actor/human/death/{gender}_death.xml</death>
       <build>resource/construction/con_wood.xml</build>
       <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>

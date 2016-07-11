@@ -4,7 +4,7 @@
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 50},
 	"requirements": {"tech": "phase_village"},
 	"requirementsTooltip": "Unlocked in Village Phase.",
-	"icon": "wives_festival.png",
+	"icon": "population.png",
 	"researchTime": 20,
 	"tooltip": "Workers +50% hit points.",
 	"modifications": [{"value": "Health/Max", "multiply": 1.50}],

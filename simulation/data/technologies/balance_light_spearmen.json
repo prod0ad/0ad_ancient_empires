@@ -1,0 +1,17 @@
+{
+	"genericName": "Light Infantry",
+	"autoResearch": true,
+	"description": "Levy Spearmen are significantly weaker, cheaper and faster trained.",
+	"requirements": {"any": [{"civ": "brit"},{"civ": "gaul"},{"civ": "iber"},{"civ": "pers"},{"civ": "maur"},{"civ": "ptol"},{"civ": "sele"}]},
+	"modifications": [
+		{"value": "Health/Max", "replace": 70},
+		{"value": "Cost/Resources/metal", "multiply": 0.5},
+		{"value": "Armour/Hack", "replace": 0},	
+		{"value": "Armour/Pierce", "replace": 1},		
+		{"value": "Attack/Melee/Hack", "multiply": 0.5},	
+        {"value": "UnitMotion/WalkSpeed", "replace": 8},			
+		{"value": "Cost/Population", "replace": 2},		
+		{"value": "Cost/BuildTime", "replace": 12}			
+	],
+	"affects": ["Levy Infantry Spear"]
+}

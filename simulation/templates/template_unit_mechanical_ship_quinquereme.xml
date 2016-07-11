@@ -47,7 +47,7 @@
     <GenericName>Heavy Warship</GenericName>
     <Tooltip>Powerful Warship with a long ranged crush attack.</Tooltip>
     <Classes datatype="tokens">Warship Heavy Ranged</Classes>
-	<RequiredTechnology>phase_imperial</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>
   <Sound>
     <SoundGroups>
@@ -61,10 +61,7 @@
     <HeightOffset>6.0</HeightOffset>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
-    <Run>
-      <Speed>11</Speed>
-    </Run>	
+    <WalkSpeed>10</WalkSpeed>	
   </UnitMotion>
   <Vision>
     <Range>75</Range>

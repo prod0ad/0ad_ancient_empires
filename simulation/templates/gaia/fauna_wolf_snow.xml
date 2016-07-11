@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_wild_aggressive">
+  <Health>
+    <Max>50</Max>
+  </Health>
   <UnitMotion>
-    <WalkSpeed>8.0</WalkSpeed>
-    <Run>
-      <Speed>15.0</Speed>
-    </Run>
+    <WalkSpeed>7.0</WalkSpeed>
   </UnitMotion>
   <Attack>
     <Melee>
-      <Hack>10.0</Hack>
+      <Hack>5.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>

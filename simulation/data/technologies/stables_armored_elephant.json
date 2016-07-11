@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Requires Imperial Phase.",
 	"icon": "armor_plates_silver.png",
 	"researchTime": 60,
-	"tooltip": "War Elephants +2 hack, +3 pierce armor, -10% speed.",
+	"tooltip": "War Elephants +2 hack, +3 pierce armor.",
 	"modifications": [
 	    {"value": "Promotion/RequiredXp", "replace": 0}
 	],

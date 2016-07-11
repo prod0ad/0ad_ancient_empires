@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
+  <Auras>
+    <Aura1>
+      <Type>global</Type>
+      <Affects>Structure</Affects>	  
+      <AffectedPlayers>Player</AffectedPlayers>
+      <Modifications>
+        <TerritoryInfluence.Radius> <Multiply>1.15</Multiply> </TerritoryInfluence.Radius>
+      </Modifications>
+      <AuraName>Wonder Prestige</AuraName>
+      <AuraDescription>Territory influence +15%</AuraDescription>
+    </Aura1>
+    <Aura2>
+      <Type>global</Type>
+      <Affects>Player</Affects>	  	  
+      <Modifications>
+		<Player.MaxPopulation> <Multiply>1.15</Multiply> </Player.MaxPopulation>
+      </Modifications>
+      <AuraName>Wonder Attraction</AuraName>
+      <AuraDescription>Maximum population +15%</AuraDescription>
+    </Aura2>	
+  </Auras>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>80</Radius>
@@ -17,6 +38,7 @@
   </Armour>	
   <BuildRestrictions>
     <Category>Wonder</Category>
+    <Territory>own</Territory>		
   </BuildRestrictions>
   <Cost>
     <BuildTime>1000</BuildTime>
@@ -38,11 +60,11 @@
   </Health>
   <Identity>
     <GenericName>Wonder</GenericName>
-    <Tooltip>Maximum Population and Territory Influence +15%. Required for victory in Wonder Mode.</Tooltip>
-    <Classes datatype="tokens">
+    <Tooltip>Adds a tickle of 2 metal per second. Increases maximum population and territory influence. Required for victory in Wonder Mode.</Tooltip>
+    <VisibleClasses datatype="tokens">
 	  Imperial
 	  Wonder
-	</Classes>
+	</VisibleClasses>
     <Icon>structures/wonder.png</Icon>
     <RequiredTechnology>phase_imperial</RequiredTechnology>
   </Identity>
@@ -73,7 +95,7 @@
     <HeightOffset>12.0</HeightOffset>
   </StatusBars>
   <Vision>
-    <Range>60</Range>
+    <Range>80</Range>
   </Vision>
     <ResourceTrickle>
     <Rates>

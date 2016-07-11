@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Rival Islands",
+		"Script" : "ae_rival_islands.js",
+		"Description" : "Start on small island and achieve victory with limited resources.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : -5,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

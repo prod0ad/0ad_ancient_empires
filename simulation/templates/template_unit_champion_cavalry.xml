@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion"> 
-  <Footprint>
-    <Circle radius="2.5"/>
-    <Height>5.0</Height>
+  <Footprint replace="">
+    <Square width="3" depth="5"/>
+    <Height>7.5</Height>
   </Footprint>
   <Identity>
     <GenericName>Champion Cavalry</GenericName>
@@ -14,14 +14,6 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>arrow/256x256.png</MainTexture>
-        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
@@ -30,7 +22,6 @@
       <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <walk>actor/mounted/movement/walk.xml</walk>
-      <run>actor/mounted/movement/walk.xml</run>
       <attack>attack/weapon/sword.xml</attack>
       <death>actor/fauna/death/death_horse.xml</death>
       <trained>interface/alarm/alarm_create_cav.xml</trained>

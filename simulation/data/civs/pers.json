@@ -16,14 +16,19 @@
 			"Technologies":
 			[
 				{
-					"Name": "- Military Reforms",
+					"Name": "- Great King's Levy",
 					"History": "",
-					"Description": "Soldiers +1 all armor types."
+					"Description": "Infantry -30% train time."
+				},			
+				{
+					"Name": "- Cardakes",
+					"History": "",
+					"Description": "Spearmen and Skirmshers +10% attack, hit points and vision."
 				},
 				{
 					"Name": "- Immortals",
 					"History": "",
-					"Description": "Anusyia -70% train time."
+					"Description": "Anusyia -50% train time."
 				}, 				
 	            {
 		    	    "Name": "- Persian Architecture",
@@ -39,7 +44,7 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-		    	    "Description": "Unique Unit, infantry archer." 
+		    	    "Description": "Ranged infantry. Trained very fast." 
 				},
 				{
 					"Name": "- Takabara",
@@ -47,7 +52,7 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-		    	    "Description": "Unique Unit, melee infantry."  
+		    	    "Description": "Melee infantry. Good in numbers against most units."  
 				}				
 			]
 		} 
@@ -58,9 +63,9 @@
 			"Name":"- Archers",
 			"History":"",
 			"Description":"+10% range and vision, -25% train time."
-		},				
+		},			
 		{
-			"Name":"- Fields, Corrals, Farmsteads, Stables",
+			"Name":"- Fields, Farmsteads, Stables",
 			"History":"",
 			"Description":"-50% build time."
 		},	

@@ -27,6 +27,7 @@
     <Tooltip>Raise herd animals for food. Task domestic animals here to gain a trickle of food or other bonus (Not yet implemented).</Tooltip>
     <VisibleClasses datatype="tokens">
 	  Village
+	  Economic
 	  Corral
 	</VisibleClasses>
     <Icon>structures/corral.png</Icon>

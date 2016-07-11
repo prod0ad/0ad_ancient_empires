@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_hunt_defensive">
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>  
+    <WalkSpeed>6.0</WalkSpeed>
+  </UnitMotion>
   <Attack>
     <Melee>
-      <Hack>16.0</Hack>
+      <Hack>20.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
     </Melee>
   </Attack>
+  <ResourceSupply>
+    <Amount>400</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>  
+  <Health>
+    <Max>250</Max>
+  </Health>  
   <Footprint>
     <Circle radius="2.6"/>
     <Height>2.7</Height>
   </Footprint>
-  <Health>
-    <Max>200</Max>
-  </Health>
   <Identity>
     <Civ>gaia</Civ>
     <Classes datatype="tokens">Elephant</Classes>
@@ -25,10 +33,6 @@
   <Loot>
     <xp>0</xp>
   </Loot>
-  <ResourceSupply>
-    <Amount>400</Amount>
-    <Type>food.meat</Type>
-  </ResourceSupply>
   <Selectable>
     <Overlay>
       <Texture>
@@ -47,12 +51,6 @@
       <trained>actor/fauna/animal/elephant_trained.xml</trained>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <WalkSpeed>3.0</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>fauna/elephant_african_forest.xml</Actor>
   </VisualActor>

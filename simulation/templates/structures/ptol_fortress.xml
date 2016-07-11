@@ -21,6 +21,7 @@
       fort_ptol_machimoi_epilektoi	    
 	  fort_ptol_merc_army	  
 	  fort_ptol_garrisons	  
+	  fort_ptol_memphis_decree		  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

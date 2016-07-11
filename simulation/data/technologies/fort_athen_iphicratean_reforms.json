@@ -3,9 +3,9 @@
 	"cost": { "food": 500, "wood": 0, "stone": 0, "metal": 400 },
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
-	"icon": "helmet_corinthian_crest.png",
+	"icon": "walk.png",
 	"researchTime": 60,
-	"tooltip": "Infantry Units +10% speed.",
+	"tooltip": "Infantry units +10% speed.",
 		"modifications": [
 	    {"value": "UnitMotion/WalkSpeed", "multiply": 1.10},
 	    {"value": "UnitMotion/Run/Speed", "multiply": 1.10}

@@ -1,0 +1,10 @@
+{
+	"genericName": "Walls",
+	"autoResearch": true,
+	"description": ".",
+	"modifications": [
+		{"value": "Cost/BuildTime", "multiply": 1.50}
+	],
+	"affects": ["StoneWall"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

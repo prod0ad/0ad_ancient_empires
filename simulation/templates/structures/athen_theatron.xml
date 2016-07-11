@@ -15,6 +15,7 @@
   </Auras>
   <BuildRestrictions>
     <Category>Theater</Category>
+    <Territory>own</Territory>		
   </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="24.0"/>

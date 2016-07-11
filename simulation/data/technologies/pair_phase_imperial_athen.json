@@ -1,0 +1,6 @@
+{
+	"genericName": "Pair",	
+	"top": "pair_phase_imperial_athen_a",
+	"bottom": "pair_phase_imperial_athen_b",
+	"supersedes": "pair_phase_city_athen"		
+}

@@ -5,10 +5,9 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "architecture.png",
 	"researchTime": 50,
-	"tooltip": "Temples +100% territory influence and vision.",
+	"tooltip": "Temples +100% territory influence.",
 	"modifications": [
-	 {"value": "TerritoryInfluence/Radius", "multiply": 2},
-     {"value": "Vision/Range", "multiply": 2}
+	 {"value": "TerritoryInfluence/Radius", "multiply": 2}
 	],
 	"affects": ["Temple"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

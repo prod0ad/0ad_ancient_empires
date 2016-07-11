@@ -24,7 +24,7 @@
 				{
 					"Name":"- Hetairoi Aspidophoroi",
 					"History":"",
-					"Description":"Upgrades Hetairoi to Hetairoi Aspidophoroi, with +1 hack, +2 pierce armor."
+					"Description":"Hetairoi +1 hack, +2 pierce armor."
 				},					
 			    {
 					"Name":"- Kestros Sling",
@@ -45,7 +45,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Unique Unit, heavy cavalry."
+					"Description":"Melee cavalry. Good against most units."
 				},		
 				{
 					"Name":"- Hypaspist",
@@ -53,7 +53,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Stronger replacement for the generic Spearman."
+					"Description":"Stronger, faster replacement for the generic Spearman."
 				}						
 			]
 		}
@@ -64,7 +64,7 @@
 			"Name":"- Land units",
 			"History":"",
 			"Description":"+10% attack and speed."
-		},	
+		},			
 		{
 			"Name":"- Skirmishers",
 			"History":"",

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_heavy">
   <Armour>
-    <Hack>1</Hack>
-    <Pierce>3</Pierce>
+    <Hack>2</Hack>
+    <Pierce>4</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -17,38 +17,35 @@
   </Attack> 
   <Cost>
     <Population>3</Population>  
-    <BuildTime>10</BuildTime>
+    <BuildTime>9</BuildTime>
     <Resources>
-      <food>70</food>
+      <food>80</food>
       <wood>0</wood>
-	  <metal>95</metal>
+	  <metal>100</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>7</food>
+    <food>8</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>10</metal>
   </Loot>  
   <Health>
-    <Max>170</Max>
+    <Max>165</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>12</Speed>
-    </Run>		
+    <WalkSpeed>10.5</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>30</Range>
+    <Range>27</Range>
   </Vision>   
   <Identity>
     <Civ>cart</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Sacred Band Cavalry</SpecificName>
-	<Tooltip>Fast trained, expensive heavy cavalry.</Tooltip>		
+	<Tooltip>Melee cavalry. Good against ranged units.</Tooltip>		
     <Icon>units/ae_cart_champion_cavalry.png</Icon>		
   </Identity>
   <VisualActor>

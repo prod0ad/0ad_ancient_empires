@@ -6,10 +6,10 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>70</Max>
+    <Max>65</Max>
   </Health>
    <Vision>
-    <Range>35</Range>
+    <Range>40</Range>
   </Vision>   
   <Attack>
     <Ranged>
@@ -35,6 +35,7 @@
     </Ranged>
   </Attack>  
   <Cost>
+    <Population>2</Population>      
     <BuildTime>10</BuildTime>	
     <Resources>
       <food>30</food>
@@ -50,14 +51,11 @@
       <stone>0</stone>	
   </Loot>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>10</Speed>
-    </Run>		
+    <WalkSpeed>9</WalkSpeed>	
   </UnitMotion>  
   <Identity>
-    <VisibleClasses datatype="tokens">Javelin</VisibleClasses>
+    <VisibleClasses datatype="tokens">Javelin AntiMeleeInf1.5 AntiEle1.5</VisibleClasses>
     <GenericName>Skirmisher</GenericName>
-    <Tooltip>Short ranged infantry. Deals x1.5 damage to melee infantry and elephant units.</Tooltip>	
+    <Tooltip>Ranged infantry. Good against melee infantry and elephant units.</Tooltip>			
   </Identity>
 </Entity>

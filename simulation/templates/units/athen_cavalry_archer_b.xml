@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
   <Cost>
-    <BuildTime>15</BuildTime>
+    <BuildTime>18</BuildTime>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>110</metal>
+      <metal>90</metal>
     </Resources>
   </Cost> 
   <Identity>
@@ -15,8 +15,8 @@
 	<GenericName>Mercenary Cavalry Archer</GenericName>
     <SpecificName>Scythian Horseman</SpecificName>		
 	<Icon>units/ae_merc_scythian.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
-	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>			
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>		
+    <RequiredTechnology>phase_city</RequiredTechnology>	
   </Identity>  
   <Promotion>
     <Entity>units/athen_cavalry_archer_a</Entity>

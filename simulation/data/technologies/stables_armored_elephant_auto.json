@@ -4,8 +4,7 @@
 	"requirements": {"tech": "stables_armored_elephant"},
 	"modifications": [
 	    {"value": "Armour/Hack", "add": 2.0},	
-		{"value": "Armour/Pierce", "add": 3.0},
-		{"value": "UnitMotion/WalkSpeed", "multiply": 0.9}],
+		{"value": "Armour/Pierce", "add": 3.0}],
 	"affects": ["Elephant Melee"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -3,8 +3,9 @@
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_support_healer_b</SelectionGroupName>
-    <SpecificName>Healer</SpecificName>
-    <Icon>units/cart_support_healer.png</Icon>
+	<GenericName>Healer</GenericName>
+    <SpecificName>Priestess</SpecificName>
+    <Icon>units/ae_cart_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>

@@ -6,23 +6,23 @@
     <Crush>0</Crush>
   </Armour>
   <Cost>
-    <BuildTime>20</BuildTime>
+    <BuildTime>17</BuildTime>
     <Population>2</Population>	
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>20</metal>
+      <metal>30</metal>
     </Resources>
   </Cost>
   <Loot>
     <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>2</metal>
+    <metal>3</metal>
   </Loot>  
   <Health>
-    <Max>110</Max>
+    <Max>100</Max>
   </Health>  
   <Attack>
     <Melee>
@@ -48,18 +48,19 @@
     </Melee>
   </Attack>
   <Vision>
-    <Range>32</Range>
+    <Range>30</Range>
   </Vision>
   <UnitMotion>
     <WalkSpeed>9</WalkSpeed>
   </UnitMotion>  
   <Identity>
     <Civ>athen</Civ>
+	<VisibleClasses datatype="tokens">AntiCav1.5</VisibleClasses>	
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Reformed Hoplite</SpecificName>
     <History>.</History>
     <Icon>units/ae_athen_reformed_hoplite.png</Icon>
-	<Tooltip>Versatile Spearman. Deals x1.5 damage to cavalry, camel and elephant units.</Tooltip>	
+	<Tooltip>Infantry. Good against cavalry units.</Tooltip>	
   </Identity>
   <Promotion>
     <Entity>units/athen_champion_infantry_e</Entity>

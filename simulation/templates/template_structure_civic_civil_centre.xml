@@ -13,14 +13,14 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>18.0</Pierce>
+      <Pierce>12.0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>56.0</MaxRange>
+      <MaxRange>55.0</MaxRange>
       <MinRange>0.0</MinRange>
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.4</Spread>
+      <Spread>1.2</Spread>
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -33,7 +33,7 @@
     <Category>CivilCentre</Category>
     <Distance>
       <FromClass>CivilCentre</FromClass>
-      <MinDistance>120</MinDistance>
+      <MinDistance>100</MinDistance>
     </Distance>	
   </BuildRestrictions>
   <Cost>
@@ -41,8 +41,8 @@
     <BuildTime>360</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>400</wood>
-      <stone>200</stone>
+      <wood>300</wood>
+      <stone>300</stone>
       <metal>0</metal>
     </Resources>
   </Cost>
@@ -54,7 +54,7 @@
     <Max>20</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry</List>
+    <List datatype="tokens">Support Infantry Cavalry Siege</List>
     <BuffHeal>1</BuffHeal>
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
@@ -65,18 +65,20 @@
     <Identity>
     <GenericName>Civil Centre</GenericName>
     <SpecificName>Town Centeŕ</SpecificName>	
-    <Tooltip>Trains citizens and contains upgrades.</Tooltip>
+    <Tooltip>Trains citizens. Researches technologies and phase upgrades.</Tooltip>
     <Classes datatype="tokens">
-      Defensive
       CivCentre
     </Classes>
-    <VisibleClasses datatype="tokens">CivilCentre</VisibleClasses>
+    <VisibleClasses datatype="tokens">
+      Defensive
+	  CivilCentre
+	</VisibleClasses>
     <Icon>structures/civic_centre.png</Icon>
   </Identity>
   <Loot>
     <food>0</food>
-    <wood>40</wood>
-    <stone>20</stone>
+    <wood>30</wood>
+    <stone>30</stone>
     <metal>0</metal>
   </Loot>
   <Obstruction>
@@ -90,7 +92,10 @@
     <Technologies datatype="tokens">
       phase_town
       phase_city
-      phase_imperial  
+      phase_imperial  	
+	  civic_metropolis
+	  civic_architecture_01
+	  civic_architecture_02
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
@@ -109,7 +114,7 @@
   </Sound>
   <TerritoryInfluence>
     <Root>true</Root>
-    <Radius>100</Radius>
+    <Radius>75</Radius>
     <Weight>40000</Weight>
   </TerritoryInfluence>
   <AlertRaiser>

@@ -14,6 +14,7 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       corral_stockbreeding
+      stables_speed_cavalry_01		  
     </Technologies>
   </ProductionQueue>  
   <Obstruction>

@@ -1,0 +1,13 @@
+{
+	"genericName": "Carrier Pigeons",
+	"cost": {"food": 300, "wood": 300, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",	
+	"supersedes": "tower_vision",		
+	"icon": "pigeon.png",
+	"researchTime": 50,
+	"tooltip": "Structures +25% vision.",
+	"modifications": [{"value": "Vision/Range", "multiply": 1.25}],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Armour>
-    <Hack>2</Hack>
+    <Hack>1</Hack>
     <Pierce>3</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>15</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
+      <Crush>4</Crush>
       <MaxRange>5.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-	  <Bonuses>	  
-	    <AntiStructure>
-		  <Classes>Structure</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiStructure>	
-	  </Bonuses>		
+      <RepeatTime>1000</RepeatTime>	
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>
     </Melee>
   </Attack>   
@@ -27,7 +21,7 @@
     <Resources>
       <food>50</food>
       <wood>0</wood>
-	  <metal>40</metal>
+	  <metal>60</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
@@ -36,26 +30,23 @@
     <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>4</metal>
+    <metal>6</metal>
   </Loot>  
   <Health>
     <Max>120</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>8</Speed>
-    </Run>		
+    <WalkSpeed>7</WalkSpeed>	
   </UnitMotion>
   <Vision>
-    <Range>30</Range>
+    <Range>25</Range>
   </Vision> 
   <Identity>
     <Civ>gaul</Civ>
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Solduros</SpecificName>
 	<SelectionGroupName>units/gaul_champion_infantry</SelectionGroupName>
-	<Tooltip>Heavy infantry swordsman. Deals x1.5 damage to structures.</Tooltip>			
+	<Tooltip>Heavy infantry. Resistant to ranged attacks.</Tooltip>			
     <Icon>units/ae_gaul_solduros.png</Icon>
   </Identity>
   <VisualActor>

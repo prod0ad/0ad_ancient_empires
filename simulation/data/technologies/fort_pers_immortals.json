@@ -3,11 +3,11 @@
 	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "fist_spear.png",
+	"icon": "palace.png",
 	"researchTime": 40,
-	"tooltip": "Anusyia -70% train time.",
+	"tooltip": "Anusyia -50% train time.",
 	"modifications": [
-		{"value": "Cost/BuildTime", "multiply": 0.3}
+		{"value": "Cost/BuildTime", "multiply": 0.5}
 	],
 	"affects": ["Unique Bow"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

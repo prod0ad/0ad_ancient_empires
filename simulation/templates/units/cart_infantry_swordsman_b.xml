@@ -6,14 +6,14 @@
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>80</metal>
+      <metal>100</metal>
     </Resources>
   </Cost> 
   <Identity>
     <Civ>cart</Civ>
     <SelectionGroupName>units/cart_infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Barcid Infantry</GenericName>
-    <SpecificName>Mercenary Swordsman</SpecificName>	
+    <GenericName>Mercenary Swordsman</GenericName>
+    <SpecificName>Barcid Infantry</SpecificName>	
 	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
     <Icon>units/ae_merc_italian.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>			

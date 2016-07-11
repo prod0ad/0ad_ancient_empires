@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Health>
-    <Max>120</Max>
+    <Max>110</Max>
   </Health>
   <Armour>
-    <Hack>0</Hack>
-    <Pierce>1</Pierce>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -33,33 +33,30 @@
     </Melee>
   </Attack>
   <Cost>
-    <Population>2</Population>    
-    <BuildTime>15</BuildTime>	  
+    <Population>3</Population>    
+    <BuildTime>18</BuildTime>	  
     <Resources>
       <food>50</food>
       <wood>0</wood>
-	  <metal>30</metal>
+	  <metal>40</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
       <food>5</food>
       <wood>0</wood>
-	  <metal>3</metal>
+	  <metal>4</metal>
       <stone>0</stone>	 
   </Loot>
   <UnitMotion>
-    <WalkSpeed>7.5</WalkSpeed>
-    <Run>
-      <Speed>7.5</Speed>
-    </Run>		
+    <WalkSpeed>7</WalkSpeed>
   </UnitMotion> 
   <Vision>
-    <Range>24</Range>
+    <Range>25</Range>
   </Vision>    
   <Identity>
-    <VisibleClasses datatype="tokens">Spear</VisibleClasses>
+    <VisibleClasses datatype="tokens">Spear AntiCav1.5</VisibleClasses>
     <GenericName>Spearman</GenericName>
-    <Tooltip>Basic melee infantry. Deals x1.5 damage to cavalry, camel and elephant units.</Tooltip>		
+    <Tooltip>Melee infantry. Good against cavalry units.</Tooltip>		
   </Identity>  
 </Entity>

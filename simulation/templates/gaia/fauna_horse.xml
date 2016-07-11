@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_fauna_hunt_skittish">
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <ResourceSupply>
+    <Amount>200</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <UnitMotion>
+    <WalkSpeed>7.0</WalkSpeed>
+  </UnitMotion>
   <Footprint>
     <Circle radius="1.65"/>
     <Height>3.0</Height>
@@ -12,9 +22,6 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <ResourceSupply>
-    <Amount>200</Amount>
-  </ResourceSupply>
   <Sound>
     <SoundGroups>
       <select>actor/fauna/animal/horse_select.xml</select>
@@ -25,14 +32,6 @@
       <trained>actor/fauna/animal/horse_trained.xml</trained>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <WalkSpeed>5.0</WalkSpeed>
-    <Run>
-      <Speed>12.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>fauna/horse_a.xml</Actor>
   </VisualActor>

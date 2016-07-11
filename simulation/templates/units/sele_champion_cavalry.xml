@@ -23,38 +23,36 @@
   </Attack>   
   <Cost>
     <Population>3</Population>  
-    <BuildTime>30</BuildTime>
+    <BuildTime>27</BuildTime>
     <Resources>
-      <food>80</food>
+      <food>85</food>
       <wood>0</wood>
-	  <metal>95</metal>
+	  <metal>110</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>8</food>
+    <food>9</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>10</metal>
+    <metal>11</metal>
   </Loot>  
   <Health>
-    <Max>210</Max>
+    <Max>180</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
-    <Run>
-      <Speed>11</Speed>
-    </Run>		
+    <WalkSpeed>10</WalkSpeed>	
   </UnitMotion>
   <Vision>
-    <Range>24</Range>
+    <Range>25</Range>
   </Vision> 
   <Identity>
     <Civ>sele</Civ>
+    <VisibleClasses datatype="tokens">AntiMeleeInf1.75</VisibleClasses>		
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Cataphract</SpecificName>
-	<Tooltip>Powerful slow melee cavalry. Deals x1.5 damage to melee infantry units.</Tooltip>	
+	<Tooltip>Melee Cavalry. Good against melee infantry.</Tooltip>	
     <Icon>units/ae_sele_cataphract.png</Icon>	
 	<SelectionGroupName>units/sele_champion_cavalry</SelectionGroupName>
   </Identity>

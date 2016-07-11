@@ -9,20 +9,20 @@
     <Ranged>
       <Hack>0.0</Hack>
       <Pierce>0.0</Pierce>
-      <Crush>90.0</Crush>
-      <MaxRange>65</MaxRange>
+      <Crush>120.0</Crush>
+      <MaxRange>75</MaxRange>
       <MinRange>20.0</MinRange>
       <ProjectileSpeed>30.0</ProjectileSpeed>
       <PrepareTime>6000</PrepareTime>
       <RepeatTime>6000</RepeatTime>
-      <Spread>6.0</Spread>
+      <Spread>2</Spread>
       <Splash>
         <Shape>Circular</Shape>
         <Range>10</Range>
         <FriendlyFire>false</FriendlyFire>
         <Hack>0.0</Hack>
         <Pierce>0.0</Pierce>
-        <Crush>45.0</Crush>
+        <Crush>60.0</Crush>
       </Splash>
 	  <Bonuses>
 		<AntiStructure>
@@ -43,17 +43,24 @@
       <metal>150</metal>
     </Resources>
   </Cost>
+  <Loot>
+    <xp>0</xp>
+    <food>0</food>
+    <wood>15</wood>
+    <stone>0</stone>
+    <metal>15</metal>
+  </Loot>  
   <Footprint replace="">
     <Square width="6.0" depth="15.0"/>
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>120</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
     <GenericName>Siege Catapult</GenericName>
-	<Tooltip>Long Ranged Siege Weapon. Very effective against structures.</Tooltip>
-    <Classes datatype="tokens">Ranged Catapult</Classes>
+    <Tooltip>Ranged siege unit. Good against structures.</Tooltip>
+    <VisibleClasses datatype="tokens">Ranged Catapult</VisibleClasses>
     <RequiredTechnology>phase_imperial</RequiredTechnology>	
   </Identity>
   <Loot>
@@ -81,12 +88,9 @@
     <BarHeight>0.5</BarHeight>
   </StatusBars>
   <UnitMotion>
-    <WalkSpeed>6</WalkSpeed>
-    <Run>
-      <Speed>7</Speed>
-    </Run>	
+    <WalkSpeed>7</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>65</Range>
+    <Range>75</Range>
   </Vision>
 </Entity>

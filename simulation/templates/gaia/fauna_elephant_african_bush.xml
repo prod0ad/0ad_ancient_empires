@@ -2,14 +2,18 @@
 <Entity parent="template_unit_fauna_hunt_defensive">
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>  
-    <WalkSpeed>3.0</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-    </Run>
+    <WalkSpeed>6.0</WalkSpeed>
   </UnitMotion>
+  <Health>
+    <Max>350</Max>
+  </Health>  
+  <ResourceSupply>
+    <Amount>600</Amount>
+    <Type>food.meat</Type>
+  </ResourceSupply>  
   <Attack>
     <Melee>
-      <Hack>32.0</Hack>
+      <Hack>28.0</Hack>
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>6.0</MaxRange>
@@ -20,9 +24,6 @@
     <Circle radius="3.65"/>
     <Height>3.0</Height>
   </Footprint>
-  <Health>
-    <Max>400</Max>
-  </Health>
   <Identity>
     <Civ>gaia</Civ>
     <Classes datatype="tokens">Elephant</Classes>
@@ -35,10 +36,6 @@
   <Position>
     <Anchor>pitch</Anchor>
   </Position>
-  <ResourceSupply>
-    <Amount>800</Amount>
-    <Type>food.meat</Type>
-  </ResourceSupply>
   <Selectable>
     <Overlay>
       <Texture>

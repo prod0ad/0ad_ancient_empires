@@ -31,7 +31,7 @@
     <GenericName>Field</GenericName>
     <SpecificName>Farm</SpecificName>
 	<VisibleClasses datatype="tokens">Field</VisibleClasses>
-    <Tooltip>Harvest vegetables for food.</Tooltip>
+    <Tooltip>Provides a gatherable resource of food.</Tooltip>
     <Icon>structures/field.png</Icon>
   </Identity>
   <Loot>
@@ -44,7 +44,7 @@
     <Color r="119" g="82" b="46"/>
   </Minimap>
   <Obstruction>
-    <Static width="15.0" depth="15.0"/>
+    <Static width="24.0" depth="24.0"/>
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>

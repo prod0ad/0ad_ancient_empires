@@ -3,9 +3,8 @@
   <Identity>
     <Civ>rome</Civ>
     <SelectionGroupName>units/rome_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
-    <SpecificName>Roman Triarius</SpecificName>
-    <VisibleClasses datatype="tokens">Basic</VisibleClasses>	
+    <GenericName>Heavy Spearman</GenericName>
+    <SpecificName>Triarius</SpecificName>
     <Icon>units/ae_roman_spearman.png</Icon>
   </Identity>
   <Promotion>

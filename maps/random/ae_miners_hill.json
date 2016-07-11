@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Miner's Hill",
+		"Script" : "ae_miners_hill.js",
+		"Description" : "A single hill in the middle of the map provides an elevated position and holds all the precious minerals.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : 3,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

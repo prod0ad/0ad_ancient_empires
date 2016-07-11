@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Continent",
+		"Script" : "ae_continent.js",
+		"Description" : "All players start on a continent surrounded by water.",
+		"BaseTerrain" : ["medit_sea_depths"],
+		"BaseHeight" : -5,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

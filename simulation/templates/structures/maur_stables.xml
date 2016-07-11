@@ -6,8 +6,8 @@
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <stone>0</stone>
+      <wood>100</wood>
+      <stone>100</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -64,9 +64,7 @@
 	  upgrades/cavalry_scout_a
 	  upgrades/cavalry_scout_e		
 	  upgrades/cavalry_skirmisher_a
-	  upgrades/cavalry_skirmisher_e		
-	  upgrades/chariot_archer_a		  
-	  upgrades/chariot_archer_e		  
+	  upgrades/cavalry_skirmisher_e			  
       stables_speed_train
       stables_speed_cavalry_01
     </Technologies>

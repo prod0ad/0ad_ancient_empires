@@ -4,7 +4,7 @@
     <Civ>pers</Civ>
     <SelectionGroupName>units/pers_infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
-    <SpecificName>Persian Sparabara</SpecificName>
+    <SpecificName>Sparabara</SpecificName>
     <Icon>units/ae_pers_spearman.png</Icon>
   </Identity>
   <Promotion>

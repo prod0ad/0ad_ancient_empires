@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>10</Radius>
+      <Affects>Unit</Affects>
+	  <AffectedPlayers>Enemy</AffectedPlayers>
+      <Modifications>	
+        <Attack.Melee.RepeatTime> <Multiply>1.1</Multiply> </Attack.Melee.RepeatTime>
+        <Attack.Ranged.RepeatTime> <Multiply>1.1</Multiply> </Attack.Ranged.RepeatTime>	
+      </Modifications>
+      <AuraName>Fear Aura (10%)</AuraName>
+      <AuraDescription>Affected enemy units attack 10% slower.</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>	  
+    </Aura1>
+  </Auras>
   <Armour>
     <Hack>2</Hack>
-    <Pierce>1</Pierce>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -33,13 +48,13 @@
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>24</BuildTime>
     <Population>2</Population>	
     <Resources>
       <food>50</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>40</metal>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Loot>
@@ -47,16 +62,13 @@
     <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>4</metal>
+    <metal>5</metal>
   </Loot>  
   <Health>
-    <Max>150</Max>
+    <Max>120</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>8</Speed>
-    </Run>		
+    <WalkSpeed>8</WalkSpeed>	
   </UnitMotion>  
   <Promotion>
     <Entity>units/spart_champion_infantry_spear_e</Entity>
@@ -64,9 +76,10 @@
   </Promotion>      
   <Identity>
     <Civ>spart</Civ>
+    <VisibleClasses datatype="tokens">AntiCav1.5 AntiMeleeInf1.5</VisibleClasses>			
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Royal Guard</SpecificName>
-	<Tooltip>Deals x1.5 damage to melee infantry, cavalry, camel and elephant units.</Tooltip>	
+	<Tooltip>Melee infantry. Good against melee units.</Tooltip>	
     <Icon>units/ae_spart_royal_guard.png</Icon>
   </Identity>
   <VisualActor>

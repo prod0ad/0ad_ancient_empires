@@ -6,17 +6,10 @@
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>
-      <wood>200</wood>
-      <stone>0</stone>
+      <wood>100</wood>
+      <stone>100</stone>
     </Resources>
   </Cost>
-  <Cost>
-    <PopulationBonus>5</PopulationBonus>
-  </Cost>
-  <Footprint>
-    <Square width="22.0" depth="20.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Health>
     <Max>2400</Max>
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
@@ -37,13 +30,10 @@
   <Loot>
     <xp>0</xp>
     <food>0</food>
-    <wood>20</wood>
-    <stone>0</stone>
+    <wood>10</wood>
+    <stone>10</stone>
     <metal>0</metal>
   </Loot>
-  <Obstruction>
-    <Static width="18.0" depth="16.0"/>
-  </Obstruction>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_barracks.xml</select>
@@ -51,9 +41,16 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>  
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>  
   <VisualActor>
-    <Actor>structures/persians/stables.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <Actor>structures/celts/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
   <ProductionQueue>
     <Entities datatype="tokens">

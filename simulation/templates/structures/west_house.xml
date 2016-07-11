@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_house">
-  <Identity>
-    <Civ>west</Civ>
-  </Identity>
-  <VisualActor>
-    <Actor>structures/hellenes/house_new.xml</Actor>
-  </VisualActor>
-</Entity>

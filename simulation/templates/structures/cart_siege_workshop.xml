@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_military_workshop">
   <Attack disable=""/>
-  <Cost>
-    <BuildTime>120</BuildTime>
-    <Resources>
-      <wood>300</wood>
-      <stone>0</stone>
-      <metal>0</metal>
-    </Resources>
-  </Cost>
-  <Footprint>
-    <Square width="25.5" depth="25.5"/>
-    <Height>12.0</Height>
-  </Footprint>
-  <Health>
-    <Max>1800</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Identity>
-    <Civ>cart</Civ>
-    <GenericName>Siege Workshop</GenericName>
-	<SpecificName>Siege Workshop</SpecificName>
-    <Tooltip>Trains and upgrades Siege Weapons.</Tooltip>
-    <Icon>structures/siege_workshop.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
-    <VisibleClasses datatype="tokens">
-	  -Village
-	  City
-	</VisibleClasses>		
+    <Civ>cart</Civ>	
   </Identity>
-  <Obstruction>
-    <Static width="23.5" depth="23.5"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_mechanical_siege_ram 	

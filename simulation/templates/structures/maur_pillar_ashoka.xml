@@ -9,11 +9,13 @@
         <Builder.Rate> <Multiply>1.10</Multiply> </Builder.Rate>
         <ResourceGatherer.BaseSpeed> <Multiply>1.10</Multiply> </ResourceGatherer.BaseSpeed>
       </Modifications>
-      <AuraName>Edict Guidance</AuraName>
+      <AuraName>Edict Aura</AuraName>
       <AuraDescription>Nearby Villagers +10% work rates.</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/buildgather_bonus.png</OverlayIcon>	 	  
     </Aura1>
   </Auras>
    <BuildRestrictions>
+    <Territory>own</Territory>     
     <Category>Pillar</Category>
     <Distance>
       <FromClass>Pillar</FromClass>
@@ -44,7 +46,7 @@
     <SpecificName>Śāsana Stambha Aśokā</SpecificName>
     <Tooltip>Nearby Villagers +10% work rates.</Tooltip>	
     <Icon>structures/monument.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>	
+    <RequiredTechnology>phase_city</RequiredTechnology>
     <History>.</History>
     <Classes datatype="tokens">Pillar</Classes>	
   </Identity>

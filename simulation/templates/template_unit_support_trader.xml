@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
+  <Footprint replace="">
+    <Square width="3" depth="5"/>
+    <Height>7.5</Height>
+  </Footprint>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
       <food>100</food>
-      <metal>50</metal>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>5</food>
-    <wood>3</wood>
-    <stone>3</stone>
-    <metal>4</metal>
+    <food>10</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>0</metal>
   </Loot>  
   <Health>
     <Max>100</Max>
@@ -21,8 +25,7 @@
     <Classes datatype="tokens">Trader -ConquestCritical</Classes>
     <GenericName>Trader</GenericName>
     <History>Trade was a very important part of ancient civilization - effective trading and control of trade routes equaled wealth. Trade took place by many forms from foot to caravans to merchant ships. One of the most notorious examples of the power of trade was the Silk Road.</History>
-    <Tooltip>Classes: Support Trader.
-Trade resources between your own markets and those of your allies.</Tooltip>
+    <Tooltip>Support unit. Trades resources between your own markets and those of your allies.</Tooltip>
     <Formations disable=""/>
   </Identity>
   <Sound>
@@ -34,7 +37,6 @@ Trade resources between your own markets and those of your allies.</Tooltip>
       <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
       <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
       <walk>actor/human/movement/walk.xml</walk>
-      <run>actor/human/movement/run.xml</run>
       <attack>attack/weapon/sword.xml</attack>
       <death>actor/human/death/{gender}_death.xml</death>
       <build>resource/construction/con_wood.xml</build>

@@ -4,6 +4,14 @@
     <Square width="62.0" depth="62.0"/>
     <Height>10.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>30</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>3</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>  
   <Identity>
     <Civ>sele</Civ>
     <SpecificName>Paradise of Daphne</SpecificName>
@@ -11,7 +19,7 @@
   </Identity>
   <Obstruction>
     <Static width="59.0" depth="59.0"/>
-  </Obstruction>
+  </Obstruction>  
   <StatusBars>
     <BarWidth>6.0</BarWidth>
     <BarHeight>0.6</BarHeight>

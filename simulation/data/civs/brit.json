@@ -18,19 +18,19 @@
 			"Technologies":
 			[
 				{
-					"Name": "- Boudicca's Levy",
+					"Name": "- Tribal Levy",
 					"History": "",
-					"Description": "Infantry -40% train time." 
+					"Description": "Infantry train 40% faster." 
 				}, 	
 				{
 					"Name": "- Swift Chariots",
 					"History": "",
-					"Description": "Celtic Chariots +10% speed, -10% attack rate." 
+					"Description": "Celtic Chariots attack and move 10% faster." 
 				}, 					
 				{
 					"Name": "- Woad Raiders",
 					"History": "",
-					"Description": "Melee infantry +1 crush attack." 
+					"Description": "Melee infantry have +1 crush attack." 
 				} 
 			],
 			"Heroes":
@@ -41,7 +41,15 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description": "Unique Unit, chariot skirmisher." 
+					"Description": "Ranged chariot cavalry. Good against melee units." 
+				},
+				{
+					"Name": "- Druid",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "",
+					"Description": "Stronger replacement for the generic Priest." 
 				} 	
 			] 
 		} 
@@ -49,24 +57,24 @@
 	"CivBonuses":
 	[	
 		{
-			"Name": "- Dog Scout",
+			"Name": "- Start with a Dog Scout",
 			"History": "", 
-			"Description": "Added to starting units." 
+			"Description": "Which is better at scouting but weaker in combat. " 
 		},	
 		{
-			"Name": "- Villagers",
+			"Name": "- Meat Gathering",
 			"History": "", 
-			"Description": "+50% meat gathering rate, requires a Farmstead. " 
+			"Description": "50% faster, requires a Farmstead. " 
 		},			
 		{
 			"Name": "- Fortresses",
 			"History": "",
-			"Description": "-20% cost." 
+			"Description": "20% cheaper." 
 		}, 		
 		{
 			"Name": "- Structures",
 			"History": "",
-			"Description": "-20% build time and hit points. Several Structures cost wood instead of stone." 
+			"Description": "build 20% faster, have 20% less hit points." 
 		}			
 	],
 	"TeamBonuses":
@@ -74,7 +82,7 @@
 		{
 			"Name": "- Cargo Ships",
 			"History": "",
-			"Description": "+50% hit points (currently not shared)." 
+			"Description": "have 20% more hit points (currently not shared)." 
 		} 
 	],
 	"Structures":
@@ -98,10 +106,6 @@
 		{
 			"Template": "units/brit_support_female_citizen",
 			"Count": 4
-		},
-		{
-			"Template": "units/brit_cavalry_swordsman_b",
-			"Count": 1
 		},
 		{
 			"Template": "units/brit_war_dog_b" 

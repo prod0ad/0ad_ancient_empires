@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/pers_infantry_spearman_a">
+  <Cost>
+    <BuildTime>9</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>90</metal>
+    </Resources>
+  </Cost> 
+  <Identity>
+    <SelectionGroupName>units/pers_infantry_spearman_m</SelectionGroupName>  
+	<VisibleClasses datatype="tokens">Elite -Advanced Mercenary -Levy</VisibleClasses>	
+	<SpecificName>Mercenary Hoplite</SpecificName>
+    <Icon>units/ae_merc_hoplite.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/persians/infantry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

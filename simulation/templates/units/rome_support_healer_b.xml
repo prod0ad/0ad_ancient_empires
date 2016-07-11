@@ -4,8 +4,8 @@
     <Civ>rome</Civ>
     <SelectionGroupName>units/rome_support_healer_b</SelectionGroupName>
 	<GenericName>Healer</GenericName>
-    <SpecificName>Pontifex</SpecificName>
-    <Icon>units/rome_support_healer.png</Icon>
+    <SpecificName>Priest</SpecificName>
+    <Icon>units/ae_rome_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>

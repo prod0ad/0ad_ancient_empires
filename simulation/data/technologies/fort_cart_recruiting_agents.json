@@ -1,9 +1,9 @@
 {
-	"genericName": "Recruiting Agents",
+	"genericName": "Loyal Mercenaries",
 	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 200},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "helmet_hero_side.png",
+	"icon": "special_treasure.png",
 	"researchTime": 50,
 	"tooltip": "Mercenaries -25% metal cost.",
 	"modifications": 

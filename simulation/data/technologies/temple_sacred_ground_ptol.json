@@ -3,12 +3,11 @@
 	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 100},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "healing_range.png",
+	"icon": "architecture.png",
 	"researchTime": 25,
-	"tooltip": "Temples +100% territory influence and vision.",
+	"tooltip": "Temples +200% territory influence.",
 	"modifications": [
-	 {"value": "TerritoryInfluence/Radius", "multiply": 2},
-     {"value": "Vision/Range", "multiply": 2}
+	 {"value": "TerritoryInfluence/Radius", "multiply": 3}
 	],
 	"affects": ["Temple"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

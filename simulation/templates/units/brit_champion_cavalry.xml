@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_javelinist">
   <Armour>
-    <Hack>1</Hack>
+    <Hack>2</Hack>
     <Pierce>0</Pierce>
     <Crush>0</Crush>
   </Armour>
@@ -10,7 +10,7 @@
       <Hack>0</Hack>
       <Pierce>12</Pierce>
       <Crush>0</Crush>
-      <MaxRange>30</MaxRange>
+      <MaxRange>28</MaxRange>
       <MinRange>0.0</MinRange>		  
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>2000</PrepareTime>
@@ -23,7 +23,7 @@
     <BuildTime>30</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>70</wood>
+      <wood>65</wood>
 	  <metal>40</metal>
       <stone>0</stone>	  
     </Resources>
@@ -39,25 +39,24 @@
     <Max>150</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>12</Speed>
-    </Run>		
+	  <PassabilityClass>large</PassabilityClass>    
+    <WalkSpeed>11</WalkSpeed>	
   </UnitMotion> 
   <Vision>
     <Range>40</Range>
   </Vision> 
   <Footprint replace="">
-    <Square width="10.0" depth="10.0"/>
+    <Square width="5.0" depth="9.0"/>
     <Height>5.0</Height>
   </Footprint>
   <Identity>
     <Civ>brit</Civ>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+	<Classes datatype="tokens">Siege</Classes>		
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Celtic Chariot</SpecificName>
 	<SelectionGroupName>units/brit_champion_cavalry</SelectionGroupName>
-	<Tooltip>Versatile chariot skirmisher.</Tooltip>	
+	<Tooltip>Ranged chariot cavalry. Good against melee units.</Tooltip>	
     <Icon>units/ae_celt_chariot.png</Icon>
   </Identity>
   <VisualActor>

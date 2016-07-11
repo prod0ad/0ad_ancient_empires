@@ -19,7 +19,12 @@
 			         "Name":"- Machimoi Epilektoi",
 			         "History":"",
 			         "Description":"Machimos Phalangites +10% attack, hit points and vision."
-		        },										
+		        },	
+				{
+			         "Name":"- Memphis Decree",
+			         "History":"",
+			         "Description":"Farms are free, Healers -50% cost."
+		        },				
 				{
 			         "Name":"- Mercenary Army",
 			         "History":"",
@@ -39,7 +44,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-			         "Description":"Unique Unit, pike infantry."
+			         "Description":"Melee infantry. Good against melee units, especially cavalry."
 				}			
 			]
 		}
@@ -49,7 +54,7 @@
 		{
 			"Name":"- Villagers",
 			"History":"",
-			"Description":"+30% farming rate."
+			"Description":"+15% farming rate."
 		},	
 		{
 			"Name":"- Temple Technologies",
@@ -62,15 +67,15 @@
 			"Description":"+20% hit points."
 		},			
 		{
-			"Name":"- Houses, Farmsteads, Corrals, Storehouses",
+			"Name":"- Structures",
 			"History":"",
-			"Description":"No resource cost, increased build time."
+			"Description":"cost no wood or cost metal instead, +50% build time."
 		}
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name":"- Ships, Siege Units",
+			"Name":"- Ships and Workshop units ",
 			"History":"",
 			"Description":"-10% cost (currently not shared)."
 		}
@@ -95,8 +100,11 @@
 		},
 		{
 			"Template": "units/ptol_support_female_citizen",
-			"Count": 4
+			"Count": 3
 		},
+		{
+			"Template": "units/ptol_support_healer_b"
+		},		
 		{
 			"Template": "units/ptol_cavalry_swordsman_b"
 		}

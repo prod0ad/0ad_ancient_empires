@@ -20,7 +20,7 @@
 				{
 					"Name": "- Late Armies",
 					"History": "",
-					"Description": "Solduros can be trained at the barracks and Brihent at the Stables."
+					"Description": "Solduros can be trained at the barracks, Brihent at the Stables."
 				},
 				{
 					"Name": "- Great Migration",
@@ -46,7 +46,7 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description": "Unique Unit, sword infantry." 
+					"Description": "Melee infantry. Resistant to ranged attacks." 
 				},
 				{
 					"Name": "- Brihent",
@@ -54,8 +54,16 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description": "Unique Unit, heavy cavalry." 
-				}				
+					"Description": "Melee cavalry. Good against melee units." 
+				},
+				{
+					"Name": "- Druid",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "",
+					"Description": "Stronger replacement for the generic Priest." 
+				}					
 			] 
 		} 
 	],
@@ -72,14 +80,14 @@
 			"Description": "Added to starting units." 
 		},			
 		{
-			"Name": "- Priests",
+			"Name": "- Soldiers",
 			"History": "",
-			"Description": "+10% hit points for each temple technology researched." 
+			"Description": "Gain 30% additional loot." 
 		},		
 		{
 			"Name": "- Structures",
 			"History": "",
-			"Description": "-20% build time and hit points. Several Structures cost wood instead of stone." 
+			"Description": "-20% build time and hit points." 
 		}					
 	],
 	"TeamBonuses":

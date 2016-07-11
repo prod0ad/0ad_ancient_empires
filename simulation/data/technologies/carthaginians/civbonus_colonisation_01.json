@@ -1,0 +1,9 @@
+{
+	"genericName": "Colonization",
+	"autoResearch": true,
+	"description": "Carthaginians established many trading centers as colonies and ultimately held dominion over 300 cities and towns in North Africa alone.",
+	"requirements": {"all": [{"civ": "cart"},{"tech": "phase_town"}]},
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.90}],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

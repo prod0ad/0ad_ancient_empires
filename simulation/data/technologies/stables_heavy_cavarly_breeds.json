@@ -5,7 +5,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "nisean_war_horses.png",
 	"researchTime": 50,
-	"tooltip": "Cavalry +20% health.",
+	"tooltip": "Cavalry +20% hit points.",
 	"modifications": [
 		{"value": "Health/Max", "multiply": 1.20}
 	],

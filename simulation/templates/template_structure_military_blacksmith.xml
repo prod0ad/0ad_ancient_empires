@@ -7,7 +7,8 @@
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>
-      <wood>200</wood>
+      <wood>100</wood>
+      <metal>100</metal>	  
     </Resources>
   </Cost>
   <Footprint>
@@ -21,7 +22,7 @@
   <Identity>
     <GenericName>Blacksmith</GenericName>
     <SpecificName>Blacksmith</SpecificName>	
-    <Tooltip>Research weapon and armor upgrades.</Tooltip>
+    <Tooltip>Researches weapon and armor upgrades.</Tooltip>
     <VisibleClasses datatype="tokens">
 	  Town
 	  Blacksmith
@@ -32,9 +33,9 @@
   <Loot>
     <xp>0</xp>
     <food>0</food>
-    <wood>20</wood>
+    <wood>10</wood>
     <stone>0</stone>
-    <metal>0</metal>
+    <metal>10</metal>
   </Loot>
   <Obstruction>
     <Static width="17.0" depth="17.0"/>

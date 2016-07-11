@@ -28,18 +28,18 @@
 				{
 					"Name": "- Cantabrian Circle",
 					"History": "",
-					"Description": "Iberian Nobles and Cavalry Skirmishers +1 all armor types." 
+					"Description": "Javelin cavalry +1 all armor types." 
 				}		
 			],
 			"Heroes":
 			[
 				{
-					"Name": "- Iberian Noble",
+					"Name": "- Noble Cavalry",
 					"Class": "",
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description": "Unique Unit, cavalry skirmisher." 
+					"Description": "Ranged cavalry. Good against structures." 
 					
 				}
 			]
@@ -85,7 +85,7 @@
 			"History": "",
 			"Requirements": "",
 			"Phase": "",
-		    "Description": "Units in range +10% attack. Build Limit: 1 Per Civil Centre.", 			
+		    "Description": "Units in range +10% attack.", 			
 			"Special": "."
 		} 
 	],

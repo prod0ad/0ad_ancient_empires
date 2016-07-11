@@ -9,7 +9,7 @@
     <Max>15</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry Dog Siege</List>
+    <List datatype="tokens">Support Soldier Dog Siege</List>
     <BuffHeal>0</BuffHeal>
     <LoadingRange>10</LoadingRange>
     <Pickup>true</Pickup>	
@@ -24,7 +24,7 @@
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.4</Spread>
+      <Spread>1.2</Spread>
 	  <Bonuses>
 		<AntiShip>
 		  <Classes>Ship</Classes>
@@ -57,9 +57,9 @@
   </Health>
   <Identity>
     <GenericName>Medium Warship</GenericName>
-    <Classes datatype="tokens">Warship Medium Ranged</Classes>
+    <Classes datatype="tokens">Warship Medium Bow Ranged</Classes>
     <Tooltip>Medium Warship. Deals x4 damage to other ships.</Tooltip>
-	<RequiredTechnology>phase_city</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <ResourceGatherer disable=""/>
   <Sound>
@@ -75,9 +75,6 @@
   </StatusBars>
   <UnitMotion>
     <WalkSpeed>13</WalkSpeed>
-    <Run>
-      <Speed>14</Speed>
-    </Run>	
   </UnitMotion>
   <Vision>
     <Range>60</Range>

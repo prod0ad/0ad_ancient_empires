@@ -29,12 +29,12 @@
 				{
 					"Name":"- Social Reform",
 					"History":"",
-					"Description":"Melee infantry and mercenary units -20% train time. Cleomenian Pikemen Unlocked."
+					"Description":"Melee infantry and mercenary units -20% train time. Unlocks Pikemen at the elite rank."
 				},	
 				{
 					"Name":"- Defence Reform",
 					"History":"",
-					"Description":"Stone Walls unlocked (negates the Spartan starting penalty)."
+					"Description":"Unlocks Stone Walls."
 				}					
 			],
 			"Heroes":
@@ -45,7 +45,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Unique Unit, spear infantry."
+					"Description":"Melee infantry. Good against melee units."
 				},
 				{
 					"Name":"- Skirites",
@@ -53,7 +53,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Unique Unit, sword infantry."
+					"Description":"Melee infantry. Good against ranged infantry."
 				},		
 				{
 					"Name":"- Hoplite",
@@ -62,14 +62,6 @@
 					"Emblem":"",
 					"History":"",
 					"Description":"Stronger replacement for the generic Spearman."
-				},			
-				{
-					"Name":"- Cleomenian Pikeman",
-					"Class":"",
-					"Armament":"",
-					"Emblem":"",
-					"History":"",
-					"Description":"Pikeman replacement trained at the advanced rank, requires Social Reform instead of Town Phase."
 				}						
 			]
 		}
@@ -92,7 +84,7 @@
 			"Description":"-20% cost, attack and hit points."
 		},	
 		{
-			"Name":"- Stone Walls.",
+			"Name":"- Stone Walls, Pikemen",
 			"History":"",
 			"Description":"Require additional research."
 		},	
@@ -115,7 +107,7 @@
 		{
 			"Name":"- Gerousia",
 			"History":"",			
-			"Description": "Holds the Spartan unique technologies, which cost no resources but have increased research times."
+			"Description": "Holds the Spartan unique technologies, which cost no resources but have increased research time."
 		} 	
 	],
 	"StartEntities":

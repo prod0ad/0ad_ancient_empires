@@ -6,10 +6,10 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>55</Max>
+    <Max>60</Max>
   </Health>  
   <Vision>
-    <Range>35</Range>
+    <Range>40</Range>
   </Vision>    
   <Attack>
     <Ranged>
@@ -21,34 +21,32 @@
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.4</Spread>	  
+      <Spread>1.2</Spread>	  
     </Ranged>
   </Attack>
   <Cost>
+    <Population>2</Population>    
     <BuildTime>20</BuildTime>	  
     <Resources>
       <food>0</food>
-      <wood>30</wood>
+      <wood>35</wood>
 	  <metal>20</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
       <food>0</food>
-      <wood>3</wood>
+      <wood>4</wood>
 	  <metal>2</metal>
       <stone>0</stone>	 
   </Loot> 
   <UnitMotion>
-    <WalkSpeed>8.5</WalkSpeed>
-    <Run>
-      <Speed>9.5</Speed>
-    </Run>		
+    <WalkSpeed>8.5</WalkSpeed>	
   </UnitMotion> 
   <Identity>
     <VisibleClasses datatype="tokens">Bow</VisibleClasses>
     <GenericName>Archer</GenericName>
-    <Tooltip>Long ranged infantry.</Tooltip>	
+    <Tooltip>Ranged infantry. Good in numbers against most units.</Tooltip>	
   </Identity>
   <Sound>
     <SoundGroups>

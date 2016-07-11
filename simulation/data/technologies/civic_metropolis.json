@@ -1,0 +1,15 @@
+{
+	"genericName": "Metropolis",
+	"description": ".",
+	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 0},
+	"requirements": {"tech": "phase_village"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "cauldron.png",
+	"researchTime": 50,
+	"tooltip": "Civil Centres +10 population.",
+	"modifications": [
+		{"value": "Cost/PopulationBonus", "add": 10.0}
+	],
+	"affects": ["CivilCentre"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

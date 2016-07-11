@@ -1,0 +1,14 @@
+{
+	"pair": "pair_merc",
+	"genericName": "Recruitment Agents",
+	"description": "Mercenaries have their train time decreased.",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 0},
+	"icon": "helmet_hero_side.png",
+	"researchTime": 40,
+	"tooltip": "-20% train time for Mercenaries.",
+	"modifications": [
+	    {"value": "Cost/BuildTime", "multiply": 0.8, "affects": "Mercenary"},
+	    {"value": "TerritoryInfluence/Radius", "multiply": 1.1, "affects": "Structure"}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

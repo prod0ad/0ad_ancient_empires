@@ -4,15 +4,15 @@
     <Aura1>
       <Type>range</Type>
       <Radius>20</Radius>
-      <Affects>Soldier</Affects>
+      <Affects>Unit</Affects>
 	  <AffectedPlayers>Enemy</AffectedPlayers>
       <Modifications>	
-	    <Attack.Melee.Hack> <Multiply>0.8</Multiply> </Attack.Melee.Hack>
-        <Attack.Ranged.Pierce> <Multiply>0.8</Multiply> </Attack.Ranged.Pierce>		
-        <Attack.Ranged.Crush> <Multiply>0.8</Multiply> </Attack.Ranged.Crush>		
+        <Attack.Melee.RepeatTime> <Multiply>1.2</Multiply> </Attack.Melee.RepeatTime>
+        <Attack.Ranged.RepeatTime> <Multiply>1.2</Multiply> </Attack.Ranged.RepeatTime>	
       </Modifications>
-      <AuraName>Elephant Aura (20%)</AuraName>
-      <AuraDescription>Enemy units in range -20% attack (does not stack).</AuraDescription>
+      <AuraName>Fear Aura (20%)</AuraName>
+      <AuraDescription>Affected enemy units attack 20% slower.</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>	  
     </Aura1>
   </Auras>
   <Attack>
@@ -22,26 +22,16 @@
       <Crush>60</Crush>
       <MaxRange>7.0</MaxRange>
       <RepeatTime>2000</RepeatTime>	
-      <PreferredClasses datatype="tokens">Siege Structure</PreferredClasses>	  	  
-	  <Bonuses>
-		<AntiStructure>
-		  <Classes>Ranged Infantry</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiStructure>		
-		<AntiSiege>
-		  <Classes>Siege</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiSiege>			
-	  </Bonuses>		  
+      <PreferredClasses datatype="tokens">Siege Structure</PreferredClasses>	  	  		  
     </Melee>
   </Attack>
   <Armour>
     <Hack>3</Hack>
-    <Pierce>2</Pierce>
+    <Pierce>3</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Cost>
-    <Population>5</Population>
+    <Population>6</Population>
     <BuildTime>50</BuildTime>
     <Resources>
       <food>200</food>
@@ -57,18 +47,19 @@
     <stone>0</stone>
     <metal>8</metal>
   </Loot>
-  <Footprint>
-    <Circle radius="3.5"/>
-    <Height>6.0</Height>
+  <Footprint replace="">
+    <Square width="5" depth="8"/>
+    <Height>6</Height>
   </Footprint>
   <Health>
-    <Max>600</Max>
+    <Max>500</Max>
   </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Elephant Levy Melee -Unique</VisibleClasses>
+    <VisibleClasses datatype="tokens">Elephant Cavalry Melee Levy -Unique</VisibleClasses>
+	<Classes datatype="tokens">Siege</Classes>		
     <GenericName>War Elephant</GenericName>
     <Icon>gaia/fauna_elephant.png</Icon>
-    <Tooltip>Powerful mounted unit. Deals x1.5 damage to siege units and structures. Nearby enemy cavalry +20% attack rate.</Tooltip>	
+    <Tooltip>Melee elephant cavalry. Good against structures.</Tooltip>	
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>
@@ -76,8 +67,8 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>arrow/256x256.png</MainTexture>
-        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+        <MainTexture>circle/128x128.png</MainTexture>
+        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
@@ -90,7 +81,6 @@
       <order_garrison>actor/fauna/animal/elephant_order.xml</order_garrison>
       <attack>actor/fauna/animal/elephant_attack.xml</attack>
       <walk>actor/mounted/movement/walk.xml</walk>
-      <run>actor/mounted/movement/walk.xml</run>
       <death>actor/fauna/animal/elephant_death.xml</death>
       <trained>actor/fauna/animal/elephant_trained.xml</trained>
     </SoundGroups>
@@ -100,13 +90,10 @@
   </StatusBars>
   <UnitMotion>
 	  <PassabilityClass>large</PassabilityClass>
-    <WalkSpeed>9.5</WalkSpeed>
-    <Run>
-      <Speed>10.5</Speed>
-    </Run>		
+    <WalkSpeed>9.5</WalkSpeed>	
   </UnitMotion>
   <Vision>
-    <Range>75</Range>
+    <Range>50</Range>
   </Vision>
   <VisualActor>
     <Actor>units/mauryans/champion_elephant.xml</Actor>

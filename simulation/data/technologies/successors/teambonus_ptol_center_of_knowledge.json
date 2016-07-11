@@ -1,7 +1,7 @@
 {
 	"genericName": "Centre Of Knowledge",
 	"autoResearch": true,
-	"description": " Ships and Siege Units -10% resource cost",
+	"description": "Ships and Workshop Units -10% cost",
 	"requirements": {"civ": "ptol"},
 	"modifications": [
 		{"value": "Cost/Resources/metal", "multiply": 0.90},

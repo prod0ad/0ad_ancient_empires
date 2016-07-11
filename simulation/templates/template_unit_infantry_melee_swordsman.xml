@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Health>
-    <Max>120</Max>
+    <Max>100</Max>
   </Health>
   <Armour>
-    <Hack>0</Hack>
-    <Pierce>1</Pierce>
+    <Hack>1</Hack>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
     <Melee>
-      <Hack>12</Hack>
+      <Hack>11</Hack>
       <Pierce>0</Pierce>
-      <Crush>0.0</Crush>
+      <Crush>1</Crush>
       <MaxRange>4.0</MaxRange>
       <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Organic</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>
-    <Population>2</Population>  
+    <Population>3</Population>  
     <BuildTime>20</BuildTime>	  
     <Resources>
-      <food>40</food>
+      <food>50</food>
       <wood>0</wood>
-	  <metal>40</metal>
+	  <metal>50</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>
   <Loot>
-      <food>4</food>
+      <food>5</food>
       <wood>0</wood>
-	  <metal>4</metal>
+	  <metal>5</metal>
       <stone>0</stone>
   </Loot>
   <UnitMotion>
     <WalkSpeed>7.5</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>24</Range>
+    <Range>25</Range>
   </Vision>  
   <Identity>
     <VisibleClasses datatype="tokens">Sword</VisibleClasses>
     <GenericName>Swordsman</GenericName>
-    <Tooltip>Offensive Melee Infantry.</Tooltip>			
+    <Tooltip>Melee infantry. Good against most units.</Tooltip>			
   </Identity>
 </Entity>

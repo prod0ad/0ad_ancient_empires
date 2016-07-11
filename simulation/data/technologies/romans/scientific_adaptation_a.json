@@ -2,12 +2,12 @@
 	"genericName": "Scientific Adaptation",
 	"autoResearch": true,
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "rome"}]},
-	"tooltip": "Structures, Ships, Siege Weapons -10% cost.",
+	"tooltip": "Structures, Warships, Siege Weapons -10% cost.",
 	"modifications": [
 	    {"value": "Cost/Resources/food", "multiply": 0.90},		
 	    {"value": "Cost/Resources/wood", "multiply": 0.90},
 	    {"value": "Cost/Resources/metal", "multiply": 0.90},
 		{"value": "Cost/Resources/stone", "multiply": 0.90}	
 	],
-	"affects": ["Structure","Siege","Warship"]
+	"affects": ["Structure","Catapult","BoltShooter","Ram","Warship"]
 }

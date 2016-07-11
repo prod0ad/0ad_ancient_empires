@@ -2,6 +2,7 @@
 <Entity parent="template_structure_special">
   <BuildRestrictions>
     <Category>Library</Category>
+    <Territory>own</Territory>		
   </BuildRestrictions>
   <Footprint>
     <Square width="29.0" depth="34.0"/>
@@ -23,11 +24,12 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
-      academy_siege_range
       academy_health_regen_units		  
 	  academy_architecture_01	  
 	  academy_architecture_02	 	  
-      academy_successors_metropolis  
+      academy_successors_metropolis  	
+      academy_siege_range
+      academy_accuracy	 
     </Technologies>
   </ProductionQueue>
   <Sound>

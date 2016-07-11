@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-  <Cost>
-    <BuildTime>120</BuildTime>
-    <Resources>
-      <wood>200</wood>
-      <stone>0</stone>
-    </Resources>
-  </Cost>
-  <Footprint>
-    <Square width="22.0" depth="22.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>gaul</Civ>
   </Identity>
-  <Obstruction>
-    <Static width="20.0" depth="20.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_infantry_spearman_b
@@ -30,8 +16,7 @@
 	  units/{civ}_champion_infantry_barracks	  
     </Entities>
 	<Technologies datatype="tokens">
-	  upgrades/spearman_a
-	  upgrades/spearman_e		
+	  upgrades/spearman_a	
 	  upgrades/skirmisher_a
 	  upgrades/archer_a    
 	  upgrades/swordsman_a
@@ -40,8 +25,15 @@
       barracks_speed_train	
     </Technologies>
   </ProductionQueue>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>  
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>  
   <VisualActor>
-    <Actor>structures/celts/barracks.xml</Actor>
+    <Actor>structures/britons/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

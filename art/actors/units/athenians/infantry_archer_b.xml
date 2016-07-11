@@ -24,6 +24,7 @@
       <props>
         <prop actor="props/units/weapons/bow_short.xml" attachpoint="l_hand"/>
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
+        <prop actor="props/units/heads/hele_iar_e.xml" attachpoint="helmet"/>		
       </props>
     </variant>
   </group>

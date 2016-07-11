@@ -40,7 +40,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-			        "Description":"Unique Unit, heavy cavalry."					
+			        "Description":"Melee Cavalry. Good against melee infantry."					
 				}
 			]
 		}
@@ -55,7 +55,7 @@
 		{
 			"Name":"- Traders, Cargo Ships",
 			"History":"",
-			"Description":"-40% cost."
+			"Description":"Train 50% faster."
 		},	
 		{
 			"Name":"- Bloodlines free",

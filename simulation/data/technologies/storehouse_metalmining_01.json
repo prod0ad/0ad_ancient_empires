@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "mining_metal.png",
 	"researchTime": 40,
-	"tooltip": "+15% metal gathering rate.",
+	"tooltip": "Villagers +15% metal gathering rate.",
 	"modifications": [{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.15}],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

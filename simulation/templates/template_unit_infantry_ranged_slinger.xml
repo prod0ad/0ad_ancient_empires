@@ -6,7 +6,7 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>50</Max>
+    <Max>60</Max>
   </Health>
   <Vision>
     <Range>40</Range>
@@ -21,7 +21,7 @@
       <ProjectileSpeed>75.0</ProjectileSpeed>
       <PrepareTime>1500</PrepareTime>
       <RepeatTime>1500</RepeatTime>
-      <Spread>1.3</Spread>
+      <Spread>1.2</Spread>
 	  <Bonuses>
 		<AntiRangedInfantry>
 		  <Classes>Ranged Infantry</Classes>
@@ -35,29 +35,27 @@
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>25</BuildTime>	  
+    <Population>2</Population>  
+    <BuildTime>24</BuildTime>	  
     <Resources>
-      <food>30</food>
+      <food>35</food>
       <wood>0</wood>
 	  <metal>0</metal>
-      <stone>30</stone>	  
+      <stone>25</stone>	  
     </Resources>
   </Cost>
   <Loot>
-      <food>3</food>
+      <food>4</food>
       <wood>0</wood>
 	  <metal>0</metal>
       <stone>3</stone>	  
   </Loot>
   <UnitMotion>
-    <WalkSpeed>8.5</WalkSpeed>
-    <Run>
-      <Speed>9.5</Speed>
-    </Run>		
+    <WalkSpeed>8.5</WalkSpeed>	
   </UnitMotion>    
   <Identity>
-    <VisibleClasses datatype="tokens">Sling</VisibleClasses>
+    <VisibleClasses datatype="tokens">Sling AntiRanged1.5</VisibleClasses>
     <GenericName>Slinger</GenericName>
-    <Tooltip>Long ranged infantry. Deals x1.5 damage to ranged units.</Tooltip>		
+    <Tooltip>Ranged infantry. Good against ranged units.</Tooltip>			
   </Identity>
 </Entity>

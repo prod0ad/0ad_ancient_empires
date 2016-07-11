@@ -1,6 +1,6 @@
 <Entity parent="template_unit_cavalry">
   <Armour>
-    <Hack>1</Hack>
+    <Hack>2</Hack>
     <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
@@ -18,7 +18,7 @@
     </Melee>
   </Attack>
   <Cost>
-    <Population>3</Population>  
+    <Population>4</Population>  
     <BuildTime>30</BuildTime>   
     <Resources>
       <food>70</food>
@@ -38,14 +38,11 @@
   </Loot>  
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>12</Speed>
-    </Run>
   </UnitMotion>  
   <Identity>
     <VisibleClasses datatype="tokens">Melee Heavy Spear</VisibleClasses>
     <GenericName>Heavy Cavalry</GenericName>
-	<RequiredTechnology>phase_town</RequiredTechnology>	
-    <Tooltip>Powerful melee cavalry.</Tooltip>		
+	<RequiredTechnology>phase_city</RequiredTechnology>	
+    <Tooltip>Melee cavalry. Good against most units.</Tooltip>		
   </Identity>
 </Entity>

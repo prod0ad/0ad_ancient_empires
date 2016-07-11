@@ -17,9 +17,12 @@
     <Static width="36.0" depth="30.0"/>
   </Obstruction>
   <ProductionQueue>
+    <BatchTimeModifier>0.75</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/maur_support_elephant
+    </Entities>
     <Technologies datatype="tokens">
-      civic_health_workers  
-      civic_vision_structure	  
+      civic_health_workers    
     </Technologies>	
   </ProductionQueue>
   <VisualActor>

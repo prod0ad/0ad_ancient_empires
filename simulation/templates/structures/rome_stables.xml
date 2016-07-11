@@ -1,70 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_special">
   <BuildRestrictions>
-    <Category>Stables</Category>
+    <Category>Barracks</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>120</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <wood>100</wood>
-      <stone>100</stone>
+      <wood>300</wood>
+      <stone>0</stone>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="22.0" depth="20.0"/>
-    <Height>5.0</Height>
+    <Square width="40.0" depth="40.0"/>
+    <Height>12.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <List datatype="tokens">Support Infantry Cavalry Siege</List>
+    <BuffHeal>2</BuffHeal>
+    <LoadingRange>6</LoadingRange>
+  </GarrisonHolder>
+  <BuildRestrictions>
+    <Territory>own ally neutral enemy</Territory>
+  </BuildRestrictions>  
   <Health>
-    <Max>2400</Max>
-    <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+    <Max>1800</Max>
+    <SpawnEntityOnDeath>rubble/rubble_rome_sb</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>rome</Civ>  
-    <GenericName>Stables</GenericName>
-    <SpecificName>Stables</SpecificName>
-    <Tooltip>Trains and upgrades Cavalry Units.</Tooltip>
-    <VisibleClasses datatype="tokens">
-	  -Village
+    <Civ>rome</Civ>
+    <GenericName>Army Camp</GenericName>
+    <SpecificName>Army Camp</SpecificName>
+    <Classes datatype="tokens">
+	  ArmyCamp
 	  Town
-	  Stables
-	</VisibleClasses>
-    <Icon>structures/pers_stable.png</Icon>
+	</Classes>
+    <Icon>structures/roman_camp.png</Icon>
+    <Tooltip>Heals garrisoned units at an increased rate. Has no territory restrictions.</Tooltip>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Loot>
-    <xp>0</xp>
-    <food>0</food>
-    <wood>20</wood>
-    <stone>0</stone>
-    <metal>0</metal>
-  </Loot>
   <Obstruction>
-    <Static width="18.0" depth="16.0"/>
+    <Static width="36.0" depth="36.0"/>
   </Obstruction>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_barracks.xml</select>
-      <constructed>interface/complete/building/complete_barracks.xml</constructed>
+      <select>interface/select/building/sel_broch.xml</select>
+      <constructed>interface/complete/building/complete_broch.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <Actor>structures/persians/stables.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-  </VisualActor>
   <ProductionQueue>
-    <Entities datatype="tokens">
-	  units/{civ}_cavalry_swordsman_b		
-	  units/{civ}_cavalry_javelinist_b	
-	  units/{civ}_cavalry_spearman_b
-    </Entities>
-	<Technologies datatype="tokens">
-	  upgrades/cavalry_scout_a
-	  upgrades/cavalry_scout_e		
-	  upgrades/cavalry_skirmisher_a
-	  upgrades/cavalry_skirmisher_e		
-	  upgrades/cavalry_heavy_a		  
-	  upgrades/cavalry_heavy_e		
-    </Technologies>
+    <BatchTimeModifier>0.75</BatchTimeModifier>
   </ProductionQueue>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/romans/camp.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+  </VisualActor>
 </Entity>

@@ -3,10 +3,10 @@
 	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
-	"icon": "wheel.png",
+	"icon": "military_engineers.png",
 	"researchTime": 60,
-	"tooltip": "Stone Throwers, Bolt Shooters -50% pack/unpack time.",
-	"modifications": [{"value": "Pack/Time", "multiply": 0.50}],
-	"affects": ["Siege"],
+	"tooltip": "Ranged Siege Weapons pack and unpack 60% faster.",
+	"modifications": [{"value": "Pack/Time", "multiply": 0.40}],
+	"affects": ["Catapult", "BoltShooter"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

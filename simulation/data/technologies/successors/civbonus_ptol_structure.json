@@ -1,0 +1,13 @@
+{
+	"genericName": "A",
+	"autoResearch": true,
+	"description": ".",
+	"requirements": {"civ": "ptol"},
+	"tooltip": ".",
+	"modifications": [
+	    {"value": "Cost/BuildTime", "multiply": 1.50},	
+	    {"value": "Cost/BuildTime", "multiply": 0.50,   "affects": "Field"},		
+	    {"value": "Cost/BuildTime", "multiply": 0.50,   "affects": "Wonder"}
+	],
+	"affects": ["Structure"]
+}

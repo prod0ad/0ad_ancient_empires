@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Mountain Range",
+		"Script" : "ae_mountain_range.js",
+		"Description" : "A massive mountain range separates the players. Move around it to attack your enemies.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : 5,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

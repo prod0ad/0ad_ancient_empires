@@ -1,0 +1,12 @@
+{
+	"genericName": "Time Of Need",
+	"cost": {"food": 200, "wood": 200, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "calipers.png",
+	"researchTime": 50,
+	"tooltip": "Towers, Siege Weapons, Sacred Band units -25% build time.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.75}],
+	"affects": ["Catapult", "BoltShooter", "Ram", "Unique Spear", "DefenseTower"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

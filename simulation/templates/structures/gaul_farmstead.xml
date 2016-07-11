@@ -4,6 +4,12 @@
 		<Square width="20" depth="20"/>
 		<Height>8.0</Height>
 	</Footprint>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -farmstead_farming_03
+    </Technologies>
+    </ProductionQueue>	
 	<Identity>
 		<Civ>gaul</Civ>
 		<SpecificName>Ffermdy</SpecificName>

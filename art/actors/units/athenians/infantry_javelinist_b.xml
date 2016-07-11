@@ -20,6 +20,7 @@
       <mesh>skeletal/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/weapons/jav.xml" attachpoint="r_hand"/>
+        <prop actor="props/units/shields/hele_pelta_a.xml" attachpoint="shield"/>		
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="l_hand"/>
         <prop actor="props/units/cape_long_ragged.xml" attachpoint="shoulders"/>
       </props>

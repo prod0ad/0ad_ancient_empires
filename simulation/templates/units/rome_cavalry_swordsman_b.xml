@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Cost>
-    <BuildTime>10</BuildTime>
+    <BuildTime>13.5</BuildTime>
     <Resources>
       <food>0</food>
       <wood>0</wood>
@@ -14,7 +14,8 @@
 	<SelectionGroupName>units/rome_cavalry_swordsman_b</SelectionGroupName>
     <SpecificName>Gallic Horseman</SpecificName>
     <Icon>units/ae_merc_epos.png</Icon>
-	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>			
+	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>	
+    <RequiredTechnology>phase_city</RequiredTechnology>				
   </Identity>
   <Promotion>
     <Entity>units/rome_cavalry_swordsman_a</Entity>

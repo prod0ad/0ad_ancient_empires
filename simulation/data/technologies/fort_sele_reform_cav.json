@@ -3,7 +3,7 @@
 	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 400},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "armor_plates_cavalry.png",
+	"icon": "helmet_hero_side.png",
 	"researchTime": 50,
 	"tooltip": "Catafracts and Heavy Cavalry +1 all armor levels.",
 	"modifications": [

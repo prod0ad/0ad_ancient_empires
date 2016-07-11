@@ -6,7 +6,7 @@
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>80</metal>
+      <metal>100</metal>
     </Resources>
   </Cost> 
   <UnitMotion>
@@ -34,12 +34,11 @@
   </Armour>  
   <Identity>
     <Civ>mace</Civ>
-	<VisibleClasses datatype="tokens">Mercenary -Levy</VisibleClasses>			
+	<VisibleClasses datatype="tokens">Mercenary -Levy AntiMeleeInf2</VisibleClasses>			
 	<SelectionGroupName>units/mace_infantry_swordsman_b</SelectionGroupName>
 	<GenericName>Falxman</GenericName>
-	<Tooltip>Heavy armed melee infantry. Deals x2 damage to melee infantry units.</Tooltip>		
+	<Tooltip>Hard hitting melee infantry. Counters melee infantry units.</Tooltip>	
     <SpecificName>Thracian Rhomphaophoros</SpecificName>
-    <Rank>Basic</Rank>
     <Icon>units/ae_merc_thracian.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

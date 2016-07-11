@@ -21,11 +21,14 @@
   <Identity>
     <GenericName>Market</GenericName>
     <SpecificName>Market</SpecificName>
-    <Tooltip>Spawns Traders, trades resources and provides ecomomic upgrades.</Tooltip>
+    <Tooltip>Trains traders, allows resource trade and provides ecomomic upgrades.</Tooltip>
     <Classes datatype="tokens">BarterMarket -ConquestCritical</Classes>
-    <VisibleClasses datatype="tokens">Town Market</VisibleClasses>
+    <VisibleClasses datatype="tokens">
+	Town
+	Market
+	</VisibleClasses>
     <Icon>structures/market.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+	<RequiredTechnology>phase_town</RequiredTechnology>	
   </Identity>
   <Loot>
     <xp>0</xp>
@@ -51,10 +54,10 @@
     </Entities>
     <Technologies datatype="tokens">
       market_speed_trader_01
+      unlock_shared_los 
       market_gather_capacity_01
       market_gather_capacity_02
-      market_gather_capacity_03
-      unlock_shared_los 
+      market_gather_capacity_03	  
     </Technologies>	
   </ProductionQueue>
   <Vision>

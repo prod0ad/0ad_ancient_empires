@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
+  <BuildRestrictions>
+    <Category>Library</Category>
+    <Territory>own</Territory>		
+  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="12.0"/>
     <Height>8.0</Height>

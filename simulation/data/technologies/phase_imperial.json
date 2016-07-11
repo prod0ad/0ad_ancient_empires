@@ -3,7 +3,7 @@
 	"description": "Advances from a bustling town to a veritable metropolis, full of the wonders of modern technology.",
 	"cost": {"food": 900, "wood": 0, "stone": 0, "metal": 600},
 	"requirements": { "class": "City", "number": 1 },
-	"requirementsTooltip": "Requires 1 new City structure.",
+	"requirementsTooltip": "Requires 1 City structure.",
 	"supersedes": "phase_city",
 	"icon": "political_face.png",
 	"researchTime": 180,

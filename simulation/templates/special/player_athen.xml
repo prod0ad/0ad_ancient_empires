@@ -3,7 +3,7 @@
   <EntityLimits>
     <LimitRemovers>
       <CivilCentre>
-        <RequiredTechs datatype="tokens">phase_town_athen</RequiredTechs>
+        <RequiredTechs datatype="tokens">phase_town</RequiredTechs>
       </CivilCentre>
     </LimitRemovers>
   </EntityLimits>

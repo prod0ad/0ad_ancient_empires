@@ -8,12 +8,12 @@
   <Attack>
     <Ranged>
       <Hack>0.0</Hack>
-      <Pierce>16.0</Pierce>
-      <Crush>16.0</Crush>
-      <MaxRange>50</MaxRange>
+      <Pierce>24.0</Pierce>
+      <Crush>24.0</Crush>
+      <MaxRange>75</MaxRange>
       <MinRange>10.0</MinRange>
-      <Spread>2.0</Spread>
-      <ProjectileSpeed>300.0</ProjectileSpeed>
+      <Spread>1.6</Spread>
+      <ProjectileSpeed>150.0</ProjectileSpeed>
       <PrepareTime>4000</PrepareTime>
       <RepeatTime>4000</RepeatTime>
       <Splash>
@@ -21,8 +21,8 @@
         <Range>10</Range>
         <FriendlyFire>false</FriendlyFire>
         <Hack>0</Hack>
-        <Pierce>8</Pierce>
-        <Crush>8</Crush>
+        <Pierce>12</Pierce>
+        <Crush>12</Crush>
       </Splash>
 	  <Bonuses>
 		<AntiStructure>
@@ -32,7 +32,11 @@
 		<AntiMechanical>
 		  <Classes>Mechanical</Classes>
 		  <Multiplier>1.0</Multiplier>
-		</AntiMechanical>		
+		</AntiMechanical>
+		<AntiElephant>
+		  <Classes>Structure</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</AntiElephant>		
 	  </Bonuses>	  
     </Ranged>		
   </Attack>
@@ -44,25 +48,25 @@
     </Resources>
     <Population>3</Population>
   </Cost>
-  <Footprint replace="">
-    <Square width="5.0" depth="12.0"/>
-    <Height>2.0</Height>
-  </Footprint>
-  <Health>
-    <Max>75</Max>
-  </Health>
-  <Identity>
-    <GenericName>Bolt Shooter</GenericName>
-	<Classes datatype="tokens">BoltShooter Ranged</Classes>
-	<Tooltip>Ranged Siege Weapon. Effective against masses of units and structures.</Tooltip>		
-  </Identity>
   <Loot>
     <xp>0</xp>
     <food>0</food>
     <wood>8</wood>
     <stone>0</stone>
     <metal>8</metal>
-  </Loot>
+  </Loot>  
+  <Footprint replace="">
+    <Square width="5.0" depth="12.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>90</Max>
+  </Health>
+  <Identity>
+    <GenericName>Bolt Shooter</GenericName>
+	<VisibleClasses datatype="tokens">BoltShooter Ranged AntiElephant1.5</VisibleClasses>
+    <Tooltip>Ranged siege unit. Good against structures and elephant units.</Tooltip>
+  </Identity>
   <Selectable>
     <Overlay>
       <Texture>
@@ -73,11 +77,8 @@
   </Selectable>
   <UnitMotion>
     <WalkSpeed>7</WalkSpeed>
-    <Run>
-      <Speed>8</Speed>
-    </Run>	
   </UnitMotion>
   <Vision>
-    <Range>50</Range>
+    <Range>75</Range>
   </Vision>
 </Entity>

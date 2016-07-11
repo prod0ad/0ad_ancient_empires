@@ -1,0 +1,18 @@
+{
+	"genericName": "Memphis Decree",
+	"description": ".",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 500},
+	"requirements": {"tech": "phase_imperial"},
+	"requirementsTooltip": "Unlocked in Imperial Phase.",
+	"icon": "sibylline_books.png",
+	"researchTime": 60,
+	"tooltip": "Farms are free, Healers -50% cost",
+    "modifications": [
+	    {"value": "Cost/Resources/food", "multiply": 0.50},		
+	    {"value": "Cost/Resources/wood", "replace": 0},
+	    {"value": "Cost/Resources/metal", "multiply": 0.50},
+		{"value": "Cost/Resources/stone", "multiply": 0.50}	
+	],
+	"affects": ["Healer","Field"],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -7,6 +7,12 @@
       structures/{civ}_wonder		  
     </Entities>
   </Builder>
+  <Promotion>
+    <Entity>units/athen_support_female_citizen_a</Entity>
+  </Promotion>  
+  <Promotion>
+    <RequiredXp>9999</RequiredXp>
+  </Promotion>  
   <Identity>
     <Civ>athen</Civ>
     <SpecificName>Villager</SpecificName>

@@ -11,18 +11,12 @@
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-	  <Bonuses>
-		<AntiStructure>
-		  <Classes>Structure</Classes>
-		  <Multiplier>1.5</Multiplier>
-		</AntiStructure>
-	  </Bonuses>  		  
+      <RepeatTime>1000</RepeatTime>		  
     </Melee>
   </Attack>
   <Cost>
     <BuildTime>20</BuildTime>
-    <Population>2</Population>	
+    <Population>3</Population>	
     <Resources>
       <food>45</food>
       <wood>0</wood>
@@ -63,7 +57,6 @@
       <order_gather>voice/hellenes/civ/civ_male_ack.xml</order_gather>
       <order_repair>voice/hellenes/civ/civ_male_ack.xml</order_repair>
       <walk>actor/human/movement/walk.xml</walk>
-      <run>actor/human/movement/walk.xml</run>
       <attack>attack/weapon/sword.xml</attack>
       <death>actor/human/death/death.xml</death>
     </SoundGroups>

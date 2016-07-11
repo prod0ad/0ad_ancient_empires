@@ -9,12 +9,7 @@
     <Anchor>pitch</Anchor>
   </Position>
   <UnitMotion>
-    <WalkSpeed>2.0</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
+    <WalkSpeed>7.0</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>fauna/deer.xml</Actor>

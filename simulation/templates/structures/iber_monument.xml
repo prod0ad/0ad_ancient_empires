@@ -15,6 +15,7 @@
     </Aura1>
   </Auras>
   <BuildRestrictions>
+    <Territory>own</Territory>  
     <Category>Monument</Category>
     <Distance>
       <FromClass>Monument</FromClass>
@@ -27,7 +28,7 @@
       <food>0</food>
       <wood>0</wood>
       <stone>100</stone>
-      <metal>0</metal>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -44,7 +45,8 @@
     <GenericName>Revered Monument</GenericName>
     <SpecificName>Revered Monument</SpecificName>
     <Icon>structures/iberian_bull.png</Icon>
-    <Tooltip>Nearby soldiers +10% attack.</Tooltip>
+    <Tooltip>Provides an aura increasing the attack of nearby soldiers.</Tooltip>
+    <Classes datatype="tokens">Monument</Classes>		
   </Identity>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>

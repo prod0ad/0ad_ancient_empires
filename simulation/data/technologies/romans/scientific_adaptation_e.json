@@ -9,5 +9,5 @@
 	    {"value": "Cost/Resources/metal", "multiply": 0.90},
 		{"value": "Cost/Resources/stone", "multiply": 0.90}	
 	],
-	"affects": ["Structure","Siege","Warship"]
+	"affects": ["Structure","Catapult","BoltShooter","Ram","Warship"]
 }

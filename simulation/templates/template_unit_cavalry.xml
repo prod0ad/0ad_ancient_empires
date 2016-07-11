@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
-  <ResourceGatherer disable=""/>  
   <Footprint replace="">
     <Square width="3" depth="5"/>
     <Height>7.5</Height>
@@ -35,7 +34,6 @@
       <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
       <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
       <walk>actor/mounted/movement/walk.xml</walk>
-      <run>actor/mounted/movement/walk.xml</run>
       <attack>attack/weapon/sword.xml</attack>
       <death>actor/fauna/death/death_horse.xml</death>
       <trained>interface/alarm/alarm_create_cav.xml</trained>

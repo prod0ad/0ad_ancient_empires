@@ -4,8 +4,8 @@
     <Civ>sele</Civ>
     <SelectionGroupName>units/sele_cavalry_spearman_b</SelectionGroupName>
     <GenericName>Heavy Cavalry</GenericName>
-    <SpecificName>Agema Companion</SpecificName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <SpecificName>Companion Cavalry</SpecificName>
+
     <Icon>units/ae_ptol_agema.png</Icon>
   </Identity>
   <Promotion>

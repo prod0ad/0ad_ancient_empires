@@ -34,15 +34,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="2">
-	  <props>
-        <prop actor="props/units/heads/head_egyptian_e.xml" attachpoint="head"/>
-	  </props>
-      <textures>
-        <texture file="skeletal/ptol_isp_b_1.png" name="baseTex"/>
-        <texture file="skeletal/ptol_isp_b_1_spec.png" name="specTex"/>
-      </textures>
-    </variant>	
     <variant frequency="1" name="8">
 	  <props>
         <prop actor="props/units/heads/ptol_healer_head.xml" attachpoint="head"/>

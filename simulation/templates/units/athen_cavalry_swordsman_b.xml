@@ -5,7 +5,7 @@
 	<SelectionGroupName>units/athen_cavalry_swordsman_b</SelectionGroupName>
 	<GenericName>Light Cavalry</GenericName>
     <SpecificName>Prodromos</SpecificName>
-    <Icon>units/ae_hele_prodromos.png</Icon>
+    <Icon>units/ae_hele_prodromos.png</Icon>	
   </Identity>
   <Promotion>
     <Entity>units/athen_cavalry_swordsman_a</Entity>

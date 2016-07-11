@@ -1,0 +1,19 @@
+{
+	"genericName": "Ballistics",
+	"description": "Improvement to projectile accuracy",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 200},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "arrow.png",
+	"researchTime": 50,
+	"tooltip": "Structures, ranged units and warships have increased accuracy.",
+	"modifications": [
+	{"value": "Attack/Ranged/Spread", "replace": 1.2,   "affects": "BoltShooter"},
+	{"value": "Attack/Ranged/Spread", "replace": 1.2,   "affects": "SiegeTower"},	
+	{"value": "Attack/Ranged/Spread", "replace": 1.5,   "affects": "Catapult"},	
+	{"value": "Attack/Ranged/Spread", "replace": 1.5,   "affects": "Warship Heavy"},
+	{"value": "Attack/Ranged/Spread", "replace": 1.00}	
+	],
+	"affects": ["Structure","Soldier Ranged","Ship Bow"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

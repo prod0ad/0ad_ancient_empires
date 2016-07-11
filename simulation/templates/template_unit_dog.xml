@@ -2,7 +2,7 @@
 <Entity parent="template_unit">
   <Armour>
     <Hack>0</Hack>
-    <Pierce>0</Pierce>
+    <Pierce>2</Pierce>
     <Crush>0</Crush>
   </Armour>
   <Attack>
@@ -39,8 +39,8 @@
       <metal>0</metal>
     </Resources>
   </Cost>
-  <Footprint>
-    <Circle radius="3.0"/>
+  <Footprint replace="">
+    <Square width="2" depth="3"/>
     <Height>3.0</Height>
   </Footprint>
   <Health>
@@ -50,7 +50,7 @@
     <Classes datatype="tokens">Organic</Classes>
     <VisibleClasses datatype="tokens">Dog</VisibleClasses>
     <GenericName>Dog</GenericName>
-    <Tooltip>Cannot attack structures.</Tooltip>
+    <Tooltip>Scout unit.</Tooltip>
   </Identity>
   <Loot>
     <xp>0</xp>
@@ -62,15 +62,6 @@
   <Promotion>
     <RequiredXp>9999</RequiredXp>
   </Promotion>
-  <ResourceGatherer disable=""/>
-  <Selectable>
-    <Overlay>
-      <Texture>
-        <MainTexture>arrow/256x256.png</MainTexture>
-        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <select>voice/global/civ_dog_bark.xml</select>
@@ -92,14 +83,9 @@
     <Category>WarDog</Category>
   </TrainingRestrictions>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>10.0</Speed>
-      <Range>600.0</Range>
-      <RangeMin>5.0</RangeMin>
-    </Run>
+    <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>35</Range>
+    <Range>40</Range>
   </Vision>
 </Entity>

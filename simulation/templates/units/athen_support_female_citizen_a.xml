@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/athen_support_female_citizen">
+  <Identity>
+    <Civ>athen</Civ>
+    <SpecificName>Villager</SpecificName>
+    <GenericName>Villager</GenericName>
+    <Icon>units/ae_hele_villager.png</Icon>	
+    <Classes datatype="tokens">CitizenSoldier</Classes>	
+    <VisibleClasses datatype="tokens">Infantry Soldier Levy Basic Melee</VisibleClasses>		 	
+  </Identity>
+  <Promotion disable=""/> 
+  <VisualActor>
+    <Actor>units/athenians/female_citizen_a.xml</Actor>
+  </VisualActor>
+</Entity>

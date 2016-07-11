@@ -1,0 +1,16 @@
+{
+	"pair": "pair_hoplite",
+	"genericName": "Bronze Cuirass",
+	"description": ".",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 300},
+	"requirements": { "class": "Blacksmith", "number": 1 },
+	"requirementsTooltip": "Requires Blacksmith.",
+	"icon": "armor_cuirass_bronze.png",
+	"researchTime": 40,
+	"tooltip": "Hoplites +20% hit points.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.20}
+	],
+	"affects": ["Infantry Spear Levy"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

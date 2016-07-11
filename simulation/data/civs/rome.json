@@ -39,7 +39,7 @@
 					"Armament": "",
 					"Emblem": "",
 					"History": "",
-					"Description":"Unique Unit, heavy cavalry."
+					"Description":"Melee cavalry. Good against unique units."
 				},
 				{
 					"Name": "- Triarius",
@@ -75,7 +75,7 @@
 			"Description": "+1 pierce armor."
 		},			
 		{
-			"Name": "- Structures, Ships, Siege Weapons",
+			"Name": "- Structures, Warships, Siege Weapons",
 			"History": "",
 			"Description": "-10% cost in City Phase, -20% in Imperial Phase."
 		}					
@@ -100,7 +100,7 @@
 			"Class":"",
 			"Emblem":"",
 			"History":"",
-			"Description": "Trains Auxiliary units. Has no territory restrictions. Replaces the Stables.",			
+			"Description": "Heals garrisoned units at an increased rate. Has no territory restrictions. Replaces the Stables.",			
 			"Requirements":"",
 			"Phase":"",
 			"Special":""

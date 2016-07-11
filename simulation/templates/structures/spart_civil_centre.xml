@@ -6,11 +6,6 @@
   <Identity>
     <Civ>spart</Civ>
   </Identity>
-  <ProductionQueue> 
-    <Technologies datatype="tokens">
-      civic_vision_structure	
-    </Technologies>
-  </ProductionQueue>    
   <VisualActor>
     <Actor>structures/spartans/civic_centre.xml</Actor>
   </VisualActor>

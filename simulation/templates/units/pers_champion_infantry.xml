@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>15</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>5.0</MaxRange>
@@ -22,7 +22,7 @@
       <food>40</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>20</metal>
+      <metal>25</metal>
     </Resources>
   </Cost>
   <Loot>
@@ -30,16 +30,13 @@
     <food>4</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>2</metal>
+    <metal>3</metal>
   </Loot>  
   <Health>
-    <Max>80</Max>
+    <Max>65</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>10</Speed>
-    </Run>		
+    <WalkSpeed>9</WalkSpeed>	
   </UnitMotion>
   <Vision>
     <Range>30</Range>
@@ -49,7 +46,7 @@
     <SpecificName>Takabara</SpecificName>
 	<GenericName>Unique Unit</GenericName>	
     <Icon>units/ae_pers_takabara.png</Icon>
-	<Tooltip>Unique Unit. Cheap infantry with high attack.</Tooltip>	
+	<Tooltip>Melee infantry. Good in numbers against most units.</Tooltip>	
   </Identity> 
   <VisualActor>
     <Actor>units/persians/champion_unit_4.xml</Actor>

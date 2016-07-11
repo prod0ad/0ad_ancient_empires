@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Archipelago",
+		"Script" : "ae_archipelago.js",
+		"Description" : "An unpredictable group of islands that may come in various sizes and numbers.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : -5,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

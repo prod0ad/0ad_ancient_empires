@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
+  <Auras>
+    <Aura1>
+      <Type>range</Type>
+      <Radius>30</Radius>
+      <Affects>Worker</Affects>
+      <Modifications>
+        <Builder.Rate> <Multiply>1.20</Multiply> </Builder.Rate>
+      </Modifications>
+      <AuraName>Construction Aura</AuraName>
+      <AuraDescription>Nearby Villagers build 20% faster.</AuraDescription>
+      <OverlayIcon>art/textures/ui/session/auras/build_bonus.png</OverlayIcon>	 	  
+    </Aura1>
+  </Auras>
+  <Builder>
+    <Rate>2.0</Rate>
+    <Entities datatype="tokens"/>
+  </Builder>
   <Identity>
     <Civ>ptol</Civ>
     <SelectionGroupName>units/ptol_support_healer_b</SelectionGroupName>
-	<GenericName>Egyptian Priest</GenericName>
-    <SpecificName>Hiereús Aigyptikos</SpecificName>
+	<GenericName>Healer</GenericName>
+    <SpecificName>Priest</SpecificName>
+    <Tooltip>Support unit. Heals friendly units. Can assist in construction.</Tooltip>	
     <History>?</History>
-    <Icon>units/hele_support_healer.png</Icon>
+    <Icon>units/ae_ptol_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/ptol_support_healer_a</Entity>

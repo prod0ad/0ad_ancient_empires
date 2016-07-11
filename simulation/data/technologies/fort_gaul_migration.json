@@ -1,6 +1,6 @@
 {
 	"genericName": "Great Migration",
-	"cost": {"food": 200, "wood": 400, "stone": 0, "metal": 0},
+	"cost": {"food": 300, "wood": 300, "stone": 0, "metal": 0},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "handcart_empty.png",

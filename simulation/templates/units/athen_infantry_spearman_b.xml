@@ -3,7 +3,7 @@
   <Identity>
     <Civ>athen</Civ>
 	<SelectionGroupName>units/athen_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
+    <GenericName>Heavy Spearman</GenericName>
 	<SpecificName>Hoplite</SpecificName>	
     <Icon>units/ae_athen_hoplite.png</Icon>
   </Identity>

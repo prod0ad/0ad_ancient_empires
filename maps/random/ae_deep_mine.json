@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Deep Mine",
+		"Script" : "ae_deep_mine.js",
+		"Description" : "An old excavation site and the only place rich in metal awaits in the middle of this land.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : 12,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

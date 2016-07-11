@@ -14,21 +14,21 @@ m.Config = function(difficulty)
 	this.popScaling = 1;  // scale factor depending on the max population
 
 	this.Military = {
-		"towerLapseTime" : 100, // Time to wait between building 2 towers
-		"fortressLapseTime" : 300, // Time to wait between building 2 fortresses
+		"towerLapseTime" : 300, // Time to wait between building 2 towers
+		"fortressLapseTime" : 600, // Time to wait between building 2 fortresses
 		"popForBarracks1" : 20,
 		"popForBarracks2" : 80,
-		"popForBlacksmith" : 80
+		"popForBlacksmith" : 100
 	};
 	this.Economy = {
 		"popForTown" : 45,	// How many units we want before aging to town.
 		"workForCity" : 60,   // How many workers we want before aging to city.
 		"cityPhase" : 600,	// time to start trying to reach city phase
-		"popForMarket" : 60,
+		"popForMarket" : 100,
 		"popForDock" : 25,
 		"targetNumWorkers" : 60, // dummy, will be changed later
-		"targetNumTraders" : 8, // Target number of traders
-		"targetNumFishers" : 2, // Target number of fishers per sea
+		"targetNumTraders" : 10, // Target number of traders
+		"targetNumFishers" : 3, // Target number of fishers per sea
 		"femaleRatio" : 1, // fraction of females among the workforce
 		"provisionFields" : 2
 	};
@@ -39,7 +39,7 @@ m.Config = function(difficulty)
 	// defense
 	this.Defense =
 	{
-		"defenseRatio" : 1.5,	// ratio of defenders/attackers.
+		"defenseRatio" : 2,	// ratio of defenders/attackers.
 		"armyCompactSize" : 2000,	// squared. Half-diameter of an army.
 		"armyBreakawaySize" : 3500,  // squared.
 		"armyMergeSize" : 1400	// squared.
@@ -49,24 +49,24 @@ m.Config = function(difficulty)
 	this.buildings = 
 	{
 		"base" : {
-			"default" : [ "structures/{civ}_civil_centre", "structures/{civ}_stables" ],
-			"ptol" : [ "structures/{civ}_civil_centre", "structures/{civ}_stables" ],
-			"sele" : [ "structures/{civ}_civil_centre", "structures/{civ}_stables" ]
+			"default" : [ "structures/{civ}_civil_centre" ],
+			"ptol" : [ "structures/{civ}_civil_centre" ],
+			"sele" : [ "structures/{civ}_civil_centre" ]
 		},
 		"advanced" : {
 			"default" : [],
-			"athen" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables", "structures/{civ}_theatron" ],
-			"brit" : [ "structures/{civ}_rotarymill", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
-			"cart" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
-			"gaul" : [ "structures/{civ}_rotarymill", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
-			"iber" : [ "structures/{civ}_monument", "structures/{civ}_siege_workshop", "structures/{civ}_stables" ],
-			"mace" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
-			"maur" : [ "structures/{civ}_elephant_stables", "structures/{civ}_siege_workshop", "structures/{civ}_stables", "structures/{civ}_pillar_ashoka" ],
-			"pers" : [ "structures/{civ}_siege_workshop", "structures/{civ}_stables", "structures/{civ}_apadana" ],
-			"ptol" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
-			"rome" : [ "structures/{civ}_siege_workshop", "structures/{civ}_army_camp", "structures/{civ}_library" ],
-			"sele" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_stables" ],
-			"spart" : [ "structures/{civ}_siege_workshop", "structures/{civ}_stables", "structures/{civ}_gerousia" ]
+			"athen" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_corral", "structures/{civ}_theatron" ],
+			"brit" : [ "structures/{civ}_rotarymill", "structures/{civ}_siege_workshop", "structures/{civ}_corral" ],
+			"cart" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_corral" ],
+			"gaul" : [ "structures/{civ}_rotarymill", "structures/{civ}_siege_workshop", "structures/{civ}_corral" ],
+			"iber" : [ "structures/{civ}_monument", "structures/{civ}_siege_workshop", "structures/{civ}_corral" ],
+			"mace" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_corral" ],
+			"maur" : [ "structures/{civ}_elephant_stables", "structures/{civ}_siege_workshop", "structures/{civ}_corral", "structures/{civ}_pillar_ashoka" ],
+			"pers" : [ "structures/{civ}_siege_workshop", "structures/{civ}_corral", "structures/{civ}_apadana", "structures/{civ}_stables" ],
+			"ptol" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_corral" ],
+			"rome" : [ "structures/{civ}_siege_workshop", "structures/{civ}_army_camp", "structures/{civ}_library", "structures/{civ}_corral" ],
+			"sele" : [ "structures/{civ}_siege_workshop", "structures/{civ}_library", "structures/{civ}_corral" ],
+			"spart" : [ "structures/{civ}_siege_workshop", "structures/{civ}_corral", "structures/{civ}_gerousia" ]
 		},
 		"naval" : {
 			"default" : [],
@@ -77,19 +77,19 @@ m.Config = function(difficulty)
 
 	this.priorities = 
 	{
-		"villager" : 30,      // should be slightly lower than the citizen soldier one to not get all the food
-		"citizenSoldier" : 60,
+		"villager" : 35,      // should be slightly lower than the citizen soldier one to not get all the food
+		"citizenSoldier" : 30,
 		"trader" : 50,
 		"ships" : 70,
 		"house" : 350,
 		"dropsites" : 90,
-		"field" : 50,
+		"field" : 200,
 		"dock" : 90,
 		"economicBuilding" : 90,
-		"militaryBuilding" : 200,
-		"defenseBuilding" : 60,
+		"militaryBuilding" : 130,
+		"defenseBuilding" : 70,
 		"civilCentre" : 950,
-		"majorTech" : 700,
+		"majorTech" : 400,
 		"minorTech" : 20,
 		"emergency" : 1000    // used only in emergency situations, should be the highest one 
 	};

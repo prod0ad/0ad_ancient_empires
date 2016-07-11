@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Anabasis",
+		"Script" : "ae_anabasis.js",
+		"Description" : "A densely forested hill in the middle of the map provides almost all the wood, while the surrounding plains are rich in minerals and hunt.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : 5,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

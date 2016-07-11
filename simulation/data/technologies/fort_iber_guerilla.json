@@ -1,9 +1,9 @@
 {
 	"genericName": "Guerrilla",
-	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 500},
+	"cost": {"food": 300, "wood": 300, "stone": 0, "metal": 300},
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
-	"icon": "helmet_corinthian_crest.png",
+	"icon": "javelin_thong.png",
 	"researchTime": 60,
 	"tooltip": "Soldiers +10% speed, +25% vision.",	
 	"modifications": [

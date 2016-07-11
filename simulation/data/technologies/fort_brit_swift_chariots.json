@@ -4,7 +4,7 @@
 	"cost": { "food": 0, "wood": 500, "stone": 0, "metal": 400 },
 	"requirements": {"tech": "phase_imperial"},
 	"requirementsTooltip": "Unlocked in Imperial Phase.",
-	"icon": "wheel.png",
+	"icon": "helmet_hero_side.png",
 	"researchTime": 60,
 	"tooltip": "Celtic Chariots +10% speed, -10% attack rate.",
 		"modifications": [

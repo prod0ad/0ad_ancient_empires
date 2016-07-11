@@ -1,0 +1,11 @@
+{
+	"settings" : {
+		"Name" : "AE Mountain Passes",
+		"Script" : "ae_mountain_passes.js",
+		"Description" : "Start on a forested plateau surrounded by barren mountains.",
+		"BaseTerrain" : ["medit_grass_field", "medit_grass_field_a"],
+		"BaseHeight" : 5,
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

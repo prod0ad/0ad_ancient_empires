@@ -17,19 +17,24 @@
 			"Technologies":
 			[
 				{
+					"Name":"- Logades",
+					"History":"",
+					"Description":"Reformed Hoplites have 10% more attack, hit points and vision."
+				},					
+				{
 					"Name":"- Iphicratean Reforms",
 					"History":"",
-					"Description":"Infantry Units +10% speed."
+					"Description":"Infantry units move 10% faster."
 				},				
 				{
-					"Name":"- Imperialism",
+					"Name":"- Delian League",
 					"History":"",
 					"Description":"Civil Centres generate 1 metal every 2 seconds."
 				},
 				{
 					"Name":"- Chorigoi",
 					"History":"",
-					"Description":"Triremes -50% metal cost."
+					"Description":"Triremes cost 50% less metal."
 				}
 			],
 			"Heroes":
@@ -40,7 +45,7 @@
 					"Armament":"",
 					"Emblem":"",
 					"History":"",
-					"Description":"Unique Unit, spear infantry."
+					"Description":"Melee infantry. Good against cavalry units."
 				},
 				{
 					"Name":"- Hoplite",
@@ -56,24 +61,24 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"- Town, City, Imperial Phase",
+			"Name":"- Phase Techs",
 			"History":"",
-			"Description":"-20% cost."
+			"Description":"20% cheaper."
 		},		
 		{
-			"Name":"- Villagers",
+			"Name":"- Metal Mining",
 			"History":"",
-			"Description":"+15% metal mining rate."
+			"Description":"15% faster."
 		},
 		{
 			"Name":"- Special Structures",
 			"History":"",
-			"Description":"-50% cost and build time."
+			"Description":"50% cheaper, build 50% faster."
 		},		
 		{
 			"Name":"- Stone Walls",
 			"History":"",
-			"Description":"-50% build time, buildable in neutral territory."
+			"Description":"build 50% faster, buildable in neutral territory."
 		}				
 	],
 	"TeamBonuses":
@@ -81,7 +86,7 @@
 		{
 			"Name":"- Warships",
 			"History":"",
-			"Description":"-20% build time (currently not shared)."
+			"Description":"build 20% faster (currently not shared)."
 		}
 	],
 	"Structures":
@@ -89,25 +94,25 @@
 		{
 			"Name":"- Academy",
 			"History":"",			
-			"Description": "Researches academic technologies with defence, military and siege benefits."
+			"Description": "Researches advanced technologies with defence, military and siege benefits."
 		}, 	
 		{
 			"Name":"- Theatron",
 			"History":"",			
-			"Description": "Culture Aura: Structures +25% vision and territory influence."
+			"Description": "Culture Aura: Structures have 25% more vision and territory influence."
 		} 		
 	],
 	"StartEntities":
 	[
 		{
-			"Template": "structures/{civ}_civil_centre"
+			"Template": "structures/athen_civil_centre"
 		},
 		{
-			"Template": "units/{civ}_support_female_citizen",
+			"Template": "units/athen_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/{civ}_cavalry_swordsman_b"
+			"Template": "units/athen_cavalry_swordsman_b"
 		}
 	],
 	"Formations":
@@ -144,7 +149,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/{civ}_infantry_javelinist_b",
+		"skirmish/units/default_infantry_ranged_b": "units/athen_infantry_javelinist_b",
 		"skirmish/structures/default_house_10": "structures/{civ}_house"
 	},
 	"SelectableInGameSetup": true

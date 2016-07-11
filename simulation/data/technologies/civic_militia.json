@@ -1,0 +1,14 @@
+{
+	"genericName": "Advanced Spearmen",
+	"cost": {"food": 150, "wood": 0, "stone": 0, "metal": 150},
+	"requirements": {"tech": "phase_town"},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "spearman_a.png",
+	"researchTime": 40,
+	"tooltip": "Spearmen +10% attack, hit points and vision.",
+	"modifications": [
+	    {"value": "Promotion/RequiredXp", "replace": 0}
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

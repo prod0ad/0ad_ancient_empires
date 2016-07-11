@@ -12,10 +12,10 @@
   </Attack> 
   <Identity>
     <Civ>spart</Civ>
+    <VisibleClasses datatype="tokens">AntiMeleeInf1.5</VisibleClasses>			
 	<SelectionGroupName>units/spart_infantry_spearman_b</SelectionGroupName>
-    <GenericName>Spearman</GenericName>
-	<SpecificName>Spartan Hoplite</SpecificName>
-	<Tooltip>Deals x1.5 damage to melee infantry, cavalry, camel and elephant units.</Tooltip>	
+    <GenericName>Heavy Spearman</GenericName>
+	<SpecificName>Hoplite</SpecificName>
     <Icon>units/ae_spart_hoplite.png</Icon>
   </Identity>
   <Promotion>

@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>12</Hack>
+      <Hack>10</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
       <MaxRange>4.0</MaxRange>
@@ -22,9 +22,9 @@
   </Attack>   
   <Cost>
     <Population>2</Population>  
-    <BuildTime>20</BuildTime>
+    <BuildTime>24</BuildTime>
     <Resources>
-      <food>40</food>
+      <food>45</food>
       <wood>0</wood>
 	  <metal>35</metal>
       <stone>0</stone>	  
@@ -32,31 +32,27 @@
   </Cost>
   <Loot>
     <xp>0</xp>
-    <food>4</food>
+    <food>5</food>
     <wood>0</wood>
     <stone>0</stone>
     <metal>4</metal>
   </Loot>  
   <Health>
-    <Max>115</Max>
+    <Max>100</Max>
   </Health>
   <UnitMotion>
-    <WalkSpeed>9</WalkSpeed>
-    <Run>
-      <Speed>9</Speed>
-    </Run>		
+    <WalkSpeed>9</WalkSpeed>	
   </UnitMotion>
   <Vision>
-    <Range>36</Range>
+    <Range>40</Range>
   </Vision> 
   <Identity>
     <Civ>spart</Civ>
+    <VisibleClasses datatype="tokens">AntiRangedInfantry1.5</VisibleClasses>			
 	<GenericName>Unique Unit</GenericName>
     <SpecificName>Skirites</SpecificName>
-    <History>Skiritae were some of the most reliable allied soldiers serving in the Spartan military.  They always had the honor of remaining on the left flank of a Spartan phalanx and (Thucydides 5.67) were deployed to face the any problem which could come to bear the army.  (Xenophon 4.2.1-4)</History>
-	<Tooltip>Agile infantry swordsman. Deals x1.5 damage to ranged units.</Tooltip>		
+	<Tooltip>Melee infantry. Good against ranged infantry.</Tooltip>		
     <Icon>units/ae_spart_skirites.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

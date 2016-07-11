@@ -6,8 +6,11 @@
 	"supersedes": "tower_guard",	
 	"icon": "defense_tower.png",
 	"researchTime": 50,
-	"tooltip": "Defense Towers +20% hit points.",
-	"modifications": [{"value": "Health/Max", "multiply": 1.2}],
+	"tooltip": "Defense Towers +20% hit points and attack.",
+	"modifications": [
+	{"value": "Health/Max", "multiply": 1.2},
+	{"value": "Attack/Ranged/Pierce", "multiply": 1.2}
+	],
 	"affects": ["Defensive Tower"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

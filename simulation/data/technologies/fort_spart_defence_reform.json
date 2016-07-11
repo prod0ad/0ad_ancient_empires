@@ -6,7 +6,7 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "crenelations.png",
 	"researchTime": 180,
-	"tooltip": "Stone Walls unlocked (negates the Spartan starting penalty).",
+	"tooltip": "Unlocks Stone Walls.",
 	"modifications": [
 		{"value": "Player/MaxPopulation", "multiply": 1.2}
 	],

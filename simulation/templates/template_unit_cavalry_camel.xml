@@ -5,14 +5,14 @@
     <Crush>0</Crush>
   </Armour>
   <Health>
-    <Max>140</Max>
+    <Max>135</Max>
   </Health>   
   <Attack>
     <Melee>
-      <Hack>18</Hack>
+      <Hack>12</Hack>
       <Pierce>0</Pierce>
       <Crush>0.0</Crush>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>6.0</MaxRange>
       <RepeatTime>2000</RepeatTime>
       <PreferredClasses datatype="tokens">Siege</PreferredClasses>	
 	  <Bonuses>
@@ -24,34 +24,31 @@
     </Melee>
   </Attack>
   <Cost>
-    <Population>2</Population>  
-    <BuildTime>20</BuildTime>   
+    <Population>3</Population>  
+    <BuildTime>24</BuildTime>   
     <Resources>
       <food>60</food>
       <wood>0</wood>
-	  <metal>40</metal>
+	  <metal>45</metal>
       <stone>0</stone>	  
     </Resources>
   </Cost>  
    <Vision>
-    <Range>36</Range>
+    <Range>35</Range>
   </Vision>   
   <Loot>
     <food>6</food>
     <wood>0</wood>
     <stone>0</stone>
-    <metal>4</metal>
+    <metal>5</metal>
   </Loot>  
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>
-    <Run>
-      <Speed>11.0</Speed>
-    </Run>
   </UnitMotion>  
   <Identity>
-    <VisibleClasses datatype="tokens">Camel Melee Spear -Cavalry</VisibleClasses>
+    <VisibleClasses datatype="tokens">Camel Melee Spear AntiCav2</VisibleClasses>
     <GenericName>Camel</GenericName>
 	<RequiredTechnology>phase_town</RequiredTechnology>		
-    <Tooltip>Camel mounted warrior. Deals x2 damage to cavalry units.</Tooltip>		
+    <Tooltip>Melee camel cavalry. Good against cavalry units.</Tooltip>		
   </Identity>
 </Entity>
