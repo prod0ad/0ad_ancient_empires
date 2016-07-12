@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "TerritoryInfluence/Radius", "multiply": 1.20 },
+		{ "value": "Vision/Range", "multiply": 1.20 }
+	],
+	"auraDescription": "Increase territory influence and structure vision by 20% per Theatron owned.",
+	"stackable": true
+}

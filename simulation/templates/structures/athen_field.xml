@@ -4,7 +4,6 @@
     <Civ>athen</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/plot_field_3D_8x8.xml</Actor>
-    <FoundationActor>structures/plot_field_found.xml</FoundationActor>
+    <Actor>structures/plot_field_medit.xml</Actor>
   </VisualActor>
 </Entity>

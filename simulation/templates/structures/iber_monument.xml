@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>60</Radius>
-      <Affects>Soldier</Affects>
-      <Modifications>
-        <Attack.Melee.Hack> <Multiply>1.1</Multiply> </Attack.Melee.Hack>
-        <Attack.Ranged.Pierce> <Multiply>1.1</Multiply> </Attack.Ranged.Pierce>		
-      </Modifications>
-      <AuraName>Monument Aura</AuraName>
-      <AuraDescription>Nearby Soldiers +10% attack.</AuraDescription>	  
-      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>	  
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">iber_monument</Auras>
   <BuildRestrictions>
     <Territory>own</Territory>  
     <Category>Monument</Category>

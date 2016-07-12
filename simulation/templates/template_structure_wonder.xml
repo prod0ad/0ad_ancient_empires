@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
-  <Auras>
-    <Aura1>
-      <Type>global</Type>
-      <Affects>Structure</Affects>	  
-      <AffectedPlayers>Player</AffectedPlayers>
-      <Modifications>
-        <TerritoryInfluence.Radius> <Multiply>1.15</Multiply> </TerritoryInfluence.Radius>
-      </Modifications>
-      <AuraName>Wonder Prestige</AuraName>
-      <AuraDescription>Territory influence +15%</AuraDescription>
-    </Aura1>
-    <Aura2>
-      <Type>global</Type>
-      <Affects>Player</Affects>	  	  
-      <Modifications>
-		<Player.MaxPopulation> <Multiply>1.15</Multiply> </Player.MaxPopulation>
-      </Modifications>
-      <AuraName>Wonder Attraction</AuraName>
-      <AuraDescription>Maximum population +15%</AuraDescription>
-    </Aura2>	
-  </Auras>
+  <Auras datatype="tokens">wonder_pop_1 wonder_pop_2</Auras>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>80</Radius>
@@ -109,7 +89,4 @@
   <VisualActor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
-  <Wonder>
-    <TimeTillVictory>300</TimeTillVictory>
-  </Wonder>
 </Entity>

@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>120</Radius>
-      <Affects>Worker</Affects>
-      <Modifications>
-        <Builder.Rate> <Multiply>1.10</Multiply> </Builder.Rate>
-        <ResourceGatherer.BaseSpeed> <Multiply>1.10</Multiply> </ResourceGatherer.BaseSpeed>
-      </Modifications>
-      <AuraName>Edict Aura</AuraName>
-      <AuraDescription>Nearby Villagers +10% work rates.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/buildgather_bonus.png</OverlayIcon>	 	  
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">maur_pillar</Auras>
    <BuildRestrictions>
     <Territory>own</Territory>     
     <Category>Pillar</Category>
@@ -48,7 +35,11 @@
     <Icon>structures/monument.png</Icon>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <History>.</History>
-    <Classes datatype="tokens">Pillar</Classes>	
+    <VisibleClasses datatype="tokens">
+	  City
+	  Town
+	  Pillar
+	</VisibleClasses>	
   </Identity>
   <Obstruction>
     <Static width="4" depth="4"/>

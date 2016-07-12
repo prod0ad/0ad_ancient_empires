@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">	  	   
       structures/{civ}_library	 
+      structures/{civ}_stables	  
       structures/{civ}_wonder	 	  
     </Entities>
   </Builder>

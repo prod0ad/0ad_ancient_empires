@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_elephant">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>20</Radius>
-      <Affects>Soldier</Affects>
-	  <AffectedPlayers>Enemy</AffectedPlayers>
-      <Modifications>	
-	    <Attack.Melee.Hack> <Multiply>0.8</Multiply> </Attack.Melee.Hack>
-        <Attack.Ranged.Pierce> <Multiply>0.8</Multiply> </Attack.Ranged.Pierce>		
-        <Attack.Ranged.Crush> <Multiply>0.8</Multiply> </Attack.Ranged.Crush>		
-      </Modifications>
-      <AuraName>Elephant Aura (20%)</AuraName>
-      <AuraDescription>Enemy units in range -20% attack (does not stack).</AuraDescription>
-    </Aura1>
-  </Auras>
   <Armour>
     <Hack>3</Hack>
     <Pierce>3</Pierce>

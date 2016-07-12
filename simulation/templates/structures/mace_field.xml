@@ -3,4 +3,7 @@
   <Identity>
     <Civ>mace</Civ>
   </Identity>
+  <VisualActor>
+    <Actor>structures/plot_field_medit.xml</Actor>
+  </VisualActor>  
 </Entity>

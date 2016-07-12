@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <Auras>
-    <Aura1>
-      <Type>global</Type>
-      <Affects>Worker</Affects>
-      <AffectedPlayers>Player</AffectedPlayers>
-      <Modifications>
-        <ResourceGatherer.Rates.food..grain> <Multiply>1.20</Multiply> </ResourceGatherer.Rates.food..grain>
-      </Modifications>
-      <AuraName>Farming bonus</AuraName>
-      <AuraDescription>Villagers +20% farming rate.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/farming.png</OverlayIcon>	  	  
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">rotary_mill</Auras>
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>

@@ -4,7 +4,7 @@
     <Category>Wall</Category>	
   </BuildRestrictions>
   <Cost>
-    <BuildTime>0</BuildTime>
+    <BuildTime>5</BuildTime>
     <Resources>
       <wood>0</wood>
       <metal>0</metal>

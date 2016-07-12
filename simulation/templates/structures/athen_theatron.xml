@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <Auras>
-    <Aura1>
-      <Type>global</Type>
-      <Affects>Structure</Affects>
-      <AffectedPlayers>Player</AffectedPlayers>	  
-      <Modifications>
-        <TerritoryInfluence.Radius> <Multiply>1.25</Multiply> </TerritoryInfluence.Radius>
-        <Vision.Range> <Multiply>1.25</Multiply> </Vision.Range>		
-      </Modifications>
-      <AuraName>Culture Bonus</AuraName>
-      <AuraDescription>Structures +25% vision and territory influence.</AuraDescription>	  
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">theatron</Auras>
   <BuildRestrictions>
     <Category>Theater</Category>
     <Territory>own</Territory>		
@@ -26,7 +14,7 @@
 	<GenericName>Greek Theater</GenericName>
     <SpecificName>Théātron</SpecificName>
     <Classes datatype="tokens">Theater</Classes>
-    <Tooltip>Structures +25% vision and territory influence.</Tooltip>
+    <Tooltip>Structures +20% vision and territory influence.</Tooltip>
     <Icon>structures/theatron.png</Icon>
   </Identity>
   <Obstruction>

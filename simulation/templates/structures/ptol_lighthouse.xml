@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special">
-  <Auras>
-    <Aura1>
-      <Type>global</Type>
-      <Affects>Ship</Affects>
-      <AffectedPlayers>Player Ally</AffectedPlayers>	  
-      <Modifications>
-        <Vision.Range><Multiply>1.50</Multiply></Vision.Range>
-      </Modifications>
-      <AuraName>Lighthouse Vision</AuraName>
-      <AuraDescription>Friendly Ships +50% vision.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>
-    </Aura1>
-  </Auras>
   <BuildRestrictions>
     <Territory>own ally neutral</Territory>
     <PlacementType>shore</PlacementType>
@@ -29,7 +16,7 @@
     <Civ>ptol</Civ>
     <GenericName>Lighthouse</GenericName>
     <SpecificName>Pharos</SpecificName>
-    <VisibleClasses datatype="tokens">Lighthouse</VisibleClasses>
+    <VisibleClasses datatype="tokens">Lighthouse Town</VisibleClasses>
     <Tooltip>Has large vision and increases the vision of friendly ships by 50%.</Tooltip>
     <Icon>structures/lighthouse.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

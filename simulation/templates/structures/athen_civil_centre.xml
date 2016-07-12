@@ -21,6 +21,6 @@
 	<Interval>2000</Interval>
   </ResourceTrickle>
   <VisualActor>
-    <Actor>structures/athenians/civic_centre_new.xml</Actor>
+    <Actor>structures/athenians/civil_centre.xml</Actor>
   </VisualActor>
 </Entity>

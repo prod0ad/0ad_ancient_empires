@@ -6,9 +6,9 @@
 	"supersedes": "phase_town",
 	"researchTime": 120,	
 	"icon": "city_phase.png",
-	"tooltip": "Advance to City Phase, which unlocks more structures and units. Structures +10% territory influence.",
+	"tooltip": "Advance to City Phase, which unlocks more structures and units. Town Centers +25% territory influence.",
 	"modifications": [
-		{"value": "TerritoryInfluence/Radius", "multiply": 1.1, "affects": "Structure"}
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivilCentre"}
 	],		
 	"soundComplete": "interface/alarm/alarm_phase.xml"
 }

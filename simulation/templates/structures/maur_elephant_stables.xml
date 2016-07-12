@@ -24,6 +24,9 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/elephant_stables.png</Icon>
     <Tooltip>Trains elephant units.</Tooltip>
+    <VisibleClasses datatype="tokens">
+	  Town
+	</VisibleClasses>	
   </Identity>
   <Obstruction>
     <Static width="30.0" depth="29.0"/>

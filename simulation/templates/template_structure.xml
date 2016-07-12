@@ -47,6 +47,8 @@
   <Health>
     <DeathType>corpse</DeathType>
     <RegenRate>0</RegenRate>
+    <IdleRegenRate>0</IdleRegenRate>
+    <Undeletable>false</Undeletable>
     <Unhealable>true</Unhealable>
   </Health>
   <Repairable>
@@ -69,6 +71,16 @@
     <DisableBlockPathfinding>false</DisableBlockPathfinding>
   </Obstruction>
   <OverlayRenderer/>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>  
+	<TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+  </ProductionQueue>  
   <RallyPoint/>
   <RallyPointRenderer>
     <MarkerTemplate>special/rallypoint</MarkerTemplate>
@@ -81,6 +93,10 @@
     <LineEndCap>round</LineEndCap>
     <LinePassabilityClass>default</LinePassabilityClass>
   </RallyPointRenderer>
+  <ResourceDropsite>
+    <Types></Types>  
+    <Sharable>false</Sharable>
+  </ResourceDropsite>  
   <Selectable>
     <Overlay>
       <Outline>

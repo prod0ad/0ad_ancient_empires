@@ -31,6 +31,7 @@
     </Entities>
     <Technologies datatype="tokens">
 	  pair_hoplite
+      barracks_speed_train		  
     </Technologies>
   </ProductionQueue>
   <VisualActor>

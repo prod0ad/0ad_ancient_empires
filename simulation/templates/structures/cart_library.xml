@@ -25,7 +25,6 @@
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Technologies datatype="tokens">
       academy_health_regen_units		  
-	  academy_architecture_01	  
       academy_siege_range
       academy_accuracy	    
     </Technologies>

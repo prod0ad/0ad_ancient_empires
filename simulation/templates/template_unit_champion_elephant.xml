@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>20</Radius>
-      <Affects>Unit</Affects>
-	  <AffectedPlayers>Enemy</AffectedPlayers>
-      <Modifications>	
-        <Attack.Melee.RepeatTime> <Multiply>1.2</Multiply> </Attack.Melee.RepeatTime>
-        <Attack.Ranged.RepeatTime> <Multiply>1.2</Multiply> </Attack.Ranged.RepeatTime>	
-      </Modifications>
-      <AuraName>Fear Aura (20%)</AuraName>
-      <AuraDescription>Affected enemy units attack 20% slower.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/attack_bonus.png</OverlayIcon>	  
-    </Aura1>
-  </Auras>
+  <Auras datatype="tokens">terror</Auras>
   <Attack>
     <Melee>
       <Hack>0</Hack>

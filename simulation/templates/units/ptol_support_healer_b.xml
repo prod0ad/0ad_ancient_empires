@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_healer">
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>30</Radius>
-      <Affects>Worker</Affects>
-      <Modifications>
-        <Builder.Rate> <Multiply>1.20</Multiply> </Builder.Rate>
-      </Modifications>
-      <AuraName>Construction Aura</AuraName>
-      <AuraDescription>Nearby Villagers build 20% faster.</AuraDescription>
-      <OverlayIcon>art/textures/ui/session/auras/build_bonus.png</OverlayIcon>	 	  
-    </Aura1>
-  </Auras>
   <Builder>
     <Rate>2.0</Rate>
     <Entities datatype="tokens"/>

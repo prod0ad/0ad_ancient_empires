@@ -60,15 +60,7 @@
 	  units/{civ}_cavalry_camel_b	  
       units/{civ}_champion_elephant
     </Entities>
-    <Technologies datatype="tokens">
-	  upgrades/cavalry_scout_a
-	  upgrades/cavalry_scout_e		
-	  upgrades/cavalry_skirmisher_a
-	  upgrades/cavalry_skirmisher_e				
-	  upgrades/cavalry_heavy_a		  
-	  upgrades/cavalry_heavy_e	
-	  upgrades/cavalry_camel_a		  
-	  upgrades/cavalry_camel_e		  	
+    <Technologies datatype="tokens">	  	
       stables_armored_elephant	  
       stables_speed_train
       stables_speed_cavalry_01

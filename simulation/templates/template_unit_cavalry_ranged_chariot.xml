@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged">
   <ResourceGatherer disable=""/>
-  <Auras>
-    <Aura1>
-      <Type>range</Type>
-      <Radius>15</Radius>
-      <Affects>Infantry</Affects>
-	  <AffectedPlayers>Enemy</AffectedPlayers>
-      <Modifications>	
-	    <Attack.Melee.Hack> <Multiply>0.9</Multiply> </Attack.Melee.Hack>
-        <Attack.Ranged.Pierce> <Multiply>0.9</Multiply> </Attack.Ranged.Pierce>		
-        <Attack.Ranged.Crush> <Multiply>0.9</Multiply> </Attack.Ranged.Crush>		
-      </Modifications>
-      <AuraName>Chariot Aura (10%)</AuraName>
-      <AuraDescription>Enemy infantry units in range -10% attack (does not stack).</AuraDescription>
-    </Aura1>
-  </Auras>  
+  <Auras datatype="tokens">fear</Auras>
   <Armour>
     <Hack>2</Hack>
     <Pierce>0</Pierce>

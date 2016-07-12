@@ -13,16 +13,14 @@
 	  units/{civ}_infantry_archer_b	  
       units/{civ}_infantry_swordsman_b 
       units/{civ}_infantry_slinger_b
-	  units/{civ}_champion_infantry_barracks	  
+	  units/{civ}_champion_infantry_barracks	
+	  units/{civ}_cavalry_swordsman_b		
+	  units/{civ}_cavalry_javelinist_b		  
     </Entities>
-	<Technologies datatype="tokens">
-	  upgrades/spearman_a	
-	  upgrades/skirmisher_a
-	  upgrades/archer_a    
-	  upgrades/swordsman_a
-	  upgrades/swordsman_e	  	  
-	  upgrades/slinger_a		
+	<Technologies datatype="tokens">	
       barracks_speed_train	
+      stables_speed_train
+      stables_speed_cavalry_01	  
     </Technologies>
   </ProductionQueue>
   <Footprint>
@@ -33,7 +31,7 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>  
   <VisualActor>
-    <Actor>structures/britons/barracks.xml</Actor>
+    <Actor>structures/celts/barracks.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

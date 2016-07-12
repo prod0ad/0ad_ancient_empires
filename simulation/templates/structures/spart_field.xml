@@ -3,4 +3,7 @@
   <Identity>
     <Civ>spart</Civ>
   </Identity>
+  <VisualActor>
+    <Actor>structures/plot_field_medit.xml</Actor>
+  </VisualActor>  
 </Entity>
